@@ -9,14 +9,9 @@ try {
     Start-Transcript -LiteralPath $logPath -Force | Out-Null
     $transcribing = $true
 
-    # Explorer can have an older PATH than an editor or a newly opened terminal.
-    $pythonExe = Join-Path ([Environment]::GetFolderPath('LocalApplicationData')) 'Programs\Python\Python310\python.exe'
+    $pythonExe = Join-Path $ragRoot '.venv\Scripts\python.exe'
     if (-not (Test-Path -LiteralPath $pythonExe)) {
-        $pythonCommand = Get-Command python.exe -ErrorAction SilentlyContinue
-        if (-not $pythonCommand -or $pythonCommand.Source -like '*\WindowsApps\*') {
-            throw 'Python was not found. Install Python 3.10 or later.'
-        }
-        $pythonExe = $pythonCommand.Source
+        throw 'RAG environment is missing. Run: powershell -ExecutionPolicy Bypass -File .\scripts\setup-rag.ps1'
     }
     Write-Host "Python: $pythonExe"
     & powershell.exe -NoProfile -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot 'start-local-llm.ps1')

@@ -1,12 +1,68 @@
-"""Build one searchable chunk per page from Paddle Markdown output."""
+"""Split clear feature sections; keep ambiguous Markdown pages together."""
 import hashlib
 import json
 from pathlib import Path
+import re
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 PARSED = ROOT / "outputs/parsing/pp_structurev3"
 DESTINATION = ROOT / "data/rag/corpus.jsonl"
+CORRECTIONS = ROOT / "data/rag/markdown_corrections.json"
+
+
+def apply_corrections(content, page, corrections):
+    """Apply only PDF-verified edits to the exact Markdown version reviewed."""
+    entry = corrections.get(str(page))
+    if entry is None:
+        return content
+    digest = hashlib.sha256(content.encode("utf-8")).hexdigest()
+    if digest != entry["markdown_sha256"]:
+        raise ValueError(f"Page {page} Markdown changed; review markdown_corrections.json first.")
+    for edit in entry["replacements"]:
+        if content.count(edit["before"]) != 1:
+            raise ValueError(f"Page {page} correction must match exactly once.")
+        content = content.replace(edit["before"], edit["after"], 1)
+    return content
+
+
+def split_page(content):
+    """Split explicit feature headings, preserving page context and procedures.
+
+    These are conservative rules for this manual, not semantic/LLM splitting.
+    Tables, broken numbering and empty sections keep the whole page together.
+    """
+    whole = [{"section": "Page", "content": content, "chunk_type": "page"}]
+    if re.search(r"<table\b|^\s*\|", content, re.I | re.M):
+        return whole
+    headings = list(re.finditer(r"^## (?!#)(.+?)\s*$", content, re.M))
+    first = next((i for i, h in enumerate(headings)
+                  if re.match(r"[1-9]\d*[.)]?\s+\S", h[1])), None)
+    if first is None or len(headings[first:]) < 2:
+        return whole
+    headings = headings[first:]
+    # E.g. '3Suggested Questions' is an uncertain OCR boundary.
+    if re.search(r"^(?:##\s+)?\d+[A-Za-z가-힣]", content[headings[0].start():], re.M):
+        return whole
+    numbers = [int(m[1]) for h in headings
+               if (m := re.match(r"(\d+)[.)]?\s+\S", h[1]))]
+    # A continued page can start at item 3 or 5; retain its original numbers.
+    if numbers != list(range(numbers[0], numbers[0] + len(numbers))) or any(h[1].isdigit() for h in headings):
+        return whole
+    common = content[:headings[0].start()].strip()
+    chunks = []
+    for i, heading in enumerate(headings):
+        end = headings[i + 1].start() if i + 1 < len(headings) else len(content)
+        body = content[heading.end():end].strip()
+        if not body:
+            return whole
+        chunks.append({
+            "section": heading[1].strip(),
+            "content": "\n\n".join(part for part in
+                                    (common, content[heading.start():end].strip()) if part),
+            "chunk_type": "section",
+        })
+    return chunks
 
 
 def build():
@@ -19,17 +75,28 @@ def build():
     completed = {item["page"] for item in run.get("results", [])}
     if not pages or run["status"] != "complete" or run["pages"] != pages or completed != set(pages):
         raise ValueError("Complete parsing of every PDF page before building the corpus.")
+    corrections = {}
+    if CORRECTIONS.exists():
+        reviewed = json.loads(CORRECTIONS.read_text(encoding="utf-8"))
+        if reviewed["source_sha256"] != digest:
+            raise ValueError("Correction source PDF changed; review markdown_corrections.json first.")
+        corrections = reviewed["pages"]
     chunks = []
     for page in pages:
         markdown = PARSED / f"page_{page:02d}/page_{page:02d}.md"
         content = markdown.read_text(encoding="utf-8").strip()
         if not content:
             raise ValueError(f"Page {page} has empty Markdown; check the Paddle result.")
-        chunks.append({
-            "id": f"p{page}-markdown", "page": page, "content": content,
-            "origin": "PP-StructureV3 Markdown", "source_markdown": str(markdown),
-            "source_pdf": str(source), "source_sha256": digest,
-        })
+        content = apply_corrections(content, page, corrections)
+        corrected = str(page) in corrections
+        for number, part in enumerate(split_page(content), start=1):
+            chunks.append({
+                "id": f"p{page}-s{number}", "page": page, **part,
+                "origin": "PP-StructureV3 Markdown" + (" + PDF-verified corrections" if corrected else ""),
+                "correction_source": CORRECTIONS.relative_to(ROOT).as_posix() if corrected else None,
+                "source_markdown": markdown.relative_to(ROOT).as_posix(),
+                "source_pdf": source.relative_to(ROOT).as_posix(), "source_sha256": digest,
+            })
     DESTINATION.parent.mkdir(parents=True, exist_ok=True)
     data = "".join(json.dumps(chunk, ensure_ascii=False) + "\n" for chunk in chunks)
     temporary = DESTINATION.with_suffix(".tmp")
