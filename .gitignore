@@ -4,12 +4,6 @@ __pycache__/
 .env
 tmp/
 
-# Local source documents and all derived document content
-/documents/*
-!/documents/README.md
-/data/
-/outputs/
-
 # Local credentials, environments, model weights, and editor settings
 .env.*
 !.env.example

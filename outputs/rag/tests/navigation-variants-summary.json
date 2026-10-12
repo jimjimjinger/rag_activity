@@ -1,0 +1,48 @@
+[
+  {
+    "case": "business-brazil",
+    "expected_pages": [
+      10,
+      11,
+      12
+    ],
+    "context_pages": [
+      5,
+      10,
+      11,
+      12,
+      13,
+      36
+    ],
+    "passed": true
+  },
+  {
+    "case": "business-display",
+    "expected_pages": [
+      10,
+      11,
+      12
+    ],
+    "context_pages": [
+      10,
+      11,
+      12,
+      13,
+      36,
+      38
+    ],
+    "passed": true
+  },
+  {
+    "case": "shared-industries",
+    "expected_pages": [
+      18
+    ],
+    "context_pages": [
+      5,
+      17,
+      18
+    ],
+    "passed": true
+  }
+]

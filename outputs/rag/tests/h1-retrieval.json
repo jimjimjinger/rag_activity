@@ -1,0 +1,92 @@
+{
+  "question": "SEO에서 H1 Tag는 점수가 매겨지나요? M은 무슨 뜻인가요?",
+  "scope_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42
+  ],
+  "retrieval_seconds": 5.03,
+  "hits": [
+    {
+      "id": "p37-table0-row6",
+      "page": 37,
+      "content": "3. Standard and Schedule\n3.1 Standard > SEO Monitoring\nMonitoring Item: H1 Tag\nCheck Description: H1 tag applied to the page title\nCAT/PLP: M\nPDP: M\nInsights: M\nIndustries: M\nSupport: M\nLegend: pt: Maximum points M: Monitoring only (not scored) X: Not monitored Once: One-time check (not scored)",
+      "origin": "PP-StructureV3 table, every cell verified against native PDF",
+      "source_pdf": "C:\\Users\\CNXK\\OneDrive - Concentrix Corporation\\바탕 화면\\과제\\RAG\\documents\\B2B Dashboard Manual_v3.pdf",
+      "source_sha256": "d6bd393c8198addad217c4e9026fc9eb6efc6cb23a741c359767a1d785999805",
+      "bbox": [
+        81.0,
+        275.25,
+        1344.0,
+        600.75
+      ],
+      "parent_content": "3. Standard and Schedule\n3.1 Standard > SEO Monitoring\nDetailed criteria are available in the dashboard.\nMonitoring Items & Applicability\nPage applicability and maximum points for each monitoring item.\npt: Maximum points M: Monitoring only (not scored) X: Not monitored Once: One-time check (not scored)\nComplete table (columns separated by |):\nMonitoring Item | Check Description | CAT/PLP | PDP | Insights | Industries | Support\nUFN | UFN length | X | 10pt | X | X | X\nTitle Length | Page title character count | 20pt | 20pt | 20pt | 20pt | 20pt\nFeature Card Alt Text Length | Feature image alt text character count | 10pt | 10pt | 10pt | 20pt | 20pt\nMeta Description Length | Meta description character count | 20pt | 20pt | 20pt | 20pt | 20pt\nCanonical Link | Canonical tag matches the page URL | 10pt | 10pt | 10pt | 20pt | 20pt\nH1 Tag | H1 tag applied to the page title | M | M | M | M | M",
+      "score": 0.7211505856365575
+    },
+    {
+      "id": "p37-table0-row3",
+      "page": 37,
+      "content": "3. Standard and Schedule\n3.1 Standard > SEO Monitoring\nMonitoring Item: Feature Card Alt Text Length\nCheck Description: Feature image alt text character count\nCAT/PLP: 10pt\nPDP: 10pt\nInsights: 10pt\nIndustries: 20pt\nSupport: 20pt\nLegend: pt: Maximum points M: Monitoring only (not scored) X: Not monitored Once: One-time check (not scored)",
+      "origin": "PP-StructureV3 table, every cell verified against native PDF",
+      "source_pdf": "C:\\Users\\CNXK\\OneDrive - Concentrix Corporation\\바탕 화면\\과제\\RAG\\documents\\B2B Dashboard Manual_v3.pdf",
+      "source_sha256": "d6bd393c8198addad217c4e9026fc9eb6efc6cb23a741c359767a1d785999805",
+      "bbox": [
+        81.0,
+        275.25,
+        1344.0,
+        600.75
+      ],
+      "parent_content": "3. Standard and Schedule\n3.1 Standard > SEO Monitoring\nDetailed criteria are available in the dashboard.\nMonitoring Items & Applicability\nPage applicability and maximum points for each monitoring item.\npt: Maximum points M: Monitoring only (not scored) X: Not monitored Once: One-time check (not scored)\nComplete table (columns separated by |):\nMonitoring Item | Check Description | CAT/PLP | PDP | Insights | Industries | Support\nUFN | UFN length | X | 10pt | X | X | X\nTitle Length | Page title character count | 20pt | 20pt | 20pt | 20pt | 20pt\nFeature Card Alt Text Length | Feature image alt text character count | 10pt | 10pt | 10pt | 20pt | 20pt\nMeta Description Length | Meta description character count | 20pt | 20pt | 20pt | 20pt | 20pt\nCanonical Link | Canonical tag matches the page URL | 10pt | 10pt | 10pt | 20pt | 20pt\nH1 Tag | H1 tag applied to the page title | M | M | M | M | M",
+      "score": 0.5878762403579565
+    },
+    {
+      "id": "p37-guide",
+      "page": 37,
+      "content": "3. Standard and Schedule\n3.1 Standard > SEO Monitoring\nDetailed criteria are available in the dashboard.\nMonitoring Items & Applicability\nPage applicability and maximum points for each monitoring item.\npt: Maximum points M: Monitoring only (not scored) X: Not monitored Once: One-time check (not scored)",
+      "origin": "native PDF text, visually reviewed page",
+      "source_pdf": "C:\\Users\\CNXK\\OneDrive - Concentrix Corporation\\바탕 화면\\과제\\RAG\\documents\\B2B Dashboard Manual_v3.pdf",
+      "source_sha256": "d6bd393c8198addad217c4e9026fc9eb6efc6cb23a741c359767a1d785999805",
+      "score": 0.5882398891101254
+    }
+  ],
+  "total_seconds": 5.05
+}

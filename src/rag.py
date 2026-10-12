@@ -79,7 +79,7 @@ def retrieve(question, top_k=3):
     index = json.loads(INDEX.read_text(encoding="utf-8"))
     if hashlib.sha256(CORPUS.read_bytes()).hexdigest() != index["corpus_sha256"]:
         raise ValueError("Corpus changed; rebuild the index first")
-    source = Path(index["chunks"][0]["source_pdf"])
+    source = ROOT / "documents" / Path(index["chunks"][0]["source_pdf"]).name
     if hashlib.sha256(source.read_bytes()).hexdigest() != index["chunks"][0]["source_sha256"]:
         raise ValueError("Source PDF changed; rebuild the corpus and index")
     model = next(m for m in api("/api/tags")["models"] if m["name"] == EMBED_MODEL)

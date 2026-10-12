@@ -61,7 +61,7 @@ flowchart TD
 
 ## 실행 방법
 
-아래 실행은 PDF 분석과 검색 인덱스 생성이 완료된 환경을 기준으로 합니다. 새로 내려받은 저장소에는 코드와 설명 문서만 있습니다.
+저장소에는 코드·설명 문서와 함께 매뉴얼 PDF, 분석 결과, 코퍼스·인덱스가 포함되어 있습니다. Ollama와 동일한 모델을 준비하면 기존 검색 데이터를 사용할 수 있습니다. 임베딩 모델 버전이 달라졌다면 인덱스를 다시 생성해야 합니다.
 
 1. **`run-rag.cmd`를 더블클릭**합니다.
 2. `질문>`에 질문을 입력합니다.
@@ -101,11 +101,11 @@ RAG/
 
 ### 새 PC에서 처음 준비할 때
 
-원본 PDF, 추출된 Markdown, 코퍼스·인덱스, 실행 로그, 모델과 가상환경은 Git에 포함하지 않습니다. 기존 PC의 로컬 파일은 그대로 유지합니다.
+원본 PDF, 추출된 Markdown·이미지, 코퍼스·인덱스와 기존 검사 결과를 Git에 포함합니다. 모델·가상환경·실행 로그·임시 파일은 제외합니다. 실행 시 PDF는 현재 프로젝트의 `documents/`에서 찾으므로 다른 PC의 체크아웃 경로에서도 사용할 수 있습니다.
 
 1. Windows에 Python 3.10과 Git을 설치하고 이 저장소를 내려받습니다.
 2. [Ollama 공식 Windows 안내](https://docs.ollama.com/windows)의 독립 실행 ZIP을 `%LOCALAPPDATA%\B2B-RAG\ollama`에 압축 해제합니다. 그 안에 `ollama.exe`와 동봉 라이브러리가 있어야 합니다.
-3. 프로젝트 루트의 PowerShell에서 파싱 환경을 준비합니다.
+3. PDF를 새로 분석할 경우 프로젝트 루트의 PowerShell에서 파싱 환경을 준비합니다. 저장된 인덱스로 질문만 할 때는 이 단계를 생략할 수 있습니다.
 
 ```powershell
 $ragRuntimeDir = Join-Path ([Environment]::GetFolderPath('LocalApplicationData')) 'B2B-RAG'
@@ -115,8 +115,8 @@ $ragParserPython = Join-Path $ragRuntimeDir 'paddle-env\Scripts\python.exe'
 ```
 
 4. 아래 관리 명령의 **서버 시작 → 최초 모델 다운로드**를 실행합니다. Paddle 분석 모델은 첫 파싱 시 다운로드되므로 인터넷이 필요합니다.
-5. 사용할 PDF를 `documents/`에 넣습니다. 기본 파일명은 `B2B Dashboard Manual_v3.pdf`이며, 다른 이름은 [PDF 입력 안내](documents/README.md)처럼 `--pdf`로 지정합니다.
-6. **PDF 분석 → 청크·인덱스 갱신**을 실행한 뒤 `run-rag.cmd`를 엽니다.
+5. 포함된 매뉴얼과 인덱스를 사용할 때는 `run-rag.cmd`를 엽니다. 임베딩 모델 변경 오류가 나오면 아래 **청크·인덱스 갱신** 명령을 실행합니다.
+6. 새 PDF는 `documents/`에 넣고 **PDF 분석 → 청크·인덱스 갱신**을 실행합니다. 기본 파일명은 `B2B Dashboard Manual_v3.pdf`이며, 다른 이름은 [PDF 입력 안내](documents/README.md)처럼 `--pdf`로 지정합니다.
 
 ### 저장 위치와 관리 명령
 

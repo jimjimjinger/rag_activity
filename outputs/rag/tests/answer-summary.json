@@ -1,0 +1,77 @@
+[
+  {
+    "case": "item_details",
+    "expected_page": 22,
+    "retrieved_pages": [
+      38,
+      22,
+      38
+    ],
+    "expected_page_in_top3": true,
+    "required_chunk": "p22-guide",
+    "required_chunk_found": true,
+    "top1_matches": false,
+    "total_seconds": 64.55,
+    "reviewed_against_source": true
+  },
+  {
+    "case": "coverage",
+    "expected_page": 36,
+    "retrieved_pages": [
+      36,
+      5,
+      38
+    ],
+    "expected_page_in_top3": true,
+    "required_chunk": null,
+    "required_chunk_found": null,
+    "top1_matches": true,
+    "total_seconds": 62.17,
+    "reviewed_against_source": true
+  },
+  {
+    "case": "product_list",
+    "expected_page": 38,
+    "retrieved_pages": [
+      38,
+      39,
+      38
+    ],
+    "expected_page_in_top3": true,
+    "required_chunk": "p38-table0-row3",
+    "required_chunk_found": true,
+    "top1_matches": true,
+    "total_seconds": 62.95,
+    "reviewed_against_source": true
+  },
+  {
+    "case": "schedule",
+    "expected_page": 40,
+    "retrieved_pages": [
+      40,
+      38,
+      40
+    ],
+    "expected_page_in_top3": true,
+    "required_chunk": null,
+    "required_chunk_found": null,
+    "top1_matches": true,
+    "total_seconds": 64.0,
+    "reviewed_against_source": true
+  },
+  {
+    "case": "unknown",
+    "expected_page": null,
+    "retrieved_pages": [
+      37,
+      37,
+      37
+    ],
+    "expected_page_in_top3": null,
+    "required_chunk": null,
+    "required_chunk_found": null,
+    "top1_matches": null,
+    "total_seconds": 46.77,
+    "reviewed_against_source": true
+  }
+]

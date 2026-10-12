@@ -1,0 +1,110 @@
+{
+  "question": "Product List 항목은 어떤 조건을 확인하고 몇 점인가요?",
+  "scope_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42
+  ],
+  "retrieval_seconds": 3.97,
+  "hits": [
+    {
+      "id": "p38-table0-row3",
+      "page": 38,
+      "content": "3. Standard and Schedule\n3.1 Standard > Product Information Monitoring\nMonitoring Item: Product List\nCheck Description: At least one product on a PLP page\nCAT/PLP: 10pt\nPDP: X\nInsights: X\nIndustries: X\nSupport: X\nLegend: pt: Maximum points M: Monitoring only (not scored) X: Not monitored Once: One-time check (not scored)",
+      "origin": "native PDF vector table, visually reviewed page",
+      "source_pdf": "C:\\Users\\CNXK\\OneDrive - Concentrix Corporation\\바탕 화면\\과제\\RAG\\documents\\B2B Dashboard Manual_v3.pdf",
+      "source_sha256": "d6bd393c8198addad217c4e9026fc9eb6efc6cb23a741c359767a1d785999805",
+      "bbox": [
+        81.0,
+        275.25,
+        1344.0,
+        651.15
+      ],
+      "parent_content": "3. Standard and Schedule\n3.1 Standard > Product Information Monitoring\nDetailed criteria are available in the dashboard.\nMonitoring Items & Applicability\nPage applicability and maximum points for each monitoring item.\npt: Maximum points M: Monitoring only (not scored) X: Not monitored Once: One-time check (not scored)\nComplete table (columns separated by |):\nMonitoring Item | Check Description | CAT/PLP | PDP | Insights | Industries | Support\nGNB Product Category | GNB names, grouping, and linked page existence | Once | X | X | Once | X\nCategory Selector | Category selector matches GNB category names | Once | X | X | X | X\nProduct List | At least one product on a PLP page | 10pt | X | X | X | X\nFront Image Alt Text | Model name included in front image alt text | X | 10pt | X | X | X\nOutdated Contents | Outdated banners or pages against the reference list | Once | Once | X | X | X\nProduct Tag | Product tag number included in the URL | X | M | X | X | X\nSpec Error | Specifications collected from LG.com match Admin data | X | M | X | X | X",
+      "score": 0.6850782000835961
+    },
+    {
+      "id": "p39-table0-row4",
+      "page": 39,
+      "content": "3. Standard and Schedule\n3.1 Standard > UX and Site Quality Monitoring\nMonitoring Item: Product Availability (EOL)\nCheck Description: EOL models in the product list\nCAT/PLP: 10pt\nPDP: X\nInsights: X\nIndustries: X\nSupport: X\nLegend: pt: Maximum points M: Monitoring only (not scored) X: Not monitored Once: One-time check (not scored)",
+      "origin": "PP-StructureV3 table, every cell verified against native PDF",
+      "source_pdf": "C:\\Users\\CNXK\\OneDrive - Concentrix Corporation\\바탕 화면\\과제\\RAG\\documents\\B2B Dashboard Manual_v3.pdf",
+      "source_sha256": "d6bd393c8198addad217c4e9026fc9eb6efc6cb23a741c359767a1d785999805",
+      "bbox": [
+        81.0,
+        275.25,
+        1344.0,
+        693.75
+      ],
+      "parent_content": "3. Standard and Schedule\n3.1 Standard > UX and Site Quality Monitoring\nDetailed criteria are available in the dashboard.\nMonitoring Items & Applicability\nPage applicability and maximum points for each monitoring item.\npt: Maximum points M: Monitoring only (not scored) X: Not monitored Once: One-time check (not scored)\nComplete table (columns separated by |):\nMonitoring Item | Check Description | CAT/PLP | PDP | Insights | Industries | Support\nVideo Error | Video playback availability | M | M | 10pt | 10pt | 10pt\nLink Error | Redirect, page access, and server errors | 10pt | 10pt | 10pt | 10pt | 10pt\nThumbnail / Front Image Error | Thumbnail (CAT/PLP) or front image (PDP) errors | 10pt | 10pt | X | X | X\nProduct Availability (EOL) | EOL models in the product list | 10pt | X | X | X | X\nContent Upload | Recent upload count by country and content type | X | X | 10pt | X | X\nArticle Tag | Number of tags for each Insights article | X | X | 10pt | X | X\nStandard Guideline | Page compliance with standard guidelines | M | M | M | M | M\nRisk Keyword Monitoring | Risk keyword monitoring across pages | M | M | M | M | M",
+      "score": 0.6450166369597454
+    },
+    {
+      "id": "p38-table0-row6",
+      "page": 38,
+      "content": "3. Standard and Schedule\n3.1 Standard > Product Information Monitoring\nMonitoring Item: Product Tag\nCheck Description: Product tag number included in the URL\nCAT/PLP: X\nPDP: M\nInsights: X\nIndustries: X\nSupport: X\nLegend: pt: Maximum points M: Monitoring only (not scored) X: Not monitored Once: One-time check (not scored)",
+      "origin": "native PDF vector table, visually reviewed page",
+      "source_pdf": "C:\\Users\\CNXK\\OneDrive - Concentrix Corporation\\바탕 화면\\과제\\RAG\\documents\\B2B Dashboard Manual_v3.pdf",
+      "source_sha256": "d6bd393c8198addad217c4e9026fc9eb6efc6cb23a741c359767a1d785999805",
+      "bbox": [
+        81.0,
+        275.25,
+        1344.0,
+        651.15
+      ],
+      "parent_content": "3. Standard and Schedule\n3.1 Standard > Product Information Monitoring\nDetailed criteria are available in the dashboard.\nMonitoring Items & Applicability\nPage applicability and maximum points for each monitoring item.\npt: Maximum points M: Monitoring only (not scored) X: Not monitored Once: One-time check (not scored)\nComplete table (columns separated by |):\nMonitoring Item | Check Description | CAT/PLP | PDP | Insights | Industries | Support\nGNB Product Category | GNB names, grouping, and linked page existence | Once | X | X | Once | X\nCategory Selector | Category selector matches GNB category names | Once | X | X | X | X\nProduct List | At least one product on a PLP page | 10pt | X | X | X | X\nFront Image Alt Text | Model name included in front image alt text | X | 10pt | X | X | X\nOutdated Contents | Outdated banners or pages against the reference list | Once | Once | X | X | X\nProduct Tag | Product tag number included in the URL | X | M | X | X | X\nSpec Error | Specifications collected from LG.com match Admin data | X | M | X | X | X",
+      "score": 0.6321382020504392
+    }
+  ],
+  "answer_context": "[p.38] 페이지 설명 및 전체 표:\n3. Standard and Schedule\n3.1 Standard > Product Information Monitoring\nDetailed criteria are available in the dashboard.\nMonitoring Items & Applicability\nPage applicability and maximum points for each monitoring item.\npt: Maximum points M: Monitoring only (not scored) X: Not monitored Once: One-time check (not scored)\nComplete table (columns separated by |):\nMonitoring Item | Check Description | CAT/PLP | PDP | Insights | Industries | Support\nGNB Product Category | GNB names, grouping, and linked page existence | Once | X | X | Once | X\nCategory Selector | Category selector matches GNB category names | Once | X | X | X | X\nProduct List | At least one product on a PLP page | 10pt | X | X | X | X\nFront Image Alt Text | Model name included in front image alt text | X | 10pt | X | X | X\nOutdated Contents | Outdated banners or pages against the reference list | Once | Once | X | X | X\nProduct Tag | Product tag number included in the URL | X | M | X | X | X\nSpec Error | Specifications collected from LG.com match Admin data | X | M | X | X | X\n\n[p.39] 페이지 설명 및 전체 표:\n3. Standard and Schedule\n3.1 Standard > UX and Site Quality Monitoring\nDetailed criteria are available in the dashboard.\nMonitoring Items & Applicability\nPage applicability and maximum points for each monitoring item.\npt: Maximum points M: Monitoring only (not scored) X: Not monitored Once: One-time check (not scored)\nComplete table (columns separated by |):\nMonitoring Item | Check Description | CAT/PLP | PDP | Insights | Industries | Support\nVideo Error | Video playback availability | M | M | 10pt | 10pt | 10pt\nLink Error | Redirect, page access, and server errors | 10pt | 10pt | 10pt | 10pt | 10pt\nThumbnail / Front Image Error | Thumbnail (CAT/PLP) or front image (PDP) errors | 10pt | 10pt | X | X | X\nProduct Availability (EOL) | EOL models in the product list | 10pt | X | X | X | X\nContent Upload | Recent upload count by country and content type | X | X | 10pt | X | X\nArticle Tag | Number of tags for each Insights article | X | X | 10pt | X | X\nStandard Guideline | Page compliance with standard guidelines | M | M | M | M | M\nRisk Keyword Monitoring | Risk keyword monitoring across pages | M | M | M | M | M",
+  "answer": {
+    "model": "qwen3:4b-instruct",
+    "question": "Product List 항목은 어떤 조건을 확인하고 몇 점인가요?",
+    "answer": "Product List 항목은 PLP 페이지에 최소한 하나의 제품이 존재하는 조건을 확인합니다. 이 항목은 최대 10점입니다. [p.38]",
+    "wall_seconds": 58.98,
+    "first_token_seconds": 49.39,
+    "generated_tokens": 43,
+    "tokens_per_second": 4.48,
+    "done_reason": "stop"
+  },
+  "total_seconds": 62.95
+}

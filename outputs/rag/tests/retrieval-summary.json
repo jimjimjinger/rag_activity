@@ -1,0 +1,212 @@
+[
+  {
+    "case": "item_details",
+    "expected_page": 22,
+    "retrieved_pages": [
+      38,
+      22,
+      38
+    ],
+    "expected_page_in_top3": true,
+    "required_chunk": "p22-guide",
+    "required_chunk_found": true,
+    "top1_matches": false,
+    "total_seconds": 5.11
+  },
+  {
+    "case": "dict_delete",
+    "expected_page": 27,
+    "retrieved_pages": [
+      23,
+      24,
+      27
+    ],
+    "expected_page_in_top3": true,
+    "required_chunk": "p27-guide",
+    "required_chunk_found": true,
+    "top1_matches": false,
+    "total_seconds": 5.52
+  },
+  {
+    "case": "approvals",
+    "expected_page": 29,
+    "retrieved_pages": [
+      29,
+      6,
+      42
+    ],
+    "expected_page_in_top3": true,
+    "required_chunk": null,
+    "required_chunk_found": null,
+    "top1_matches": true,
+    "total_seconds": 6.64
+  },
+  {
+    "case": "contact",
+    "expected_page": 42,
+    "retrieved_pages": [
+      42,
+      41,
+      6
+    ],
+    "expected_page_in_top3": true,
+    "required_chunk": null,
+    "required_chunk_found": null,
+    "top1_matches": true,
+    "total_seconds": 6.5
+  },
+  {
+    "case": "coverage",
+    "expected_page": 36,
+    "retrieved_pages": [
+      36,
+      5,
+      38
+    ],
+    "expected_page_in_top3": true,
+    "required_chunk": null,
+    "required_chunk_found": null,
+    "top1_matches": true,
+    "total_seconds": 6.16
+  },
+  {
+    "case": "product_list",
+    "expected_page": 38,
+    "retrieved_pages": [
+      38,
+      39,
+      38
+    ],
+    "expected_page_in_top3": true,
+    "required_chunk": "p38-table0-row3",
+    "required_chunk_found": true,
+    "top1_matches": true,
+    "total_seconds": 7.69
+  },
+  {
+    "case": "uploads",
+    "expected_page": 19,
+    "retrieved_pages": [
+      19,
+      39,
+      40
+    ],
+    "expected_page_in_top3": true,
+    "required_chunk": null,
+    "required_chunk_found": null,
+    "top1_matches": true,
+    "total_seconds": 7.81
+  },
+  {
+    "case": "registration",
+    "expected_page": 6,
+    "retrieved_pages": [
+      6,
+      37,
+      22
+    ],
+    "expected_page_in_top3": true,
+    "required_chunk": null,
+    "required_chunk_found": null,
+    "top1_matches": true,
+    "total_seconds": 4.5
+  },
+  {
+    "case": "schedule",
+    "expected_page": 40,
+    "retrieved_pages": [
+      40,
+      38,
+      40
+    ],
+    "expected_page_in_top3": true,
+    "required_chunk": null,
+    "required_chunk_found": null,
+    "top1_matches": true,
+    "total_seconds": 5.42
+  },
+  {
+    "case": "h1",
+    "expected_page": 37,
+    "retrieved_pages": [
+      37,
+      37,
+      37
+    ],
+    "expected_page_in_top3": true,
+    "required_chunk": "p37-table0-row6",
+    "required_chunk_found": true,
+    "top1_matches": true,
+    "total_seconds": 5.05
+  },
+  {
+    "case": "video",
+    "expected_page": 39,
+    "retrieved_pages": [
+      39,
+      39,
+      13
+    ],
+    "expected_page_in_top3": true,
+    "required_chunk": "p39-table0-row1",
+    "required_chunk_found": true,
+    "top1_matches": true,
+    "total_seconds": 5.12
+  },
+  {
+    "case": "agent",
+    "expected_page": 9,
+    "retrieved_pages": [
+      9,
+      39,
+      40
+    ],
+    "expected_page_in_top3": true,
+    "required_chunk": null,
+    "required_chunk_found": null,
+    "top1_matches": true,
+    "total_seconds": 5.02
+  },
+  {
+    "case": "spec",
+    "expected_page": 20,
+    "retrieved_pages": [
+      38,
+      20,
+      21
+    ],
+    "expected_page_in_top3": true,
+    "required_chunk": null,
+    "required_chunk_found": null,
+    "top1_matches": false,
+    "total_seconds": 4.55
+  },
+  {
+    "case": "item_details_variant",
+    "expected_page": 22,
+    "retrieved_pages": [
+      22,
+      13,
+      37
+    ],
+    "expected_page_in_top3": true,
+    "required_chunk": "p22-guide",
+    "required_chunk_found": true,
+    "top1_matches": true,
+    "total_seconds": 6.06
+  },
+  {
+    "case": "workflow",
+    "expected_page": 40,
+    "retrieved_pages": [
+      40,
+      40,
+      31
+    ],
+    "expected_page_in_top3": true,
+    "required_chunk": "p40-admin-dam-workflow",
+    "required_chunk_found": true,
+    "top1_matches": true,
+    "total_seconds": 4.8
+  }
+]

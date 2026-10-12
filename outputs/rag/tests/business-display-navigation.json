@@ -1,0 +1,138 @@
+{
+  "question": "Australia의 Commercial Display 모니터링 상세 점수를 어디에서 확인하나요?",
+  "scope_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42
+  ],
+  "retrieval_seconds": 3.53,
+  "hits": [
+    {
+      "id": "p10-guide",
+      "page": 10,
+      "content": "2. Dashboard Usage Guide\n2.2 Components by Page > MONITORING RESULTS > Business\nDashboard Screen Feature Guide\nView monitoring scores across business units. Click a business unit card to\n2 view its country results.\n1 Date Comparison\nSelect the Comparison and Current dates to compare scores from the two selected dates.\n2 Business Unit Scores\nCheck the CAT/PLP and PDP scores and their changes. Click a business unit card to view\nits country overview.\n3 Score Filter\nSelect All to show every business unit. Select Bottom 30% to focus on the business units\nwith the lowest scores.",
+      "origin": "native PDF text, visually reviewed page",
+      "source_pdf": "C:\\Users\\CNXK\\OneDrive - Concentrix Corporation\\바탕 화면\\과제\\RAG\\documents\\B2B Dashboard Manual_v3.pdf",
+      "source_sha256": "d6bd393c8198addad217c4e9026fc9eb6efc6cb23a741c359767a1d785999805",
+      "menu_path": [
+        "MONITORING RESULTS",
+        "Business"
+      ],
+      "section_group": "MONITORING RESULTS > Business",
+      "related_chunk_ids": [
+        "p11-guide",
+        "p12-guide",
+        "p13-guide",
+        "p14-guide",
+        "p15-guide",
+        "p16-guide"
+      ],
+      "score": 0.5560296667015622
+    },
+    {
+      "id": "p38-guide",
+      "page": 38,
+      "content": "3. Standard and Schedule\n3.1 Standard > Product Information Monitoring\nDetailed criteria are available in the dashboard.\nMonitoring Items & Applicability\nPage applicability and maximum points for each monitoring item.\npt: Maximum points M: Monitoring only (not scored) X: Not monitored Once: One-time check (not scored)",
+      "origin": "native PDF text, visually reviewed page",
+      "source_pdf": "C:\\Users\\CNXK\\OneDrive - Concentrix Corporation\\바탕 화면\\과제\\RAG\\documents\\B2B Dashboard Manual_v3.pdf",
+      "source_sha256": "d6bd393c8198addad217c4e9026fc9eb6efc6cb23a741c359767a1d785999805",
+      "score": 0.553081085244795
+    },
+    {
+      "id": "p36-table0-row2",
+      "page": 36,
+      "content": "3. Standard and Schedule\n3.1 Standard > Monitoring Categories & Coverage\nBusiness Unit: Commercial Display\nCAT/PLP: ✓\nPDP: ✓",
+      "origin": "native PDF vector table, visually reviewed page",
+      "source_pdf": "C:\\Users\\CNXK\\OneDrive - Concentrix Corporation\\바탕 화면\\과제\\RAG\\documents\\B2B Dashboard Manual_v3.pdf",
+      "source_sha256": "d6bd393c8198addad217c4e9026fc9eb6efc6cb23a741c359767a1d785999805",
+      "bbox": [
+        80.98199999999999,
+        229.79624999999996,
+        610.9889999999998,
+        599.92
+      ],
+      "parent_content": "3. Standard and Schedule\n3.1 Standard > Monitoring Categories & Coverage\nMonitoring Criteria by Page Type Business category\n1 CAT/PLP\nApplied to all 8 Business Units.\n2 PDP\nApplied to Commercial Display, Monitors & PCs, and Commercial Laundry.\nShared category\n1 Shared\n• Industries\n• Insights\n• Support\n* Monitoring coverage varies by business unit and page type.\nDetailed scoring standards are provided on the dashboard.\nComplete table (columns separated by |):\nBusiness Unit | CAT/PLP | PDP\nHVAC | ✓ | -\nCommercial Display | ✓ | ✓\nMobility | ✓ | -\nMonitors & PCs | ✓ | ✓\nCompressor & Motor | ✓ | -\nSmart Factory | ✓ | -\nCommercial Laundry | ✓ | ✓\nAdvanced Materials | ✓ | -",
+      "score": 0.5280642913578087
+    }
+  ],
+  "context_sources": [
+    {
+      "id": "p10-guide",
+      "page": 10,
+      "reason": "retrieved",
+      "linked_from": null,
+      "expanded_table": false
+    },
+    {
+      "id": "p38-guide",
+      "page": 38,
+      "reason": "retrieved",
+      "linked_from": null,
+      "expanded_table": false
+    },
+    {
+      "id": "p11-guide",
+      "page": 11,
+      "reason": "related_menu",
+      "linked_from": "p10-guide",
+      "expanded_table": false
+    },
+    {
+      "id": "p12-guide",
+      "page": 12,
+      "reason": "related_menu",
+      "linked_from": "p10-guide",
+      "expanded_table": false
+    },
+    {
+      "id": "p13-guide",
+      "page": 13,
+      "reason": "related_menu",
+      "linked_from": "p10-guide",
+      "expanded_table": false
+    }
+  ],
+  "answer_context": "[p.10]\n화면 메뉴: MONITORING RESULTS > Business\nDashboard Screen Feature Guide\nView monitoring scores across business units. Click a business unit card to\n2 view its country results.\n1 Date Comparison\nSelect the Comparison and Current dates to compare scores from the two selected dates.\n2 Business Unit Scores\nCheck the CAT/PLP and PDP scores and their changes. Click a business unit card to view\nits country overview.\n3 Score Filter\nSelect All to show every business unit. Select Bottom 30% to focus on the business units\nwith the lowest scores.\n\n[p.38]\n3. Standard and Schedule\n3.1 Standard > Product Information Monitoring\nDetailed criteria are available in the dashboard.\nMonitoring Items & Applicability\nPage applicability and maximum points for each monitoring item.\npt: Maximum points M: Monitoring only (not scored) X: Not monitored Once: One-time check (not scored)\n\n[p.11]\n화면 메뉴: MONITORING RESULTS > Business\nDashboard Screen Feature Guide\nClick a business unit card to view this screen. Compare country scores and\n2 monitored page counts for the selected business unit.\n1 Page Type\nSelect CAT/PLP or PDP to view the results for that page type.\n2 Country Results\nCheck each country's score and change. Click a country card or its name in the table to\nview the detailed results.\n3 Summary Download\nCheck the active page type beside the Summary button. Click Summary to download the\ncountry score summary.\n\n[p.12]\n화면 메뉴: MONITORING RESULTS > Business\nDashboard Screen Feature Guide\nClick a country card to view this screen. Check the selected country's total\nscore and item results. Compare the current and previous scores to identify\nchanges.\n1 Pages to Fix\nClick Pages to Fix to show or hide the pages that need attention.\n\n[p.13]\n화면 메뉴: MONITORING RESULTS > Business\nDashboard Screen Feature Guide\nClick Pages to Fix and scroll down to view this screen. Review pages that need\n3 attention and submit a fix request or a rejection for review.\n1 All Issues/Assigned to me\nSelect All issues to view the full list. Select Assigned to me to show the issues assigned to\nyour account.\n2 Request Fix or Reject\nClick Request Fix to open the Jira ticket form. Click Reject to type a reason and submit\nthe issue for rejection review.\n3 Page Details\nClick the arrow button to show the page's item results and score changes. Click it again to\nhide the details.",
+  "context_characters": 2355,
+  "context_budget_skipped": [],
+  "total_seconds": 3.55
+}
