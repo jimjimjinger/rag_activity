@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+tmp/
+
+# Local source documents and all derived document content
+/documents/*
+!/documents/README.md
+/data/
+/outputs/
+
+# Local credentials, environments, model weights, and editor settings
+.env.*
+!.env.example
+venv/
+models/
+*.gguf
+*.safetensors
+*.log
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
