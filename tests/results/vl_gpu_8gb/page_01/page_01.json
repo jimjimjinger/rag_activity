@@ -1,0 +1,398 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1200,
+    "height": 675,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header_image",
+            "block_content": "",
+            "block_bbox": [
+                842,
+                101,
+                964,
+                206
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    842.0,
+                    101.0
+                ],
+                [
+                    964.0,
+                    101.0
+                ],
+                [
+                    964.0,
+                    206.0
+                ],
+                [
+                    842.0,
+                    206.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "B2B LG.com Monitoring Dashboard",
+            "block_bbox": [
+                81,
+                255,
+                909,
+                309
+            ],
+            "block_id": 1,
+            "block_order": 1,
+            "group_id": 1,
+            "block_polygon_points": [
+                [
+                    81.0001220703125,
+                    255.0
+                ],
+                [
+                    908.0,
+                    255.0
+                ],
+                [
+                    908.0,
+                    305.0
+                ],
+                [
+                    81.0001220703125,
+                    305.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "[User Manual]",
+            "block_bbox": [
+                79,
+                352,
+                348,
+                398
+            ],
+            "block_id": 2,
+            "block_order": 2,
+            "group_id": 2,
+            "block_polygon_points": [
+                [
+                    79.0,
+                    352.0
+                ],
+                [
+                    348.0,
+                    352.0
+                ],
+                [
+                    348.0,
+                    398.0
+                ],
+                [
+                    79.0,
+                    398.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "추후 날짜변경",
+            "block_bbox": [
+                147,
+                433,
+                298,
+                463
+            ],
+            "block_id": 3,
+            "block_order": 3,
+            "group_id": 3,
+            "block_polygon_points": [
+                [
+                    147.0,
+                    433.0
+                ],
+                [
+                    298.0,
+                    433.0
+                ],
+                [
+                    298.0,
+                    463.0
+                ],
+                [
+                    147.0,
+                    463.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "26.09",
+            "block_bbox": [
+                75,
+                512,
+                132,
+                534
+            ],
+            "block_id": 4,
+            "block_order": 4,
+            "group_id": 4,
+            "block_polygon_points": [
+                [
+                    75.0,
+                    512.0
+                ],
+                [
+                    131.0,
+                    512.0
+                ],
+                [
+                    131.0,
+                    533.0
+                ],
+                [
+                    75.0,
+                    533.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer_image",
+            "block_content": "",
+            "block_bbox": [
+                66,
+                635,
+                139,
+                668
+            ],
+            "block_id": 5,
+            "block_order": null,
+            "group_id": 5,
+            "block_polygon_points": [
+                [
+                    66.0,
+                    635.0
+                ],
+                [
+                    139.0,
+                    635.0
+                ],
+                [
+                    139.0,
+                    668.0
+                ],
+                [
+                    66.0,
+                    668.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 13,
+                "label": "header_image",
+                "score": 0.4217633306980133,
+                "coordinate": [
+                    842,
+                    101,
+                    964,
+                    206
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        842.0,
+                        101.0
+                    ],
+                    [
+                        964.0,
+                        101.0
+                    ],
+                    [
+                        964.0,
+                        206.0
+                    ],
+                    [
+                        842.0,
+                        206.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8567478060722351,
+                "coordinate": [
+                    81,
+                    255,
+                    909,
+                    309
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        81.0001220703125,
+                        255.0
+                    ],
+                    [
+                        908.0,
+                        255.0
+                    ],
+                    [
+                        908.0,
+                        305.0
+                    ],
+                    [
+                        81.0001220703125,
+                        305.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.44226208329200745,
+                "coordinate": [
+                    79,
+                    352,
+                    348,
+                    398
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        79.0,
+                        352.0
+                    ],
+                    [
+                        348.0,
+                        352.0
+                    ],
+                    [
+                        348.0,
+                        398.0
+                    ],
+                    [
+                        79.0,
+                        398.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8083119988441467,
+                "coordinate": [
+                    147,
+                    433,
+                    298,
+                    463
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        147.0,
+                        433.0
+                    ],
+                    [
+                        298.0,
+                        433.0
+                    ],
+                    [
+                        298.0,
+                        463.0
+                    ],
+                    [
+                        147.0,
+                        463.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.4280044436454773,
+                "coordinate": [
+                    75,
+                    512,
+                    132,
+                    534
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        75.0,
+                        512.0
+                    ],
+                    [
+                        131.0,
+                        512.0
+                    ],
+                    [
+                        131.0,
+                        533.0
+                    ],
+                    [
+                        75.0,
+                        533.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 9,
+                "label": "footer_image",
+                "score": 0.8369272351264954,
+                "coordinate": [
+                    66,
+                    635,
+                    139,
+                    668
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        66.0,
+                        635.0
+                    ],
+                    [
+                        139.0,
+                        635.0
+                    ],
+                    [
+                        139.0,
+                        668.0
+                    ],
+                    [
+                        66.0,
+                        668.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

@@ -203,9 +203,19 @@ CPU 4스레드, 문맥 4,096토큰, 출력 최대 256토큰, temperature 0.2를 
 
 ## 분석 비교 및 환경
 
+`app.py`는 Streamlit 화면입니다. 기존 `retrieve()`·`build_context()`와 `stream_chat()`을 사용하고, 분석 방식·GPU/CPU·근거 수를 선택할 수 있습니다. 답변 근거 페이지 버튼, 원본 페이지 미리보기, 해시가 연결된 추출 이미지, 인식된 텍스트를 보여줍니다.
+
+PDF 미리보기는 pypdfium2로 CPU에서 메모리에 렌더링합니다. 원본·추출 이미지·추출 텍스트를 구분하며 이미지는 답변 모델에 전달하지 않습니다. 새 페이지 파싱·이미지 임베딩·모델 학습은 실행하지 않습니다.
+
+`llm_client.stream_chat()`은 같은 프롬프트와 Qwen 스트림을 반환하며, 기존 `chat()`은 이를 터미널에 출력합니다. Streamlit은 그 스트림을 화면에 표시합니다. 질문은 이전과 같이 독립 검색합니다.
+
 `tests/`에는 기존 PP-StructureV3와 PaddleOCR-VL의 분석 결과를 따로 저장합니다.
 수동 보정 전 Markdown을 비교하고, 같은 `split_page()` 규칙을 적용한 청킹 결과도 별도로 만듭니다.
-실험 결과는 현재 RAG의 코퍼스·인덱스에 반영하지 않습니다. 실행 방법은 [비교 폴더 안내](../tests/README.md)에 있습니다.
+기존 RAG 코퍼스는 유지하고 새 결과는 별도 프로필로 연결합니다. `rag.py --profile existing|structure|vl`로 선택하며, 생략하면 기존 `existing`을 사용합니다. 실행 방법은 [비교 폴더 안내](../tests/README.md)에 있습니다.
+
+`build_corpus.py --parsed <완료 결과 폴더> --output <별도 코퍼스 경로> --no-corrections`로 새 분석 결과를 연결합니다. 기존 보정은 기본 입력에만 자동 적용합니다. 실험 입력으로 기본 코퍼스를 덮어쓰는 명령은 거절하며, GPU 파싱 결과의 Markdown 해시도 확인합니다.
+
+`rag.py --build --profile vl`은 `data/rag/vl/`에 인덱스를 만듭니다. `structure`도 별도 폴더를 사용합니다. 인덱스 생성은 4개 청크씩 임베딩하며 임시 파일을 완성한 뒤 교체합니다. 기본 `--device gpu`는 임베딩·답변에 GPU 사용을 요청하며, `--device cpu`는 `num_gpu=0`을 사용합니다. FAISS 검색은 CPU입니다.
 
 RAG에는 `requirements-rag-lock.txt`, Paddle에는 `requirements-parser-lock.txt`를 사용합니다.
 설치와 실행 명령은 [프로젝트 README](../README.md)에 있습니다.

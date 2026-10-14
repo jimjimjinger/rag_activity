@@ -4,7 +4,7 @@ $localDataDirectory = [Environment]::GetFolderPath('LocalApplicationData')
 if ([string]::IsNullOrWhiteSpace($localDataDirectory)) {
     throw 'Windows LocalApplicationData directory could not be resolved.'
 }
-$runtimeCandidates = @((Join-Path $localDataDirectory 'B2B-RAG'))
+$runtimeCandidates = @((Join-Path (Split-Path -Parent $PSScriptRoot) '.runtime'), (Join-Path $localDataDirectory 'B2B-RAG'))
 $packagePattern = Join-Path $localDataDirectory 'Packages\OpenAI.Codex_*\LocalCache\Local\B2B-RAG'
 $runtimeCandidates += @(Get-ChildItem -Path $packagePattern -Directory -ErrorAction SilentlyContinue |
     Select-Object -ExpandProperty FullName)

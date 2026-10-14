@@ -1,4 +1,5 @@
 """Split clear feature sections; keep ambiguous Markdown pages together."""
+import argparse
 import hashlib
 from html.parser import HTMLParser
 import json
@@ -102,26 +103,33 @@ def split_page(content):
     return chunks
 
 
-def build():
-    run = json.loads((PARSED / "run_summary.json").read_text(encoding="utf-8"))
+def build(parsed=PARSED, destination=DESTINATION, corrections_path=CORRECTIONS):
+    parsed, destination = Path(parsed).resolve(), Path(destination).resolve()
+    run = json.loads((parsed / "run_summary.json").read_text(encoding="utf-8"))
     source = ROOT / "documents" / Path(run["source_pdf"]).name
     digest = hashlib.sha256(source.read_bytes()).hexdigest()
     if digest != run["source_sha256"]:
         raise ValueError("The PDF changed; rerun parsing first.")
     pages = list(range(1, run["total_pages"] + 1))
     completed = {item["page"] for item in run.get("results", [])}
-    if not pages or run["status"] != "complete" or run["pages"] != pages or completed != set(pages):
+    if not pages or run["status"] != "complete" or run.get("pages", pages) != pages or completed != set(pages):
         raise ValueError("Complete parsing of every PDF page before building the corpus.")
     corrections = {}
-    if CORRECTIONS.exists():
-        reviewed = json.loads(CORRECTIONS.read_text(encoding="utf-8"))
+    if corrections_path is not None and Path(corrections_path).exists():
+        corrections_path = Path(corrections_path).resolve()
+        reviewed = json.loads(corrections_path.read_text(encoding="utf-8"))
         if reviewed["source_sha256"] != digest:
             raise ValueError("Correction source PDF changed; review markdown_corrections.json first.")
         corrections = reviewed["pages"]
     chunks = []
+    records = {item["page"]: item for item in run["results"]}
     for page in pages:
-        markdown = PARSED / f"page_{page:02d}/page_{page:02d}.md"
-        content = markdown.read_text(encoding="utf-8").strip()
+        markdown = parsed / f"page_{page:02d}/page_{page:02d}.md"
+        raw = markdown.read_bytes()
+        expected_hash = records[page].get("markdown_sha256")
+        if expected_hash and hashlib.sha256(raw).hexdigest() != expected_hash:
+            raise ValueError(f"Page {page} Markdown changed after parsing.")
+        content = raw.decode("utf-8").strip()
         if not content:
             raise ValueError(f"Page {page} has empty Markdown; check the Paddle result.")
         content = apply_corrections(content, page, corrections)
@@ -131,20 +139,33 @@ def build():
             chunks.append({
                 "id": f"p{page}-s{number}", "page": page, **part,
                 "images": images,
-                "origin": "PP-StructureV3 Markdown" + (" + PDF-verified corrections" if corrected else ""),
-                "correction_source": CORRECTIONS.relative_to(ROOT).as_posix() if corrected else None,
+                "origin": run["pipeline"] + " Markdown" + (" + PDF-verified corrections" if corrected else ""),
+                "correction_source": corrections_path.relative_to(ROOT).as_posix() if corrected else None,
                 "source_markdown": markdown.relative_to(ROOT).as_posix(),
                 "source_pdf": source.relative_to(ROOT).as_posix(), "source_sha256": digest,
             })
-    DESTINATION.parent.mkdir(parents=True, exist_ok=True)
+    destination.parent.mkdir(parents=True, exist_ok=True)
     data = "".join(json.dumps(chunk, ensure_ascii=False) + "\n" for chunk in chunks)
-    temporary = DESTINATION.with_suffix(".tmp")
+    temporary = destination.with_suffix(".tmp")
     temporary.write_text(data, encoding="utf-8")
-    temporary.replace(DESTINATION)
-    print(f"Saved {len(chunks)} Markdown chunks: {DESTINATION}")
+    temporary.replace(destination)
+    print(f"Saved {len(chunks)} Markdown chunks: {destination}")
     return chunks
 
 
 if __name__ == "__main__":
     sys.stdout.reconfigure(encoding="utf-8")
-    build()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--parsed", type=Path, default=PARSED)
+    parser.add_argument("--output", type=Path, default=DESTINATION)
+    parser.add_argument("--corrections", type=Path)
+    parser.add_argument("--no-corrections", action="store_true")
+    args = parser.parse_args()
+    if args.no_corrections and args.corrections:
+        parser.error("Choose --corrections or --no-corrections")
+    if args.parsed.resolve() != PARSED.resolve() and args.output.resolve() == DESTINATION.resolve():
+        parser.error("Choose a separate --output for experimental parser results")
+    corrections = args.corrections
+    if not args.no_corrections and corrections is None and args.parsed.resolve() == PARSED.resolve():
+        corrections = CORRECTIONS
+    build(args.parsed, args.output, corrections)

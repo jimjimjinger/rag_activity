@@ -1,9 +1,11 @@
 __pycache__/
 *.py[cod]
 .venv/
+.runtime/
 .env
 tmp/
 data/rag/index.pkl
+data/rag/*/index.pkl
 
 # Local credentials, environments, model weights, and editor settings
 .env.*

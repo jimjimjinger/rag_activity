@@ -1,0 +1,477 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1200,
+    "height": 675,
+    "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_seal_recognition": false,
+        "use_table_recognition": true,
+        "use_formula_recognition": false,
+        "use_chart_recognition": false,
+        "use_region_detection": true,
+        "format_block_content": false,
+        "markdown_ignore_labels": [
+            "number",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image"
+        ]
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "doc_title",
+            "block_content": "02\n SECTION \n Dashboard Usage Guide ",
+            "block_bbox": [
+                52,
+                231,
+                625,
+                433
+            ],
+            "block_id": 0,
+            "block_order": 1
+        },
+        {
+            "block_label": "text",
+            "block_content": "2.1 Navigation menu 2.2Components by Page ",
+            "block_bbox": [
+                55,
+                468,
+                229,
+                517
+            ],
+            "block_id": 1,
+            "block_order": 2
+        }
+    ],
+    "doc_preprocessor_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_orientation_classify": false,
+            "use_doc_unwarping": false
+        },
+        "angle": -1
+    },
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.7666859030723572,
+                "coordinate": [
+                    55.641571044921875,
+                    468.8489990234375,
+                    229.18731689453125,
+                    517.0192260742188
+                ]
+            },
+            {
+                "cls_id": 0,
+                "label": "paragraph_title",
+                "score": 0.36766308546066284,
+                "coordinate": [
+                    52.195709228515625,
+                    231.50033569335938,
+                    625.8280029296875,
+                    433.3951110839844
+                ]
+            }
+        ]
+    },
+    "overall_ocr_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_preprocessor": false,
+            "use_textline_orientation": false
+        },
+        "dt_polys": [
+            [
+                [
+                    53,
+                    229
+                ],
+                [
+                    155,
+                    229
+                ],
+                [
+                    155,
+                    304
+                ],
+                [
+                    53,
+                    304
+                ]
+            ],
+            [
+                [
+                    57,
+                    313
+                ],
+                [
+                    144,
+                    313
+                ],
+                [
+                    144,
+                    331
+                ],
+                [
+                    57,
+                    331
+                ]
+            ],
+            [
+                [
+                    52,
+                    364
+                ],
+                [
+                    629,
+                    362
+                ],
+                [
+                    630,
+                    433
+                ],
+                [
+                    52,
+                    435
+                ]
+            ],
+            [
+                [
+                    57,
+                    469
+                ],
+                [
+                    199,
+                    471
+                ],
+                [
+                    199,
+                    488
+                ],
+                [
+                    57,
+                    486
+                ]
+            ],
+            [
+                [
+                    58,
+                    498
+                ],
+                [
+                    86,
+                    498
+                ],
+                [
+                    86,
+                    514
+                ],
+                [
+                    58,
+                    514
+                ]
+            ],
+            [
+                [
+                    80,
+                    499
+                ],
+                [
+                    174,
+                    499
+                ],
+                [
+                    174,
+                    516
+                ],
+                [
+                    80,
+                    516
+                ]
+            ],
+            [
+                [
+                    172,
+                    501
+                ],
+                [
+                    192,
+                    501
+                ],
+                [
+                    192,
+                    515
+                ],
+                [
+                    172,
+                    515
+                ]
+            ],
+            [
+                [
+                    191,
+                    500
+                ],
+                [
+                    228,
+                    500
+                ],
+                [
+                    228,
+                    515
+                ],
+                [
+                    191,
+                    515
+                ]
+            ]
+        ],
+        "text_det_params": {
+            "limit_side_len": 1200,
+            "limit_type": "max",
+            "thresh": 0.3,
+            "max_side_limit": 4000,
+            "box_thresh": 0.6,
+            "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+            "02",
+            "SECTION",
+            "Dashboard Usage Guide",
+            "2.1 Navigation menu",
+            "2.2",
+            "Components",
+            "by",
+            "Page"
+        ],
+        "rec_scores": [
+            0.9991726875305176,
+            0.9667668342590332,
+            0.9926499128341675,
+            0.9752616882324219,
+            0.9357199668884277,
+            0.9976639747619629,
+            0.9992021322250366,
+            0.997647762298584
+        ],
+        "rec_polys": [
+            [
+                [
+                    53,
+                    229
+                ],
+                [
+                    155,
+                    229
+                ],
+                [
+                    155,
+                    304
+                ],
+                [
+                    53,
+                    304
+                ]
+            ],
+            [
+                [
+                    57,
+                    313
+                ],
+                [
+                    144,
+                    313
+                ],
+                [
+                    144,
+                    331
+                ],
+                [
+                    57,
+                    331
+                ]
+            ],
+            [
+                [
+                    52,
+                    364
+                ],
+                [
+                    629,
+                    362
+                ],
+                [
+                    630,
+                    433
+                ],
+                [
+                    52,
+                    435
+                ]
+            ],
+            [
+                [
+                    57,
+                    469
+                ],
+                [
+                    199,
+                    471
+                ],
+                [
+                    199,
+                    488
+                ],
+                [
+                    57,
+                    486
+                ]
+            ],
+            [
+                [
+                    58,
+                    498
+                ],
+                [
+                    86,
+                    498
+                ],
+                [
+                    86,
+                    514
+                ],
+                [
+                    58,
+                    514
+                ]
+            ],
+            [
+                [
+                    80,
+                    499
+                ],
+                [
+                    174,
+                    499
+                ],
+                [
+                    174,
+                    516
+                ],
+                [
+                    80,
+                    516
+                ]
+            ],
+            [
+                [
+                    172,
+                    501
+                ],
+                [
+                    192,
+                    501
+                ],
+                [
+                    192,
+                    515
+                ],
+                [
+                    172,
+                    515
+                ]
+            ],
+            [
+                [
+                    191,
+                    500
+                ],
+                [
+                    228,
+                    500
+                ],
+                [
+                    228,
+                    515
+                ],
+                [
+                    191,
+                    515
+                ]
+            ]
+        ],
+        "rec_boxes": [
+            [
+                53,
+                229,
+                155,
+                304
+            ],
+            [
+                57,
+                313,
+                144,
+                331
+            ],
+            [
+                52,
+                362,
+                630,
+                435
+            ],
+            [
+                57,
+                469,
+                199,
+                488
+            ],
+            [
+                58,
+                498,
+                86,
+                514
+            ],
+            [
+                80,
+                499,
+                174,
+                516
+            ],
+            [
+                172,
+                501,
+                192,
+                515
+            ],
+            [
+                191,
+                500,
+                228,
+                515
+            ]
+        ]
+    }
+}

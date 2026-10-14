@@ -1,0 +1,387 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1200,
+    "height": 675,
+    "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_seal_recognition": false,
+        "use_table_recognition": true,
+        "use_formula_recognition": false,
+        "use_chart_recognition": false,
+        "use_region_detection": true,
+        "format_block_content": false,
+        "markdown_ignore_labels": [
+            "number",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image"
+        ]
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "doc_title",
+            "block_content": "03\n SECTION \n Standard and Schedule ",
+            "block_bbox": [
+                52,
+                231,
+                602,
+                426
+            ],
+            "block_id": 0,
+            "block_order": 1
+        },
+        {
+            "block_label": "text",
+            "block_content": "3.1 Standard 3.2 Schedule 3.3 Contact List ",
+            "block_bbox": [
+                56,
+                468,
+                168,
+                542
+            ],
+            "block_id": 1,
+            "block_order": 2
+        }
+    ],
+    "doc_preprocessor_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_orientation_classify": false,
+            "use_doc_unwarping": false
+        },
+        "angle": -1
+    },
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.7649284601211548,
+                "coordinate": [
+                    56.01611328125,
+                    468.727294921875,
+                    168.84063720703125,
+                    542.4549560546875
+                ]
+            },
+            {
+                "cls_id": 0,
+                "label": "paragraph_title",
+                "score": 0.37996912002563477,
+                "coordinate": [
+                    52.375030517578125,
+                    231.2618408203125,
+                    602.734619140625,
+                    426.667724609375
+                ]
+            }
+        ]
+    },
+    "overall_ocr_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_preprocessor": false,
+            "use_textline_orientation": false
+        },
+        "dt_polys": [
+            [
+                [
+                    54,
+                    229
+                ],
+                [
+                    155,
+                    229
+                ],
+                [
+                    155,
+                    304
+                ],
+                [
+                    54,
+                    304
+                ]
+            ],
+            [
+                [
+                    57,
+                    314
+                ],
+                [
+                    144,
+                    314
+                ],
+                [
+                    144,
+                    331
+                ],
+                [
+                    57,
+                    331
+                ]
+            ],
+            [
+                [
+                    55,
+                    367
+                ],
+                [
+                    603,
+                    367
+                ],
+                [
+                    603,
+                    424
+                ],
+                [
+                    55,
+                    424
+                ]
+            ],
+            [
+                [
+                    59,
+                    471
+                ],
+                [
+                    146,
+                    471
+                ],
+                [
+                    146,
+                    485
+                ],
+                [
+                    59,
+                    485
+                ]
+            ],
+            [
+                [
+                    58,
+                    498
+                ],
+                [
+                    146,
+                    498
+                ],
+                [
+                    146,
+                    515
+                ],
+                [
+                    58,
+                    515
+                ]
+            ],
+            [
+                [
+                    57,
+                    526
+                ],
+                [
+                    169,
+                    526
+                ],
+                [
+                    169,
+                    543
+                ],
+                [
+                    57,
+                    543
+                ]
+            ]
+        ],
+        "text_det_params": {
+            "limit_side_len": 1200,
+            "limit_type": "max",
+            "thresh": 0.3,
+            "max_side_limit": 4000,
+            "box_thresh": 0.6,
+            "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+            "03",
+            "SECTION",
+            "Standard and Schedule",
+            "3.1 Standard",
+            "3.2 Schedule",
+            "3.3 Contact List"
+        ],
+        "rec_scores": [
+            0.999106764793396,
+            0.9581007361412048,
+            0.9843255281448364,
+            0.9868418574333191,
+            0.9957286715507507,
+            0.9927189946174622
+        ],
+        "rec_polys": [
+            [
+                [
+                    54,
+                    229
+                ],
+                [
+                    155,
+                    229
+                ],
+                [
+                    155,
+                    304
+                ],
+                [
+                    54,
+                    304
+                ]
+            ],
+            [
+                [
+                    57,
+                    314
+                ],
+                [
+                    144,
+                    314
+                ],
+                [
+                    144,
+                    331
+                ],
+                [
+                    57,
+                    331
+                ]
+            ],
+            [
+                [
+                    55,
+                    367
+                ],
+                [
+                    603,
+                    367
+                ],
+                [
+                    603,
+                    424
+                ],
+                [
+                    55,
+                    424
+                ]
+            ],
+            [
+                [
+                    59,
+                    471
+                ],
+                [
+                    146,
+                    471
+                ],
+                [
+                    146,
+                    485
+                ],
+                [
+                    59,
+                    485
+                ]
+            ],
+            [
+                [
+                    58,
+                    498
+                ],
+                [
+                    146,
+                    498
+                ],
+                [
+                    146,
+                    515
+                ],
+                [
+                    58,
+                    515
+                ]
+            ],
+            [
+                [
+                    57,
+                    526
+                ],
+                [
+                    169,
+                    526
+                ],
+                [
+                    169,
+                    543
+                ],
+                [
+                    57,
+                    543
+                ]
+            ]
+        ],
+        "rec_boxes": [
+            [
+                54,
+                229,
+                155,
+                304
+            ],
+            [
+                57,
+                314,
+                144,
+                331
+            ],
+            [
+                55,
+                367,
+                603,
+                424
+            ],
+            [
+                59,
+                471,
+                146,
+                485
+            ],
+            [
+                58,
+                498,
+                146,
+                515
+            ],
+            [
+                57,
+                526,
+                169,
+                543
+            ]
+        ]
+    }
+}

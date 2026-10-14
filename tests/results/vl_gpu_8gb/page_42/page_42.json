@@ -1,0 +1,215 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1200,
+    "height": 675,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "paragraph_title",
+            "block_content": "For inquiries, please contact",
+            "block_bbox": [
+                57,
+                269,
+                520,
+                314
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    57.0,
+                    269.0
+                ],
+                [
+                    520.0,
+                    269.0
+                ],
+                [
+                    520.0,
+                    314.0
+                ],
+                [
+                    57.0,
+                    314.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Amuna.kim1@concentrix.com",
+            "block_bbox": [
+                55,
+                340,
+                310,
+                366
+            ],
+            "block_id": 1,
+            "block_order": 2,
+            "group_id": 1,
+            "block_polygon_points": [
+                [
+                    55.0,
+                    340.0
+                ],
+                [
+                    310.0,
+                    340.0
+                ],
+                [
+                    310.0,
+                    366.0
+                ],
+                [
+                    55.0,
+                    366.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Thank you.",
+            "block_bbox": [
+                56,
+                380,
+                241,
+                422
+            ],
+            "block_id": 2,
+            "block_order": 3,
+            "group_id": 2,
+            "block_polygon_points": [
+                [
+                    56.0,
+                    380.0
+                ],
+                [
+                    241.0,
+                    380.0
+                ],
+                [
+                    241.0,
+                    422.0
+                ],
+                [
+                    56.0,
+                    422.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.7495177984237671,
+                "coordinate": [
+                    57,
+                    269,
+                    520,
+                    314
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        57.0,
+                        269.0
+                    ],
+                    [
+                        520.0,
+                        269.0
+                    ],
+                    [
+                        520.0,
+                        314.0
+                    ],
+                    [
+                        57.0,
+                        314.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6412485241889954,
+                "coordinate": [
+                    55,
+                    340,
+                    310,
+                    366
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        55.0,
+                        340.0
+                    ],
+                    [
+                        310.0,
+                        340.0
+                    ],
+                    [
+                        310.0,
+                        366.0
+                    ],
+                    [
+                        55.0,
+                        366.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.4977571666240692,
+                "coordinate": [
+                    56,
+                    380,
+                    241,
+                    422
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        56.0,
+                        380.0
+                    ],
+                    [
+                        241.0,
+                        380.0
+                    ],
+                    [
+                        241.0,
+                        422.0
+                    ],
+                    [
+                        56.0,
+                        422.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

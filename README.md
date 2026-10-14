@@ -4,37 +4,72 @@
 RAG는 검색한 문서를 LLM의 입력에 제공하는 방식이며 모델을 재학습시키지 않습니다.
 프로젝트 의도와 필수 구성만 빠르게 보려면 [PROJECT_SUMMARY.md](PROJECT_SUMMARY.md)를 참고하세요.
 
+**`run-rag.cmd`를 더블클릭하면 Streamlit 화면이 열립니다.** 기본값은 VL·GPU입니다. 질문·답변 옆에서 근거 원본 페이지, 추출 이미지, 인식된 내용을 확인하고 문서 분석 방식을 바꿀 수 있습니다. 이미지를 화면에 보여주지만 Qwen의 입력은 여전히 텍스트입니다.
+
+```powershell
+# 브라우저 화면: 기본 VL·GPU
+.\run-rag.cmd
+
+# 이전 터미널 인터페이스
+.\run-rag.cmd -Console -Profile vl -Device gpu
+```
+
+이미지 표시가 없어도 PDF 페이지 이미지에서 글자·표·배치를 추출하는 분석은 필요합니다. Structure·VL은 이 문서 분석 단계에서 쓰며, 추출 이미지 경로를 RAG 청크에도 연결합니다. Streamlit은 같은 검색·답변 엔진에 이미지 확인 화면을 추가합니다. 모델의 직접 이미지 이해 기능을 추가한 것은 아닙니다.
+
+**2026-10-14 집 GPU 비교 완료:** 실제 VRAM 약 8GB에 맞춘 설정으로 PP-StructureV3와 PaddleOCR-VL-1.6을 각각 42페이지 분석했습니다. 새 실행 설정·자원 사용·원본 대조 결과는 [분석 보고서](tests/reports/analysis_review.md)에 있습니다. 새 결과는 기존 RAG 코퍼스에 반영하지 않았습니다.
+
+문서 분석 결과를 RAG에 연결하는 별도 `structure`·`vl` 프로필을 추가했습니다. 기존 보정 코퍼스 73개는 `existing`, 보정 없는 새 Structure 44개는 `structure`, VL 55개는 `vl`로 선택합니다. 임베딩·답변 모델은 같으며 기본 실행 장치는 GPU입니다. CPU는 `-Device cpu`로 선택합니다. 이미지는 출처 경로로 보관하고 답변 모델에는 텍스트만 전달합니다.
+
+```powershell
+# VL 분석 결과로 브라우저 화면에서 질문하기
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\scripts\run-rag.ps1 -Profile vl
+
+# 필요한 경우 VL 코퍼스·인덱스만 생성
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\scripts\build-rag.ps1 -Profile vl
+```
+
+새 PC에서는 `scripts/setup-rag.ps1`로 Python 환경을 준비하고, `scripts/setup-local-llm.ps1`로 공식 portable Ollama와 기존 BGE-M3·Qwen 모델을 받습니다. Ollama·모델은 Git에서 제외한 프로젝트 `.runtime/`에 저장합니다. Paddle 환경과 캐시는 분리합니다.
+
+이 PC에서 검색·답변 실행을 확인했습니다. 고정 질문 10개에서 VL은 top-3 8/10·top-5 9/10의 페이지 검색을 보였지만, 실제 H1 Tag 답변은 틀렸습니다. 비교 방법·답변 사례·이미지 지원 범위는 [VL RAG 검증 보고서](tests/reports/rag_vl_review.md)에 있습니다.
+
 Python 파일 설명은 [src/README.md](src/README.md), Paddle 계열의 역할과 발전 과정은 [paddle.md](paddle.md)를 참고하세요.
 집 GPU 실행 순서, 분석 비교 기준, RAG 고정 질문·검색 실험 결과와 학습 완료 기준은 [tests/README.md](tests/README.md)에 정리했습니다.
 집 노트북의 새 Codex 세션에서 이어서 작업하려면 [HANDOFF.md](HANDOFF.md)를 먼저 읽으세요. 현재 상태·작업 원칙·실행 순서·전달용 메시지를 담았습니다.
 
 ## 구성과 역할
 
-| 구성 요소 | 역할 |
-|---|---|
-| PaddlePaddle | 문서 분석 모델을 실행하는 딥러닝 프레임워크 |
-| PaddleOCR / PP-StructureV3 | PDF의 글자·표·배치를 분석해 페이지별 Markdown 저장 |
-| 직접 작성한 청킹 규칙 | 명확한 기능 항목을 나누고 각 청크에 페이지의 공통 문맥 추가 |
-| LangChain Document | 청크 본문과 페이지·항목·출처 정보를 담는 파이썬 객체 |
-| LangChain OllamaEmbeddings | Ollama에서 BGE-M3를 호출하는 연결 클래스 |
-| BGE-M3 (`bge-m3:567m`) | 문서와 질문을 1,024차원 벡터로 변환 |
-| LangChain FAISS 연동 | 벡터 정규화·인덱스 생성·저장·불러오기·검색 |
-| ChatPromptTemplate / ChatOllama | 질문·문서 근거·답변 규칙 구성 및 Qwen 호출 |
-| Qwen3 (`qwen3:4b-instruct`) | 검색된 문서 본문을 읽고 한국어 답변 생성 |
-| Ollama | BGE-M3와 Qwen을 같은 PC에서 실행하는 프로그램 |
+| 단계 | 구성 요소 | 역할 |
+|---|---|---|
+| 문서 준비 1 | PP-StructureV3 또는 PaddleOCR-VL | PDF의 글자·표·배치를 분석해 문서 분석 결과를 저장 |
+| 문서 준비 2 | 직접 작성한 청킹·출처 연결 코드 | 기능 항목을 나누고 페이지 문맥·원본 PDF·이미지 정보를 연결 |
+| 문서 준비 3 | LangChain `Document` | 청크 본문과 페이지·항목·출처 정보를 담음 |
+| 문서 준비 4 | `OllamaEmbeddings` → BGE-M3 | 문서를 1,024차원 벡터로 변환 |
+| 문서 준비 5 | LangChain FAISS 연동 | 정규화한 문서 벡터와 Document를 인덱스로 저장 |
+| 질문·답변 1 | `OllamaEmbeddings` → BGE-M3 | 질문을 같은 벡터 공간으로 변환 |
+| 질문·답변 2 | FAISS + `VectorStoreRetriever` | 관련 청크를 검색해 Document로 반환 |
+| 질문·답변 3 | 직접 작성한 `build_context()` | 검색 본문과 페이지 출처를 답변 입력으로 구성 |
+| 질문·답변 4 | `ChatPromptTemplate` | 답변 규칙·문서 근거·질문을 결합 |
+| 질문·답변 5 | `ChatOllama` → Qwen3 | 검색된 본문을 읽고 한국어 답변 생성 |
+| 질문·답변 6 | `StrOutputParser` | 모델 출력을 문자열로 받아 표시 |
+| 실행 기반 | PaddlePaddle / Ollama | Paddle 문서 분석 모델 / BGE-M3·Qwen 모델을 각각 실행 |
+| 화면 | Streamlit | 질문·답변과 근거 원본 페이지·추출 이미지를 표시 |
 
-Windows / Python 3.10 / CPU 환경입니다. RAG 패키지는 프로젝트의 `.venv`, Paddle 패키지는 별도 `paddle-env`에 설치합니다.
-모델 가중치는 기존 Ollama 저장소를 사용합니다. OpenAI API나 별도 벡터 DB 서버는 필요하지 않습니다.
+LangChain은 위 단계들을 연결하는 프레임워크입니다. 파싱과 청킹은 Paddle·직접 작성한 코드가 담당하며, 검색을 먼저 실행한 뒤 근거를 답변 체인에 전달합니다. 실제 구성과 실습 범위는 [프로젝트 서머리](PROJECT_SUMMARY.md#구성-요소와-역할-langchain-흐름-기준)에 정리했습니다.
+
+Windows / Python 3.10 환경이며 정량 RAG 검증은 CPU에서 수행했습니다. 현재 기본 실행 설정은 GPU입니다. RAG·UI 패키지는 프로젝트의 `.venv`, GPU 문서 분석은 별도 `paddle-gpu-env`를 사용합니다.
+답변·임베딩 모델 가중치는 로컬 Ollama 저장소 `.runtime/models/`에 보관합니다. OpenAI API나 별도 벡터 DB 서버는 필요하지 않습니다.
 
 ## 문서 준비 흐름
 
 ```mermaid
 flowchart TD
-    PDF["원본 PDF"] --> PARSE["parse_pdf.py / PP-StructureV3<br/>OCR·표·배치 분석"]
+    PDF["원본 PDF"] --> PARSE["PP-StructureV3 또는 PaddleOCR-VL<br/>글자·표·배치 분석"]
     PARSE --> MD["페이지별 Markdown<br/>표는 HTML을 포함할 수 있음"]
-    MD --> REVIEW["build_corpus.py<br/>원본 PDF로 확인한 번호·누락 문장 보정"]
+    MD --> PROFILE{"분석 결과 선택"}
+    PROFILE -->|기존 Structure| REVIEW["build_corpus.py<br/>원본 PDF로 확인한 번호·누락 문장 보정"]
     FIX["markdown_corrections.json<br/>원본·Markdown 해시와 보정 기록"] --> REVIEW
     REVIEW --> SPLIT["명확한 기능 항목별 분리 + 공통 제목·문맥<br/>불명확한 페이지와 표는 전체 유지"]
+    PROFILE -->|새 Structure / VL · 보정 없음| SPLIT
     SPLIT --> LINK["build_corpus.py<br/>같은 페이지의 이미지 경로 연결"]
     MD --> LINK
     LINK --> CORPUS["corpus.jsonl<br/>청크 본문 + 출처 + 이미지 경로"]
@@ -73,14 +108,14 @@ Paddle이 Markdown의 그림 영역을 이미지 파일로 함께 저장할 수 
 Markdown에 참조된 Paddle 추출 이미지 19개의 경로와 해시도 청크의 `images`에 보관합니다.
 같은 페이지의 청크는 동일한 이미지 목록을 공유하며, 추출 이미지가 없는 페이지는 빈 목록입니다.
 
-Paddle이 만든 이미지를 활용하며 별도의 페이지 미리보기나 답변 HTML·결과 기록은 생성하지 않습니다.
-현재는 텍스트 검색·답변과 이미지 출처 연결까지 구현되어 있습니다. 이미지 자체의 의미 검색이나 Qwen의 이미지 해석은 추가하지 않았습니다.
+Paddle이 만든 이미지를 활용하며 Streamlit에서 직접 표시합니다. 원본 PDF 페이지도 CPU에서 메모리로 렌더링해 보여주며 페이지 PNG 파일을 따로 저장하지 않습니다.
+현재는 텍스트 검색·답변과 이미지 출처 연결·표시까지 구현되어 있습니다. 이미지 자체의 의미 검색이나 Qwen의 이미지 해석은 추가하지 않았습니다.
 
 ## 질문·답변 흐름
 
 ```mermaid
 flowchart TD
-    RUN["run-rag.cmd<br/>RAG 전용 Python / Ollama 준비"] --> Q["질문 입력"]
+    RUN["run-rag.cmd<br/>RAG 전용 Python / Ollama 준비"] --> Q["Streamlit / app.py<br/>질문 입력"]
     Q --> RETRIEVER["LangChain VectorStoreRetriever.invoke"]
     RETRIEVER --> EMBED["OllamaEmbeddings → BGE-M3<br/>질문 임베딩"]
     EMBED --> SEARCH["FAISS<br/>정규화된 벡터 비교 / 상위 k개 검색"]
@@ -89,9 +124,10 @@ flowchart TD
     DOCS --> PROMPT["ChatPromptTemplate<br/>답변 규칙 + 검색 근거 + 질문"]
     PROMPT --> QWEN["ChatOllama → Qwen3"]
     QWEN --> ANSWER["한국어 답변 스트리밍 + 페이지 출처"]
+    DOCS --> VIEW["원본 PDF 페이지 + 추출 이미지 표시"]
 ```
 
-질문할 때는 `rag.py → llm_client.py`가 실행됩니다. PDF 분석이나 전체 문서 임베딩을 다시 수행하지 않습니다.
+브라우저에서는 `app.py → rag.py / llm_client.py`가 실행됩니다. `-Console`을 지정하면 기존 터미널 방식으로 실행합니다. PDF 분석이나 전체 문서 임베딩을 다시 수행하지 않습니다.
 질문마다 독립적으로 검색하며 이전 대화는 전달하지 않습니다.
 
 FAISS는 정규화한 문서·질문 벡터의 **제곱 L2 거리**를 비교하는 `IndexFlatL2`를 사용합니다.
@@ -104,18 +140,19 @@ Qwen에는 벡터가 아닌 **검색된 본문과 출처**가 전달됩니다. M
 
 ## 실행 방법
 
-현재 PC에는 RAG 환경과 인덱스가 준비되어 있습니다.
+기존 회사 CPU PC에서 RAG를 확인했고, 집 PC에서도 별도 CPU 환경과 세 인덱스를 준비해 검색·답변을 실행했습니다. 새 PC에서는 아래의 새 PC 준비가 필요합니다. 실행 성공과 답변 정확도는 구분하며, 현재 실패 사례는 VL RAG 검증 보고서를 참고하세요.
 
 1. **`run-rag.cmd`를 더블클릭**합니다.
-2. `질문>`에 질문을 입력합니다.
-3. `/exit`로 종료합니다.
+2. 브라우저의 질문 입력란에 질문을 입력합니다.
+3. 답변 아래 `p.숫자 보기`를 누르면 오른쪽 원문이 해당 페이지로 바뀝니다. `추출 이미지` 탭에서 저장된 그림도 확인합니다.
+4. 서버를 종료하려면 실행한 터미널에서 Ctrl+C를 누릅니다. 이전 콘솔 방식은 `run-rag.cmd -Console`로 실행하며 `/exit`로 종료합니다.
 
-검색 근거와 답변은 터미널에 표시합니다. 필요하면 안내된 원본 PDF의 해당 페이지를 확인합니다.
+검색 근거와 답변은 브라우저에 표시합니다. 원본 PDF 다운로드와 전체 42페이지 직접 탐색도 제공합니다.
 
 예시 질문: **Spec Monitoring에서 이슈 필터를 초기화하려면?**
 
 CPU에서는 모델을 불러오고 첫 답변을 생성하는 데 시간이 걸릴 수 있습니다.
-시작 오류는 `outputs/rag/startup.log`에서 확인합니다. 코드 변경 전부터 열려 있던 채팅 창은 다시 실행하세요.
+시작 오류는 `outputs/rag/startup_*.log`에서 확인합니다. 실행마다 별도 로그를 남깁니다. 코드 변경 전부터 열려 있던 채팅 창은 다시 실행하세요.
 
 ### 새 PC 준비
 

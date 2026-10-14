@@ -1,0 +1,320 @@
+{
+  "source_pdf": "documents/B2B Dashboard Manual_v3.pdf",
+  "source_sha256": "d6bd393c8198addad217c4e9026fc9eb6efc6cb23a741c359767a1d785999805",
+  "pipeline": "PaddleOCR-VL-1.6",
+  "profile": "vl",
+  "device": "gpu:0",
+  "render_width": 1200,
+  "batch_size": 1,
+  "memory_profile": "8gb",
+  "prediction_settings": {
+    "max_pixels": 262144,
+    "max_new_tokens": 2048
+  },
+  "checkpoint_loading": "cpu_staging",
+  "allocator_settings": {
+    "FLAGS_allocator_strategy": "auto_growth",
+    "FLAGS_gpu_memory_limit_mb": "6144"
+  },
+  "manual_corrections_applied": false,
+  "settings": {
+    "device": "gpu:0",
+    "cpu_threads": 4,
+    "enable_mkldnn": false,
+    "use_doc_orientation_classify": false,
+    "use_doc_unwarping": false,
+    "use_chart_recognition": false,
+    "use_seal_recognition": false,
+    "markdown_ignore_labels": [
+      "number",
+      "header",
+      "header_image",
+      "footer",
+      "footer_image"
+    ],
+    "pipeline_version": "v1.6",
+    "use_queues": false
+  },
+  "packages": {
+    "paddlepaddle-gpu": "3.3.1",
+    "paddleocr": "3.7.0",
+    "paddlex": "3.7.2"
+  },
+  "status": "complete",
+  "total_pages": 42,
+  "requested_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42
+  ],
+  "results": [
+    {
+      "page": 1,
+      "seconds": 2.9,
+      "markdown_sha256": "f81463e089b83c24997de2f4040b85b4eb7aa51d7774e8141dcaf5db2a1af073"
+    },
+    {
+      "page": 9,
+      "seconds": 4.68,
+      "markdown_sha256": "c11a1db86893b3602f2dbc306e03af1dc6d18d9e24aaa1266ab644c97126d739"
+    },
+    {
+      "page": 37,
+      "seconds": 7.73,
+      "markdown_sha256": "a388835b084ddfee78a6531de0b81c52c5795dad3e26811d3cbd09637219d9a9"
+    },
+    {
+      "page": 2,
+      "seconds": 3.3,
+      "markdown_sha256": "faeb9cc8b3a68d9bafb2a54acea15134f790a6a06236cc07bab2eaa194d3f2f9"
+    },
+    {
+      "page": 3,
+      "seconds": 1.18,
+      "markdown_sha256": "2c55d16b64c0890a529e58a1de58e7a48629c2fc6272286bb28b275c2b81b5ba"
+    },
+    {
+      "page": 4,
+      "seconds": 6.14,
+      "markdown_sha256": "1c8d00f449317a4309f804d637554584cda29870fb15a8a65cdc3c4bef9eb72a"
+    },
+    {
+      "page": 5,
+      "seconds": 17.52,
+      "markdown_sha256": "c8015ee6d4ceee99ae64fce1a8d8dcc8c1bcec2f484e5da3f8762b9fc73faf50"
+    },
+    {
+      "page": 6,
+      "seconds": 6.05,
+      "markdown_sha256": "2f5820131acc0fde0c1ba79dcf9ca8c861a0c58009198233c4fe3ce26721e4ff"
+    },
+    {
+      "page": 7,
+      "seconds": 0.99,
+      "markdown_sha256": "5a79ff38e68357b2781f5ca32c575740f2a0cd8df30708e7ff25d824f5b16701"
+    },
+    {
+      "page": 8,
+      "seconds": 4.12,
+      "markdown_sha256": "9d24cf0cdf539c5783025f6923d8027d15ed6f7728b54272d79b577f3bbf8f1a"
+    },
+    {
+      "page": 10,
+      "seconds": 14.48,
+      "markdown_sha256": "1131119f3f9f9b8abca24101e2487fc044c859a940af9ab9a40cc9a038782f6b"
+    },
+    {
+      "page": 11,
+      "seconds": 11.49,
+      "markdown_sha256": "1ad0c6fab6309062144fc15648928ff04d38044648c2b4cb5a08faa616fcd8cc"
+    },
+    {
+      "page": 12,
+      "seconds": 3.49,
+      "markdown_sha256": "87d3d5095fcf725e451758797e1bc6bcb818909a85510d18dd80f30dc82469d9"
+    },
+    {
+      "page": 13,
+      "seconds": 20.78,
+      "markdown_sha256": "d22f0462d4eb8098e3557e0ca9a42957712ff356487dfb8b9fdef0989b21b9ec"
+    },
+    {
+      "page": 14,
+      "seconds": 5.53,
+      "markdown_sha256": "048ba9507d4f3ece5578529064cb7819a71c403ffaefb7015f3a8400b80cbc22"
+    },
+    {
+      "page": 15,
+      "seconds": 4.55,
+      "markdown_sha256": "e13ef4a9e1e62fe2164435263bbe08b99a12935be6264edd5599d2e4c4121086"
+    },
+    {
+      "page": 16,
+      "seconds": 7.17,
+      "markdown_sha256": "dbf9ec443f1e5e53bbd70593a3a3124500b6f971bda5ac21e72ff2829e14b4fb"
+    },
+    {
+      "page": 17,
+      "seconds": 3.62,
+      "markdown_sha256": "8d9fff4d445d743c448f56bf797c479880fb9d1db089d27bf2a970798b263263"
+    },
+    {
+      "page": 18,
+      "seconds": 7.0,
+      "markdown_sha256": "c5b1fc90700deb784b7d2f1dbe9250b9fd4db3e885eb053303be0972edda511b"
+    },
+    {
+      "page": 19,
+      "seconds": 20.96,
+      "markdown_sha256": "7d06db59e31d0719aa5609fc2a0f2aaa4b82a701cd3d74476c3af336e46b86cc"
+    },
+    {
+      "page": 20,
+      "seconds": 5.49,
+      "markdown_sha256": "9976d8148fe0c450d4f3127495c9f375393c9084ed12996da1158b27e1ed710a"
+    },
+    {
+      "page": 21,
+      "seconds": 5.31,
+      "markdown_sha256": "0cdf3823e85408af98debe9cb0e8cacb5ab342e0ae1ba107129edd88315e76c4"
+    },
+    {
+      "page": 22,
+      "seconds": 9.58,
+      "markdown_sha256": "536bae0b313b6d2212315f4abe0d850ac6a691b15d4d554fff4c27d0920be697"
+    },
+    {
+      "page": 23,
+      "seconds": 16.83,
+      "markdown_sha256": "1920cde3359f4514fa42264defd6407f102f6844d96d11feccee3af000de21aa"
+    },
+    {
+      "page": 24,
+      "seconds": 17.24,
+      "markdown_sha256": "69abc5c0e0e6b094a65b68f07534e1dd48029aba5a8412a21fae9f0fff6100bf"
+    },
+    {
+      "page": 25,
+      "seconds": 3.4,
+      "markdown_sha256": "98d3dfcd122e63fdc09fb405a8a0d63c2d4216272a6b72a144be922c2e1dddd2"
+    },
+    {
+      "page": 26,
+      "seconds": 3.4,
+      "markdown_sha256": "d5d40f83c48dd4df249ade7638ebf8ab52f143df9e8f7893f01c453b0fe22429"
+    },
+    {
+      "page": 27,
+      "seconds": 3.21,
+      "markdown_sha256": "619c6cf6aca7f984f76ea91df0efde54a85837dec148621f1c6253f5875152e8"
+    },
+    {
+      "page": 28,
+      "seconds": 6.89,
+      "markdown_sha256": "f766d7b53123f2f1e814ffae4b30dfa11a218f5ad98d1d6de10223aab919014c"
+    },
+    {
+      "page": 29,
+      "seconds": 4.3,
+      "markdown_sha256": "0dec293cca0fc7bd034ab4487bcebc5e6173a54f7f476ce8defd0b8bb11dc020"
+    },
+    {
+      "page": 30,
+      "seconds": 13.48,
+      "markdown_sha256": "c1ffbc5406d24da2cebb0ab0d211bad79e32c3217e3e45bb3d49666f110a31fd"
+    },
+    {
+      "page": 31,
+      "seconds": 20.09,
+      "markdown_sha256": "eb129dfee594999b6b2f6ca95b7b5c199becc2e1bb0b476d15c1aafa71564fc8"
+    },
+    {
+      "page": 32,
+      "seconds": 17.37,
+      "markdown_sha256": "5863e465427a1f4788f62d62bfa6c5fcccd3cda4eadeb8450502990207d0ef9c"
+    },
+    {
+      "page": 33,
+      "seconds": 3.26,
+      "markdown_sha256": "7e8086623c508240a9c150f19ceaadda24510e7c0dc231dfa234f3fc07cbb8e5"
+    },
+    {
+      "page": 34,
+      "seconds": 1.32,
+      "markdown_sha256": "4bc7869fc0670dc69c8f9c163df73963743df5a8958275786ea95ee6bafb1277"
+    },
+    {
+      "page": 35,
+      "seconds": 5.51,
+      "markdown_sha256": "6780d35495ba6d857a2a1df7c7e846ca454fdfea03a76b06962b11423bf1e413"
+    },
+    {
+      "page": 36,
+      "seconds": 6.89,
+      "markdown_sha256": "47f2d624751906a5cb5e39efae0fff27c578942d7be7ab6c96580019676d63f9"
+    },
+    {
+      "page": 38,
+      "seconds": 8.06,
+      "markdown_sha256": "6077d35b54b2c883de8e7a1358ad8da1a274425565ec903b2f3ba531d067d29e"
+    },
+    {
+      "page": 39,
+      "seconds": 8.81,
+      "markdown_sha256": "0530e30dc0df578b9553e3557f80dd22028fb6742760ec9e28edf47b2d137583"
+    },
+    {
+      "page": 40,
+      "seconds": 2.84,
+      "markdown_sha256": "73c8041d03b33e8d34fff9371a63e9e37afb43e0cb35a1c7495b1d6fc009bdd9"
+    },
+    {
+      "page": 41,
+      "seconds": 49.75,
+      "markdown_sha256": "f4d0d3f83b5168c534a3b9fa5d3de5e1ba58ca85996af5c9eebdf779315939bf"
+    },
+    {
+      "page": 42,
+      "seconds": 1.02,
+      "markdown_sha256": "bda720548885729c14799250a5ca8531a8450de1123bed0547411e856ace5816"
+    }
+  ],
+  "effective_allocator_settings": {
+    "FLAGS_allocator_strategy": "auto_growth",
+    "FLAGS_gpu_memory_limit_mb": 6144
+  },
+  "checkpoint_loading_statistics": {
+    "checkpoint_tensor_count": 620,
+    "checkpoint_bytes": 1917177472,
+    "conversion_on_cpu": true
+  },
+  "vl_model_dtype": "paddle.float32",
+  "vl_model_parameter_dtypes": [
+    "paddle.bfloat16",
+    "paddle.float32"
+  ],
+  "vl_model_parameters_on_gpu": true,
+  "initialization_seconds": 17.57,
+  "gpu_name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "cuda_build": "12.9",
+  "gpu_total_memory_bytes": 8546484224
+}

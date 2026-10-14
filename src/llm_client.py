@@ -24,21 +24,30 @@ PROMPT = ChatPromptTemplate.from_messages([
 ])
 
 
-def chat(question, context):
+def stream_chat(question, context, device="gpu"):
     llm = ChatOllama(
         model=MODEL, base_url=BASE_URL, temperature=0.2,
-        num_ctx=4096, num_predict=256, num_thread=4, keep_alive="2m",
+        num_ctx=4096, num_predict=256, num_thread=4,
+        num_gpu=0 if device == "cpu" else -1, keep_alive="2m",
         client_kwargs=CLIENT_KWARGS,
     )
     chain = PROMPT | llm | StrOutputParser()
-    parts = []
+    emitted = False
     # Keep the workflow local even if tracing is enabled in the shell.
     with tracing_context(enabled=False):
         for text in chain.stream({"question": question, "context": context}):
-            parts.append(text)
-            print(text, end="", flush=True)
+            if text:
+                emitted = emitted or bool(text.strip())
+                yield text
+    if not emitted:
+        raise RuntimeError("Qwen returned an empty answer. Please retry.")
+
+
+def chat(question, context, device="gpu"):
+    parts = []
+    for text in stream_chat(question, context, device):
+        parts.append(text)
+        print(text, end="", flush=True)
     print()
     answer = "".join(parts)
-    if not answer.strip():
-        raise RuntimeError("Qwen returned an empty answer. Please retry.")
     return answer

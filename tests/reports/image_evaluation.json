@@ -1,0 +1,2286 @@
+{
+  "evaluation_date": "2026-10-15",
+  "source_pdf": "documents/B2B Dashboard Manual_v3.pdf",
+  "source_sha256": "d6bd393c8198addad217c4e9026fc9eb6efc6cb23a741c359767a1d785999805",
+  "fixture_sha256": "fa41b4b05013880bc4c447b24c9d61259158e28e29166627701f3b942c9c2fcf",
+  "script_sha256": "171e68f5202a256adf00ac24875746081530f73f34e1ed2b9a746a5b7d25d307",
+  "review_method": "원본 PDF를 CPU로 렌더링해 6페이지의 화면 캡처 7개를 직접 대조하고, 캡처별 판독 가능한 지정 문자열 5개씩 총 35개를 전사. 저장된 출력을 이미 확인한 뒤 만든 회고적 진단 표본이며 전체 이미지의 무작위·독립 평가 정답지가 아님.",
+  "metric_definition": "지정 문자열이 해당 캡처 영역의 parsing_res_list 내용에 보존됐는지 검사. 필드-값의 셀 위치나 캡처 전체 OCR 정확도는 평가하지 않음. image/chart 블록의 비어 있는 내용과 이미지 링크만 있는 경우 텍스트 인식 성공으로 세지 않음.",
+  "preservation_threshold": 0.95,
+  "source_preview_hashes": {
+    "tests/reports/image_evaluation/source_previews/capture_09.png": "437018ce1d04f916eba33852817d7472c3904f02a1541002d97523361cf1716a",
+    "tests/reports/image_evaluation/source_previews/capture_14.png": "ba0587bd65bd5b1d23524c0799d9c65519d19be5e2f57356fa616f979b80c227",
+    "tests/reports/image_evaluation/source_previews/capture_20.png": "7a3fc86094ba0f59b3b92978d54668a8d59132074289c669b564a42967dec1c5",
+    "tests/reports/image_evaluation/source_previews/capture_22.png": "dec2ecb455fea1e108b775e5a8a79397b44b104d6d47a1224d6e8a6e68291392",
+    "tests/reports/image_evaluation/source_previews/capture_23.png": "e1e04459bf8f67748da98b636a9cf791ce9f05b9de9064810c37c14a414ce225",
+    "tests/reports/image_evaluation/source_previews/capture_31.png": "1a5bb0dede29cf436f00b607c275e7afdc2c0ba63accb78d9a554a6f4912e784",
+    "tests/reports/image_evaluation/source_previews/page_09.png": "3363bfae75782e7f922b59fd54e4d0c02986a2ce109e75d3bf5b1b71ec2995b7",
+    "tests/reports/image_evaluation/source_previews/page_14.png": "7587a1e5c4e9cef885c1e6ac7b694ce85d9dc47d1ad42f5c82cd61114ec8449c",
+    "tests/reports/image_evaluation/source_previews/page_20.png": "bb985a0017b8fce05e34cd1a6e82f0289c7f5bac06a2f8c049eb1bf8aae1133b",
+    "tests/reports/image_evaluation/source_previews/page_22.png": "d24e5e947baa55e77d7e2fafc7f278228205b5bde52652896f695b3b1be4a7b4",
+    "tests/reports/image_evaluation/source_previews/page_23.png": "df79e8c835259d10958abbd7eb853d3c4d49292d02ae500e3e00476774717ce0",
+    "tests/reports/image_evaluation/source_previews/page_31.png": "9a3d5767231af8d2f04de5664a860f8f5521d28b2b09feb15b5470595ba1195d"
+  },
+  "models": {
+    "structure_gpu_8gb": {
+      "name": "Structure",
+      "manifest_sha256": "6308758dcbb5ee506a880f9e941a8e44b7e8d6b2fbb5066c225d719c3968090f",
+      "captures": [
+        {
+          "id": "C09",
+          "page": 9,
+          "name": "AX Agent 화면",
+          "bbox": [
+            72,
+            211,
+            504,
+            560
+          ],
+          "preview": "tests/reports/image_evaluation/source_previews/capture_09.png",
+          "json_path": "tests/results/structure_gpu_8gb/page_09/page_09.json",
+          "json_sha256": "89f7634f43eb6c12c0a00c6920a0bf7dfdc9cd2e63640fb2ce24f8f9089de7d6",
+          "markdown_path": "tests/results/structure_gpu_8gb/page_09/page_09.md",
+          "markdown_sha256": "5732098b2db9757a7b0d8c14d15a240cc160c642ff0176fb43e017999794b2aa",
+          "model_settings": {
+            "use_doc_preprocessor": true,
+            "use_seal_recognition": false,
+            "use_table_recognition": true,
+            "use_formula_recognition": false,
+            "use_chart_recognition": false,
+            "use_region_detection": true,
+            "format_block_content": false,
+            "markdown_ignore_labels": [
+              "number",
+              "header",
+              "header_image",
+              "footer",
+              "footer_image"
+            ]
+          },
+          "image_coverage": 0.997685,
+          "linked_image_coverage": 0.997685,
+          "image_preserved": true,
+          "image_linked": true,
+          "images": [
+            {
+              "path": "tests/results/structure_gpu_8gb/page_09/imgs/img_in_image_box_70_208_503_560.jpg",
+              "bbox": [
+                70,
+                208,
+                503,
+                560
+              ],
+              "sha256": "a8d843cbac4de5decac8f2aab7e46c0e80f5942722e3cacd834ce816f19edad5",
+              "dimensions": [
+                433,
+                352
+              ],
+              "markdown_linked": true
+            }
+          ],
+          "blocks": [
+            {
+              "block_id": 4,
+              "label": "image",
+              "bbox": [
+                70,
+                208,
+                503,
+                560
+              ],
+              "content": "B2B Monitoring AX AGENT \nWhat would you like to see today?\n\nSelectki \ng.WhatitaDrefIGobal?Hominkretere?\nMonitoring How to Fix FAQ \nStatus &: Jira tickets Scoring guides by item Usage &: policies \nSUBOPIC)RHQ HVAC \nSTATUS OVERVIEW \n\nShow an overview of all subsidiaries in HVAC \n\nShow the score rankngbysubidiary (HVAC)\n\nWhichsubdiryatlwtito?HVAC)\n\nCAT/PLP. PDP score for HVAC7\n\nWhichii/lt \n",
+              "markdown_exposed": false
+            }
+          ],
+          "checks": [
+            {
+              "id": "headline",
+              "label": "메인 질문 문구",
+              "expected": "What would you like to see today?",
+              "kind": "text",
+              "json_present": true,
+              "markdown_present": false,
+              "json_block_ids": [
+                4
+              ],
+              "markdown_block_ids": []
+            },
+            {
+              "id": "monitoring",
+              "label": "카테고리 버튼",
+              "expected": "Monitoring",
+              "kind": "text",
+              "json_present": true,
+              "markdown_present": false,
+              "json_block_ids": [
+                4
+              ],
+              "markdown_block_ids": []
+            },
+            {
+              "id": "how_to_fix",
+              "label": "카테고리 버튼",
+              "expected": "How to Fix",
+              "kind": "text",
+              "json_present": true,
+              "markdown_present": false,
+              "json_block_ids": [
+                4
+              ],
+              "markdown_block_ids": []
+            },
+            {
+              "id": "faq",
+              "label": "카테고리 버튼",
+              "expected": "FAQ",
+              "kind": "text",
+              "json_present": true,
+              "markdown_present": false,
+              "json_block_ids": [
+                4
+              ],
+              "markdown_block_ids": []
+            },
+            {
+              "id": "status_overview",
+              "label": "목록 제목",
+              "expected": "STATUS OVERVIEW",
+              "kind": "text",
+              "json_present": true,
+              "markdown_present": false,
+              "json_block_ids": [
+                4
+              ],
+              "markdown_block_ids": []
+            }
+          ]
+        },
+        {
+          "id": "C14A",
+          "page": 14,
+          "name": "Jira 입력 폼 왼쪽",
+          "bbox": [
+            72,
+            286,
+            275,
+            493
+          ],
+          "preview": "tests/reports/image_evaluation/source_previews/capture_14.png",
+          "json_path": "tests/results/structure_gpu_8gb/page_14/page_14.json",
+          "json_sha256": "7c883867b84e97f3ed4567a01d4c1fc5a20bb110feb95ca76f5b497208672098",
+          "markdown_path": "tests/results/structure_gpu_8gb/page_14/page_14.md",
+          "markdown_sha256": "45c93b2e2ff53b80a7c92fb05d076fbaf048849a9427caf8e57a7878f2ad293f",
+          "model_settings": {
+            "use_doc_preprocessor": true,
+            "use_seal_recognition": false,
+            "use_table_recognition": true,
+            "use_formula_recognition": false,
+            "use_chart_recognition": false,
+            "use_region_detection": true,
+            "format_block_content": false,
+            "markdown_ignore_labels": [
+              "number",
+              "header",
+              "header_image",
+              "footer",
+              "footer_image"
+            ]
+          },
+          "image_coverage": 0.995169,
+          "linked_image_coverage": 0.995169,
+          "image_preserved": true,
+          "image_linked": true,
+          "images": [
+            {
+              "path": "tests/results/structure_gpu_8gb/page_14/imgs/img_in_image_box_70_283_504_492.jpg",
+              "bbox": [
+                70,
+                283,
+                504,
+                492
+              ],
+              "sha256": "6a753ef3ede15f3ef521e3e020ea3cf663ee4fb5aaaea32e37c3056aeabee6f0",
+              "dimensions": [
+                434,
+                209
+              ],
+              "markdown_linked": true
+            }
+          ],
+          "blocks": [
+            {
+              "block_id": 9,
+              "label": "image",
+              "bbox": [
+                70,
+                283,
+                504,
+                492
+              ],
+              "content": "Create Jisa Tisket Creahe Aine Ticket \nSoe80v00\nTeget ioca to-8e \nSelect.\n\nTarget Pagr \n\nPeone lete WN \n\nSelert.\n\nCamcel Care \n",
+              "markdown_exposed": false
+            }
+          ],
+          "checks": [
+            {
+              "id": "project",
+              "label": "필드명",
+              "expected": "Project",
+              "kind": "text",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            },
+            {
+              "id": "issue_type",
+              "label": "필드명",
+              "expected": "Issue Type",
+              "kind": "text",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            },
+            {
+              "id": "summary",
+              "label": "필드명",
+              "expected": "Summary",
+              "kind": "text",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            },
+            {
+              "id": "target_locale",
+              "label": "필드명",
+              "expected": "Target Locale(s)",
+              "kind": "text",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            },
+            {
+              "id": "personal_info",
+              "label": "필드명",
+              "expected": "Personal Info Y/N",
+              "kind": "text",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            }
+          ]
+        },
+        {
+          "id": "C14B",
+          "page": 14,
+          "name": "Jira 입력 폼 오른쪽",
+          "bbox": [
+            300,
+            286,
+            506,
+            493
+          ],
+          "preview": "tests/reports/image_evaluation/source_previews/capture_14.png",
+          "json_path": "tests/results/structure_gpu_8gb/page_14/page_14.json",
+          "json_sha256": "7c883867b84e97f3ed4567a01d4c1fc5a20bb110feb95ca76f5b497208672098",
+          "markdown_path": "tests/results/structure_gpu_8gb/page_14/page_14.md",
+          "markdown_sha256": "45c93b2e2ff53b80a7c92fb05d076fbaf048849a9427caf8e57a7878f2ad293f",
+          "model_settings": {
+            "use_doc_preprocessor": true,
+            "use_seal_recognition": false,
+            "use_table_recognition": true,
+            "use_formula_recognition": false,
+            "use_chart_recognition": false,
+            "use_region_detection": true,
+            "format_block_content": false,
+            "markdown_ignore_labels": [
+              "number",
+              "header",
+              "header_image",
+              "footer",
+              "footer_image"
+            ]
+          },
+          "image_coverage": 0.985507,
+          "linked_image_coverage": 0.985507,
+          "image_preserved": true,
+          "image_linked": true,
+          "images": [
+            {
+              "path": "tests/results/structure_gpu_8gb/page_14/imgs/img_in_image_box_70_283_504_492.jpg",
+              "bbox": [
+                70,
+                283,
+                504,
+                492
+              ],
+              "sha256": "6a753ef3ede15f3ef521e3e020ea3cf663ee4fb5aaaea32e37c3056aeabee6f0",
+              "dimensions": [
+                434,
+                209
+              ],
+              "markdown_linked": true
+            }
+          ],
+          "blocks": [
+            {
+              "block_id": 9,
+              "label": "image",
+              "bbox": [
+                70,
+                283,
+                504,
+                492
+              ],
+              "content": "Create Jisa Tisket Creahe Aine Ticket \nSoe80v00\nTeget ioca to-8e \nSelect.\n\nTarget Pagr \n\nPeone lete WN \n\nSelert.\n\nCamcel Care \n",
+              "markdown_exposed": false
+            }
+          ],
+          "checks": [
+            {
+              "id": "data_field",
+              "label": "필드 설명",
+              "expected": "Data Field needs to be extracted",
+              "kind": "text",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            },
+            {
+              "id": "as_is",
+              "label": "필드명",
+              "expected": "As-Is",
+              "kind": "text",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            },
+            {
+              "id": "to_be",
+              "label": "필드명",
+              "expected": "To-Be",
+              "kind": "text",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            },
+            {
+              "id": "reason",
+              "label": "필드명",
+              "expected": "Business Reason to Request",
+              "kind": "text",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            },
+            {
+              "id": "create",
+              "label": "버튼명",
+              "expected": "Create",
+              "kind": "text",
+              "json_present": true,
+              "markdown_present": false,
+              "json_block_ids": [
+                9
+              ],
+              "markdown_block_ids": []
+            }
+          ]
+        },
+        {
+          "id": "C20",
+          "page": 20,
+          "name": "Spec Monitoring 화면",
+          "bbox": [
+            64,
+            205,
+            513,
+            550
+          ],
+          "preview": "tests/reports/image_evaluation/source_previews/capture_20.png",
+          "json_path": "tests/results/structure_gpu_8gb/page_20/page_20.json",
+          "json_sha256": "92156a07df560c8a31ada3a6f0be62e4968a24f0be53ffd3245779941c011edc",
+          "markdown_path": "tests/results/structure_gpu_8gb/page_20/page_20.md",
+          "markdown_sha256": "449f52e9fe8c76a7f3d42d0385f06ba073b90bfe50a620bcd18f2d6ea10344ab",
+          "model_settings": {
+            "use_doc_preprocessor": true,
+            "use_seal_recognition": false,
+            "use_table_recognition": true,
+            "use_formula_recognition": false,
+            "use_chart_recognition": false,
+            "use_region_detection": true,
+            "format_block_content": false,
+            "markdown_ignore_labels": [
+              "number",
+              "header",
+              "header_image",
+              "footer",
+              "footer_image"
+            ]
+          },
+          "image_coverage": 1.0,
+          "linked_image_coverage": 1.0,
+          "image_preserved": true,
+          "image_linked": true,
+          "images": [
+            {
+              "path": "tests/results/structure_gpu_8gb/page_20/imgs/img_in_image_box_63_202_516_551.jpg",
+              "bbox": [
+                63,
+                202,
+                516,
+                551
+              ],
+              "sha256": "3aa082720583761a717edf77be95519bf923f35daaf0e7f79d4a9dece5c04ed7",
+              "dimensions": [
+                453,
+                349
+              ],
+              "markdown_linked": true
+            }
+          ],
+          "blocks": [
+            {
+              "block_id": 5,
+              "label": "image",
+              "bbox": [
+                63,
+                202,
+                516,
+                551
+              ],
+              "content": "0Comparbon 2026-08-24Curent 2026-09-11Camreecial Disptey Mostoes & PCs \nDeta an of 2025-09-11Spex Menitoring \nA 58526311403325905476Pages Reagged Mosng on n ae Formet differe Moton tR Clcbel MD07806205-26Detall Stel M007580896msh +22Detall Gictal \nDigi 4\nA \nDetai 知\n",
+              "markdown_exposed": false
+            }
+          ],
+          "checks": [
+            {
+              "id": "comparison_date",
+              "label": "비교 날짜",
+              "expected": "2026-08-24",
+              "kind": "date",
+              "json_present": true,
+              "markdown_present": false,
+              "json_block_ids": [
+                5
+              ],
+              "markdown_block_ids": []
+            },
+            {
+              "id": "current_date",
+              "label": "현재 날짜",
+              "expected": "2026-09-11",
+              "kind": "date",
+              "json_present": true,
+              "markdown_present": false,
+              "json_block_ids": [
+                5
+              ],
+              "markdown_block_ids": []
+            },
+            {
+              "id": "mismatch",
+              "label": "Mismatch 카드 값",
+              "expected": "2631",
+              "kind": "number",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            },
+            {
+              "id": "missing",
+              "label": "Missing on page 카드 값",
+              "expected": "14033",
+              "kind": "number",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            },
+            {
+              "id": "clear_filter",
+              "label": "버튼명",
+              "expected": "Clear filter",
+              "kind": "text",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            }
+          ]
+        },
+        {
+          "id": "C22",
+          "page": 22,
+          "name": "Monitoring Item 상세 화면",
+          "bbox": [
+            68,
+            214,
+            509,
+            544
+          ],
+          "preview": "tests/reports/image_evaluation/source_previews/capture_22.png",
+          "json_path": "tests/results/structure_gpu_8gb/page_22/page_22.json",
+          "json_sha256": "9a3fb6a4ba86f4a62ab79cdeb6a0362ac002764ddf78bae21b1ca1a46a58685c",
+          "markdown_path": "tests/results/structure_gpu_8gb/page_22/page_22.md",
+          "markdown_sha256": "d86f590d011dde4e85507915d7fdb248f4a5c118f67893cd4a7f6acdfbaae7d6",
+          "model_settings": {
+            "use_doc_preprocessor": true,
+            "use_seal_recognition": false,
+            "use_table_recognition": true,
+            "use_formula_recognition": false,
+            "use_chart_recognition": false,
+            "use_region_detection": true,
+            "format_block_content": false,
+            "markdown_ignore_labels": [
+              "number",
+              "header",
+              "header_image",
+              "footer",
+              "footer_image"
+            ]
+          },
+          "image_coverage": 0.0,
+          "linked_image_coverage": 0.0,
+          "image_preserved": false,
+          "image_linked": false,
+          "images": [],
+          "blocks": [
+            {
+              "block_id": 4,
+              "label": "text",
+              "bbox": [
+                75,
+                241,
+                108,
+                250
+              ],
+              "content": "CAT /PLP ",
+              "markdown_exposed": true
+            },
+            {
+              "block_id": 5,
+              "label": "text",
+              "bbox": [
+                75,
+                277,
+                416,
+                296
+              ],
+              "content": "B2B Global—Business (CAT/ PLP)\nMnotoo ",
+              "markdown_exposed": true
+            },
+            {
+              "block_id": 6,
+              "label": "text",
+              "bbox": [
+                81,
+                424,
+                489,
+                442
+              ],
+              "content": "GddBekcoHgTire acharacter carriesmoeth \n",
+              "markdown_exposed": true
+            },
+            {
+              "block_id": 7,
+              "label": "text",
+              "bbox": [
+                76,
+                452,
+                197,
+                460
+              ],
+              "content": "Raw Data colu e_ n ",
+              "markdown_exposed": true
+            },
+            {
+              "block_id": 14,
+              "label": "text",
+              "bbox": [
+                79,
+                477,
+                157,
+                487
+              ],
+              "content": "SEO Meta Description ",
+              "markdown_exposed": true
+            },
+            {
+              "block_id": 15,
+              "label": "text",
+              "bbox": [
+                395,
+                477,
+                495,
+                486
+              ],
+              "content": "20pt CAT - PUP - PDP - Shared ",
+              "markdown_exposed": true
+            },
+            {
+              "block_id": 16,
+              "label": "text",
+              "bbox": [
+                78,
+                501,
+                148,
+                509
+              ],
+              "content": "SEO Canonical Link ",
+              "markdown_exposed": true
+            },
+            {
+              "block_id": 17,
+              "label": "text",
+              "bbox": [
+                396,
+                501,
+                495,
+                509
+              ],
+              "content": "1001CAT·PUP·POP - Shared ",
+              "markdown_exposed": true
+            },
+            {
+              "block_id": 18,
+              "label": "text",
+              "bbox": [
+                78,
+                525,
+                168,
+                533
+              ],
+              "content": "SEO Feature Card Alt Text ",
+              "markdown_exposed": true
+            },
+            {
+              "block_id": 19,
+              "label": "text",
+              "bbox": [
+                395,
+                524,
+                494,
+                533
+              ],
+              "content": "CAT-PUP-PP- Shaed ",
+              "markdown_exposed": true
+            }
+          ],
+          "checks": [
+            {
+              "id": "title_length",
+              "label": "항목명",
+              "expected": "Title Length",
+              "kind": "text",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            },
+            {
+              "id": "over_bound",
+              "label": "평가 조건",
+              "expected": "Over the upper bound",
+              "kind": "text",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            },
+            {
+              "id": "under_bound",
+              "label": "평가 조건",
+              "expected": "Under the lower bound",
+              "kind": "text",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            },
+            {
+              "id": "title_tag",
+              "label": "Raw Data 필드명",
+              "expected": "title_tag",
+              "kind": "text",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            },
+            {
+              "id": "title_len",
+              "label": "Raw Data 필드명",
+              "expected": "title_len",
+              "kind": "text",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            }
+          ]
+        },
+        {
+          "id": "C23",
+          "page": 23,
+          "name": "REFERENCE DICT 화면",
+          "bbox": [
+            62,
+            219,
+            508,
+            541
+          ],
+          "preview": "tests/reports/image_evaluation/source_previews/capture_23.png",
+          "json_path": "tests/results/structure_gpu_8gb/page_23/page_23.json",
+          "json_sha256": "c4d765a2a8cefc02fe3222ed4b6885d70af5a8aec08f3803befec6f6bd278447",
+          "markdown_path": "tests/results/structure_gpu_8gb/page_23/page_23.md",
+          "markdown_sha256": "b33b7e0043dfe4f4bf121d5c4373f289b0966ec1c975d11946a2d52a935121d9",
+          "model_settings": {
+            "use_doc_preprocessor": true,
+            "use_seal_recognition": false,
+            "use_table_recognition": true,
+            "use_formula_recognition": false,
+            "use_chart_recognition": false,
+            "use_region_detection": true,
+            "format_block_content": false,
+            "markdown_ignore_labels": [
+              "number",
+              "header",
+              "header_image",
+              "footer",
+              "footer_image"
+            ]
+          },
+          "image_coverage": 0.989332,
+          "linked_image_coverage": 0.989332,
+          "image_preserved": true,
+          "image_linked": true,
+          "images": [
+            {
+              "path": "tests/results/structure_gpu_8gb/page_23/imgs/img_in_image_box_62_216_506_539.jpg",
+              "bbox": [
+                62,
+                216,
+                506,
+                539
+              ],
+              "sha256": "b7de437f3a459dd05b05116ca6ac47843713f20f44546b721ce1e3289760fd80",
+              "dimensions": [
+                444,
+                323
+              ],
+              "markdown_linked": true
+            }
+          ],
+          "blocks": [
+            {
+              "block_id": 4,
+              "label": "image",
+              "bbox": [
+                62,
+                216,
+                506,
+                539
+              ],
+              "content": "DICT \nDNCT Lat My Regut \nCawldiy to 0Outaated List EOLLSt \nCountry 1So t inApo  Dowrdoad mt Cha caaNTer 106A1RAE TYAE COUTEY I UPT AGA USEAP Aual AU:AU Ga12026-09-01Cheg A5A UDEN Indemrle D:0(n)0712028-09-01Change ASA USEPH P PH: PH (a)2026-00-01ASA USETH Thalanl or1Omie 2020-00-0n Change ASA USEVH Vietram W Go1Vikt Nam 2028-09-01Chngr N 12E20Oermary De:DE 0712028-09-0n Change 5LOe*5Pranoe 限：071Pharos Prokmionnel 2028-09-01Change su USEPL Ruiand R:9()G1Roiska 2026-09-0n Change D OET Portags T:PT (p)012025-09-05Du ODUX ux UK: GI (an)012025-09-05n 8N:N(m)o12020-00.0n LATAM SEO Coloentia co : c0 (m)c co Artune 2025-09-01LATAM USEMS thesico MX: MI (0)G MMxico 2026-09-0n ",
+              "markdown_exposed": false
+            }
+          ],
+          "checks": [
+            {
+              "id": "country_iso",
+              "label": "선택 항목명",
+              "expected": "Country ISO",
+              "kind": "text",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            },
+            {
+              "id": "gnb",
+              "label": "선택 항목명",
+              "expected": "GNB",
+              "kind": "text",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            },
+            {
+              "id": "download",
+              "label": "버튼명",
+              "expected": "Download",
+              "kind": "text",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            },
+            {
+              "id": "update_date_header",
+              "label": "표 헤더",
+              "expected": "UPDATE DATE",
+              "kind": "text",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            },
+            {
+              "id": "update_date",
+              "label": "날짜 문자열",
+              "expected": "2026-09-01",
+              "kind": "date",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            }
+          ]
+        },
+        {
+          "id": "C31",
+          "page": 31,
+          "name": "ADMIN DICT Management 화면",
+          "bbox": [
+            68,
+            211,
+            507,
+            563
+          ],
+          "preview": "tests/reports/image_evaluation/source_previews/capture_31.png",
+          "json_path": "tests/results/structure_gpu_8gb/page_31/page_31.json",
+          "json_sha256": "68f2a99d73f1ac51382bc5273a804fd3cf827e795a5016b83a7ed095c1fe6e75",
+          "markdown_path": "tests/results/structure_gpu_8gb/page_31/page_31.md",
+          "markdown_sha256": "4db551166b99f4eaf421c35820c359843b066b4c784d0cac3f6a51ab877574a9",
+          "model_settings": {
+            "use_doc_preprocessor": true,
+            "use_seal_recognition": false,
+            "use_table_recognition": true,
+            "use_formula_recognition": false,
+            "use_chart_recognition": false,
+            "use_region_detection": true,
+            "format_block_content": false,
+            "markdown_ignore_labels": [
+              "number",
+              "header",
+              "header_image",
+              "footer",
+              "footer_image"
+            ]
+          },
+          "image_coverage": 0.992616,
+          "linked_image_coverage": 0.0,
+          "image_preserved": true,
+          "image_linked": false,
+          "images": [
+            {
+              "path": "tests/results/structure_gpu_8gb/page_31/imgs/img_in_table_box_66_208_505_562.jpg",
+              "bbox": [
+                66,
+                208,
+                505,
+                562
+              ],
+              "sha256": "93c34cd219c2da8c42360d2acd15561e06762a7b177d7efa8ab11e5ab00bfb7d",
+              "dimensions": [
+                439,
+                354
+              ],
+              "markdown_linked": false
+            }
+          ],
+          "blocks": [
+            {
+              "block_id": 4,
+              "label": "table",
+              "bbox": [
+                66,
+                208,
+                505,
+                562
+              ],
+              "content": "<html><body><table><thead><tr><td colspan=\"5\">Admin</td></tr><tr><td rowspan=\"15\">DICT LAt Change</td></tr><tr><td></td></tr><tr><td>Country I50 GNO Outdlated List EOLList</td><td></td><td></td></tr><tr><td>Country ISo 2 </td><td>Search Country 150.</td><td>Dowrload</td></tr><tr><td>R060N SUSIBLARY CHUNTRY L0CALE PA6E TYH OHINTRY ISO UPOATE DATE ACTIN</td><td>PA6E TYH</td><td>OHINTRY ISO</td><td>UPOATE DATE ACTIN</td><td></td></tr><tr><td>ASIA Autralla Au : AU jan) 2026-09-01 LGEAP GP1</td><td>Au : AU jan)</td><td>GP1</td><td></td><td>2026-09-01</td></tr><tr><td>ASIA LGEN Indoresia 0:0 S1 2026-09-01</td><td>S1</td><td>2026-09-01</td><td>ASIA LOEPH trilggire :)r 2026-09-01</td><td></td><td>2026-09-01</td></tr><tr><td>ASIA LOETH Thaland g1 shemelo 2026-09-01</td><td>2026-09-01</td><td></td><td>AGIA LGEVH Vetnam 9 Wilt Nan 2026-09-01</td><td>9</td><td>2026-09-01</td></tr><tr><td>eu 1GEDO Germary DE : DE (0) 01 2026-09-01 Delete</td><td>eu 1GEDO</td><td>01</td><td>2026-09-01 Delete</td><td>eu LGEFS 1ar FR:FR() 0 France Professiornel 2026-09-01</td><td>eu LGEFS</td></tr><tr><td>EU LOEPL Poland PL:PL(g 0 Pohka 2026-09-01 Delete</td><td>EU LOEPL</td><td>0</td><td>2026-09-01</td><td>Delete</td><td></td></tr><tr><td>su LGEPT</td><td>su LGEPT Rorugal PT :PT (pr) 9 。 2026-09-01</td><td>9</td><td>2026-09-01</td><td></td><td></td></tr><tr><td>su LGEUK</td><td>su LGEUK ux UK : GB (an) 9 - 2026-09-01 lete</td><td>UK : GB (an)</td><td>2026-09-01</td><td>lete</td><td></td></tr><tr><td>NOIA LGeL</td><td>roa N : N (en)</td><td>61</td><td>w</td><td>2026-09-01</td><td></td></tr><tr><td>LATAM LGECE</td><td>Colombia</td><td>c0:00</td><td>01</td><td>co Profenionnel</td><td>2026-09-01</td></tr><tr><td>LATAM LOEMS</td><td>Meico</td><td>Mx:MX</td><td>01</td><td>Misico</td><td>2025-09-01</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table></body></html>",
+              "markdown_exposed": true
+            }
+          ],
+          "checks": [
+            {
+              "id": "change_log",
+              "label": "탭 이름",
+              "expected": "Change Log",
+              "kind": "text",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            },
+            {
+              "id": "add_item",
+              "label": "버튼명",
+              "expected": "Add Item",
+              "kind": "text",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            },
+            {
+              "id": "gnb",
+              "label": "선택 항목명",
+              "expected": "GNB",
+              "kind": "text",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            },
+            {
+              "id": "update_date_header",
+              "label": "표 헤더",
+              "expected": "UPDATE DATE",
+              "kind": "text",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            },
+            {
+              "id": "update_date",
+              "label": "날짜 문자열",
+              "expected": "2026-09-01",
+              "kind": "date",
+              "json_present": true,
+              "markdown_present": true,
+              "json_block_ids": [
+                4
+              ],
+              "markdown_block_ids": [
+                4
+              ]
+            }
+          ]
+        }
+      ],
+      "totals": {
+        "captures": 7,
+        "items": 35,
+        "image_preserved": 6,
+        "image_linked": 5,
+        "json_present": 9,
+        "markdown_present": 1
+      }
+    },
+    "vl_gpu_8gb": {
+      "name": "VL",
+      "manifest_sha256": "9823780be5c4c17a97ec493509d1e0afed88b546c3fa898dcbce844b86bef5f6",
+      "captures": [
+        {
+          "id": "C09",
+          "page": 9,
+          "name": "AX Agent 화면",
+          "bbox": [
+            72,
+            211,
+            504,
+            560
+          ],
+          "preview": "tests/reports/image_evaluation/source_previews/capture_09.png",
+          "json_path": "tests/results/vl_gpu_8gb/page_09/page_09.json",
+          "json_sha256": "cd4b85bf6a96125c38f044c3d7259ebab8fe214a9c0ef9b46761475595aab9d4",
+          "markdown_path": "tests/results/vl_gpu_8gb/page_09/page_09.md",
+          "markdown_sha256": "c11a1db86893b3602f2dbc306e03af1dc6d18d9e24aaa1266ab644c97126d739",
+          "model_settings": {
+            "use_doc_preprocessor": false,
+            "use_layout_detection": true,
+            "use_chart_recognition": false,
+            "use_seal_recognition": false,
+            "use_ocr_for_image_block": false,
+            "format_block_content": false,
+            "merge_layout_blocks": true,
+            "markdown_ignore_labels": [
+              "number",
+              "header",
+              "header_image",
+              "footer",
+              "footer_image"
+            ],
+            "return_layout_polygon_points": true
+          },
+          "image_coverage": 0.988539,
+          "linked_image_coverage": 0.988539,
+          "image_preserved": true,
+          "image_linked": true,
+          "images": [
+            {
+              "path": "tests/results/vl_gpu_8gb/page_09/imgs/img_in_image_box_71_185_505_556.jpg",
+              "bbox": [
+                71,
+                185,
+                505,
+                556
+              ],
+              "sha256": "8994179bcd83c93a6a396a8106babb893c5ae7c72919601f7dbef5bfea38c00a",
+              "dimensions": [
+                434,
+                371
+              ],
+              "markdown_linked": true
+            }
+          ],
+          "blocks": [
+            {
+              "block_id": 4,
+              "label": "image",
+              "bbox": [
+                71,
+                185,
+                505,
+                556
+              ],
+              "content": "",
+              "markdown_exposed": false
+            }
+          ],
+          "checks": [
+            {
+              "id": "headline",
+              "label": "메인 질문 문구",
+              "expected": "What would you like to see today?",
+              "kind": "text",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            },
+            {
+              "id": "monitoring",
+              "label": "카테고리 버튼",
+              "expected": "Monitoring",
+              "kind": "text",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            },
+            {
+              "id": "how_to_fix",
+              "label": "카테고리 버튼",
+              "expected": "How to Fix",
+              "kind": "text",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            },
+            {
+              "id": "faq",
+              "label": "카테고리 버튼",
+              "expected": "FAQ",
+              "kind": "text",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            },
+            {
+              "id": "status_overview",
+              "label": "목록 제목",
+              "expected": "STATUS OVERVIEW",
+              "kind": "text",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            }
+          ]
+        },
+        {
+          "id": "C14A",
+          "page": 14,
+          "name": "Jira 입력 폼 왼쪽",
+          "bbox": [
+            72,
+            286,
+            275,
+            493
+          ],
+          "preview": "tests/reports/image_evaluation/source_previews/capture_14.png",
+          "json_path": "tests/results/vl_gpu_8gb/page_14/page_14.json",
+          "json_sha256": "5360b507f5bc127a511ad743f3b0f5833edf090ebb1ab53642075df77d1571c4",
+          "markdown_path": "tests/results/vl_gpu_8gb/page_14/page_14.md",
+          "markdown_sha256": "048ba9507d4f3ece5578529064cb7819a71c403ffaefb7015f3a8400b80cbc22",
+          "model_settings": {
+            "use_doc_preprocessor": false,
+            "use_layout_detection": true,
+            "use_chart_recognition": false,
+            "use_seal_recognition": false,
+            "use_ocr_for_image_block": false,
+            "format_block_content": false,
+            "merge_layout_blocks": true,
+            "markdown_ignore_labels": [
+              "number",
+              "header",
+              "header_image",
+              "footer",
+              "footer_image"
+            ],
+            "return_layout_polygon_points": true
+          },
+          "image_coverage": 0.971038,
+          "linked_image_coverage": 0.971038,
+          "image_preserved": true,
+          "image_linked": true,
+          "images": [
+            {
+              "path": "tests/results/vl_gpu_8gb/page_14/imgs/img_in_image_box_73_288_275_490.jpg",
+              "bbox": [
+                73,
+                288,
+                275,
+                490
+              ],
+              "sha256": "6ac2559ac54e71452634dff57b00afe45663935bb478367c168abb8a518e982e",
+              "dimensions": [
+                202,
+                202
+              ],
+              "markdown_linked": true
+            }
+          ],
+          "blocks": [
+            {
+              "block_id": 5,
+              "label": "image",
+              "bbox": [
+                73,
+                288,
+                275,
+                490
+              ],
+              "content": "",
+              "markdown_exposed": false
+            }
+          ],
+          "checks": [
+            {
+              "id": "project",
+              "label": "필드명",
+              "expected": "Project",
+              "kind": "text",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            },
+            {
+              "id": "issue_type",
+              "label": "필드명",
+              "expected": "Issue Type",
+              "kind": "text",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            },
+            {
+              "id": "summary",
+              "label": "필드명",
+              "expected": "Summary",
+              "kind": "text",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            },
+            {
+              "id": "target_locale",
+              "label": "필드명",
+              "expected": "Target Locale(s)",
+              "kind": "text",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            },
+            {
+              "id": "personal_info",
+              "label": "필드명",
+              "expected": "Personal Info Y/N",
+              "kind": "text",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            }
+          ]
+        },
+        {
+          "id": "C14B",
+          "page": 14,
+          "name": "Jira 입력 폼 오른쪽",
+          "bbox": [
+            300,
+            286,
+            506,
+            493
+          ],
+          "preview": "tests/reports/image_evaluation/source_previews/capture_14.png",
+          "json_path": "tests/results/vl_gpu_8gb/page_14/page_14.json",
+          "json_sha256": "5360b507f5bc127a511ad743f3b0f5833edf090ebb1ab53642075df77d1571c4",
+          "markdown_path": "tests/results/vl_gpu_8gb/page_14/page_14.md",
+          "markdown_sha256": "048ba9507d4f3ece5578529064cb7819a71c403ffaefb7015f3a8400b80cbc22",
+          "model_settings": {
+            "use_doc_preprocessor": false,
+            "use_layout_detection": true,
+            "use_chart_recognition": false,
+            "use_seal_recognition": false,
+            "use_ocr_for_image_block": false,
+            "format_block_content": false,
+            "merge_layout_blocks": true,
+            "markdown_ignore_labels": [
+              "number",
+              "header",
+              "header_image",
+              "footer",
+              "footer_image"
+            ],
+            "return_layout_polygon_points": true
+          },
+          "image_coverage": 0.961634,
+          "linked_image_coverage": 0.961634,
+          "image_preserved": true,
+          "image_linked": true,
+          "images": [
+            {
+              "path": "tests/results/vl_gpu_8gb/page_14/imgs/img_in_image_box_302_287_505_489.jpg",
+              "bbox": [
+                302,
+                287,
+                505,
+                489
+              ],
+              "sha256": "60c387e657344ac6d276b8370028fb9fa61d894111b861e78f213ddb0cb602e5",
+              "dimensions": [
+                203,
+                202
+              ],
+              "markdown_linked": true
+            },
+            {
+              "path": "tests/results/vl_gpu_8gb/page_14/imgs/img_in_image_box_478_476_502_489.jpg",
+              "bbox": [
+                478,
+                476,
+                502,
+                489
+              ],
+              "sha256": "e4cef27f83f258e17203ef126433bffa738778bd9ef4a8f6e26815b1084cc61f",
+              "dimensions": [
+                24,
+                13
+              ],
+              "markdown_linked": false
+            }
+          ],
+          "blocks": [
+            {
+              "block_id": 7,
+              "label": "image",
+              "bbox": [
+                302,
+                287,
+                505,
+                489
+              ],
+              "content": "",
+              "markdown_exposed": false
+            }
+          ],
+          "checks": [
+            {
+              "id": "data_field",
+              "label": "필드 설명",
+              "expected": "Data Field needs to be extracted",
+              "kind": "text",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            },
+            {
+              "id": "as_is",
+              "label": "필드명",
+              "expected": "As-Is",
+              "kind": "text",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            },
+            {
+              "id": "to_be",
+              "label": "필드명",
+              "expected": "To-Be",
+              "kind": "text",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            },
+            {
+              "id": "reason",
+              "label": "필드명",
+              "expected": "Business Reason to Request",
+              "kind": "text",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            },
+            {
+              "id": "create",
+              "label": "버튼명",
+              "expected": "Create",
+              "kind": "text",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            }
+          ]
+        },
+        {
+          "id": "C20",
+          "page": 20,
+          "name": "Spec Monitoring 화면",
+          "bbox": [
+            64,
+            205,
+            513,
+            550
+          ],
+          "preview": "tests/reports/image_evaluation/source_previews/capture_20.png",
+          "json_path": "tests/results/vl_gpu_8gb/page_20/page_20.json",
+          "json_sha256": "029eeeaae71fd1c1f7433d5d5ea238be0fcfd218a8057361fde232bebb45dead",
+          "markdown_path": "tests/results/vl_gpu_8gb/page_20/page_20.md",
+          "markdown_sha256": "9976d8148fe0c450d4f3127495c9f375393c9084ed12996da1158b27e1ed710a",
+          "model_settings": {
+            "use_doc_preprocessor": false,
+            "use_layout_detection": true,
+            "use_chart_recognition": false,
+            "use_seal_recognition": false,
+            "use_ocr_for_image_block": false,
+            "format_block_content": false,
+            "merge_layout_blocks": true,
+            "markdown_ignore_labels": [
+              "number",
+              "header",
+              "header_image",
+              "footer",
+              "footer_image"
+            ],
+            "return_layout_polygon_points": true
+          },
+          "image_coverage": 0.994455,
+          "linked_image_coverage": 0.99266,
+          "image_preserved": true,
+          "image_linked": true,
+          "images": [
+            {
+              "path": "tests/results/vl_gpu_8gb/page_20/imgs/img_in_chart_box_72_363_522_548.jpg",
+              "bbox": [
+                72,
+                363,
+                522,
+                548
+              ],
+              "sha256": "d7a9b4f359df50dd295686234a3d0eb3f93c76f4906a38af98617b683ec5826c",
+              "dimensions": [
+                450,
+                185
+              ],
+              "markdown_linked": true
+            },
+            {
+              "path": "tests/results/vl_gpu_8gb/page_20/imgs/img_in_image_box_64_205_510_344.jpg",
+              "bbox": [
+                64,
+                205,
+                510,
+                344
+              ],
+              "sha256": "0301e51b4aeee66805826c2c56a7bc221bac98e6c6410840971d56e5b5fd5740",
+              "dimensions": [
+                446,
+                139
+              ],
+              "markdown_linked": false
+            },
+            {
+              "path": "tests/results/vl_gpu_8gb/page_20/imgs/img_in_image_box_66_155_523_549.jpg",
+              "bbox": [
+                66,
+                155,
+                523,
+                549
+              ],
+              "sha256": "d8a2a1dc827e8fbbd67f4506a198414df01938d3fee62774ee00b5307dc0101c",
+              "dimensions": [
+                457,
+                394
+              ],
+              "markdown_linked": true
+            }
+          ],
+          "blocks": [
+            {
+              "block_id": 4,
+              "label": "image",
+              "bbox": [
+                66,
+                155,
+                523,
+                549
+              ],
+              "content": "",
+              "markdown_exposed": false
+            },
+            {
+              "block_id": 5,
+              "label": "chart",
+              "bbox": [
+                72,
+                363,
+                522,
+                548
+              ],
+              "content": "",
+              "markdown_exposed": false
+            }
+          ],
+          "checks": [
+            {
+              "id": "comparison_date",
+              "label": "비교 날짜",
+              "expected": "2026-08-24",
+              "kind": "date",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            },
+            {
+              "id": "current_date",
+              "label": "현재 날짜",
+              "expected": "2026-09-11",
+              "kind": "date",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            },
+            {
+              "id": "mismatch",
+              "label": "Mismatch 카드 값",
+              "expected": "2631",
+              "kind": "number",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            },
+            {
+              "id": "missing",
+              "label": "Missing on page 카드 값",
+              "expected": "14033",
+              "kind": "number",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            },
+            {
+              "id": "clear_filter",
+              "label": "버튼명",
+              "expected": "Clear filter",
+              "kind": "text",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            }
+          ]
+        },
+        {
+          "id": "C22",
+          "page": 22,
+          "name": "Monitoring Item 상세 화면",
+          "bbox": [
+            68,
+            214,
+            509,
+            544
+          ],
+          "preview": "tests/reports/image_evaluation/source_previews/capture_22.png",
+          "json_path": "tests/results/vl_gpu_8gb/page_22/page_22.json",
+          "json_sha256": "856fd9361c86be0a3bee4a10fd92af0e11f14a567d0c6d2f2a912f4d7819fd38",
+          "markdown_path": "tests/results/vl_gpu_8gb/page_22/page_22.md",
+          "markdown_sha256": "536bae0b313b6d2212315f4abe0d850ac6a691b15d4d554fff4c27d0920be697",
+          "model_settings": {
+            "use_doc_preprocessor": false,
+            "use_layout_detection": true,
+            "use_chart_recognition": false,
+            "use_seal_recognition": false,
+            "use_ocr_for_image_block": false,
+            "format_block_content": false,
+            "merge_layout_blocks": true,
+            "markdown_ignore_labels": [
+              "number",
+              "header",
+              "header_image",
+              "footer",
+              "footer_image"
+            ],
+            "return_layout_polygon_points": true
+          },
+          "image_coverage": 0.003161,
+          "linked_image_coverage": 0.003161,
+          "image_preserved": false,
+          "image_linked": false,
+          "images": [
+            {
+              "path": "tests/results/vl_gpu_8gb/page_22/imgs/img_in_image_box_73_309_96_329.jpg",
+              "bbox": [
+                73,
+                309,
+                96,
+                329
+              ],
+              "sha256": "7dcc55e2e1126caef608207bd46e543165b2c9aaf100ae8187ab080e83ab4457",
+              "dimensions": [
+                23,
+                20
+              ],
+              "markdown_linked": true
+            }
+          ],
+          "blocks": [
+            {
+              "block_id": 4,
+              "label": "image",
+              "bbox": [
+                73,
+                309,
+                96,
+                329
+              ],
+              "content": "",
+              "markdown_exposed": false
+            },
+            {
+              "block_id": 5,
+              "label": "table",
+              "bbox": [
+                73,
+                332,
+                502,
+                540
+              ],
+              "content": "<table><tr><td>SEO</td><td>Title Length</td><td>20pt</td><td>CAT: PLP: POP: Shared</td></tr><tr><td colspan=\"2\">CRITERIA</td><td colspan=\"2\">SCORE</td></tr><tr><td colspan=\"2\">40+ chars – 60 chars or less (2-byte countries 5-40)</td><td colspan=\"2\">20pt</td></tr><tr><td colspan=\"2\">Over the upper bound</td><td colspan=\"2\">10pt</td></tr><tr><td colspan=\"2\">Under the lower bound</td><td colspan=\"2\">0pt</td></tr><tr><td colspan=\"4\">* Guide Include Brand/Product core keywords, 40-60 chars recommended, Hong Kong (2h), Japan, Taiwan and China are judged at 5-40 chars because a character carries more there.</td></tr><tr><td colspan=\"4\">Raw Data column: [1514-549, 1514-149]</td></tr><tr><td>SEO</td><td>Meta Description</td><td>20pt</td><td>CAT: PLP: POP: Shared</td></tr><tr><td>SEO</td><td>Canonical Link</td><td>10pt</td><td>CAT: PLP: POP: Shared</td></tr><tr><td>SEO</td><td>Feature Card Alt Text</td><td>10pt</td><td>CAT: PLP: POP: Shared</td></tr></table>",
+              "markdown_exposed": true
+            }
+          ],
+          "checks": [
+            {
+              "id": "title_length",
+              "label": "항목명",
+              "expected": "Title Length",
+              "kind": "text",
+              "json_present": true,
+              "markdown_present": true,
+              "json_block_ids": [
+                5
+              ],
+              "markdown_block_ids": [
+                5
+              ]
+            },
+            {
+              "id": "over_bound",
+              "label": "평가 조건",
+              "expected": "Over the upper bound",
+              "kind": "text",
+              "json_present": true,
+              "markdown_present": true,
+              "json_block_ids": [
+                5
+              ],
+              "markdown_block_ids": [
+                5
+              ]
+            },
+            {
+              "id": "under_bound",
+              "label": "평가 조건",
+              "expected": "Under the lower bound",
+              "kind": "text",
+              "json_present": true,
+              "markdown_present": true,
+              "json_block_ids": [
+                5
+              ],
+              "markdown_block_ids": [
+                5
+              ]
+            },
+            {
+              "id": "title_tag",
+              "label": "Raw Data 필드명",
+              "expected": "title_tag",
+              "kind": "text",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            },
+            {
+              "id": "title_len",
+              "label": "Raw Data 필드명",
+              "expected": "title_len",
+              "kind": "text",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            }
+          ]
+        },
+        {
+          "id": "C23",
+          "page": 23,
+          "name": "REFERENCE DICT 화면",
+          "bbox": [
+            62,
+            219,
+            508,
+            541
+          ],
+          "preview": "tests/reports/image_evaluation/source_previews/capture_23.png",
+          "json_path": "tests/results/vl_gpu_8gb/page_23/page_23.json",
+          "json_sha256": "d4f6bf1ef16faf8e98e07a6701f7a944a47d6156e41106206993ad6b3760b2a9",
+          "markdown_path": "tests/results/vl_gpu_8gb/page_23/page_23.md",
+          "markdown_sha256": "1920cde3359f4514fa42264defd6407f102f6844d96d11feccee3af000de21aa",
+          "model_settings": {
+            "use_doc_preprocessor": false,
+            "use_layout_detection": true,
+            "use_chart_recognition": false,
+            "use_seal_recognition": false,
+            "use_ocr_for_image_block": false,
+            "format_block_content": false,
+            "merge_layout_blocks": true,
+            "markdown_ignore_labels": [
+              "number",
+              "header",
+              "header_image",
+              "footer",
+              "footer_image"
+            ],
+            "return_layout_polygon_points": true
+          },
+          "image_coverage": 0.122079,
+          "linked_image_coverage": 0.082618,
+          "image_preserved": false,
+          "image_linked": false,
+          "images": [
+            {
+              "path": "tests/results/vl_gpu_8gb/page_23/imgs/img_in_image_box_290_271_505_310.jpg",
+              "bbox": [
+                290,
+                271,
+                505,
+                310
+              ],
+              "sha256": "92166fbceea0a41eb4f476cc2af21910b79955ae396c9b7d62b3be7d18abce1e",
+              "dimensions": [
+                215,
+                39
+              ],
+              "markdown_linked": true
+            },
+            {
+              "path": "tests/results/vl_gpu_8gb/page_23/imgs/img_in_image_box_445_316_503_376.jpg",
+              "bbox": [
+                445,
+                316,
+                503,
+                376
+              ],
+              "sha256": "bc155f98f3004288d8d1f19587453d9141864738b8435d9fbec4914337224b64",
+              "dimensions": [
+                58,
+                60
+              ],
+              "markdown_linked": true
+            },
+            {
+              "path": "tests/results/vl_gpu_8gb/page_23/imgs/img_in_image_box_448_379_498_390.jpg",
+              "bbox": [
+                448,
+                379,
+                498,
+                390
+              ],
+              "sha256": "5d594f6a4193a40aeb3b1d8c56e25176de0fb591500c28d26427f5ad88f51455",
+              "dimensions": [
+                50,
+                11
+              ],
+              "markdown_linked": false
+            },
+            {
+              "path": "tests/results/vl_gpu_8gb/page_23/imgs/img_in_image_box_448_411_498_423.jpg",
+              "bbox": [
+                448,
+                411,
+                498,
+                423
+              ],
+              "sha256": "23f201bb4ff500d5b58597caa4521415dd9754c4ea920c87670d975ca9dba71e",
+              "dimensions": [
+                50,
+                12
+              ],
+              "markdown_linked": false
+            },
+            {
+              "path": "tests/results/vl_gpu_8gb/page_23/imgs/img_in_image_box_448_477_498_489.jpg",
+              "bbox": [
+                448,
+                477,
+                498,
+                489
+              ],
+              "sha256": "5ac6007c67456245483832fb53ce1baa72ab1f77096710d6153c10e586b79301",
+              "dimensions": [
+                50,
+                12
+              ],
+              "markdown_linked": false
+            },
+            {
+              "path": "tests/results/vl_gpu_8gb/page_23/imgs/img_in_image_box_448_494_498_505.jpg",
+              "bbox": [
+                448,
+                494,
+                498,
+                505
+              ],
+              "sha256": "807ff8a50196c225ed6da4ee6cccf10b77b6e3bb291084678720256857827515",
+              "dimensions": [
+                50,
+                11
+              ],
+              "markdown_linked": false
+            },
+            {
+              "path": "tests/results/vl_gpu_8gb/page_23/imgs/img_in_image_box_448_510_498_521.jpg",
+              "bbox": [
+                448,
+                510,
+                498,
+                521
+              ],
+              "sha256": "b80e3ef19b07b51b1258d0d06798f80143d3ceef9d6ba090790c3c4e932ffe5b",
+              "dimensions": [
+                50,
+                11
+              ],
+              "markdown_linked": false
+            },
+            {
+              "path": "tests/results/vl_gpu_8gb/page_23/imgs/img_in_image_box_448_526_499_538.jpg",
+              "bbox": [
+                448,
+                526,
+                499,
+                538
+              ],
+              "sha256": "9d07be466fe2b2aaf30854da96351a27cb1dac6ccc9fe4a6ace7b42eb0d403e5",
+              "dimensions": [
+                51,
+                12
+              ],
+              "markdown_linked": false
+            },
+            {
+              "path": "tests/results/vl_gpu_8gb/page_23/imgs/img_in_image_box_449_395_498_406.jpg",
+              "bbox": [
+                449,
+                395,
+                498,
+                406
+              ],
+              "sha256": "b34d3797cd6b6b52200c5595e8bb06cdb8d9a01ff716b07c295a4226229dcdcb",
+              "dimensions": [
+                49,
+                11
+              ],
+              "markdown_linked": false
+            },
+            {
+              "path": "tests/results/vl_gpu_8gb/page_23/imgs/img_in_image_box_449_428_498_439.jpg",
+              "bbox": [
+                449,
+                428,
+                498,
+                439
+              ],
+              "sha256": "096df93acf5f342fb980dc9d6e832e4884d55d31c6f1ea1a5bdd31453646cc03",
+              "dimensions": [
+                49,
+                11
+              ],
+              "markdown_linked": false
+            },
+            {
+              "path": "tests/results/vl_gpu_8gb/page_23/imgs/img_in_image_box_449_444_498_456.jpg",
+              "bbox": [
+                449,
+                444,
+                498,
+                456
+              ],
+              "sha256": "2e1e9f9835045a97e4ed8d0b84e1cbc2981c5064cc31684fb823cb227dcc6edb",
+              "dimensions": [
+                49,
+                12
+              ],
+              "markdown_linked": false
+            },
+            {
+              "path": "tests/results/vl_gpu_8gb/page_23/imgs/img_in_image_box_449_461_498_472.jpg",
+              "bbox": [
+                449,
+                461,
+                498,
+                472
+              ],
+              "sha256": "80525d0202144dd155a7993a7858c091cbdf634c5517e036237c05443c5a065c",
+              "dimensions": [
+                49,
+                11
+              ],
+              "markdown_linked": false
+            }
+          ],
+          "blocks": [
+            {
+              "block_id": 4,
+              "label": "table",
+              "bbox": [
+                64,
+                218,
+                503,
+                539
+              ],
+              "content": "<table><tr><td>Country ISO</td><td>Country ID</td><td>Questionnaire</td><td>Questionnaire</td><td>Questionnaire</td><td>Questionnaire</td><td>Request Change</td></tr><tr><td>ADA</td><td>ADAPA</td><td>Australia</td><td>AGI: AU (en)</td><td>QPI</td><td>2020-08-01</td><td rowspan=\"3\"><img src=\"imgs/img_in_image_box_445_316_503_376.jpg\" alt=\"Image\"\" /></td></tr><tr><td>ASA</td><td>LSDAP</td><td>Indonesia</td><td>OJ: AD (en)</td><td>QPI</td><td>2020-08-01</td></tr><tr><td>ASIA</td><td>LSDPH</td><td>Philippines</td><td>IR: IN (en)</td><td>QPI</td><td>2020-08-01</td></tr><tr><td>ASA</td><td>LSDTH</td><td>Thailand</td><td>TH: TH (en)</td><td>QPI</td><td>2020-08-01</td><td>Change Steps</td></tr><tr><td>ADA</td><td>LSDVA</td><td>Vietnam</td><td>VN: VN (en)</td><td>QPI</td><td>2020-08-01</td><td>Change Steps</td></tr><tr><td>EU</td><td>LSDSD</td><td>Germany</td><td>DE: DE (en)</td><td>QPI</td><td>2020-08-01</td><td>Change Steps</td></tr><tr><td>EU</td><td>LSDPS</td><td>France</td><td>FR: FR (en)</td><td>QPI</td><td>2020-08-01</td><td>Change Steps</td></tr><tr><td>EU</td><td>LSDPS</td><td>Poland</td><td>PL: PL (en)</td><td>QPI</td><td>2020-08-01</td><td>Change Steps</td></tr><tr><td>EU</td><td>LSDST</td><td>Portugal</td><td>PT: PT (en)</td><td>QPI</td><td>2020-08-01</td><td>Change Steps</td></tr><tr><td>EU</td><td>LSDXA</td><td>UK</td><td>UK: GB (en)</td><td>QPI</td><td>2020-08-01</td><td>Change Steps</td></tr><tr><td>INDIA</td><td>LSDL</td><td>India</td><td>IN: IN (en)</td><td>QPI</td><td>2020-08-01</td><td>Change Steps</td></tr><tr><td>LATAN</td><td>LSDCE</td><td>Colombia</td><td>CO: CO (en)</td><td>QPI</td><td>2020-08-01</td><td>Change Steps</td></tr><tr><td>LATAN</td><td>LSDMS</td><td>Mexico</td><td>MEX: M (en)</td><td>QPI</td><td>2020-08-01</td><td>Change Steps</td></tr></table>",
+              "markdown_exposed": true
+            },
+            {
+              "block_id": 5,
+              "label": "image",
+              "bbox": [
+                290,
+                271,
+                505,
+                310
+              ],
+              "content": "",
+              "markdown_exposed": false
+            }
+          ],
+          "checks": [
+            {
+              "id": "country_iso",
+              "label": "선택 항목명",
+              "expected": "Country ISO",
+              "kind": "text",
+              "json_present": true,
+              "markdown_present": true,
+              "json_block_ids": [
+                4
+              ],
+              "markdown_block_ids": [
+                4
+              ]
+            },
+            {
+              "id": "gnb",
+              "label": "선택 항목명",
+              "expected": "GNB",
+              "kind": "text",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            },
+            {
+              "id": "download",
+              "label": "버튼명",
+              "expected": "Download",
+              "kind": "text",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            },
+            {
+              "id": "update_date_header",
+              "label": "표 헤더",
+              "expected": "UPDATE DATE",
+              "kind": "text",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            },
+            {
+              "id": "update_date",
+              "label": "날짜 문자열",
+              "expected": "2026-09-01",
+              "kind": "date",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            }
+          ]
+        },
+        {
+          "id": "C31",
+          "page": 31,
+          "name": "ADMIN DICT Management 화면",
+          "bbox": [
+            68,
+            211,
+            507,
+            563
+          ],
+          "preview": "tests/reports/image_evaluation/source_previews/capture_31.png",
+          "json_path": "tests/results/vl_gpu_8gb/page_31/page_31.json",
+          "json_sha256": "0e9a7c01b80ecb8a2a12293a3ed22b6abf6f1db82aec26eee934130b1da896ed",
+          "markdown_path": "tests/results/vl_gpu_8gb/page_31/page_31.md",
+          "markdown_sha256": "eb129dfee594999b6b2f6ca95b7b5c199becc2e1bb0b476d15c1aafa71564fc8",
+          "model_settings": {
+            "use_doc_preprocessor": false,
+            "use_layout_detection": true,
+            "use_chart_recognition": false,
+            "use_seal_recognition": false,
+            "use_ocr_for_image_block": false,
+            "format_block_content": false,
+            "merge_layout_blocks": true,
+            "markdown_ignore_labels": [
+              "number",
+              "header",
+              "header_image",
+              "footer",
+              "footer_image"
+            ],
+            "return_layout_polygon_points": true
+          },
+          "image_coverage": 0.054385,
+          "linked_image_coverage": 0.01887,
+          "image_preserved": false,
+          "image_linked": false,
+          "images": [
+            {
+              "path": "tests/results/vl_gpu_8gb/page_31/imgs/img_in_image_box_451_346_505_400.jpg",
+              "bbox": [
+                451,
+                346,
+                505,
+                400
+              ],
+              "sha256": "d43f3b60bd43a1413e737ff3e5c0e3cf90cb62c6d07b247482e958c2e0be5f89",
+              "dimensions": [
+                54,
+                54
+              ],
+              "markdown_linked": true
+            },
+            {
+              "path": "tests/results/vl_gpu_8gb/page_31/imgs/img_in_image_box_455_441_502_454.jpg",
+              "bbox": [
+                455,
+                441,
+                502,
+                454
+              ],
+              "sha256": "a8dcfa8828ca48acef54c50c003b68312fc27951cc78cf91cd5e63183916a767",
+              "dimensions": [
+                47,
+                13
+              ],
+              "markdown_linked": false
+            },
+            {
+              "path": "tests/results/vl_gpu_8gb/page_31/imgs/img_in_image_box_455_460_502_472.jpg",
+              "bbox": [
+                455,
+                460,
+                502,
+                472
+              ],
+              "sha256": "267aaf561380bc54978e8b0d357e29a4269abbf6ffb8f546da0ed1a04476d745",
+              "dimensions": [
+                47,
+                12
+              ],
+              "markdown_linked": false
+            },
+            {
+              "path": "tests/results/vl_gpu_8gb/page_31/imgs/img_in_image_box_455_478_501_490.jpg",
+              "bbox": [
+                455,
+                478,
+                501,
+                490
+              ],
+              "sha256": "8925b860f990b56c4bbb9ff30d4144d87486c09fe9bbb2825fa9a0bcd84ec746",
+              "dimensions": [
+                46,
+                12
+              ],
+              "markdown_linked": false
+            },
+            {
+              "path": "tests/results/vl_gpu_8gb/page_31/imgs/img_in_image_box_455_496_501_508.jpg",
+              "bbox": [
+                455,
+                496,
+                501,
+                508
+              ],
+              "sha256": "1ed0832f6450a903bfc057ef6dbdfdd47f6d24dd9715d86b27b744f2cc79ed8e",
+              "dimensions": [
+                46,
+                12
+              ],
+              "markdown_linked": false
+            },
+            {
+              "path": "tests/results/vl_gpu_8gb/page_31/imgs/img_in_image_box_456_332_501_343.jpg",
+              "bbox": [
+                456,
+                332,
+                501,
+                343
+              ],
+              "sha256": "1437ffff05f3a65d8e60ae12f8c0aa6777c3b7aee6ddb8cb9821e795079db45a",
+              "dimensions": [
+                45,
+                11
+              ],
+              "markdown_linked": false
+            },
+            {
+              "path": "tests/results/vl_gpu_8gb/page_31/imgs/img_in_image_box_456_405_502_417.jpg",
+              "bbox": [
+                456,
+                405,
+                502,
+                417
+              ],
+              "sha256": "9b68a0559bd3f701d91aa841dd06028d7a2d9fde621a644b49abc1364b43c5a9",
+              "dimensions": [
+                46,
+                12
+              ],
+              "markdown_linked": false
+            },
+            {
+              "path": "tests/results/vl_gpu_8gb/page_31/imgs/img_in_image_box_456_423_502_435.jpg",
+              "bbox": [
+                456,
+                423,
+                502,
+                435
+              ],
+              "sha256": "2f836cc02c8ccb3805f91094b7a20c71be4876048f1eca26d5e2562578d9571d",
+              "dimensions": [
+                46,
+                12
+              ],
+              "markdown_linked": false
+            },
+            {
+              "path": "tests/results/vl_gpu_8gb/page_31/imgs/img_in_image_box_456_460_474_472.jpg",
+              "bbox": [
+                456,
+                460,
+                474,
+                472
+              ],
+              "sha256": "99e547fca5c4be868a830937a0f2ffa8b95e6b1dd0bce38422418aad64cab3b6",
+              "dimensions": [
+                18,
+                12
+              ],
+              "markdown_linked": false
+            },
+            {
+              "path": "tests/results/vl_gpu_8gb/page_31/imgs/img_in_image_box_456_515_501_526.jpg",
+              "bbox": [
+                456,
+                515,
+                501,
+                526
+              ],
+              "sha256": "4de2b0e9830251058ea49aff436448153a8f5b50b1700254b0215561c01e21e6",
+              "dimensions": [
+                45,
+                11
+              ],
+              "markdown_linked": false
+            },
+            {
+              "path": "tests/results/vl_gpu_8gb/page_31/imgs/img_in_image_box_456_532_502_545.jpg",
+              "bbox": [
+                456,
+                532,
+                502,
+                545
+              ],
+              "sha256": "acc86f0cb5b3956c232fc27f44c85c9b4834fd4d394a0f09a3379792f8ed19c2",
+              "dimensions": [
+                46,
+                13
+              ],
+              "markdown_linked": false
+            },
+            {
+              "path": "tests/results/vl_gpu_8gb/page_31/imgs/img_in_image_box_456_551_503_562.jpg",
+              "bbox": [
+                456,
+                551,
+                503,
+                562
+              ],
+              "sha256": "cac3aa7d17c1aa5c25b6304cae8deed3dc465bda1eeb3e44b812a2baec9082b3",
+              "dimensions": [
+                47,
+                11
+              ],
+              "markdown_linked": false
+            }
+          ],
+          "blocks": [
+            {
+              "block_id": 4,
+              "label": "table",
+              "bbox": [
+                68,
+                210,
+                504,
+                563
+              ],
+              "content": "<table><tr><td colspan=\"9\">Admin</td></tr><tr><td colspan=\"2\">1</td><td colspan=\"7\">Your registration approvals and DCT reference date</td></tr><tr><td>Post List</td><td>Change Log</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Country ISO</td><td>GMD</td><td>Outdated List</td><td>EDL List</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan=\"4\">Country ISO\\n2 items, you can add, edit, or delete entries here</td><td>Search Country ISO...</td><td>Search</td><td>&amp; Download</td><td>+ Add Item</td><td></td></tr><tr><td>REGION</td><td>SERDURY</td><td>COUNTRY</td><td>LANDSCLE</td><td>PAGE TYPE</td><td>COUNTRY ISO</td><td>OPPORT DATE</td><td>ACTION</td><td></td></tr><tr><td>AGIA</td><td>UGAAP</td><td>Australia</td><td>AU - AU (en)</td><td>GPI</td><td>Australia AU AP</td><td>2020-00-01</td><td>E&amp;I</td><td>Delete</td></tr><tr><td>ASIA</td><td>LGEIN</td><td>Indonesia</td><td>(D) (in)</td><td>GPI</td><td>Australia</td><td>2020-00-01</td><td>6</td><td>Delete</td></tr><tr><td>ASIA</td><td>LGEPH</td><td>Philippines</td><td>PH - PH (en)</td><td>GPI</td><td>—</td><td>—</td><td>—</td><td>Delete</td></tr><tr><td>ASIA</td><td>LGETH</td><td>Thailand</td><td>TH - TH (en)</td><td>GPI</td><td>liverofire</td><td>2020-00-01</td><td>E&amp;I</td><td>Delete</td></tr><tr><td>ASIA</td><td>LGEIH</td><td>Vietnam</td><td>(VI) (in)</td><td>GPI</td><td>Vale Nam</td><td>2020-00-01</td><td>E&amp;I</td><td>Delete</td></tr><tr><td>EU</td><td>LGEDE</td><td>Germany</td><td>DE DE (de)</td><td>GPI</td><td>Germany, Deutschland Business, Deutschland, DE, DS</td><td>2020-00-01</td><td>E&amp;I</td><td>Delete</td></tr><tr><td>EU</td><td>LGEPS</td><td>France</td><td>FR, FR (fr)</td><td>GPI</td><td>France Professional</td><td>2020-00-01</td><td>E&amp;I</td><td>Delete</td></tr><tr><td>EU</td><td>LGEPL</td><td>Poland</td><td>PL - PL (pl)</td><td>GPI</td><td>Polka</td><td>2020-00-01</td><td>E&amp;I</td><td>Delete</td></tr><tr><td>EU</td><td>LGEPT</td><td>Portugal</td><td>PT - PT (gr)</td><td>GPI</td><td>—</td><td>—</td><td>—</td><td>Delete</td></tr><tr><td>EU</td><td>LGEUK</td><td>UK</td><td>UK - GB (en)</td><td>GPI</td><td>—</td><td>—</td><td>—</td><td>Delete</td></tr><tr><td>INDIA</td><td>LGEI</td><td>India</td><td>IN - IN (en)</td><td>GPI</td><td>India, PL, IL</td><td>2020-00-01</td><td>E&amp;I</td><td>Delete</td></tr><tr><td>LATAM</td><td>LGECB</td><td>Colombia</td><td>CO - CD (ae)</td><td>GPI</td><td>CO Professional</td><td>2020-00-01</td><td>E&amp;I</td><td>Delete</td></tr><tr><td>LATAM</td><td>LGEUS</td><td>Mexico</td><td>MEX - MX (en)</td><td>GPI</td><td>Mexico</td><td>2020-00-01</td><td>E&amp;I</td><td>Delete</td></tr></table>",
+              "markdown_exposed": true
+            },
+            {
+              "block_id": 5,
+              "label": "image",
+              "bbox": [
+                451,
+                346,
+                505,
+                400
+              ],
+              "content": "",
+              "markdown_exposed": false
+            }
+          ],
+          "checks": [
+            {
+              "id": "change_log",
+              "label": "탭 이름",
+              "expected": "Change Log",
+              "kind": "text",
+              "json_present": true,
+              "markdown_present": true,
+              "json_block_ids": [
+                4
+              ],
+              "markdown_block_ids": [
+                4
+              ]
+            },
+            {
+              "id": "add_item",
+              "label": "버튼명",
+              "expected": "Add Item",
+              "kind": "text",
+              "json_present": true,
+              "markdown_present": true,
+              "json_block_ids": [
+                4
+              ],
+              "markdown_block_ids": [
+                4
+              ]
+            },
+            {
+              "id": "gnb",
+              "label": "선택 항목명",
+              "expected": "GNB",
+              "kind": "text",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            },
+            {
+              "id": "update_date_header",
+              "label": "표 헤더",
+              "expected": "UPDATE DATE",
+              "kind": "text",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            },
+            {
+              "id": "update_date",
+              "label": "날짜 문자열",
+              "expected": "2026-09-01",
+              "kind": "date",
+              "json_present": false,
+              "markdown_present": false,
+              "json_block_ids": [],
+              "markdown_block_ids": []
+            }
+          ]
+        }
+      ],
+      "totals": {
+        "captures": 7,
+        "items": 35,
+        "image_preserved": 4,
+        "image_linked": 4,
+        "json_present": 6,
+        "markdown_present": 6
+      }
+    }
+  }
+}

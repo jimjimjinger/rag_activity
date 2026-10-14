@@ -1,0 +1,262 @@
+{
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 1200,
+    "height": 675,
+    "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_seal_recognition": false,
+        "use_table_recognition": true,
+        "use_formula_recognition": false,
+        "use_chart_recognition": false,
+        "use_region_detection": true,
+        "format_block_content": false,
+        "markdown_ignore_labels": [
+            "number",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image"
+        ]
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "text",
+            "block_content": "For inquiries, please contact \nAmuna.kim1@concentrix.com \nThank you.\n\n",
+            "block_bbox": [
+                53,
+                266,
+                518,
+                421
+            ],
+            "block_id": 0,
+            "block_order": 1
+        }
+    ],
+    "doc_preprocessor_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_orientation_classify": false,
+            "use_doc_unwarping": false
+        },
+        "angle": -1
+    },
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.5154747366905212,
+                "coordinate": [
+                    55.6751708984375,
+                    267.89459228515625,
+                    518.8267211914062,
+                    313.54632568359375
+                ]
+            },
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.4627329111099243,
+                "coordinate": [
+                    55.98516845703125,
+                    338.793701171875,
+                    308.01605224609375,
+                    363.39288330078125
+                ]
+            },
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.4559774100780487,
+                "coordinate": [
+                    53.2681884765625,
+                    266.9342041015625,
+                    518.6729125976562,
+                    421.23388671875
+                ]
+            },
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.4300413131713867,
+                "coordinate": [
+                    55.328826904296875,
+                    379.65087890625,
+                    238.87149047851562,
+                    420.78515625
+                ]
+            }
+        ]
+    },
+    "overall_ocr_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_preprocessor": false,
+            "use_textline_orientation": false
+        },
+        "dt_polys": [
+            [
+                [
+                    56,
+                    269
+                ],
+                [
+                    517,
+                    272
+                ],
+                [
+                    517,
+                    310
+                ],
+                [
+                    56,
+                    307
+                ]
+            ],
+            [
+                [
+                    57,
+                    339
+                ],
+                [
+                    305,
+                    341
+                ],
+                [
+                    305,
+                    362
+                ],
+                [
+                    57,
+                    361
+                ]
+            ],
+            [
+                [
+                    57,
+                    377
+                ],
+                [
+                    239,
+                    383
+                ],
+                [
+                    238,
+                    421
+                ],
+                [
+                    56,
+                    415
+                ]
+            ]
+        ],
+        "text_det_params": {
+            "limit_side_len": 1200,
+            "limit_type": "max",
+            "thresh": 0.3,
+            "max_side_limit": 4000,
+            "box_thresh": 0.6,
+            "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+            -1,
+            -1,
+            -1
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+            "For inquiries, please contact",
+            "Amuna.kim1@concentrix.com",
+            "Thank you."
+        ],
+        "rec_scores": [
+            0.9796437621116638,
+            0.99041348695755,
+            0.9751736521720886
+        ],
+        "rec_polys": [
+            [
+                [
+                    56,
+                    269
+                ],
+                [
+                    517,
+                    272
+                ],
+                [
+                    517,
+                    310
+                ],
+                [
+                    56,
+                    307
+                ]
+            ],
+            [
+                [
+                    57,
+                    339
+                ],
+                [
+                    305,
+                    341
+                ],
+                [
+                    305,
+                    362
+                ],
+                [
+                    57,
+                    361
+                ]
+            ],
+            [
+                [
+                    57,
+                    377
+                ],
+                [
+                    239,
+                    383
+                ],
+                [
+                    238,
+                    421
+                ],
+                [
+                    56,
+                    415
+                ]
+            ]
+        ],
+        "rec_boxes": [
+            [
+                56,
+                269,
+                517,
+                310
+            ],
+            [
+                57,
+                339,
+                305,
+                362
+            ],
+            [
+                56,
+                377,
+                239,
+                421
+            ]
+        ]
+    }
+}
