@@ -2,6 +2,7 @@
 
 **PDF → Paddle Markdown → 기능 항목별 청크 → LangChain Document → BGE-M3 / FAISS 검색 → Qwen 답변**로 구성합니다.
 RAG는 검색한 문서를 LLM의 입력에 제공하는 방식이며 모델을 재학습시키지 않습니다.
+프로젝트 의도와 필수 구성만 빠르게 보려면 [PROJECT_SUMMARY.md](PROJECT_SUMMARY.md)를 참고하세요.
 
 Python 파일 설명은 [src/README.md](src/README.md), Paddle 계열의 역할과 발전 과정은 [paddle.md](paddle.md)를 참고하세요.
 집 GPU 실행 순서, 분석 비교 기준, RAG 고정 질문·검색 실험 결과와 학습 완료 기준은 [tests/README.md](tests/README.md)에 정리했습니다.
