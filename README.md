@@ -5,6 +5,7 @@ RAG는 검색한 문서를 LLM의 입력에 제공하는 방식이며 모델을 
 
 Python 파일 설명은 [src/README.md](src/README.md), Paddle 계열의 역할과 발전 과정은 [paddle.md](paddle.md)를 참고하세요.
 집 GPU 실행 순서, 분석 비교 기준, RAG 고정 질문·검색 실험 결과와 학습 완료 기준은 [tests/README.md](tests/README.md)에 정리했습니다.
+집 노트북의 새 Codex 세션에서 이어서 작업하려면 [HANDOFF.md](HANDOFF.md)를 먼저 읽으세요. 현재 상태·작업 원칙·실행 순서·전달용 메시지를 담았습니다.
 
 ## 구성과 역할
 
