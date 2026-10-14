@@ -83,3 +83,7 @@ PyMuPDF에도 **Tesseract 기반 OCR 기능과 표 추출 기능이 있습니다
 ## 6. 한 문장으로 설명하기
 
 > Paddle 계열은 글자 인식 중심의 PP-OCR에서 표·배치까지 분석하는 PP-Structure와 시각·언어 모델 기반 PaddleOCR-VL로 기능을 확장해 왔으며, 우리 시스템은 PP-StructureV3의 문서 분석 결과를 RAG의 검색 자료로 사용합니다.
+
+실습에서는 각 모델의 역할을 설명하고, 같은 PDF의 보정 전 Structure·VL 결과를 대조해 누락·읽기 순서·표 구조의 차이를 확인합니다.
+기존 CPU 경량 Structure, GPU용 Structure 고정밀 후보, GPU용 VL을 별도 저장해 비교합니다. GPU 후보는 큰 배치 모델·서버 OCR·SLANeXt 표 모델을 사용하며 최적 구성으로 검증된 상태는 아닙니다.
+비교 절차와 아직 검증하지 않은 부분은 [실험 안내](tests/README.md)에 정리했습니다. 문서 분석 결과와 검색용 청킹 결과를 구분해서 평가합니다.

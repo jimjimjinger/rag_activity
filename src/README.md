@@ -5,20 +5,20 @@
 
 | 파일 | 담당 작업 | 실행 시점 |
 |---|---|---|
-| `parse_pdf.py` | PDF를 PP-StructureV3로 분석해 Markdown 저장 | PDF가 바뀌었을 때 |
-| `build_corpus.py` | 기능 항목별 청킹, 출처와 함께 JSONL 저장 | Markdown·청킹 규칙이 바뀌었을 때 |
-| `rag.py` | Document 생성, 임베딩·FAISS 인덱스 구축·검색 | 인덱스 구축 또는 질문할 때 |
+| `parse_pdf.py` | PDF 분석·Markdown·추출 이미지 저장 | PDF가 바뀌었을 때 |
+| `build_corpus.py` | 기능 항목별 청킹, 출처·이미지 경로를 JSONL에 저장 | Markdown·청킹·이미지 연결이 바뀌었을 때 |
+| `rag.py` | 임베딩·FAISS 검색, 답변과 원본 출처 안내 | 인덱스 구축 또는 질문할 때 |
 | `llm_client.py` | 프롬프트 구성, Qwen 답변 스트리밍 | 답변을 생성할 때 |
 
 ## 1. parse_pdf.py — PDF 분석
 
 **입력:** `--pdf` PDF 경로, `--output` 결과 폴더. 생략하면 현재 매뉴얼과 기본 폴더를 사용합니다.
 
-**출력:** `outputs/parsing/pp_structurev3/page_XX/page_XX.md`, `run_summary.json`.
+**출력:** 페이지별 Markdown·Paddle 추출 이미지, `run_summary.json`.
 
 1. 원본 PDF의 경로와 해시를 확인합니다.
 2. `PPStructureV3(**settings)`로 문서 분석 파이프라인을 만듭니다.
-3. `pipeline.predict(input=str(pdf_path))`에 PDF를 직접 전달합니다.
+3. `pipeline.predict(input=str(pdf_path))`로 PDF의 OCR·표·배치 분석을 실행합니다.
 4. 반환된 페이지 번호와 전체 페이지 수를 확인하며 Markdown을 저장합니다.
 5. 전체 페이지가 순서대로 처리됐는지 확인하고 완료 기록을 남깁니다.
 
@@ -29,10 +29,9 @@
 | en_PP-OCRv5_mobile_rec | 영어 글자 인식 |
 | SLANet_plus | 표 구조 인식 설정 |
 
-PDF 렌더링은 Paddle 내부에서 수행합니다. 직접 PNG를 만드는 코드는 없습니다.
+PDF 렌더링은 Paddle 내부에서 수행합니다.
 Paddle이 그림 영역을 Markdown과 함께 이미지 파일로 저장할 수 있습니다.
 수식·차트 수치 변환·도장 인식은 비활성화되어 있습니다. 매번 PDF 전체를 분석합니다.
-이번 LangChain 전환에서는 이 파일을 변경하지 않았습니다.
 
 ## 2. build_corpus.py — 항목별 청크 생성
 
@@ -91,6 +90,9 @@ Paddle의 원래 Markdown 파일을 덮어쓰지 않습니다. 번호·제목의
 ### build()
 
 원본 해시와 전체 페이지 분석 완료를 검사한 뒤 각 페이지에 `apply_corrections() → split_page()`를 적용합니다.
+`page_images()`는 해당 Markdown이 참조한 Paddle 추출 이미지의 경로와 해시를 청크에 붙입니다.
+현재 19개 이미지가 연결됩니다. 같은 페이지의 항목들은 동일한 이미지 목록을 공유하며 이미지가 없는 페이지는 빈 목록입니다.
+임의의 과거 이미지 파일을 폴더에서 찾아 붙이지 않으며, 페이지 밖 경로나 외부 URL은 연결하지 않습니다.
 모든 페이지를 성공적으로 읽은 후 임시 파일을 최종 코퍼스로 교체합니다.
 
 | 청크 필드 | 의미 |
@@ -104,15 +106,16 @@ Paddle의 원래 Markdown 파일을 덮어쓰지 않습니다. 번호·제목의
 | `source_sha256` | 원본 PDF 변경 확인용 해시 |
 | `origin` | PP-StructureV3 Markdown, 보정한 경우 PDF-verified corrections 표시 |
 | `correction_source` | 보정 기록 경로. 보정하지 않은 페이지는 null |
+| `images` | Paddle 추출 이미지별 `path`(상대 경로), `sha256`. 임베딩하지 않는 metadata |
 
 표를 BeautifulSoup으로 다시 해석하거나 pdfplumber 결과와 비교하지 않습니다.
 출처와 상위 메뉴의 정보가 청크에 남도록 하는 것이 핵심입니다.
 
-## 3. rag.py — LangChain Document, FAISS 검색
+## 3. rag.py — LangChain FAISS로 임베딩·검색
 
 **입력:** 코퍼스 또는 저장된 인덱스, 사용자 질문.
 
-**출력:** 인덱스 파일 또는 검색 근거·답변.
+**출력:** 인덱스 파일 또는 터미널의 검색 근거·원본 PDF 경로·페이지·답변.
 
 ### Document와 임베딩
 
@@ -126,56 +129,53 @@ Document(
 )
 ```
 
-`Document`는 파일이 아닌 파이썬 객체입니다.
-`page_content`가 BGE-M3의 임베딩 입력이고 metadata는 출처·결과 표시 등에 사용합니다.
-검색에 필요한 메뉴·제목은 본문에도 들어갑니다.
+`Document`는 파이썬 객체입니다. `page_content`가 임베딩 입력이고 metadata는 출처 표시 등에 사용합니다.
+`embeddings()`는 `OllamaEmbeddings(model="bge-m3:567m", ...)` 연결 객체를 만듭니다.
+실제 문서·질문 벡터 계산은 Ollama에서 실행하는 BGE-M3가 합니다.
 
-`embeddings()`는 `OllamaEmbeddings(model="bge-m3:567m", ...)`를 만듭니다.
-이 클래스는 연결 도구이고, 실제 벡터 계산은 Ollama가 실행하는 BGE-M3가 합니다.
+### build_index() — 인덱스 생성·저장
 
-### build_index()
+```python
+store = FAISS.from_documents(documents, embeddings(), normalize_L2=True)
+INDEX.write_bytes(store.serialize_to_bytes())
+```
 
-1. Document 목록, 원본 PDF 해시, 모델 해시를 확인합니다.
-2. 본문을 두 개씩 BGE-M3로 임베딩하고 진행 상황을 출력합니다.
-3. 벡터를 길이 1로 정규화해 FAISS `IndexFlatL2`에 추가합니다.
-4. `index.faiss`에 벡터 인덱스를 저장합니다.
-5. `index.json`에 Document 본문·출처와 모델·코퍼스·인덱스 해시를 저장합니다.
+LangChain FAISS 연동이 본문 임베딩을 요청하고, 문서 벡터를 정규화해 인덱스를 만듭니다.
+`data/rag/index.pkl` 하나에 벡터 인덱스·Document·벡터 ID 연결을 함께 저장합니다.
+Windows의 한글 경로에서 FAISS 기본 파일 저장 함수가 오류를 내므로, LangChain의 바이트 직렬화 기능을 사용합니다.
+인덱스 변경 검사, 점수 환산, 기존 벡터 재사용은 구현하지 않습니다. 코퍼스·임베딩 모델을 바꾸면 다시 구축합니다.
 
-명시적으로 갱신할 때 전체 코퍼스를 다시 임베딩합니다.
-평소 질문할 때는 저장된 인덱스를 읽으므로 문서 전체를 다시 임베딩하지 않습니다.
-FAISS 기본 pickle 저장 방식을 사용하지 않고, FAISS 바이너리와 JSON으로 저장합니다.
+### load_retriever() / retrieve() — 불러오기·검색
 
-### LocalRetriever / retrieve()
+```python
+store = FAISS.deserialize_from_bytes(
+    INDEX.read_bytes(), embeddings(), normalize_L2=True,
+    allow_dangerous_deserialization=True,
+)
+retriever = store.as_retriever(search_kwargs={"k": top_k})
+documents = retriever.invoke(question)
+```
 
-`LocalRetriever`는 LangChain의 `BaseRetriever`를 상속한 검색기입니다.
-`invoke(질문)`을 호출하면 다음 작업을 수행합니다.
+`deserialize_from_bytes()`는 이 PC에서 직접 생성한 인덱스만 불러옵니다. 저장 파일은 Git에서 제외하며 다른 PC에서는 다시 만듭니다.
+불러올 때도 `normalize_L2=True`를 지정해야 질문 벡터가 정규화됩니다.
 
-1. BGE-M3로 질문을 임베딩하고 정규화합니다.
-2. FAISS가 모든 문서 벡터와 제곱 L2 거리를 비교합니다.
-3. 가까운 상위 k개를 고르고, 해당 Document에 점수를 붙여 반환합니다.
-
-정규화한 벡터에서 `cosine = 1 - squared_L2 / 2`이므로 코사인 검색과 같은 순위입니다.
-검색기의 문서 목록 순서가 FAISS 벡터 순서와 대응합니다.
-기본 k는 3이며 `--top-k`로 바꿀 수 있습니다.
-
-`load_retriever()`는 코퍼스·원본·모델의 변경과 인덱스 파일 해시를 검사합니다.
-`retrieve()`는 검색기를 불러와 `invoke()`하고 Document와 점수를 반환합니다.
-`langchain-community` 대신 LangChain core 검색기에 FAISS를 직접 연결한 구성입니다.
+`invoke()`가 BGE-M3 질문 임베딩 → 정규화 → FAISS 검색 → 상위 k개 Document 반환을 수행합니다.
+기본 k는 3이며 `--top-k`로 바꿉니다. 정규화된 벡터의 L2 거리 순위는 코사인 유사도 순위와 같습니다.
+직접 작성한 검색기 클래스나 유사도 계산 코드는 없습니다.
+연동 클래스는 `langchain_community.vectorstores.FAISS`이며 실제 벡터 검색은 FAISS가 합니다.
 
 ### 근거와 실행
 
 | 함수 | 역할 |
 |---|---|
-| `model_digest()` | 로컬 Ollama에서 BGE-M3 가중치 버전 확인 |
-| `read_manifest()` | 인덱스 형식과 코퍼스 변경 검사 |
-| `validate_sources()` | 원본 PDF 변경 검사 |
-| `build_context()` | 검색 본문 앞에 페이지 출처를 붙여 연결 |
-| `ask()` | 검색 근거 표시 → Qwen 답변 호출 |
+| `build_context()` | 검색 본문 앞에 페이지 출처를 붙여 연결하고 Qwen 입력 길이에 맞춤 |
+| `ask()` | 검색 근거·원본 출처 표시 → Qwen 답변 호출 |
 | `main()` | 인덱스 구축, 단일 질문, 대화형 입력 선택 |
 
 `--search-only`는 Qwen을 호출하지 않습니다.
+검색 결과에는 원본 PDF 경로와 근거 페이지를 표시합니다. 질문·답변 기록이나 HTML 파일은 저장하지 않습니다.
+Qwen에는 본문만 전달하며 Paddle 추출 이미지는 출처 metadata로 연결합니다.
 질문마다 독립적으로 처리하며 대화 기억, 리랭커, 자동 페이지 확장은 추가하지 않았습니다.
-유사도는 정답 확률이 아닙니다.
 
 ## 4. llm_client.py — 프롬프트와 Qwen
 
@@ -201,11 +201,11 @@ CPU 4스레드, 문맥 4,096토큰, 출력 최대 256토큰, temperature 0.2를 
 로컬 요청은 시스템 프록시를 거치지 않으며 LangSmith 추적도 비활성화합니다.
 이 파일은 PDF를 읽거나 검색하지 않습니다.
 
-## 검증 및 환경
+## 분석 비교 및 환경
 
-`tests/test_rag.py`는 보정 후 원문 보존, 9개 검토 페이지의 항목 경계·본문, 오래된 보정 차단, 항목 문맥·절차 유지, 표·불명확한 페이지 유지,
-FAISS 저장·검색 순위·출처, 오래된 데이터 차단, 프롬프트 변수 처리를 검사합니다.
-테스트는 실제 모델 호출 없이 실행하며 일반 질문 실행 흐름에 포함되지 않습니다.
+`tests/`에는 기존 PP-StructureV3와 PaddleOCR-VL의 분석 결과를 따로 저장합니다.
+수동 보정 전 Markdown을 비교하고, 같은 `split_page()` 규칙을 적용한 청킹 결과도 별도로 만듭니다.
+실험 결과는 현재 RAG의 코퍼스·인덱스에 반영하지 않습니다. 실행 방법은 [비교 폴더 안내](../tests/README.md)에 있습니다.
 
 RAG에는 `requirements-rag-lock.txt`, Paddle에는 `requirements-parser-lock.txt`를 사용합니다.
 설치와 실행 명령은 [프로젝트 README](../README.md)에 있습니다.

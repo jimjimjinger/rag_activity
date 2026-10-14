@@ -4,5 +4,7 @@
 *.txt text eol=lf
 *.ps1 text eol=crlf
 *.cmd text eol=crlf
-# Preserve corpus bytes because index.json records their SHA-256.
+# Preserve generated corpus bytes across checkouts.
 /data/rag/corpus.jsonl -text
+# Parser manifests hash raw Markdown bytes; keep them unchanged on other PCs.
+/tests/**/page_*.md -text

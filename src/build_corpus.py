@@ -1,5 +1,6 @@
 """Split clear feature sections; keep ambiguous Markdown pages together."""
 import hashlib
+from html.parser import HTMLParser
 import json
 from pathlib import Path
 import re
@@ -9,6 +10,42 @@ ROOT = Path(__file__).resolve().parents[1]
 PARSED = ROOT / "outputs/parsing/pp_structurev3"
 DESTINATION = ROOT / "data/rag/corpus.jsonl"
 CORRECTIONS = ROOT / "data/rag/markdown_corrections.json"
+
+
+class ImageReferences(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.paths = []
+
+    def handle_starttag(self, tag, attrs):
+        if tag == "img":
+            source = dict(attrs).get("src")
+            if source:
+                self.paths.append(source)
+
+
+def page_images(markdown, content):
+    """Link only images already produced and referenced by Paddle."""
+    parser = ImageReferences()
+    parser.feed(content)
+    references = parser.paths + re.findall(r"!\[[^\]]*\]\(<([^>]+)>\)", content)
+    references += re.findall(r"!\[[^\]]*\]\(([^\s)]+)\)", content)
+    candidates = []
+    for name in references:
+        if re.match(r"^[a-zA-Z][\w+.-]*:", name) or name.startswith("//"):
+            continue
+        path = (markdown.parent / name).resolve()
+        path.relative_to(markdown.parent.resolve())
+        candidates.append(path)
+    images, seen = [], set()
+    for path in candidates:
+        relative = path.resolve().relative_to(ROOT.resolve()).as_posix()
+        if relative in seen:
+            continue
+        actual = hashlib.sha256(path.read_bytes()).hexdigest()
+        images.append({"path": relative, "sha256": actual})
+        seen.add(relative)
+    return images
 
 
 def apply_corrections(content, page, corrections):
@@ -88,10 +125,12 @@ def build():
         if not content:
             raise ValueError(f"Page {page} has empty Markdown; check the Paddle result.")
         content = apply_corrections(content, page, corrections)
+        images = page_images(markdown, content)
         corrected = str(page) in corrections
         for number, part in enumerate(split_page(content), start=1):
             chunks.append({
                 "id": f"p{page}-s{number}", "page": page, **part,
+                "images": images,
                 "origin": "PP-StructureV3 Markdown" + (" + PDF-verified corrections" if corrected else ""),
                 "correction_source": CORRECTIONS.relative_to(ROOT).as_posix() if corrected else None,
                 "source_markdown": markdown.relative_to(ROOT).as_posix(),
