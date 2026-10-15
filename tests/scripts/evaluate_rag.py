@@ -1,4 +1,4 @@
-"""Compare saved RAG profiles on fixed PDF-reviewed questions; run serially on CPU."""
+"""원본 PDF로 확인한 고정 질문으로 저장된 RAG 프로필을 비교하며 CPU에서 순서대로 실행한다."""
 import argparse
 from datetime import datetime
 import hashlib

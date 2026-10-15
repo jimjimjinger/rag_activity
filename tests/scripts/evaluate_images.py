@@ -1,4 +1,4 @@
-"""Evaluate saved Structure/VL screenshot artifacts; never run OCR or an LLM."""
+"""저장된 Structure·VL 화면 캡처 결과를 평가하며 OCR이나 LLM은 실행하지 않는다."""
 import hashlib
 from html import unescape
 import json
@@ -28,7 +28,7 @@ def normalize(text):
 
 def contains(text, check):
     expected = normalize(check["expected"])
-    # Numeric boundaries reject e.g. 2631 inside concatenated 585263114033.
+    # 숫자 경계를 검사해 585263114033처럼 붙은 숫자열 속의 2631은 일치로 인정하지 않는다.
     boundary = r"\d" if check["kind"] in ("date", "number") else r"\w"
     return bool(re.search(rf"(?<!{boundary}){re.escape(expected)}(?!{boundary})", text))
 

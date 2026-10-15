@@ -1,4 +1,4 @@
-"""Build the grounded prompt and stream a local Qwen answer with LangChain."""
+"""LangChain으로 문서 근거를 포함한 프롬프트를 구성하고 로컬 Qwen 답변을 스트리밍한다."""
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_ollama import ChatOllama
@@ -33,7 +33,7 @@ def stream_chat(question, context, device="gpu"):
     )
     chain = PROMPT | llm | StrOutputParser()
     emitted = False
-    # Keep the workflow local even if tracing is enabled in the shell.
+    # 셸에서 추적 기능이 켜져 있어도 이 실행에서는 비활성화해 로컬 처리를 유지한다.
     with tracing_context(enabled=False):
         for text in chain.stream({"question": question, "context": context}):
             if text:

@@ -1,4 +1,4 @@
-"""Local RAG chat with original PDF pages and linked parser images."""
+"""원본 PDF 페이지와 문서 분석에서 추출한 이미지를 함께 보여주는 로컬 RAG 화면."""
 import hashlib
 from html import unescape
 import io
@@ -20,7 +20,7 @@ PROFILE_LABELS = {"vl": "PaddleOCR-VL", "structure": "PP-StructureV3", "existing
 
 @st.cache_resource
 def resource_lock():
-    # PDFium is not thread-safe; serialize rendering and local model requests.
+    # PDFium은 동시 실행에 안전하지 않으므로 렌더링과 로컬 모델 요청을 순서대로 처리한다.
     return RLock()
 
 
@@ -86,7 +86,7 @@ def select_record(profile):
 
 
 def display_text(content):
-    # Make extracted text readable without executing parser-produced HTML.
+    # 문서 분석 결과의 HTML을 실행하지 않고, 추출된 텍스트를 읽기 쉽게 정리한다.
     text = re.sub(r"</t[dh]\s*>", " | ", content, flags=re.I)
     text = re.sub(r"</tr\s*>", "\n\n", text, flags=re.I)
     return unescape(re.sub(r"<[^>]+>", "", text)).strip()

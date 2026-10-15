@@ -1,4 +1,4 @@
-"""Run StructureV3 quality or PaddleOCR-VL on the same PDF for comparison."""
+"""같은 PDF를 고정밀 후보 StructureV3 또는 PaddleOCR-VL로 분석해 비교한다."""
 import argparse
 import gc
 import hashlib
@@ -44,7 +44,7 @@ def main():
             os.environ.update(allocator_settings)
         if args.pipeline == "vl":
             prediction_settings = {"max_pixels": 262144, "max_new_tokens": 2048}
-    # Use the existing parser cache without running source-availability probes.
+    # 모델 다운로드 서버의 접근 가능 여부를 확인하지 않고 기존 문서 분석 모델 캐시를 사용한다.
     os.environ.setdefault("PADDLE_PDX_MODEL_SOURCE", "huggingface")
     os.environ.setdefault("PADDLE_PDX_DISABLE_MODEL_SOURCE_CHECK", "True")
     os.environ.setdefault("HF_HUB_DISABLE_XET", "1")
@@ -165,7 +165,7 @@ def main():
         else:
             pipeline = pipeline_class(**settings, paddlex_config=config)
         manifest["initialization_seconds"] = round(time.perf_counter() - initialized, 2)
-        # cpu_threads configures the layout predictor; set dynamic VLM threads too.
+        # cpu_threads는 레이아웃 추론기를 설정하므로 동적 실행 VLM의 스레드 수도 따로 설정한다.
         if args.device == "cpu":
             paddle.framework.core.set_num_threads(settings["cpu_threads"])
             manifest["native_dynamic_threads"] = settings["cpu_threads"]

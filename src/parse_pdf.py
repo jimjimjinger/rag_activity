@@ -1,4 +1,4 @@
-"""Pass a complete PDF directly to PP-StructureV3 and save each page."""
+"""전체 PDF를 PP-StructureV3로 분석하고 페이지별 결과를 저장한다."""
 import argparse
 import hashlib
 import json
@@ -50,7 +50,7 @@ def main():
             use_textline_orientation=False, use_formula_recognition=False,
             use_chart_recognition=False, use_seal_recognition=False,
             use_table_recognition=True,
-            # Table legends can be classified as footnotes: retain them.
+            # 표의 범례가 각주로 분류될 수 있으므로 각주는 결과에 남긴다.
             markdown_ignore_labels=["number", "header", "header_image", "footer", "footer_image"],
         )
         print("Loading local PP-StructureV3 models...", flush=True)
@@ -66,7 +66,7 @@ def main():
             manifest["pages"] = list(range(1, total + 1))
             page_dir = output / f"page_{page:02d}"
             page_dir.mkdir(exist_ok=True)
-            # Explicit filenames avoid overwriting results from the same PDF.
+            # 페이지별 파일명을 지정해 같은 PDF의 결과가 서로 덮어써지지 않도록 한다.
             result.save_to_markdown(save_path=str(page_dir / f"page_{page:02d}.md"))
             manifest["results"].append({"page": page, "directory": page_dir.name})
             save_manifest()

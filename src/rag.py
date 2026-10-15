@@ -1,4 +1,4 @@
-"""LangChain FAISS retrieval with local BGE-M3 and a grounded Qwen answer."""
+"""로컬 BGE-M3와 LangChain FAISS로 검색하고 문서 근거를 바탕으로 Qwen이 답변한다."""
 import argparse
 import json
 from pathlib import Path
@@ -50,7 +50,7 @@ def build_index(corpus=CORPUS, index=INDEX, device="gpu"):
         for start in range(4, len(documents), 4):
             store.add_documents(documents[start:start + 4])
             print(f"Embedded {min(start + 4, len(documents))}/{len(documents)} chunks", flush=True)
-    # Byte serialization also works in Windows folders containing Korean characters.
+    # 바이트 직렬화 방식은 한글이 포함된 Windows 폴더 경로에서도 동작한다.
     index.parent.mkdir(parents=True, exist_ok=True)
     temporary = index.with_suffix(".tmp")
     temporary.write_bytes(store.serialize_to_bytes())
@@ -61,7 +61,7 @@ def build_index(corpus=CORPUS, index=INDEX, device="gpu"):
 def load_retriever(top_k=3, index=INDEX, device="gpu"):
     if not index.exists():
         raise ValueError("Index missing: run scripts/build-rag.ps1 first")
-    # Only load the index generated locally by build_index(); never downloaded pickle files.
+    # build_index()로 로컬에서 생성한 인덱스만 불러오고, 내려받은 pickle 파일은 사용하지 않는다.
     store = FAISS.deserialize_from_bytes(
         index.read_bytes(), embeddings(device=device), normalize_L2=True,
         allow_dangerous_deserialization=True,

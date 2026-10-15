@@ -1,4 +1,4 @@
-"""Check PDF-reviewed examples without correcting parser output or RAG data."""
+"""문서 분석 출력이나 RAG 데이터를 보정하지 않고 원본 PDF로 확인한 사례를 점검한다."""
 import hashlib
 from html import unescape
 from html.parser import HTMLParser

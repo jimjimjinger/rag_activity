@@ -4,40 +4,43 @@
 
 **PP-StructureV3와 PaddleOCR-VL로 같은 PDF를 분석하고, 각각의 결과를 LangChain 기반 로컬 RAG에 연결해 문서 분석·검색·답변의 관계를 직접 확인한 프로젝트다.** Paddle 계열 문서 분석 방식과 RAG의 구성 원리를 학습하고, 실제 결과의 차이와 실패 원인을 설명하는 것이 목적이다.
 
-1. B2B Dashboard 매뉴얼 42페이지를 Structure와 VL로 각각 분석했다.
+1. B2B Dashboard 매뉴얼 42페이지를 CPU 경량 Structure·GPU Structure·GPU VL의 세 구성으로 분석했다.
 2. 원본과 대조해 본문 누락·오인식, 제목과 설명의 연결, 읽기 순서, 표의 행·열·값을 비교했다.
-3. 분석 결과를 직접 청킹하고 BGE-M3·FAISS·Qwen을 연결해 문서 기반 질문·답변을 구현했다.
+3. 분석 결과에 청킹 규칙을 적용하고 BGE-M3·FAISS·Qwen을 연결해 문서 기반 질문·답변을 구현했다.
 4. 분석 방식별 코퍼스·인덱스로 같은 질문의 검색을 비교하고, 기존·VL의 실제 답변도 확인했다.
 5. Streamlit에서 분석 방식을 선택하고 답변·원본 페이지·추출 이미지를 함께 확인할 수 있게 했다.
 
 공개 사전학습 모델을 적용하고 실행 조건과 연결 코드를 구성했다. 모델 학습이나 파인튜닝은 수행하지 않았다.
 
-## Structure와 VL을 어떻게 사용했는가
+## 문서 분석에 사용한 세 가지 구성
 
-| 문서 분석 방식 | 처리 방식 | 확인한 내용 |
+| 구성 | 사용 목적·실행 조건 | 주요 모델 |
 |---|---|---|
-| PP-StructureV3 | 레이아웃·OCR·표 구조 인식 등 역할별 모델을 결합 | 글자 인식, 표 구조 복원, 제목·본문 경계와 읽기 순서 |
-| PaddleOCR-VL 1.6 | 레이아웃으로 영역을 나누고 문서용 비전 언어 모델로 영역별 내용을 인식 | 본문·정형 표 보존, 작은 화면 캡처 오인식, 출력 필터에 의한 누락 |
+| CPU 경량 PP-StructureV3 | 처음 CPU 노트북에서 간단한 RAG를 구성하기 위한 경량 설정. 페이지 폭 2,000px | 레이아웃 `PP-DocLayout-S`, 글자 검출 `PP-OCRv5_mobile_det`, 영어 인식 `en_PP-OCRv5_mobile_rec`, 표 구조 `SLANet_plus` |
+| GPU PP-StructureV3 | GPU 노트북에서 더 큰 모델로 분석 품질 개선을 시도한 구성. 실제 VRAM 약 8GB에 맞춰 페이지 폭 1,200px·배치 1 | 레이아웃 `PP-DocLayout_plus-L`, 영역 분석 `PP-DocBlockLayout`, 글자 검출·인식 `PP-OCRv5_server_det`·`PP-OCRv5_server_rec`, 표 구조 `SLANeXt_wired`·`SLANeXt_wireless` |
+| GPU PaddleOCR-VL 1.6 | 역할별 모델을 조합하는 Structure와 시각·언어 모델 기반 분석을 비교하기 위한 구성. 같은 8GB GPU에서 페이지 폭 1,200px·배치 1 | 레이아웃 `PP-DocLayoutV3`와 문서 인식 `PaddleOCR-VL-1.6-0.9B` |
 
-두 파이프라인은 PDF 페이지를 이미지로 입력받고 Markdown·JSON·추출 이미지를 저장한다. 원래 출력을 수정하지 않은 상태로 비교했다. 새 GPU 비교는 실제 VRAM 약 8GB에 맞춰 페이지 폭 1,200px·배치 1로 실행했고, 두 방식 모두 42페이지를 완료했다.
+세 구성 모두 같은 PDF 42페이지 분석을 완료했다. CPU 경량 결과에는 Markdown·추출 이미지를 저장했고, 새 GPU 두 결과에는 JSON도 함께 저장했다. 문서 분석 비교에는 수동 보정 전 출력을 사용했다.
 
-RAG에는 두 결과를 **별도 프로필로 연결**했다. 선택한 분석 결과의 인덱스를 검색하며, 두 결과를 하나의 코퍼스로 합쳐 사용하는 방식은 구현하지 않았다.
+두 Structure는 같은 PP-StructureV3 파이프라인에서 모델과 설정을 바꾼 것이다. 새 GPU 구성은 정확도 개선을 기대한 후보이며, 이 문서에서 더 좋은 결과가 보장된 구성은 아니다. CPU와 GPU 결과는 모델뿐 아니라 입력 해상도도 달라서 결과 차이를 GPU나 모델 크기 하나의 효과로 해석하지 않는다.
+
+RAG에는 세 구성을 **별도 프로필로 연결**했다. CPU 경량 결과에 원본 대조 보정을 적용한 `existing`, 보정 없는 GPU 결과인 `structure`·`vl`을 선택해 각각의 인덱스를 검색한다.
 
 ## 구성 요소와 역할: LangChain 흐름 기준
 
-LangChain은 문서·임베딩·검색·프롬프트·답변 모델을 연결하는 프레임워크다. 아래는 실제 코드의 실행 순서이며, 문서 분석과 청킹은 Paddle 및 직접 작성한 코드가 담당한다.
+LangChain은 문서·임베딩·검색·프롬프트·답변 모델을 연결하는 프레임워크다. 아래는 실제 코드의 실행 순서이며, 문서 분석은 Paddle이, 청킹은 `build_corpus.py`가 담당한다.
 
 ### 1. 문서 준비: 검색 자료 만들기
 
 | 순서 | 구성 요소 | 역할 |
 |---|---|---|
 | 1. 문서 분석 | PP-StructureV3 / PaddleOCR-VL | PDF의 글자·표·배치를 분석해 Markdown·JSON·이미지를 생성 |
-| 2. 청킹·출처 연결 | 직접 작성한 `split_page()`와 코퍼스 생성 코드 | 기능 항목을 나누고 페이지 문맥·원본 PDF·이미지 경로·해시를 보관. 표·경계가 불명확한 페이지는 전체 유지 |
+| 2. 청킹·출처 연결 | `split_page()`와 코퍼스 생성 코드 | 기능 항목을 나누고 페이지 문맥·원본 PDF·이미지 경로·해시를 보관. 표·경계가 불명확한 페이지는 전체 유지 |
 | 3. 문서 객체 생성 | LangChain `Document` | 본문은 `page_content`, 페이지·항목·출처·이미지는 `metadata`로 담음 |
 | 4. 임베딩 | `OllamaEmbeddings` → Ollama의 BGE-M3 | 청크 본문을 1,024차원 벡터로 변환 |
 | 5. 벡터 저장 | LangChain FAISS 연동 | 정규화한 문서 벡터와 Document를 로컬 인덱스로 저장 |
 
-기존 Structure에는 원본 PDF로 확인한 보정을 적용했고 새 Structure·VL에는 적용하지 않았다. 청킹은 LangChain의 기본 TextSplitter 대신 이 매뉴얼에 맞춘 직접 작성 규칙을 사용했다.
+기존 Structure에는 원본 PDF로 확인한 보정을 적용했고 새 Structure·VL에는 적용하지 않았다. 청킹은 이 매뉴얼에 맞춘 제목·번호 기반 규칙을 사용했다.
 
 ### 2. 질문·답변: 검색한 근거로 답하기
 
@@ -45,7 +48,7 @@ LangChain은 문서·임베딩·검색·프롬프트·답변 모델을 연결하
 |---|---|---|
 | 1. 질문 임베딩 | `OllamaEmbeddings` → BGE-M3 | 질문을 문서와 같은 벡터 공간으로 변환 |
 | 2. 검색 | FAISS + `VectorStoreRetriever` | 질문과 가까운 상위 청크를 Document로 반환. `as_retriever(...).invoke(question)` 사용 |
-| 3. 근거 구성 | 직접 작성한 `build_context()` | 검색 본문에 페이지 번호를 붙이고 입력 길이 한도 안에서 답변 근거를 구성 |
+| 3. 근거 구성 | `build_context()` | 검색 본문에 페이지 번호를 붙이고 입력 길이 한도 안에서 답변 근거를 구성 |
 | 4. 프롬프트 구성 | `ChatPromptTemplate` | 답변 규칙·문서 근거·질문을 결합 |
 | 5. 답변 생성 | `ChatOllama` → Ollama의 Qwen3 | 검색된 텍스트를 읽고 한국어 답변과 페이지 출처를 생성 |
 | 6. 출력 | `StrOutputParser` → Streamlit / 터미널 | 모델 출력을 문자열로 받아 순서대로 표시 |
@@ -58,31 +61,40 @@ chain = PROMPT | llm | StrOutputParser()
 
 검색은 별도 함수로 실행하고 결과를 답변 체인에 전달한다. 검색을 먼저 수행한 뒤 답변하는 **2-step RAG** 구조다. LangChain이 하나의 순서를 강제해 전체 작업을 자동 처리하는 것은 아니다. [LangChain 공식 RAG 설명](https://docs.langchain.com/oss/python/deepagents/retrieval#2-step-rag)
 
-### FAISS 선택 이유와 검색 방식
-
-한 개 매뉴얼을 대상으로 로컬 RAG를 구성하는 실습이므로 별도 데이터베이스 서버 없이 실행할 수 있고 LangChain과 연동하기 쉬운 FAISS를 선택했다. 다른 검색 도구와 성능을 비교해 우위를 확인한 것은 아니다.
-
-**BGE-M3로 임베딩을 생성하고, FAISS에서 정규화된 L2 거리로 코사인 유사도와 동일한 순위의 검색을 수행한다.** 문서와 질문 벡터 모두 길이를 1로 정규화하며, 실제 계산·반환되는 점수는 제곱 L2 거리다. 따라서 거리가 작은 청크부터 검색한다. [FAISS 공식 거리 설명](https://github.com/facebookresearch/faiss/wiki/MetricType-and-distances#how-can-i-index-vectors-for-cosine-similarity)
-
-현재는 BGE-M3의 공개 가중치를 추가 학습 없이 사용해 단일 밀집 벡터를 만든다. 키워드 검색 점수와의 가중 합산이나 재순위화는 구현하지 않았다.
-
-### 실행 기반과 화면
-
-| 구성 요소 | 역할 |
-|---|---|
-| PaddlePaddle | Structure·VL 문서 분석 모델을 실행하는 딥러닝 프레임워크 |
-| Ollama | BGE-M3 임베딩 모델과 Qwen3 답변 모델을 같은 PC에서 실행 |
-| Streamlit | 질문 입력·답변 스트리밍·분석 방식 선택·원본 페이지·추출 이미지 표시 |
-
-임베딩 모델은 `bge-m3:567m`, 답변 모델은 `qwen3:4b-instruct`다. BGE-M3는 검색할 벡터를 만들고 Qwen은 검색된 본문으로 답변한다. PaddleOCR-VL은 앞 단계의 문서 분석 모델이며 답변 단계의 Qwen과 역할이 다르다.
-
 ## 전체 흐름
 
-```text
-문서 준비: PDF → Structure 또는 VL → Markdown → 청킹·출처 연결 → Document → BGE-M3 → FAISS 저장
-질문·답변: 질문 → BGE-M3 → FAISS Retriever → 근거 구성 → 프롬프트 → Qwen → 문자열 답변
-화면 확인: 근거의 페이지·이미지 정보 → Streamlit 원본 페이지·추출 이미지 표시
+```mermaid
+flowchart TD
+    subgraph PREP["① 문서 준비 — 분석·청킹 결과가 바뀔 때"]
+        PDF["원본 PDF"] --> PADDLE["PP-StructureV3 또는 PaddleOCR-VL<br/>문서 분석"]
+        PADDLE --> MD["페이지별 Markdown"]
+        MD --> CHUNK["build_corpus.py<br/>청킹 규칙 적용·출처 연결"]
+        CHUNK --> CORPUS["corpus.jsonl"]
+        CORPUS --> DOC["LangChain Document<br/>본문 + 출처·페이지·이미지 경로"]
+        DOC --> DE["OllamaEmbeddings → Ollama / BGE-M3<br/>문서 임베딩"]
+        DE --> SAVE["LangChain FAISS 연동<br/>벡터 정규화·인덱스 생성·저장"]
+    end
+
+    subgraph QA["② 질문·답변 — 질문할 때마다"]
+        Q["사용자 질문"] --> RET["LangChain 검색기<br/>관련 청크 검색 요청"]
+        RET --> QE["OllamaEmbeddings → Ollama / BGE-M3<br/>질문 임베딩"]
+        QE --> SEARCH["FAISS<br/>가까운 상위 k개 청크 검색"]
+        SEARCH --> FOUND["검색된 Document"]
+        FOUND --> CONTEXT["build_context()<br/>본문과 페이지 출처 조합"]
+        CONTEXT --> PROMPT["ChatPromptTemplate<br/>답변 규칙 + 문서 근거 + 질문"]
+        Q --> PROMPT
+        PROMPT --> LLM["ChatOllama → Ollama / Qwen<br/>답변 생성"]
+        LLM --> STR["StrOutputParser<br/>출력을 문자열로 전달"]
+        STR --> UI["Streamlit 또는 터미널<br/>답변 표시"]
+    end
+
+    SAVE --> SEARCH
+    FOUND --> VIEW["Streamlit<br/>근거 원본 페이지·추출 이미지 표시"]
 ```
+
+그림의 LangChain 검색기는 `VectorStoreRetriever`다. `store.as_retriever(search_kwargs={"k": 3})`로 검색기를 만들고, `retriever.invoke(question)`으로 실행한다. 실행하면 BGE-M3 질문 임베딩 → 질문 벡터 정규화 → FAISS 검색 → 상위 Document 반환이 이어진다. Qwen 답변 생성은 그다음 단계다.
+
+Ollama는 BGE-M3와 Qwen을 로컬에서 실행하며, LangChain의 `OllamaEmbeddings`와 `ChatOllama`가 Ollama에 요청을 보낸다. 검색된 이미지 경로는 화면 표시에 사용하고 Qwen에는 텍스트 근거를 전달한다.
 
 문서·청킹 내용이 바뀔 때 검색 자료를 준비한다. 질문할 때마다 전체 PDF 분석이나 전체 문서 임베딩을 반복하지 않는다. FAISS는 정규화한 벡터의 제곱 L2 거리를 사용해 코사인 유사도와 같은 순위로 검색한다. 기본 검색 근거 수는 3개이며 최적값으로 검증된 설정은 아니다.
 
@@ -131,26 +143,40 @@ chain = PROMPT | llm | StrOutputParser()
 
 문서 분석에서 선택한 원문 구절 19개의 정규화 일치는 새 Structure 8개·VL 18개, 정형 표 3개의 168셀 일치는 Structure 108개·VL 168개였다. 이번 본문·정형 표에서는 VL이 더 잘 보존했지만 작은 캡처 오인식·번호 누락·읽기 순서 문제도 남았다. 이는 전체 문서 정확도가 아니며 입력 조건이 다른 기존 경량 모델과의 단일 모델 비교도 아니다. [분석 보고서](tests/reports/analysis_review.md)
 
-### 이미지 평가: 화면 캡처 보존과 내부 텍스트
+### 이미지 평가: 화면을 남겼는가, 화면 속 글자도 읽었는가?
 
-2026-10-15에는 경량 모델을 제외하고 새 Structure·VL의 저장 결과로 화면 캡처를 평가했다. 원본 PDF를 직접 확인해 6페이지의 캡처 7개와 캡처별 지정 문자열 5개씩 총 35개를 정했다. 모델 재실행이나 추가 OCR은 하지 않았다.
+PDF에 붙어 있는 **대시보드 화면 캡처**를 평가했다. 비교 대상은 새 GPU Structure와 GPU VL이며, 이미 저장된 분석 결과를 확인했다. CPU 경량 결과는 이번 이미지 평가에서 제외했다.
 
-이미지 평가는 다음 세 단계로 구분한다.
+원본 PDF의 6페이지에서 **화면 캡처 7개**를 골랐다. 각 캡처에서 버튼명·날짜·필드명 등 확인할 문구를 5개씩 정해 **총 35개 문구**를 비교했다.
 
-1. **추출 이미지 보존:** 저장된 crop 이미지들의 합집합이 원본 캡처 면적의 95% 이상을 덮는지 확인한다. Markdown에서 실제 연결한 이미지들의 보존도 별도로 집계한다. 파일 개수는 점수로 사용하지 않는다.
-2. **JSON 문자열 보존:** 캡처와 겹치는 분석 블록에서 지정한 글자·날짜·필드명이 정확히 남았는지 확인한다. 캡처 밖의 본문에 반복된 단어는 포함하지 않는다.
-3. **Markdown 텍스트 전달:** 해당 분석 블록의 내용과 지정 문자열이 최종 Markdown 텍스트에도 남았는지 확인한다. 이미지 링크만 있는 경우 텍스트 전달 성공으로 세지 않는다.
+확인한 내용은 다음과 같다.
 
-| 화면 캡처 진단 항목 | Structure | VL |
+- **이미지 저장:** 원본 화면 캡처가 추출 이미지 파일에 얼마나 온전히 남았는가?
+- **이미지 연결:** 저장된 이미지가 Markdown에도 연결되어 화면에서 확인할 수 있는가?
+- **글자 추출과 전달:** 캡처 속 문구가 JSON에 정확히 남았는가? 그 문구가 RAG에 사용하는 Markdown 텍스트까지 전달됐는가?
+
+이미지 저장·연결은 원본 캡처 면적의 95% 이상이 남으면 통과로 셌다. 여러 조각으로 저장된 경우에는 조각들이 합쳐서 덮는 면적을 확인했다. 문구는 해당 캡처 영역에서 확인하며, 이미지 파일 속에만 보이거나 캡처 밖 본문에 같은 단어가 있는 경우는 글자 추출 성공으로 세지 않았다.
+
+| 확인 항목 | GPU Structure | GPU VL |
 |---|---:|---:|
-| 추출 이미지 파일 보존 | 6/7 | 4/7 |
-| Markdown 연결 이미지 보존 | 5/7 | 4/7 |
-| JSON 지정 문자열 보존 | 9/35 | 6/35 |
-| Markdown 지정 문자열 보존 | 1/35 | 6/35 |
+| 화면 캡처를 이미지 파일로 보존했는가? | 7개 중 6개 | 7개 중 4개 |
+| 화면 캡처를 보존한 이미지가 Markdown에도 연결됐는가? | 7개 중 5개 | 7개 중 4개 |
+| 캡처 속 문구가 JSON에 정확히 남았는가? | 35개 중 9개 | 35개 중 6개 |
+| 그 문구가 Markdown 텍스트에도 남았는가? | 35개 중 1개 | 35개 중 6개 |
 
-**캡처를 이미지로 남기는 성과와 내부 정보를 검색 가능한 텍스트로 전달하는 성과가 달랐다.** Structure는 일부 OCR 내용을 JSON에 남기고도 Markdown에는 이미지 링크만 전달했다. VL의 현재 `use_ocr_for_image_block=False` 설정은 `image` 영역의 내부 OCR을 수행하지 않으며, 표로 분류한 캡처에서는 날짜·필드명 오인식이 확인됐다. 따라서 위 점수는 현재 파이프라인 설정의 결과이고 모델 자체의 이미지 이해 정확도가 아니다.
+**이미지를 보여줄 수 있어도, 그 안의 글자를 RAG가 읽을 수 있다는 뜻은 아니다.** 현재 RAG는 Markdown의 텍스트를 사용하고 Qwen에 이미지 픽셀을 전달하지 않는다. JSON에만 있는 글자도 현재 RAG 입력에는 들어가지 않는다.
 
-이는 출력을 이미 확인한 뒤 작성한 회고적 진단 표본이며 전체 이미지의 무작위 평가가 아니다. 지정 문자열의 존재를 검사하므로 버튼의 정확한 위치·필드와 값의 연결·캡처 전체 문자 오류율을 평가한 것은 아니다. 추출 이미지 연결이 없어도 원본 PDF 화면에서는 캡처를 볼 수 있다. 본문·정형 표·화면 캡처 점수는 따로 제시한다. [이미지 평가 기준과 결과](tests/reports/image_evaluation.md) / [정답과 좌표](tests/fixtures/image_checks.json)
+실제 사례를 보면 차이가 분명하다.
+
+- **Structure 9페이지:** 확인할 문구 5개를 JSON에는 모두 남겼지만, Markdown에는 화면 이미지만 연결했다. 따라서 그 5개 문구는 캡처의 텍스트로 RAG에 전달되지 않았다.
+- **Structure 31페이지:** 화면 캡처 이미지 파일은 저장했지만 Markdown에서 연결하지 않았다. 파일이 있다는 것과 RAG 화면에 연결된다는 것도 다르다.
+- **VL 23페이지:** 원본 날짜 `2026-09-01`을 `2020-08-01`로 잘못 출력했다. 텍스트가 나왔어도 내용이 정확한지 확인해야 한다.
+
+현재 VL은 `use_ocr_for_image_block=False` 설정이어서 **이미지로 분류된 영역의 내부 글자를 별도로 OCR하지 않았다.** 표로 분류한 영역에서는 텍스트를 출력하기도 했다. 따라서 이 결과는 현재 설정으로 얻은 결과이며, VL 자체의 이미지 이해 능력 전체를 평가한 점수는 아니다.
+
+위 사례는 분석 출력을 살펴본 뒤 원본과 대조하려고 고른 일부 캡처다. 전체 이미지의 정확도나 버튼 위치·표의 필드와 값 연결까지 평가한 것은 아니다. 추출 이미지가 연결되지 않아도 Streamlit의 원본 PDF 페이지에서는 화면을 확인할 수 있다.
+
+세부 계산 방법과 문구별 결과는 [이미지 평가 보고서](tests/reports/image_evaluation.md), 확인할 문구와 위치는 [평가 기준](tests/fixtures/image_checks.json)에 있다.
 
 ### RAG 검색·답변 평가
 

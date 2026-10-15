@@ -1,4 +1,4 @@
-"""Compare uncorrected Structure lightweight, Structure quality, and VL outputs."""
+"""보정 전 경량 Structure, 고정밀 후보 Structure, VL의 분석 결과를 비교한다."""
 import hashlib
 import json
 from pathlib import Path

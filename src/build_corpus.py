@@ -1,4 +1,4 @@
-"""Split clear feature sections; keep ambiguous Markdown pages together."""
+"""명확한 기능 항목은 청크로 나누고, 경계가 불명확한 Markdown 페이지는 통째로 유지한다."""
 import argparse
 import hashlib
 from html.parser import HTMLParser
@@ -26,7 +26,7 @@ class ImageReferences(HTMLParser):
 
 
 def page_images(markdown, content):
-    """Link only images already produced and referenced by Paddle."""
+    """Paddle이 생성하고 Markdown에서 참조한 이미지만 연결한다."""
     parser = ImageReferences()
     parser.feed(content)
     references = parser.paths + re.findall(r"!\[[^\]]*\]\(<([^>]+)>\)", content)
@@ -50,7 +50,7 @@ def page_images(markdown, content):
 
 
 def apply_corrections(content, page, corrections):
-    """Apply only PDF-verified edits to the exact Markdown version reviewed."""
+    """검토한 Markdown 버전이 일치할 때만 원본 PDF로 확인한 보정을 적용한다."""
     entry = corrections.get(str(page))
     if entry is None:
         return content
@@ -65,10 +65,10 @@ def apply_corrections(content, page, corrections):
 
 
 def split_page(content):
-    """Split explicit feature headings, preserving page context and procedures.
+    """페이지 문맥과 절차를 보존하면서 명확한 기능 제목을 기준으로 분리한다.
 
-    These are conservative rules for this manual, not semantic/LLM splitting.
-    Tables, broken numbering and empty sections keep the whole page together.
+    이 매뉴얼에 맞춘 보수적인 규칙이며, 의미 분석이나 LLM으로 분리하지 않는다.
+    표가 있거나 번호가 깨졌거나 설명이 빈 항목이 있으면 페이지 전체를 유지한다.
     """
     whole = [{"section": "Page", "content": content, "chunk_type": "page"}]
     if re.search(r"<table\b|^\s*\|", content, re.I | re.M):
@@ -79,12 +79,12 @@ def split_page(content):
     if first is None or len(headings[first:]) < 2:
         return whole
     headings = headings[first:]
-    # E.g. '3Suggested Questions' is an uncertain OCR boundary.
+    # '3Suggested Questions'처럼 번호와 제목이 붙으면 OCR 경계가 불명확하다고 판단한다.
     if re.search(r"^(?:##\s+)?\d+[A-Za-z가-힣]", content[headings[0].start():], re.M):
         return whole
     numbers = [int(m[1]) for h in headings
                if (m := re.match(r"(\d+)[.)]?\s+\S", h[1]))]
-    # A continued page can start at item 3 or 5; retain its original numbers.
+    # 이어지는 페이지는 3번이나 5번부터 시작할 수 있으므로 원본 번호를 유지한다.
     if numbers != list(range(numbers[0], numbers[0] + len(numbers))) or any(h[1].isdigit() for h in headings):
         return whole
     common = content[:headings[0].start()].strip()

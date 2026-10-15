@@ -1,4 +1,4 @@
-"""Run an 8GB experiment with an independent resource monitor; never retry it."""
+"""별도 자원 감시와 함께 8GB 환경의 실험을 실행하며 자동으로 재시도하지 않는다."""
 from datetime import datetime
 import json
 import os

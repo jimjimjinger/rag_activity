@@ -1,4 +1,4 @@
-"""Stage native VL checkpoint tensors on CPU during model construction only."""
+"""네이티브 VL 모델을 생성하는 동안에만 체크포인트 텐서를 CPU에서 준비한다."""
 from contextlib import contextmanager
 from importlib.metadata import version
 from math import prod
@@ -6,7 +6,7 @@ from math import prod
 
 @contextmanager
 def checkpoint_cpu_staging(paddle):
-    # These two loader hooks are specific to the pinned PaddleX implementation.
+    # 이 두 로더 후킹 지점은 버전을 고정한 PaddleX 구현에 맞춰져 있다.
     if version("paddlex") != "3.7.2":
         raise RuntimeError("Review CPU checkpoint staging before changing PaddleX 3.7.2.")
     from paddlex.inference.models.common.transformers.transformers import model_utils
