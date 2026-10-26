@@ -1,0 +1,69 @@
+SubModules:
+  LayoutDetection:
+    model_dir: null
+    model_name: PP-DocLayout-L
+    module_name: layout_detection
+  TableClassification:
+    model_dir: null
+    model_name: PP-LCNet_x1_0_table_cls
+    module_name: table_classification
+  TableOrientationClassify:
+    model_dir: null
+    model_name: PP-LCNet_x1_0_doc_ori
+    module_name: doc_text_orientation
+  WiredTableCellsDetection:
+    model_dir: null
+    model_name: RT-DETR-L_wired_table_cell_det
+    module_name: table_cells_detection
+  WiredTableStructureRecognition:
+    model_dir: null
+    model_name: SLANeXt_wired
+    module_name: table_structure_recognition
+  WirelessTableCellsDetection:
+    model_dir: null
+    model_name: RT-DETR-L_wireless_table_cell_det
+    module_name: table_cells_detection
+  WirelessTableStructureRecognition:
+    model_dir: null
+    model_name: SLANeXt_wireless
+    module_name: table_structure_recognition
+SubPipelines:
+  DocPreprocessor:
+    SubModules:
+      DocOrientationClassify:
+        model_dir: null
+        model_name: PP-LCNet_x1_0_doc_ori
+        module_name: doc_text_orientation
+      DocUnwarping:
+        model_dir: null
+        model_name: UVDoc
+        module_name: image_unwarping
+    pipeline_name: doc_preprocessor
+    use_doc_orientation_classify: false
+    use_doc_unwarping: false
+  GeneralOCR:
+    SubModules:
+      TextDetection:
+        box_thresh: 0.4
+        limit_side_len: 1280
+        limit_type: max
+        max_side_limit: 4000
+        model_dir: null
+        model_name: PP-OCRv5_server_det
+        module_name: text_detection
+        thresh: 0.3
+        unclip_ratio: 1.5
+      TextRecognition:
+        batch_size: 1
+        model_dir: null
+        model_name: PP-OCRv5_server_rec
+        module_name: text_recognition
+        score_thresh: 0
+    pipeline_name: OCR
+    text_type: general
+    use_doc_preprocessor: false
+    use_textline_orientation: false
+pipeline_name: table_recognition_v2
+use_doc_preprocessor: false
+use_layout_detection: false
+use_ocr_model: true

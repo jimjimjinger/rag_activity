@@ -1,0 +1,80 @@
+[
+  {
+    "kind": "simple",
+    "split": "train",
+    "page_id": "samsung_air conditioner manuals_55f1cc77-90bf-4444-8352-3f821c2a5233_00020",
+    "image_filename": "images/samsung_air conditioner manuals_55f1cc77-90bf-4444-8352-3f821c2a5233/images/samsung_air conditioner manuals_55f1cc77-90bf-4444-8352-3f821c2a5233_00021.jpg",
+    "region": {
+      "id": "samsung_air conditioner manuals_55f1cc77-90bf-4444-8352-3f821c2a5233_436",
+      "structure": "Table",
+      "shape": {
+        "x": 47.99999999999998,
+        "y": 464.64062499999966,
+        "width": 564.9999999999999,
+        "height": 106.00000000000034
+      }
+    },
+    "crop_box": [
+      47,
+      464,
+      613,
+      571
+    ],
+    "crop_size": [
+      566,
+      107
+    ]
+  },
+  {
+    "kind": "merged",
+    "split": "train",
+    "page_id": "samsung_computer monitor manuals_792b95a1-c245-83b4-e1e8-9f1b216094bd_00023",
+    "image_filename": "images/samsung_computer monitor manuals_792b95a1-c245-83b4-e1e8-9f1b216094bd/images/samsung_computer monitor manuals_792b95a1-c245-83b4-e1e8-9f1b216094bd_00024.jpg",
+    "region": {
+      "id": "samsung_computer monitor manuals_792b95a1-c245-83b4-e1e8-9f1b216094bd_380",
+      "structure": "Table",
+      "shape": {
+        "x": 91.51562500000001,
+        "y": 412.76171875,
+        "width": 684.0000000000001,
+        "height": 296.0000000000001
+      }
+    },
+    "crop_box": [
+      91,
+      412,
+      776,
+      709
+    ],
+    "crop_size": [
+      685,
+      297
+    ]
+  },
+  {
+    "kind": "dense",
+    "split": "train",
+    "page_id": "samsung_air conditioner manuals_55f1cc77-90bf-4444-8352-3f821c2a5233_00021",
+    "image_filename": "images/samsung_air conditioner manuals_55f1cc77-90bf-4444-8352-3f821c2a5233/images/samsung_air conditioner manuals_55f1cc77-90bf-4444-8352-3f821c2a5233_00022.jpg",
+    "region": {
+      "id": "samsung_air conditioner manuals_55f1cc77-90bf-4444-8352-3f821c2a5233_617",
+      "structure": "Table",
+      "shape": {
+        "x": 208.5058593750001,
+        "y": 195.3984375000001,
+        "width": 801.0000000000001,
+        "height": 1087.5000000000005
+      }
+    },
+    "crop_box": [
+      208,
+      195,
+      1010,
+      1283
+    ],
+    "crop_size": [
+      802,
+      1088
+    ]
+  }
+]

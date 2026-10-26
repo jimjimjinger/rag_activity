@@ -1,3 +1,0 @@
-SECTION 
-
-# About dashboard 

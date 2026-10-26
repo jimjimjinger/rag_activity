@@ -1,0 +1,59 @@
+{
+  "reference_source": "Manual transcription of the three saved PNG crops, before model inference. QA was not used.",
+  "normalization": "Whitespace and Unicode compatibility normalization only; punctuation, digits, units and spelling must match.",
+  "simple": {
+    "rows": [
+      ["Mode", "Outdoor Temperature", "Indoor Temperature", "Indoor Humidity"],
+      ["Heating", "0°C to 24°C approx.", "27°C or less", "-"],
+      ["Cooling", "21°C to 43°C approx.", "18°C to 32°C approx.", "80% or less"],
+      ["Drying", "18°C to 43°C approx.", "18°C to 32°C approx.", "-"]
+    ],
+    "expected_rows": 4,
+    "expected_columns": 4,
+    "expected_spans": []
+  },
+  "merged": {
+    "rows": [
+      ["State", "Normal Operation", "Power-Saving Function mode (EPA/NUTEK)"],
+      ["Standby Mode", "Suspend Mode Position A1", "Power-off Mode Position A2"],
+      ["Horizontal Sync Vertical Sync Video", "Active Active Active", "Inactive Active Blanked", "Active Inactive Blanked", "Inactive Inactive Blanked"],
+      ["Power Indicator", "Green", "Amber", "Amber/Green Blinking (0.5 sec interval)", "Amber Blinking (1 sec interval)"],
+      ["Power Consumption", "140W (Max.) 120W (Nom.)", "60W(Nom.)", "Less than 15W", "Less than 3W"]
+    ],
+    "expected_rows": 5,
+    "expected_columns": 5,
+    "expected_spans": [
+      {"row": 0, "cell": 0, "rowspan": 2, "colspan": 1},
+      {"row": 0, "cell": 1, "rowspan": 2, "colspan": 1},
+      {"row": 0, "cell": 2, "rowspan": 1, "colspan": 3}
+    ]
+  },
+  "dense": {
+    "expected_rows": 11,
+    "expected_columns": 2,
+    "expected_spans": [],
+    "row_labels": [
+      "Problem",
+      "The air conditioner does not operate at all",
+      "In case of B unit and C unit, the heating and cooling are not operated simultaneously",
+      "The air conditioner does not operate with the remote control",
+      "No beep is heard when you press [power icon] (On/Off) on the remote control",
+      "The air conditioner does not cool or heat",
+      "When heating, the required room temperature is never reached and the air conditioner frequently stops",
+      "The fan speed does not change when you press the [fan icon] button",
+      "The air flow direction does not change when you press the [swing icon] button",
+      "The timer is not correctly triggered",
+      "Odours are permeated in the room during air conditioning"
+    ],
+    "numeric_and_unit_anchors": [
+      {"row": 1, "text": "page 19"},
+      {"row": 2, "text": "page 25"},
+      {"row": 3, "text": "seven metres/yards or less"},
+      {"row": 5, "text": "page 21"},
+      {"row": 9, "text": "page 8"},
+      {"row": 9, "text": "page 16"}
+    ],
+    "last_row_solution": "Air the room.",
+    "icon_note": "Power, fan, swing, auto/cooling/heating/drying icons are visual symbols and must be checked separately from prose. Bracketed names above are reviewer labels, not OCR output or model input."
+  }
+}

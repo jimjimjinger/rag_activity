@@ -1,0 +1,157 @@
+{
+  "model": "qwen3.5:4b",
+  "max_edge": 1536,
+  "num_ctx": 4096,
+  "num_predict": 768,
+  "selected_region_ids": [
+    "ms_hololens_6493",
+    "ms_hololens_6502",
+    "lg_air_conditioner_manuals_8c425f48-87cc-4064-9428-add4b1bcf11a_208",
+    "cars_2020-nissan-leaf-owner-manual_775",
+    "HUAWEI_MateBook X Pro User Guide-(01_en)_199",
+    "Samsung_TV_Neo QLED 8K_OSNATSCB-3.2.0_EM_Oscar_Pontus_Nike_Kant-SU2e_USA_ENG_220216.0_347",
+    "Mi_True_Wireless_Earbuds_uk_16",
+    "telsla_model_s_manual_19",
+    "samsung_projector accessories manuals_22f8c0ba-8fbd-44bf-942c-f90001663857_283",
+    "dell_coffeemaker manuals_4b4bb95f-c0dc-4673-80c4-807f23f79fb5_309",
+    "laptop_macbook pro user's guide (manual)_397",
+    "samsung_model vehicle manuals_9b5c401e-4f1d-4804-ac57-ba75209e3d4e_804",
+    "cars_mercedes-eqc-2019-suv-293-owners-manual-1640173907_12247",
+    "HUAWEI_PixLab X1 User Guide-(01,en,CV81&CV81Z)_255",
+    "cars_mercedes-eqc-2019-suv-293-owners-manual-1640173907_2039",
+    "inspiron-11-3162-laptop_reference guide_en-us_998",
+    "inspiron-11-3162-laptop_reference guide_en-us_27",
+    "owg_en_wms_soundlink_adapterkit_37",
+    "cars_mercedes-eqc-2019-suv-293-owners-manual-1640173907_5187",
+    "bose_headphones manuals_9917ef89-897c-6524-2502-2b0a91ec7d62_40"
+  ],
+  "population_bins": {
+    "Product Image/small": 6137,
+    "Product Image/medium": 7860,
+    "graphic/large": 528,
+    "graphic/medium": 1378,
+    "illustration/large": 2535,
+    "Product Image/large": 1058,
+    "illustration/medium": 4223,
+    "graphic/small": 37,
+    "illustration/small": 51
+  },
+  "samples": [
+    {
+      "region_id": "Samsung_TV_Neo QLED 8K_OSNATSCB-3.2.0_EM_Oscar_Pontus_Nike_Kant-SU2e_USA_ENG_220216.0_347",
+      "image_filename": "images/Samsung_TV_Neo QLED 8K_OSNATSCB-3.2.0_EM_Oscar_Pontus_Nike_Kant-SU2e_USA_ENG_220216.0/images/Samsung_TV_Neo QLED 8K_OSNATSCB-3.2.0_EM_Oscar_Pontus_Nike_Kant-SU2e_USA_ENG_220216.0_00008.jpg",
+      "crop_box": [
+        332,
+        569,
+        355,
+        584
+      ],
+      "input_size": [
+        23,
+        15
+      ],
+      "wall_seconds": 1.7857232000023942,
+      "response_metadata": {
+        "model": "qwen3.5:4b",
+        "created_at": "2026-10-21T10:03:37.92933Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 1769989000,
+        "load_duration": 5410100,
+        "prompt_eval_count": 174,
+        "prompt_eval_duration": 343921000,
+        "eval_count": 108,
+        "eval_duration": 1332901000,
+        "logprobs": null,
+        "model_name": "qwen3.5:4b",
+        "model_provider": "ollama"
+      },
+      "usage_metadata": {
+        "input_tokens": 174,
+        "output_tokens": 108,
+        "total_tokens": 282
+      }
+    }
+  ],
+  "gpu_observations": [
+    {
+      "elapsed_seconds": 0.06,
+      "used_mib": 3828,
+      "temperature_c": 48,
+      "utilization_percent": 0
+    },
+    {
+      "elapsed_seconds": 1.12,
+      "used_mib": 3828,
+      "temperature_c": 48,
+      "utilization_percent": 0
+    },
+    {
+      "elapsed_seconds": 2.2,
+      "used_mib": 3828,
+      "temperature_c": 48,
+      "utilization_percent": 0
+    },
+    {
+      "elapsed_seconds": 3.26,
+      "used_mib": 3828,
+      "temperature_c": 48,
+      "utilization_percent": 0
+    },
+    {
+      "elapsed_seconds": 4.33,
+      "used_mib": 3828,
+      "temperature_c": 48,
+      "utilization_percent": 0
+    },
+    {
+      "elapsed_seconds": 5.39,
+      "used_mib": 3828,
+      "temperature_c": 48,
+      "utilization_percent": 0
+    },
+    {
+      "elapsed_seconds": 6.47,
+      "used_mib": 3828,
+      "temperature_c": 48,
+      "utilization_percent": 0
+    },
+    {
+      "elapsed_seconds": 7.53,
+      "used_mib": 3828,
+      "temperature_c": 48,
+      "utilization_percent": 0
+    },
+    {
+      "elapsed_seconds": 8.62,
+      "used_mib": 3828,
+      "temperature_c": 48,
+      "utilization_percent": 0
+    },
+    {
+      "elapsed_seconds": 9.68,
+      "used_mib": 3828,
+      "temperature_c": 48,
+      "utilization_percent": 0
+    },
+    {
+      "elapsed_seconds": 10.74,
+      "used_mib": 3828,
+      "temperature_c": 47,
+      "utilization_percent": 0
+    },
+    {
+      "elapsed_seconds": 11.81,
+      "used_mib": 3828,
+      "temperature_c": 47,
+      "utilization_percent": 22
+    },
+    {
+      "elapsed_seconds": 12.88,
+      "used_mib": 3828,
+      "temperature_c": 56,
+      "utilization_percent": 85
+    }
+  ],
+  "scope": "20 train figures sampled by structure and area; weighted extrapolation by all-split counts"
+}

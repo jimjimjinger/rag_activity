@@ -1,0 +1,49 @@
+{
+  "verified_at": "2026-10-22T06:25:16.515551+00:00",
+  "finished_at": "2026-10-22T06:06:26.267650+00:00",
+  "status": "complete",
+  "model": "qwen3.5:4b",
+  "source_preserved": true,
+  "validation": "Every page and region compared with the source after removing only added figure descriptions. All target descriptions are nonempty strings. Semantic accuracy was not evaluated by this check.",
+  "splits": {
+    "train": {
+      "pages": 7004,
+      "regions": 145967,
+      "qa": 15839,
+      "figures": 16202,
+      "saved": 16202,
+      "missing": 0
+    },
+    "val": {
+      "pages": 1011,
+      "regions": 20513,
+      "qa": 2257,
+      "figures": 1991,
+      "saved": 1991,
+      "missing": 0
+    },
+    "test": {
+      "pages": 2003,
+      "regions": 45129,
+      "qa": 3925,
+      "figures": 5614,
+      "saved": 5614,
+      "missing": 0
+    }
+  },
+  "totals": {
+    "pages": 10018,
+    "regions": 211609,
+    "qa": 22021,
+    "figures": 23807,
+    "saved": 23807,
+    "missing": 0
+  },
+  "resumed_run": {
+    "initial_saved": 22798,
+    "generated": 1009,
+    "elapsed_seconds": 1177.7,
+    "failed_attempts": 1,
+    "deferred": 0
+  }
+}

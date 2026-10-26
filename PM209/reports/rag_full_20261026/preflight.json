@@ -1,0 +1,328 @@
+{
+  "pages": 10018,
+  "manuals": 209,
+  "chunks": 126938,
+  "types": {
+    "table": 7624,
+    "text": 85849,
+    "title": 6919,
+    "figure": 26546
+  },
+  "max_tokens": 500,
+  "max_overlap": 100,
+  "figure_regions": 23807,
+  "table_regions": 2320,
+  "oversized_contexts": [
+    {
+      "chunk_id": "9dfd7485-ae6f-5b60-beea-898615483923",
+      "char_count": 1012,
+      "token_count": 191,
+      "content_region_ids": [
+        "ms_hololens_8066"
+      ],
+      "quality_flags": [
+        "oversized_context_review_required"
+      ]
+    },
+    {
+      "chunk_id": "57722114-51e7-5d02-9d8b-1d258ea00faa",
+      "char_count": 1776,
+      "token_count": 336,
+      "content_region_ids": [
+        "ms_hololens_8066"
+      ],
+      "quality_flags": [
+        "oversized_context_review_required"
+      ]
+    },
+    {
+      "chunk_id": "f3a33755-eb0a-51b1-a919-4bb82427e166",
+      "char_count": 1401,
+      "token_count": 317,
+      "content_region_ids": [
+        "samsung_model vehicle manuals_9b5c401e-4f1d-4804-ac57-ba75209e3d4e_529"
+      ],
+      "quality_flags": [
+        "oversized_context_review_required",
+        "table_header_unmarked_review_required"
+      ]
+    },
+    {
+      "chunk_id": "afd96f99-27d6-5641-ba95-96993dd13e57",
+      "char_count": 719,
+      "token_count": 164,
+      "content_region_ids": [
+        "samsung_model vehicle manuals_9b5c401e-4f1d-4804-ac57-ba75209e3d4e_529"
+      ],
+      "quality_flags": [
+        "oversized_context_review_required",
+        "table_header_unmarked_review_required"
+      ]
+    },
+    {
+      "chunk_id": "aafdbd5d-e990-5086-b9f7-8666f54071e3",
+      "char_count": 767,
+      "token_count": 177,
+      "content_region_ids": [
+        "samsung_model vehicle manuals_9b5c401e-4f1d-4804-ac57-ba75209e3d4e_562"
+      ],
+      "quality_flags": [
+        "oversized_context_review_required",
+        "table_header_unmarked_review_required"
+      ]
+    },
+    {
+      "chunk_id": "7ff74ed1-4d4d-57b5-a593-25761137052d",
+      "char_count": 778,
+      "token_count": 180,
+      "content_region_ids": [
+        "samsung_model vehicle manuals_9b5c401e-4f1d-4804-ac57-ba75209e3d4e_562"
+      ],
+      "quality_flags": [
+        "oversized_context_review_required",
+        "table_header_unmarked_review_required"
+      ]
+    },
+    {
+      "chunk_id": "6cfb55b7-a19f-5f2b-9031-496ad25f086b",
+      "char_count": 679,
+      "token_count": 154,
+      "content_region_ids": [
+        "samsung_model vehicle manuals_9b5c401e-4f1d-4804-ac57-ba75209e3d4e_439"
+      ],
+      "quality_flags": [
+        "oversized_context_review_required"
+      ]
+    },
+    {
+      "chunk_id": "5f26d123-b32f-5087-8941-13ed176a1807",
+      "char_count": 1476,
+      "token_count": 344,
+      "content_region_ids": [
+        "samsung_model vehicle manuals_9b5c401e-4f1d-4804-ac57-ba75209e3d4e_439"
+      ],
+      "quality_flags": [
+        "oversized_context_review_required"
+      ]
+    },
+    {
+      "chunk_id": "d836111b-0f2a-5f19-8a4e-c96f93a6795d",
+      "char_count": 814,
+      "token_count": 189,
+      "content_region_ids": [
+        "sony_personal computer manuals_a1ffeff2-6c34-4bb8-86f3-711be27180d9_197"
+      ],
+      "quality_flags": [
+        "oversized_context_review_required"
+      ]
+    },
+    {
+      "chunk_id": "ed6a15e6-eaae-5d83-9da5-618a1169ff40",
+      "char_count": 569,
+      "token_count": 143,
+      "content_region_ids": [
+        "dell_computer keyboard manuals_ce661590-4cc8-4846-b082-a20fe5f7a878_174"
+      ],
+      "quality_flags": [
+        "html_parser_repaired_review_required",
+        "oversized_context_review_required",
+        "table_header_unmarked_review_required"
+      ]
+    },
+    {
+      "chunk_id": "036833e8-8a03-52b2-8147-d18918d4bc95",
+      "char_count": 1118,
+      "token_count": 500,
+      "content_region_ids": [
+        "samsung_mouse manuals_74eb5075-bbbc-4034-9d8c-2c532700076a_1232"
+      ],
+      "quality_flags": [
+        "oversized_context_review_required"
+      ]
+    },
+    {
+      "chunk_id": "bd92b504-7dfd-5443-ba9f-1b486061754f",
+      "char_count": 780,
+      "token_count": 191,
+      "content_region_ids": [
+        "sony_tablet manuals_ba382e73-3477-4dfd-9f45-980997c3d119_109"
+      ],
+      "quality_flags": [
+        "html_parser_repaired_review_required",
+        "oversized_context_review_required",
+        "table_header_unmarked_review_required"
+      ]
+    },
+    {
+      "chunk_id": "f7f2e464-3ce0-5d93-99b1-f377e4e67e70",
+      "char_count": 697,
+      "token_count": 164,
+      "content_region_ids": [
+        "sony_tablet manuals_ba382e73-3477-4dfd-9f45-980997c3d119_109"
+      ],
+      "quality_flags": [
+        "html_parser_repaired_review_required",
+        "oversized_context_review_required",
+        "table_header_unmarked_review_required"
+      ]
+    },
+    {
+      "chunk_id": "611f1c90-5dac-5547-aab6-8e33bcf5608c",
+      "char_count": 1136,
+      "token_count": 252,
+      "content_region_ids": [
+        "cars_mercedes-eqc-2019-suv-293-owners-manual-1640173907_11879"
+      ],
+      "quality_flags": [
+        "oversized_context_review_required",
+        "table_header_unmarked_review_required"
+      ]
+    },
+    {
+      "chunk_id": "edf79624-c0d8-56e2-afe8-950351e7d099",
+      "char_count": 616,
+      "token_count": 122,
+      "content_region_ids": [
+        "cars_mercedes-eqc-2019-suv-293-owners-manual-1640173907_10108"
+      ],
+      "quality_flags": [
+        "oversized_context_review_required",
+        "table_header_unmarked_review_required"
+      ]
+    },
+    {
+      "chunk_id": "145932ed-207a-5baf-aec9-217bec777103",
+      "char_count": 710,
+      "token_count": 151,
+      "content_region_ids": [
+        "cars_mercedes-eqc-2019-suv-293-owners-manual-1640173907_10127"
+      ],
+      "quality_flags": [
+        "oversized_context_review_required",
+        "table_header_unmarked_review_required"
+      ]
+    },
+    {
+      "chunk_id": "977c4304-fa83-5d39-8b51-bbcd4181af2c",
+      "char_count": 710,
+      "token_count": 151,
+      "content_region_ids": [
+        "cars_mercedes-eqc-2019-suv-293-owners-manual-1640173907_10127"
+      ],
+      "quality_flags": [
+        "oversized_context_review_required",
+        "table_header_unmarked_review_required"
+      ]
+    },
+    {
+      "chunk_id": "73d3bb0e-8e6f-5f9a-8298-0e176fa4e7aa",
+      "char_count": 741,
+      "token_count": 140,
+      "content_region_ids": [
+        "cars_mercedes-eqc-2019-suv-293-owners-manual-1640173907_12744"
+      ],
+      "quality_flags": [
+        "oversized_context_review_required",
+        "table_header_unmarked_review_required"
+      ]
+    },
+    {
+      "chunk_id": "35327f3f-1a64-5fab-878c-0c59707c68f9",
+      "char_count": 839,
+      "token_count": 219,
+      "content_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_382"
+      ],
+      "quality_flags": [
+        "Invalid or out-of-range span",
+        "oversized_context_review_required",
+        "table_structure_unresolved"
+      ]
+    },
+    {
+      "chunk_id": "b7605e10-5255-59a3-b3e7-42f108d4f18c",
+      "char_count": 602,
+      "token_count": 160,
+      "content_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_495"
+      ],
+      "quality_flags": [
+        "oversized_context_review_required",
+        "table_header_unmarked_review_required"
+      ]
+    },
+    {
+      "chunk_id": "11e3ee9f-3ac4-538c-8e05-f78f7ad87045",
+      "char_count": 598,
+      "token_count": 158,
+      "content_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_495"
+      ],
+      "quality_flags": [
+        "oversized_context_review_required",
+        "table_header_unmarked_review_required"
+      ]
+    },
+    {
+      "chunk_id": "33330581-a927-5ba5-b877-b3e4c16296b9",
+      "char_count": 1445,
+      "token_count": 364,
+      "content_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_495"
+      ],
+      "quality_flags": [
+        "oversized_context_review_required",
+        "table_header_unmarked_review_required"
+      ]
+    },
+    {
+      "chunk_id": "fbfc6480-4a61-5fe7-8815-b0e4a3014d40",
+      "char_count": 1445,
+      "token_count": 364,
+      "content_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_495"
+      ],
+      "quality_flags": [
+        "oversized_context_review_required",
+        "table_header_unmarked_review_required"
+      ]
+    },
+    {
+      "chunk_id": "537ed8eb-0250-59df-821c-44cf15c73820",
+      "char_count": 766,
+      "token_count": 158,
+      "content_region_ids": [
+        "Ubuntu_Getting Started with Ubuntu 16.04_15"
+      ],
+      "quality_flags": [
+        "oversized_context_review_required",
+        "table_header_unmarked_review_required"
+      ]
+    },
+    {
+      "chunk_id": "11f3ba3a-fd73-5cc3-9c59-2afb7dda70ab",
+      "char_count": 1072,
+      "token_count": 248,
+      "content_region_ids": [
+        "Ubuntu_Getting Started with Ubuntu 16.04_1082"
+      ],
+      "quality_flags": [
+        "oversized_context_review_required",
+        "table_header_unmarked_review_required"
+      ]
+    },
+    {
+      "chunk_id": "6e29c96a-e5bd-5c1c-842f-6660e75afe0c",
+      "char_count": 1130,
+      "token_count": 246,
+      "content_region_ids": [
+        "Ubuntu_Getting Started with Ubuntu 16.04_1082"
+      ],
+      "quality_flags": [
+        "oversized_context_review_required",
+        "table_header_unmarked_review_required"
+      ]
+    }
+  ],
+  "qa_fields_included": false
+}

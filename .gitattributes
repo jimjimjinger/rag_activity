@@ -2,14 +2,9 @@
 *.py text eol=lf
 *.md text eol=lf
 *.txt text eol=lf
+*.json text eol=lf
 *.ps1 text eol=crlf
 *.cmd text eol=crlf
-# Preserve generated corpus bytes across checkouts.
-/data/rag/corpus.jsonl -text
-# Parser manifests hash raw Markdown bytes; keep them unchanged on other PCs.
-/tests/**/page_*.md -text
-# Preserve hashed parser results, evaluation inputs, and profile corpora.
-/tests/results/** -text
-/tests/fixtures/*.json -text
-/tests/reports/*.json -text
-/data/rag/**/corpus.jsonl -text
+# Keep sample artifacts byte-for-byte for recorded SHA256 checks.
+PM209/reports/** -text -whitespace
+PM209/reports/**/*.md text eol=lf !whitespace

@@ -1,0 +1,20 @@
+{
+  "train": {
+    "pages": 7004,
+    "regions": 145967,
+    "tables": 1770,
+    "figure_descriptions": 16202
+  },
+  "val": {
+    "pages": 1011,
+    "regions": 20513,
+    "tables": 173,
+    "figure_descriptions": 1991
+  },
+  "test": {
+    "pages": 2003,
+    "regions": 45129,
+    "tables": 377,
+    "figure_descriptions": 5614
+  }
+}

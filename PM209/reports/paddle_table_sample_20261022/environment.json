@@ -1,0 +1,17 @@
+{
+  "versions": {
+    "paddlepaddle-gpu": "3.0.0.dev20250717",
+    "paddleocr": "3.3.2",
+    "paddlex": "3.3.11",
+    "numpy": "2.2.6"
+  },
+  "cuda": "12.9",
+  "cudnn": "9.9.0",
+  "device": "gpu:0",
+  "gpu_name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "gpu_kernel_check": "passed",
+  "allocator": "auto_growth",
+  "allocator_limit_mb": 6144,
+  "qa_input": false,
+  "sample_count": 3
+}

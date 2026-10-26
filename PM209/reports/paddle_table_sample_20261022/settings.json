@@ -1,0 +1,24 @@
+{
+  "init": {
+    "device": "gpu:0",
+    "use_layout_detection": false,
+    "use_doc_orientation_classify": false,
+    "use_doc_unwarping": false,
+    "use_ocr_model": true,
+    "text_detection_model_name": "PP-OCRv5_server_det",
+    "text_recognition_model_name": "PP-OCRv5_server_rec",
+    "text_recognition_batch_size": 1,
+    "text_det_limit_side_len": 1280,
+    "text_det_limit_type": "max",
+    "enable_hpi": false,
+    "use_tensorrt": false,
+    "enable_mkldnn": false,
+    "cpu_threads": 4
+  },
+  "predict": {
+    "use_table_orientation_classify": false,
+    "use_e2e_wired_table_rec_model": false,
+    "use_e2e_wireless_table_rec_model": false,
+    "use_ocr_results_with_table_cells": true
+  }
+}

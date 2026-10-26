@@ -1,4 +1,0 @@
-# Keep the RAG engine at its existing versions; add the local browser interface.
--r requirements-rag-lock.txt
-streamlit==1.65.0
-pypdfium2==5.14.0

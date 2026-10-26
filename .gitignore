@@ -1,19 +1,23 @@
-__pycache__/
-*.py[cod]
+# 로컬 환경과 모델
 .venv/
 .runtime/
-.env
-tmp/
-data/rag/index.pkl
-data/rag/*/index.pkl
-
-# Local credentials, environments, model weights, and editor settings
-.env.*
-!.env.example
 venv/
 models/
+__pycache__/
+*.py[cod]
 *.gguf
 *.safetensors
+
+# 데이터와 생성 결과
+PM209/datasets/
+PM209/.test-tmp/
+# 대용량 결과 압축본과 manifest는 별도 전달하며 로컬에 보관한다.
+PM209/results/*/
+
+# 비밀 정보와 편집기 설정
+.env
+.env.*
+!.env.example
 *.log
 .vscode/
 .idea/

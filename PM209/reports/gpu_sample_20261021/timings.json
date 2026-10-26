@@ -1,0 +1,378 @@
+{
+  "model": "qwen3.5:4b",
+  "max_edge": 1536,
+  "num_ctx": 4096,
+  "num_predict": 768,
+  "samples": [
+    {
+      "region_id": "Apple_iphone-13-pro-max-07300325A-repair_38",
+      "image_filename": "images/Apple_iphone-13-pro-max-07300325A-repair/images/Apple_iphone-13-pro-max-07300325A-repair_00005.jpg",
+      "crop_box": [
+        181,
+        561,
+        222,
+        606
+      ],
+      "input_size": [
+        41,
+        45
+      ],
+      "wall_seconds": 36.384185900002194,
+      "response_metadata": {
+        "model": "qwen3.5:4b",
+        "created_at": "2026-10-21T10:00:02.0612397Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 36345008600,
+        "load_duration": 18061238100,
+        "prompt_eval_count": 171,
+        "prompt_eval_duration": 17882004000,
+        "eval_count": 30,
+        "eval_duration": 387239000,
+        "logprobs": null,
+        "model_name": "qwen3.5:4b",
+        "model_provider": "ollama"
+      },
+      "usage_metadata": {
+        "input_tokens": 171,
+        "output_tokens": 30,
+        "total_tokens": 201
+      }
+    },
+    {
+      "region_id": "Apple_iphone-13-pro-max-07300325A-repair_39",
+      "image_filename": "images/Apple_iphone-13-pro-max-07300325A-repair/images/Apple_iphone-13-pro-max-07300325A-repair_00005.jpg",
+      "crop_box": [
+        179,
+        630,
+        221,
+        677
+      ],
+      "input_size": [
+        42,
+        47
+      ],
+      "wall_seconds": 0.5690073999940068,
+      "response_metadata": {
+        "model": "qwen3.5:4b",
+        "created_at": "2026-10-21T10:00:02.6375866Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 561623000,
+        "load_duration": 6319900,
+        "prompt_eval_count": 171,
+        "prompt_eval_duration": 158136000,
+        "eval_count": 28,
+        "eval_duration": 336863000,
+        "logprobs": null,
+        "model_name": "qwen3.5:4b",
+        "model_provider": "ollama"
+      },
+      "usage_metadata": {
+        "input_tokens": 171,
+        "output_tokens": 28,
+        "total_tokens": 199
+      }
+    },
+    {
+      "region_id": "Apple_iphone-13-pro-max-07300325A-repair_61",
+      "image_filename": "images/Apple_iphone-13-pro-max-07300325A-repair/images/Apple_iphone-13-pro-max-07300325A-repair_00006.jpg",
+      "crop_box": [
+        475,
+        366,
+        754,
+        908
+      ],
+      "input_size": [
+        279,
+        542
+      ],
+      "wall_seconds": 2.074323099994217,
+      "response_metadata": {
+        "model": "qwen3.5:4b",
+        "created_at": "2026-10-21T10:00:04.729147Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2064756500,
+        "load_duration": 9215200,
+        "prompt_eval_count": 315,
+        "prompt_eval_duration": 195190000,
+        "eval_count": 145,
+        "eval_duration": 1794519000,
+        "logprobs": null,
+        "model_name": "qwen3.5:4b",
+        "model_provider": "ollama"
+      },
+      "usage_metadata": {
+        "input_tokens": 315,
+        "output_tokens": 145,
+        "total_tokens": 460
+      }
+    }
+  ],
+  "gpu_observations": [
+    {
+      "elapsed_seconds": 2.52,
+      "used_mib": 0,
+      "temperature_c": 52,
+      "utilization_percent": 0
+    },
+    {
+      "elapsed_seconds": 3.79,
+      "used_mib": 0,
+      "temperature_c": 52,
+      "utilization_percent": 0
+    },
+    {
+      "elapsed_seconds": 5.52,
+      "used_mib": 8,
+      "temperature_c": 52,
+      "utilization_percent": 0
+    },
+    {
+      "elapsed_seconds": 6.6,
+      "used_mib": 92,
+      "temperature_c": 52,
+      "utilization_percent": 0
+    },
+    {
+      "elapsed_seconds": 7.68,
+      "used_mib": 2608,
+      "temperature_c": 53,
+      "utilization_percent": 27
+    },
+    {
+      "elapsed_seconds": 8.76,
+      "used_mib": 2872,
+      "temperature_c": 53,
+      "utilization_percent": 0
+    },
+    {
+      "elapsed_seconds": 9.83,
+      "used_mib": 2882,
+      "temperature_c": 53,
+      "utilization_percent": 1
+    },
+    {
+      "elapsed_seconds": 10.9,
+      "used_mib": 2882,
+      "temperature_c": 53,
+      "utilization_percent": 0
+    },
+    {
+      "elapsed_seconds": 11.97,
+      "used_mib": 2882,
+      "temperature_c": 53,
+      "utilization_percent": 0
+    },
+    {
+      "elapsed_seconds": 13.05,
+      "used_mib": 2882,
+      "temperature_c": 53,
+      "utilization_percent": 0
+    },
+    {
+      "elapsed_seconds": 14.11,
+      "used_mib": 2882,
+      "temperature_c": 53,
+      "utilization_percent": 0
+    },
+    {
+      "elapsed_seconds": 15.17,
+      "used_mib": 2882,
+      "temperature_c": 54,
+      "utilization_percent": 0
+    },
+    {
+      "elapsed_seconds": 16.25,
+      "used_mib": 2882,
+      "temperature_c": 54,
+      "utilization_percent": 0
+    },
+    {
+      "elapsed_seconds": 17.31,
+      "used_mib": 2882,
+      "temperature_c": 54,
+      "utilization_percent": 0
+    },
+    {
+      "elapsed_seconds": 18.38,
+      "used_mib": 2882,
+      "temperature_c": 53,
+      "utilization_percent": 0
+    },
+    {
+      "elapsed_seconds": 19.44,
+      "used_mib": 2882,
+      "temperature_c": 53,
+      "utilization_percent": 0
+    },
+    {
+      "elapsed_seconds": 20.5,
+      "used_mib": 3528,
+      "temperature_c": 54,
+      "utilization_percent": 11
+    },
+    {
+      "elapsed_seconds": 21.57,
+      "used_mib": 3752,
+      "temperature_c": 54,
+      "utilization_percent": 0
+    },
+    {
+      "elapsed_seconds": 22.63,
+      "used_mib": 3752,
+      "temperature_c": 54,
+      "utilization_percent": 0
+    },
+    {
+      "elapsed_seconds": 23.7,
+      "used_mib": 3752,
+      "temperature_c": 54,
+      "utilization_percent": 0
+    },
+    {
+      "elapsed_seconds": 24.76,
+      "used_mib": 3796,
+      "temperature_c": 54,
+      "utilization_percent": 0
+    },
+    {
+      "elapsed_seconds": 25.82,
+      "used_mib": 3796,
+      "temperature_c": 54,
+      "utilization_percent": 0
+    },
+    {
+      "elapsed_seconds": 26.9,
+      "used_mib": 3796,
+      "temperature_c": 54,
+      "utilization_percent": 0
+    },
+    {
+      "elapsed_seconds": 27.97,
+      "used_mib": 3796,
+      "temperature_c": 54,
+      "utilization_percent": 0
+    },
+    {
+      "elapsed_seconds": 29.05,
+      "used_mib": 3796,
+      "temperature_c": 54,
+      "utilization_percent": 0
+    },
+    {
+      "elapsed_seconds": 30.11,
+      "used_mib": 3796,
+      "temperature_c": 54,
+      "utilization_percent": 0
+    },
+    {
+      "elapsed_seconds": 31.19,
+      "used_mib": 3796,
+      "temperature_c": 54,
+      "utilization_percent": 0
+    },
+    {
+      "elapsed_seconds": 32.26,
+      "used_mib": 3796,
+      "temperature_c": 54,
+      "utilization_percent": 0
+    },
+    {
+      "elapsed_seconds": 33.34,
+      "used_mib": 3796,
+      "temperature_c": 54,
+      "utilization_percent": 0
+    },
+    {
+      "elapsed_seconds": 34.41,
+      "used_mib": 3796,
+      "temperature_c": 55,
+      "utilization_percent": 2
+    },
+    {
+      "elapsed_seconds": 35.48,
+      "used_mib": 3796,
+      "temperature_c": 54,
+      "utilization_percent": 0
+    },
+    {
+      "elapsed_seconds": 36.56,
+      "used_mib": 3796,
+      "temperature_c": 55,
+      "utilization_percent": 0
+    },
+    {
+      "elapsed_seconds": 37.62,
+      "used_mib": 3796,
+      "temperature_c": 55,
+      "utilization_percent": 0
+    },
+    {
+      "elapsed_seconds": 38.68,
+      "used_mib": 3800,
+      "temperature_c": 57,
+      "utilization_percent": 99
+    },
+    {
+      "elapsed_seconds": 39.76,
+      "used_mib": 3806,
+      "temperature_c": 63,
+      "utilization_percent": 84
+    },
+    {
+      "elapsed_seconds": 40.84,
+      "used_mib": 3806,
+      "temperature_c": 64,
+      "utilization_percent": 85
+    },
+    {
+      "elapsed_seconds": 41.92,
+      "used_mib": 3806,
+      "temperature_c": 64,
+      "utilization_percent": 86
+    },
+    {
+      "elapsed_seconds": 42.99,
+      "used_mib": 3806,
+      "temperature_c": 57,
+      "utilization_percent": 0
+    },
+    {
+      "elapsed_seconds": 44.07,
+      "used_mib": 3806,
+      "temperature_c": 57,
+      "utilization_percent": 0
+    },
+    {
+      "elapsed_seconds": 45.13,
+      "used_mib": 3806,
+      "temperature_c": 57,
+      "utilization_percent": 0
+    },
+    {
+      "elapsed_seconds": 46.21,
+      "used_mib": 3806,
+      "temperature_c": 57,
+      "utilization_percent": 0
+    },
+    {
+      "elapsed_seconds": 47.28,
+      "used_mib": 3806,
+      "temperature_c": 57,
+      "utilization_percent": 0
+    },
+    {
+      "elapsed_seconds": 48.34,
+      "used_mib": 3806,
+      "temperature_c": 57,
+      "utilization_percent": 0
+    }
+  ],
+  "scope": "First three figures in train; not a representative full-dataset sample",
+  "status": "complete",
+  "total_seconds": 48.63432230000035,
+  "max_gpu_used_mib": 3806,
+  "max_gpu_temperature_c": 64
+}

@@ -1,0 +1,41 @@
+{
+  "tables": [
+    {
+      "kind": "simple",
+      "id": "samsung_air conditioner manuals_55f1cc77-90bf-4444-8352-3f821c2a5233_436",
+      "inference_seconds": 1.7130365000048187,
+      "html_output_success": true,
+      "html_characters": 414,
+      "error": null,
+      "semantic_accuracy": "pending_manual_image_comparison",
+      "total_seconds": 1.71644690001267,
+      "observed_gpu_peak_mib": 1626
+    },
+    {
+      "kind": "merged",
+      "id": "samsung_computer monitor manuals_792b95a1-c245-83b4-e1e8-9f1b216094bd_380",
+      "inference_seconds": 1.035414000012679,
+      "html_output_success": true,
+      "html_characters": 727,
+      "error": null,
+      "semantic_accuracy": "pending_manual_image_comparison",
+      "total_seconds": 1.0410639000183437,
+      "observed_gpu_peak_mib": 1816
+    },
+    {
+      "kind": "dense",
+      "id": "samsung_air conditioner manuals_55f1cc77-90bf-4444-8352-3f821c2a5233_617",
+      "inference_seconds": 1.8730684000183828,
+      "html_output_success": true,
+      "html_characters": 2945,
+      "error": null,
+      "semantic_accuracy": "pending_manual_image_comparison",
+      "total_seconds": 1.887466600019252,
+      "observed_gpu_peak_mib": 2810
+    }
+  ],
+  "pipeline": "TableRecognitionPipelineV2",
+  "initialization_seconds": 199.91580930000055,
+  "observed_gpu_peak_mib": 2810,
+  "observed_gpu_peak_temperature_c": 60
+}

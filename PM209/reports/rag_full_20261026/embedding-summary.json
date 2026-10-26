@@ -1,0 +1,51 @@
+{
+  "model_identity": {
+    "model": "qwen3-embedding:0.6b",
+    "digest": "ac6da0dfba84a81fdbfbaf330198c33cd77c4cdfc53e8bc50eb581914a15621d",
+    "options": {
+      "num_ctx": 2048,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99
+    },
+    "query_instruction": "Given a question about a product manual, retrieve passages that answer the question.",
+    "truncate": false
+  },
+  "chunks_sha256": "9c2d4ec474e9f2e0a2b1ede9e1ef6edc8311f1d2be843b1f1bd107567989acc5",
+  "dimension": 1024,
+  "chunks": 126938,
+  "generated_this_run": 112067,
+  "cache_hits_this_run": 14871,
+  "failures": [],
+  "elapsed_seconds": 5409.0418139999965,
+  "batch_size": 4,
+  "prompt_tokens_this_run": 5357332,
+  "ollama_ps": {
+    "models": [
+      {
+        "name": "qwen3-embedding:0.6b",
+        "model": "qwen3-embedding:0.6b",
+        "size": 948363591,
+        "digest": "ac6da0dfba84a81fdbfbaf330198c33cd77c4cdfc53e8bc50eb581914a15621d",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen3",
+          "families": [
+            "qwen3"
+          ],
+          "parameter_size": "595.78M",
+          "quantization_level": "Q8_0"
+        },
+        "expires_at": "2026-10-26T21:52:45.6493528+09:00",
+        "size_vram": 948363591,
+        "context_length": 2048,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "gpu_samples_omitted": 30580,
+  "source_report": "PM209/datasets/PM209/rag/full_char500_v1/embedding-report.json",
+  "source_report_sha256": "ab391ddf5a31e1e2ff5c56a940f09767336876eee5017ccd4c4049b7c87adece",
+  "summary_note": "Original report fields retained except 30,580 periodic GPU samples; complete report remains local."
+}

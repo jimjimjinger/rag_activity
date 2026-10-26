@@ -1,0 +1,76 @@
+{
+  "review_date": "2026-10-22",
+  "method": "Three source crops were visually read and compared with the unmodified pipeline HTML, row by row. No QA questions or answers were used. Cell exact match ignores whitespace and normalizes Unicode compatibility forms such as ℃ to °C; it does not ignore digits, spelling or duplicated/missing unit symbols.",
+  "scope": "Exactly three distinct Table regions. No whole-dataset inference, chunking, embedding or retrieval.",
+  "simple": {
+    "conclusion_ko": "4행×4열 구조와 숫자값은 보존됐지만 온도 단위 표기 4개 셀에 오류가 있고, Heating 행의 습도 '-'가 빠졌습니다. 공백·유니코드 호환 문자를 정규화한 셀 일치는 11/16입니다.",
+    "text_numbers_units": "Numeric values are retained. 27°C became 27°℃; 21°C/43°C became 21℃C/43℃C; 18°C/43°C became 18°℃/43C; 32°C became 32°℃. The Heating humidity dash is missing.",
+    "structure": "4 rows x 4 columns, all row-column associations retained; no merged cells.",
+    "tail": "Drying row is present with all four cells. No ending truncation observed.",
+    "html_success": true,
+    "fully_correct": false
+  },
+  "merged": {
+    "conclusion_ko": "5행×5열의 구조, State·Normal Operation의 rowspan=2, 전력 절약 헤더의 colspan=3이 모두 맞았습니다. 21개 셀 중 20개가 정규화 후 일치합니다. Standby Mode의 Inactive가 소문자 l로 시작하는 lnactive로 인식됐습니다.",
+    "text_numbers_units": "140W, 120W, 60W, 15W, 3W, 0.5 sec and 1 sec are retained in their correct cells. One I/l confusion in Inactive. Line breaks within multi-line cells are flattened into spaces, so Horizontal/Vertical/Video values require their retained sequence to be interpreted.",
+    "structure": "All three header merges are correct. Five logical rows and five expanded columns; no misplaced power values.",
+    "tail": "Final Power Consumption row, including Less than 3W, is present. No ending truncation observed.",
+    "html_success": true,
+    "fully_correct": false
+  },
+  "dense": {
+    "conclusion_ko": "11행×2열과 10개 문제-해결 대응, 마지막 Air the room.까지 보존됐습니다. 페이지 번호 19·25·21·8·16과 seven metres/yards or less는 해당 행에 남아 있습니다. 전원·팬·풍향·운전 모드 아이콘은 누락되거나 X·쉼표 등으로 바뀌어 버튼·모드 안내의 의미가 일부 손실됐습니다.",
+    "row_by_row_review": [
+      "Header: Problem and Explanation/Solution retained.",
+      "Does not operate: breaker, OPERATION, TIMER, waiting and cancellation instructions present; power icon absent, If became lf, several spaces and bullet markers lost.",
+      "B/C units: both mode-selection explanations and OPERATION/TURBO(RED), page 25 present; word spaces and some punctuation lost.",
+      "Remote control: obstacles, batteries, seven metres/yards or less present; some punctuation and bullets lost.",
+      "No beep: sensor and battery instructions present; power icon removed from problem label.",
+      "Does not cool/heat: four solution items and page 21 present; cooling/heating icons lost or rendered as commas, Auto preserved as text.",
+      "Heating room temperature: temperature setting, fan speed and upward airflow instructions present.",
+      "Fan speed: fan button icon became X. Cooling/heating/fan/drying mode icons in the solution disappeared. This causes substantive loss of the mode condition despite retained prose.",
+      "Air flow direction: switch-on instruction and On/Off text present; swing and power button icons absent.",
+      "Timer: clock-setting and timer-programming instructions and page references 8 and 16 present; some spaces/full stops lost.",
+      "Odours: final problem label and Air the room. retained."
+    ],
+    "structure": "11 rows including header, two columns. All ten problem labels match the corresponding solution cells; no merged cells.",
+    "tail": "Last Odours row and Air the room. are present. No ending truncation observed.",
+    "accuracy_metric_limit": "No whole-table accuracy percentage is claimed for this sample; six selected numeric/unit anchors and all rows were checked, with full text and icons manually inspected.",
+    "html_success": true,
+    "fully_correct": false
+  },
+  "errors": {
+    "initialization_first_attempt": "Windows C++ Paddle loader could not open model files under the Korean workspace path. Resolved by using the ASCII-only per-user model cache %LOCALAPPDATA%/PM209-PaddleTables/paddlex.",
+    "recognition_runtime_errors": 0,
+    "warnings": "ccache unavailable and cuda.synchronize deprecation warnings were non-fatal. GPU kernel and all three predictions succeeded.",
+    "output_token_limit": "Not applicable: no Qwen/PaddleOCR-VL generation, no 768-token cap, no HTML rewriting. Returned HTML is stored verbatim."
+  },
+  "hardware": {
+    "os": "Microsoft Windows 11 Pro 10.0.26200 64-bit (verified with Win32_OperatingSystem)",
+    "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "driver": "610.47",
+    "vram_total_mib": 8151,
+    "observed_peak_mib": 2810,
+    "observed_peak_temperature_c": 60,
+    "after_run_gpu_memory_mib": 0,
+    "measurement": "Device-wide nvidia-smi samples about every 0.5 seconds plus subprocess overhead; observed peak is not a guaranteed instantaneous maximum."
+  },
+  "timing": {
+    "initialization_seconds": 199.9158093,
+    "simple_seconds": 1.7130365,
+    "merged_seconds": 1.0354140,
+    "dense_seconds": 1.8730684,
+    "definition": "Per-table times include source image opening/cropping, prediction, and GPU synchronization, but exclude pipeline initialization, package installation and model downloads. Initialization time includes this run's model downloads/loading."
+  },
+  "commands_from_repository_root": [
+    "powershell -NoProfile -ExecutionPolicy Bypass -File PM209/scripts/setup-paddle-tables.ps1",
+    ".runtime\\venv-paddle-tables\\Scripts\\python.exe -X utf8 -u -B PM209/scripts/run_paddle_table_sample.py",
+    ".runtime\\venv-paddle-tables\\Scripts\\python.exe -X utf8 -B PM209/scripts/review_paddle_table_sample.py"
+  ],
+  "rerun_note": "The runner refuses to overwrite existing sample HTML. No automatic restart or full-table execution is configured.",
+  "sources": [
+    "https://www.paddleocr.ai/main/en/version3.x/paddlepaddle_installation.html",
+    "https://www.paddleocr.ai/main/en/version3.x/pipeline_usage/table_recognition_v2.html",
+    "https://github.com/PaddlePaddle/PaddleOCR/blob/v3.3.2/paddleocr/_pipelines/table_recognition_v2.py"
+  ]
+}

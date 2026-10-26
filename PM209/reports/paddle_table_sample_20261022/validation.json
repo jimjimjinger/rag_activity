@@ -1,0 +1,531 @@
+{
+  "simple": {
+    "html_output_success": true,
+    "rows": [
+      [
+        {
+          "text": "Mode",
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "text": "Outdoor Temperature",
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "text": "Indoor Temperature",
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "text": "Indoor Humidity",
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      [
+        {
+          "text": "Heating",
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "text": "0℃ to 24℃ approx.",
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "text": "27°℃or less",
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      [
+        {
+          "text": "Cooling",
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "text": "21℃C to 43℃C approx.",
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "text": "18°C to 32℃ approx.",
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "text": "80% or less",
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      [
+        {
+          "text": "Drying",
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "text": "18°℃ to 43C approx.",
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "text": "18℃ to 32°℃ approx.",
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "text": "-",
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ]
+    ],
+    "actual_row_count": 4,
+    "actual_column_count": 4,
+    "expected_row_count": 4,
+    "expected_column_count": 4,
+    "actual_spans": [],
+    "expected_spans": [],
+    "spans_match": true,
+    "grid_collisions": [],
+    "row_count_matches": true,
+    "column_count_matches": true,
+    "html_closed": true,
+    "table_count": 1,
+    "reference_cells": 16,
+    "exact_cells": 11,
+    "cell_mismatches": [
+      {
+        "row": 1,
+        "cell": 2,
+        "expected": "27°C or less",
+        "actual": "27°℃or less"
+      },
+      {
+        "row": 1,
+        "cell": 3,
+        "expected": "-",
+        "actual": ""
+      },
+      {
+        "row": 2,
+        "cell": 1,
+        "expected": "21°C to 43°C approx.",
+        "actual": "21℃C to 43℃C approx."
+      },
+      {
+        "row": 3,
+        "cell": 1,
+        "expected": "18°C to 43°C approx.",
+        "actual": "18°℃ to 43C approx."
+      },
+      {
+        "row": 3,
+        "cell": 2,
+        "expected": "18°C to 32°C approx.",
+        "actual": "18℃ to 32°℃ approx."
+      }
+    ]
+  },
+  "merged": {
+    "html_output_success": true,
+    "rows": [
+      [
+        {
+          "text": "State",
+          "rowspan": 2,
+          "colspan": 1
+        },
+        {
+          "text": "Normal Operation",
+          "rowspan": 2,
+          "colspan": 1
+        },
+        {
+          "text": "Power-Saving Function mode (EPA/NUTEK)",
+          "rowspan": 1,
+          "colspan": 3
+        }
+      ],
+      [
+        {
+          "text": "Standby Mode",
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "text": "Suspend Mode Position A1",
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "text": "Power-off Mode Position A2",
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      [
+        {
+          "text": "Horizontal Sync Vertical Sync Video",
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "text": "Active Active Active",
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "text": "lnactive Active Blanked",
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "text": "Active Inactive Blanked",
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "text": "Inactive Inactive Blanked",
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      [
+        {
+          "text": "Power Indicator",
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "text": "Green",
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "text": "Amber",
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "text": "Amber/Green Blinking (0.5 sec interval)",
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "text": "Amber Blinking (1 sec interval)",
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      [
+        {
+          "text": "Power Consumption",
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "text": "140W (Max.) 120W (Nom.)",
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "text": "60W(Nom.)",
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "text": "Less than 15W",
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "text": "Less than 3W",
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ]
+    ],
+    "actual_row_count": 5,
+    "actual_column_count": 5,
+    "expected_row_count": 5,
+    "expected_column_count": 5,
+    "actual_spans": [
+      {
+        "row": 0,
+        "cell": 0,
+        "rowspan": 2,
+        "colspan": 1
+      },
+      {
+        "row": 0,
+        "cell": 1,
+        "rowspan": 2,
+        "colspan": 1
+      },
+      {
+        "row": 0,
+        "cell": 2,
+        "rowspan": 1,
+        "colspan": 3
+      }
+    ],
+    "expected_spans": [
+      {
+        "row": 0,
+        "cell": 0,
+        "rowspan": 2,
+        "colspan": 1
+      },
+      {
+        "row": 0,
+        "cell": 1,
+        "rowspan": 2,
+        "colspan": 1
+      },
+      {
+        "row": 0,
+        "cell": 2,
+        "rowspan": 1,
+        "colspan": 3
+      }
+    ],
+    "spans_match": true,
+    "grid_collisions": [],
+    "row_count_matches": true,
+    "column_count_matches": true,
+    "html_closed": true,
+    "table_count": 1,
+    "reference_cells": 21,
+    "exact_cells": 20,
+    "cell_mismatches": [
+      {
+        "row": 2,
+        "cell": 2,
+        "expected": "Inactive Active Blanked",
+        "actual": "lnactive Active Blanked"
+      }
+    ]
+  },
+  "dense": {
+    "html_output_success": true,
+    "rows": [
+      [
+        {
+          "text": "Problem",
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "text": "Explanation/Solution",
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      [
+        {
+          "text": "The air conditioner does not operate at all",
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "text": "Check that the breaker used for the air conditioner is switched on. Check that the OPERATIONindicator on the indoor unit is on; if necessary press  (On/Off)on the remote control. Check whether the TIMER indicator on the indoor unit is switchedon. lf so: -Waituntil the switch-on time is reached and the air conditioner starts up automatically -Cancel the timer (see page 19 for further details)",
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      [
+        {
+          "text": "In case of B unit and C unit,the heating and cooling are not operated simultaneously",
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "text": "Check whether the operation modes of B unit and C unit are same. In case of B unit andC unit,the heating and cooling are not operated simultaneously but only the same operation is possible If they are in different operationmode,the first operated unit isrun but the later one does notoperate so that the display part of indoor unit shows the flickering lamp of OPERATION (RED) and TURBO(RED).Refer to the page 25for details.",
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      [
+        {
+          "text": "The air conditioner does not operate with the remote control",
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "text": "Check that there are no obstacles between you and the indoor unit Check the remote control batteries. Check that you are close enough to the indoor unit (seven metres/ yards or less).",
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      [
+        {
+          "text": "No beep is heard when you press (On/Off)on the remote control",
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "text": "Check that you are pointing the remote control at the infrared sensor in the middle of the indoor unit Replace the remote control batteries if necessary.",
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      [
+        {
+          "text": "The air conditioner does not cool or heat",
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "text": "Check that the correct operating mode has been selected (Auto，，). The room temperature may be too low or too high. Dust may be blocking the airfilter guard;refer to page21 for cleaning instructions. Check that there is no obstacle in front of the outdoor unit",
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      [
+        {
+          "text": "When heating,the required room temperature is never reached and the air conditioner frequently stops",
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "text": "Check that the required temperature has been set correctly. Increase the fan speed. If the air flow is directed downwards,use the remote control to direct it upwards.",
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      [
+        {
+          "text": "The fan speed does not change when you press the X button",
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "text": "Check that the operating mode is set to,or;in the Auto mode,the fan speed changes automatically and in themode itis set to AUTO",
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      [
+        {
+          "text": "The air flow direction does not change when you press the button",
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "text": "Check that the air conditioner has been switched on;if necessary, press (On/Off) on the remote control.",
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      [
+        {
+          "text": "The timer is not correctly triggered",
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "text": "Check that you have set the clock to the right time; see page 8 Check that the timer has been programmedcorrectly; see page16.",
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      [
+        {
+          "text": "Odours are permeated in the room during air conditioning",
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "text": "Air the room.",
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ]
+    ],
+    "actual_row_count": 11,
+    "actual_column_count": 2,
+    "expected_row_count": 11,
+    "expected_column_count": 2,
+    "actual_spans": [],
+    "expected_spans": [],
+    "spans_match": true,
+    "grid_collisions": [],
+    "row_count_matches": true,
+    "column_count_matches": true,
+    "html_closed": true,
+    "table_count": 1,
+    "numeric_unit_anchors": [
+      {
+        "row": 1,
+        "text": "page 19",
+        "same_row_found": true
+      },
+      {
+        "row": 2,
+        "text": "page 25",
+        "same_row_found": true
+      },
+      {
+        "row": 3,
+        "text": "seven metres/yards or less",
+        "same_row_found": true
+      },
+      {
+        "row": 5,
+        "text": "page 21",
+        "same_row_found": true
+      },
+      {
+        "row": 9,
+        "text": "page 8",
+        "same_row_found": true
+      },
+      {
+        "row": 9,
+        "text": "page 16",
+        "same_row_found": true
+      }
+    ],
+    "last_row_solution_present": true,
+    "manual_full_text_and_icons_review_required": true
+  },
+  "preservation": {
+    "full_sample_pages_match_except_table_content": true,
+    "added_table_ids": [
+      "samsung_air conditioner manuals_55f1cc77-90bf-4444-8352-3f821c2a5233_436",
+      "samsung_computer monitor manuals_792b95a1-c245-83b4-e1e8-9f1b216094bd_380",
+      "samsung_air conditioner manuals_55f1cc77-90bf-4444-8352-3f821c2a5233_617"
+    ],
+    "original_and_vlm_hashes": {
+      "before": {
+        "PM209\\datasets\\PM209\\data\\train.jsonl": "9b73d4e0d6e5cc98274656ce0bcea1775e2d110730667d586e226c88833e5a01",
+        "PM209\\datasets\\PM209\\data\\val.jsonl": "cf043e0026c8484cedc9106e2db74db6472155b0e26a95cd2b9cacbd1e4d44c7",
+        "PM209\\datasets\\PM209\\data\\test.jsonl": "eda1f78c51b048d43cc7829996df34eb31730a7a5a8f9cbdf3677e33db966906",
+        "PM209\\datasets\\PM209\\data\\vlm\\train.jsonl": "fbb9ad2be844d05d66e3b05822e8c16c67d5828ffa51e591cfe2bcfc4ae60a22",
+        "PM209\\datasets\\PM209\\data\\vlm\\val.jsonl": "3b81b367340e41988afd8ac7455880a141afae7f1e9432ce29156acd8c78a3f5",
+        "PM209\\datasets\\PM209\\data\\vlm\\test.jsonl": "ec83cd0b5ef302f518e813c98a647377b28a8508cb6a3d0d084c64621f123ef1"
+      },
+      "after": {
+        "PM209\\datasets\\PM209\\data\\train.jsonl": "9b73d4e0d6e5cc98274656ce0bcea1775e2d110730667d586e226c88833e5a01",
+        "PM209\\datasets\\PM209\\data\\val.jsonl": "cf043e0026c8484cedc9106e2db74db6472155b0e26a95cd2b9cacbd1e4d44c7",
+        "PM209\\datasets\\PM209\\data\\test.jsonl": "eda1f78c51b048d43cc7829996df34eb31730a7a5a8f9cbdf3677e33db966906",
+        "PM209\\datasets\\PM209\\data\\vlm\\train.jsonl": "fbb9ad2be844d05d66e3b05822e8c16c67d5828ffa51e591cfe2bcfc4ae60a22",
+        "PM209\\datasets\\PM209\\data\\vlm\\val.jsonl": "3b81b367340e41988afd8ac7455880a141afae7f1e9432ce29156acd8c78a3f5",
+        "PM209\\datasets\\PM209\\data\\vlm\\test.jsonl": "ec83cd0b5ef302f518e813c98a647377b28a8508cb6a3d0d084c64621f123ef1"
+      },
+      "all_six_files_unchanged": true
+    }
+  }
+}

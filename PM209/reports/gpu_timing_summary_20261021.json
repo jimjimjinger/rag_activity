@@ -1,0 +1,1132 @@
+{
+  "date": "2026-10-21",
+  "model": "qwen3.5:4b",
+  "sampled_figures": 20,
+  "saved_descriptions": 23,
+  "pages_preserved": 7004,
+  "qa_preserved": 15839,
+  "total_figures": 23807,
+  "weighted_mean_seconds": 2.0762077254142426,
+  "projected_inference_hours": 13.73007703303802,
+  "cold_first_request_seconds": 36.384185900002194,
+  "observed_max_gpu_mib": 3828,
+  "observed_max_temperature_c": 68,
+  "bins": [
+    {
+      "bin": "Product Image/large",
+      "population": 1058,
+      "sample_count": 2,
+      "mean_seconds": 3.1,
+      "min_seconds": 1.418,
+      "max_seconds": 4.783
+    },
+    {
+      "bin": "Product Image/medium",
+      "population": 7860,
+      "sample_count": 3,
+      "mean_seconds": 2.46,
+      "min_seconds": 1.794,
+      "max_seconds": 3.266
+    },
+    {
+      "bin": "Product Image/small",
+      "population": 6137,
+      "sample_count": 3,
+      "mean_seconds": 1.328,
+      "min_seconds": 0.973,
+      "max_seconds": 1.78
+    },
+    {
+      "bin": "graphic/large",
+      "population": 528,
+      "sample_count": 2,
+      "mean_seconds": 2.885,
+      "min_seconds": 2.367,
+      "max_seconds": 3.402
+    },
+    {
+      "bin": "graphic/medium",
+      "population": 1378,
+      "sample_count": 2,
+      "mean_seconds": 2.309,
+      "min_seconds": 1.919,
+      "max_seconds": 2.7
+    },
+    {
+      "bin": "graphic/small",
+      "population": 37,
+      "sample_count": 2,
+      "mean_seconds": 4.974,
+      "min_seconds": 1.734,
+      "max_seconds": 8.214
+    },
+    {
+      "bin": "illustration/large",
+      "population": 2535,
+      "sample_count": 2,
+      "mean_seconds": 2.559,
+      "min_seconds": 2.478,
+      "max_seconds": 2.639
+    },
+    {
+      "bin": "illustration/medium",
+      "population": 4223,
+      "sample_count": 2,
+      "mean_seconds": 1.696,
+      "min_seconds": 0.767,
+      "max_seconds": 2.625
+    },
+    {
+      "bin": "illustration/small",
+      "population": 51,
+      "sample_count": 2,
+      "mean_seconds": 2.592,
+      "min_seconds": 0.813,
+      "max_seconds": 4.37
+    }
+  ],
+  "samples": [
+    {
+      "region_id": "Mi_True_Wireless_Earbuds_uk_16",
+      "image_filename": "images/Mi_True_Wireless_Earbuds_uk/images/Mi_True_Wireless_Earbuds_uk_00002.jpg",
+      "crop_box": [
+        333,
+        179,
+        858,
+        696
+      ],
+      "input_size": [
+        525,
+        517
+      ],
+      "wall_seconds": 7.324761000003491,
+      "response_metadata": {
+        "model": "qwen3.5:4b",
+        "created_at": "2026-10-21T10:01:40.4296611Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 7276855100,
+        "load_duration": 4957341900,
+        "prompt_eval_count": 418,
+        "prompt_eval_duration": 462862000,
+        "eval_count": 148,
+        "eval_duration": 1841433000,
+        "logprobs": null,
+        "model_name": "qwen3.5:4b",
+        "model_provider": "ollama"
+      },
+      "usage_metadata": {
+        "input_tokens": 418,
+        "output_tokens": 148,
+        "total_tokens": 566
+      },
+      "bin": "graphic/large",
+      "steady_seconds": 2.3674191000034908
+    },
+    {
+      "region_id": "owg_en_wms_soundlink_adapterkit_37",
+      "image_filename": "images/owg_en_wms_soundlink_adapterkit/images/owg_en_wms_soundlink_adapterkit_00006.jpg",
+      "crop_box": [
+        46,
+        297,
+        166,
+        409
+      ],
+      "input_size": [
+        120,
+        112
+      ],
+      "wall_seconds": 4.378575800001272,
+      "response_metadata": {
+        "model": "qwen3.5:4b",
+        "created_at": "2026-10-21T10:01:44.931865Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 4371371000,
+        "load_duration": 8541100,
+        "prompt_eval_count": 178,
+        "prompt_eval_duration": 3294962000,
+        "eval_count": 79,
+        "eval_duration": 1012389000,
+        "logprobs": null,
+        "model_name": "qwen3.5:4b",
+        "model_provider": "ollama"
+      },
+      "usage_metadata": {
+        "input_tokens": 178,
+        "output_tokens": 79,
+        "total_tokens": 257
+      },
+      "bin": "illustration/small",
+      "steady_seconds": 4.370034700001272
+    },
+    {
+      "region_id": "ms_hololens_6493",
+      "image_filename": "images/ms_hololens/images/382.jpg",
+      "crop_box": [
+        114,
+        1001,
+        1045,
+        1620
+      ],
+      "input_size": [
+        931,
+        619
+      ],
+      "wall_seconds": 4.791568900000129,
+      "response_metadata": {
+        "model": "qwen3.5:4b",
+        "created_at": "2026-10-21T10:01:51.4979041Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 4785392400,
+        "load_duration": 8614400,
+        "prompt_eval_count": 713,
+        "prompt_eval_duration": 428719000,
+        "eval_count": 340,
+        "eval_duration": 4268743000,
+        "logprobs": null,
+        "model_name": "qwen3.5:4b",
+        "model_provider": "ollama"
+      },
+      "usage_metadata": {
+        "input_tokens": 713,
+        "output_tokens": 340,
+        "total_tokens": 1053
+      },
+      "bin": "Product Image/large",
+      "steady_seconds": 4.7829545000001294
+    },
+    {
+      "region_id": "ms_hololens_6502",
+      "image_filename": "images/ms_hololens/images/383.jpg",
+      "crop_box": [
+        114,
+        400,
+        1045,
+        789
+      ],
+      "input_size": [
+        931,
+        389
+      ],
+      "wall_seconds": 1.4238328999999794,
+      "response_metadata": {
+        "model": "qwen3.5:4b",
+        "created_at": "2026-10-21T10:01:52.9440736Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 1415961700,
+        "load_duration": 6085100,
+        "prompt_eval_count": 510,
+        "prompt_eval_duration": 292042000,
+        "eval_count": 80,
+        "eval_duration": 1042582000,
+        "logprobs": null,
+        "model_name": "qwen3.5:4b",
+        "model_provider": "ollama"
+      },
+      "usage_metadata": {
+        "input_tokens": 510,
+        "output_tokens": 80,
+        "total_tokens": 590
+      },
+      "bin": "Product Image/large",
+      "steady_seconds": 1.4177477999999795
+    },
+    {
+      "region_id": "samsung_model vehicle manuals_9b5c401e-4f1d-4804-ac57-ba75209e3d4e_804",
+      "image_filename": "images/samsung_model vehicle manuals_9b5c401e-4f1d-4804-ac57-ba75209e3d4e/images/samsung_model vehicle manuals_9b5c401e-4f1d-4804-ac57-ba75209e3d4e_00006.jpg",
+      "crop_box": [
+        613,
+        228,
+        738,
+        345
+      ],
+      "input_size": [
+        125,
+        117
+      ],
+      "wall_seconds": 1.7399189999996452,
+      "response_metadata": {
+        "model": "qwen3.5:4b",
+        "created_at": "2026-10-21T10:01:55.1619817Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 1736673300,
+        "load_duration": 5964100,
+        "prompt_eval_count": 178,
+        "prompt_eval_duration": 174982000,
+        "eval_count": 119,
+        "eval_duration": 1496319000,
+        "logprobs": null,
+        "model_name": "qwen3.5:4b",
+        "model_provider": "ollama"
+      },
+      "usage_metadata": {
+        "input_tokens": 178,
+        "output_tokens": 119,
+        "total_tokens": 297
+      },
+      "bin": "graphic/small",
+      "steady_seconds": 1.7339548999996452
+    },
+    {
+      "region_id": "samsung_projector accessories manuals_22f8c0ba-8fbd-44bf-942c-f90001663857_283",
+      "image_filename": "images/samsung_projector accessories manuals_22f8c0ba-8fbd-44bf-942c-f90001663857/images/samsung_projector accessories manuals_22f8c0ba-8fbd-44bf-942c-f90001663857_00008.jpg",
+      "crop_box": [
+        68,
+        216,
+        758,
+        502
+      ],
+      "input_size": [
+        690,
+        286
+      ],
+      "wall_seconds": 2.7077438999986043,
+      "response_metadata": {
+        "model": "qwen3.5:4b",
+        "created_at": "2026-10-21T10:01:58.230086Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2702279700,
+        "load_duration": 8023600,
+        "prompt_eval_count": 360,
+        "prompt_eval_duration": 255904000,
+        "eval_count": 189,
+        "eval_duration": 2372638000,
+        "logprobs": null,
+        "model_name": "qwen3.5:4b",
+        "model_provider": "ollama"
+      },
+      "usage_metadata": {
+        "input_tokens": 360,
+        "output_tokens": 189,
+        "total_tokens": 549
+      },
+      "bin": "graphic/medium",
+      "steady_seconds": 2.6997202999986043
+    },
+    {
+      "region_id": "HUAWEI_PixLab X1 User Guide-(01,en,CV81&CV81Z)_255",
+      "image_filename": "images/HUAWEI_PixLab X1 User Guide-(01,en,CV81&CV81Z)/images/HUAWEI_PixLab X1 User Guide-(01,en,CV81&CV81Z)_00013.jpg",
+      "crop_box": [
+        118,
+        311,
+        1132,
+        921
+      ],
+      "input_size": [
+        1014,
+        610
+      ],
+      "wall_seconds": 2.4862435000031837,
+      "response_metadata": {
+        "model": "qwen3.5:4b",
+        "created_at": "2026-10-21T10:02:01.2682101Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2477094100,
+        "load_duration": 8620400,
+        "prompt_eval_count": 770,
+        "prompt_eval_duration": 463775000,
+        "eval_count": 150,
+        "eval_duration": 1916964000,
+        "logprobs": null,
+        "model_name": "qwen3.5:4b",
+        "model_provider": "ollama"
+      },
+      "usage_metadata": {
+        "input_tokens": 770,
+        "output_tokens": 150,
+        "total_tokens": 920
+      },
+      "bin": "illustration/large",
+      "steady_seconds": 2.477623100003184
+    },
+    {
+      "region_id": "lg_air_conditioner_manuals_8c425f48-87cc-4064-9428-add4b1bcf11a_208",
+      "image_filename": "images/lg_air_conditioner_manuals_8c425f48-87cc-4064-9428-add4b1bcf11a/images/lg_air_conditioner_manuals_8c425f48-87cc-4064-9428-add4b1bcf11a_00009.jpg",
+      "crop_box": [
+        109,
+        142,
+        400,
+        387
+      ],
+      "input_size": [
+        291,
+        245
+      ],
+      "wall_seconds": 2.3258036999977776,
+      "response_metadata": {
+        "model": "qwen3.5:4b",
+        "created_at": "2026-10-21T10:02:04.0074004Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2318515100,
+        "load_duration": 6961100,
+        "prompt_eval_count": 234,
+        "prompt_eval_duration": 194941000,
+        "eval_count": 164,
+        "eval_duration": 2051384000,
+        "logprobs": null,
+        "model_name": "qwen3.5:4b",
+        "model_provider": "ollama"
+      },
+      "usage_metadata": {
+        "input_tokens": 234,
+        "output_tokens": 164,
+        "total_tokens": 398
+      },
+      "bin": "Product Image/medium",
+      "steady_seconds": 2.3188425999977778
+    },
+    {
+      "region_id": "laptop_macbook pro user's guide (manual)_397",
+      "image_filename": "images/laptop_macbook pro user's guide (manual)/images/34.jpg",
+      "crop_box": [
+        76,
+        345,
+        213,
+        416
+      ],
+      "input_size": [
+        137,
+        71
+      ],
+      "wall_seconds": 8.221712099999422,
+      "response_metadata": {
+        "model": "qwen3.5:4b",
+        "created_at": "2026-10-21T10:02:13.2910433Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 8218264800,
+        "load_duration": 7341800,
+        "prompt_eval_count": 170,
+        "prompt_eval_duration": 7201483000,
+        "eval_count": 78,
+        "eval_duration": 954623000,
+        "logprobs": null,
+        "model_name": "qwen3.5:4b",
+        "model_provider": "ollama"
+      },
+      "usage_metadata": {
+        "input_tokens": 170,
+        "output_tokens": 78,
+        "total_tokens": 248
+      },
+      "bin": "graphic/small",
+      "steady_seconds": 8.214370299999421
+    },
+    {
+      "region_id": "dell_coffeemaker manuals_4b4bb95f-c0dc-4673-80c4-807f23f79fb5_309",
+      "image_filename": "images/dell_coffeemaker manuals_4b4bb95f-c0dc-4673-80c4-807f23f79fb5/images/dell_coffeemaker manuals_4b4bb95f-c0dc-4673-80c4-807f23f79fb5_00009.jpg",
+      "crop_box": [
+        333,
+        231,
+        994,
+        612
+      ],
+      "input_size": [
+        661,
+        381
+      ],
+      "wall_seconds": 1.9252424999940558,
+      "response_metadata": {
+        "model": "qwen3.5:4b",
+        "created_at": "2026-10-21T10:02:15.6079554Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 1916450900,
+        "load_duration": 6440900,
+        "prompt_eval_count": 414,
+        "prompt_eval_duration": 264711000,
+        "eval_count": 127,
+        "eval_duration": 1592535000,
+        "logprobs": null,
+        "model_name": "qwen3.5:4b",
+        "model_provider": "ollama"
+      },
+      "usage_metadata": {
+        "input_tokens": 414,
+        "output_tokens": 127,
+        "total_tokens": 541
+      },
+      "bin": "graphic/medium",
+      "steady_seconds": 1.9188015999940558
+    },
+    {
+      "region_id": "inspiron-11-3162-laptop_reference guide_en-us_998",
+      "image_filename": "images/inspiron-11-3162-laptop_reference guide_en-us/images/inspiron-11-3162-laptop_reference guide_en-us_00002.jpg",
+      "crop_box": [
+        63,
+        537,
+        208,
+        664
+      ],
+      "input_size": [
+        145,
+        127
+      ],
+      "wall_seconds": 0.7724214000045322,
+      "response_metadata": {
+        "model": "qwen3.5:4b",
+        "created_at": "2026-10-21T10:02:16.4615122Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 764910700,
+        "load_duration": 5832800,
+        "prompt_eval_count": 182,
+        "prompt_eval_duration": 175198000,
+        "eval_count": 43,
+        "eval_duration": 526710000,
+        "logprobs": null,
+        "model_name": "qwen3.5:4b",
+        "model_provider": "ollama"
+      },
+      "usage_metadata": {
+        "input_tokens": 182,
+        "output_tokens": 43,
+        "total_tokens": 225
+      },
+      "bin": "illustration/medium",
+      "steady_seconds": 0.7665886000045322
+    },
+    {
+      "region_id": "inspiron-11-3162-laptop_reference guide_en-us_27",
+      "image_filename": "images/inspiron-11-3162-laptop_reference guide_en-us/images/inspiron-11-3162-laptop_reference guide_en-us_00003.jpg",
+      "crop_box": [
+        69,
+        406,
+        190,
+        514
+      ],
+      "input_size": [
+        121,
+        108
+      ],
+      "wall_seconds": 0.8198021999996854,
+      "response_metadata": {
+        "model": "qwen3.5:4b",
+        "created_at": "2026-10-21T10:02:17.2984994Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 816908000,
+        "load_duration": 6607300,
+        "prompt_eval_count": 174,
+        "prompt_eval_duration": 172078000,
+        "eval_count": 47,
+        "eval_duration": 581419000,
+        "logprobs": null,
+        "model_name": "qwen3.5:4b",
+        "model_provider": "ollama"
+      },
+      "usage_metadata": {
+        "input_tokens": 174,
+        "output_tokens": 47,
+        "total_tokens": 221
+      },
+      "bin": "illustration/small",
+      "steady_seconds": 0.8131948999996854
+    },
+    {
+      "region_id": "cars_2020-nissan-leaf-owner-manual_775",
+      "image_filename": "images/cars_2020-nissan-leaf-owner-manual/images/cars_2020-nissan-leaf-owner-manual_00072.jpg",
+      "crop_box": [
+        820,
+        127,
+        1114,
+        339
+      ],
+      "input_size": [
+        294,
+        212
+      ],
+      "wall_seconds": 1.8034025999950245,
+      "response_metadata": {
+        "model": "qwen3.5:4b",
+        "created_at": "2026-10-21T10:02:19.311699Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 1800026000,
+        "load_duration": 9860900,
+        "prompt_eval_count": 225,
+        "prompt_eval_duration": 186512000,
+        "eval_count": 124,
+        "eval_duration": 1546962000,
+        "logprobs": null,
+        "model_name": "qwen3.5:4b",
+        "model_provider": "ollama"
+      },
+      "usage_metadata": {
+        "input_tokens": 225,
+        "output_tokens": 124,
+        "total_tokens": 349
+      },
+      "bin": "Product Image/medium",
+      "steady_seconds": 1.7935416999950244
+    },
+    {
+      "region_id": "bose_headphones manuals_9917ef89-897c-6524-2502-2b0a91ec7d62_40",
+      "image_filename": "images/bose_headphones manuals_9917ef89-897c-6524-2502-2b0a91ec7d62/images/bose_headphones manuals_9917ef89-897c-6524-2502-2b0a91ec7d62_00004.jpg",
+      "crop_box": [
+        383,
+        430,
+        447,
+        492
+      ],
+      "input_size": [
+        64,
+        62
+      ],
+      "wall_seconds": 0.9784580999985337,
+      "response_metadata": {
+        "model": "qwen3.5:4b",
+        "created_at": "2026-10-21T10:02:21.4140603Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 975296200,
+        "load_duration": 5411800,
+        "prompt_eval_count": 171,
+        "prompt_eval_duration": 143262000,
+        "eval_count": 60,
+        "eval_duration": 772444000,
+        "logprobs": null,
+        "model_name": "qwen3.5:4b",
+        "model_provider": "ollama"
+      },
+      "usage_metadata": {
+        "input_tokens": 171,
+        "output_tokens": 60,
+        "total_tokens": 231
+      },
+      "bin": "Product Image/small",
+      "steady_seconds": 0.9730462999985338
+    },
+    {
+      "region_id": "HUAWEI_MateBook X Pro User Guide-(01_en)_199",
+      "image_filename": "images/HUAWEI_MateBook X Pro User Guide-(01_en)/images/HUAWEI_MateBook X Pro User Guide-(01_en)_00010.jpg",
+      "crop_box": [
+        164,
+        906,
+        258,
+        973
+      ],
+      "input_size": [
+        94,
+        67
+      ],
+      "wall_seconds": 1.2353988999966532,
+      "response_metadata": {
+        "model": "qwen3.5:4b",
+        "created_at": "2026-10-21T10:02:23.0559036Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 1228540400,
+        "load_duration": 6075200,
+        "prompt_eval_count": 174,
+        "prompt_eval_duration": 180480000,
+        "eval_count": 77,
+        "eval_duration": 983787000,
+        "logprobs": null,
+        "model_name": "qwen3.5:4b",
+        "model_provider": "ollama"
+      },
+      "usage_metadata": {
+        "input_tokens": 174,
+        "output_tokens": 77,
+        "total_tokens": 251
+      },
+      "bin": "Product Image/small",
+      "steady_seconds": 1.2293236999966533
+    },
+    {
+      "region_id": "telsla_model_s_manual_19",
+      "image_filename": "images/telsla_model_s_manual/images/3.jpg",
+      "crop_box": [
+        387,
+        102,
+        738,
+        946
+      ],
+      "input_size": [
+        351,
+        844
+      ],
+      "wall_seconds": 3.4095321000058902,
+      "response_metadata": {
+        "model": "qwen3.5:4b",
+        "created_at": "2026-10-21T10:02:27.0525738Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 3400995300,
+        "load_duration": 7662400,
+        "prompt_eval_count": 448,
+        "prompt_eval_duration": 285796000,
+        "eval_count": 243,
+        "eval_duration": 3042040000,
+        "logprobs": null,
+        "model_name": "qwen3.5:4b",
+        "model_provider": "ollama"
+      },
+      "usage_metadata": {
+        "input_tokens": 448,
+        "output_tokens": 243,
+        "total_tokens": 691
+      },
+      "bin": "graphic/large",
+      "steady_seconds": 3.40186970000589
+    },
+    {
+      "region_id": "cars_mercedes-eqc-2019-suv-293-owners-manual-1640173907_2039",
+      "image_filename": "images/cars_mercedes-eqc-2019-suv-293-owners-manual-1640173907/images/cars_mercedes-eqc-2019-suv-293-owners-manual-1640173907_00133.jpg",
+      "crop_box": [
+        392,
+        59,
+        757,
+        483
+      ],
+      "input_size": [
+        365,
+        424
+      ],
+      "wall_seconds": 2.6336063999988255,
+      "response_metadata": {
+        "model": "qwen3.5:4b",
+        "created_at": "2026-10-21T10:02:31.2608013Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2619588000,
+        "load_duration": 8642400,
+        "prompt_eval_count": 305,
+        "prompt_eval_duration": 222519000,
+        "eval_count": 186,
+        "eval_duration": 2319183000,
+        "logprobs": null,
+        "model_name": "qwen3.5:4b",
+        "model_provider": "ollama"
+      },
+      "usage_metadata": {
+        "input_tokens": 305,
+        "output_tokens": 186,
+        "total_tokens": 491
+      },
+      "bin": "illustration/medium",
+      "steady_seconds": 2.6249639999988257
+    },
+    {
+      "region_id": "cars_mercedes-eqc-2019-suv-293-owners-manual-1640173907_5187",
+      "image_filename": "images/cars_mercedes-eqc-2019-suv-293-owners-manual-1640173907/images/cars_mercedes-eqc-2019-suv-293-owners-manual-1640173907_00277.jpg",
+      "crop_box": [
+        400,
+        102,
+        753,
+        282
+      ],
+      "input_size": [
+        353,
+        180
+      ],
+      "wall_seconds": 3.2720954999967944,
+      "response_metadata": {
+        "model": "qwen3.5:4b",
+        "created_at": "2026-10-21T10:02:34.8219569Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 3265806400,
+        "load_duration": 5782100,
+        "prompt_eval_count": 228,
+        "prompt_eval_duration": 189419000,
+        "eval_count": 242,
+        "eval_duration": 3008352000,
+        "logprobs": null,
+        "model_name": "qwen3.5:4b",
+        "model_provider": "ollama"
+      },
+      "usage_metadata": {
+        "input_tokens": 228,
+        "output_tokens": 242,
+        "total_tokens": 470
+      },
+      "bin": "Product Image/medium",
+      "steady_seconds": 3.2663133999967946
+    },
+    {
+      "region_id": "cars_mercedes-eqc-2019-suv-293-owners-manual-1640173907_12247",
+      "image_filename": "images/cars_mercedes-eqc-2019-suv-293-owners-manual-1640173907/images/cars_mercedes-eqc-2019-suv-293-owners-manual-1640173907_00452.jpg",
+      "crop_box": [
+        52,
+        217,
+        1173,
+        554
+      ],
+      "input_size": [
+        1121,
+        337
+      ],
+      "wall_seconds": 2.6464521999951103,
+      "response_metadata": {
+        "model": "qwen3.5:4b",
+        "created_at": "2026-10-21T10:02:37.8400547Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2640162400,
+        "load_duration": 6961100,
+        "prompt_eval_count": 547,
+        "prompt_eval_duration": 340888000,
+        "eval_count": 179,
+        "eval_duration": 2221047000,
+        "logprobs": null,
+        "model_name": "qwen3.5:4b",
+        "model_provider": "ollama"
+      },
+      "usage_metadata": {
+        "input_tokens": 547,
+        "output_tokens": 179,
+        "total_tokens": 726
+      },
+      "bin": "illustration/large",
+      "steady_seconds": 2.6394910999951104
+    },
+    {
+      "region_id": "Samsung_TV_Neo QLED 8K_OSNATSCB-3.2.0_EM_Oscar_Pontus_Nike_Kant-SU2e_USA_ENG_220216.0_347",
+      "image_filename": "images/Samsung_TV_Neo QLED 8K_OSNATSCB-3.2.0_EM_Oscar_Pontus_Nike_Kant-SU2e_USA_ENG_220216.0/images/Samsung_TV_Neo QLED 8K_OSNATSCB-3.2.0_EM_Oscar_Pontus_Nike_Kant-SU2e_USA_ENG_220216.0_00008.jpg",
+      "crop_box": [
+        332,
+        569,
+        355,
+        584
+      ],
+      "input_size": [
+        23,
+        15
+      ],
+      "wall_seconds": 1.7857232000023942,
+      "response_metadata": {
+        "model": "qwen3.5:4b",
+        "created_at": "2026-10-21T10:03:37.92933Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 1769989000,
+        "load_duration": 5410100,
+        "prompt_eval_count": 174,
+        "prompt_eval_duration": 343921000,
+        "eval_count": 108,
+        "eval_duration": 1332901000,
+        "logprobs": null,
+        "model_name": "qwen3.5:4b",
+        "model_provider": "ollama"
+      },
+      "usage_metadata": {
+        "input_tokens": 174,
+        "output_tokens": 108,
+        "total_tokens": 282
+      },
+      "bin": "Product Image/small",
+      "steady_seconds": 1.7803131000023942
+    }
+  ],
+  "descriptions": [
+    {
+      "page_id": "Apple_iphone-13-pro-max-07300325A-repair_00002",
+      "image_filename": "images/Apple_iphone-13-pro-max-07300325A-repair/images/Apple_iphone-13-pro-max-07300325A-repair_00005.jpg",
+      "id": "Apple_iphone-13-pro-max-07300325A-repair_38",
+      "structure": "Product Image",
+      "shape": {
+        "x": 181.98611450195312,
+        "y": 561.3333435058595,
+        "width": 40.000000000000114,
+        "height": 44.0
+      },
+      "description": "A yellow triangular warning sign with a black border containing a large black exclamation mark in the center."
+    },
+    {
+      "page_id": "Apple_iphone-13-pro-max-07300325A-repair_00002",
+      "image_filename": "images/Apple_iphone-13-pro-max-07300325A-repair/images/Apple_iphone-13-pro-max-07300325A-repair_00005.jpg",
+      "id": "Apple_iphone-13-pro-max-07300325A-repair_39",
+      "structure": "Product Image",
+      "shape": {
+        "x": 179.98611450195315,
+        "y": 630.3333435058598,
+        "width": 41.00000000000006,
+        "height": 45.99999999999977
+      },
+      "description": "A blue-bordered triangle containing a white background and a black exclamation mark in the center."
+    },
+    {
+      "page_id": "Apple_iphone-13-pro-max-07300325A-repair_00003",
+      "image_filename": "images/Apple_iphone-13-pro-max-07300325A-repair/images/Apple_iphone-13-pro-max-07300325A-repair_00006.jpg",
+      "id": "Apple_iphone-13-pro-max-07300325A-repair_61",
+      "structure": "Product Image",
+      "shape": {
+        "x": 475.5,
+        "y": 366.4063720703127,
+        "width": 277.5118408203133,
+        "height": 540.9807739257815
+      },
+      "description": "A disassembled smartphone interior showing internal components including an A15 Bionic chip labeled on the logic board, a large black battery with text indicating it is a Rechargeable Li-ion Battery Model A2382 and includes warnings about authorized service provider only, potential for fire or burning, do not disassemble, crush, puncture, heat, or swim. The image displays blue lines pointing to various parts of the device’s internal structure, including areas near the camera module at the top, the main logic board area, and components near the bottom labeled TAPIC ENGINE. A numbered circle with '13' appears over a section of the logic board."
+    },
+    {
+      "page_id": "Mi_True_Wireless_Earbuds_uk_00001",
+      "image_filename": "images/Mi_True_Wireless_Earbuds_uk/images/Mi_True_Wireless_Earbuds_uk_00002.jpg",
+      "id": "Mi_True_Wireless_Earbuds_uk_16",
+      "structure": "graphic",
+      "shape": {
+        "x": 333.75000000000017,
+        "y": 179.41874313354498,
+        "width": 523.5000000000005,
+        "height": 516.0000000000002
+      },
+      "description": "A line drawing of an open charging case containing two earbuds, with labels pointing to specific features. At the top, a circular inset shows a close-up view labeled 'Charging Port', indicating a rectangular port on the surface. Below this, the main body of the case is shown open, revealing two earbud slots inside. A label points to small protrusions within the left earbud slot, identified as 'Charging Pins'. The entire outer shell is labeled 'Charging Case'. On the right side of the base, a small dot or indicator light is pointed to by a line leading to the label 'Charging Indicator'. All text is in English and clearly legible."
+    },
+    {
+      "page_id": "owg_en_wms_soundlink_adapterkit_00005",
+      "image_filename": "images/owg_en_wms_soundlink_adapterkit/images/owg_en_wms_soundlink_adapterkit_00006.jpg",
+      "id": "owg_en_wms_soundlink_adapterkit_37",
+      "structure": "illustration",
+      "shape": {
+        "x": 46,
+        "y": 297.08333333333326,
+        "width": 119.11111111111092,
+        "height": 111.11111111111126
+      },
+      "description": "A grayscale illustration of a SoundLink™ adapter device, depicted as a rectangular box with rounded corners and a small protruding connector on the front face. A coiled cable extends from the side of the adapter, terminating in a USB plug at the far end. The text 'SoundLink™ adapter' is displayed below the image in bold font."
+    },
+    {
+      "page_id": "ms_hololens_00370",
+      "image_filename": "images/ms_hololens/images/382.jpg",
+      "id": "ms_hololens_6493",
+      "structure": "Product Image",
+      "shape": {
+        "x": 114.61999999999999,
+        "y": 1001.66,
+        "width": 930.2600000000001,
+        "height": 618.1799999999997
+      },
+      "description": "The image displays a cropped section of an English product manual interface titled 'Settings' at the top left corner. The main content area is divided into two sections: a vertical navigation menu on the left and a detailed settings panel on the right.\n\nIn the left navigation menu, under the 'Accounts' category, several options are listed vertically:\n- Home (with a house icon)\n- Find a setting (search bar with magnifying glass icon)\n- Your info (with user icon)\n- Email & accounts (with envelope icon)\n- Sign-in options (with magnifying glass icon)\n- Access work or school (highlighted with a blue vertical line to its left, indicating it is the currently selected item; accompanied by a briefcase icon)\n- Other users (with user icon)\n\nThe right panel displays information related to 'Access work or school'. At the top of this section, the heading reads 'Access work or school' in large white text. Below this, there is descriptive text explaining that connecting allows access to resources like email, apps, and network, with potential control by work or school over device settings.\n\nBelow the description, there is a button labeled 'Connect' next to a square icon containing a plus sign (+).\n\nFurther down, under the heading 'Related settings', three hyperlinked options are listed:\n- Add or remove a provisioning package\n- Export your management log files\n- View advanced diagnostic report (this option is circled with a yellow highlight)\n\nThe overall background of the interface is dark gray to black, with white text for readability."
+    },
+    {
+      "page_id": "ms_hololens_00371",
+      "image_filename": "images/ms_hololens/images/383.jpg",
+      "id": "ms_hololens_6502",
+      "structure": "Product Image",
+      "shape": {
+        "x": 114.62000000000003,
+        "y": 400.29999999999995,
+        "width": 930.2599999999999,
+        "height": 387.70000000000016
+      },
+      "description": "A blue rectangular dialog box titled 'Log Collection' with an icon resembling stacked lines to the left of the title. Below the title, white text reads: 'Collecting diagnostic logs. It may take some time, so please don't turn off the device.' A close button (X) is visible in the top-right corner of the dialog box."
+    },
+    {
+      "page_id": "samsung_model vehicle manuals_9b5c401e-4f1d-4804-ac57-ba75209e3d4e_00006",
+      "image_filename": "images/samsung_model vehicle manuals_9b5c401e-4f1d-4804-ac57-ba75209e3d4e/images/samsung_model vehicle manuals_9b5c401e-4f1d-4804-ac57-ba75209e3d4e_00006.jpg",
+      "id": "samsung_model vehicle manuals_9b5c401e-4f1d-4804-ac57-ba75209e3d4e_804",
+      "structure": "graphic",
+      "shape": {
+        "x": 613.3333333333331,
+        "y": 228.42708333333317,
+        "width": 123.99999999999955,
+        "height": 115.99999999999997
+      },
+      "description": "A technical illustration of a single guide stand component, labeled 'Guide Stand x 1' at the bottom. The part is depicted in an exploded or isolated view, showing its overall shape and mounting features. It has a curved, elongated body with multiple circular holes for fastening along its length. There are two rectangular cutouts near the center, possibly for cable routing or attachment points. The surface appears smooth with slight contouring to fit a specific application. No additional text, arrows, steps, or warnings are visible in this cropped figure."
+    },
+    {
+      "page_id": "samsung_projector accessories manuals_22f8c0ba-8fbd-44bf-942c-f90001663857_00007",
+      "image_filename": "images/samsung_projector accessories manuals_22f8c0ba-8fbd-44bf-942c-f90001663857/images/samsung_projector accessories manuals_22f8c0ba-8fbd-44bf-942c-f90001663857_00008.jpg",
+      "id": "samsung_projector accessories manuals_22f8c0ba-8fbd-44bf-942c-f90001663857_283",
+      "structure": "graphic",
+      "shape": {
+        "x": 68.99999999999999,
+        "y": 216.21874999999991,
+        "width": 688.9999999999997,
+        "height": 284.9999999999999
+      },
+      "description": "A cropped figure from an English product manual showing six grayscale icons arranged in two rows of three, each labeled below with its name. Top row, left: Main Unit — a desk lamp with a curved arm and circular base containing a dial or control knob. Top row, center: Software / User Manual CD — a standard compact disc viewed from above. Top row, right: Power Adapter — a rectangular plug unit with a coiled power cord extending to the right. Bottom row, left: VGA Cable — a cable with two D-sub connectors at each end, one angled upward and one downward. Bottom row, center: USB Cable — a short cable with two USB-A connectors, one pointing up and one down. Bottom row, right: Diffusing Sheet — two overlapping white rectangular sheets, slightly offset to show depth. All labels are in sans-serif font on gray horizontal bars beneath each icon."
+    },
+    {
+      "page_id": "HUAWEI_PixLab X1 User Guide-(01,en,CV81&CV81Z)_00011",
+      "image_filename": "images/HUAWEI_PixLab X1 User Guide-(01,en,CV81&CV81Z)/images/HUAWEI_PixLab X1 User Guide-(01,en,CV81&CV81Z)_00013.jpg",
+      "id": "HUAWEI_PixLab X1 User Guide-(01,en,CV81&CV81Z)_255",
+      "structure": "illustration",
+      "shape": {
+        "x": 118.5104141235352,
+        "y": 311.0052051544191,
+        "width": 1012.5000000000002,
+        "height": 609.0
+      },
+      "description": "A cropped figure from an English product manual showing a bullet point of text and two line drawings. The text reads: 'Some Huawei computers running Windows can also connect to the printer by pop-up pairing. To do so, make sure that PC Manager is working and place the computer within 1 meter of the printer. The computer will automatically detect the printer and pop up a connection window. You will then need to follow the onscreen instructions to add the printer.' Below the text are two side-by-side line drawings: on the left, a laptop computer with a screen displaying a window interface; on the right, a white multifunction printer labeled 'HUAWEI' with its top cover open."
+    },
+    {
+      "page_id": "lg_air_conditioner_manuals_8c425f48-87cc-4064-9428-add4b1bcf11a_00008",
+      "image_filename": "images/lg_air_conditioner_manuals_8c425f48-87cc-4064-9428-add4b1bcf11a/images/lg_air_conditioner_manuals_8c425f48-87cc-4064-9428-add4b1bcf11a_00009.jpg",
+      "id": "lg_air_conditioner_manuals_8c425f48-87cc-4064-9428-add4b1bcf11a_208",
+      "structure": "Product Image",
+      "shape": {
+        "x": 109,
+        "y": 142.60937499999994,
+        "width": 291,
+        "height": 243.9999999999999
+      },
+      "description": "A vertical line drawing of an air conditioning unit standing on a floor, with dimension lines and annotations indicating installation or clearance requirements. The unit has a rectangular body with horizontal vents at the top, a central display panel, and side panels. On the left side, there are two dimension lines: one horizontal arrow labeled '200mm' pointing to the right edge of the unit, and another vertical arrow labeled '90mm' indicating height from the floor to a point marked with a circle and crosshair symbol. A horizontal line extends leftward from this point with an arrow labeled '70mm'. On the right side, there is a similar circle and crosshair symbol with a horizontal dimension line labeled '70mm', suggesting clearance or mounting offset measurements."
+    },
+    {
+      "page_id": "laptop_macbook pro user's guide (manual)_00033",
+      "image_filename": "images/laptop_macbook pro user's guide (manual)/images/34.jpg",
+      "id": "laptop_macbook pro user's guide (manual)_397",
+      "structure": "graphic",
+      "shape": {
+        "x": 76,
+        "y": 345.8666687011719,
+        "width": 136.66666666666657,
+        "height": 70.0
+      },
+      "description": "A cropped image showing a gray rectangular panel labeled 'Mode switch' at the top. The panel contains a horizontal toggle switch positioned in the middle, with two symbols on either side: a circle with a diagonal line (indicating off) on the left and an asterisk-like symbol (possibly indicating on or active mode) on the right."
+    },
+    {
+      "page_id": "dell_coffeemaker manuals_4b4bb95f-c0dc-4673-80c4-807f23f79fb5_00006",
+      "image_filename": "images/dell_coffeemaker manuals_4b4bb95f-c0dc-4673-80c4-807f23f79fb5/images/dell_coffeemaker manuals_4b4bb95f-c0dc-4673-80c4-807f23f79fb5_00009.jpg",
+      "id": "dell_coffeemaker manuals_4b4bb95f-c0dc-4673-80c4-807f23f79fb5_309",
+      "structure": "graphic",
+      "shape": {
+        "x": 333.75,
+        "y": 231.91874313354495,
+        "width": 660.0000000000005,
+        "height": 379.5000000000002
+      },
+      "description": "A black-and-white technical illustration showing a screwdriver being used to adjust or secure a component on a device. The main view displays a curved metallic strip (possibly a ribbon cable or connector) attached to a base with two rectangular blocks. A screwdriver is inserted into a slot between these blocks, turning a screw. An arrow points from the main image to a circular magnified inset showing a close-up of the connection point. Inside the circle, text reads: 'movable part of connector (do not remove)', with an arrow pointing to one of the rectangular components in the assembly."
+    },
+    {
+      "page_id": "inspiron-11-3162-laptop_reference guide_en-us_00002",
+      "image_filename": "images/inspiron-11-3162-laptop_reference guide_en-us/images/inspiron-11-3162-laptop_reference guide_en-us_00002.jpg",
+      "id": "inspiron-11-3162-laptop_reference guide_en-us_998",
+      "structure": "illustration",
+      "shape": {
+        "x": 63.99999999999996,
+        "y": 537.5520935058594,
+        "width": 144.0,
+        "height": 125.99999999999989
+      },
+      "description": "A cropped image showing a blue laptop computer with its screen open and displaying a blue abstract background. Below the laptop image is the word 'Display' in black text."
+    },
+    {
+      "page_id": "inspiron-11-3162-laptop_reference guide_en-us_00003",
+      "image_filename": "images/inspiron-11-3162-laptop_reference guide_en-us/images/inspiron-11-3162-laptop_reference guide_en-us_00003.jpg",
+      "id": "inspiron-11-3162-laptop_reference guide_en-us_27",
+      "structure": "illustration",
+      "shape": {
+        "x": 69.33333333333324,
+        "y": 406.4062499999998,
+        "width": 119.99999999999999,
+        "height": 106.66666666666652
+      },
+      "description": "A cropped image showing the front view of a blue laptop base with a black keyboard and trackpad area. The word 'Base' is displayed in bold black text below the laptop image."
+    },
+    {
+      "page_id": "cars_2020-nissan-leaf-owner-manual_00068",
+      "image_filename": "images/cars_2020-nissan-leaf-owner-manual/images/cars_2020-nissan-leaf-owner-manual_00072.jpg",
+      "id": "cars_2020-nissan-leaf-owner-manual_775",
+      "structure": "Product Image",
+      "shape": {
+        "x": 820.1640014648439,
+        "y": 127.11798095703128,
+        "width": 293.4800415039068,
+        "height": 211.64001464843753
+      },
+      "description": "A line drawing of a handheld device, likely a power tool or similar appliance, shown in side profile. The device features a handle at the bottom right with an ergonomic grip shape. At the top left, there is a trigger mechanism labeled 'A' via a leader line pointing to a small lever or button on the upper surface near the rear of the main body. Below the main housing, a zigzag-shaped component resembling a spring or gear is visible along the underside edge. The overall design suggests a compact, portable tool with a focus on manual operation through the trigger."
+    },
+    {
+      "page_id": "bose_headphones manuals_9917ef89-897c-6524-2502-2b0a91ec7d62_00004",
+      "image_filename": "images/bose_headphones manuals_9917ef89-897c-6524-2502-2b0a91ec7d62/images/bose_headphones manuals_9917ef89-897c-6524-2502-2b0a91ec7d62_00004.jpg",
+      "id": "bose_headphones manuals_9917ef89-897c-6524-2502-2b0a91ec7d62_40",
+      "structure": "Product Image",
+      "shape": {
+        "x": 383.3938575978865,
+        "y": 430.1562390243799,
+        "width": 63.45087719298243,
+        "height": 61.2999999999999
+      },
+      "description": "A black-and-white line drawing showing two concentric circles. The outer circle is larger and encloses the inner circle, which is smaller and centered within it. No labels, text, arrows, numbers, or additional elements are visible in the image."
+    },
+    {
+      "page_id": "HUAWEI_MateBook X Pro User Guide-(01_en)_00008",
+      "image_filename": "images/HUAWEI_MateBook X Pro User Guide-(01_en)/images/HUAWEI_MateBook X Pro User Guide-(01_en)_00010.jpg",
+      "id": "HUAWEI_MateBook X Pro User Guide-(01_en)_199",
+      "structure": "Product Image",
+      "shape": {
+        "x": 164.2500000000001,
+        "y": 906.0000000000009,
+        "width": 93.0,
+        "height": 65.99999999999966
+      },
+      "description": "A rectangular button with rounded corners and a light gray background. On the left side of the button is a speaker icon consisting of a triangle pointing right followed by three curved lines representing sound waves. To the right of the speaker icon, in the lower portion of the button, is the text 'F6' in black sans-serif font."
+    },
+    {
+      "page_id": "telsla_model_s_manual_00003",
+      "image_filename": "images/telsla_model_s_manual/images/3.jpg",
+      "id": "telsla_model_s_manual_19",
+      "structure": "graphic",
+      "shape": {
+        "x": 387.72999999999985,
+        "y": 102.57999999999996,
+        "width": 349.3500000000003,
+        "height": 842.8599999999981
+      },
+      "description": "A cropped figure from an English product manual showing a black Tesla Model S mouse-shaped remote control with three numbered callouts (1, 2, 3) pointing to specific areas: 1 indicates the left side near the edge, 2 points to the center area above the logo, and 3 highlights the right side. Below the image are instructions for vehicle controls: Section 1 covers 'Trunk' operation—double-clicking opens the rear trunk; if equipped with a powered liftgate, double-clicking closes it (or single-click stops movement); holding the button down for one to two seconds opens the charge port door. Section 2 details 'Lock/Unlock All': double-click unlocks Model S (hazard lights flash twice), while single-click locks all doors and trunks (hazard lights flash once). A note explains that if Door Unlock Mode is set to Driver, only the driver’s door unlocks on first double-click; otherwise, all doors/trunk unlock. Users can change this setting via touchscreen under touch Controls > Settings > Vehicle > Door Unlock Mode. Section 3 describes opening the front trunk ('frunk') by double-clicking."
+    },
+    {
+      "page_id": "cars_mercedes-eqc-2019-suv-293-owners-manual-1640173907_00124",
+      "image_filename": "images/cars_mercedes-eqc-2019-suv-293-owners-manual-1640173907/images/cars_mercedes-eqc-2019-suv-293-owners-manual-1640173907_00133.jpg",
+      "id": "cars_mercedes-eqc-2019-suv-293-owners-manual-1640173907_2039",
+      "structure": "illustration",
+      "shape": {
+        "x": 392.25000000000006,
+        "y": 59.25000000000001,
+        "width": 364.49999999999994,
+        "height": 423.0
+      },
+      "description": "A line drawing of a car interior showing the glove compartment area and an inset close-up view. The main illustration depicts the lower section of the dashboard with circular vents and a rectangular socket labeled as item 1, highlighted by a blue box. An arrow points from this socket to the inset diagram. The inset shows a black plastic flap or cover (item 3) hinged open, revealing a recessed compartment containing a small rectangular plug (item 2). A white text label '230 V' is visible on the side of the compartment in the inset. Below the illustrations, there are three instructional bullet points: 'Open flap 3.', 'Insert the plug of the device into 230 V socket 1.', and 'When the on-board electrical system voltage is sufficient, indicator lamp 2 lights up.' The text uses blue arrows to indicate sequence."
+    },
+    {
+      "page_id": "cars_mercedes-eqc-2019-suv-293-owners-manual-1640173907_00268",
+      "image_filename": "images/cars_mercedes-eqc-2019-suv-293-owners-manual-1640173907/images/cars_mercedes-eqc-2019-suv-293-owners-manual-1640173907_00277.jpg",
+      "id": "cars_mercedes-eqc-2019-suv-293-owners-manual-1640173907_5187",
+      "structure": "Product Image",
+      "shape": {
+        "x": 400.68502807617176,
+        "y": 102.744384765625,
+        "width": 351.7619934082029,
+        "height": 179.000030517578
+      },
+      "description": "A cropped image from an English product manual showing a digital display panel with six numbered callouts (1–6). The display is rectangular and light blue with white icons and text. Callout 1 points to a snowflake icon on the left side of the screen, indicating temperature or cooling mode. Below it are three small vertical bars labeled '11', '12', '13'. Callout 2 points to a circular gauge in the upper right showing '80' inside an arc, with '100' at the bottom of the arc, suggesting a scale from 0 to 100. Callout 3 points to a small circle labeled '120' near the top right corner of the display. Callout 4 points to a label reading '100' below the main gauge arc. Callout 5 points to a small icon resembling a fan or airflow symbol located beneath the snowflake icon. Callout 6 points to a small rectangular area with unreadable text near the bottom center of the display. The background behind the display shows faint curved lines, possibly representing airflow or motion paths."
+    },
+    {
+      "page_id": "cars_mercedes-eqc-2019-suv-293-owners-manual-1640173907_00443",
+      "image_filename": "images/cars_mercedes-eqc-2019-suv-293-owners-manual-1640173907/images/cars_mercedes-eqc-2019-suv-293-owners-manual-1640173907_00452.jpg",
+      "id": "cars_mercedes-eqc-2019-suv-293-owners-manual-1640173907_12247",
+      "structure": "illustration",
+      "shape": {
+        "x": 52.75000000000001,
+        "y": 217.66406250000003,
+        "width": 1120.0,
+        "height": 336.0000000000001
+      },
+      "description": "TV mode overview screen showing media playback interface with numbered callouts. Top bar displays home icon (1), Bluetooth/USB/TV tabs, time 08:15, and message icon. Playback controls include rewind button (2) and play/pause button (3). Central display shows album art of roses with timestamps 13:35 and 14:25. Right panel lists track info: ONE HD (4), song title Verrückt nach Meer (185), artist Auf der Überfahrt von Auckland, Sydney... (5), and DVB-T2 logo (6). Bottom bar contains temperature display ±22.0°C on both sides, search icon (11), equalizer icon (10), help icon (9), camera icon (8), and settings gear icon (7)."
+    },
+    {
+      "page_id": "Samsung_TV_Neo QLED 8K_OSNATSCB-3.2.0_EM_Oscar_Pontus_Nike_Kant-SU2e_USA_ENG_220216.0_00003",
+      "image_filename": "images/Samsung_TV_Neo QLED 8K_OSNATSCB-3.2.0_EM_Oscar_Pontus_Nike_Kant-SU2e_USA_ENG_220216.0/images/Samsung_TV_Neo QLED 8K_OSNATSCB-3.2.0_EM_Oscar_Pontus_Nike_Kant-SU2e_USA_ENG_220216.0_00008.jpg",
+      "id": "Samsung_TV_Neo QLED 8K_OSNATSCB-3.2.0_EM_Oscar_Pontus_Nike_Kant-SU2e_USA_ENG_220216.0_347",
+      "structure": "Product Image",
+      "shape": {
+        "x": 332.8888888888889,
+        "y": 569.6111111111111,
+        "width": 21.777777777777715,
+        "height": 14.222222222222172
+      },
+      "description": "A cropped image showing a white game controller with black directional pad and action buttons. The controller features a D-pad on the left side with four arrow-shaped buttons (up, down, left, right). On the right side, there are two circular action buttons labeled 'X' and 'O', positioned vertically. The central area contains a small rectangular button or indicator. No additional text, labels, numbers, units, conditions, warnings, or spatial references beyond the visible controller layout are present."
+    }
+  ],
+  "limitations": "20 train figures selected by 3 types and 3 area bins. Full population weights include train/val/test. Extrapolation, not a full run; excludes inspection and retry downtime."
+}
