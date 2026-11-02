@@ -1,0 +1,21 @@
+{
+  "cases": [
+    "figure",
+    "absent"
+  ],
+  "index_load_and_retrieval_seconds": 30.82150749998982,
+  "points_before": 126938,
+  "points_after": 126938,
+  "source_hashes_preserved": {
+    "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\datasets\\PM209\\data\\train.jsonl": true,
+    "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\datasets\\PM209\\data\\val.jsonl": true,
+    "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\datasets\\PM209\\data\\test.jsonl": true,
+    "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\datasets\\PM209\\data\\vlm\\train.jsonl": true,
+    "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\datasets\\PM209\\data\\vlm\\val.jsonl": true,
+    "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\datasets\\PM209\\data\\vlm\\test.jsonl": true,
+    "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\datasets\\PM209\\data\\paddle_tables_manual_20261026\\train.jsonl": true,
+    "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\datasets\\PM209\\data\\paddle_tables_manual_20261026\\val.jsonl": true,
+    "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\datasets\\PM209\\data\\paddle_tables_manual_20261026\\test.jsonl": true
+  },
+  "chunk_hash_preserved": true
+}

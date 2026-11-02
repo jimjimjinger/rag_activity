@@ -1,0 +1,172 @@
+{
+  "case_id": "TEXT04",
+  "manual_id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728",
+  "question": "호스트 서버를 스토리지 어레이에 연결하면 무엇을 할 수 있나요?",
+  "english_query": "What can be done by connecting the host server to the storage array?",
+  "keyword_percent": 100,
+  "variant": "top1_kw100",
+  "top_k": 1,
+  "retrieved_chunk_ids": [
+    "6fefbef5-4472-545b-b4fb-1a0d71da3339"
+  ],
+  "sources": [
+    {
+      "chunk_id": "6fefbef5-4472-545b-b4fb-1a0d71da3339",
+      "manual_id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728",
+      "page_id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_00004",
+      "chunk_type": "text",
+      "text": "• Host server — On a host server system, MDSM and the storage array communicate management requests and event information using in-band or out-of band-connections.\n• Management station — On a management station, MDSM communicates with the storage array either through an Ethernet connection to the storage array management port or through an Ethernet connection to a host server.",
+      "content_region_ids": [
+        "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_26",
+        "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_27"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728/images/dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_00006.jpg",
+      "source_shapes": [
+        {
+          "id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_26",
+          "shape": {
+            "x": 179.99999999999997,
+            "y": 142.6060028076172,
+            "width": 819.7019653320311,
+            "height": 39.67399597167963
+          }
+        },
+        {
+          "id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_27",
+          "shape": {
+            "x": 179.99999999999997,
+            "y": 190.60600280761722,
+            "width": 863.0820312499998,
+            "height": 79.67399597167955
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_26",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 163
+        },
+        {
+          "region_id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_27",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 215
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 46.97697830200195,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "excluded_sources": [],
+  "created_at": "2026-11-02T05:00:39.725334+00:00",
+  "status": "answered",
+  "answer": "호스트 서버에 연결하면 MDSM 과 스토리지 어레이 간에 관리 요청 및 이벤트 정보를 인밴드 또는 아웃-of-band 연결을 통해 통신할 수 있습니다.",
+  "source_ids": [
+    "S1"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 73,
+        "prompt_eval_count": 436,
+        "total_duration": 1033454100,
+        "load_duration": 5545300,
+        "attempt": 1,
+        "prompt_token_upper_bound": 2640
+      }
+    ],
+    "elapsed_seconds": 1.0373398000083398,
+    "backend": "LangChain ChatPromptTemplate | ChatOllama"
+  },
+  "citations": [
+    {
+      "chunk_id": "6fefbef5-4472-545b-b4fb-1a0d71da3339",
+      "manual_id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728",
+      "page_id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_00004",
+      "chunk_type": "text",
+      "text": "• Host server — On a host server system, MDSM and the storage array communicate management requests and event information using in-band or out-of band-connections.\n• Management station — On a management station, MDSM communicates with the storage array either through an Ethernet connection to the storage array management port or through an Ethernet connection to a host server.",
+      "content_region_ids": [
+        "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_26",
+        "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_27"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728/images/dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_00006.jpg",
+      "source_shapes": [
+        {
+          "id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_26",
+          "shape": {
+            "x": 179.99999999999997,
+            "y": 142.6060028076172,
+            "width": 819.7019653320311,
+            "height": 39.67399597167963
+          }
+        },
+        {
+          "id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_27",
+          "shape": {
+            "x": 179.99999999999997,
+            "y": 190.60600280761722,
+            "width": 863.0820312499998,
+            "height": 79.67399597167955
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_26",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 163
+        },
+        {
+          "region_id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_27",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 215
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 46.97697830200195,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 1.0373993999965023,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 67,
+    "utilization_percent": 84
+  }
+}

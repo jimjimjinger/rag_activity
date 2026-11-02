@@ -1,0 +1,513 @@
+{
+  "case_id": "FIG04",
+  "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+  "question": "볼륨을 낮추는 Volume- 버튼은 어디에 있나요?",
+  "english_query": "Where is the Volume- button to lower the volume located?",
+  "keyword_percent": 50,
+  "variant": "top5_kw050",
+  "top_k": 5,
+  "retrieved_chunk_ids": [
+    "09fed5a3-fac8-52d4-a53f-e7b46f349387",
+    "ef923ed8-e95d-55d8-a008-60de25cf2c60",
+    "daa5566f-4518-5c00-ac6e-69cd5bb57237",
+    "ffbb4b35-d0ce-5984-9c27-19e61e3871e7",
+    "bd8d2934-bccd-5903-b0b4-2b6933eae133"
+  ],
+  "sources": [
+    {
+      "chunk_id": "09fed5a3-fac8-52d4-a53f-e7b46f349387",
+      "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+      "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00002",
+      "chunk_type": "text",
+      "text": "Device layout\n[Volume (-)] button",
+      "content_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_16"
+      ],
+      "context_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_17"
+      ],
+      "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/2.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_16",
+          "shape": {
+            "x": 55.93999999999999,
+            "y": 94.95999999999998,
+            "width": 93.00999999999996,
+            "height": 15.390000000000057
+          }
+        },
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_17",
+          "shape": {
+            "x": 34.019999999999996,
+            "y": 31.28,
+            "width": 99.83,
+            "height": 22.299999999999955
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_16",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 19
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.030886196246139225,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "ef923ed8-e95d-55d8-a008-60de25cf2c60",
+      "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+      "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00015",
+      "chunk_type": "text",
+      "text": "• Press the [Volume (+)/(-)] buttons to adjust the volume. • Press the [Play/Stop] button to mute or unmute the microphone. • Press and hold the [Talk] button to pause or resume a call.",
+      "content_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_103"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/15.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_103",
+          "shape": {
+            "x": 238.11,
+            "y": 32.519999999999975,
+            "width": 181.39999999999998,
+            "height": 97.41999999999999
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_103",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 185
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.03047794966520434,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "daa5566f-4518-5c00-ac6e-69cd5bb57237",
+      "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+      "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00014",
+      "chunk_type": "text",
+      "text": "Playing audio\nPlay audio from your smartphone, multimedia player, or PC. • Adjust the volume with the [Volume (+)/(-)] buttons. • A notification will sound when the speaker volume reaches its maximum value. If the sound is not loud enough even with the speaker volume set to maximum, adjust the volume of the connected device.",
+      "content_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_98"
+      ],
+      "context_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_97"
+      ],
+      "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/14.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_98",
+          "shape": {
+            "x": 34.02,
+            "y": 54.57,
+            "width": 176.09,
+            "height": 172.43
+          }
+        },
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_97",
+          "shape": {
+            "x": 34.02,
+            "y": 31.58,
+            "width": 89.97999999999999,
+            "height": 19.83
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_98",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 312
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.03036576949620428,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S3"
+    },
+    {
+      "chunk_id": "ffbb4b35-d0ce-5984-9c27-19e61e3871e7",
+      "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+      "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00002",
+      "chunk_type": "text",
+      "text": "[Volume (+)] button",
+      "content_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_8"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/2.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_8",
+          "shape": {
+            "x": 304.5899999999999,
+            "y": 96.59999999999995,
+            "width": 96.45000000000005,
+            "height": 15.390000000000043
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_8",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 19
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.030309988518943745,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S4"
+    },
+    {
+      "chunk_id": "bd8d2934-bccd-5903-b0b4-2b6933eae133",
+      "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+      "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00002",
+      "chunk_type": "figure",
+      "text": "A top-down view of a portable speaker showing labeled controls including [Volume (+)] button, [Play/Stop] button, [Talk] button, Status indicator, NFC antenna, and Microphone.",
+      "content_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_12"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/2.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_12",
+          "shape": {
+            "x": 54.76999999999999,
+            "y": 93.28999999999999,
+            "width": 348.2499999999999,
+            "height": 126.1
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_12",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 175
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": 0.030309988518943745,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S5"
+    }
+  ],
+  "excluded_sources": [],
+  "created_at": "2026-11-02T05:03:39.360772+00:00",
+  "status": "answered",
+  "answer": "볼륨을 낮추는 Volume- 버튼은 기기 상단 또는 측면에 위치하며, 볼륨을 높이는 Volume+ 버튼과 함께 배치되어 있습니다. 정확한 위치는 기기의 레이아웃 기하학적 추론 (layout geometry heuristic) 에 의해 파악되었습니다.",
+  "source_ids": [
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 100,
+        "prompt_eval_count": 645,
+        "total_duration": 1644940500,
+        "load_duration": 7095500,
+        "attempt": 1,
+        "prompt_token_upper_bound": 3360
+      }
+    ],
+    "elapsed_seconds": 1.6536604999855626,
+    "backend": "LangChain ChatPromptTemplate | ChatOllama"
+  },
+  "citations": [
+    {
+      "chunk_id": "09fed5a3-fac8-52d4-a53f-e7b46f349387",
+      "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+      "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00002",
+      "chunk_type": "text",
+      "text": "Device layout\n[Volume (-)] button",
+      "content_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_16"
+      ],
+      "context_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_17"
+      ],
+      "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/2.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_16",
+          "shape": {
+            "x": 55.93999999999999,
+            "y": 94.95999999999998,
+            "width": 93.00999999999996,
+            "height": 15.390000000000057
+          }
+        },
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_17",
+          "shape": {
+            "x": 34.019999999999996,
+            "y": 31.28,
+            "width": 99.83,
+            "height": 22.299999999999955
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_16",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 19
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.030886196246139225,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "ef923ed8-e95d-55d8-a008-60de25cf2c60",
+      "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+      "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00015",
+      "chunk_type": "text",
+      "text": "• Press the [Volume (+)/(-)] buttons to adjust the volume. • Press the [Play/Stop] button to mute or unmute the microphone. • Press and hold the [Talk] button to pause or resume a call.",
+      "content_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_103"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/15.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_103",
+          "shape": {
+            "x": 238.11,
+            "y": 32.519999999999975,
+            "width": 181.39999999999998,
+            "height": 97.41999999999999
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_103",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 185
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.03047794966520434,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "daa5566f-4518-5c00-ac6e-69cd5bb57237",
+      "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+      "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00014",
+      "chunk_type": "text",
+      "text": "Playing audio\nPlay audio from your smartphone, multimedia player, or PC. • Adjust the volume with the [Volume (+)/(-)] buttons. • A notification will sound when the speaker volume reaches its maximum value. If the sound is not loud enough even with the speaker volume set to maximum, adjust the volume of the connected device.",
+      "content_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_98"
+      ],
+      "context_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_97"
+      ],
+      "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/14.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_98",
+          "shape": {
+            "x": 34.02,
+            "y": 54.57,
+            "width": 176.09,
+            "height": 172.43
+          }
+        },
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_97",
+          "shape": {
+            "x": 34.02,
+            "y": 31.58,
+            "width": 89.97999999999999,
+            "height": 19.83
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_98",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 312
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.03036576949620428,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S3"
+    },
+    {
+      "chunk_id": "ffbb4b35-d0ce-5984-9c27-19e61e3871e7",
+      "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+      "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00002",
+      "chunk_type": "text",
+      "text": "[Volume (+)] button",
+      "content_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_8"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/2.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_8",
+          "shape": {
+            "x": 304.5899999999999,
+            "y": 96.59999999999995,
+            "width": 96.45000000000005,
+            "height": 15.390000000000043
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_8",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 19
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.030309988518943745,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S4"
+    },
+    {
+      "chunk_id": "bd8d2934-bccd-5903-b0b4-2b6933eae133",
+      "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+      "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00002",
+      "chunk_type": "figure",
+      "text": "A top-down view of a portable speaker showing labeled controls including [Volume (+)] button, [Play/Stop] button, [Talk] button, Status indicator, NFC antenna, and Microphone.",
+      "content_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_12"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/2.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_12",
+          "shape": {
+            "x": 54.76999999999999,
+            "y": 93.28999999999999,
+            "width": 348.2499999999999,
+            "height": 126.1
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_12",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 175
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": 0.030309988518943745,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S5"
+    }
+  ],
+  "cited_figures": [
+    {
+      "source_id": "S5",
+      "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00002",
+      "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_12",
+      "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/2.jpg",
+      "shape": {
+        "x": 54.76999999999999,
+        "y": 93.28999999999999,
+        "width": 348.2499999999999,
+        "height": 126.1
+      }
+    }
+  ],
+  "elapsed_seconds": 1.653892900008941,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 65,
+    "utilization_percent": 82
+  }
+}

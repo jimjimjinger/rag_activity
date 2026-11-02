@@ -1,0 +1,98 @@
+{
+  "case_id": "TABLE05",
+  "manual_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a",
+  "question": "시스템이 작동하지 않으면 어떻게 해야 하나요?",
+  "english_query": "What should I do if the system does not work?",
+  "keyword_percent": 75,
+  "variant": "top1_kw075",
+  "top_k": 1,
+  "retrieved_chunk_ids": [
+    "aa1e18f2-37d8-59d4-861e-66f7c68a1075"
+  ],
+  "sources": [
+    {
+      "chunk_id": "aa1e18f2-37d8-59d4-861e-66f7c68a1075",
+      "manual_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a",
+      "page_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00002",
+      "chunk_type": "text",
+      "text": "©1994-2004 Bose Corporation. No part of this work may be reproduced, modified, distributed or otherwise used without prior written permission. All trademarks referenced herein are property of Bose Corporation. The Wave® music system design is a registered trademark of Bose Corporation.",
+      "content_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_304"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a/images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00002.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_304",
+          "shape": {
+            "x": 322.07800292968756,
+            "y": 1387.6240234375005,
+            "width": 762.8469238281252,
+            "height": 72.127197265625
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_304",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 286
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.016574585635359115,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "excluded_sources": [],
+  "created_at": "2026-11-02T05:00:19.235104+00:00",
+  "status": "insufficient_evidence",
+  "answer": "검색된 매뉴얼 근거에서 질문에 대한 답을 확인하지 못했습니다.",
+  "source_ids": [],
+  "insufficient_evidence": true,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 55,
+        "prompt_eval_count": 413,
+        "total_duration": 802955400,
+        "load_duration": 4782500,
+        "attempt": 1,
+        "prompt_token_upper_bound": 2516
+      }
+    ],
+    "elapsed_seconds": 0.8062991999904625,
+    "backend": "LangChain ChatPromptTemplate | ChatOllama"
+  },
+  "citations": [],
+  "cited_figures": [],
+  "elapsed_seconds": 0.806320899981074,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 68,
+    "utilization_percent": 82
+  }
+}

@@ -1,0 +1,424 @@
+{
+  "case_id": "FIG10",
+  "manual_id": "samsung_dish_washer_6918977 a",
+  "question": "바구니는 어떻게 분리하나요?",
+  "english_query": "How do I separate the basket?",
+  "keyword_percent": 0,
+  "variant": "top5_kw000",
+  "top_k": 5,
+  "retrieved_chunk_ids": [
+    "61c0eb64-ae2f-576e-9252-3a5a76867ec5",
+    "df6df243-de5a-5912-94d8-b4e6cf614aa2",
+    "8f93153a-45fe-53ab-ae57-f4198f47091f",
+    "44312f7a-76ac-54b8-bc7b-5b955c336f5e",
+    "b0becec9-11e9-5bbf-844a-0156c6e2d122"
+  ],
+  "sources": [
+    {
+      "chunk_id": "61c0eb64-ae2f-576e-9252-3a5a76867ec5",
+      "manual_id": "samsung_dish_washer_6918977 a",
+      "page_id": "samsung_dish_washer_6918977 a_00004",
+      "chunk_type": "text",
+      "text": "Split Silverware Basket (select models)\nTo split the basket, hold the basket firmly along the sides. Unlock baskets as shown here.",
+      "content_region_ids": [
+        "samsung_dish_washer_6918977 a_111"
+      ],
+      "context_region_ids": [
+        "samsung_dish_washer_6918977 a_99"
+      ],
+      "image_filename": "images/samsung_dish_washer_6918977 a/images/4.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_dish_washer_6918977 a_111",
+          "shape": {
+            "x": 634.4400000000004,
+            "y": 984.0499999999994,
+            "width": 111.75999999999954,
+            "height": 210.78000000000054
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_99",
+          "shape": {
+            "x": 634.4400000000004,
+            "y": 741.0300000000002,
+            "width": 256.7700000000001,
+            "height": 57.719999999999914
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_dish_washer_6918977 a_111",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 90
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.785116435939182,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "df6df243-de5a-5912-94d8-b4e6cf614aa2",
+      "manual_id": "samsung_dish_washer_6918977 a",
+      "page_id": "samsung_dish_washer_6918977 a_00004",
+      "chunk_type": "figure",
+      "text": "Removable Silverware Basket (select models)\nA split silverware basket in a dishwasher rack, shown separated into two sections for flexible loading of flatware and utensils. The image illustrates how to unlock the basket by holding it firmly along the sides and pulling apart. Labels include 'Split Silverware Basket (select models)' and instructions on separating the basket.",
+      "content_region_ids": [
+        "samsung_dish_washer_6918977 a_118"
+      ],
+      "context_region_ids": [
+        "samsung_dish_washer_6918977 a_100"
+      ],
+      "image_filename": "images/samsung_dish_washer_6918977 a/images/4.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_dish_washer_6918977 a_118",
+          "shape": {
+            "x": 621.7500000000002,
+            "y": 729.918754577637,
+            "width": 539.9999999999998,
+            "height": 472.5000000000002
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_100",
+          "shape": {
+            "x": 634.4400000000004,
+            "y": 216.63000000000002,
+            "width": 330.2600000000001,
+            "height": 57.72000000000011
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_dish_washer_6918977 a_118",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 331
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": 0.7133294267368487,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "8f93153a-45fe-53ab-ae57-f4198f47091f",
+      "manual_id": "samsung_dish_washer_6918977 a",
+      "page_id": "samsung_dish_washer_6918977 a_00004",
+      "chunk_type": "text",
+      "text": "Split Silverware Basket (select models)\nThe split silverware basket can be separated and placed in several locations in the bottom rack. Load flatware and utensils into both sections or just one, depending on your load.",
+      "content_region_ids": [
+        "samsung_dish_washer_6918977 a_87"
+      ],
+      "context_region_ids": [
+        "samsung_dish_washer_6918977 a_99"
+      ],
+      "image_filename": "images/samsung_dish_washer_6918977 a/images/4.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_dish_washer_6918977 a_87",
+          "shape": {
+            "x": 634.4400000000004,
+            "y": 807.6500000000002,
+            "width": 291.35999999999945,
+            "height": 157.9799999999998
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_99",
+          "shape": {
+            "x": 634.4400000000004,
+            "y": 741.0300000000002,
+            "width": 256.7700000000001,
+            "height": 57.719999999999914
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_dish_washer_6918977 a_87",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 179
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.6363069835035101,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S3"
+    },
+    {
+      "chunk_id": "44312f7a-76ac-54b8-bc7b-5b955c336f5e",
+      "manual_id": "samsung_dish_washer_6918977 a",
+      "page_id": "samsung_dish_washer_6918977 a_00004",
+      "chunk_type": "text",
+      "text": "Removable Silverware Basket (select models)\nFor best cleaning results, prevent items from nesting together by placing some items in the basket with handles up and some with handles down. Load knives, handles up and spoons and forks handles down, through the slots in the hinged covered section(s) (when closed).",
+      "content_region_ids": [
+        "samsung_dish_washer_6918977 a_102"
+      ],
+      "context_region_ids": [
+        "samsung_dish_washer_6918977 a_100"
+      ],
+      "image_filename": "images/samsung_dish_washer_6918977 a/images/4.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_dish_washer_6918977 a_102",
+          "shape": {
+            "x": 634.4400000000004,
+            "y": 283.2500000000001,
+            "width": 322.5399999999994,
+            "height": 237.19000000000005
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_100",
+          "shape": {
+            "x": 634.4400000000004,
+            "y": 216.63000000000002,
+            "width": 330.2600000000001,
+            "height": 57.72000000000011
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_dish_washer_6918977 a_102",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 267
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.6270534369014572,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S4"
+    },
+    {
+      "chunk_id": "b0becec9-11e9-5bbf-844a-0156c6e2d122",
+      "manual_id": "samsung_dish_washer_6918977 a",
+      "page_id": "samsung_dish_washer_6918977 a_00004",
+      "chunk_type": "figure",
+      "text": "Split Silverware Basket (select models)\nA hand lifts a rectangular plastic basket filled with cylindrical items, likely bottles or containers, using its handle. Two black arrows indicate the direction of lifting or removal from a surface.",
+      "content_region_ids": [
+        "samsung_dish_washer_6918977 a_90"
+      ],
+      "context_region_ids": [
+        "samsung_dish_washer_6918977 a_99"
+      ],
+      "image_filename": "images/samsung_dish_washer_6918977 a/images/4.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_dish_washer_6918977 a_90",
+          "shape": {
+            "x": 761.4000000000001,
+            "y": 988.7000000000003,
+            "width": 179.9999999999999,
+            "height": 182.0
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_99",
+          "shape": {
+            "x": 634.4400000000004,
+            "y": 741.0300000000002,
+            "width": 256.7700000000001,
+            "height": 57.719999999999914
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_dish_washer_6918977 a_90",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 198
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": 0.601332691238014,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S5"
+    }
+  ],
+  "excluded_sources": [],
+  "created_at": "2026-11-02T05:02:03.082826+00:00",
+  "status": "answered",
+  "answer": "바구니를 분리하려면 바구니의 양쪽을 단단히 잡고 분리해야 합니다.",
+  "source_ids": [
+    "S1",
+    "S2"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 52,
+        "prompt_eval_count": 717,
+        "total_duration": 1430058100,
+        "load_duration": 5580400,
+        "attempt": 1,
+        "prompt_token_upper_bound": 3844
+      }
+    ],
+    "elapsed_seconds": 1.4345478000177536,
+    "backend": "LangChain ChatPromptTemplate | ChatOllama"
+  },
+  "citations": [
+    {
+      "chunk_id": "61c0eb64-ae2f-576e-9252-3a5a76867ec5",
+      "manual_id": "samsung_dish_washer_6918977 a",
+      "page_id": "samsung_dish_washer_6918977 a_00004",
+      "chunk_type": "text",
+      "text": "Split Silverware Basket (select models)\nTo split the basket, hold the basket firmly along the sides. Unlock baskets as shown here.",
+      "content_region_ids": [
+        "samsung_dish_washer_6918977 a_111"
+      ],
+      "context_region_ids": [
+        "samsung_dish_washer_6918977 a_99"
+      ],
+      "image_filename": "images/samsung_dish_washer_6918977 a/images/4.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_dish_washer_6918977 a_111",
+          "shape": {
+            "x": 634.4400000000004,
+            "y": 984.0499999999994,
+            "width": 111.75999999999954,
+            "height": 210.78000000000054
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_99",
+          "shape": {
+            "x": 634.4400000000004,
+            "y": 741.0300000000002,
+            "width": 256.7700000000001,
+            "height": 57.719999999999914
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_dish_washer_6918977 a_111",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 90
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.785116435939182,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "df6df243-de5a-5912-94d8-b4e6cf614aa2",
+      "manual_id": "samsung_dish_washer_6918977 a",
+      "page_id": "samsung_dish_washer_6918977 a_00004",
+      "chunk_type": "figure",
+      "text": "Removable Silverware Basket (select models)\nA split silverware basket in a dishwasher rack, shown separated into two sections for flexible loading of flatware and utensils. The image illustrates how to unlock the basket by holding it firmly along the sides and pulling apart. Labels include 'Split Silverware Basket (select models)' and instructions on separating the basket.",
+      "content_region_ids": [
+        "samsung_dish_washer_6918977 a_118"
+      ],
+      "context_region_ids": [
+        "samsung_dish_washer_6918977 a_100"
+      ],
+      "image_filename": "images/samsung_dish_washer_6918977 a/images/4.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_dish_washer_6918977 a_118",
+          "shape": {
+            "x": 621.7500000000002,
+            "y": 729.918754577637,
+            "width": 539.9999999999998,
+            "height": 472.5000000000002
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_100",
+          "shape": {
+            "x": 634.4400000000004,
+            "y": 216.63000000000002,
+            "width": 330.2600000000001,
+            "height": 57.72000000000011
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_dish_washer_6918977 a_118",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 331
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": 0.7133294267368487,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    }
+  ],
+  "cited_figures": [
+    {
+      "source_id": "S2",
+      "page_id": "samsung_dish_washer_6918977 a_00004",
+      "region_id": "samsung_dish_washer_6918977 a_118",
+      "image_filename": "images/samsung_dish_washer_6918977 a/images/4.jpg",
+      "shape": {
+        "x": 621.7500000000002,
+        "y": 729.918754577637,
+        "width": 539.9999999999998,
+        "height": 472.5000000000002
+      }
+    }
+  ],
+  "elapsed_seconds": 1.434660700004315,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 64,
+    "utilization_percent": 84
+  }
+}

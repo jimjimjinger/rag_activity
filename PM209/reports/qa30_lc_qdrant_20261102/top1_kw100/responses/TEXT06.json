@@ -1,0 +1,268 @@
+{
+  "case_id": "TEXT06",
+  "manual_id": "samsung_tv",
+  "question": "타임시프트 기능을 사용하려면 어떻게 해야 하나요?",
+  "english_query": "How do I use the Time Shift feature?",
+  "keyword_percent": 100,
+  "variant": "top1_kw100",
+  "top_k": 1,
+  "retrieved_chunk_ids": [
+    "e83a1a0d-2d25-53d8-925b-708dbf89fb01"
+  ],
+  "sources": [
+    {
+      "chunk_id": "e83a1a0d-2d25-53d8-925b-708dbf89fb01",
+      "manual_id": "samsung_tv",
+      "page_id": "samsung_tv_00131",
+      "chunk_type": "text",
+      "text": "● The total recording capacity may differ with the amount of available hard drive space and the recording quality level.\n● If the available storage space falls below 500 MB while both the Schedule Recording and Timeshift functions are in progress, only the recording will stop.\n● The maximum amount of time available for the Timeshift function is 90 minutes.\n● The Timeshift function is not available for locked channels.\n● Time-shifted videos are played according to the TV settings.",
+      "content_region_ids": [
+        "samsung_tv_2151",
+        "samsung_tv_2152",
+        "samsung_tv_2153",
+        "samsung_tv_2154",
+        "samsung_tv_2155"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_tv/images/131.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_tv_2151",
+          "shape": {
+            "x": 107.72000000000007,
+            "y": 320.43,
+            "width": 935.0000000000002,
+            "height": 49.980000000000075
+          }
+        },
+        {
+          "id": "samsung_tv_2152",
+          "shape": {
+            "x": 107.72000000000007,
+            "y": 397.9400000000002,
+            "width": 984.0200000000007,
+            "height": 49.98999999999984
+          }
+        },
+        {
+          "id": "samsung_tv_2153",
+          "shape": {
+            "x": 107.72000000000007,
+            "y": 475.45,
+            "width": 737.7700000000003,
+            "height": 23.99000000000001
+          }
+        },
+        {
+          "id": "samsung_tv_2154",
+          "shape": {
+            "x": 107.72000000000007,
+            "y": 526.9600000000002,
+            "width": 547.7000000000003,
+            "height": 23.99000000000001
+          }
+        },
+        {
+          "id": "samsung_tv_2155",
+          "shape": {
+            "x": 107.72000000000007,
+            "y": 578.4800000000004,
+            "width": 556.8600000000005,
+            "height": 23.980000000000132
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_tv_2151",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 120
+        },
+        {
+          "region_id": "samsung_tv_2152",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 156
+        },
+        {
+          "region_id": "samsung_tv_2153",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 80
+        },
+        {
+          "region_id": "samsung_tv_2154",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 62
+        },
+        {
+          "region_id": "samsung_tv_2155",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 62
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 13.67038345336914,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "excluded_sources": [],
+  "created_at": "2026-11-02T05:00:41.711154+00:00",
+  "status": "answered",
+  "answer": "타임시프트 기능을 사용하려면 채널이 잠기지 않은 상태여야 합니다. 또한, 스케줄 녹화 및 타임시프트 기능이 동시에 진행 중일 때 저장 공간이 500 MB 미만으로 떨어지면 녹화는 중단되지만 타임시프트는 계속됩니다.",
+  "source_ids": [
+    "S1"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 85,
+        "prompt_eval_count": 457,
+        "total_duration": 1199995000,
+        "load_duration": 6376700,
+        "attempt": 1,
+        "prompt_token_upper_bound": 2732
+      }
+    ],
+    "elapsed_seconds": 1.2069890999991912,
+    "backend": "LangChain ChatPromptTemplate | ChatOllama"
+  },
+  "citations": [
+    {
+      "chunk_id": "e83a1a0d-2d25-53d8-925b-708dbf89fb01",
+      "manual_id": "samsung_tv",
+      "page_id": "samsung_tv_00131",
+      "chunk_type": "text",
+      "text": "● The total recording capacity may differ with the amount of available hard drive space and the recording quality level.\n● If the available storage space falls below 500 MB while both the Schedule Recording and Timeshift functions are in progress, only the recording will stop.\n● The maximum amount of time available for the Timeshift function is 90 minutes.\n● The Timeshift function is not available for locked channels.\n● Time-shifted videos are played according to the TV settings.",
+      "content_region_ids": [
+        "samsung_tv_2151",
+        "samsung_tv_2152",
+        "samsung_tv_2153",
+        "samsung_tv_2154",
+        "samsung_tv_2155"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_tv/images/131.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_tv_2151",
+          "shape": {
+            "x": 107.72000000000007,
+            "y": 320.43,
+            "width": 935.0000000000002,
+            "height": 49.980000000000075
+          }
+        },
+        {
+          "id": "samsung_tv_2152",
+          "shape": {
+            "x": 107.72000000000007,
+            "y": 397.9400000000002,
+            "width": 984.0200000000007,
+            "height": 49.98999999999984
+          }
+        },
+        {
+          "id": "samsung_tv_2153",
+          "shape": {
+            "x": 107.72000000000007,
+            "y": 475.45,
+            "width": 737.7700000000003,
+            "height": 23.99000000000001
+          }
+        },
+        {
+          "id": "samsung_tv_2154",
+          "shape": {
+            "x": 107.72000000000007,
+            "y": 526.9600000000002,
+            "width": 547.7000000000003,
+            "height": 23.99000000000001
+          }
+        },
+        {
+          "id": "samsung_tv_2155",
+          "shape": {
+            "x": 107.72000000000007,
+            "y": 578.4800000000004,
+            "width": 556.8600000000005,
+            "height": 23.980000000000132
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_tv_2151",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 120
+        },
+        {
+          "region_id": "samsung_tv_2152",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 156
+        },
+        {
+          "region_id": "samsung_tv_2153",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 80
+        },
+        {
+          "region_id": "samsung_tv_2154",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 62
+        },
+        {
+          "region_id": "samsung_tv_2155",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 62
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 13.67038345336914,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 1.2070628999790642,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 67,
+    "utilization_percent": 80
+  }
+}

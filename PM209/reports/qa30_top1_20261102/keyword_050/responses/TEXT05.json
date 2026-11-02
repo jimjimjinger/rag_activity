@@ -1,0 +1,226 @@
+{
+  "case_id": "TEXT05",
+  "manual_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a",
+  "question": "일련번호는 어디에서 확인할 수 있나요?",
+  "english_query": "Where can I check the serial number?",
+  "keyword_percent": 50,
+  "dense_percent": 50,
+  "top_k": 1,
+  "retrieved_chunk_ids": [
+    "b38a4a41-a87b-51de-a721-95df09f71ba9"
+  ],
+  "sources": [
+    {
+      "chunk_id": "b38a4a41-a87b-51de-a721-95df09f71ba9",
+      "manual_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a",
+      "page_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_00003",
+      "chunk_type": "text",
+      "text": "Note: To use this CB, you need a mobile or base station antenna. Your local Ra- dioShack store has a wide variety of an- tennas. For more information, see “Installing an Antenna” on Page 6.\nWe recommend you record your CB’s serial number here. The number is on the CB’s back panel.\nSerial Number___________",
+      "content_region_ids": [
+        "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_243",
+        "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_244",
+        "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_245"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a/images/samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_00003.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_243",
+          "shape": {
+            "x": 246.3200073242188,
+            "y": 687.4841308593752,
+            "width": 357.5855102539064,
+            "height": 123.03936767578125
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_244",
+          "shape": {
+            "x": 246.3200073242188,
+            "y": 831.4826660156255,
+            "width": 356.79821777343744,
+            "height": 75.03985595703102
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_245",
+          "shape": {
+            "x": 246.3200073242188,
+            "y": 927.4816894531252,
+            "width": 250.01449584960938,
+            "height": 27.04034423828125
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_243",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 189
+        },
+        {
+          "region_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_244",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 91
+        },
+        {
+          "region_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_245",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 24
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.01639344262295082,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "excluded_sources": [],
+  "top5_response_file": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_hybrid_20261102\\C_english_hybrid\\results.json",
+  "status": "answered",
+  "variant": "keyword_050",
+  "created_at": "2026-11-02T00:56:50.714905+00:00",
+  "answer": "일련번호는 CB 의 뒷 패널(back panel) 에서 확인할 수 있습니다.",
+  "source_ids": [
+    "S1"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 51,
+        "prompt_eval_count": 435,
+        "total_duration": 760500500,
+        "load_duration": 4836300,
+        "attempt": 1,
+        "prompt_token_upper_bound": 2534
+      }
+    ],
+    "elapsed_seconds": 0.8305795000051148,
+    "ollama_model": {
+      "name": "qwen3.5:4b",
+      "model": "qwen3.5:4b",
+      "size": 3214409726,
+      "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "4.2B",
+        "quantization_level": "Q4_K_M"
+      },
+      "expires_at": "2026-11-02T09:57:51.5445943+09:00",
+      "size_vram": 3214409726,
+      "context_length": 8192,
+      "runner": "llamacpp"
+    },
+    "observation_error": null
+  },
+  "citations": [
+    {
+      "chunk_id": "b38a4a41-a87b-51de-a721-95df09f71ba9",
+      "manual_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a",
+      "page_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_00003",
+      "chunk_type": "text",
+      "text": "Note: To use this CB, you need a mobile or base station antenna. Your local Ra- dioShack store has a wide variety of an- tennas. For more information, see “Installing an Antenna” on Page 6.\nWe recommend you record your CB’s serial number here. The number is on the CB’s back panel.\nSerial Number___________",
+      "content_region_ids": [
+        "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_243",
+        "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_244",
+        "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_245"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a/images/samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_00003.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_243",
+          "shape": {
+            "x": 246.3200073242188,
+            "y": 687.4841308593752,
+            "width": 357.5855102539064,
+            "height": 123.03936767578125
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_244",
+          "shape": {
+            "x": 246.3200073242188,
+            "y": 831.4826660156255,
+            "width": 356.79821777343744,
+            "height": 75.03985595703102
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_245",
+          "shape": {
+            "x": 246.3200073242188,
+            "y": 927.4816894531252,
+            "width": 250.01449584960938,
+            "height": 27.04034423828125
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_243",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 189
+        },
+        {
+          "region_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_244",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 91
+        },
+        {
+          "region_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_245",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 24
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.01639344262295082,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 0.8307408000109717,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 69,
+    "utilization_percent": 83
+  }
+}

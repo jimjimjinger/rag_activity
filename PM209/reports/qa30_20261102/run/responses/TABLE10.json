@@ -1,0 +1,829 @@
+{
+  "case_id": "TABLE10",
+  "manual_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a",
+  "question": "10-1 코드는 무슨 뜻인가요?",
+  "retrieved_chunk_ids": [
+    "d01801f9-45f3-5b7d-82d5-a81d5f19dc4d",
+    "927af5fc-24c0-5237-900b-2c80afefbfd7",
+    "23c6d4bf-3aa4-596b-a915-82bd09bb8e24",
+    "a6896b3b-7a21-5092-b90c-c562f85a7850",
+    "7709ed0b-5ba4-56e8-b295-9e3dc4864a48"
+  ],
+  "sources": [
+    {
+      "chunk_id": "d01801f9-45f3-5b7d-82d5-a81d5f19dc4d",
+      "manual_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a",
+      "page_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_00016",
+      "chunk_type": "text",
+      "text": "USING COMMON 10-CODES\n_____ in service.",
+      "content_region_ids": [
+        "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_19"
+      ],
+      "context_region_ids": [
+        "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_0"
+      ],
+      "image_filename": "images/samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a/images/samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_00017.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_19",
+          "shape": {
+            "x": 335.32049560546864,
+            "y": 1006.0123901367192,
+            "width": 135.96011352539085,
+            "height": 26.402160644530795
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_0",
+          "shape": {
+            "x": 246.3200073242188,
+            "y": 300.1372375488283,
+            "width": 374.61499023437517,
+            "height": 38.335662841796704
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_19",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 17
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.6708077185885462,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "927af5fc-24c0-5237-900b-2c80afefbfd7",
+      "manual_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a",
+      "page_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_00016",
+      "chunk_type": "table",
+      "text": "USING COMMON 10-CODES\nFirst row (header unconfirmed): Column 1: Code | Column 2: Meaning\nColumn 1: 10-8 | Column 2: In service.\nColumn 1: 10-9 | Column 2: Repeat last message.\nColumn 1: 10-10 | Column 2: Negative (NO).\nColumn 1: 10-11 | Column 2: in service.\nColumn 1: 10-12 | Column 2: Stand by.\nColumn 1: 10-13 | Column 2: Report road/weather condi tions.\nColumn 1: 10-14 | Column 2: Information.\nColumn 1: 10-15 | Column 2: Message delivered.\nColumn 1: 10-16 | Column 2: Reply to message.",
+      "content_region_ids": [
+        "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_70"
+      ],
+      "context_region_ids": [
+        "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_0"
+      ],
+      "image_filename": "images/samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a/images/samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_00017.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_70",
+          "shape": {
+            "x": 237.76171875,
+            "y": 501.3750000000003,
+            "width": 356.9999999999998,
+            "height": 775.5
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_0",
+          "shape": {
+            "x": 246.3200073242188,
+            "y": 300.1372375488283,
+            "width": 374.61499023437517,
+            "height": 38.335662841796704
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_3",
+          "shape": {
+            "x": 262.64001464843756,
+            "y": 517.2288818359377,
+            "width": 44.506561279296875,
+            "height": 24.455505371093523
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_4",
+          "shape": {
+            "x": 419.19439697265625,
+            "y": 517.2288818359377,
+            "width": 72.76269531250006,
+            "height": 24.455505371093523
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_5",
+          "shape": {
+            "x": 258.320770263672,
+            "y": 563.930603027344,
+            "width": 35.750885009765625,
+            "height": 24.402221679687386
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_15",
+          "shape": {
+            "x": 258.3190002441405,
+            "y": 879.7737426757815,
+            "width": 35.804168701172046,
+            "height": 24.40222167968716
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_16",
+          "shape": {
+            "x": 336.09002685546886,
+            "y": 879.7737426757815,
+            "width": 81.73150634765625,
+            "height": 24.40222167968716
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_17",
+          "shape": {
+            "x": 336.3190002441407,
+            "y": 922.0120239257819,
+            "width": 173.19644165039074,
+            "height": 26.404296874999545
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_18",
+          "shape": {
+            "x": 335.3197631835938,
+            "y": 963.7720336914065,
+            "width": 120.2485961914063,
+            "height": 25.403076171875
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_20",
+          "shape": {
+            "x": 329.3204956054688,
+            "y": 1047.7731933593755,
+            "width": 81.14987182617188,
+            "height": 23.402221679687045
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_22",
+          "shape": {
+            "x": 331.32049560546875,
+            "y": 1153.8536376953127,
+            "width": 99.48510742187506,
+            "height": 24.402221679686818
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_23",
+          "shape": {
+            "x": 334.32049560546886,
+            "y": 1195.611938476563,
+            "width": 157.45727539062517,
+            "height": 24.40478515625
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_24",
+          "shape": {
+            "x": 331.31900024414074,
+            "y": 1237.8519287109377,
+            "width": 153.2359619140625,
+            "height": 24.402587890625
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_46",
+          "shape": {
+            "x": 258.00000000000006,
+            "y": 919.2578125000002,
+            "width": 43.0,
+            "height": 27.99999999999943
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_47",
+          "shape": {
+            "x": 256.9999999999999,
+            "y": 964.2578125000001,
+            "width": 49.00000000000017,
+            "height": 26.0
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_48",
+          "shape": {
+            "x": 255.00000000000009,
+            "y": 1010.26171875,
+            "width": 47.9999999999998,
+            "height": 23.0
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_49",
+          "shape": {
+            "x": 250.00000000000003,
+            "y": 1050.2617187500005,
+            "width": 56.99999999999986,
+            "height": 23.999999999999773
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_50",
+          "shape": {
+            "x": 252,
+            "y": 1236.2617187499995,
+            "width": 59,
+            "height": 22.000000000000455
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_51",
+          "shape": {
+            "x": 255.99999999999991,
+            "y": 1196.2617187499995,
+            "width": 52.00000000000014,
+            "height": 25.00000000000091
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_52",
+          "shape": {
+            "x": 255.00000000000009,
+            "y": 1156.26171875,
+            "width": 57.999999999999915,
+            "height": 20.000000000000455
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_53",
+          "shape": {
+            "x": 253.00000000000003,
+            "y": 1103.26171875,
+            "width": 53.99999999999986,
+            "height": 25.999999999999545
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "score": 0.6430616470923347,
+      "table_rows": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "table_cells": [
+        {
+          "row": 8,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 8,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 9,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 9,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 10,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 10,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 11,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 11,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 12,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 12,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 13,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 13,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 14,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 14,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 15,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 15,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 16,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 16,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "23c6d4bf-3aa4-596b-a915-82bd09bb8e24",
+      "manual_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a",
+      "page_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_00016",
+      "chunk_type": "table",
+      "text": "USING COMMON 10-CODES\nFirst row (header unconfirmed): Column 1: Code | Column 2: Meaning\nColumn 1: Code | Column 2: Meaning\nColumn 1: 10-1 | Column 2: Your signal is bad.\nColumn 1: 10-2 | Column 2: Your signal is good.\nColumn 1: 10-3 | Column 2: Stop transmitting.\nColumn 1: 10-4 | Column 2: Message received and under- stood.\nColumn 1: 10-5 | Column 2: Relay information to\nColumn 1: 10-6 | Column 2: I am busy or are you busy?\nColumn 1: 10-7 | Column 2: Out of service.",
+      "content_region_ids": [
+        "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_70"
+      ],
+      "context_region_ids": [
+        "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_0"
+      ],
+      "image_filename": "images/samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a/images/samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_00017.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_70",
+          "shape": {
+            "x": 237.76171875,
+            "y": 501.3750000000003,
+            "width": 356.9999999999998,
+            "height": 775.5
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_0",
+          "shape": {
+            "x": 246.3200073242188,
+            "y": 300.1372375488283,
+            "width": 374.61499023437517,
+            "height": 38.335662841796704
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_3",
+          "shape": {
+            "x": 262.64001464843756,
+            "y": 517.2288818359377,
+            "width": 44.506561279296875,
+            "height": 24.455505371093523
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_4",
+          "shape": {
+            "x": 419.19439697265625,
+            "y": 517.2288818359377,
+            "width": 72.76269531250006,
+            "height": 24.455505371093523
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_5",
+          "shape": {
+            "x": 258.320770263672,
+            "y": 563.930603027344,
+            "width": 35.750885009765625,
+            "height": 24.402221679687386
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_6",
+          "shape": {
+            "x": 336.020751953125,
+            "y": 563.930603027344,
+            "width": 145.97268676757847,
+            "height": 24.40362548828125
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_8",
+          "shape": {
+            "x": 258.31890869140625,
+            "y": 647.9324340820317,
+            "width": 35.80416870117193,
+            "height": 24.402221679687045
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_9",
+          "shape": {
+            "x": 336.08993530273443,
+            "y": 647.9320068359375,
+            "width": 139.817352294922,
+            "height": 24.40264892578125
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_10",
+          "shape": {
+            "x": 332.32061767578136,
+            "y": 690.6920166015626,
+            "width": 246.5617675781249,
+            "height": 42.4814453125
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_12",
+          "shape": {
+            "x": 327.31900024414074,
+            "y": 795.7725219726566,
+            "width": 225.05233764648438,
+            "height": 24.40222167968716
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_13",
+          "shape": {
+            "x": 258.3190002441405,
+            "y": 838.0128784179688,
+            "width": 35.804168701172046,
+            "height": 24.402221679687727
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_14",
+          "shape": {
+            "x": 336.09002685546886,
+            "y": 838.0128784179688,
+            "width": 115.81292724609375,
+            "height": 24.402221679687727
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_43",
+          "shape": {
+            "x": 255.00000000000009,
+            "y": 703.265625,
+            "width": 40.99999999999997,
+            "height": 22.0
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_44",
+          "shape": {
+            "x": 257.98828125,
+            "y": 798.2617187499999,
+            "width": 42.999999999999886,
+            "height": 21.0
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_45",
+          "shape": {
+            "x": 257.98828125,
+            "y": 756.26171875,
+            "width": 42.00000000000006,
+            "height": 23.0
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "score": 0.6407427799768914,
+      "table_rows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "table_cells": [
+        {
+          "row": 0,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 4,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 5,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 6,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 7,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 7,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S3"
+    },
+    {
+      "chunk_id": "a6896b3b-7a21-5092-b90c-c562f85a7850",
+      "manual_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a",
+      "page_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_00016",
+      "chunk_type": "text",
+      "text": "USING COMMON 10-CODES\nRelay information to _____.",
+      "content_region_ids": [
+        "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_11"
+      ],
+      "context_region_ids": [
+        "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_0"
+      ],
+      "image_filename": "images/samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a/images/samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_00017.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_11",
+          "shape": {
+            "x": 328.3190002441406,
+            "y": 754.0116577148444,
+            "width": 227.33798217773483,
+            "height": 26.40222167968659
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_0",
+          "shape": {
+            "x": 246.3200073242188,
+            "y": 300.1372375488283,
+            "width": 374.61499023437517,
+            "height": 38.335662841796704
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_11",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 27
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.6160598640095911,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S4"
+    },
+    {
+      "chunk_id": "7709ed0b-5ba4-56e8-b295-9e3dc4864a48",
+      "manual_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a",
+      "page_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_00016",
+      "chunk_type": "text",
+      "text": "USING COMMON 10-CODES\n10-2 Your signal is good.",
+      "content_region_ids": [
+        "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_7"
+      ],
+      "context_region_ids": [
+        "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_0"
+      ],
+      "image_filename": "images/samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a/images/samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_00017.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_7",
+          "shape": {
+            "x": 258.31866455078136,
+            "y": 605.6920166015626,
+            "width": 233.92965698242193,
+            "height": 24.403076171875
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_0",
+          "shape": {
+            "x": 246.3200073242188,
+            "y": 300.1372375488283,
+            "width": 374.61499023437517,
+            "height": 38.335662841796704
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_7",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 25
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.6153524612093986,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S5"
+    }
+  ],
+  "excluded_sources": [],
+  "retrieval_seconds": 1.6274589000095148,
+  "created_at": "2026-11-01T23:54:27.058501+00:00",
+  "status": "insufficient_evidence",
+  "answer": "검색된 매뉴얼 근거에서 질문에 대한 답을 확인하지 못했습니다.",
+  "source_ids": [],
+  "insufficient_evidence": true,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 101,
+        "prompt_eval_count": 913,
+        "total_duration": 1756007100,
+        "load_duration": 6031800,
+        "attempt": 1,
+        "prompt_token_upper_bound": 3757
+      }
+    ],
+    "elapsed_seconds": 1.8190708000038285,
+    "ollama_model": {
+      "name": "qwen3.5:4b",
+      "model": "qwen3.5:4b",
+      "size": 3214409726,
+      "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "4.2B",
+        "quantization_level": "Q4_K_M"
+      },
+      "expires_at": "2026-11-02T08:55:28.8745752+09:00",
+      "size_vram": 3214409726,
+      "context_length": 8192,
+      "runner": "llamacpp"
+    },
+    "observation_error": null
+  },
+  "citations": [],
+  "cited_figures": [],
+  "elapsed_seconds": 1.8191992999927606,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3836,
+    "temperature_c": 67,
+    "utilization_percent": 84
+  }
+}

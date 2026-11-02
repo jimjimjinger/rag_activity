@@ -1,0 +1,1974 @@
+{
+  "case_id": "TABLE02",
+  "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+  "question": "제품 패키지에는 어떤 구성품이 들어 있어야 하나요?",
+  "english_query": "What components should be included in the product package?",
+  "dense_candidates": [
+    {
+      "score": 0.6826876508425146,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "split": "val",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00001",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_11"
+      ],
+      "context_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_2"
+      ],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00002.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_11",
+          "shape": {
+            "x": 175.0000000000001,
+            "y": 517.6093749999999,
+            "width": 643.0000000000003,
+            "height": 29.000000000000114
+          }
+        },
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_2",
+          "shape": {
+            "x": 174.8399963378907,
+            "y": 474.95278930664085,
+            "width": 193.29559326171866,
+            "height": 28.044128417968864
+          }
+        }
+      ],
+      "title": "Package Contents",
+      "text": "Package Contents\nBe sure to check that the package contains all the items listed below:",
+      "char_count": 87,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_11",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 70
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "409d262c-b26f-5067-922d-a42c9ce2a1b1",
+      "text_sha256": "9ad5a2d90747d1b0ddf8b09cbe35542449d7fb0ac45c5d9f552fd233ef1c113f",
+      "token_count": 17
+    },
+    {
+      "score": 0.46603260271812014,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "split": "val",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00001",
+      "chunk_type": "table",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_18"
+      ],
+      "context_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_9"
+      ],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00002.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_18",
+          "shape": {
+            "x": 237.33333333333346,
+            "y": 563.0729166666669,
+            "width": 452.00000000000034,
+            "height": 98.66666666666674
+          }
+        },
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_9",
+          "shape": {
+            "x": 171.75000000000014,
+            "y": 264.96093750000006,
+            "width": 305.9999999999999,
+            "height": 41.99999999999983
+          }
+        },
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_12",
+          "shape": {
+            "x": 242.6666666666668,
+            "y": 571.7395833333336,
+            "width": 78.00000000000006,
+            "height": 21.3333333333336
+          }
+        },
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_13",
+          "shape": {
+            "x": 245,
+            "y": 597.6093749999998,
+            "width": 101.00000000000023,
+            "height": 21.000000000000455
+          }
+        },
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_14",
+          "shape": {
+            "x": 246.0000000000001,
+            "y": 623.6093750000002,
+            "width": 151.0000000000001,
+            "height": 27.000000000000227
+          }
+        },
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_15",
+          "shape": {
+            "x": 461.0000000000001,
+            "y": 572.6093750000001,
+            "width": 110.99999999999989,
+            "height": 24.00000000000034
+          }
+        },
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_16",
+          "shape": {
+            "x": 462.00000000000017,
+            "y": 596.6093750000005,
+            "width": 95.00000000000028,
+            "height": 25.000000000000114
+          }
+        },
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_17",
+          "shape": {
+            "x": 461.3333333333334,
+            "y": 624.6093750000003,
+            "width": 220.66666666666703,
+            "height": 27.666666666666856
+          }
+        }
+      ],
+      "title": "1 Brief Description",
+      "text": "1 Brief Description\nFirst row (header unconfirmed): Column 1: Camera | Column 2: Hand Strap\nColumn 1: Camera | Column 2: Hand Strap\nColumn 1: USB cable | Column 2: CD-ROM\nColumn 1: Docking Station | Column 2: Quick Operation Guide",
+      "char_count": 230,
+      "overlap_char_count": 0,
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "source_spans": [],
+      "table_rows": [
+        0,
+        1,
+        2
+      ],
+      "table_cells": [
+        {
+          "row": 0,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "chunk_id": "df2caff8-29bd-5666-8139-6cbc2c726c8c",
+      "text_sha256": "a544b6b04e8568fedbffa24140c25c82403ea5f0a087013432a57e12a5d62f6a",
+      "deduplicated_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_12",
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_13",
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_14",
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_15",
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_16",
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_17"
+      ],
+      "token_count": 66
+    },
+    {
+      "score": 0.4541233486702899,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "split": "val",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00001",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_3"
+      ],
+      "context_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_2"
+      ],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00002.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_3",
+          "shape": {
+            "x": 169.33999633789077,
+            "y": 675.4805908203131,
+            "width": 881.207977294922,
+            "height": 60.67871093749966
+          }
+        },
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_2",
+          "shape": {
+            "x": 174.8399963378907,
+            "y": 474.95278930664085,
+            "width": 193.29559326171866,
+            "height": 28.044128417968864
+          }
+        }
+      ],
+      "title": "Package Contents",
+      "text": "Package Contents\nIf any items are missing, please contact the store where you purchased the camera. Keep the camera packaging in a safe place as it will be needed if you return the camera for repairs, etc.",
+      "char_count": 205,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_3",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 188
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "21291e6c-593e-5d24-bf4d-03bdb381997e",
+      "text_sha256": "2c79ac9c083b2578683f448c0553048bbf26d6c69671dd6c578147a09da3f67d",
+      "token_count": 42
+    },
+    {
+      "score": 0.4522990119392204,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "split": "val",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00002",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_36"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00003.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_36",
+          "shape": {
+            "x": 384.480010986328,
+            "y": 309.7194213867188,
+            "width": 456.6448059082036,
+            "height": 310.2000122070313
+          }
+        }
+      ],
+      "title": "",
+      "text": "Blue Platfoto digital camera featuring a 2.0 megapixel sensor, flash unit, and lens. The device includes a textured back panel with visible branding and functional components like the viewfinder and shutter button.",
+      "char_count": 214,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_36",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 214
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "605dfafc-2ea1-5d54-8127-d202e9e936b7",
+      "text_sha256": "e3e675452e9e417edb4dc5275ba1929e6a120e448c4bbe0d99ae148e8e57d659",
+      "token_count": 42
+    },
+    {
+      "score": 0.39126312066547814,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "split": "val",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00007",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_280"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00008.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_280",
+          "shape": {
+            "x": 156.75000000000006,
+            "y": 1016.4609375000006,
+            "width": 880.5000000000005,
+            "height": 499.5000000000001
+          }
+        }
+      ],
+      "title": "",
+      "text": "Blue compact digital camera with SD card slot; LCD displays battery, flash, SD icon, and storage count (235). Manual instructs inserting SD card via push-and-pull mechanism.",
+      "char_count": 173,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_280",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 173
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "19a71f5a-d558-5484-98e9-2cddd08824cf",
+      "text_sha256": "c11ce5c357cac4b4c1da3bbade5968b9cecae1ddf0681b7b8950eac4d05d9a0d",
+      "token_count": 39
+    },
+    {
+      "score": 0.3887973161855625,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "split": "val",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00002",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_32"
+      ],
+      "context_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_19"
+      ],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00003.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_32",
+          "shape": {
+            "x": 241.32000732421866,
+            "y": 1322.0727539062498,
+            "width": 249.23272705078134,
+            "height": 21.582275390625227
+          }
+        },
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_19",
+          "shape": {
+            "x": 174.83999633789068,
+            "y": 189.35305786132815,
+            "width": 222.04818725585938,
+            "height": 28.044128417968807
+          }
+        }
+      ],
+      "title": "Identifying the parts",
+      "text": "Identifying the parts\nLiquid Crystal Display (LCD)",
+      "char_count": 50,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_32",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 28
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "eb01141e-7754-5421-8ec8-308671945088",
+      "text_sha256": "1ed00628d5e80efaf39fdac16184787ddd4dc7494862ae9cd96484bbff20a1f6",
+      "token_count": 11
+    },
+    {
+      "score": 0.3878736458419497,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "split": "val",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00002",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_35"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00003.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_35",
+          "shape": {
+            "x": 349.7999877929689,
+            "y": 876.7194213867191,
+            "width": 508.0496215820314,
+            "height": 334.67999267578136
+          }
+        }
+      ],
+      "title": "",
+      "text": "A blue digital camera featuring a rear LCD screen displaying an indoor hallway scene. Visible controls include a lens on the top left, flash indicator, power button, mode dial, and a multi-function navigation wheel on the right side.",
+      "char_count": 233,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_35",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 233
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "315e8d93-19a1-5ed6-922b-b2d1137eef3c",
+      "text_sha256": "77c8a5cda163da1236cb0ad6a46188d2a35f6da51142fa091094ff74a597c030",
+      "token_count": 45
+    },
+    {
+      "score": 0.3846442328271181,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "split": "val",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00002",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_38"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00003.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_38",
+          "shape": {
+            "x": 180.75000000000006,
+            "y": 762.9609375000002,
+            "width": 835.5000000000005,
+            "height": 591.0000000000002
+          }
+        }
+      ],
+      "title": "",
+      "text": "Back view of a blue digital camera featuring a Viewfinder, Green LED, Power On/Off switch, LCD On/Off button, Liquid Crystal Display (LCD), and a Menu dial with Up, Select, and Down controls.",
+      "char_count": 191,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_38",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 191
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "3d08cf89-4ae6-5100-a667-3952c3d3c12d",
+      "text_sha256": "df3a8f69b700518a0583404f127062c83c1ae3cbdd2220c708a0125b2015d454",
+      "token_count": 46
+    },
+    {
+      "score": 0.38342703991195254,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "split": "val",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00013",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_383"
+      ],
+      "context_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_384"
+      ],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00014.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_383",
+          "shape": {
+            "x": 227.27999877929688,
+            "y": 369.11944580078097,
+            "width": 331.91116333007824,
+            "height": 248.03997802734415
+          }
+        },
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_384",
+          "shape": {
+            "x": 171.00000000000003,
+            "y": 217.64062500000014,
+            "width": 338.0,
+            "height": 28.99999999999997
+          }
+        }
+      ],
+      "title": "Photo Impression 4.0 Installation",
+      "text": "Photo Impression 4.0 Installation\nA digital camera software interface displaying a list of components including Driver, Photo Impression 4.0, PhotoBase 4.0, Acrobat Reader 5.0, and User Manual. The layout features teal-colored buttons against a blurred background with the title 'Digital Camera' prominently displayed at the top.",
+      "char_count": 329,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_383",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 295
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "501b351e-5215-5955-a707-0192a9a427d2",
+      "text_sha256": "3e0b2ce8732d335ea01a3951634f8386c21d397bc9f0226604e2393e0ec0d8a6",
+      "token_count": 71
+    },
+    {
+      "score": 0.36691727627292037,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "split": "val",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00007",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_279"
+      ],
+      "context_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_273"
+      ],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00008.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_279",
+          "shape": {
+            "x": 162.75000000000009,
+            "y": 1196.4609375000007,
+            "width": 306.0,
+            "height": 307.4999999999993
+          }
+        },
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_273",
+          "shape": {
+            "x": 174.8399963378906,
+            "y": 980.1528320312503,
+            "width": 437.5790710449221,
+            "height": 28.04412841796818
+          }
+        }
+      ],
+      "title": "Using Secure Digital (SD) memory cards",
+      "text": "Using Secure Digital (SD) memory cards\nBlue PLATFOTO digital camera with SD card slot indicator showing insertion direction. Features lens, flash, viewfinder, and '2.0 MEGA PIXEL' label.",
+      "char_count": 186,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_279",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 147
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "a30580f7-3d94-542a-b8f0-1db8e3e6413a",
+      "text_sha256": "f555f4b5b935faae650997b13ac9a5815d48cf5aaec5bfab55f15dc45b6445d9",
+      "token_count": 44
+    },
+    {
+      "score": 0.3591971793011277,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "split": "val",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00011",
+      "chunk_type": "title",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_354"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00012.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_354",
+          "shape": {
+            "x": 174.8399963378907,
+            "y": 433.6730041503908,
+            "width": 228.16635131835952,
+            "height": 28.044128417968864
+          }
+        }
+      ],
+      "title": "",
+      "text": "System requirements",
+      "char_count": 19,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_354",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 19
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "7fa20ee5-abf9-58cd-a1ed-5498f2ae68c5",
+      "text_sha256": "5c84e6b3ce5e6519b693984228970c7659d039212615ce4e804065f933fb945a",
+      "token_count": 2
+    },
+    {
+      "score": 0.35823782681999494,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "split": "val",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00025",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_202"
+      ],
+      "context_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_179"
+      ],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00026.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_202",
+          "shape": {
+            "x": 465.3599853515625,
+            "y": 643.9608154296877,
+            "width": 376.6978149414065,
+            "height": 77.48724365234398
+          }
+        },
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_179",
+          "shape": {
+            "x": 174.83999633789068,
+            "y": 189.79342651367188,
+            "width": 682.9261779785156,
+            "height": 34.50593566894537
+          }
+        }
+      ],
+      "title": "7 Specifications (FlatFOTO 2.0 Digital Camera)",
+      "text": "7 Specifications (FlatFOTO 2.0 Digital Camera)\nPower on-off, mode selection, shutter button, LCD on-off, menu, select, arrow up, arrow down",
+      "char_count": 139,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_202",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 92
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "bf779724-cf4d-5ac8-89b9-8faf79ac7264",
+      "text_sha256": "f9d1837111988ce464c68bb8e9e4535d66f4b1a9e4af919dfca0bb9b70190fde",
+      "token_count": 36
+    },
+    {
+      "score": 0.3545492653828123,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "split": "val",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00002",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_37"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00003.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_37",
+          "shape": {
+            "x": 164.25000000000003,
+            "y": 224.46093749999986,
+            "width": 823.5,
+            "height": 510.0
+          }
+        }
+      ],
+      "title": "",
+      "text": "Front view of a blue FLATOTO digital camera featuring a lens, flash strobe, red LED indicator, picture-taking/playback mode switch, and SD card slot. The device displays '2.0 MEGA PIXELS' on the lower front panel.",
+      "char_count": 213,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_37",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 213
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "fece3b42-ca77-51e0-88c3-7821923550d5",
+      "text_sha256": "e9c4abd2249c145948745651c7ad603f07d892e3116c79fad07acf0ff20d871b",
+      "token_count": 52
+    },
+    {
+      "score": 0.35145560585152935,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "split": "val",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00027",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_347"
+      ],
+      "context_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_346"
+      ],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00028.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_347",
+          "shape": {
+            "x": 172.02777777777777,
+            "y": 1322.4609374999998,
+            "width": 788.7222222222222,
+            "height": 61.50000000000068
+          }
+        },
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_346",
+          "shape": {
+            "x": 171.75000000000006,
+            "y": 1295.4609375000005,
+            "width": 263.99999999999994,
+            "height": 26.999999999999318
+          }
+        }
+      ],
+      "title": "Disposing of This Product",
+      "text": "Disposing of This Product\nWhen disposing of this product, do so in accordance with your local waste disposal regulations.",
+      "char_count": 121,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_347",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 95
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "146b2464-f2db-593f-9333-1e3dd2e49f43",
+      "text_sha256": "0d0fe9a9038dd8124c42f67d51a18bdbc032613b744cd87aa504b1b565562a93",
+      "token_count": 23
+    },
+    {
+      "score": 0.348424852805861,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "split": "val",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00002",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_20"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00003.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_20",
+          "shape": {
+            "x": 416.3999938964845,
+            "y": 231.2726745605468,
+            "width": 78.43594360351574,
+            "height": 21.58232116699233
+          }
+        }
+      ],
+      "title": "",
+      "text": "Red LED",
+      "char_count": 7,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_20",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 7
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "f2e48c33-b451-5cf6-a517-5c87e191b372",
+      "text_sha256": "08e057bda9ff7109fbf83ab97862ecd8a9722ff3f6f05a99e41665aa326975ab",
+      "token_count": 2
+    },
+    {
+      "score": 0.3483710450782376,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "split": "val",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00002",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_26"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00003.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_26",
+          "shape": {
+            "x": 398.8795776367189,
+            "y": 791.4334106445318,
+            "width": 92.95855712890608,
+            "height": 21.582275390625
+          }
+        }
+      ],
+      "title": "",
+      "text": "Viewfinder",
+      "char_count": 10,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_26",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 10
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "772b421c-e8d1-5395-a84e-358cb04738c4",
+      "text_sha256": "aea91e6f8fb90a86595c5bf8d347ca386b18e9ca3355ff772f0abb62c55a495e",
+      "token_count": 2
+    },
+    {
+      "score": 0.3430330013863505,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "split": "val",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00025",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_204"
+      ],
+      "context_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_179"
+      ],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00026.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_204",
+          "shape": {
+            "x": 465.3273010253906,
+            "y": 727.4407958984377,
+            "width": 360.74545288085983,
+            "height": 22.51389567057288
+          }
+        },
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_179",
+          "shape": {
+            "x": 174.83999633789068,
+            "y": 189.79342651367188,
+            "width": 682.9261779785156,
+            "height": 34.50593566894537
+          }
+        }
+      ],
+      "title": "7 Specifications (FlatFOTO 2.0 Digital Camera)",
+      "text": "7 Specifications (FlatFOTO 2.0 Digital Camera)\nXenon flash lamp, guide number = 4.5",
+      "char_count": 83,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_204",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 36
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "39302dc8-68e6-59cf-85b8-07ed9a715d55",
+      "text_sha256": "dfc1e367d776103ce807e0fad2c6c4c13f1bd3824503813a7c7ba186edaafbe7",
+      "token_count": 26
+    },
+    {
+      "score": 0.34167268029714126,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "split": "val",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00001",
+      "chunk_type": "title",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_0"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00002.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_0",
+          "shape": {
+            "x": 297.83999633789097,
+            "y": 189.79342651367185,
+            "width": 625.5672912597654,
+            "height": 39.78585815429702
+          }
+        }
+      ],
+      "title": "",
+      "text": "FlatFOTO 2.0 Digital Camera with Color LCD",
+      "char_count": 42,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_0",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 42
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "fca47462-b324-5e0c-8490-852c242e63ca",
+      "text_sha256": "f1b4f1251d1d74788211f15651e402cf341fee89ee1580e0c08b8ff0b6a60679",
+      "token_count": 12
+    },
+    {
+      "score": 0.33966550204354723,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "split": "val",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00002",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_27"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00003.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_27",
+          "shape": {
+            "x": 556.4400024414064,
+            "y": 791.4326782226566,
+            "width": 239.79595947265682,
+            "height": 21.582275390625227
+          }
+        }
+      ],
+      "title": "",
+      "text": "Green LED Power On/Off",
+      "char_count": 22,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_27",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 22
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "e8d90903-6fc6-5bf0-8e2e-1722974ea0df",
+      "text_sha256": "622e54710819509dfc9989f5d8c4443984dd994ed17a79a0f4a06deca3814ba1",
+      "token_count": 6
+    },
+    {
+      "score": 0.3393340882171493,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "split": "val",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00025",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_200"
+      ],
+      "context_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_179"
+      ],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00026.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_200",
+          "shape": {
+            "x": 466.1736857096355,
+            "y": 615.4541829427088,
+            "width": 231.35176595052087,
+            "height": 23.18056233723928
+          }
+        },
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_179",
+          "shape": {
+            "x": 174.83999633789068,
+            "y": 189.79342651367188,
+            "width": 682.9261779785156,
+            "height": 34.50593566894537
+          }
+        }
+      ],
+      "title": "7 Specifications (FlatFOTO 2.0 Digital Camera)",
+      "text": "7 Specifications (FlatFOTO 2.0 Digital Camera)\nColor TFT (1.5” or 1.8”)",
+      "char_count": 71,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_200",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 24
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "cc292c62-41e7-5682-8c82-bff5b8e0a709",
+      "text_sha256": "234026c2c86a33d1f02244dcf9b1372c6ffa3dcb84c891f78a92c5b96af7c861",
+      "token_count": 26
+    }
+  ],
+  "keyword_candidates": [
+    {
+      "chunk_id": "409d262c-b26f-5067-922d-a42c9ce2a1b1",
+      "bm25_score": -7.993436782836543
+    },
+    {
+      "chunk_id": "21291e6c-593e-5d24-bf4d-03bdb381997e",
+      "bm25_score": -6.527871462048085
+    },
+    {
+      "chunk_id": "605dfafc-2ea1-5d54-8127-d202e9e936b7",
+      "bm25_score": -5.977255509992412
+    },
+    {
+      "chunk_id": "925225f7-7d82-59c0-8c06-876b3499d6b0",
+      "bm25_score": -5.212654889905304
+    },
+    {
+      "chunk_id": "501b351e-5215-5955-a707-0192a9a427d2",
+      "bm25_score": -4.8783643084539
+    },
+    {
+      "chunk_id": "991a90f5-da12-5107-80f5-0e2455276027",
+      "bm25_score": -4.698434206573522
+    },
+    {
+      "chunk_id": "146b2464-f2db-593f-9333-1e3dd2e49f43",
+      "bm25_score": -4.4576584980423055
+    },
+    {
+      "chunk_id": "a11d2506-cea0-5c6d-9d1d-ef5ebe6d4bfb",
+      "bm25_score": -4.232820085046142
+    },
+    {
+      "chunk_id": "1908d0e6-688b-5718-97d8-e009992fb85e",
+      "bm25_score": -4.0329859359307365
+    },
+    {
+      "chunk_id": "3286e54a-7e42-577f-8012-12f84ce9575e",
+      "bm25_score": -3.7944972968431894
+    },
+    {
+      "chunk_id": "8c607daa-9b1e-5c9f-8d7f-b777343b3eac",
+      "bm25_score": -3.5682088524779303
+    },
+    {
+      "chunk_id": "f73714fc-9cae-5d6f-a199-223935eba1b2",
+      "bm25_score": -3.476830138055389
+    },
+    {
+      "chunk_id": "bc76796d-ca02-5715-b78d-4987ea8a1f80",
+      "bm25_score": -3.171714944216979
+    },
+    {
+      "chunk_id": "91b0ad57-b6c6-57df-abc6-a3aa309cff98",
+      "bm25_score": -3.0741174506016744
+    },
+    {
+      "chunk_id": "31481b33-8eb7-5a7f-8092-ee74ab06af17",
+      "bm25_score": -2.858097408525924
+    },
+    {
+      "chunk_id": "c6ca90c3-3c85-5503-beea-61e9370fe162",
+      "bm25_score": -2.858097408525924
+    },
+    {
+      "chunk_id": "1de83ac6-7480-53dd-846e-aa47d7aaf419",
+      "bm25_score": -2.7786046008138903
+    },
+    {
+      "chunk_id": "ea3f14a5-87c9-54a6-b747-bb44c4ac37d2",
+      "bm25_score": -2.7418474496373144
+    },
+    {
+      "chunk_id": "98dba3ad-0b15-56de-9b33-986f85c4371c",
+      "bm25_score": -2.7404936646246285
+    },
+    {
+      "chunk_id": "ebb119e1-e8c3-5140-9e50-3a24f4de926d",
+      "bm25_score": -2.7404936646246285
+    }
+  ],
+  "fused_candidates": [
+    {
+      "chunk_id": "409d262c-b26f-5067-922d-a42c9ce2a1b1",
+      "score": 0.01639344262295082,
+      "dense_rank": 1,
+      "dense_score": 0.6826876508425146,
+      "keyword_rank": 1,
+      "keyword_score": -7.993436782836543
+    },
+    {
+      "chunk_id": "21291e6c-593e-5d24-bf4d-03bdb381997e",
+      "score": 0.016001024065540194,
+      "dense_rank": 3,
+      "dense_score": 0.4541233486702899,
+      "keyword_rank": 2,
+      "keyword_score": -6.527871462048085
+    },
+    {
+      "chunk_id": "605dfafc-2ea1-5d54-8127-d202e9e936b7",
+      "score": 0.015749007936507936,
+      "dense_rank": 4,
+      "dense_score": 0.4522990119392204,
+      "keyword_rank": 3,
+      "keyword_score": -5.977255509992412
+    },
+    {
+      "chunk_id": "501b351e-5215-5955-a707-0192a9a427d2",
+      "score": 0.014938684503901897,
+      "dense_rank": 9,
+      "dense_score": 0.38342703991195254,
+      "keyword_rank": 5,
+      "keyword_score": -4.8783643084539
+    },
+    {
+      "chunk_id": "146b2464-f2db-593f-9333-1e3dd2e49f43",
+      "score": 0.014219443323920937,
+      "dense_rank": 14,
+      "dense_score": 0.35145560585152935,
+      "keyword_rank": 7,
+      "keyword_score": -4.4576584980423055
+    },
+    {
+      "chunk_id": "df2caff8-29bd-5666-8139-6cbc2c726c8c",
+      "score": 0.008064516129032258,
+      "dense_rank": 2,
+      "dense_score": 0.46603260271812014
+    },
+    {
+      "chunk_id": "925225f7-7d82-59c0-8c06-876b3499d6b0",
+      "score": 0.0078125,
+      "keyword_rank": 4,
+      "keyword_score": -5.212654889905304
+    },
+    {
+      "chunk_id": "19a71f5a-d558-5484-98e9-2cddd08824cf",
+      "score": 0.007692307692307693,
+      "dense_rank": 5,
+      "dense_score": 0.39126312066547814
+    },
+    {
+      "chunk_id": "eb01141e-7754-5421-8ec8-308671945088",
+      "score": 0.007575757575757576,
+      "dense_rank": 6,
+      "dense_score": 0.3887973161855625
+    },
+    {
+      "chunk_id": "991a90f5-da12-5107-80f5-0e2455276027",
+      "score": 0.007575757575757576,
+      "keyword_rank": 6,
+      "keyword_score": -4.698434206573522
+    },
+    {
+      "chunk_id": "315e8d93-19a1-5ed6-922b-b2d1137eef3c",
+      "score": 0.007462686567164179,
+      "dense_rank": 7,
+      "dense_score": 0.3878736458419497
+    },
+    {
+      "chunk_id": "3d08cf89-4ae6-5100-a667-3952c3d3c12d",
+      "score": 0.007352941176470588,
+      "dense_rank": 8,
+      "dense_score": 0.3846442328271181
+    },
+    {
+      "chunk_id": "a11d2506-cea0-5c6d-9d1d-ef5ebe6d4bfb",
+      "score": 0.007352941176470588,
+      "keyword_rank": 8,
+      "keyword_score": -4.232820085046142
+    },
+    {
+      "chunk_id": "1908d0e6-688b-5718-97d8-e009992fb85e",
+      "score": 0.007246376811594203,
+      "keyword_rank": 9,
+      "keyword_score": -4.0329859359307365
+    },
+    {
+      "chunk_id": "a30580f7-3d94-542a-b8f0-1db8e3e6413a",
+      "score": 0.007142857142857143,
+      "dense_rank": 10,
+      "dense_score": 0.36691727627292037
+    },
+    {
+      "chunk_id": "3286e54a-7e42-577f-8012-12f84ce9575e",
+      "score": 0.007142857142857143,
+      "keyword_rank": 10,
+      "keyword_score": -3.7944972968431894
+    },
+    {
+      "chunk_id": "7fa20ee5-abf9-58cd-a1ed-5498f2ae68c5",
+      "score": 0.007042253521126761,
+      "dense_rank": 11,
+      "dense_score": 0.3591971793011277
+    },
+    {
+      "chunk_id": "8c607daa-9b1e-5c9f-8d7f-b777343b3eac",
+      "score": 0.007042253521126761,
+      "keyword_rank": 11,
+      "keyword_score": -3.5682088524779303
+    },
+    {
+      "chunk_id": "bf779724-cf4d-5ac8-89b9-8faf79ac7264",
+      "score": 0.006944444444444444,
+      "dense_rank": 12,
+      "dense_score": 0.35823782681999494
+    },
+    {
+      "chunk_id": "f73714fc-9cae-5d6f-a199-223935eba1b2",
+      "score": 0.006944444444444444,
+      "keyword_rank": 12,
+      "keyword_score": -3.476830138055389
+    },
+    {
+      "chunk_id": "fece3b42-ca77-51e0-88c3-7821923550d5",
+      "score": 0.00684931506849315,
+      "dense_rank": 13,
+      "dense_score": 0.3545492653828123
+    },
+    {
+      "chunk_id": "bc76796d-ca02-5715-b78d-4987ea8a1f80",
+      "score": 0.00684931506849315,
+      "keyword_rank": 13,
+      "keyword_score": -3.171714944216979
+    },
+    {
+      "chunk_id": "91b0ad57-b6c6-57df-abc6-a3aa309cff98",
+      "score": 0.006756756756756757,
+      "keyword_rank": 14,
+      "keyword_score": -3.0741174506016744
+    },
+    {
+      "chunk_id": "f2e48c33-b451-5cf6-a517-5c87e191b372",
+      "score": 0.006666666666666667,
+      "dense_rank": 15,
+      "dense_score": 0.348424852805861
+    },
+    {
+      "chunk_id": "31481b33-8eb7-5a7f-8092-ee74ab06af17",
+      "score": 0.006666666666666667,
+      "keyword_rank": 15,
+      "keyword_score": -2.858097408525924
+    },
+    {
+      "chunk_id": "772b421c-e8d1-5395-a84e-358cb04738c4",
+      "score": 0.006578947368421052,
+      "dense_rank": 16,
+      "dense_score": 0.3483710450782376
+    },
+    {
+      "chunk_id": "c6ca90c3-3c85-5503-beea-61e9370fe162",
+      "score": 0.006578947368421052,
+      "keyword_rank": 16,
+      "keyword_score": -2.858097408525924
+    },
+    {
+      "chunk_id": "39302dc8-68e6-59cf-85b8-07ed9a715d55",
+      "score": 0.006493506493506494,
+      "dense_rank": 17,
+      "dense_score": 0.3430330013863505
+    },
+    {
+      "chunk_id": "1de83ac6-7480-53dd-846e-aa47d7aaf419",
+      "score": 0.006493506493506494,
+      "keyword_rank": 17,
+      "keyword_score": -2.7786046008138903
+    },
+    {
+      "chunk_id": "fca47462-b324-5e0c-8490-852c242e63ca",
+      "score": 0.00641025641025641,
+      "dense_rank": 18,
+      "dense_score": 0.34167268029714126
+    },
+    {
+      "chunk_id": "ea3f14a5-87c9-54a6-b747-bb44c4ac37d2",
+      "score": 0.00641025641025641,
+      "keyword_rank": 18,
+      "keyword_score": -2.7418474496373144
+    },
+    {
+      "chunk_id": "e8d90903-6fc6-5bf0-8e2e-1722974ea0df",
+      "score": 0.006329113924050633,
+      "dense_rank": 19,
+      "dense_score": 0.33966550204354723
+    },
+    {
+      "chunk_id": "98dba3ad-0b15-56de-9b33-986f85c4371c",
+      "score": 0.006329113924050633,
+      "keyword_rank": 19,
+      "keyword_score": -2.7404936646246285
+    },
+    {
+      "chunk_id": "cc292c62-41e7-5682-8c82-bff5b8e0a709",
+      "score": 0.00625,
+      "dense_rank": 20,
+      "dense_score": 0.3393340882171493
+    },
+    {
+      "chunk_id": "ebb119e1-e8c3-5140-9e50-3a24f4de926d",
+      "score": 0.00625,
+      "keyword_rank": 20,
+      "keyword_score": -2.7404936646246285
+    }
+  ],
+  "variants": {
+    "B_english_dense": {
+      "sources": [
+        {
+          "chunk_id": "409d262c-b26f-5067-922d-a42c9ce2a1b1",
+          "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+          "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00001",
+          "chunk_type": "text",
+          "text": "Package Contents\nBe sure to check that the package contains all the items listed below:",
+          "content_region_ids": [
+            "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_11"
+          ],
+          "context_region_ids": [
+            "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_2"
+          ],
+          "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00002.jpg",
+          "source_shapes": [
+            {
+              "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_11",
+              "shape": {
+                "x": 175.0000000000001,
+                "y": 517.6093749999999,
+                "width": 643.0000000000003,
+                "height": 29.000000000000114
+              }
+            },
+            {
+              "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_2",
+              "shape": {
+                "x": 174.8399963378907,
+                "y": 474.95278930664085,
+                "width": 193.29559326171866,
+                "height": 28.044128417968864
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_11",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 70
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.6826876508425146,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S1"
+        },
+        {
+          "chunk_id": "df2caff8-29bd-5666-8139-6cbc2c726c8c",
+          "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+          "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00001",
+          "chunk_type": "table",
+          "text": "1 Brief Description\nFirst row (header unconfirmed): Column 1: Camera | Column 2: Hand Strap\nColumn 1: Camera | Column 2: Hand Strap\nColumn 1: USB cable | Column 2: CD-ROM\nColumn 1: Docking Station | Column 2: Quick Operation Guide",
+          "content_region_ids": [
+            "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_18"
+          ],
+          "context_region_ids": [
+            "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_9"
+          ],
+          "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00002.jpg",
+          "source_shapes": [
+            {
+              "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_18",
+              "shape": {
+                "x": 237.33333333333346,
+                "y": 563.0729166666669,
+                "width": 452.00000000000034,
+                "height": 98.66666666666674
+              }
+            },
+            {
+              "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_9",
+              "shape": {
+                "x": 171.75000000000014,
+                "y": 264.96093750000006,
+                "width": 305.9999999999999,
+                "height": 41.99999999999983
+              }
+            },
+            {
+              "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_12",
+              "shape": {
+                "x": 242.6666666666668,
+                "y": 571.7395833333336,
+                "width": 78.00000000000006,
+                "height": 21.3333333333336
+              }
+            },
+            {
+              "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_13",
+              "shape": {
+                "x": 245,
+                "y": 597.6093749999998,
+                "width": 101.00000000000023,
+                "height": 21.000000000000455
+              }
+            },
+            {
+              "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_14",
+              "shape": {
+                "x": 246.0000000000001,
+                "y": 623.6093750000002,
+                "width": 151.0000000000001,
+                "height": 27.000000000000227
+              }
+            },
+            {
+              "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_15",
+              "shape": {
+                "x": 461.0000000000001,
+                "y": 572.6093750000001,
+                "width": 110.99999999999989,
+                "height": 24.00000000000034
+              }
+            },
+            {
+              "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_16",
+              "shape": {
+                "x": 462.00000000000017,
+                "y": 596.6093750000005,
+                "width": 95.00000000000028,
+                "height": 25.000000000000114
+              }
+            },
+            {
+              "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_17",
+              "shape": {
+                "x": 461.3333333333334,
+                "y": 624.6093750000003,
+                "width": 220.66666666666703,
+                "height": 27.666666666666856
+              }
+            }
+          ],
+          "source_spans": [],
+          "content_origin": "paddle_table",
+          "quality_flags": [
+            "table_header_unmarked_review_required"
+          ],
+          "score": 0.46603260271812014,
+          "table_rows": [
+            0,
+            1,
+            2
+          ],
+          "table_cells": [
+            {
+              "row": 0,
+              "column": 0,
+              "rowspan": 1,
+              "colspan": 1
+            },
+            {
+              "row": 0,
+              "column": 1,
+              "rowspan": 1,
+              "colspan": 1
+            },
+            {
+              "row": 1,
+              "column": 0,
+              "rowspan": 1,
+              "colspan": 1
+            },
+            {
+              "row": 1,
+              "column": 1,
+              "rowspan": 1,
+              "colspan": 1
+            },
+            {
+              "row": 2,
+              "column": 0,
+              "rowspan": 1,
+              "colspan": 1
+            },
+            {
+              "row": 2,
+              "column": 1,
+              "rowspan": 1,
+              "colspan": 1
+            }
+          ],
+          "source_id": "S2"
+        },
+        {
+          "chunk_id": "21291e6c-593e-5d24-bf4d-03bdb381997e",
+          "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+          "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00001",
+          "chunk_type": "text",
+          "text": "Package Contents\nIf any items are missing, please contact the store where you purchased the camera. Keep the camera packaging in a safe place as it will be needed if you return the camera for repairs, etc.",
+          "content_region_ids": [
+            "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_3"
+          ],
+          "context_region_ids": [
+            "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_2"
+          ],
+          "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00002.jpg",
+          "source_shapes": [
+            {
+              "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_3",
+              "shape": {
+                "x": 169.33999633789077,
+                "y": 675.4805908203131,
+                "width": 881.207977294922,
+                "height": 60.67871093749966
+              }
+            },
+            {
+              "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_2",
+              "shape": {
+                "x": 174.8399963378907,
+                "y": 474.95278930664085,
+                "width": 193.29559326171866,
+                "height": 28.044128417968864
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_3",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 188
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.4541233486702899,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S3"
+        },
+        {
+          "chunk_id": "605dfafc-2ea1-5d54-8127-d202e9e936b7",
+          "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+          "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00002",
+          "chunk_type": "figure",
+          "text": "Blue Platfoto digital camera featuring a 2.0 megapixel sensor, flash unit, and lens. The device includes a textured back panel with visible branding and functional components like the viewfinder and shutter button.",
+          "content_region_ids": [
+            "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_36"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00003.jpg",
+          "source_shapes": [
+            {
+              "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_36",
+              "shape": {
+                "x": 384.480010986328,
+                "y": 309.7194213867188,
+                "width": 456.6448059082036,
+                "height": 310.2000122070313
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_36",
+              "field": "description_normalized",
+              "start": 0,
+              "end": 214
+            }
+          ],
+          "content_origin": "qwen_figure_description",
+          "quality_flags": [],
+          "score": 0.4522990119392204,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S4"
+        },
+        {
+          "chunk_id": "19a71f5a-d558-5484-98e9-2cddd08824cf",
+          "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+          "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00007",
+          "chunk_type": "figure",
+          "text": "Blue compact digital camera with SD card slot; LCD displays battery, flash, SD icon, and storage count (235). Manual instructs inserting SD card via push-and-pull mechanism.",
+          "content_region_ids": [
+            "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_280"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00008.jpg",
+          "source_shapes": [
+            {
+              "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_280",
+              "shape": {
+                "x": 156.75000000000006,
+                "y": 1016.4609375000006,
+                "width": 880.5000000000005,
+                "height": 499.5000000000001
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_280",
+              "field": "description_normalized",
+              "start": 0,
+              "end": 173
+            }
+          ],
+          "content_origin": "qwen_figure_description",
+          "quality_flags": [],
+          "score": 0.39126312066547814,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S5"
+        }
+      ],
+      "excluded_sources": [],
+      "retrieved_chunk_ids": [
+        "409d262c-b26f-5067-922d-a42c9ce2a1b1",
+        "df2caff8-29bd-5666-8139-6cbc2c726c8c",
+        "21291e6c-593e-5d24-bf4d-03bdb381997e",
+        "605dfafc-2ea1-5d54-8127-d202e9e936b7",
+        "19a71f5a-d558-5484-98e9-2cddd08824cf"
+      ]
+    },
+    "C_english_hybrid": {
+      "sources": [
+        {
+          "chunk_id": "409d262c-b26f-5067-922d-a42c9ce2a1b1",
+          "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+          "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00001",
+          "chunk_type": "text",
+          "text": "Package Contents\nBe sure to check that the package contains all the items listed below:",
+          "content_region_ids": [
+            "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_11"
+          ],
+          "context_region_ids": [
+            "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_2"
+          ],
+          "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00002.jpg",
+          "source_shapes": [
+            {
+              "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_11",
+              "shape": {
+                "x": 175.0000000000001,
+                "y": 517.6093749999999,
+                "width": 643.0000000000003,
+                "height": 29.000000000000114
+              }
+            },
+            {
+              "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_2",
+              "shape": {
+                "x": 174.8399963378907,
+                "y": 474.95278930664085,
+                "width": 193.29559326171866,
+                "height": 28.044128417968864
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_11",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 70
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.01639344262295082,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S1"
+        },
+        {
+          "chunk_id": "21291e6c-593e-5d24-bf4d-03bdb381997e",
+          "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+          "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00001",
+          "chunk_type": "text",
+          "text": "Package Contents\nIf any items are missing, please contact the store where you purchased the camera. Keep the camera packaging in a safe place as it will be needed if you return the camera for repairs, etc.",
+          "content_region_ids": [
+            "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_3"
+          ],
+          "context_region_ids": [
+            "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_2"
+          ],
+          "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00002.jpg",
+          "source_shapes": [
+            {
+              "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_3",
+              "shape": {
+                "x": 169.33999633789077,
+                "y": 675.4805908203131,
+                "width": 881.207977294922,
+                "height": 60.67871093749966
+              }
+            },
+            {
+              "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_2",
+              "shape": {
+                "x": 174.8399963378907,
+                "y": 474.95278930664085,
+                "width": 193.29559326171866,
+                "height": 28.044128417968864
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_3",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 188
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.016001024065540194,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S2"
+        },
+        {
+          "chunk_id": "605dfafc-2ea1-5d54-8127-d202e9e936b7",
+          "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+          "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00002",
+          "chunk_type": "figure",
+          "text": "Blue Platfoto digital camera featuring a 2.0 megapixel sensor, flash unit, and lens. The device includes a textured back panel with visible branding and functional components like the viewfinder and shutter button.",
+          "content_region_ids": [
+            "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_36"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00003.jpg",
+          "source_shapes": [
+            {
+              "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_36",
+              "shape": {
+                "x": 384.480010986328,
+                "y": 309.7194213867188,
+                "width": 456.6448059082036,
+                "height": 310.2000122070313
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_36",
+              "field": "description_normalized",
+              "start": 0,
+              "end": 214
+            }
+          ],
+          "content_origin": "qwen_figure_description",
+          "quality_flags": [],
+          "score": 0.015749007936507936,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S3"
+        },
+        {
+          "chunk_id": "501b351e-5215-5955-a707-0192a9a427d2",
+          "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+          "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00013",
+          "chunk_type": "figure",
+          "text": "Photo Impression 4.0 Installation\nA digital camera software interface displaying a list of components including Driver, Photo Impression 4.0, PhotoBase 4.0, Acrobat Reader 5.0, and User Manual. The layout features teal-colored buttons against a blurred background with the title 'Digital Camera' prominently displayed at the top.",
+          "content_region_ids": [
+            "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_383"
+          ],
+          "context_region_ids": [
+            "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_384"
+          ],
+          "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00014.jpg",
+          "source_shapes": [
+            {
+              "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_383",
+              "shape": {
+                "x": 227.27999877929688,
+                "y": 369.11944580078097,
+                "width": 331.91116333007824,
+                "height": 248.03997802734415
+              }
+            },
+            {
+              "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_384",
+              "shape": {
+                "x": 171.00000000000003,
+                "y": 217.64062500000014,
+                "width": 338.0,
+                "height": 28.99999999999997
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_383",
+              "field": "description_normalized",
+              "start": 0,
+              "end": 295
+            }
+          ],
+          "content_origin": "qwen_figure_description",
+          "quality_flags": [],
+          "score": 0.014938684503901897,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S4"
+        },
+        {
+          "chunk_id": "146b2464-f2db-593f-9333-1e3dd2e49f43",
+          "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+          "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00027",
+          "chunk_type": "text",
+          "text": "Disposing of This Product\nWhen disposing of this product, do so in accordance with your local waste disposal regulations.",
+          "content_region_ids": [
+            "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_347"
+          ],
+          "context_region_ids": [
+            "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_346"
+          ],
+          "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00028.jpg",
+          "source_shapes": [
+            {
+              "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_347",
+              "shape": {
+                "x": 172.02777777777777,
+                "y": 1322.4609374999998,
+                "width": 788.7222222222222,
+                "height": 61.50000000000068
+              }
+            },
+            {
+              "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_346",
+              "shape": {
+                "x": 171.75000000000006,
+                "y": 1295.4609375000005,
+                "width": 263.99999999999994,
+                "height": 26.999999999999318
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_347",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 95
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.014219443323920937,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S5"
+        }
+      ],
+      "excluded_sources": [],
+      "retrieved_chunk_ids": [
+        "409d262c-b26f-5067-922d-a42c9ce2a1b1",
+        "21291e6c-593e-5d24-bf4d-03bdb381997e",
+        "605dfafc-2ea1-5d54-8127-d202e9e936b7",
+        "501b351e-5215-5955-a707-0192a9a427d2",
+        "146b2464-f2db-593f-9333-1e3dd2e49f43"
+      ]
+    }
+  },
+  "retrieval_seconds": 1.8164579999865964
+}

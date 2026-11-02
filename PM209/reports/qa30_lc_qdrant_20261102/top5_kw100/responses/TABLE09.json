@@ -1,0 +1,725 @@
+{
+  "case_id": "TABLE09",
+  "manual_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)",
+  "question": "네트워크 아이콘의 R은 무엇을 뜻하나요?",
+  "english_query": "What does the R in the network icon mean?",
+  "keyword_percent": 100,
+  "variant": "top5_kw100",
+  "top_k": 5,
+  "retrieved_chunk_ids": [
+    "93e4f751-7ca8-5677-a623-3787635e591a",
+    "5efc3569-9d20-5a66-8eeb-a3b22306b9bb",
+    "529e6120-418d-5574-9e02-c61ddc7192fa",
+    "124e967d-65b5-5061-9409-19ca093ba199",
+    "540a317f-acd9-579b-8356-8e9869f2346a"
+  ],
+  "sources": [
+    {
+      "chunk_id": "93e4f751-7ca8-5677-a623-3787635e591a",
+      "manual_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)",
+      "page_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00007",
+      "chunk_type": "text",
+      "text": "Notification and Status Icons\nNetwork status icons may vary depending on your region or network service provider.\nSupported functions vary depending on the device model. Some of the following icons",
+      "content_region_ids": [
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_184",
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_185"
+      ],
+      "context_region_ids": [
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_182"
+      ],
+      "image_filename": "images/HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)/images/HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00010.jpg",
+      "source_shapes": [
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_184",
+          "shape": {
+            "x": 132.81561279296872,
+            "y": 1115.3051757812505,
+            "width": 936.2029418945317,
+            "height": 28.125
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_185",
+          "shape": {
+            "x": 132.81561279296872,
+            "y": 1153.3051757812502,
+            "width": 943.5081176757815,
+            "height": 28.125000000000455
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_182",
+          "shape": {
+            "x": 90.04759216308597,
+            "y": 990.6762695312503,
+            "width": 558.4535064697268,
+            "height": 46.875000000000114
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_184",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 83
+        },
+        {
+          "region_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_185",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 83
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 12.686177253723145,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "5efc3569-9d20-5a66-8eeb-a3b22306b9bb",
+      "manual_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)",
+      "page_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00007",
+      "chunk_type": "figure",
+      "text": "Notification and Status Icons\nA black-and-white icon depicting the letter 'R' alongside four ascending vertical bars resembling signal strength indicators.",
+      "content_region_ids": [
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_205"
+      ],
+      "context_region_ids": [
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_182"
+      ],
+      "image_filename": "images/HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)/images/HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00010.jpg",
+      "source_shapes": [
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_205",
+          "shape": {
+            "x": 598.9861145019531,
+            "y": 1348.336853027344,
+            "width": 56.000000000000114,
+            "height": 60.0
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_182",
+          "shape": {
+            "x": 90.04759216308597,
+            "y": 990.6762695312503,
+            "width": 558.4535064697268,
+            "height": 46.875000000000114
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_205",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 125
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": 11.822311401367188,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "529e6120-418d-5574-9e02-c61ddc7192fa",
+      "manual_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)",
+      "page_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00007",
+      "chunk_type": "table",
+      "text": "Notification and Status Icons\nFirst row (header unconfirmed): Column 1: 56 | Column 2: 5G network connected | Column 3: $4$ | Column 4: 4G network connected\nColumn 1: 56 | Column 2: 5G network connected | Column 3: $4$ | Column 4: 4G network connected\nColumn 1: $3G$ | Column 2: 3G network connected | Column 3: $201 | Column 4: 2G network connected\nColumn 1: [empty cell] | Column 2: Full signal strength | Column 3: Rl | Column 4: Roaming",
+      "content_region_ids": [
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_208"
+      ],
+      "context_region_ids": [
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_182"
+      ],
+      "image_filename": "images/HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)/images/HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00010.jpg",
+      "source_shapes": [
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_208",
+          "shape": {
+            "x": 78.01041412353517,
+            "y": 1218.5052337646491,
+            "width": 1045.5000000000007,
+            "height": 346.5
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_182",
+          "shape": {
+            "x": 90.04759216308597,
+            "y": 990.6762695312503,
+            "width": 558.4535064697268,
+            "height": 46.875000000000114
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_187",
+          "shape": {
+            "x": 237.7941436767579,
+            "y": 1242.9726562499998,
+            "width": 247.16899108886722,
+            "height": 28.12500000000091
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_188",
+          "shape": {
+            "x": 740.9354248046877,
+            "y": 1242.9726562499998,
+            "width": 247.16900634765614,
+            "height": 28.12500000000091
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_189",
+          "shape": {
+            "x": 237.7941436767579,
+            "y": 1300.6566162109382,
+            "width": 247.16899108886722,
+            "height": 28.125
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_190",
+          "shape": {
+            "x": 740.9354248046877,
+            "y": 1300.6566162109382,
+            "width": 247.16900634765614,
+            "height": 28.125
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_191",
+          "shape": {
+            "x": 237.7941436767579,
+            "y": 1365.5554199218757,
+            "width": 209.33879089355477,
+            "height": 28.124999999999773
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_192",
+          "shape": {
+            "x": 740.9354248046877,
+            "y": 1365.5554199218757,
+            "width": 97.3726806640625,
+            "height": 28.124999999999773
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "score": 11.742805480957031,
+      "table_rows": [
+        0,
+        1,
+        2
+      ],
+      "table_cells": [
+        {
+          "row": 0,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 0,
+          "column": 3,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S3"
+    },
+    {
+      "chunk_id": "124e967d-65b5-5061-9409-19ca093ba199",
+      "manual_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)",
+      "page_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00007",
+      "chunk_type": "figure",
+      "text": "Notification and Status Icons\nA grayscale signal strength icon displaying the label '2G' alongside five vertical bars of varying heights to indicate network connectivity.",
+      "content_region_ids": [
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_204"
+      ],
+      "context_region_ids": [
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_182"
+      ],
+      "image_filename": "images/HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)/images/HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00010.jpg",
+      "source_shapes": [
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_204",
+          "shape": {
+            "x": 601.5104141235354,
+            "y": 1293.5052337646491,
+            "width": 54.0,
+            "height": 42.0
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_182",
+          "shape": {
+            "x": 90.04759216308597,
+            "y": 990.6762695312503,
+            "width": 558.4535064697268,
+            "height": 46.875000000000114
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_204",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 140
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": 11.484375953674316,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S4"
+    },
+    {
+      "chunk_id": "540a317f-acd9-579b-8356-8e9869f2346a",
+      "manual_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)",
+      "page_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00007",
+      "chunk_type": "table",
+      "text": "Notification and Status Icons\nFirst row (header unconfirmed): Column 1: 56 | Column 2: 5G network connected | Column 3: $4$ | Column 4: 4G network connected\nColumn 1: [empty cell] | Column 2: Data saver enabled. | Column 3: 日 | Column 4: No SIM card inserted\nColumn 1: [empty cell] | Column 2: Hotspot enabled | Column 3: 丽 | Column 4: Hotspot connected",
+      "content_region_ids": [
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_208"
+      ],
+      "context_region_ids": [
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_182"
+      ],
+      "image_filename": "images/HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)/images/HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00010.jpg",
+      "source_shapes": [
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_208",
+          "shape": {
+            "x": 78.01041412353517,
+            "y": 1218.5052337646491,
+            "width": 1045.5000000000007,
+            "height": 346.5
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_182",
+          "shape": {
+            "x": 90.04759216308597,
+            "y": 990.6762695312503,
+            "width": 558.4535064697268,
+            "height": 46.875000000000114
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_187",
+          "shape": {
+            "x": 237.7941436767579,
+            "y": 1242.9726562499998,
+            "width": 247.16899108886722,
+            "height": 28.12500000000091
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_188",
+          "shape": {
+            "x": 740.9354248046877,
+            "y": 1242.9726562499998,
+            "width": 247.16900634765614,
+            "height": 28.12500000000091
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_193",
+          "shape": {
+            "x": 237.7941436767579,
+            "y": 1438.276733398438,
+            "width": 216.68327331542977,
+            "height": 28.125
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_194",
+          "shape": {
+            "x": 740.9354248046877,
+            "y": 1438.276733398438,
+            "width": 230.20098876953114,
+            "height": 28.125
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_195",
+          "shape": {
+            "x": 237.7941436767579,
+            "y": 1511.9544677734382,
+            "width": 181.38499450683597,
+            "height": 28.125000000000227
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_196",
+          "shape": {
+            "x": 740.9354248046877,
+            "y": 1511.9544677734382,
+            "width": 206.2249755859374,
+            "height": 28.125000000000227
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "score": 10.941818237304688,
+      "table_rows": [
+        3,
+        4
+      ],
+      "table_cells": [
+        {
+          "row": 3,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 4,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S5"
+    }
+  ],
+  "excluded_sources": [],
+  "created_at": "2026-11-02T05:05:17.780586+00:00",
+  "status": "answered",
+  "answer": "제공된 매뉴얼 excerpt 에서 네트워크 아이콘의 'R' 은 'Roaming(로밍)'을 의미합니다.",
+  "source_ids": [
+    "S3"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 60,
+        "prompt_eval_count": 828,
+        "total_duration": 1229162500,
+        "load_duration": 8841800,
+        "attempt": 1,
+        "prompt_token_upper_bound": 3937
+      }
+    ],
+    "elapsed_seconds": 1.2351145000138786,
+    "backend": "LangChain ChatPromptTemplate | ChatOllama"
+  },
+  "citations": [
+    {
+      "chunk_id": "529e6120-418d-5574-9e02-c61ddc7192fa",
+      "manual_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)",
+      "page_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00007",
+      "chunk_type": "table",
+      "text": "Notification and Status Icons\nFirst row (header unconfirmed): Column 1: 56 | Column 2: 5G network connected | Column 3: $4$ | Column 4: 4G network connected\nColumn 1: 56 | Column 2: 5G network connected | Column 3: $4$ | Column 4: 4G network connected\nColumn 1: $3G$ | Column 2: 3G network connected | Column 3: $201 | Column 4: 2G network connected\nColumn 1: [empty cell] | Column 2: Full signal strength | Column 3: Rl | Column 4: Roaming",
+      "content_region_ids": [
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_208"
+      ],
+      "context_region_ids": [
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_182"
+      ],
+      "image_filename": "images/HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)/images/HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00010.jpg",
+      "source_shapes": [
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_208",
+          "shape": {
+            "x": 78.01041412353517,
+            "y": 1218.5052337646491,
+            "width": 1045.5000000000007,
+            "height": 346.5
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_182",
+          "shape": {
+            "x": 90.04759216308597,
+            "y": 990.6762695312503,
+            "width": 558.4535064697268,
+            "height": 46.875000000000114
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_187",
+          "shape": {
+            "x": 237.7941436767579,
+            "y": 1242.9726562499998,
+            "width": 247.16899108886722,
+            "height": 28.12500000000091
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_188",
+          "shape": {
+            "x": 740.9354248046877,
+            "y": 1242.9726562499998,
+            "width": 247.16900634765614,
+            "height": 28.12500000000091
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_189",
+          "shape": {
+            "x": 237.7941436767579,
+            "y": 1300.6566162109382,
+            "width": 247.16899108886722,
+            "height": 28.125
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_190",
+          "shape": {
+            "x": 740.9354248046877,
+            "y": 1300.6566162109382,
+            "width": 247.16900634765614,
+            "height": 28.125
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_191",
+          "shape": {
+            "x": 237.7941436767579,
+            "y": 1365.5554199218757,
+            "width": 209.33879089355477,
+            "height": 28.124999999999773
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_192",
+          "shape": {
+            "x": 740.9354248046877,
+            "y": 1365.5554199218757,
+            "width": 97.3726806640625,
+            "height": 28.124999999999773
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "score": 11.742805480957031,
+      "table_rows": [
+        0,
+        1,
+        2
+      ],
+      "table_cells": [
+        {
+          "row": 0,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 0,
+          "column": 3,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S3"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 1.2352854999771807,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 65,
+    "utilization_percent": 84
+  }
+}

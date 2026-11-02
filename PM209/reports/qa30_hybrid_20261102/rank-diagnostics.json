@@ -1,0 +1,40 @@
+{
+  "note": "null means absent from the first 20 candidates, not absent from the corpus.",
+  "cases": [
+    {
+      "case_id": "TABLE02",
+      "content": "Hand Strap 등 여섯 구성품",
+      "dense_rank": 2,
+      "keyword_rank": null,
+      "fused_rank": 6
+    },
+    {
+      "case_id": "TABLE04",
+      "content": "SamsungPortableSSD.exe 조건의 PSSD_Cleanup.bat 행",
+      "dense_rank": 5,
+      "keyword_rank": 14,
+      "fused_rank": 7
+    },
+    {
+      "case_id": "TABLE03",
+      "content": "Headset port",
+      "dense_rank": 16,
+      "keyword_rank": 3,
+      "fused_rank": 8
+    },
+    {
+      "case_id": "TEXT06",
+      "content": "1.5GB 여유 공간",
+      "dense_rank": 12,
+      "keyword_rank": 1,
+      "fused_rank": 1
+    },
+    {
+      "case_id": "TABLE09",
+      "content": "R 아이콘과 Roaming 대응",
+      "dense_rank": 4,
+      "keyword_rank": 4,
+      "fused_rank": 3
+    }
+  ]
+}

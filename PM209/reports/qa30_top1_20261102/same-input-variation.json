@@ -1,0 +1,198 @@
+{
+  "unique_input_groups": 48,
+  "same_input_groups": 37,
+  "text_or_status_variation_groups": 6,
+  "verdict_variation_groups": 1,
+  "variations": [
+    {
+      "case_id": "TABLE02",
+      "input_hash": "5426705c76f4cf878f16bea901d2e2a234dc12529e8287a656dff8b1ba874e6e",
+      "observations": [
+        {
+          "keyword_percent": 0,
+          "status": "failed",
+          "answer": null,
+          "error": "답변 생성 검증 실패: 근거 부족 응답에는 채택한 근거 ID를 넣을 수 없습니다.",
+          "verdict": "error"
+        },
+        {
+          "keyword_percent": 25,
+          "status": "insufficient_evidence",
+          "answer": "검색된 매뉴얼 근거에서 질문에 대한 답을 확인하지 못했습니다.",
+          "error": null,
+          "verdict": "no_answer"
+        },
+        {
+          "keyword_percent": 50,
+          "status": "insufficient_evidence",
+          "answer": "검색된 매뉴얼 근거에서 질문에 대한 답을 확인하지 못했습니다.",
+          "error": null,
+          "verdict": "no_answer"
+        },
+        {
+          "keyword_percent": 75,
+          "status": "insufficient_evidence",
+          "answer": "검색된 매뉴얼 근거에서 질문에 대한 답을 확인하지 못했습니다.",
+          "error": null,
+          "verdict": "no_answer"
+        },
+        {
+          "keyword_percent": 100,
+          "status": "insufficient_evidence",
+          "answer": "검색된 매뉴얼 근거에서 질문에 대한 답을 확인하지 못했습니다.",
+          "error": null,
+          "verdict": "no_answer"
+        }
+      ]
+    },
+    {
+      "case_id": "TABLE04",
+      "input_hash": "310f8ba655462f440dbfe5dc5d981369578c5444766a534b6d80e3ced7edbf00",
+      "observations": [
+        {
+          "keyword_percent": 0,
+          "status": "answered",
+          "answer": "설치된 소프트웨어를 삭제하려면 다음 두 가지 방법을 사용할 수 있습니다. 먼저, 제어판 → 프로그램 및 기능 → 프로그램 설치/변경에서 'Samsung Portable SSD Software'를 더블 클릭하고 '예'를 선택하여 제거할 수 있습니다. 또한, 애플리케이션 설치 경로 (보통 c:\\ProgramData\\Samsung Apps\\Portable SSD\\PSSD_Cleanup.bat) 에 있는 PSSD_Cleanup.bat 파일을 실행하여 수동으로 삭제해야 합니다.",
+          "error": null,
+          "verdict": "incorrect"
+        },
+        {
+          "keyword_percent": 25,
+          "status": "answered",
+          "answer": "설치된 소프트웨어를 삭제하려면 제어판 → 프로그램 및 기능 → 프로그램의 제거 및 변경을 통해 'Samsung Portable SSD Software'를 더블 클릭하고 '예'를 선택합니다. 또한, 애플리케이션 설치 경로에 있는 PSSD_Cleanup.bat 파일을 실행하여 수동으로 삭제해야 합니다. (일반적인 경로: c:\\ProgramData\\Samsung Apps\\Portable SSD\\PSSD_Cleanup.bat)",
+          "error": null,
+          "verdict": "incorrect"
+        },
+        {
+          "keyword_percent": 50,
+          "status": "answered",
+          "answer": "설치된 소프트웨어를 삭제하려면 제어판 → 프로그램 및 기능 → 프로그램의 제거 및 변경을 통해 'Samsung Portable SSD Software'를 더블 클릭하고 '예'를 선택합니다. 또한, 애플리케이션 설치 경로에 있는 PSSD_Cleanup.bat 파일을 실행하여 수동으로 삭제해야 합니다. (일반적인 경로: c:\\ProgramData\\Samsung Apps\\Portable SSD\\PSSD_Cleanup.bat)",
+          "error": null,
+          "verdict": "incorrect"
+        }
+      ]
+    },
+    {
+      "case_id": "FIG06",
+      "input_hash": "27c2b0aaef30dbd7f5f8ccc39f38074b2b54ef120eec7fb7de11787b75a4918f",
+      "observations": [
+        {
+          "keyword_percent": 0,
+          "status": "answered",
+          "answer": "비밀번호를 잊어버리면 데이터에 접근할 수 없습니다. 비밀번호를 잘못 입력하면, 약 128MB 용량의 SamsungPortableSSD.exe 에 할당된 공간만 사용할 수 있게 되며, 보호된 데이터는 접근이 차단됩니다.",
+          "error": null,
+          "verdict": "correct"
+        },
+        {
+          "keyword_percent": 25,
+          "status": "answered",
+          "answer": "비밀번호를 잊어버리면 데이터에 접근할 수 없습니다. 비밀번호를 잘못 입력하면, 약 128MB 용량의 SamsungPortableSSD.exe 에 할당된 공간만 사용할 수 있게 되며, 보호된 데이터는 접근이 차단됩니다.",
+          "error": null,
+          "verdict": "correct"
+        },
+        {
+          "keyword_percent": 50,
+          "status": "answered",
+          "answer": "비밀번호를 잊어버리면 데이터에 접근할 수 없습니다. 비밀번호를 잘못 입력하면, 약 128MB 용량의 SamsungPortableSSD.exe 에 할당된 공간만 사용할 수 있게 되며, 보호된 데이터는 접근이 차단됩니다.",
+          "error": null,
+          "verdict": "correct"
+        },
+        {
+          "keyword_percent": 75,
+          "status": "answered",
+          "answer": "비밀번호를 잊어버리면 데이터에 접근할 수 없습니다. 비밀번호를 잘못 입력하면, 약 128MB 용량의 SamsungPortableSSD.exe 에 할당된 공간만 사용할 수 있게 되며, 보호된 데이터는 접근이 차단됩니다.",
+          "error": null,
+          "verdict": "correct"
+        },
+        {
+          "keyword_percent": 100,
+          "status": "answered",
+          "answer": "비밀번호를 잊어버리면 데이터에 접근할 수 없습니다. 비밀번호를 잘못 입력하면, 약 128MB 용량의 SamsungPortableSSD.exe 에 할당된 공간만 사용할 수 있게 되며, 비밀번호로 보호된 데이터는 접근이 차단됩니다.",
+          "error": null,
+          "verdict": "correct"
+        }
+      ]
+    },
+    {
+      "case_id": "TABLE06",
+      "input_hash": "f668c0c9e3aa61e9c9d85f9a9d2f1101af81a8227f96cb6b367d53e63747d702",
+      "observations": [
+        {
+          "keyword_percent": 25,
+          "status": "answered",
+          "answer": "리모컨이 제대로 작동하지 않는 경우, 리모컨을 올바른 스피커에 더 직접적으로 향하고, 방의 조명을 어둡게 하거나 스피커를 직사광선에서 멀리 이동시키며, 시스템에 더 가까이서 리모컨을 사용하세요. 문제가 지속될 경우 리모컨 배터리를 교체해야 합니다.",
+          "error": null,
+          "verdict": "partial"
+        },
+        {
+          "keyword_percent": 50,
+          "status": "answered",
+          "answer": "리모컨이 제대로 작동하지 않는 경우, 리모컨을 올바른 스피커에 더 직접적으로 향하고, 방의 조명을 어둡게 하거나 스피커를 직사광선에서 멀리 이동시키며, 시스템에 더 가까이서 리모컨을 사용하세요. 문제가 지속될 경우 리모컨 배터리를 교체해야 합니다.",
+          "error": null,
+          "verdict": "partial"
+        },
+        {
+          "keyword_percent": 75,
+          "status": "answered",
+          "answer": "리모컨이 제대로 작동하지 않는 경우, 리모컨을 올바른 스피커에 더 직접적으로 향하고, 방의 조명을 어둡게 하거나 스피커를 직사광선에서 멀리 이동시키며, 시스템에 더 가까이서 리모컨을 사용하세요. 문제가 지속될 경우 리모컨 배터리를 교체해야 합니다.",
+          "error": null,
+          "verdict": "partial"
+        },
+        {
+          "keyword_percent": 100,
+          "status": "answered",
+          "answer": "리모컨이 제대로 작동하지 않는 경우, 리모컨을 올바른 스피커에 더 직접적으로 향하고, 방 조명을 어둡게 하거나 스피커를 직사광에서 멀리 이동시키며, 시스템에 더 가까이서 리모컨을 사용하세요. 문제가 지속될 경우 리모컨 배터리를 교체해야 합니다.",
+          "error": null,
+          "verdict": "partial"
+        }
+      ]
+    },
+    {
+      "case_id": "FIG07",
+      "input_hash": "2020db65be98082a36119886d9cc02e4553d5f65df41f29eee3741241b614044",
+      "observations": [
+        {
+          "keyword_percent": 50,
+          "status": "answered",
+          "answer": "제공된 매뉴얼 excerpt 에서는 Photo Base 4.0 설치 과정에서 '다음' 버튼을 클릭해야 한다고 명시되어 있습니다.",
+          "error": null,
+          "verdict": "partial"
+        },
+        {
+          "keyword_percent": 75,
+          "status": "answered",
+          "answer": "제공된 매뉴얼 excerpt 에서는 Photo Base 4.0 설치 과정에서 '다음' 버튼을 클릭해야 한다고 명시되어 있습니다.",
+          "error": null,
+          "verdict": "partial"
+        },
+        {
+          "keyword_percent": 100,
+          "status": "answered",
+          "answer": "제공된 매뉴얼 excerpt 에서는 Photo Base 4.0 설치 과정에서 '다음' 버튼을 클릭해야 한다고만 명시되어 있으며, 구체적인 설치 방법이나 전제 조건에 대한 상세한 정보는 포함되어 있지 않습니다.",
+          "error": null,
+          "verdict": "partial"
+        }
+      ]
+    },
+    {
+      "case_id": "FIG03",
+      "input_hash": "44b632efb130eb6ca86a477b66263c969696fbc6cc9b42e3c34dcd0f06c32bc3",
+      "observations": [
+        {
+          "keyword_percent": 75,
+          "status": "answered",
+          "answer": "이미지 파일은 JPEG 형식만 볼 수 있습니다.",
+          "error": null,
+          "verdict": "incorrect"
+        },
+        {
+          "keyword_percent": 100,
+          "status": "answered",
+          "answer": "이미지 파일은 JPEG 형식만 보일 수 있습니다.",
+          "error": null,
+          "verdict": "incorrect"
+        }
+      ]
+    }
+  ]
+}

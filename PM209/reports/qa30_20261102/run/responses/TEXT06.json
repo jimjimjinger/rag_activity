@@ -1,0 +1,570 @@
+{
+  "case_id": "TEXT06",
+  "manual_id": "samsung_tv",
+  "question": "타임시프트 기능을 사용하려면 어떻게 해야 하나요?",
+  "retrieved_chunk_ids": [
+    "7c8d4c08-a9b7-5d71-8491-6206dae6962b",
+    "43a45d5b-ee81-5027-8f5a-ff089f32b12a",
+    "74e9b4dd-d2d3-5def-b6b1-ff91661b3b1c",
+    "caefb98b-bfe9-51eb-b9bb-1bb2ad4d0272",
+    "a92ab273-1eb6-5dc3-bd90-b1b319efad5c"
+  ],
+  "sources": [
+    {
+      "chunk_id": "7c8d4c08-a9b7-5d71-8491-6206dae6962b",
+      "manual_id": "samsung_tv",
+      "page_id": "samsung_tv_00082",
+      "chunk_type": "text",
+      "text": "Using Timeshift\nSelect button and then select Timeshift, or press the button.\n\" When the Timeshift function is running, some of function are not available in Settings Broadcasting.\n\" To use Timeshift, you must connect a USB device for recording.\n\" Read all precautions before using the Timeshift function. For more information, refer to \"Before Using the Recording and",
+      "content_region_ids": [
+        "samsung_tv_3823",
+        "samsung_tv_3803",
+        "samsung_tv_3804",
+        "samsung_tv_3805"
+      ],
+      "context_region_ids": [
+        "samsung_tv_3824"
+      ],
+      "image_filename": "images/samsung_tv/images/82.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_tv_3823",
+          "shape": {
+            "x": 85.04000000000003,
+            "y": 310.70000000000016,
+            "width": 577.6899999999999,
+            "height": 37.479999999999905
+          }
+        },
+        {
+          "id": "samsung_tv_3803",
+          "shape": {
+            "x": 93.54,
+            "y": 353.3600000000001,
+            "width": 942.2800000000002,
+            "height": 40.95999999999992
+          }
+        },
+        {
+          "id": "samsung_tv_3804",
+          "shape": {
+            "x": 93.54,
+            "y": 404.37000000000023,
+            "width": 534.0400000000002,
+            "height": 22.95999999999981
+          }
+        },
+        {
+          "id": "samsung_tv_3805",
+          "shape": {
+            "x": 93.54,
+            "y": 449.3799999999999,
+            "width": 988.54,
+            "height": 22.950000000000102
+          }
+        },
+        {
+          "id": "samsung_tv_3824",
+          "shape": {
+            "x": 85.04000000000003,
+            "y": 82.30000000000001,
+            "width": 249.99000000000012,
+            "height": 43.170000000000016
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_tv_3823",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 61
+        },
+        {
+          "region_id": "samsung_tv_3803",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 102
+        },
+        {
+          "region_id": "samsung_tv_3804",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 64
+        },
+        {
+          "region_id": "samsung_tv_3805",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 122
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.6016313594474879,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "43a45d5b-ee81-5027-8f5a-ff089f32b12a",
+      "manual_id": "samsung_tv",
+      "page_id": "samsung_tv_00131",
+      "chunk_type": "text",
+      "text": "Before using the timeshift function\n● USB memory sticks or flash drives are not supported.",
+      "content_region_ids": [
+        "samsung_tv_2150"
+      ],
+      "context_region_ids": [
+        "samsung_tv_2147"
+      ],
+      "image_filename": "images/samsung_tv/images/131.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_tv_2150",
+          "shape": {
+            "x": 107.72000000000007,
+            "y": 268.9200000000001,
+            "width": 497.9400000000001,
+            "height": 23.980000000000075
+          }
+        },
+        {
+          "id": "samsung_tv_2147",
+          "shape": {
+            "x": 85.03999999999999,
+            "y": 82.75000000000003,
+            "width": 463.9,
+            "height": 35.98000000000002
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_tv_2150",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 54
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.5776249390628492,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "74e9b4dd-d2d3-5def-b6b1-ff91661b3b1c",
+      "manual_id": "samsung_tv",
+      "page_id": "samsung_tv_00129",
+      "chunk_type": "text",
+      "text": "Before Using the Recording and Timeshift Functions\n\" This function may not be supported depending on the model or geographical area.",
+      "content_region_ids": [
+        "samsung_tv_2107"
+      ],
+      "context_region_ids": [
+        "samsung_tv_2109"
+      ],
+      "image_filename": "images/samsung_tv/images/129.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_tv_2107",
+          "shape": {
+            "x": 93.53999999999999,
+            "y": 384.4600000000001,
+            "width": 689.0299999999999,
+            "height": 22.959999999999752
+          }
+        },
+        {
+          "id": "samsung_tv_2109",
+          "shape": {
+            "x": 85.04000000000002,
+            "y": 263.74999999999994,
+            "width": 824.4500000000003,
+            "height": 43.17000000000013
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_tv_2107",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 81
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.5611698414777668,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S3"
+    },
+    {
+      "chunk_id": "caefb98b-bfe9-51eb-b9bb-1bb2ad4d0272",
+      "manual_id": "samsung_tv",
+      "page_id": "samsung_tv_00168",
+      "chunk_type": "text",
+      "text": "Recording\nTimeshift Functions\".",
+      "content_region_ids": [
+        "samsung_tv_4438"
+      ],
+      "context_region_ids": [
+        "samsung_tv_4434"
+      ],
+      "image_filename": "images/samsung_tv/images/168.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_tv_4438",
+          "shape": {
+            "x": 136.06,
+            "y": 277.39,
+            "width": 166.96999999999974,
+            "height": 21.590000000000032
+          }
+        },
+        {
+          "id": "samsung_tv_4434",
+          "shape": {
+            "x": 85.03999999999998,
+            "y": 82.29999999999998,
+            "width": 161.39999999999998,
+            "height": 43.16999999999999
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_tv_4438",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 21
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.5596905012633226,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S4"
+    },
+    {
+      "chunk_id": "a92ab273-1eb6-5dc3-bd90-b1b319efad5c",
+      "manual_id": "samsung_tv",
+      "page_id": "samsung_tv_00083",
+      "chunk_type": "text",
+      "text": "This function is only available when the Timeshift function is running.",
+      "content_region_ids": [
+        "samsung_tv_3835"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_tv/images/83.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_tv_3835",
+          "shape": {
+            "x": 175.8966666666668,
+            "y": 579.7500000000002,
+            "width": 548.9733333333335,
+            "height": 26.29333333333352
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_tv_3835",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 71
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.5541574521607102,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S5"
+    }
+  ],
+  "excluded_sources": [],
+  "retrieval_seconds": 1.517254700011108,
+  "created_at": "2026-11-01T23:54:01.881155+00:00",
+  "status": "answered",
+  "answer": "타임시프트 기능을 사용하려면 USB 저장 장치 (USB 메모리 스틱 또는 플래시 드라이브) 를 연결해야 합니다. 하지만 이 장치는 지원되지 않으므로, 매뉴얼에 명시된 USB 저장 장치가 아닌 다른 기록용 USB 장치를 연결해야 할 수 있습니다. 또한 타임시프트 기능이 작동 중일 때만 일부 설정이 사용 가능하지 않으며, 모델이나 지역によっては 해당 기능이 지원되지 않을 수 있으므로 사전에 주의사항을 확인하시기 바랍니다.",
+  "source_ids": [
+    "S1",
+    "S2",
+    "S3"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 133,
+        "prompt_eval_count": 617,
+        "total_duration": 2041457400,
+        "load_duration": 7566300,
+        "attempt": 1,
+        "prompt_token_upper_bound": 3353
+      }
+    ],
+    "elapsed_seconds": 2.1043883000093047,
+    "ollama_model": {
+      "name": "qwen3.5:4b",
+      "model": "qwen3.5:4b",
+      "size": 3214409726,
+      "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "4.2B",
+        "quantization_level": "Q4_K_M"
+      },
+      "expires_at": "2026-11-02T08:55:03.9829095+09:00",
+      "size_vram": 3214409726,
+      "context_length": 8192,
+      "runner": "llamacpp"
+    },
+    "observation_error": null
+  },
+  "citations": [
+    {
+      "chunk_id": "7c8d4c08-a9b7-5d71-8491-6206dae6962b",
+      "manual_id": "samsung_tv",
+      "page_id": "samsung_tv_00082",
+      "chunk_type": "text",
+      "text": "Using Timeshift\nSelect button and then select Timeshift, or press the button.\n\" When the Timeshift function is running, some of function are not available in Settings Broadcasting.\n\" To use Timeshift, you must connect a USB device for recording.\n\" Read all precautions before using the Timeshift function. For more information, refer to \"Before Using the Recording and",
+      "content_region_ids": [
+        "samsung_tv_3823",
+        "samsung_tv_3803",
+        "samsung_tv_3804",
+        "samsung_tv_3805"
+      ],
+      "context_region_ids": [
+        "samsung_tv_3824"
+      ],
+      "image_filename": "images/samsung_tv/images/82.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_tv_3823",
+          "shape": {
+            "x": 85.04000000000003,
+            "y": 310.70000000000016,
+            "width": 577.6899999999999,
+            "height": 37.479999999999905
+          }
+        },
+        {
+          "id": "samsung_tv_3803",
+          "shape": {
+            "x": 93.54,
+            "y": 353.3600000000001,
+            "width": 942.2800000000002,
+            "height": 40.95999999999992
+          }
+        },
+        {
+          "id": "samsung_tv_3804",
+          "shape": {
+            "x": 93.54,
+            "y": 404.37000000000023,
+            "width": 534.0400000000002,
+            "height": 22.95999999999981
+          }
+        },
+        {
+          "id": "samsung_tv_3805",
+          "shape": {
+            "x": 93.54,
+            "y": 449.3799999999999,
+            "width": 988.54,
+            "height": 22.950000000000102
+          }
+        },
+        {
+          "id": "samsung_tv_3824",
+          "shape": {
+            "x": 85.04000000000003,
+            "y": 82.30000000000001,
+            "width": 249.99000000000012,
+            "height": 43.170000000000016
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_tv_3823",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 61
+        },
+        {
+          "region_id": "samsung_tv_3803",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 102
+        },
+        {
+          "region_id": "samsung_tv_3804",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 64
+        },
+        {
+          "region_id": "samsung_tv_3805",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 122
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.6016313594474879,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "43a45d5b-ee81-5027-8f5a-ff089f32b12a",
+      "manual_id": "samsung_tv",
+      "page_id": "samsung_tv_00131",
+      "chunk_type": "text",
+      "text": "Before using the timeshift function\n● USB memory sticks or flash drives are not supported.",
+      "content_region_ids": [
+        "samsung_tv_2150"
+      ],
+      "context_region_ids": [
+        "samsung_tv_2147"
+      ],
+      "image_filename": "images/samsung_tv/images/131.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_tv_2150",
+          "shape": {
+            "x": 107.72000000000007,
+            "y": 268.9200000000001,
+            "width": 497.9400000000001,
+            "height": 23.980000000000075
+          }
+        },
+        {
+          "id": "samsung_tv_2147",
+          "shape": {
+            "x": 85.03999999999999,
+            "y": 82.75000000000003,
+            "width": 463.9,
+            "height": 35.98000000000002
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_tv_2150",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 54
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.5776249390628492,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "74e9b4dd-d2d3-5def-b6b1-ff91661b3b1c",
+      "manual_id": "samsung_tv",
+      "page_id": "samsung_tv_00129",
+      "chunk_type": "text",
+      "text": "Before Using the Recording and Timeshift Functions\n\" This function may not be supported depending on the model or geographical area.",
+      "content_region_ids": [
+        "samsung_tv_2107"
+      ],
+      "context_region_ids": [
+        "samsung_tv_2109"
+      ],
+      "image_filename": "images/samsung_tv/images/129.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_tv_2107",
+          "shape": {
+            "x": 93.53999999999999,
+            "y": 384.4600000000001,
+            "width": 689.0299999999999,
+            "height": 22.959999999999752
+          }
+        },
+        {
+          "id": "samsung_tv_2109",
+          "shape": {
+            "x": 85.04000000000002,
+            "y": 263.74999999999994,
+            "width": 824.4500000000003,
+            "height": 43.17000000000013
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_tv_2107",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 81
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.5611698414777668,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S3"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 2.104607599991141,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 66,
+    "utilization_percent": 85
+  }
+}

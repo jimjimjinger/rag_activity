@@ -1,0 +1,118 @@
+{
+  "case_id": "FIG01",
+  "manual_id": "og_en_wmsucb",
+  "question": "전동 드릴을 사용하기 전에 무엇에 주의해야 하나요?",
+  "english_query": "What should I pay attention to before using the cordless drill?",
+  "keyword_percent": 50,
+  "dense_percent": 50,
+  "top_k": 1,
+  "retrieved_chunk_ids": [
+    "9e949d91-958a-5b90-80f1-8c8b38bea371"
+  ],
+  "sources": [
+    {
+      "chunk_id": "9e949d91-958a-5b90-80f1-8c8b38bea371",
+      "manual_id": "og_en_wmsucb",
+      "page_id": "og_en_wmsucb_00004",
+      "chunk_type": "title",
+      "text": "Before using your drill",
+      "content_region_ids": [
+        "og_en_wmsucb_397"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00004.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_397",
+          "shape": {
+            "x": 320.99999999999994,
+            "y": 118.55207824707028,
+            "width": 280.0000000000003,
+            "height": 34.0
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_397",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 23
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [],
+      "score": 0.01639344262295082,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "excluded_sources": [],
+  "top5_response_file": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_hybrid_20261102\\C_english_hybrid\\results.json",
+  "status": "insufficient_evidence",
+  "variant": "keyword_050",
+  "created_at": "2026-11-02T00:57:09.723809+00:00",
+  "answer": "검색된 매뉴얼 근거에서 질문에 대한 답을 확인하지 못했습니다.",
+  "source_ids": [],
+  "insufficient_evidence": true,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 58,
+        "prompt_eval_count": 361,
+        "total_duration": 827234000,
+        "load_duration": 6813200,
+        "attempt": 1,
+        "prompt_token_upper_bound": 2232
+      }
+    ],
+    "elapsed_seconds": 0.907876799989026,
+    "ollama_model": {
+      "name": "qwen3.5:4b",
+      "model": "qwen3.5:4b",
+      "size": 3214409726,
+      "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "4.2B",
+        "quantization_level": "Q4_K_M"
+      },
+      "expires_at": "2026-11-02T09:58:10.6300455+09:00",
+      "size_vram": 3214409726,
+      "context_length": 8192,
+      "runner": "llamacpp"
+    },
+    "observation_error": null
+  },
+  "citations": [],
+  "cited_figures": [],
+  "elapsed_seconds": 0.9080260999908205,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 67,
+    "utilization_percent": 84
+  }
+}

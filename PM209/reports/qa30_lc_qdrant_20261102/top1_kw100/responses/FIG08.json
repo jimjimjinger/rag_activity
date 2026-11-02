@@ -1,0 +1,162 @@
+{
+  "case_id": "FIG08",
+  "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+  "question": "스피커를 컴퓨터 바로 옆에 배치하기 쉬운 이유는 무엇인가요?",
+  "english_query": "Why is it easy to place the speaker right next to the computer?",
+  "keyword_percent": 100,
+  "variant": "top1_kw100",
+  "top_k": 1,
+  "retrieved_chunk_ids": [
+    "b1c45281-074a-5bdc-b9e3-b5e329aa5f4a"
+  ],
+  "sources": [
+    {
+      "chunk_id": "b1c45281-074a-5bdc-b9e3-b5e329aa5f4a",
+      "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+      "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00006",
+      "chunk_type": "text",
+      "text": "Positioning the speakers\nThe size and shape of these speakers make it easy to position them directly next to your c omputer. For proper performance, place the right speaker to the right and the left speaker to the left of your computer. Make sure there is equal distance on either side. This provides an accurate sound stage.",
+      "content_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_3"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_2"
+      ],
+      "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00007.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_3",
+          "shape": {
+            "x": 61.79998779296873,
+            "y": 179.4273986816405,
+            "width": 520.8798828124995,
+            "height": 133.32000732421892
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_2",
+          "shape": {
+            "x": 64.8000030517578,
+            "y": 137.1674041748047,
+            "width": 329.81199645996065,
+            "height": 33.40400695800784
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_3",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 300
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 39.807289123535156,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "excluded_sources": [],
+  "created_at": "2026-11-02T05:01:07.800766+00:00",
+  "status": "answered",
+  "answer": "이 스피커의 크기와 형태가 컴퓨터 바로 옆에 배치하기 쉽도록 설계되어 있습니다.",
+  "source_ids": [
+    "S1"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 57,
+        "prompt_eval_count": 426,
+        "total_duration": 846711400,
+        "load_duration": 6494800,
+        "attempt": 1,
+        "prompt_token_upper_bound": 2574
+      }
+    ],
+    "elapsed_seconds": 0.8552113999903668,
+    "backend": "LangChain ChatPromptTemplate | ChatOllama"
+  },
+  "citations": [
+    {
+      "chunk_id": "b1c45281-074a-5bdc-b9e3-b5e329aa5f4a",
+      "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+      "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00006",
+      "chunk_type": "text",
+      "text": "Positioning the speakers\nThe size and shape of these speakers make it easy to position them directly next to your c omputer. For proper performance, place the right speaker to the right and the left speaker to the left of your computer. Make sure there is equal distance on either side. This provides an accurate sound stage.",
+      "content_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_3"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_2"
+      ],
+      "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00007.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_3",
+          "shape": {
+            "x": 61.79998779296873,
+            "y": 179.4273986816405,
+            "width": 520.8798828124995,
+            "height": 133.32000732421892
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_2",
+          "shape": {
+            "x": 64.8000030517578,
+            "y": 137.1674041748047,
+            "width": 329.81199645996065,
+            "height": 33.40400695800784
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_3",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 300
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 39.807289123535156,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 0.8552872000145726,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 65,
+    "utilization_percent": 83
+  }
+}

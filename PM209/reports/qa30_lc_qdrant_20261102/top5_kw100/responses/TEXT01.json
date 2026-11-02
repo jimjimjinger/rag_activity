@@ -1,0 +1,371 @@
+{
+  "case_id": "TEXT01",
+  "manual_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1",
+  "question": "FIREGL, Intergraph, 3dLabs 같은 그래픽 어댑터는 DVD 비디오 재생을 지원하나요?",
+  "english_query": "Do graphics adapters such as FIREGL, Intergraph, and 3dLabs support DVD video playback?",
+  "keyword_percent": 100,
+  "variant": "top5_kw100",
+  "top_k": 5,
+  "retrieved_chunk_ids": [
+    "058ab5fd-2e1e-5f82-a1b8-53fbdc5a1f3f",
+    "1078c21c-ac61-5d96-ad7b-b1b2686d48b4",
+    "99db5fc3-5a1e-535d-96e5-d92365fa24ac",
+    "b1663267-6859-5a0d-940a-45d8498eba95",
+    "417ee3be-5319-54e3-8223-bf34910fce50"
+  ],
+  "sources": [
+    {
+      "chunk_id": "058ab5fd-2e1e-5f82-a1b8-53fbdc5a1f3f",
+      "manual_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1",
+      "page_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00007",
+      "chunk_type": "text",
+      "text": "Software Description\nNote: Some graphics adapters such as the FIREGL, Intergraph, and 3dLabs, do not support DVD video playback.",
+      "content_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_52"
+      ],
+      "context_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_50"
+      ],
+      "image_filename": "images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1/images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00013.jpg",
+      "source_shapes": [
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_52",
+          "shape": {
+            "x": 143.68240356445315,
+            "y": 1028.6870117187498,
+            "width": 934.9936218261719,
+            "height": 48.093750000000455
+          }
+        },
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_50",
+          "shape": {
+            "x": 143.68240356445315,
+            "y": 910.0532836914061,
+            "width": 280.9746093750001,
+            "height": 33.246459960937614
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_52",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 107
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 98.07405853271484,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "1078c21c-ac61-5d96-ad7b-b1b2686d48b4",
+      "manual_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1",
+      "page_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00012",
+      "chunk_type": "text",
+      "text": "Notes:\nIf you experience poor playback performance, adjust the resolution to a lower setting. 2. Audio and video streams are decoded by software. The audio and video subsystems need to be fully functional and enabled. 3. WinDVD does not enable DVD playback feature through Windows Media Player. After installing WinDVD, DVD video may play back through Media Player, but audio will not.",
+      "content_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_121"
+      ],
+      "context_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_130"
+      ],
+      "image_filename": "images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1/images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00018.jpg",
+      "source_shapes": [
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_121",
+          "shape": {
+            "x": 119.73539733886722,
+            "y": 325.3695068359375,
+            "width": 943.7166290283205,
+            "height": 226.57098388671875
+          }
+        },
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_130",
+          "shape": {
+            "x": 118,
+            "y": 294.6124954223633,
+            "width": 60.00000000000003,
+            "height": 24.999999999999943
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_121",
+          "field": "ocr_normalized",
+          "start": 362,
+          "end": 740
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 23.636878967285156,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "99db5fc3-5a1e-535d-96e5-d92365fa24ac",
+      "manual_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1",
+      "page_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00011",
+      "chunk_type": "text",
+      "text": "If you are using a legacy operating system on your computer, you might need to update some components of your operating system to enable the DVD video playback function. The requirements for legacy operating systems are as follows:\nv Windows 95, Windows Server® 2000, Windows Server 2003: You must install the latest service pack, Internet Explorer® 5, and DirectX®. v Windows 98, Windows 98 Second Edition, Windows Millennium Edition: You must install the latest DirectX.",
+      "content_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_91",
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_92"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1/images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00017.jpg",
+      "source_shapes": [
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_91",
+          "shape": {
+            "x": 143.68240356445318,
+            "y": 126.67999267578126,
+            "width": 941.7339782714848,
+            "height": 74.70759073893227
+          }
+        },
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_92",
+          "shape": {
+            "x": 143.68240356445318,
+            "y": 202.03369140625017,
+            "width": 943.4432067871094,
+            "height": 242.14486694335915
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_91",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 231
+        },
+        {
+          "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_92",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 240
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 19.09944725036621,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S3"
+    },
+    {
+      "chunk_id": "b1663267-6859-5a0d-940a-45d8498eba95",
+      "manual_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1",
+      "page_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00010",
+      "chunk_type": "text",
+      "text": "Using the DVD function\nIf the operating system of your computer is Windows Vista Home Premium or Windows Vista Ultimate, you can view DVD movies without installing any additional software. Windows Media® Player comes fully configured to play DVD videos in those operating system versions. In Windows Vista Ultimate, you can also use Windows Media Center to view DVD videos.",
+      "content_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_84"
+      ],
+      "context_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_83"
+      ],
+      "image_filename": "images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1/images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00016.jpg",
+      "source_shapes": [
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_84",
+          "shape": {
+            "x": 119.7353973388672,
+            "y": 1215.6997070312498,
+            "width": 950.7257843017578,
+            "height": 95.98803710937545
+          }
+        },
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_83",
+          "shape": {
+            "x": 119.7353973388672,
+            "y": 1168.9073486328125,
+            "width": 316.59550476074224,
+            "height": 33.2464599609375
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_84",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 350
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 15.697988510131836,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S4"
+    },
+    {
+      "chunk_id": "417ee3be-5319-54e3-8223-bf34910fce50",
+      "manual_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1",
+      "page_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00012",
+      "chunk_type": "text",
+      "text": "Notes:\n1. Your computer has been configured to provide the highest quality audio and video playback obtainable with the available system resources. You can alter the default settings by changing the video resolution setting within the Control Panel. Some systems do not have enough resources to provide full-quality audio and video playback at all resolution settings. If you experience poor playback performance, adjust the resolution to a lower setting.",
+      "content_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_121"
+      ],
+      "context_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_130"
+      ],
+      "image_filename": "images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1/images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00018.jpg",
+      "source_shapes": [
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_121",
+          "shape": {
+            "x": 119.73539733886722,
+            "y": 325.3695068359375,
+            "width": 943.7166290283205,
+            "height": 226.57098388671875
+          }
+        },
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_130",
+          "shape": {
+            "x": 118,
+            "y": 294.6124954223633,
+            "width": 60.00000000000003,
+            "height": 24.999999999999943
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_121",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 448
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 15.586484909057617,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S5"
+    }
+  ],
+  "excluded_sources": [],
+  "created_at": "2026-11-02T05:04:42.607330+00:00",
+  "status": "answered",
+  "answer": "제공된 매뉴얼에 따르면, FIREGL, Intergraph, 3dLabs 와 같은 그래픽 어댑터는 DVD 비디오 재생을 지원하지 않습니다.",
+  "source_ids": [
+    "S1"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 69,
+        "prompt_eval_count": 855,
+        "total_duration": 1351630900,
+        "load_duration": 5345300,
+        "attempt": 1,
+        "prompt_token_upper_bound": 4496
+      }
+    ],
+    "elapsed_seconds": 1.360190400009742,
+    "backend": "LangChain ChatPromptTemplate | ChatOllama"
+  },
+  "citations": [
+    {
+      "chunk_id": "058ab5fd-2e1e-5f82-a1b8-53fbdc5a1f3f",
+      "manual_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1",
+      "page_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00007",
+      "chunk_type": "text",
+      "text": "Software Description\nNote: Some graphics adapters such as the FIREGL, Intergraph, and 3dLabs, do not support DVD video playback.",
+      "content_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_52"
+      ],
+      "context_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_50"
+      ],
+      "image_filename": "images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1/images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00013.jpg",
+      "source_shapes": [
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_52",
+          "shape": {
+            "x": 143.68240356445315,
+            "y": 1028.6870117187498,
+            "width": 934.9936218261719,
+            "height": 48.093750000000455
+          }
+        },
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_50",
+          "shape": {
+            "x": 143.68240356445315,
+            "y": 910.0532836914061,
+            "width": 280.9746093750001,
+            "height": 33.246459960937614
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_52",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 107
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 98.07405853271484,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 1.3602940999844577,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 65,
+    "utilization_percent": 81
+  }
+}

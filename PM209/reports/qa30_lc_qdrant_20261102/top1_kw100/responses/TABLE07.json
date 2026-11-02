@@ -1,0 +1,194 @@
+{
+  "case_id": "TABLE07",
+  "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+  "question": "배터리 상태 표시로 무엇을 알 수 있나요?",
+  "english_query": "What can be known from the battery status indicator?",
+  "keyword_percent": 100,
+  "variant": "top1_kw100",
+  "top_k": 1,
+  "retrieved_chunk_ids": [
+    "e65b3cf6-1236-5a26-a4ca-7b9aed89c7f2"
+  ],
+  "sources": [
+    {
+      "chunk_id": "e65b3cf6-1236-5a26-a4ca-7b9aed89c7f2",
+      "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+      "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00013",
+      "chunk_type": "text",
+      "text": "Checking the battery\nWhen the speaker is turned on, the battery status indicator briefly illuminates, then turns off to conserve battery power. However, if the battery requires charging, the battery status indicator illuminates and continuously blink red until the speaker the speaker is connected to AC power and the battery begins charging.\nTo check the battery charge level, press and hold Power on the speaker and observe the battery status indicator.",
+      "content_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_119",
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_120"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_118"
+      ],
+      "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00014.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_119",
+          "shape": {
+            "x": 53.353000640869084,
+            "y": 243.45640563964835,
+            "width": 661.4999656677244,
+            "height": 80.98194885253903
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_120",
+          "shape": {
+            "x": 52.908556196424655,
+            "y": 329.3372531467013,
+            "width": 640.0603769090438,
+            "height": 44.10512966579847
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_118",
+          "shape": {
+            "x": 53.353000640869084,
+            "y": 209.15240478515616,
+            "width": 232.5119895935058,
+            "height": 28.751998901367188
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_119",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 321
+        },
+        {
+          "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_120",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 112
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 19.283584594726562,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "excluded_sources": [],
+  "created_at": "2026-11-02T05:00:55.392982+00:00",
+  "status": "answered",
+  "answer": "배터리 상태 표시기는 스피커를 켤 때 잠시 점등된 후 꺼지지만, 배터리 충전이 필요할 경우 AC 전원과 연결되어 있으면 빨간색으로 계속 깜빡입니다. 또한, 배터리 잔량을 확인하려면 파워 버튼을 길게 누르고 배터리 상태 표시기를 관찰하면 됩니다.",
+  "source_ids": [
+    "S1"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 95,
+        "prompt_eval_count": 438,
+        "total_duration": 1322429100,
+        "load_duration": 5333800,
+        "attempt": 1,
+        "prompt_token_upper_bound": 2677
+      }
+    ],
+    "elapsed_seconds": 1.3300244999991264,
+    "backend": "LangChain ChatPromptTemplate | ChatOllama"
+  },
+  "citations": [
+    {
+      "chunk_id": "e65b3cf6-1236-5a26-a4ca-7b9aed89c7f2",
+      "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+      "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00013",
+      "chunk_type": "text",
+      "text": "Checking the battery\nWhen the speaker is turned on, the battery status indicator briefly illuminates, then turns off to conserve battery power. However, if the battery requires charging, the battery status indicator illuminates and continuously blink red until the speaker the speaker is connected to AC power and the battery begins charging.\nTo check the battery charge level, press and hold Power on the speaker and observe the battery status indicator.",
+      "content_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_119",
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_120"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_118"
+      ],
+      "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00014.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_119",
+          "shape": {
+            "x": 53.353000640869084,
+            "y": 243.45640563964835,
+            "width": 661.4999656677244,
+            "height": 80.98194885253903
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_120",
+          "shape": {
+            "x": 52.908556196424655,
+            "y": 329.3372531467013,
+            "width": 640.0603769090438,
+            "height": 44.10512966579847
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_118",
+          "shape": {
+            "x": 53.353000640869084,
+            "y": 209.15240478515616,
+            "width": 232.5119895935058,
+            "height": 28.751998901367188
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_119",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 321
+        },
+        {
+          "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_120",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 112
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 19.283584594726562,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 1.330102900014026,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 65,
+    "utilization_percent": 82
+  }
+}

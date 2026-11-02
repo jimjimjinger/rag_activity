@@ -1,0 +1,236 @@
+{
+  "case_id": "TABLE07",
+  "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+  "question": "배터리 상태 표시로 무엇을 알 수 있나요?",
+  "english_query": "What can be known from the battery status indicator?",
+  "keyword_percent": 100,
+  "dense_percent": 0,
+  "top_k": 1,
+  "retrieved_chunk_ids": [
+    "2333ca0c-4e3f-550d-9afc-63d6631c573b"
+  ],
+  "sources": [
+    {
+      "chunk_id": "2333ca0c-4e3f-550d-9afc-63d6631c573b",
+      "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+      "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00011",
+      "chunk_type": "table",
+      "text": "System status indicators\nFirst row (header unconfirmed): Column 1: Status indicator | Column 2: System status\nColumn 1: [empty cell] | Column 2: Indicates the battery power level or the battery charging state.See“Checking the battery\" on page 14.",
+      "content_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_100"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_84"
+      ],
+      "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00012.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_100",
+          "shape": {
+            "x": 50,
+            "y": 427.6406249999998,
+            "width": 676.9999999999991,
+            "height": 476.9999999999998
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_84",
+          "shape": {
+            "x": 53.35300064086908,
+            "y": 94.41240692138666,
+            "width": 323.2880516052244,
+            "height": 33.54399871826169
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_86",
+          "shape": {
+            "x": 60.186333974202434,
+            "y": 437.6632080078121,
+            "width": 79.76270167032874,
+            "height": 40.80531819661434
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_95",
+          "shape": {
+            "x": 156.66666666666652,
+            "y": 459.09375,
+            "width": 126.66666666666646,
+            "height": 21.333333333332803
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "score": 0.01639344262295082,
+      "table_rows": [
+        4
+      ],
+      "table_cells": [
+        {
+          "row": 4,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S1"
+    }
+  ],
+  "excluded_sources": [],
+  "top5_response_file": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_weights_20261102\\keyword_100\\results.json",
+  "status": "answered",
+  "variant": "keyword_100",
+  "created_at": "2026-11-02T00:58:14.611418+00:00",
+  "answer": "배터리 상태 표시는 배터리 전압 수준 또는 배터리 충전 상태를 알 수 있습니다.",
+  "source_ids": [
+    "S1"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 52,
+        "prompt_eval_count": 419,
+        "total_duration": 765136200,
+        "load_duration": 5317400,
+        "attempt": 1,
+        "prompt_token_upper_bound": 2484
+      }
+    ],
+    "elapsed_seconds": 0.8436718999873847,
+    "ollama_model": {
+      "name": "qwen3.5:4b",
+      "model": "qwen3.5:4b",
+      "size": 3214409726,
+      "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "4.2B",
+        "quantization_level": "Q4_K_M"
+      },
+      "expires_at": "2026-11-02T09:59:15.4537231+09:00",
+      "size_vram": 3214409726,
+      "context_length": 8192,
+      "runner": "llamacpp"
+    },
+    "observation_error": null
+  },
+  "citations": [
+    {
+      "chunk_id": "2333ca0c-4e3f-550d-9afc-63d6631c573b",
+      "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+      "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00011",
+      "chunk_type": "table",
+      "text": "System status indicators\nFirst row (header unconfirmed): Column 1: Status indicator | Column 2: System status\nColumn 1: [empty cell] | Column 2: Indicates the battery power level or the battery charging state.See“Checking the battery\" on page 14.",
+      "content_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_100"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_84"
+      ],
+      "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00012.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_100",
+          "shape": {
+            "x": 50,
+            "y": 427.6406249999998,
+            "width": 676.9999999999991,
+            "height": 476.9999999999998
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_84",
+          "shape": {
+            "x": 53.35300064086908,
+            "y": 94.41240692138666,
+            "width": 323.2880516052244,
+            "height": 33.54399871826169
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_86",
+          "shape": {
+            "x": 60.186333974202434,
+            "y": 437.6632080078121,
+            "width": 79.76270167032874,
+            "height": 40.80531819661434
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_95",
+          "shape": {
+            "x": 156.66666666666652,
+            "y": 459.09375,
+            "width": 126.66666666666646,
+            "height": 21.333333333332803
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "score": 0.01639344262295082,
+      "table_rows": [
+        4
+      ],
+      "table_cells": [
+        {
+          "row": 4,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S1"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 0.8438760999997612,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 65,
+    "utilization_percent": 62
+  }
+}

@@ -1,0 +1,584 @@
+{
+  "case_id": "TABLE05",
+  "manual_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a",
+  "question": "시스템이 작동하지 않으면 어떻게 해야 하나요?",
+  "english_query": "What should I do if the system does not work?",
+  "keyword_percent": 100,
+  "variant": "top5_kw100",
+  "top_k": 5,
+  "retrieved_chunk_ids": [
+    "aa1e18f2-37d8-59d4-861e-66f7c68a1075",
+    "c722447f-e82d-5971-b49a-c674fb13878f",
+    "774f28d8-1b27-50ed-90f2-d50b4ef5aaba",
+    "ff46c8ca-ce98-574f-a74c-b577de1e8dc5",
+    "a97af8a6-f831-5c3e-9182-a5068ad09a02"
+  ],
+  "sources": [
+    {
+      "chunk_id": "aa1e18f2-37d8-59d4-861e-66f7c68a1075",
+      "manual_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a",
+      "page_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00002",
+      "chunk_type": "text",
+      "text": "©1994-2004 Bose Corporation. No part of this work may be reproduced, modified, distributed or otherwise used without prior written permission. All trademarks referenced herein are property of Bose Corporation. The Wave® music system design is a registered trademark of Bose Corporation.",
+      "content_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_304"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a/images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00002.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_304",
+          "shape": {
+            "x": 322.07800292968756,
+            "y": 1387.6240234375005,
+            "width": 762.8469238281252,
+            "height": 72.127197265625
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_304",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 286
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 9.97751235961914,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "c722447f-e82d-5971-b49a-c674fb13878f",
+      "manual_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a",
+      "page_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00026",
+      "chunk_type": "text",
+      "text": "Maintaining Your Wave Music System\n• Adjust the internal antenna by rotating the unit slightly one way and then the other. • Move the unit farther from a TV, refrigerator, fluorescent lamps, halogen lamps, dimmer switches, or other electronic equipment that generates electrical noise. • If neither suggestion works, you may be in an area of weak AM signal coverage.",
+      "content_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_602"
+      ],
+      "context_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_591"
+      ],
+      "image_filename": "images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a/images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00027.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_602",
+          "shape": {
+            "x": 338.37838745117193,
+            "y": 598.0093383789065,
+            "width": 800.1421203613284,
+            "height": 99.36895751953114
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_591",
+          "shape": {
+            "x": 607.9180297851564,
+            "y": 53.64562606811523,
+            "width": 525.9172973632809,
+            "height": 38.47488021850587
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_602",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 331
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 9.829980850219727,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "774f28d8-1b27-50ed-90f2-d50b4ef5aaba",
+      "manual_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a",
+      "page_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00008",
+      "chunk_type": "text",
+      "text": "Your Wave® music system is easily operated using the remote control. Just aim the remote at the front panel and press the buttons. The remote normally works within 20 feet of the front panel.\nThroughout this owner’s guide you will see button icons to the left of the operating instruc- tions. These icons refer to buttons located on the remote control.",
+      "content_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_47",
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_48"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a/images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00009.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_47",
+          "shape": {
+            "x": 323.9979553222657,
+            "y": 173.46405029296886,
+            "width": 822.7226257324226,
+            "height": 49.210418701171676
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_48",
+          "shape": {
+            "x": 323.99798583984386,
+            "y": 229.38385009765616,
+            "width": 806.9603881835934,
+            "height": 49.44943237304702
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_47",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 191
+        },
+        {
+          "region_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_48",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 160
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 9.781767845153809,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S3"
+    },
+    {
+      "chunk_id": "ff46c8ca-ce98-574f-a74c-b577de1e8dc5",
+      "manual_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a",
+      "page_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00026",
+      "chunk_type": "table",
+      "text": "Troubleshooting\nFirst row (header unconfirmed): Column 1: Problem | Column 2: What to do\nColumn 1: AMreception is weak | Column 2: Adjust the internal antenna by rotating the unit slightly one way and then the other. Move the unit farther from a TV,refrigerator, fluorescent lamps,halogen lamps, dimmer switches, or other electronic eguipment that generates electrical noise. If neither suggestion works, you may be in an area of weak AM signal coverage.",
+      "content_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_609"
+      ],
+      "context_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_592"
+      ],
+      "image_filename": "images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a/images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00027.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_609",
+          "shape": {
+            "x": 56.25,
+            "y": 152.1281147003174,
+            "width": 1100.25,
+            "height": 792.0
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_592",
+          "shape": {
+            "x": 71.99804687500003,
+            "y": 114.84631347656249,
+            "width": 224.74398803710935,
+            "height": 38.474868774414134
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_595",
+          "shape": {
+            "x": 80.39842224121094,
+            "y": 169.9004974365234,
+            "width": 79.84733581542969,
+            "height": 27.529434204101562
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_596",
+          "shape": {
+            "x": 338.2588500976563,
+            "y": 169.9004974365234,
+            "width": 104.2193298339842,
+            "height": 27.529434204101562
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "score": 5.824884414672852,
+      "table_rows": [
+        4
+      ],
+      "table_cells": [
+        {
+          "row": 4,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S4"
+    },
+    {
+      "chunk_id": "a97af8a6-f831-5c3e-9182-a5068ad09a02",
+      "manual_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a",
+      "page_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00026",
+      "chunk_type": "table",
+      "text": "Troubleshooting\nFirst row (header unconfirmed): Column 1: Problem | Column 2: What to do\nColumn 1: Remote control is incon- sistent or does not work | Column 2: Operate the remote control closer to the unit. Check that the remote control battery is installed with positive (+)polarity facing up. Replace the remote control battery. Check for interference from room lighting,sunlight,or dust or dirt on lens. Try the unit in a different location.",
+      "content_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_609"
+      ],
+      "context_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_592"
+      ],
+      "image_filename": "images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a/images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00027.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_609",
+          "shape": {
+            "x": 56.25,
+            "y": 152.1281147003174,
+            "width": 1100.25,
+            "height": 792.0
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_592",
+          "shape": {
+            "x": 71.99804687500003,
+            "y": 114.84631347656249,
+            "width": 224.74398803710935,
+            "height": 38.474868774414134
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_595",
+          "shape": {
+            "x": 80.39842224121094,
+            "y": 169.9004974365234,
+            "width": 79.84733581542969,
+            "height": 27.529434204101562
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_596",
+          "shape": {
+            "x": 338.2588500976563,
+            "y": 169.9004974365234,
+            "width": 104.2193298339842,
+            "height": 27.529434204101562
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_608",
+          "shape": {
+            "x": 77,
+            "y": 465.61250305175764,
+            "width": 222.99999999999994,
+            "height": 46.00000000000017
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "score": 5.824884414672852,
+      "table_rows": [
+        3
+      ],
+      "table_cells": [
+        {
+          "row": 3,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S5"
+    }
+  ],
+  "excluded_sources": [],
+  "created_at": "2026-11-02T05:05:08.812873+00:00",
+  "status": "answered",
+  "answer": "시스템이 작동하지 않는 원인과 해결 방법을 확인하기 위해 먼저 문제가 무엇인지 파악해야 합니다.\n\n1. **AM 수신 신호가 약하다면**:\n   - 내부 안테나를 약간 회전시켜 조정하세요.\n   - TV, 냉장고, 형광등, 할로겐등, 디머 스위치 또는 기타 전기 노이즈를 발생시키는 전자 장비에서 더 멀리 이동하세요.\n   - 위 방법으로도 해결되지 않는다면 약한 AM 신호 수신 지역일 수 있습니다.\n\n2. **원격 조종사가 일관성 없이 작동하거나 작동하지 않는 경우**:\n   - 원격 조종사를 장치에 더 가까이 가져가세요.\n   - 원격 조종사 배터리가 올바른 (+) 극성을 상향으로 설치되어 있는지 확인하세요.\n   - 원격 조종사 배터리를 교체하세요.\n   - 방 조명, 햇빛 또는 렌즈의 먼지/먼지에 의한 간섭을 확인하세요.\n   - 다른 위치에 장치를 사용해보세요.",
+  "source_ids": [
+    "S2",
+    "S4",
+    "S5"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 248,
+        "prompt_eval_count": 892,
+        "total_duration": 3627137100,
+        "load_duration": 9038600,
+        "attempt": 1,
+        "prompt_token_upper_bound": 4586
+      }
+    ],
+    "elapsed_seconds": 3.6318652000045404,
+    "backend": "LangChain ChatPromptTemplate | ChatOllama"
+  },
+  "citations": [
+    {
+      "chunk_id": "c722447f-e82d-5971-b49a-c674fb13878f",
+      "manual_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a",
+      "page_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00026",
+      "chunk_type": "text",
+      "text": "Maintaining Your Wave Music System\n• Adjust the internal antenna by rotating the unit slightly one way and then the other. • Move the unit farther from a TV, refrigerator, fluorescent lamps, halogen lamps, dimmer switches, or other electronic equipment that generates electrical noise. • If neither suggestion works, you may be in an area of weak AM signal coverage.",
+      "content_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_602"
+      ],
+      "context_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_591"
+      ],
+      "image_filename": "images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a/images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00027.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_602",
+          "shape": {
+            "x": 338.37838745117193,
+            "y": 598.0093383789065,
+            "width": 800.1421203613284,
+            "height": 99.36895751953114
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_591",
+          "shape": {
+            "x": 607.9180297851564,
+            "y": 53.64562606811523,
+            "width": 525.9172973632809,
+            "height": 38.47488021850587
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_602",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 331
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 9.829980850219727,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "ff46c8ca-ce98-574f-a74c-b577de1e8dc5",
+      "manual_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a",
+      "page_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00026",
+      "chunk_type": "table",
+      "text": "Troubleshooting\nFirst row (header unconfirmed): Column 1: Problem | Column 2: What to do\nColumn 1: AMreception is weak | Column 2: Adjust the internal antenna by rotating the unit slightly one way and then the other. Move the unit farther from a TV,refrigerator, fluorescent lamps,halogen lamps, dimmer switches, or other electronic eguipment that generates electrical noise. If neither suggestion works, you may be in an area of weak AM signal coverage.",
+      "content_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_609"
+      ],
+      "context_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_592"
+      ],
+      "image_filename": "images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a/images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00027.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_609",
+          "shape": {
+            "x": 56.25,
+            "y": 152.1281147003174,
+            "width": 1100.25,
+            "height": 792.0
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_592",
+          "shape": {
+            "x": 71.99804687500003,
+            "y": 114.84631347656249,
+            "width": 224.74398803710935,
+            "height": 38.474868774414134
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_595",
+          "shape": {
+            "x": 80.39842224121094,
+            "y": 169.9004974365234,
+            "width": 79.84733581542969,
+            "height": 27.529434204101562
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_596",
+          "shape": {
+            "x": 338.2588500976563,
+            "y": 169.9004974365234,
+            "width": 104.2193298339842,
+            "height": 27.529434204101562
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "score": 5.824884414672852,
+      "table_rows": [
+        4
+      ],
+      "table_cells": [
+        {
+          "row": 4,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S4"
+    },
+    {
+      "chunk_id": "a97af8a6-f831-5c3e-9182-a5068ad09a02",
+      "manual_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a",
+      "page_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00026",
+      "chunk_type": "table",
+      "text": "Troubleshooting\nFirst row (header unconfirmed): Column 1: Problem | Column 2: What to do\nColumn 1: Remote control is incon- sistent or does not work | Column 2: Operate the remote control closer to the unit. Check that the remote control battery is installed with positive (+)polarity facing up. Replace the remote control battery. Check for interference from room lighting,sunlight,or dust or dirt on lens. Try the unit in a different location.",
+      "content_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_609"
+      ],
+      "context_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_592"
+      ],
+      "image_filename": "images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a/images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00027.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_609",
+          "shape": {
+            "x": 56.25,
+            "y": 152.1281147003174,
+            "width": 1100.25,
+            "height": 792.0
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_592",
+          "shape": {
+            "x": 71.99804687500003,
+            "y": 114.84631347656249,
+            "width": 224.74398803710935,
+            "height": 38.474868774414134
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_595",
+          "shape": {
+            "x": 80.39842224121094,
+            "y": 169.9004974365234,
+            "width": 79.84733581542969,
+            "height": 27.529434204101562
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_596",
+          "shape": {
+            "x": 338.2588500976563,
+            "y": 169.9004974365234,
+            "width": 104.2193298339842,
+            "height": 27.529434204101562
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_608",
+          "shape": {
+            "x": 77,
+            "y": 465.61250305175764,
+            "width": 222.99999999999994,
+            "height": 46.00000000000017
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "score": 5.824884414672852,
+      "table_rows": [
+        3
+      ],
+      "table_cells": [
+        {
+          "row": 3,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S5"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 3.6323606000223663,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 66,
+    "utilization_percent": 84
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "case_id": "TEXT06",
+  "manual_id": "samsung_tv",
+  "question": "타임시프트 기능을 사용하려면 어떻게 해야 하나요?",
+  "english_query": "How do I use the Time Shift feature?",
+  "keyword_percent": 50,
+  "dense_percent": 50,
+  "top_k": 1,
+  "retrieved_chunk_ids": [
+    "faa1d00f-39b5-5489-bda4-20e8888edc52"
+  ],
+  "sources": [
+    {
+      "chunk_id": "faa1d00f-39b5-5489-bda4-20e8888edc52",
+      "manual_id": "samsung_tv",
+      "page_id": "samsung_tv_00131",
+      "chunk_type": "text",
+      "text": "● Time-shifted videos are played according to the TV settings.\n● The Timeshift function may be terminated automatically once it reaches its maximum capacity.\n● The Timeshift function requires at least 1.5 GB of free space available on the USB storage device.",
+      "content_region_ids": [
+        "samsung_tv_2155",
+        "samsung_tv_2156",
+        "samsung_tv_2157"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_tv/images/131.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_tv_2155",
+          "shape": {
+            "x": 107.72000000000007,
+            "y": 578.4800000000004,
+            "width": 556.8600000000005,
+            "height": 23.980000000000132
+          }
+        },
+        {
+          "id": "samsung_tv_2156",
+          "shape": {
+            "x": 107.72000000000007,
+            "y": 629.9900000000002,
+            "width": 863.9200000000005,
+            "height": 23.979999999999677
+          }
+        },
+        {
+          "id": "samsung_tv_2157",
+          "shape": {
+            "x": 107.72000000000007,
+            "y": 681.5,
+            "width": 875.0400000000002,
+            "height": 23.98000000000036
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_tv_2155",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 62
+        },
+        {
+          "region_id": "samsung_tv_2156",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 94
+        },
+        {
+          "region_id": "samsung_tv_2157",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 100
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.015141165755919854,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "excluded_sources": [],
+  "top5_response_file": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_hybrid_20261102\\C_english_hybrid\\results.json",
+  "status": "answered",
+  "variant": "keyword_050",
+  "created_at": "2026-11-02T00:56:51.641205+00:00",
+  "answer": "타임시프트 기능을 사용하려면 USB 저장 장치에 최소 1.5GB 의 여유 공간이 있어야 합니다.",
+  "source_ids": [
+    "S1"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 58,
+        "prompt_eval_count": 411,
+        "total_duration": 838660100,
+        "load_duration": 4664800,
+        "attempt": 1,
+        "prompt_token_upper_bound": 2500
+      }
+    ],
+    "elapsed_seconds": 0.9092610999941826,
+    "ollama_model": {
+      "name": "qwen3.5:4b",
+      "model": "qwen3.5:4b",
+      "size": 3214409726,
+      "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "4.2B",
+        "quantization_level": "Q4_K_M"
+      },
+      "expires_at": "2026-11-02T09:57:52.5482042+09:00",
+      "size_vram": 3214409726,
+      "context_length": 8192,
+      "runner": "llamacpp"
+    },
+    "observation_error": null
+  },
+  "citations": [
+    {
+      "chunk_id": "faa1d00f-39b5-5489-bda4-20e8888edc52",
+      "manual_id": "samsung_tv",
+      "page_id": "samsung_tv_00131",
+      "chunk_type": "text",
+      "text": "● Time-shifted videos are played according to the TV settings.\n● The Timeshift function may be terminated automatically once it reaches its maximum capacity.\n● The Timeshift function requires at least 1.5 GB of free space available on the USB storage device.",
+      "content_region_ids": [
+        "samsung_tv_2155",
+        "samsung_tv_2156",
+        "samsung_tv_2157"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_tv/images/131.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_tv_2155",
+          "shape": {
+            "x": 107.72000000000007,
+            "y": 578.4800000000004,
+            "width": 556.8600000000005,
+            "height": 23.980000000000132
+          }
+        },
+        {
+          "id": "samsung_tv_2156",
+          "shape": {
+            "x": 107.72000000000007,
+            "y": 629.9900000000002,
+            "width": 863.9200000000005,
+            "height": 23.979999999999677
+          }
+        },
+        {
+          "id": "samsung_tv_2157",
+          "shape": {
+            "x": 107.72000000000007,
+            "y": 681.5,
+            "width": 875.0400000000002,
+            "height": 23.98000000000036
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_tv_2155",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 62
+        },
+        {
+          "region_id": "samsung_tv_2156",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 94
+        },
+        {
+          "region_id": "samsung_tv_2157",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 100
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.015141165755919854,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 0.9094408999953885,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 70,
+    "utilization_percent": 86
+  }
+}

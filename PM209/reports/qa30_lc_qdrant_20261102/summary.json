@@ -1,0 +1,361 @@
+{
+  "date": "2026-11-02T05:19:41.680086+00:00",
+  "questions": 30,
+  "answers": 300,
+  "review_groups": 199,
+  "reviewer": "Codex assistant; exact prior review reuse is recorded per group; not independent human grading",
+  "weights": {
+    "0": {
+      "top1": {
+        "counts": {
+          "correct": 15,
+          "partial": 6,
+          "no_answer": 4,
+          "error": 1,
+          "incorrect": 4
+        },
+        "correct_percent": 50.0,
+        "by_category": {
+          "text": {
+            "correct": 8,
+            "partial": 1,
+            "no_answer": 1
+          },
+          "table": {
+            "correct": 4,
+            "error": 1,
+            "incorrect": 2,
+            "partial": 2,
+            "no_answer": 1
+          },
+          "figure": {
+            "no_answer": 2,
+            "partial": 3,
+            "incorrect": 2,
+            "correct": 3
+          }
+        },
+        "context_sufficiency": {
+          "sufficient": 17,
+          "partial": 5,
+          "insufficient": 8
+        },
+        "gold_content_region_hits": 23
+      },
+      "top5": {
+        "counts": {
+          "correct": 20,
+          "incorrect": 1,
+          "no_answer": 3,
+          "partial": 5,
+          "error": 1
+        },
+        "correct_percent": 66.7,
+        "by_category": {
+          "text": {
+            "correct": 9,
+            "incorrect": 1
+          },
+          "table": {
+            "correct": 6,
+            "no_answer": 2,
+            "partial": 2
+          },
+          "figure": {
+            "correct": 5,
+            "partial": 3,
+            "error": 1,
+            "no_answer": 1
+          }
+        },
+        "context_sufficiency": {
+          "sufficient": 23,
+          "partial": 4,
+          "insufficient": 3
+        },
+        "gold_content_region_hits": 28
+      }
+    },
+    "25": {
+      "top1": {
+        "counts": {
+          "correct": 13,
+          "incorrect": 4,
+          "partial": 9,
+          "no_answer": 4
+        },
+        "correct_percent": 43.3,
+        "by_category": {
+          "text": {
+            "correct": 6,
+            "incorrect": 1,
+            "partial": 2,
+            "no_answer": 1
+          },
+          "table": {
+            "correct": 3,
+            "no_answer": 3,
+            "incorrect": 1,
+            "partial": 3
+          },
+          "figure": {
+            "partial": 4,
+            "correct": 4,
+            "incorrect": 2
+          }
+        },
+        "context_sufficiency": {
+          "sufficient": 15,
+          "insufficient": 8,
+          "partial": 7
+        },
+        "gold_content_region_hits": 20
+      },
+      "top5": {
+        "counts": {
+          "correct": 18,
+          "partial": 6,
+          "no_answer": 2,
+          "incorrect": 4
+        },
+        "correct_percent": 60.0,
+        "by_category": {
+          "text": {
+            "correct": 9,
+            "partial": 1
+          },
+          "table": {
+            "correct": 5,
+            "no_answer": 2,
+            "partial": 1,
+            "incorrect": 2
+          },
+          "figure": {
+            "partial": 4,
+            "correct": 4,
+            "incorrect": 2
+          }
+        },
+        "context_sufficiency": {
+          "sufficient": 23,
+          "insufficient": 3,
+          "partial": 4
+        },
+        "gold_content_region_hits": 29
+      }
+    },
+    "50": {
+      "top1": {
+        "counts": {
+          "correct": 14,
+          "incorrect": 4,
+          "no_answer": 5,
+          "partial": 7
+        },
+        "correct_percent": 46.7,
+        "by_category": {
+          "text": {
+            "correct": 7,
+            "incorrect": 1,
+            "no_answer": 1,
+            "partial": 1
+          },
+          "table": {
+            "correct": 3,
+            "no_answer": 3,
+            "incorrect": 1,
+            "partial": 3
+          },
+          "figure": {
+            "no_answer": 1,
+            "correct": 4,
+            "partial": 3,
+            "incorrect": 2
+          }
+        },
+        "context_sufficiency": {
+          "sufficient": 16,
+          "insufficient": 9,
+          "partial": 5
+        },
+        "gold_content_region_hits": 22
+      },
+      "top5": {
+        "counts": {
+          "correct": 18,
+          "partial": 7,
+          "no_answer": 2,
+          "incorrect": 3
+        },
+        "correct_percent": 60.0,
+        "by_category": {
+          "text": {
+            "correct": 9,
+            "partial": 1
+          },
+          "table": {
+            "correct": 5,
+            "no_answer": 2,
+            "partial": 2,
+            "incorrect": 1
+          },
+          "figure": {
+            "partial": 4,
+            "correct": 4,
+            "incorrect": 2
+          }
+        },
+        "context_sufficiency": {
+          "sufficient": 23,
+          "insufficient": 3,
+          "partial": 4
+        },
+        "gold_content_region_hits": 29
+      }
+    },
+    "75": {
+      "top1": {
+        "counts": {
+          "correct": 14,
+          "incorrect": 5,
+          "no_answer": 5,
+          "partial": 6
+        },
+        "correct_percent": 46.7,
+        "by_category": {
+          "text": {
+            "correct": 7,
+            "incorrect": 1,
+            "no_answer": 1,
+            "partial": 1
+          },
+          "table": {
+            "correct": 3,
+            "no_answer": 3,
+            "incorrect": 2,
+            "partial": 2
+          },
+          "figure": {
+            "no_answer": 1,
+            "correct": 4,
+            "partial": 3,
+            "incorrect": 2
+          }
+        },
+        "context_sufficiency": {
+          "sufficient": 16,
+          "insufficient": 9,
+          "partial": 5
+        },
+        "gold_content_region_hits": 22
+      },
+      "top5": {
+        "counts": {
+          "correct": 18,
+          "partial": 6,
+          "no_answer": 2,
+          "incorrect": 4
+        },
+        "correct_percent": 60.0,
+        "by_category": {
+          "text": {
+            "correct": 8,
+            "partial": 2
+          },
+          "table": {
+            "correct": 5,
+            "no_answer": 2,
+            "incorrect": 2,
+            "partial": 1
+          },
+          "figure": {
+            "correct": 5,
+            "partial": 3,
+            "incorrect": 2
+          }
+        },
+        "context_sufficiency": {
+          "sufficient": 22,
+          "partial": 4,
+          "insufficient": 4
+        },
+        "gold_content_region_hits": 29
+      }
+    },
+    "100": {
+      "top1": {
+        "counts": {
+          "correct": 10,
+          "no_answer": 7,
+          "incorrect": 5,
+          "partial": 8
+        },
+        "correct_percent": 33.3,
+        "by_category": {
+          "text": {
+            "correct": 4,
+            "no_answer": 2,
+            "incorrect": 1,
+            "partial": 3
+          },
+          "table": {
+            "no_answer": 5,
+            "correct": 2,
+            "partial": 2,
+            "incorrect": 1
+          },
+          "figure": {
+            "incorrect": 3,
+            "correct": 4,
+            "partial": 3
+          }
+        },
+        "context_sufficiency": {
+          "sufficient": 11,
+          "insufficient": 11,
+          "partial": 8
+        },
+        "gold_content_region_hits": 14
+      },
+      "top5": {
+        "counts": {
+          "correct": 16,
+          "incorrect": 5,
+          "partial": 8,
+          "error": 1
+        },
+        "correct_percent": 53.3,
+        "by_category": {
+          "text": {
+            "correct": 7,
+            "incorrect": 1,
+            "partial": 2
+          },
+          "table": {
+            "correct": 5,
+            "error": 1,
+            "incorrect": 2,
+            "partial": 2
+          },
+          "figure": {
+            "partial": 4,
+            "correct": 4,
+            "incorrect": 2
+          }
+        },
+        "context_sufficiency": {
+          "sufficient": 20,
+          "partial": 6,
+          "insufficient": 4
+        },
+        "gold_content_region_hits": 26
+      }
+    }
+  },
+  "files": {
+    "protocol.json": "a118c81d106b5e7b8bb4ef418c7b0e228f6795f6035b144e8d5533b3c2b5e9d5",
+    "results.json": "95bf6d30f5f96e7b700dca8739e7f827bb98600fb6027bd483c8789461927131",
+    "judgments.json": "23b581ddb37ef9cb92141aa94cc68494dac2a3d83bd54e389ba99893b9d7e13b",
+    "retrieval.json": "9c0896e17ea86a1549ddb000c56de75b03120e4d42a09b6bc287f36840ad9ae5"
+  }
+}

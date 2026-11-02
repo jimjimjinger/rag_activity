@@ -1,0 +1,46 @@
+{
+  "status": "complete",
+  "checked_at": "2026-11-02T05:20:34.734942+00:00",
+  "indexed_and_verified": 126938,
+  "dimension": 1024,
+  "native_search_requests_checked": 150,
+  "new_answers": 300,
+  "reviewed_answers": 300,
+  "review_groups": 199,
+  "exact_previous_review_groups": 64,
+  "newly_reviewed_groups": 135,
+  "answer_format_failures": [
+    [
+      "top1_kw000",
+      "TABLE02",
+      "답변 생성 검증 실패: 근거 부족 응답에는 채택한 근거 ID를 넣을 수 없습니다."
+    ],
+    [
+      "top5_kw000",
+      "FIG04",
+      "답변 생성 검증 실패: 근거 부족 응답에는 채택한 근거 ID를 넣을 수 없습니다."
+    ],
+    [
+      "top5_kw100",
+      "TABLE02",
+      "답변 생성 검증 실패: 근거 부족 응답에는 채택한 근거 ID를 넣을 수 없습니다."
+    ]
+  ],
+  "protected_files_unchanged": 482,
+  "related_tests_passed": 17,
+  "cli_full_chain_smoke": "passed",
+  "html_cards_and_links": "passed",
+  "md_lines": 34,
+  "semantic_accuracy_certified": false,
+  "independent_human_review": false,
+  "current_runner_maintenance_note": "After the experiment, generation status now updates keyword_percent/top_k per case and --results permits a fresh output folder. Exact executed runner retained and hash-verified. Model/retrieval implementation and outputs are unchanged.",
+  "artifacts_sha256": {
+    "summary.json": "49f7b3fa77f69f1403d4190b431681ac77b693d4eba26cf98c3c1d4b810c6590",
+    "judgments.json": "23b581ddb37ef9cb92141aa94cc68494dac2a3d83bd54e389ba99893b9d7e13b",
+    "review.json": "c4d627bf8390b19498b011c757d172f001d6aad463534a38b7e379cc9f3c2671",
+    "report.html": "dff18c23631c4ba8c93d6def748feacd0925d012da31085a1ee0859acb59de39",
+    "results.json": "95bf6d30f5f96e7b700dca8739e7f827bb98600fb6027bd483c8789461927131",
+    "protocol.json": "a118c81d106b5e7b8bb4ef418c7b0e228f6795f6035b144e8d5533b3c2b5e9d5",
+    "PM209_LANGCHAIN_QDRANT_20261102.md": "69f659a3146a1dfde8c1c05b5e9045333c27ffe4ec7d09e9e7ee8c3550d96442"
+  }
+}

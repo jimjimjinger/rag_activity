@@ -1,0 +1,162 @@
+{
+  "case_id": "TABLE08",
+  "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+  "question": "충전 수준은 어떻게 확인하나요?",
+  "english_query": "How do I check the charge level?",
+  "keyword_percent": 0,
+  "variant": "top1_kw000",
+  "top_k": 1,
+  "retrieved_chunk_ids": [
+    "3d4b8cc1-ec92-578f-bfa3-57f474353331"
+  ],
+  "sources": [
+    {
+      "chunk_id": "3d4b8cc1-ec92-578f-bfa3-57f474353331",
+      "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+      "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00006",
+      "chunk_type": "text",
+      "text": "Measuring the battery charge\nPress and hold the [Talk] and [Volume (-)] buttons simultaneously. The status indicator flashes 4 times in different colors, according to the charge left in the battery.",
+      "content_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_46"
+      ],
+      "context_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_45"
+      ],
+      "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/6.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_46",
+          "shape": {
+            "x": 238.1100000000001,
+            "y": 73.57,
+            "width": 179.90000000000006,
+            "height": 75.62999999999997
+          }
+        },
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_45",
+          "shape": {
+            "x": 238.1100000000001,
+            "y": 31.580000000000005,
+            "width": 146.34999999999994,
+            "height": 38.820000000000014
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_46",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 169
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.6896319627091044,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "excluded_sources": [],
+  "created_at": "2026-11-02T04:58:44.110311+00:00",
+  "status": "answered",
+  "answer": "충전 수준을 확인하려면 [대화 (Talk)] 버튼과 [음량 감소 (-)] 버튼을 동시에 길게 누릅니다. 이때 상태 표시등이 남은 배터리 전량에 따라 네 가지 다른 색상으로 4 번 깜빡입니다.",
+  "source_ids": [
+    "S1"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 79,
+        "prompt_eval_count": 396,
+        "total_duration": 1080478100,
+        "load_duration": 5426000,
+        "attempt": 1,
+        "prompt_token_upper_bound": 2407
+      }
+    ],
+    "elapsed_seconds": 1.088396900013322,
+    "backend": "LangChain ChatPromptTemplate | ChatOllama"
+  },
+  "citations": [
+    {
+      "chunk_id": "3d4b8cc1-ec92-578f-bfa3-57f474353331",
+      "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+      "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00006",
+      "chunk_type": "text",
+      "text": "Measuring the battery charge\nPress and hold the [Talk] and [Volume (-)] buttons simultaneously. The status indicator flashes 4 times in different colors, according to the charge left in the battery.",
+      "content_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_46"
+      ],
+      "context_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_45"
+      ],
+      "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/6.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_46",
+          "shape": {
+            "x": 238.1100000000001,
+            "y": 73.57,
+            "width": 179.90000000000006,
+            "height": 75.62999999999997
+          }
+        },
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_45",
+          "shape": {
+            "x": 238.1100000000001,
+            "y": 31.580000000000005,
+            "width": 146.34999999999994,
+            "height": 38.820000000000014
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_46",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 169
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.6896319627091044,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 1.0884617999836337,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3832,
+    "temperature_c": 60,
+    "utilization_percent": 85
+  }
+}

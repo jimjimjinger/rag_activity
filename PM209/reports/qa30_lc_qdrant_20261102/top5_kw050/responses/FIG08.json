@@ -1,0 +1,340 @@
+{
+  "case_id": "FIG08",
+  "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+  "question": "스피커를 컴퓨터 바로 옆에 배치하기 쉬운 이유는 무엇인가요?",
+  "english_query": "Why is it easy to place the speaker right next to the computer?",
+  "keyword_percent": 50,
+  "variant": "top5_kw050",
+  "top_k": 5,
+  "retrieved_chunk_ids": [
+    "b1c45281-074a-5bdc-b9e3-b5e329aa5f4a",
+    "d5adcc90-5928-58c9-8233-cd2ed4b9fdb1",
+    "b9530739-a0b0-5b94-9ebc-416b9d687a3f",
+    "6656e602-047f-5c7b-b580-79f4821dfc93",
+    "9bb94f55-cf43-5ec5-9e69-63a20b21ad57"
+  ],
+  "sources": [
+    {
+      "chunk_id": "b1c45281-074a-5bdc-b9e3-b5e329aa5f4a",
+      "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+      "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00006",
+      "chunk_type": "text",
+      "text": "Positioning the speakers\nThe size and shape of these speakers make it easy to position them directly next to your c omputer. For proper performance, place the right speaker to the right and the left speaker to the left of your computer. Make sure there is equal distance on either side. This provides an accurate sound stage.",
+      "content_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_3"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_2"
+      ],
+      "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00007.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_3",
+          "shape": {
+            "x": 61.79998779296873,
+            "y": 179.4273986816405,
+            "width": 520.8798828124995,
+            "height": 133.32000732421892
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_2",
+          "shape": {
+            "x": 64.8000030517578,
+            "y": 137.1674041748047,
+            "width": 329.81199645996065,
+            "height": 33.40400695800784
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_3",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 300
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.03278688524590164,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "d5adcc90-5928-58c9-8233-cd2ed4b9fdb1",
+      "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+      "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00006",
+      "chunk_type": "figure",
+      "text": "Positioning the speakers\nA diagram showing speaker placement next to a computer for optimal sound stage. The left and right speakers are positioned at an equal distance from the computer, with recommended spacing of 18\"–36\" (46 cm–92 cm). Arrows indicate outward positioning.",
+      "content_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_22"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_2"
+      ],
+      "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00007.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_22",
+          "shape": {
+            "x": 50.249999999999986,
+            "y": 172.66406250000006,
+            "width": 542.4999999999999,
+            "height": 425.49999999999994
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_2",
+          "shape": {
+            "x": 64.8000030517578,
+            "y": 137.1674041748047,
+            "width": 329.81199645996065,
+            "height": 33.40400695800784
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_22",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 250
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": 0.031746031746031744,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "b9530739-a0b0-5b94-9ebc-416b9d687a3f",
+      "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+      "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00008",
+      "chunk_type": "figure",
+      "text": "Diagram showing audio system setup with AC power cord (4), power pack cable (3), speaker cables (1), and audio input cable (2) connecting left/right speakers to computer via rear panel inputs labeled 'To Left Speaker', 'DC Power', and 'Audio Input'.",
+      "content_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_42"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00009.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_42",
+          "shape": {
+            "x": 173.25000000000003,
+            "y": 159.74999999999997,
+            "width": 864.0,
+            "height": 387.0000000000001
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_42",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 249
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": 0.02819138376017471,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S3"
+    },
+    {
+      "chunk_id": "6656e602-047f-5c7b-b580-79f4821dfc93",
+      "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+      "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00007",
+      "chunk_type": "text",
+      "text": "using the three cables\nCaution: Do not plug in the AC power cord until all other connections are completed.  Speaker cable ( ): Insert the free end into the To Left Speaker connector on the right speaker.  Audio input cable ( ): Insert one end into the Audio Input connector on the right speaker. Insert the other end into the Headphone or Speaker connector (the labels and positions of these connectors vary) on your computer.",
+      "content_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_26"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_24"
+      ],
+      "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00008.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_26",
+          "shape": {
+            "x": 64.8000030517578,
+            "y": 236.39599609375003,
+            "width": 505.0753631591798,
+            "height": 324.41998291015636
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_24",
+          "shape": {
+            "x": 64.8000030517578,
+            "y": 138.5959930419922,
+            "width": 300.74800109863276,
+            "height": 33.40400695800787
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_26",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 406
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.027583600982429624,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S4"
+    },
+    {
+      "chunk_id": "9bb94f55-cf43-5ec5-9e69-63a20b21ad57",
+      "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+      "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00012",
+      "chunk_type": "text",
+      "text": "•Besurethespeakercableissecurelypluggedintotherightspeaker. Be sure that both ends of the audio input cable, one to the speaker and the other to the computer, are • plugged in securely. Make sure the computer provides stereo sound. It if has one channel only, connect a mono-to-stereo adapter • (not supplied) to send the sound to both speakers.",
+      "content_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_117"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00013.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_117",
+          "shape": {
+            "x": 252.30001831054688,
+            "y": 374.72799682617165,
+            "width": 892.1444396972654,
+            "height": 107.98992919921864
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_117",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 345
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.027149321266968326,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S5"
+    }
+  ],
+  "excluded_sources": [],
+  "created_at": "2026-11-02T05:03:47.494588+00:00",
+  "status": "answered",
+  "answer": "제공된 매뉴얼에 따르면, 이 스피커의 크기와 형태가 컴퓨터 바로 옆에 배치하기 쉽도록 설계되어 있습니다. 올바른 성능을 위해 오른쪽 스피커는 컴퓨터 오른쪽, 왼쪽 스피커는 컴퓨터 왼쪽에 배치해야 하며 양쪽은 등거리로 배치하는 것이 정확한 사운드 스테이지를 제공합니다.",
+  "source_ids": [
+    "S1"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 103,
+        "prompt_eval_count": 822,
+        "total_duration": 1803143900,
+        "load_duration": 8250900,
+        "attempt": 1,
+        "prompt_token_upper_bound": 4252
+      }
+    ],
+    "elapsed_seconds": 1.8101105999958236,
+    "backend": "LangChain ChatPromptTemplate | ChatOllama"
+  },
+  "citations": [
+    {
+      "chunk_id": "b1c45281-074a-5bdc-b9e3-b5e329aa5f4a",
+      "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+      "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00006",
+      "chunk_type": "text",
+      "text": "Positioning the speakers\nThe size and shape of these speakers make it easy to position them directly next to your c omputer. For proper performance, place the right speaker to the right and the left speaker to the left of your computer. Make sure there is equal distance on either side. This provides an accurate sound stage.",
+      "content_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_3"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_2"
+      ],
+      "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00007.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_3",
+          "shape": {
+            "x": 61.79998779296873,
+            "y": 179.4273986816405,
+            "width": 520.8798828124995,
+            "height": 133.32000732421892
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_2",
+          "shape": {
+            "x": 64.8000030517578,
+            "y": 137.1674041748047,
+            "width": 329.81199645996065,
+            "height": 33.40400695800784
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_3",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 300
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.03278688524590164,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 1.8101840000017546,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 64,
+    "utilization_percent": 82
+  }
+}

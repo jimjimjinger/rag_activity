@@ -1,0 +1,216 @@
+{
+  "case_id": "FIG05",
+  "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+  "question": "스피커의 AC 전원 공급장치는 몇 가지 유형이며 각각 어떻게 준비하나요?",
+  "english_query": "What are the types of AC power supply for the speaker, and how is each prepared?",
+  "keyword_percent": 100,
+  "dense_percent": 0,
+  "top_k": 1,
+  "retrieved_chunk_ids": [
+    "c8800cb1-b4d1-5517-affe-2103aec1d713"
+  ],
+  "sources": [
+    {
+      "chunk_id": "c8800cb1-b4d1-5517-affe-2103aec1d713",
+      "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+      "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00006",
+      "chunk_type": "text",
+      "text": "Connecting to AC power\nThe first time using your SoundLink® Bluetooth® speaker III, connect it to AC (mains) power and charge the battery for three hours. While the battery is charging, you can begin using the speaker.\n1. Depending on your AC power supply type:",
+      "content_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_2",
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_3"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_1"
+      ],
+      "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00007.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_2",
+          "shape": {
+            "x": 72.94799804687491,
+            "y": 136.12800598144514,
+            "width": 667.7661743164055,
+            "height": 63.740763346354214
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_3",
+          "shape": {
+            "x": 74.94799804687491,
+            "y": 204.7981414794922,
+            "width": 377.06334431966104,
+            "height": 23.473999023437187
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_1",
+          "shape": {
+            "x": 74.96301269531243,
+            "y": 93.83261362711578,
+            "width": 309.58528645833286,
+            "height": 28.877332051595033
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_2",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 195
+        },
+        {
+          "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_3",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 42
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.01639344262295082,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "excluded_sources": [],
+  "top5_response_file": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_weights_20261102\\keyword_100\\results.json",
+  "status": "answered",
+  "variant": "keyword_100",
+  "created_at": "2026-11-02T00:58:22.909504+00:00",
+  "answer": "스피커의 AC 전원 공급 장치는 유형에 따라 준비 방법이 다릅니다. 첫 번째 사용 시에는 AC (전원) 에 연결하고 배터리를 3 시간 동안 충전해야 합니다. 배터리 충전 중에도 스피커를 사용할 수 있습니다.",
+  "source_ids": [
+    "S1"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 83,
+        "prompt_eval_count": 424,
+        "total_duration": 1161173200,
+        "load_duration": 5643300,
+        "attempt": 1,
+        "prompt_token_upper_bound": 2526
+      }
+    ],
+    "elapsed_seconds": 1.2221274999901652,
+    "ollama_model": {
+      "name": "qwen3.5:4b",
+      "model": "qwen3.5:4b",
+      "size": 3214409726,
+      "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "4.2B",
+        "quantization_level": "Q4_K_M"
+      },
+      "expires_at": "2026-11-02T09:59:24.1302262+09:00",
+      "size_vram": 3214409726,
+      "context_length": 8192,
+      "runner": "llamacpp"
+    },
+    "observation_error": null
+  },
+  "citations": [
+    {
+      "chunk_id": "c8800cb1-b4d1-5517-affe-2103aec1d713",
+      "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+      "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00006",
+      "chunk_type": "text",
+      "text": "Connecting to AC power\nThe first time using your SoundLink® Bluetooth® speaker III, connect it to AC (mains) power and charge the battery for three hours. While the battery is charging, you can begin using the speaker.\n1. Depending on your AC power supply type:",
+      "content_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_2",
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_3"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_1"
+      ],
+      "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00007.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_2",
+          "shape": {
+            "x": 72.94799804687491,
+            "y": 136.12800598144514,
+            "width": 667.7661743164055,
+            "height": 63.740763346354214
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_3",
+          "shape": {
+            "x": 74.94799804687491,
+            "y": 204.7981414794922,
+            "width": 377.06334431966104,
+            "height": 23.473999023437187
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_1",
+          "shape": {
+            "x": 74.96301269531243,
+            "y": 93.83261362711578,
+            "width": 309.58528645833286,
+            "height": 28.877332051595033
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_2",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 195
+        },
+        {
+          "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_3",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 42
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.01639344262295082,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 1.2223088000027929,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 67,
+    "utilization_percent": 83
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "case_id": "TEXT09",
+  "manual_id": "Watch_Apple_User_Guide",
+  "question": "Siri에게 시간을 물으려면 어떻게 말해야 하나요?",
+  "english_query": "How do I ask Siri for the time?",
+  "keyword_percent": 0,
+  "variant": "top1_kw000",
+  "top_k": 1,
+  "retrieved_chunk_ids": [
+    "91cf3488-feaa-55a5-befd-f9068dfb4f6c"
+  ],
+  "sources": [
+    {
+      "chunk_id": "91cf3488-feaa-55a5-befd-f9068dfb4f6c",
+      "manual_id": "Watch_Apple_User_Guide",
+      "page_id": "Watch_Apple_User_Guide_00058",
+      "chunk_type": "text",
+      "text": "• Use Siri: Raise your wrist and say “What time is it?”",
+      "content_region_ids": [
+        "Watch_Apple_User_Guide_2253"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00063.jpg",
+      "source_shapes": [
+        {
+          "id": "Watch_Apple_User_Guide_2253",
+          "shape": {
+            "x": 314.00000000000006,
+            "y": 557.8819580078124,
+            "width": 476.68298339843767,
+            "height": 33.881835937500114
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "Watch_Apple_User_Guide_2253",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 55
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.8862659688635066,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "excluded_sources": [],
+  "created_at": "2026-11-02T04:58:32.816763+00:00",
+  "status": "answered",
+  "answer": "시리에게 시간을 물어보기 위해 팔을 들어 올리고 \"지금 몇 시입니까?\"라고 말씀하셔야 합니다.",
+  "source_ids": [
+    "S1"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 59,
+        "prompt_eval_count": 375,
+        "total_duration": 836235300,
+        "load_duration": 7418500,
+        "attempt": 1,
+        "prompt_token_upper_bound": 2290
+      }
+    ],
+    "elapsed_seconds": 0.8447141999786254,
+    "backend": "LangChain ChatPromptTemplate | ChatOllama"
+  },
+  "citations": [
+    {
+      "chunk_id": "91cf3488-feaa-55a5-befd-f9068dfb4f6c",
+      "manual_id": "Watch_Apple_User_Guide",
+      "page_id": "Watch_Apple_User_Guide_00058",
+      "chunk_type": "text",
+      "text": "• Use Siri: Raise your wrist and say “What time is it?”",
+      "content_region_ids": [
+        "Watch_Apple_User_Guide_2253"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00063.jpg",
+      "source_shapes": [
+        {
+          "id": "Watch_Apple_User_Guide_2253",
+          "shape": {
+            "x": 314.00000000000006,
+            "y": 557.8819580078124,
+            "width": 476.68298339843767,
+            "height": 33.881835937500114
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "Watch_Apple_User_Guide_2253",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 55
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.8862659688635066,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 0.8447695000213571,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3832,
+    "temperature_c": 56,
+    "utilization_percent": 84
+  }
+}

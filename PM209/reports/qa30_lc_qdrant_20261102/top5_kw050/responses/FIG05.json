@@ -1,0 +1,513 @@
+{
+  "case_id": "FIG05",
+  "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+  "question": "스피커의 AC 전원 공급장치는 몇 가지 유형이며 각각 어떻게 준비하나요?",
+  "english_query": "What are the types of AC power supply for the speaker, and how is each prepared?",
+  "keyword_percent": 50,
+  "variant": "top5_kw050",
+  "top_k": 5,
+  "retrieved_chunk_ids": [
+    "dae6f25d-d94d-5f84-9234-afdef58a8346",
+    "6c6335a5-b563-50cc-a441-e9aa27eea06e",
+    "c8800cb1-b4d1-5517-affe-2103aec1d713",
+    "6d124a39-203b-5544-a094-6650fedfa63a",
+    "e47cf2fa-165a-5c6e-8b34-c86e80845f33"
+  ],
+  "sources": [
+    {
+      "chunk_id": "dae6f25d-d94d-5f84-9234-afdef58a8346",
+      "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+      "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00015",
+      "chunk_type": "text",
+      "text": "If using AC power, ensure: • Your system is connected to a working AC (mains) outlet. • You are using the Bose ® AC power supply shipped with your speaker or a Bose accessory charger designed for the speaker. If using battery power, the battery may be in protection mode or discharged. Connect to a working AC outlet to restore the battery to operational mode and charge the battery.\n• Ensure your speaker is discoverable (Bluetooth status indicator blinks blue).",
+      "content_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_155",
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_157"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00016.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_155",
+          "shape": {
+            "x": 161.30632909138996,
+            "y": 184.43835449218733,
+            "width": 556.3065859476719,
+            "height": 146.90686035156244
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_157",
+          "shape": {
+            "x": 164.57778930664048,
+            "y": 338.91192626953114,
+            "width": 545.0863952636716,
+            "height": 459.854309082031
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_155",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 383
+        },
+        {
+          "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_157",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 79
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.031746031746031744,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "6c6335a5-b563-50cc-a441-e9aa27eea06e",
+      "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+      "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00007",
+      "chunk_type": "text",
+      "text": "Operation\n2. Plug the power cord on the AC power supply into the DC connector on the back of the speaker.",
+      "content_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_12"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_11"
+      ],
+      "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00008.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_12",
+          "shape": {
+            "x": 53.35300064086906,
+            "y": 96.1903533935546,
+            "width": 636.1020164489744,
+            "height": 41.4000549316406
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_11",
+          "shape": {
+            "x": 53.35300064086906,
+            "y": 54.16992187499997,
+            "width": 108.7440147399902,
+            "height": 28.416000366210824
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_12",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 95
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.030886196246139225,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "c8800cb1-b4d1-5517-affe-2103aec1d713",
+      "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+      "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00006",
+      "chunk_type": "text",
+      "text": "Connecting to AC power\nThe first time using your SoundLink® Bluetooth® speaker III, connect it to AC (mains) power and charge the battery for three hours. While the battery is charging, you can begin using the speaker.\n1. Depending on your AC power supply type:",
+      "content_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_2",
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_3"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_1"
+      ],
+      "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00007.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_2",
+          "shape": {
+            "x": 72.94799804687491,
+            "y": 136.12800598144514,
+            "width": 667.7661743164055,
+            "height": 63.740763346354214
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_3",
+          "shape": {
+            "x": 74.94799804687491,
+            "y": 204.7981414794922,
+            "width": 377.06334431966104,
+            "height": 23.473999023437187
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_1",
+          "shape": {
+            "x": 74.96301269531243,
+            "y": 93.83261362711578,
+            "width": 309.58528645833286,
+            "height": 28.877332051595033
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_2",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 195
+        },
+        {
+          "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_3",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 42
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.030886196246139225,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S3"
+    },
+    {
+      "chunk_id": "6d124a39-203b-5544-a094-6650fedfa63a",
+      "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+      "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00015",
+      "chunk_type": "table",
+      "text": "Troubleshooting\nFirst row (header unconfirmed): Column 1: Problem | Column 2: What to do\nColumn 1: Speaker will not turn on | Column 2: If using AC power, ensure: Your system is connected to a working AC (mains) outlet. You are using the BoseAC power supply shipped with your speaker or a Bose accessory charger designed for the speaker. Ifusing batterypower,the batterymay beinprotectionmodeor discharged.Connect toaworkingACoutet to restorethebattery tooperationalmodeandchargethe battery.",
+      "content_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_162"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_153"
+      ],
+      "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00016.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_162",
+          "shape": {
+            "x": 45.49999999999998,
+            "y": 145.8164062499999,
+            "width": 684.7499999999997,
+            "height": 968.2499999999994
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_153",
+          "shape": {
+            "x": 53.35300064086909,
+            "y": 98.18206024169916,
+            "width": 214.81603622436512,
+            "height": 33.54399871826169
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_154",
+          "shape": {
+            "x": 162.6396624247232,
+            "y": 151.5061492919921,
+            "width": 96.9546267191568,
+            "height": 22.140665690104157
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_160",
+          "shape": {
+            "x": 57.99999999999994,
+            "y": 154.42708333333323,
+            "width": 75.99999999999997,
+            "height": 17.999999999999943
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_161",
+          "shape": {
+            "x": 58.66666666666663,
+            "y": 183.7604166666665,
+            "width": 81.99999999999994,
+            "height": 37.33333333333343
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "html_parser_repaired_review_required",
+        "table_header_unmarked_review_required"
+      ],
+      "score": 0.029850746268656716,
+      "table_rows": [
+        1
+      ],
+      "table_cells": [
+        {
+          "row": 1,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S4"
+    },
+    {
+      "chunk_id": "e47cf2fa-165a-5c6e-8b34-c86e80845f33",
+      "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+      "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00007",
+      "chunk_type": "figure",
+      "text": "Operation\nStep 2 shows plugging the AC power supply into the DC connector on the back of the speaker. The diagram includes a close-up view of the rear panel with labeled ports: SERVICE, POWER (12V), and USB. A black arrow indicates inserting the power cord plug into the designated socket.",
+      "content_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_17"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_11"
+      ],
+      "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00008.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_17",
+          "shape": {
+            "x": 44.24999999999996,
+            "y": 89.41406249999994,
+            "width": 645.9999999999993,
+            "height": 448.9999999999996
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_11",
+          "shape": {
+            "x": 53.35300064086906,
+            "y": 54.16992187499997,
+            "width": 108.7440147399902,
+            "height": 28.416000366210824
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_17",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 279
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": 0.029083245521601686,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S5"
+    }
+  ],
+  "excluded_sources": [],
+  "created_at": "2026-11-02T05:03:41.113474+00:00",
+  "status": "answered",
+  "answer": "제공된 매뉴얼 excerpt 에 따르면, 스피커의 AC 전원 공급 장치는 Bose ® AC 전원 공급 장치와 Bose 액세서리 충전기 두 가지 유형이 있습니다. 준비 방법은 다음과 같습니다:\n1. 작동하는 AC (전원) 플러그를 연결해야 합니다.\n2. 스피커에 수반된 Bose ® AC 전원 공급 장치 또는 해당 스피커를 위한 Bose 액세서리 충전기를 사용해야 합니다.",
+  "source_ids": [
+    "S1",
+    "S4"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 128,
+        "prompt_eval_count": 853,
+        "total_duration": 2125649000,
+        "load_duration": 6511300,
+        "attempt": 1,
+        "prompt_token_upper_bound": 4326
+      }
+    ],
+    "elapsed_seconds": 2.129517499997746,
+    "backend": "LangChain ChatPromptTemplate | ChatOllama"
+  },
+  "citations": [
+    {
+      "chunk_id": "dae6f25d-d94d-5f84-9234-afdef58a8346",
+      "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+      "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00015",
+      "chunk_type": "text",
+      "text": "If using AC power, ensure: • Your system is connected to a working AC (mains) outlet. • You are using the Bose ® AC power supply shipped with your speaker or a Bose accessory charger designed for the speaker. If using battery power, the battery may be in protection mode or discharged. Connect to a working AC outlet to restore the battery to operational mode and charge the battery.\n• Ensure your speaker is discoverable (Bluetooth status indicator blinks blue).",
+      "content_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_155",
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_157"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00016.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_155",
+          "shape": {
+            "x": 161.30632909138996,
+            "y": 184.43835449218733,
+            "width": 556.3065859476719,
+            "height": 146.90686035156244
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_157",
+          "shape": {
+            "x": 164.57778930664048,
+            "y": 338.91192626953114,
+            "width": 545.0863952636716,
+            "height": 459.854309082031
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_155",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 383
+        },
+        {
+          "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_157",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 79
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.031746031746031744,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "6d124a39-203b-5544-a094-6650fedfa63a",
+      "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+      "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00015",
+      "chunk_type": "table",
+      "text": "Troubleshooting\nFirst row (header unconfirmed): Column 1: Problem | Column 2: What to do\nColumn 1: Speaker will not turn on | Column 2: If using AC power, ensure: Your system is connected to a working AC (mains) outlet. You are using the BoseAC power supply shipped with your speaker or a Bose accessory charger designed for the speaker. Ifusing batterypower,the batterymay beinprotectionmodeor discharged.Connect toaworkingACoutet to restorethebattery tooperationalmodeandchargethe battery.",
+      "content_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_162"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_153"
+      ],
+      "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00016.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_162",
+          "shape": {
+            "x": 45.49999999999998,
+            "y": 145.8164062499999,
+            "width": 684.7499999999997,
+            "height": 968.2499999999994
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_153",
+          "shape": {
+            "x": 53.35300064086909,
+            "y": 98.18206024169916,
+            "width": 214.81603622436512,
+            "height": 33.54399871826169
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_154",
+          "shape": {
+            "x": 162.6396624247232,
+            "y": 151.5061492919921,
+            "width": 96.9546267191568,
+            "height": 22.140665690104157
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_160",
+          "shape": {
+            "x": 57.99999999999994,
+            "y": 154.42708333333323,
+            "width": 75.99999999999997,
+            "height": 17.999999999999943
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_161",
+          "shape": {
+            "x": 58.66666666666663,
+            "y": 183.7604166666665,
+            "width": 81.99999999999994,
+            "height": 37.33333333333343
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "html_parser_repaired_review_required",
+        "table_header_unmarked_review_required"
+      ],
+      "score": 0.029850746268656716,
+      "table_rows": [
+        1
+      ],
+      "table_cells": [
+        {
+          "row": 1,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S4"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 2.129637600010028,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 65,
+    "utilization_percent": 84
+  }
+}

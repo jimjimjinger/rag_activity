@@ -1,0 +1,1886 @@
+{
+  "case_id": "FIG09",
+  "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+  "question": "전체 화면에서 알림 피드백을 줄이려면 어떻게 하나요?",
+  "english_query": "How do I reduce notification feedback in full screen mode?",
+  "dense_candidates": [
+    {
+      "score": 0.8397965709189363,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+      "split": "val",
+      "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00019",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_137"
+      ],
+      "context_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_139"
+      ],
+      "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00019.jpg",
+      "source_shapes": [
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_137",
+          "shape": {
+            "x": 175.04800415039062,
+            "y": 805.5684204101562,
+            "width": 835.3148498535157,
+            "height": 117.09600830078136
+          }
+        },
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_139",
+          "shape": {
+            "x": 175.99652862548828,
+            "y": 769.559051513672,
+            "width": 412.0000000000001,
+            "height": 31.999999999999886
+          }
+        }
+      ],
+      "title": "Reduce notification feedback in full screen",
+      "text": "Reduce notification feedback in full screen\nWhen you're playing games or watching videos in full screen, ColorOS will soften notification sounds and reduce the vibration intensity to not interrupt your immersive experience. Path: Settings - Notifications & status bar - Manage notifications - More - Reduce notification feedback on full screen.",
+      "char_count": 344,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_137",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 300
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "72d253f2-69df-5554-b0c7-591ae8332efa",
+      "text_sha256": "be608091044a00c5fc6bd46d3fc105a0469eda50770648780c42e41b9f3ae494",
+      "token_count": 58
+    },
+    {
+      "score": 0.709090399228891,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+      "split": "val",
+      "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00019",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_140"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00019.jpg",
+      "source_shapes": [
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_140",
+          "shape": {
+            "x": 162.7552070617676,
+            "y": 129.833330154419,
+            "width": 864.0000000000002,
+            "height": 804.0000000000005
+          }
+        }
+      ],
+      "title": "",
+      "text": "A smartphone screen showing the Notification sound settings in ColorOS, featuring tone tunes like Keyboard presses and Melody options. Below are custom audio selections and alert tones including 'Colorful Future'. The image also includes a manual section titled 'Reduce notification feedback in full screen', explaining how ColorOS softens sounds during gaming or video playback to maintain immersion.",
+      "char_count": 401,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_140",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 401
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "03600720-995a-56ca-a40f-1b33ad8e99e9",
+      "text_sha256": "2c97109771b5208d811f4337d942731497c68352fe09f3cb9741ae9fa6aedbc2",
+      "token_count": 69
+    },
+    {
+      "score": 0.6801030288963466,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+      "split": "val",
+      "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00020",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_142"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00020.jpg",
+      "source_shapes": [
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_142",
+          "shape": {
+            "x": 179.99999999999997,
+            "y": 144.49999999999997,
+            "width": 283.39999389648426,
+            "height": 622.9199829101561
+          }
+        }
+      ],
+      "title": "",
+      "text": "A smartphone screen displaying the 'More' settings page under 'Silent Notifications'. It shows two options: 'Do not collapse' (selected) and 'Collapse', along with toggles for notification history, snoozing, banner notifications on fullscreen, reduced feedback on fullscreen, and wake screen functionality.",
+      "char_count": 306,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_142",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 306
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "788d855a-0a90-5ca9-9f9a-f2ff1da1dbe0",
+      "text_sha256": "765c3bc38d0163fdd76ff92585c71f459717051165517c5d52cdb520f5161a73",
+      "token_count": 60
+    },
+    {
+      "score": 0.593569536679711,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+      "split": "val",
+      "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00117",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_1205"
+      ],
+      "context_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_1204"
+      ],
+      "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00117.jpg",
+      "source_shapes": [
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_1205",
+          "shape": {
+            "x": 180.0480041503906,
+            "y": 539.649658203125,
+            "width": 830.2390441894532,
+            "height": 185.45477294921875
+          }
+        },
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_1204",
+          "shape": {
+            "x": 180.0480041503906,
+            "y": 459.86822509765614,
+            "width": 381.9717102050781,
+            "height": 42.58126831054693
+          }
+        }
+      ],
+      "title": "Anti-peeping for notifications",
+      "text": "Anti-peeping for notifications\nThis feature is only available on some models.",
+      "char_count": 77,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_1205",
+          "field": "ocr_normalized",
+          "start": 463,
+          "end": 509
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "84255dcd-6d11-55f9-92bb-fa4201a0fe94",
+      "text_sha256": "4c8e2d89f6b4ec18987278dd93e7f9095bd976af787b4cfa696e36b0c2e62a5a",
+      "token_count": 15
+    },
+    {
+      "score": 0.590068334961379,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+      "split": "val",
+      "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00055",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_430"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00055.jpg",
+      "source_shapes": [
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_430",
+          "shape": {
+            "x": 180.04800415039065,
+            "y": 144.3096923828125,
+            "width": 830.0658264160157,
+            "height": 185.45471191406256
+          }
+        }
+      ],
+      "title": "",
+      "text": "Tap an app to specify which notifications you want to receive and set the badge style based on your preferences and usage habits. Tap \"Default channel\" to adjust more detailed settings. • If you choose \"Number\", the number of unread notifications will be displayed on the top right of the app icon. If you choose \"Dot\", a red dot will be displayed to indicate unread notifications. You can also choose to not show a badge to keep the home screen simple and clean.",
+      "char_count": 463,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_430",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 463
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "9cfc3a10-23d9-55b6-ba73-f6acdd85b38b",
+      "text_sha256": "ab7855494360c96bc674a78aeec6d6205fa9e4158e85c97b203ad88438a809e8",
+      "token_count": 94
+    },
+    {
+      "score": 0.5798791192553832,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+      "split": "val",
+      "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00055",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_430",
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_431",
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_432",
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_433",
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_434"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00055.jpg",
+      "source_shapes": [
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_430",
+          "shape": {
+            "x": 180.04800415039065,
+            "y": 144.3096923828125,
+            "width": 830.0658264160157,
+            "height": 185.45471191406256
+          }
+        },
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_431",
+          "shape": {
+            "x": 180.04800415039065,
+            "y": 331.509765625,
+            "width": 741.486602783203,
+            "height": 29.454711914062557
+          }
+        },
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_432",
+          "shape": {
+            "x": 180.04800415039065,
+            "y": 362.709716796875,
+            "width": 598.9346008300781,
+            "height": 29.454711914062443
+          }
+        },
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_433",
+          "shape": {
+            "x": 180.04800415039065,
+            "y": 393.90966796875006,
+            "width": 819.6717224121093,
+            "height": 29.454711914062443
+          }
+        },
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_434",
+          "shape": {
+            "x": 180.04800415039065,
+            "y": 425.1097412109374,
+            "width": 829.4971008300779,
+            "height": 60.65466308593756
+          }
+        }
+      ],
+      "title": "",
+      "text": "You can also choose to not show a badge to keep the home screen simple and clean.\n• To receive notifications from the app on the lock screen, choose \"Lock screen\".\n• To receive banner notifications from the app, choose \"Banner\".\n• To set a special ringtone for the app, tap \"Ringtone\" and choose your preferred ringtone.\n• You may also allow the app's notifications even if your phone is in Do Not Disturb mode, so you will not miss any important notification from the app.",
+      "char_count": 473,
+      "overlap_char_count": 82,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_430",
+          "field": "ocr_normalized",
+          "start": 382,
+          "end": 463
+        },
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_431",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 81
+        },
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_432",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 64
+        },
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_433",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 91
+        },
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_434",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 152
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "d0e076a0-a403-570d-93c9-03aec212b7ba",
+      "text_sha256": "5cbb11763a46b7b61c3f0cc7a3992fecb49a7e34e1160634d616a9618035d20d",
+      "token_count": 104
+    },
+    {
+      "score": 0.5737925292026136,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+      "split": "val",
+      "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00021",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_465"
+      ],
+      "context_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_464"
+      ],
+      "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00021.jpg",
+      "source_shapes": [
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_465",
+          "shape": {
+            "x": 176.9999999999999,
+            "y": 177.61249542236314,
+            "width": 838.0000000000002,
+            "height": 95.00000000000014
+          }
+        },
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_464",
+          "shape": {
+            "x": 178.99999999999994,
+            "y": 147.6124954223632,
+            "width": 429.99999999999983,
+            "height": 29.0
+          }
+        }
+      ],
+      "title": "Turn Silent mode on to enjoy some quiet time",
+      "text": "Turn Silent mode on to enjoy some quiet time\nIn Silent mode, your phone calls and app notifications will be silenced, so that you can rest without disturbance. Path: Swipe down from the top of the screen to open Quick Settings, and tap \"Silent mode\".",
+      "char_count": 250,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_465",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 205
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "f7efd5b9-136a-51bd-a1f8-7dc8f207400e",
+      "text_sha256": "96ec8373c25367ff30515f6c92ccba59c90ebc5e4d8d57f29be4cf974a4e071e",
+      "token_count": 54
+    },
+    {
+      "score": 0.5673141374478734,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+      "split": "val",
+      "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00112",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_1029"
+      ],
+      "context_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_1032"
+      ],
+      "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00112.jpg",
+      "source_shapes": [
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_1029",
+          "shape": {
+            "x": 174.5,
+            "y": 1355,
+            "width": 836.9999999999999,
+            "height": 55
+          }
+        },
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_1032",
+          "shape": {
+            "x": 174.9930572509766,
+            "y": 1324.5625610351562,
+            "width": 261.9999999999999,
+            "height": 24.000000000000227
+          }
+        }
+      ],
+      "title": "Block banner notifications",
+      "text": "Block banner notifications\nIf you don't want to be disturbed by banner notifications while playing games, turn on \"Mute notifications\".",
+      "char_count": 135,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_1029",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 108
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "ccc89a09-5f24-555f-8d5f-7c4ad60c1588",
+      "text_sha256": "63f3b8656636664b06a88da4328aa306c04fd89d7bdb64a56160f206fb24a147",
+      "token_count": 26
+    },
+    {
+      "score": 0.5669552532614527,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+      "split": "val",
+      "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00117",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_1205"
+      ],
+      "context_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_1204"
+      ],
+      "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00117.jpg",
+      "source_shapes": [
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_1205",
+          "shape": {
+            "x": 180.0480041503906,
+            "y": 539.649658203125,
+            "width": 830.2390441894532,
+            "height": 185.45477294921875
+          }
+        },
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_1204",
+          "shape": {
+            "x": 180.0480041503906,
+            "y": 459.86822509765614,
+            "width": 381.9717102050781,
+            "height": 42.58126831054693
+          }
+        }
+      ],
+      "title": "Anti-peeping for notifications",
+      "text": "Anti-peeping for notifications\nWhen the front camera detects that someone other than the phone owner is in front of the phone, it automatically hides notification details and only shows that there are new notifications in order to protect the user's private information from prying eyes. Path: Settings - Notifications & status bar - Anti-peeping for notifications. Scope of application: This feature will be updated along with ColorOS 12. Further details will be posted in the OPPO Community.",
+      "char_count": 493,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_1205",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 462
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "a4a2dbba-2e4b-53d9-9b73-85a57e719daa",
+      "text_sha256": "0ce8a3dda3da0305848483f5abffc260f14801ffa329fd75f974cff88d6d7bfe",
+      "token_count": 95
+    },
+    {
+      "score": 0.5609564164096522,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+      "split": "val",
+      "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00042",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_314"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00042.jpg",
+      "source_shapes": [
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_314",
+          "shape": {
+            "x": 179.99999999999994,
+            "y": 144.5,
+            "width": 283.3999938964843,
+            "height": 622.9199829101564
+          }
+        }
+      ],
+      "title": "",
+      "text": "A screenshot of the 'Screen-off gestures' settings page showing enabled options like double-tap to wake/turn off screen and draw O/V for camera/flashlight, with music control instructions visible below.",
+      "char_count": 202,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_314",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 202
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "ab72a580-a38e-554f-8fc6-58f7adce965f",
+      "text_sha256": "b8ac1a752e92df3ca633cb99ea929183a76035503e1652a26e6d405f28429d3f",
+      "token_count": 41
+    },
+    {
+      "score": 0.558557582804238,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+      "split": "val",
+      "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00023",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_183"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00023.jpg",
+      "source_shapes": [
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_183",
+          "shape": {
+            "x": 179.99999999999997,
+            "y": 144.49999999999997,
+            "width": 283.39999389648426,
+            "height": 622.919982910156
+          }
+        }
+      ],
+      "title": "",
+      "text": "A smartphone quick settings panel showing time (18:03), date (Wed, Sep 29), and toggles for Wi-Fi, flash, notifications, Bluetooth, flashlight, location, brightness, and sound. The screen displays 'NO NOTIFICATIONS' below the controls.",
+      "char_count": 235,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_183",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 235
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "16524829-f5fc-5303-8a95-2774a7b27485",
+      "text_sha256": "4e223e6fc26cc5e831add393f2cc8de46c12bf8d2d3f99bfc4c6af254ba13238",
+      "token_count": 57
+    },
+    {
+      "score": 0.557851292156554,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+      "split": "val",
+      "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00038",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_296"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00038.jpg",
+      "source_shapes": [
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_296",
+          "shape": {
+            "x": 166.50000000000006,
+            "y": 134.19140624999997,
+            "width": 850.5000000000005,
+            "height": 951.7500000000007
+          }
+        }
+      ],
+      "title": "",
+      "text": "Smart Sidebar settings screen showing floating bar opacity (Transparent/Default/Opaque), auto-hide toggle, and instructions to drag apps into split-screen mode.",
+      "char_count": 160,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_296",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 160
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "c04a36e9-f400-5dbc-bb8c-47e2b2127fb1",
+      "text_sha256": "48dca89fdd8f4eec0ed0249989ae52274df1087658a08e2c86f6565d50e435c9",
+      "token_count": 29
+    },
+    {
+      "score": 0.5472649007453524,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+      "split": "val",
+      "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00094",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_828"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00094.jpg",
+      "source_shapes": [
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_828",
+          "shape": {
+            "x": 179.99999999999997,
+            "y": 144.5,
+            "width": 283.39999389648415,
+            "height": 622.9199829101561
+          }
+        }
+      ],
+      "title": "",
+      "text": "A smartphone screen displaying the 'Simple mode' settings page, featuring a preview of larger app icons and text under the label 'Easier to see'. The interface includes a green button labeled 'Enter Simple mode' at the bottom.",
+      "char_count": 226,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_828",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 226
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "e6ccb426-d59f-58a9-a80d-83335c928fee",
+      "text_sha256": "7b3c89512825a501bc93debfa3033f3c77eaa92e68b818daed6b2075b1232157",
+      "token_count": 46
+    },
+    {
+      "score": 0.5425738298035017,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+      "split": "val",
+      "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00041",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_305"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00041.jpg",
+      "source_shapes": [
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_305",
+          "shape": {
+            "x": 177.38133748372394,
+            "y": 812.0170627170139,
+            "width": 831.8695170084632,
+            "height": 89.24796549479174
+          }
+        }
+      ],
+      "title": "",
+      "text": "Use screen-off gestures to control your phone without unlocking it",
+      "char_count": 66,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_305",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 66
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "ab3a21fb-b3d8-5526-be74-96cefeb55d2d",
+      "text_sha256": "0bb0039ae4dfc7f9f0c7b1d33dc2af073c1f59ba85690b7928ca0119d897d4dd",
+      "token_count": 11
+    },
+    {
+      "score": 0.5405258727171269,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+      "split": "val",
+      "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00038",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_295"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00038.jpg",
+      "source_shapes": [
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_295",
+          "shape": {
+            "x": 180,
+            "y": 144.49999999999994,
+            "width": 283.3999938964842,
+            "height": 622.9199829101562
+          }
+        }
+      ],
+      "title": "",
+      "text": "Smart Sidebar settings screen showing toggle enabled, floating bar opacity options (Transparent/Default/Opaque), and auto-hide feature. Illustration depicts sidebar with blue dot indicating active position. Instructions mention dragging app outside to open in split screen mode.",
+      "char_count": 278,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_295",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 278
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "9772d8be-a0dc-5f6d-a6a8-049b011f1c21",
+      "text_sha256": "1ecd0095c1cd029cf7f3223b7bc6340330ead5e63dd0be919addf72f110b532f",
+      "token_count": 47
+    },
+    {
+      "score": 0.5355017078830152,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+      "split": "val",
+      "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00042",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_315"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00042.jpg",
+      "source_shapes": [
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_315",
+          "shape": {
+            "x": 168.75000000000006,
+            "y": 127.37811470031738,
+            "width": 855.0,
+            "height": 875.25
+          }
+        }
+      ],
+      "title": "",
+      "text": "A smartphone screenshot showing the 'Screen-off gestures' settings page with options to enable double-tap to wake/turn off screen, draw an O for camera, draw a V for flashlight, and music control gestures.",
+      "char_count": 205,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_315",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 205
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "818d99a1-9d57-5cf4-9723-a22ea6eb2483",
+      "text_sha256": "246fcbd858bebc00fd59663c29bbe85c68b450683cc2565f65d585f68933e5e6",
+      "token_count": 43
+    },
+    {
+      "score": 0.5334289726423955,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+      "split": "val",
+      "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00054",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_427",
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_428",
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_429"
+      ],
+      "context_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_426"
+      ],
+      "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00054.jpg",
+      "source_shapes": [
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_427",
+          "shape": {
+            "x": 180.04800415039065,
+            "y": 1007.6896972656251,
+            "width": 830.040802001953,
+            "height": 279.11474609375034
+          }
+        },
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_428",
+          "shape": {
+            "x": 180.04800415039065,
+            "y": 1288.5496826171875,
+            "width": 829.780792236328,
+            "height": 123.05468749999977
+          }
+        },
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_429",
+          "shape": {
+            "x": 180.04800415039065,
+            "y": 1413.3497314453123,
+            "width": 829.9105529785154,
+            "height": 91.84667968750045
+          }
+        },
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_426",
+          "shape": {
+            "x": 180.04800415039065,
+            "y": 927.9682006835936,
+            "width": 613.7259826660155,
+            "height": 42.58129882812523
+          }
+        }
+      ],
+      "title": "Use Notification Center to manage notifications",
+      "text": "Use Notification Center to manage notifications\nThe system will push the notification again\nat the set time. Manage the notification permission for an app Swipe left on a notification and tap - to enter the settings page of the app that sends the\nnotification, where you can turn off the notification permission for the app. You can also manage the notification permission for all your apps in \"Manage notifications\". Path: Settings - Notifications & status bar - Manage notifications.",
+      "char_count": 485,
+      "overlap_char_count": 61,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_427",
+          "field": "ocr_normalized",
+          "start": 375,
+          "end": 418
+        },
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_428",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 154
+        },
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_429",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 238
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "1cc49536-59c2-56e7-b6c6-325574bf3090",
+      "text_sha256": "67136e2c1f262be9a17dd4b7f9d30c044116df363b47f9ca1341f4863d18e598",
+      "token_count": 89
+    },
+    {
+      "score": 0.5330780212123007,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+      "split": "val",
+      "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00035",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_275"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00035.jpg",
+      "source_shapes": [
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_275",
+          "shape": {
+            "x": 461.2500000000001,
+            "y": 236.41875028610232,
+            "width": 288.0,
+            "height": 627.0000000000002
+          }
+        }
+      ],
+      "title": "",
+      "text": "A smartphone screen showing the 'Do Not Disturb' settings page with an overlay dialog titled 'Allow messages from'. The dialog presents four selectable options: 'Anyone', 'Contacts', 'Starred contacts only', and 'No one', with 'No one' currently selected. Background sections include 'Schedules' (Not enabled) and 'Exceptions' for allowed notifications.",
+      "char_count": 353,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_275",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 353
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "9b9c6ef5-2c97-51ff-9529-a3865aa66b73",
+      "text_sha256": "30f30dc4f2c3c4e9381a600e65ba124744fe3054083f2219fa442a68baaff4bf",
+      "token_count": 74
+    },
+    {
+      "score": 0.5318642089524097,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+      "split": "val",
+      "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00024",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_188"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00024.jpg",
+      "source_shapes": [
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_188",
+          "shape": {
+            "x": 180,
+            "y": 144.49999999999994,
+            "width": 283.39999389648415,
+            "height": 622.9199829101558
+          }
+        }
+      ],
+      "title": "",
+      "text": "Eye comfort settings screen showing 'Always on' toggle enabled, schedule time disabled, screen color temperature adjustable between cool and warm, display effects including color protection and black and white mode options.",
+      "char_count": 223,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_188",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 223
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "b9dd593b-5af0-5212-bbe1-c6dcc1220bda",
+      "text_sha256": "36f1792f3cdc5434c58bd44c9bf23bbb17fe1ca2a33ebe73a13194d0acb4324c",
+      "token_count": 37
+    },
+    {
+      "score": 0.531054685232813,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+      "split": "val",
+      "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00053",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_400",
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_401"
+      ],
+      "context_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_407"
+      ],
+      "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00053.jpg",
+      "source_shapes": [
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_400",
+          "shape": {
+            "x": 180.04800415039065,
+            "y": 1242.2973361545141,
+            "width": 679.3966369628906,
+            "height": 23.627102322048586
+          }
+        },
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_401",
+          "shape": {
+            "x": 180.04800415039065,
+            "y": 1267.669677734375,
+            "width": 829.3871765136719,
+            "height": 60.65478515624932
+          }
+        },
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_407",
+          "shape": {
+            "x": 178.66358778211796,
+            "y": 1211.358072916666,
+            "width": 134.66666666666666,
+            "height": 20.0
+          }
+        }
+      ],
+      "title": "Sound control",
+      "text": "Sound control\n• Silent mode: Quickly silence the calls and notifications that you receive.\n• Do Not Disturb: Silence incoming calls and notifications. You can also set a Do Not Disturb schedule.",
+      "char_count": 194,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_400",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 76
+        },
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_401",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 103
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "e9962f58-1b48-50c6-b29c-14134b943d0d",
+      "text_sha256": "48faec72913d53b7a619bdc5d275048128b85eccc7e9dbc11b7adc28f6a44697",
+      "token_count": 40
+    }
+  ],
+  "keyword_candidates": [
+    {
+      "chunk_id": "72d253f2-69df-5554-b0c7-591ae8332efa",
+      "bm25_score": -32.40633712669335
+    },
+    {
+      "chunk_id": "03600720-995a-56ca-a40f-1b33ad8e99e9",
+      "bm25_score": -19.986199455292525
+    },
+    {
+      "chunk_id": "788d855a-0a90-5ca9-9f9a-f2ff1da1dbe0",
+      "bm25_score": -19.792861112565365
+    },
+    {
+      "chunk_id": "d0e076a0-a403-570d-93c9-03aec212b7ba",
+      "bm25_score": -10.978817527942075
+    },
+    {
+      "chunk_id": "c3aa2ebd-c324-52b1-b0f1-0075ce8535fa",
+      "bm25_score": -10.614997201604154
+    },
+    {
+      "chunk_id": "f7efd5b9-136a-51bd-a1f8-7dc8f207400e",
+      "bm25_score": -10.521859704252718
+    },
+    {
+      "chunk_id": "303b2712-681f-5c30-aa02-0f2f19bbca54",
+      "bm25_score": -10.11533398343015
+    },
+    {
+      "chunk_id": "be747a33-3e82-5ec4-b39e-dc124f7e4eb7",
+      "bm25_score": -9.926969476114003
+    },
+    {
+      "chunk_id": "edeccce6-87e2-54f8-af96-ad1fd3416ffa",
+      "bm25_score": -9.701571668626226
+    },
+    {
+      "chunk_id": "e9962f58-1b48-50c6-b29c-14134b943d0d",
+      "bm25_score": -9.611795628151016
+    },
+    {
+      "chunk_id": "5f6cfca5-676b-52ab-bc82-7396cfd2cedb",
+      "bm25_score": -9.417785570277427
+    },
+    {
+      "chunk_id": "96074dfe-c4d4-5faf-ab36-030a58ca2671",
+      "bm25_score": -9.262277446892748
+    },
+    {
+      "chunk_id": "02171416-c0e9-5d2f-abac-a9d780b80b52",
+      "bm25_score": -9.209570751935836
+    },
+    {
+      "chunk_id": "72fa20e9-c0fa-5733-9268-800c94ed5280",
+      "bm25_score": -9.067928340720137
+    },
+    {
+      "chunk_id": "a2e3be5b-665a-5350-b0e8-168d1ba0f29c",
+      "bm25_score": -8.860052239271065
+    },
+    {
+      "chunk_id": "d778bf67-eb71-5fd0-a378-efdd887bfbf9",
+      "bm25_score": -8.838549981404796
+    },
+    {
+      "chunk_id": "16524829-f5fc-5303-8a95-2774a7b27485",
+      "bm25_score": -8.765529269540838
+    },
+    {
+      "chunk_id": "cea3a658-c584-5ec9-908c-e98693f52b9a",
+      "bm25_score": -8.672417768569288
+    },
+    {
+      "chunk_id": "1cc49536-59c2-56e7-b6c6-325574bf3090",
+      "bm25_score": -8.398746004022335
+    },
+    {
+      "chunk_id": "0ba85bcd-7212-57de-a5c7-a617fe1b3b5a",
+      "bm25_score": -8.373925917146169
+    }
+  ],
+  "fused_candidates": [
+    {
+      "chunk_id": "72d253f2-69df-5554-b0c7-591ae8332efa",
+      "score": 0.01639344262295082,
+      "dense_rank": 1,
+      "dense_score": 0.8397965709189363,
+      "keyword_rank": 1,
+      "keyword_score": -32.40633712669335
+    },
+    {
+      "chunk_id": "03600720-995a-56ca-a40f-1b33ad8e99e9",
+      "score": 0.016129032258064516,
+      "dense_rank": 2,
+      "dense_score": 0.709090399228891,
+      "keyword_rank": 2,
+      "keyword_score": -19.986199455292525
+    },
+    {
+      "chunk_id": "788d855a-0a90-5ca9-9f9a-f2ff1da1dbe0",
+      "score": 0.015873015873015872,
+      "dense_rank": 3,
+      "dense_score": 0.6801030288963466,
+      "keyword_rank": 3,
+      "keyword_score": -19.792861112565365
+    },
+    {
+      "chunk_id": "d0e076a0-a403-570d-93c9-03aec212b7ba",
+      "score": 0.015388257575757576,
+      "dense_rank": 6,
+      "dense_score": 0.5798791192553832,
+      "keyword_rank": 4,
+      "keyword_score": -10.978817527942075
+    },
+    {
+      "chunk_id": "f7efd5b9-136a-51bd-a1f8-7dc8f207400e",
+      "score": 0.015038444142921756,
+      "dense_rank": 7,
+      "dense_score": 0.5737925292026136,
+      "keyword_rank": 6,
+      "keyword_score": -10.521859704252718
+    },
+    {
+      "chunk_id": "16524829-f5fc-5303-8a95-2774a7b27485",
+      "score": 0.013535760014633254,
+      "dense_rank": 11,
+      "dense_score": 0.558557582804238,
+      "keyword_rank": 17,
+      "keyword_score": -8.765529269540838
+    },
+    {
+      "chunk_id": "e9962f58-1b48-50c6-b29c-14134b943d0d",
+      "score": 0.013392857142857144,
+      "dense_rank": 20,
+      "dense_score": 0.531054685232813,
+      "keyword_rank": 10,
+      "keyword_score": -9.611795628151016
+    },
+    {
+      "chunk_id": "1cc49536-59c2-56e7-b6c6-325574bf3090",
+      "score": 0.012822620417557128,
+      "dense_rank": 17,
+      "dense_score": 0.5334289726423955,
+      "keyword_rank": 19,
+      "keyword_score": -8.398746004022335
+    },
+    {
+      "chunk_id": "84255dcd-6d11-55f9-92bb-fa4201a0fe94",
+      "score": 0.0078125,
+      "dense_rank": 4,
+      "dense_score": 0.593569536679711
+    },
+    {
+      "chunk_id": "9cfc3a10-23d9-55b6-ba73-f6acdd85b38b",
+      "score": 0.007692307692307693,
+      "dense_rank": 5,
+      "dense_score": 0.590068334961379
+    },
+    {
+      "chunk_id": "c3aa2ebd-c324-52b1-b0f1-0075ce8535fa",
+      "score": 0.007692307692307693,
+      "keyword_rank": 5,
+      "keyword_score": -10.614997201604154
+    },
+    {
+      "chunk_id": "303b2712-681f-5c30-aa02-0f2f19bbca54",
+      "score": 0.007462686567164179,
+      "keyword_rank": 7,
+      "keyword_score": -10.11533398343015
+    },
+    {
+      "chunk_id": "ccc89a09-5f24-555f-8d5f-7c4ad60c1588",
+      "score": 0.007352941176470588,
+      "dense_rank": 8,
+      "dense_score": 0.5673141374478734
+    },
+    {
+      "chunk_id": "be747a33-3e82-5ec4-b39e-dc124f7e4eb7",
+      "score": 0.007352941176470588,
+      "keyword_rank": 8,
+      "keyword_score": -9.926969476114003
+    },
+    {
+      "chunk_id": "a4a2dbba-2e4b-53d9-9b73-85a57e719daa",
+      "score": 0.007246376811594203,
+      "dense_rank": 9,
+      "dense_score": 0.5669552532614527
+    },
+    {
+      "chunk_id": "edeccce6-87e2-54f8-af96-ad1fd3416ffa",
+      "score": 0.007246376811594203,
+      "keyword_rank": 9,
+      "keyword_score": -9.701571668626226
+    },
+    {
+      "chunk_id": "ab72a580-a38e-554f-8fc6-58f7adce965f",
+      "score": 0.007142857142857143,
+      "dense_rank": 10,
+      "dense_score": 0.5609564164096522
+    },
+    {
+      "chunk_id": "5f6cfca5-676b-52ab-bc82-7396cfd2cedb",
+      "score": 0.007042253521126761,
+      "keyword_rank": 11,
+      "keyword_score": -9.417785570277427
+    },
+    {
+      "chunk_id": "c04a36e9-f400-5dbc-bb8c-47e2b2127fb1",
+      "score": 0.006944444444444444,
+      "dense_rank": 12,
+      "dense_score": 0.557851292156554
+    },
+    {
+      "chunk_id": "96074dfe-c4d4-5faf-ab36-030a58ca2671",
+      "score": 0.006944444444444444,
+      "keyword_rank": 12,
+      "keyword_score": -9.262277446892748
+    },
+    {
+      "chunk_id": "e6ccb426-d59f-58a9-a80d-83335c928fee",
+      "score": 0.00684931506849315,
+      "dense_rank": 13,
+      "dense_score": 0.5472649007453524
+    },
+    {
+      "chunk_id": "02171416-c0e9-5d2f-abac-a9d780b80b52",
+      "score": 0.00684931506849315,
+      "keyword_rank": 13,
+      "keyword_score": -9.209570751935836
+    },
+    {
+      "chunk_id": "ab3a21fb-b3d8-5526-be74-96cefeb55d2d",
+      "score": 0.006756756756756757,
+      "dense_rank": 14,
+      "dense_score": 0.5425738298035017
+    },
+    {
+      "chunk_id": "72fa20e9-c0fa-5733-9268-800c94ed5280",
+      "score": 0.006756756756756757,
+      "keyword_rank": 14,
+      "keyword_score": -9.067928340720137
+    },
+    {
+      "chunk_id": "9772d8be-a0dc-5f6d-a6a8-049b011f1c21",
+      "score": 0.006666666666666667,
+      "dense_rank": 15,
+      "dense_score": 0.5405258727171269
+    },
+    {
+      "chunk_id": "a2e3be5b-665a-5350-b0e8-168d1ba0f29c",
+      "score": 0.006666666666666667,
+      "keyword_rank": 15,
+      "keyword_score": -8.860052239271065
+    },
+    {
+      "chunk_id": "818d99a1-9d57-5cf4-9723-a22ea6eb2483",
+      "score": 0.006578947368421052,
+      "dense_rank": 16,
+      "dense_score": 0.5355017078830152
+    },
+    {
+      "chunk_id": "d778bf67-eb71-5fd0-a378-efdd887bfbf9",
+      "score": 0.006578947368421052,
+      "keyword_rank": 16,
+      "keyword_score": -8.838549981404796
+    },
+    {
+      "chunk_id": "9b9c6ef5-2c97-51ff-9529-a3865aa66b73",
+      "score": 0.00641025641025641,
+      "dense_rank": 18,
+      "dense_score": 0.5330780212123007
+    },
+    {
+      "chunk_id": "cea3a658-c584-5ec9-908c-e98693f52b9a",
+      "score": 0.00641025641025641,
+      "keyword_rank": 18,
+      "keyword_score": -8.672417768569288
+    },
+    {
+      "chunk_id": "b9dd593b-5af0-5212-bbe1-c6dcc1220bda",
+      "score": 0.006329113924050633,
+      "dense_rank": 19,
+      "dense_score": 0.5318642089524097
+    },
+    {
+      "chunk_id": "0ba85bcd-7212-57de-a5c7-a617fe1b3b5a",
+      "score": 0.00625,
+      "keyword_rank": 20,
+      "keyword_score": -8.373925917146169
+    }
+  ],
+  "variants": {
+    "B_english_dense": {
+      "sources": [
+        {
+          "chunk_id": "72d253f2-69df-5554-b0c7-591ae8332efa",
+          "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+          "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00019",
+          "chunk_type": "text",
+          "text": "Reduce notification feedback in full screen\nWhen you're playing games or watching videos in full screen, ColorOS will soften notification sounds and reduce the vibration intensity to not interrupt your immersive experience. Path: Settings - Notifications & status bar - Manage notifications - More - Reduce notification feedback on full screen.",
+          "content_region_ids": [
+            "phone_os_User Guide_ColorOS_12_v1.0_20211028_137"
+          ],
+          "context_region_ids": [
+            "phone_os_User Guide_ColorOS_12_v1.0_20211028_139"
+          ],
+          "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00019.jpg",
+          "source_shapes": [
+            {
+              "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_137",
+              "shape": {
+                "x": 175.04800415039062,
+                "y": 805.5684204101562,
+                "width": 835.3148498535157,
+                "height": 117.09600830078136
+              }
+            },
+            {
+              "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_139",
+              "shape": {
+                "x": 175.99652862548828,
+                "y": 769.559051513672,
+                "width": 412.0000000000001,
+                "height": 31.999999999999886
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_137",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 300
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.8397965709189363,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S1"
+        },
+        {
+          "chunk_id": "03600720-995a-56ca-a40f-1b33ad8e99e9",
+          "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+          "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00019",
+          "chunk_type": "figure",
+          "text": "A smartphone screen showing the Notification sound settings in ColorOS, featuring tone tunes like Keyboard presses and Melody options. Below are custom audio selections and alert tones including 'Colorful Future'. The image also includes a manual section titled 'Reduce notification feedback in full screen', explaining how ColorOS softens sounds during gaming or video playback to maintain immersion.",
+          "content_region_ids": [
+            "phone_os_User Guide_ColorOS_12_v1.0_20211028_140"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00019.jpg",
+          "source_shapes": [
+            {
+              "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_140",
+              "shape": {
+                "x": 162.7552070617676,
+                "y": 129.833330154419,
+                "width": 864.0000000000002,
+                "height": 804.0000000000005
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_140",
+              "field": "description_normalized",
+              "start": 0,
+              "end": 401
+            }
+          ],
+          "content_origin": "qwen_figure_description",
+          "quality_flags": [],
+          "score": 0.709090399228891,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S2"
+        },
+        {
+          "chunk_id": "788d855a-0a90-5ca9-9f9a-f2ff1da1dbe0",
+          "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+          "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00020",
+          "chunk_type": "figure",
+          "text": "A smartphone screen displaying the 'More' settings page under 'Silent Notifications'. It shows two options: 'Do not collapse' (selected) and 'Collapse', along with toggles for notification history, snoozing, banner notifications on fullscreen, reduced feedback on fullscreen, and wake screen functionality.",
+          "content_region_ids": [
+            "phone_os_User Guide_ColorOS_12_v1.0_20211028_142"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00020.jpg",
+          "source_shapes": [
+            {
+              "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_142",
+              "shape": {
+                "x": 179.99999999999997,
+                "y": 144.49999999999997,
+                "width": 283.39999389648426,
+                "height": 622.9199829101561
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_142",
+              "field": "description_normalized",
+              "start": 0,
+              "end": 306
+            }
+          ],
+          "content_origin": "qwen_figure_description",
+          "quality_flags": [],
+          "score": 0.6801030288963466,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S3"
+        },
+        {
+          "chunk_id": "84255dcd-6d11-55f9-92bb-fa4201a0fe94",
+          "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+          "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00117",
+          "chunk_type": "text",
+          "text": "Anti-peeping for notifications\nThis feature is only available on some models.",
+          "content_region_ids": [
+            "phone_os_User Guide_ColorOS_12_v1.0_20211028_1205"
+          ],
+          "context_region_ids": [
+            "phone_os_User Guide_ColorOS_12_v1.0_20211028_1204"
+          ],
+          "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00117.jpg",
+          "source_shapes": [
+            {
+              "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_1205",
+              "shape": {
+                "x": 180.0480041503906,
+                "y": 539.649658203125,
+                "width": 830.2390441894532,
+                "height": 185.45477294921875
+              }
+            },
+            {
+              "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_1204",
+              "shape": {
+                "x": 180.0480041503906,
+                "y": 459.86822509765614,
+                "width": 381.9717102050781,
+                "height": 42.58126831054693
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_1205",
+              "field": "ocr_normalized",
+              "start": 463,
+              "end": 509
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.593569536679711,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S4"
+        },
+        {
+          "chunk_id": "9cfc3a10-23d9-55b6-ba73-f6acdd85b38b",
+          "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+          "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00055",
+          "chunk_type": "text",
+          "text": "Tap an app to specify which notifications you want to receive and set the badge style based on your preferences and usage habits. Tap \"Default channel\" to adjust more detailed settings. • If you choose \"Number\", the number of unread notifications will be displayed on the top right of the app icon. If you choose \"Dot\", a red dot will be displayed to indicate unread notifications. You can also choose to not show a badge to keep the home screen simple and clean.",
+          "content_region_ids": [
+            "phone_os_User Guide_ColorOS_12_v1.0_20211028_430"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00055.jpg",
+          "source_shapes": [
+            {
+              "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_430",
+              "shape": {
+                "x": 180.04800415039065,
+                "y": 144.3096923828125,
+                "width": 830.0658264160157,
+                "height": 185.45471191406256
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_430",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 463
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.590068334961379,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S5"
+        }
+      ],
+      "excluded_sources": [],
+      "retrieved_chunk_ids": [
+        "72d253f2-69df-5554-b0c7-591ae8332efa",
+        "03600720-995a-56ca-a40f-1b33ad8e99e9",
+        "788d855a-0a90-5ca9-9f9a-f2ff1da1dbe0",
+        "84255dcd-6d11-55f9-92bb-fa4201a0fe94",
+        "9cfc3a10-23d9-55b6-ba73-f6acdd85b38b"
+      ]
+    },
+    "C_english_hybrid": {
+      "sources": [
+        {
+          "chunk_id": "72d253f2-69df-5554-b0c7-591ae8332efa",
+          "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+          "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00019",
+          "chunk_type": "text",
+          "text": "Reduce notification feedback in full screen\nWhen you're playing games or watching videos in full screen, ColorOS will soften notification sounds and reduce the vibration intensity to not interrupt your immersive experience. Path: Settings - Notifications & status bar - Manage notifications - More - Reduce notification feedback on full screen.",
+          "content_region_ids": [
+            "phone_os_User Guide_ColorOS_12_v1.0_20211028_137"
+          ],
+          "context_region_ids": [
+            "phone_os_User Guide_ColorOS_12_v1.0_20211028_139"
+          ],
+          "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00019.jpg",
+          "source_shapes": [
+            {
+              "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_137",
+              "shape": {
+                "x": 175.04800415039062,
+                "y": 805.5684204101562,
+                "width": 835.3148498535157,
+                "height": 117.09600830078136
+              }
+            },
+            {
+              "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_139",
+              "shape": {
+                "x": 175.99652862548828,
+                "y": 769.559051513672,
+                "width": 412.0000000000001,
+                "height": 31.999999999999886
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_137",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 300
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.01639344262295082,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S1"
+        },
+        {
+          "chunk_id": "03600720-995a-56ca-a40f-1b33ad8e99e9",
+          "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+          "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00019",
+          "chunk_type": "figure",
+          "text": "A smartphone screen showing the Notification sound settings in ColorOS, featuring tone tunes like Keyboard presses and Melody options. Below are custom audio selections and alert tones including 'Colorful Future'. The image also includes a manual section titled 'Reduce notification feedback in full screen', explaining how ColorOS softens sounds during gaming or video playback to maintain immersion.",
+          "content_region_ids": [
+            "phone_os_User Guide_ColorOS_12_v1.0_20211028_140"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00019.jpg",
+          "source_shapes": [
+            {
+              "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_140",
+              "shape": {
+                "x": 162.7552070617676,
+                "y": 129.833330154419,
+                "width": 864.0000000000002,
+                "height": 804.0000000000005
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_140",
+              "field": "description_normalized",
+              "start": 0,
+              "end": 401
+            }
+          ],
+          "content_origin": "qwen_figure_description",
+          "quality_flags": [],
+          "score": 0.016129032258064516,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S2"
+        },
+        {
+          "chunk_id": "788d855a-0a90-5ca9-9f9a-f2ff1da1dbe0",
+          "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+          "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00020",
+          "chunk_type": "figure",
+          "text": "A smartphone screen displaying the 'More' settings page under 'Silent Notifications'. It shows two options: 'Do not collapse' (selected) and 'Collapse', along with toggles for notification history, snoozing, banner notifications on fullscreen, reduced feedback on fullscreen, and wake screen functionality.",
+          "content_region_ids": [
+            "phone_os_User Guide_ColorOS_12_v1.0_20211028_142"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00020.jpg",
+          "source_shapes": [
+            {
+              "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_142",
+              "shape": {
+                "x": 179.99999999999997,
+                "y": 144.49999999999997,
+                "width": 283.39999389648426,
+                "height": 622.9199829101561
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_142",
+              "field": "description_normalized",
+              "start": 0,
+              "end": 306
+            }
+          ],
+          "content_origin": "qwen_figure_description",
+          "quality_flags": [],
+          "score": 0.015873015873015872,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S3"
+        },
+        {
+          "chunk_id": "d0e076a0-a403-570d-93c9-03aec212b7ba",
+          "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+          "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00055",
+          "chunk_type": "text",
+          "text": "You can also choose to not show a badge to keep the home screen simple and clean.\n• To receive notifications from the app on the lock screen, choose \"Lock screen\".\n• To receive banner notifications from the app, choose \"Banner\".\n• To set a special ringtone for the app, tap \"Ringtone\" and choose your preferred ringtone.\n• You may also allow the app's notifications even if your phone is in Do Not Disturb mode, so you will not miss any important notification from the app.",
+          "content_region_ids": [
+            "phone_os_User Guide_ColorOS_12_v1.0_20211028_430",
+            "phone_os_User Guide_ColorOS_12_v1.0_20211028_431",
+            "phone_os_User Guide_ColorOS_12_v1.0_20211028_432",
+            "phone_os_User Guide_ColorOS_12_v1.0_20211028_433",
+            "phone_os_User Guide_ColorOS_12_v1.0_20211028_434"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00055.jpg",
+          "source_shapes": [
+            {
+              "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_430",
+              "shape": {
+                "x": 180.04800415039065,
+                "y": 144.3096923828125,
+                "width": 830.0658264160157,
+                "height": 185.45471191406256
+              }
+            },
+            {
+              "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_431",
+              "shape": {
+                "x": 180.04800415039065,
+                "y": 331.509765625,
+                "width": 741.486602783203,
+                "height": 29.454711914062557
+              }
+            },
+            {
+              "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_432",
+              "shape": {
+                "x": 180.04800415039065,
+                "y": 362.709716796875,
+                "width": 598.9346008300781,
+                "height": 29.454711914062443
+              }
+            },
+            {
+              "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_433",
+              "shape": {
+                "x": 180.04800415039065,
+                "y": 393.90966796875006,
+                "width": 819.6717224121093,
+                "height": 29.454711914062443
+              }
+            },
+            {
+              "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_434",
+              "shape": {
+                "x": 180.04800415039065,
+                "y": 425.1097412109374,
+                "width": 829.4971008300779,
+                "height": 60.65466308593756
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_430",
+              "field": "ocr_normalized",
+              "start": 382,
+              "end": 463
+            },
+            {
+              "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_431",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 81
+            },
+            {
+              "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_432",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 64
+            },
+            {
+              "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_433",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 91
+            },
+            {
+              "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_434",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 152
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.015388257575757576,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S4"
+        },
+        {
+          "chunk_id": "f7efd5b9-136a-51bd-a1f8-7dc8f207400e",
+          "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+          "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00021",
+          "chunk_type": "text",
+          "text": "Turn Silent mode on to enjoy some quiet time\nIn Silent mode, your phone calls and app notifications will be silenced, so that you can rest without disturbance. Path: Swipe down from the top of the screen to open Quick Settings, and tap \"Silent mode\".",
+          "content_region_ids": [
+            "phone_os_User Guide_ColorOS_12_v1.0_20211028_465"
+          ],
+          "context_region_ids": [
+            "phone_os_User Guide_ColorOS_12_v1.0_20211028_464"
+          ],
+          "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00021.jpg",
+          "source_shapes": [
+            {
+              "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_465",
+              "shape": {
+                "x": 176.9999999999999,
+                "y": 177.61249542236314,
+                "width": 838.0000000000002,
+                "height": 95.00000000000014
+              }
+            },
+            {
+              "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_464",
+              "shape": {
+                "x": 178.99999999999994,
+                "y": 147.6124954223632,
+                "width": 429.99999999999983,
+                "height": 29.0
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_465",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 205
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.015038444142921756,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S5"
+        }
+      ],
+      "excluded_sources": [],
+      "retrieved_chunk_ids": [
+        "72d253f2-69df-5554-b0c7-591ae8332efa",
+        "03600720-995a-56ca-a40f-1b33ad8e99e9",
+        "788d855a-0a90-5ca9-9f9a-f2ff1da1dbe0",
+        "d0e076a0-a403-570d-93c9-03aec212b7ba",
+        "f7efd5b9-136a-51bd-a1f8-7dc8f207400e"
+      ]
+    }
+  },
+  "retrieval_seconds": 1.6482327000121586
+}

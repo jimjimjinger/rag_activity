@@ -1,0 +1,129 @@
+{
+  "case_id": "TABLE09",
+  "manual_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)",
+  "question": "네트워크 아이콘의 R은 무엇을 뜻하나요?",
+  "english_query": "What does the R in the network icon mean?",
+  "keyword_percent": 25,
+  "dense_percent": 75,
+  "top_k": 1,
+  "retrieved_chunk_ids": [
+    "5efc3569-9d20-5a66-8eeb-a3b22306b9bb"
+  ],
+  "sources": [
+    {
+      "chunk_id": "5efc3569-9d20-5a66-8eeb-a3b22306b9bb",
+      "manual_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)",
+      "page_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00007",
+      "chunk_type": "figure",
+      "text": "Notification and Status Icons\nA black-and-white icon depicting the letter 'R' alongside four ascending vertical bars resembling signal strength indicators.",
+      "content_region_ids": [
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_205"
+      ],
+      "context_region_ids": [
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_182"
+      ],
+      "image_filename": "images/HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)/images/HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00010.jpg",
+      "source_shapes": [
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_205",
+          "shape": {
+            "x": 598.9861145019531,
+            "y": 1348.336853027344,
+            "width": 56.000000000000114,
+            "height": 60.0
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_182",
+          "shape": {
+            "x": 90.04759216308597,
+            "y": 990.6762695312503,
+            "width": 558.4535064697268,
+            "height": 46.875000000000114
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_205",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 125
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": 0.016327340031729243,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "excluded_sources": [],
+  "top5_response_file": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_weights_20261102\\keyword_025\\results.json",
+  "status": "insufficient_evidence",
+  "variant": "keyword_025",
+  "created_at": "2026-11-02T00:56:32.056292+00:00",
+  "answer": "검색된 매뉴얼 근거에서 질문에 대한 답을 확인하지 못했습니다.",
+  "source_ids": [],
+  "insufficient_evidence": true,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 48,
+        "prompt_eval_count": 379,
+        "total_duration": 705005900,
+        "load_duration": 5818600,
+        "attempt": 1,
+        "prompt_token_upper_bound": 2350
+      }
+    ],
+    "elapsed_seconds": 0.7856653000053484,
+    "ollama_model": {
+      "name": "qwen3.5:4b",
+      "model": "qwen3.5:4b",
+      "size": 3214409726,
+      "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "4.2B",
+        "quantization_level": "Q4_K_M"
+      },
+      "expires_at": "2026-11-02T09:57:32.8408735+09:00",
+      "size_vram": 3214409726,
+      "context_length": 8192,
+      "runner": "llamacpp"
+    },
+    "observation_error": null
+  },
+  "citations": [],
+  "cited_figures": [],
+  "elapsed_seconds": 0.7857791999995243,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 70,
+    "utilization_percent": 81
+  }
+}

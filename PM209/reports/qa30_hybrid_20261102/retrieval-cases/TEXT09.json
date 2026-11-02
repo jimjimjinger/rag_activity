@@ -1,0 +1,2151 @@
+{
+  "case_id": "TEXT09",
+  "manual_id": "Watch_Apple_User_Guide",
+  "question": "Siri에게 시간을 물으려면 어떻게 말해야 하나요?",
+  "english_query": "How do I ask Siri for the time?",
+  "dense_candidates": [
+    {
+      "score": 0.8862659688635066,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "Watch_Apple_User_Guide",
+      "split": "val",
+      "page_id": "Watch_Apple_User_Guide_00058",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "Watch_Apple_User_Guide_2253"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00063.jpg",
+      "source_shapes": [
+        {
+          "id": "Watch_Apple_User_Guide_2253",
+          "shape": {
+            "x": 314.00000000000006,
+            "y": 557.8819580078124,
+            "width": 476.68298339843767,
+            "height": 33.881835937500114
+          }
+        }
+      ],
+      "title": "",
+      "text": "• Use Siri: Raise your wrist and say “What time is it?”",
+      "char_count": 55,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "Watch_Apple_User_Guide_2253",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 55
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "91cf3488-feaa-55a5-befd-f9068dfb4f6c",
+      "text_sha256": "44176911fb8a4b6e742f3df1046b70fdc79f203075a6545073fbfce97dcbdfb6",
+      "token_count": 15
+    },
+    {
+      "score": 0.7281705082079979,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "Watch_Apple_User_Guide",
+      "split": "val",
+      "page_id": "Watch_Apple_User_Guide_00280",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "Watch_Apple_User_Guide_5273",
+        "Watch_Apple_User_Guide_5274"
+      ],
+      "context_region_ids": [
+        "Watch_Apple_User_Guide_5272"
+      ],
+      "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00285.jpg",
+      "source_shapes": [
+        {
+          "id": "Watch_Apple_User_Guide_5273",
+          "shape": {
+            "x": 313.99999999999983,
+            "y": 260.68200683593733,
+            "width": 727.2965698242181,
+            "height": 52.8818359375
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_5274",
+          "shape": {
+            "x": 313.70599365234364,
+            "y": 326.2689208984374,
+            "width": 543.5660400390625,
+            "height": 34.70800781250006
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_5272",
+          "shape": {
+            "x": 313.00000000000006,
+            "y": 184.5870361328125,
+            "width": 703.7700805664058,
+            "height": 65.42968749999989
+          }
+        }
+      ],
+      "title": "Use World Clock on AppleWatch to check the time in",
+      "text": "Use World Clock on AppleWatch to check the time in\nUse the World Clock app on your AppleWatch to check the time in cities around the globe.\nAsk Siri.Say something like: “What time is it in Auckland?”",
+      "char_count": 199,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "Watch_Apple_User_Guide_5273",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 88
+        },
+        {
+          "region_id": "Watch_Apple_User_Guide_5274",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 59
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "b595456b-9abf-5dc0-9ad8-6bc60d1b78dd",
+      "text_sha256": "ce8b29a84ccfd2092c8fb30f8c094bde1a3ebe9e23868c54c24b983e796a4512",
+      "token_count": 46
+    },
+    {
+      "score": 0.7045220743240048,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "Watch_Apple_User_Guide",
+      "split": "val",
+      "page_id": "Watch_Apple_User_Guide_00248",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "Watch_Apple_User_Guide_5636"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00253.jpg",
+      "source_shapes": [
+        {
+          "id": "Watch_Apple_User_Guide_5636",
+          "shape": {
+            "x": 340.7059936523439,
+            "y": 295.60225423177087,
+            "width": 506.4146525065103,
+            "height": 26.708007812499943
+          }
+        }
+      ],
+      "title": "",
+      "text": "Ask Siri.Say something like: “Set a timer for 20 minutes.”",
+      "char_count": 58,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "Watch_Apple_User_Guide_5636",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 58
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "169ecba8-4e08-5d1c-a1dc-9f18ac61d482",
+      "text_sha256": "fe2d54964eac7d850767595e99799cf26f9a6148e31777650cacb5dac2b251f7",
+      "token_count": 17
+    },
+    {
+      "score": 0.6632701575746766,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "Watch_Apple_User_Guide",
+      "split": "val",
+      "page_id": "Watch_Apple_User_Guide_00090",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "Watch_Apple_User_Guide_1421"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00095.jpg",
+      "source_shapes": [
+        {
+          "id": "Watch_Apple_User_Guide_1421",
+          "shape": {
+            "x": 314.0000000000002,
+            "y": 134.7998046875001,
+            "width": 409.7947998046876,
+            "height": 33.881835937499886
+          }
+        }
+      ],
+      "title": "",
+      "text": "To make a Siri request, do any of the following:",
+      "char_count": 48,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "Watch_Apple_User_Guide_1421",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 48
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "45bc80b7-ff04-52cb-a662-a26409f4a3cd",
+      "text_sha256": "a12be91754644ba6e06440ea0ba3975133c7702db6fa67612ecb442474d23783",
+      "token_count": 12
+    },
+    {
+      "score": 0.6570273120562151,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "Watch_Apple_User_Guide",
+      "split": "val",
+      "page_id": "Watch_Apple_User_Guide_00156",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "Watch_Apple_User_Guide_2692"
+      ],
+      "context_region_ids": [
+        "Watch_Apple_User_Guide_2690"
+      ],
+      "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00161.jpg",
+      "source_shapes": [
+        {
+          "id": "Watch_Apple_User_Guide_2692",
+          "shape": {
+            "x": 314.00000000000006,
+            "y": 769.7597656249999,
+            "width": 455.2720947265628,
+            "height": 33.88183593750023
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_2690",
+          "shape": {
+            "x": 314.00000000000006,
+            "y": 695.7792968750001,
+            "width": 263.30969238281256,
+            "height": 37.137207031249886
+          }
+        }
+      ],
+      "title": "Use Siri to play audiobooks",
+      "text": "Use Siri to play audiobooks\n“Play the audiobook ‘In the Time of the Butterflies.’”",
+      "char_count": 82,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "Watch_Apple_User_Guide_2692",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 54
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "9f527db1-a6fd-53bf-9a09-1cc4531e4eb9",
+      "text_sha256": "5787f90e529d16b71c0b0b60da10d299d4e7d1bfd7eb6eb40395687b0d18bc33",
+      "token_count": 23
+    },
+    {
+      "score": 0.6463895360324865,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "Watch_Apple_User_Guide",
+      "split": "val",
+      "page_id": "Watch_Apple_User_Guide_00292",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "Watch_Apple_User_Guide_4590",
+        "Watch_Apple_User_Guide_4591"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00297.jpg",
+      "source_shapes": [
+        {
+          "id": "Watch_Apple_User_Guide_4590",
+          "shape": {
+            "x": 313.00000000000006,
+            "y": 617.8819580078126,
+            "width": 779.749267578125,
+            "height": 56.381835937499886
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_4591",
+          "shape": {
+            "x": 311.99999999999994,
+            "y": 677.8819580078124,
+            "width": 165.581817626953,
+            "height": 25.881835937499886
+          }
+        }
+      ],
+      "title": "",
+      "text": "Note:Taptic Time is disabled if AppleWatch is set to always speak the time. To be able to use Taptic Time, first go to Settings > Clock, then turn on Control With Silent Mode\nunder Speak Time.",
+      "char_count": 192,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "Watch_Apple_User_Guide_4590",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 174
+        },
+        {
+          "region_id": "Watch_Apple_User_Guide_4591",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 17
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "6b6ec7cf-b165-5a87-8efc-64e9066000fa",
+      "text_sha256": "8de3f4ddcc63a99deb100c1c1d4c82dd8557a2f205d93114f51c17d16fc67c75",
+      "token_count": 45
+    },
+    {
+      "score": 0.6395084335947172,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "Watch_Apple_User_Guide",
+      "split": "val",
+      "page_id": "Watch_Apple_User_Guide_00123",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "Watch_Apple_User_Guide_2055"
+      ],
+      "context_region_ids": [
+        "Watch_Apple_User_Guide_2054"
+      ],
+      "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00128.jpg",
+      "source_shapes": [
+        {
+          "id": "Watch_Apple_User_Guide_2055",
+          "shape": {
+            "x": 314.00000000000006,
+            "y": 134.79980468750003,
+            "width": 791.963623046875,
+            "height": 85.88183593750003
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_2054",
+          "shape": {
+            "x": 314.00000000000006,
+            "y": 107.81933593749997,
+            "width": 34.56808471679676,
+            "height": 22.137207031250057
+          }
+        }
+      ],
+      "title": "Siri",
+      "text": "Siri\nThis face displays information that’s timely and helpful. It might be your next appointment, the traffic on your way home, or the time the sun sets, and you can tap to get more information. You can also turn the Digital Crown to scroll through your day.",
+      "char_count": 258,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "Watch_Apple_User_Guide_2055",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 253
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "0a3b3357-8c67-5f68-aca8-4495cd566860",
+      "text_sha256": "0ee356dde4819d47c9f8ab5c8ea894564621ac0bc36138a388e2900745fe14b5",
+      "token_count": 56
+    },
+    {
+      "score": 0.6353599744381907,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "Watch_Apple_User_Guide",
+      "split": "val",
+      "page_id": "Watch_Apple_User_Guide_00195",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "Watch_Apple_User_Guide_3465",
+        "Watch_Apple_User_Guide_3466"
+      ],
+      "context_region_ids": [
+        "Watch_Apple_User_Guide_3460"
+      ],
+      "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00200.jpg",
+      "source_shapes": [
+        {
+          "id": "Watch_Apple_User_Guide_3465",
+          "shape": {
+            "x": 314.00000000000017,
+            "y": 692.7998046875001,
+            "width": 588.2118530273435,
+            "height": 33.8818359375
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_3466",
+          "shape": {
+            "x": 311.3726603190105,
+            "y": 728.3867187500002,
+            "width": 631.2610066731766,
+            "height": 31.37467447916697
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_3460",
+          "shape": {
+            "x": 314.00000000000017,
+            "y": 524.8193359375001,
+            "width": 384.25636800130184,
+            "height": 32.47054036458303
+          }
+        }
+      ],
+      "title": "Get directions to a landmark or map pin",
+      "text": "Get directions to a landmark or map pin\n4. When you’re ready to go, tap a route, then follow the directions.\nAsk Siri.Say something like, “How long will it take me to get home?”",
+      "char_count": 177,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "Watch_Apple_User_Guide_3465",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 68
+        },
+        {
+          "region_id": "Watch_Apple_User_Guide_3466",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 68
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "200c05e1-b304-5258-9a0c-6be603a3a1fe",
+      "text_sha256": "92111060ed31c90288cde0d0619a84cba7c677168f9cb2beecb10fb5d4873f25",
+      "token_count": 45
+    },
+    {
+      "score": 0.6330885245049211,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "Watch_Apple_User_Guide",
+      "split": "val",
+      "page_id": "Watch_Apple_User_Guide_00123",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "Watch_Apple_User_Guide_2058"
+      ],
+      "context_region_ids": [
+        "Watch_Apple_User_Guide_2054"
+      ],
+      "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00128.jpg",
+      "source_shapes": [
+        {
+          "id": "Watch_Apple_User_Guide_2058",
+          "shape": {
+            "x": 342.00000000000017,
+            "y": 587.7597656249999,
+            "width": 762.0058593749998,
+            "height": 176.8818359375
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_2054",
+          "shape": {
+            "x": 314.00000000000006,
+            "y": 107.81933593749997,
+            "width": 34.56808471679676,
+            "height": 22.137207031250057
+          }
+        }
+      ],
+      "title": "Siri",
+      "text": "Siri\nTracking • ECG • Find Devices • Find Items • Find People • Heart Rate • Home • Mail • Maps (Maps, Nearby Transit) • Messages • Mindfulness • Music • News • Noise (Sound Levels) • Phone •Podcasts • Reminders • Remote •Shortcuts •Siri •Sleep •Stocks •Stopwatch • Timer • Tips • Voice Memos •Walkie-Talkie •Weather • Workout •World Clock (Sunrise/Sunset)",
+      "char_count": 356,
+      "overlap_char_count": 98,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "Watch_Apple_User_Guide_2058",
+          "field": "ocr_normalized",
+          "start": 164,
+          "end": 515
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "1232cc88-dbde-515c-8a33-447066011e08",
+      "text_sha256": "4c1ca6029158a75fe5e532eb1a7fbbf9d6eda35beb330b1debbb1281b7350de0",
+      "token_count": 97
+    },
+    {
+      "score": 0.6328654564894649,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "Watch_Apple_User_Guide",
+      "split": "val",
+      "page_id": "Watch_Apple_User_Guide_00089",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "Watch_Apple_User_Guide_1409",
+        "Watch_Apple_User_Guide_1410",
+        "Watch_Apple_User_Guide_1411",
+        "Watch_Apple_User_Guide_1412",
+        "Watch_Apple_User_Guide_1413",
+        "Watch_Apple_User_Guide_1414",
+        "Watch_Apple_User_Guide_1415",
+        "Watch_Apple_User_Guide_1416",
+        "Watch_Apple_User_Guide_1417"
+      ],
+      "context_region_ids": [
+        "Watch_Apple_User_Guide_1406"
+      ],
+      "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00094.jpg",
+      "source_shapes": [
+        {
+          "id": "Watch_Apple_User_Guide_1409",
+          "shape": {
+            "x": 312.7059936523438,
+            "y": 735.9818725585938,
+            "width": 279.7228393554686,
+            "height": 32.7080078125
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_1410",
+          "shape": {
+            "x": 314,
+            "y": 776.3949584960944,
+            "width": 423.83404541015636,
+            "height": 33.88183593749932
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_1411",
+          "shape": {
+            "x": 314,
+            "y": 812.394958496094,
+            "width": 308.8483886718751,
+            "height": 33.88183593750034
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_1412",
+          "shape": {
+            "x": 314,
+            "y": 848.3949584960938,
+            "width": 328.252380371094,
+            "height": 33.881835937499886
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_1413",
+          "shape": {
+            "x": 314,
+            "y": 884.3949584960936,
+            "width": 217.2860107421876,
+            "height": 33.8818359375
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_1414",
+          "shape": {
+            "x": 314,
+            "y": 920.3949584960943,
+            "width": 205.5698242187501,
+            "height": 33.88183593749932
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_1415",
+          "shape": {
+            "x": 314,
+            "y": 956.3949584960931,
+            "width": 250.8594970703126,
+            "height": 33.88183593750057
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_1416",
+          "shape": {
+            "x": 314,
+            "y": 992.3949584960936,
+            "width": 212.06414794921875,
+            "height": 33.88189697265659
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_1417",
+          "shape": {
+            "x": 314,
+            "y": 1028.3950195312495,
+            "width": 354.43872070312534,
+            "height": 33.88183593750068
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_1406",
+          "shape": {
+            "x": 312.66666666666674,
+            "y": 498.41455078125017,
+            "width": 214.22908528645814,
+            "height": 26.137207031250057
+          }
+        }
+      ],
+      "title": "Useful Siri commands",
+      "text": "Useful Siri commands\nAsk Siri.Say something like:\n• “How do you say ‘How are you?’ in Chinese?”\n• “Start a 30-minute outdoor run”\n• “Tell Kathleen I’m almost finished”\n• “Open the Sleep app”\n• “What song is this?”\n• “What causes rainbows?”\n• “What’s my update?”\n• “What kinds of things can I ask you?”",
+      "char_count": 301,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "Watch_Apple_User_Guide_1409",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 28
+        },
+        {
+          "region_id": "Watch_Apple_User_Guide_1410",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 45
+        },
+        {
+          "region_id": "Watch_Apple_User_Guide_1411",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 33
+        },
+        {
+          "region_id": "Watch_Apple_User_Guide_1412",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 37
+        },
+        {
+          "region_id": "Watch_Apple_User_Guide_1413",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 22
+        },
+        {
+          "region_id": "Watch_Apple_User_Guide_1414",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 22
+        },
+        {
+          "region_id": "Watch_Apple_User_Guide_1415",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 25
+        },
+        {
+          "region_id": "Watch_Apple_User_Guide_1416",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 21
+        },
+        {
+          "region_id": "Watch_Apple_User_Guide_1417",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 39
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "77c1c2d1-4522-515f-9b26-d9e4d2fce697",
+      "text_sha256": "4b61d904010503f81f92d76db33f896be6b5c4b0da5e3ab3fbeaf3efbf2e1cd4",
+      "token_count": 89
+    },
+    {
+      "score": 0.6299613238329919,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "Watch_Apple_User_Guide",
+      "split": "val",
+      "page_id": "Watch_Apple_User_Guide_00129",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "Watch_Apple_User_Guide_2142"
+      ],
+      "context_region_ids": [
+        "Watch_Apple_User_Guide_2137"
+      ],
+      "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00134.jpg",
+      "source_shapes": [
+        {
+          "id": "Watch_Apple_User_Guide_2142",
+          "shape": {
+            "x": 342.0000000000001,
+            "y": 671.7597656250002,
+            "width": 760.0241699218749,
+            "height": 189.8818359374999
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_2137",
+          "shape": {
+            "x": 313.3333333333334,
+            "y": 105.4860026041667,
+            "width": 113.63333129882807,
+            "height": 30.470540364583357
+          }
+        }
+      ],
+      "title": "World Time",
+      "text": "World Time\nTracking • ECG • Find Devices • Find Items • Find People • Heart Rate • Home • Mail • Maps (Maps, Nearby Transit) • Messages • Mindfulness • Music • News • Noise (Sound Levels) • Phone • Podcasts • Reminders • Remote • Shortcuts • Sleep • Stocks • Stopwatch • Timer • Tips • Voice Memos • Walkie-Talkie • Weather • Workout • World Clock (Sunrise/Sunset)",
+      "char_count": 364,
+      "overlap_char_count": 98,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "Watch_Apple_User_Guide_2142",
+          "field": "ocr_normalized",
+          "start": 166,
+          "end": 519
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "3c4fc749-b295-5315-98dc-1bcd737d97dd",
+      "text_sha256": "7170bd4548f095d1c013ede47a5d5b130767906f5444fabff6c92002bf08d7d3",
+      "token_count": 92
+    },
+    {
+      "score": 0.6258824267559692,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "Watch_Apple_User_Guide",
+      "split": "val",
+      "page_id": "Watch_Apple_User_Guide_00089",
+      "chunk_type": "title",
+      "content_region_ids": [
+        "Watch_Apple_User_Guide_1404"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00094.jpg",
+      "source_shapes": [
+        {
+          "id": "Watch_Apple_User_Guide_1404",
+          "shape": {
+            "x": 314,
+            "y": 93.8204345703125,
+            "width": 56.9499816894529,
+            "height": 76.32812500000006
+          }
+        }
+      ],
+      "title": "",
+      "text": "Siri",
+      "char_count": 4,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "Watch_Apple_User_Guide_1404",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 4
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "04f75a9b-2703-5728-a172-ae3bc6e67ff9",
+      "text_sha256": "7cdcbd87852f9d125c8d7f71559429c15d185d17c9df4eb3b80582d33383bb63",
+      "token_count": 2
+    },
+    {
+      "score": 0.623780244944285,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "Watch_Apple_User_Guide",
+      "split": "val",
+      "page_id": "Watch_Apple_User_Guide_00249",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "Watch_Apple_User_Guide_5658"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00254.jpg",
+      "source_shapes": [
+        {
+          "id": "Watch_Apple_User_Guide_5658",
+          "shape": {
+            "x": 364.7059936523437,
+            "y": 497.3466796875002,
+            "width": 669.344543457031,
+            "height": 30.708007812499773
+          }
+        }
+      ],
+      "title": "",
+      "text": "Tip:To assign a label such as “Pizza” to a timer, use Siri to create the timer.",
+      "char_count": 79,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "Watch_Apple_User_Guide_5658",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 79
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "03e11203-d14d-52a8-b20c-6d8f11882f33",
+      "text_sha256": "c6ff3b46f88dd2207189f6d388c7cbcd79d0656c0dbff9b0ce9ae534bec64711",
+      "token_count": 22
+    },
+    {
+      "score": 0.6200695117990244,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "Watch_Apple_User_Guide",
+      "split": "val",
+      "page_id": "Watch_Apple_User_Guide_00058",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "Watch_Apple_User_Guide_2245"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00063.jpg",
+      "source_shapes": [
+        {
+          "id": "Watch_Apple_User_Guide_2245",
+          "shape": {
+            "x": 314.88888888888874,
+            "y": 264.548624674479,
+            "width": 780.4984198676216,
+            "height": 23.21516927083354
+          }
+        }
+      ],
+      "title": "",
+      "text": "• Hear the time: Open the Settings app on your AppleWatch, tap Clock, then turn on",
+      "char_count": 82,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "Watch_Apple_User_Guide_2245",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 82
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "6eb5c607-6252-55b2-a046-1f2ec96c12b4",
+      "text_sha256": "1f2612cda64e83994844f084700415b1a0115a0fc38b99240b0b7367b1029a35",
+      "token_count": 20
+    },
+    {
+      "score": 0.6164562222714358,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "Watch_Apple_User_Guide",
+      "split": "val",
+      "page_id": "Watch_Apple_User_Guide_00123",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "Watch_Apple_User_Guide_2058"
+      ],
+      "context_region_ids": [
+        "Watch_Apple_User_Guide_2054"
+      ],
+      "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00128.jpg",
+      "source_shapes": [
+        {
+          "id": "Watch_Apple_User_Guide_2058",
+          "shape": {
+            "x": 342.00000000000017,
+            "y": 587.7597656249999,
+            "width": 762.0058593749998,
+            "height": 176.8818359375
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_2054",
+          "shape": {
+            "x": 314.00000000000006,
+            "y": 107.81933593749997,
+            "width": 34.56808471679676,
+            "height": 22.137207031250057
+          }
+        }
+      ],
+      "title": "Siri",
+      "text": "Siri\nBlood Oxygen • Calculator • Calendar (Today’s Date, Your Schedule) • Camera Remote • Compass (Compass, Elevation) • Contacts • Controls (Battery, Cellular) • Cycle Tracking • ECG • Find Devices • Find Items • Find People • Heart Rate • Home • Mail • Maps (Maps,",
+      "char_count": 266,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "Watch_Apple_User_Guide_2058",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 261
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "8185745c-7ddf-5864-80df-22236a0c8f28",
+      "text_sha256": "fba806a20bdd6735bd896ab7950aefd0678915610391202e46997b16a3e5fe5a",
+      "token_count": 65
+    },
+    {
+      "score": 0.6137439212516864,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "Watch_Apple_User_Guide",
+      "split": "val",
+      "page_id": "Watch_Apple_User_Guide_00115",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "Watch_Apple_User_Guide_1961"
+      ],
+      "context_region_ids": [
+        "Watch_Apple_User_Guide_1957"
+      ],
+      "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00120.jpg",
+      "source_shapes": [
+        {
+          "id": "Watch_Apple_User_Guide_1961",
+          "shape": {
+            "x": 342.0000000000002,
+            "y": 1212.7197265625,
+            "width": 772.39013671875,
+            "height": 215.88183593749932
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_1957",
+          "shape": {
+            "x": 314.00000000000017,
+            "y": 759.7792968749999,
+            "width": 172.10006713867176,
+            "height": 37.137207031250455
+          }
+        }
+      ],
+      "title": "Modular Compact",
+      "text": "Modular Compact\n• Podcasts • Reminders • Remote • Shortcuts • Sleep • Stocks • Stopwatch • Time (Analog Seconds, Analog Time, Digital Seconds, Digital Time) • Timer • Tips • Voice Memos • Walkie-Talkie • Weather • Workout • World Clock (Sunrise/Sunset)",
+      "char_count": 252,
+      "overlap_char_count": 97,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "Watch_Apple_User_Guide_1961",
+          "field": "ocr_normalized",
+          "start": 386,
+          "end": 622
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "16736c51-f329-5021-b8e2-555df48249dc",
+      "text_sha256": "c3b1bfa41e53b573c2784f97a5ef48cff7143c060015464edc073bb72e1c1c62",
+      "token_count": 64
+    },
+    {
+      "score": 0.6133646448323549,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "Watch_Apple_User_Guide",
+      "split": "val",
+      "page_id": "Watch_Apple_User_Guide_00114",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "Watch_Apple_User_Guide_1949"
+      ],
+      "context_region_ids": [
+        "Watch_Apple_User_Guide_1943"
+      ],
+      "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00119.jpg",
+      "source_shapes": [
+        {
+          "id": "Watch_Apple_User_Guide_1949",
+          "shape": {
+            "x": 314.0000000000001,
+            "y": 771.7597656250002,
+            "width": 787.2883300781249,
+            "height": 59.881835937499886
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_1943",
+          "shape": {
+            "x": 314.0000000000001,
+            "y": 100.81933593750003,
+            "width": 317.15319824218716,
+            "height": 37.13720703125
+          }
+        }
+      ],
+      "title": "Mickey Mouse and Minnie Mouse",
+      "text": "Mickey Mouse and Minnie Mouse\nAppleWatch, tap Clock, then turn on Speak Time. Raise your wrist, then place two fingers on the watch face to hear the time.",
+      "char_count": 154,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "Watch_Apple_User_Guide_1949",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 124
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "d2b72600-944a-58df-b415-79cfb98f79b8",
+      "text_sha256": "205968a4c85791851e74daf9336e997f832133ccc882000add378aadcd2538f5",
+      "token_count": 37
+    },
+    {
+      "score": 0.6128299251669314,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "Watch_Apple_User_Guide",
+      "split": "val",
+      "page_id": "Watch_Apple_User_Guide_00248",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "Watch_Apple_User_Guide_5654"
+      ],
+      "context_region_ids": [
+        "Watch_Apple_User_Guide_5637"
+      ],
+      "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00253.jpg",
+      "source_shapes": [
+        {
+          "id": "Watch_Apple_User_Guide_5654",
+          "shape": {
+            "x": 305.50000000000006,
+            "y": 381.640625,
+            "width": 712.0,
+            "height": 425.0000000000002
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_5637",
+          "shape": {
+            "x": 314.0000000000001,
+            "y": 353.36820475260413,
+            "width": 182.57380167643214,
+            "height": 24.47054036458354
+          }
+        }
+      ],
+      "title": "Quickly set a timer",
+      "text": "Quickly set a timer\nApple Watch Timers app interface showing four preset timer durations (1 min, 3 min, 5 min, 10 min) with current time 10:09 displayed at top right.",
+      "char_count": 166,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "Watch_Apple_User_Guide_5654",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 146
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "dc84b05b-dd9b-53b8-9017-879c94186f90",
+      "text_sha256": "9da11ba19186a4626e420bca7d8ebd67f04ff232effbe7d8d23de5a6abdddc44",
+      "token_count": 48
+    },
+    {
+      "score": 0.6113066538705163,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "Watch_Apple_User_Guide",
+      "split": "val",
+      "page_id": "Watch_Apple_User_Guide_00113",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "Watch_Apple_User_Guide_1940"
+      ],
+      "context_region_ids": [
+        "Watch_Apple_User_Guide_1936"
+      ],
+      "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00118.jpg",
+      "source_shapes": [
+        {
+          "id": "Watch_Apple_User_Guide_1940",
+          "shape": {
+            "x": 342.0000000000001,
+            "y": 559.759765625,
+            "width": 764.7635498046874,
+            "height": 209.8818359374999
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_1936",
+          "shape": {
+            "x": 314,
+            "y": 106.8193359375,
+            "width": 88.6533813476563,
+            "height": 24.13720703125
+          }
+        }
+      ],
+      "title": "Meridian",
+      "text": "Meridian\n• Reminders • Remote • Shortcuts • Sleep • Stocks • Stopwatch • Time (Analog Seconds, Analog Time, Digital Seconds, Digital Time) • Timer • Tips • Voice Memos • Walkie-Talkie • Weather • Workout • World Clock (Sunrise/Sunset)",
+      "char_count": 234,
+      "overlap_char_count": 99,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "Watch_Apple_User_Guide_1940",
+          "field": "ocr_normalized",
+          "start": 379,
+          "end": 604
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "eb28fd81-55af-5dde-a2da-f47abaa8d456",
+      "text_sha256": "8f87838c381ffed0d3708dfcdf694e2712425080cd8303677d86eaec08cdab84",
+      "token_count": 60
+    },
+    {
+      "score": 0.6111056838070922,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "Watch_Apple_User_Guide",
+      "split": "val",
+      "page_id": "Watch_Apple_User_Guide_00269",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "Watch_Apple_User_Guide_5168"
+      ],
+      "context_region_ids": [
+        "Watch_Apple_User_Guide_5167"
+      ],
+      "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00274.jpg",
+      "source_shapes": [
+        {
+          "id": "Watch_Apple_User_Guide_5168",
+          "shape": {
+            "x": 336.70599365234375,
+            "y": 226.2689208984375,
+            "width": 641.5114746093749,
+            "height": 34.70800781250006
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_5167",
+          "shape": {
+            "x": 314.00000000000017,
+            "y": 174.58703613281253,
+            "width": 464.72729492187506,
+            "height": 53.4296875
+          }
+        }
+      ],
+      "title": "Check the weather on AppleWatch",
+      "text": "Check the weather on AppleWatch\nAsk Siri.Say something like: “What’s tomorrow’s forecast for Honolulu?”",
+      "char_count": 103,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "Watch_Apple_User_Guide_5168",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 71
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "90fff32d-d56a-5032-b776-cf590dbd7848",
+      "text_sha256": "33b38a2724159155a5f70b93e9790556d98bfd7a606c690173758a9cf4b7f271",
+      "token_count": 23
+    }
+  ],
+  "keyword_candidates": [
+    {
+      "chunk_id": "d127bfb4-b50b-5c25-9489-11cd907068ae",
+      "bm25_score": -16.75799414470171
+    },
+    {
+      "chunk_id": "169ecba8-4e08-5d1c-a1dc-9f18ac61d482",
+      "bm25_score": -16.36549587328671
+    },
+    {
+      "chunk_id": "b595456b-9abf-5dc0-9ad8-6bc60d1b78dd",
+      "bm25_score": -15.616741011463672
+    },
+    {
+      "chunk_id": "6daa60f9-d4be-5cac-b8ee-fa83195d2d5b",
+      "bm25_score": -15.30809396006682
+    },
+    {
+      "chunk_id": "90fff32d-d56a-5032-b776-cf590dbd7848",
+      "bm25_score": -14.829029817387969
+    },
+    {
+      "chunk_id": "38ae1c75-ffb8-5fee-a6b4-21f7ab2e732a",
+      "bm25_score": -14.779073482288988
+    },
+    {
+      "chunk_id": "0fcb3f1f-b05c-561e-9ed5-4d9a61601f93",
+      "bm25_score": -14.379040249285104
+    },
+    {
+      "chunk_id": "1269d84d-ee27-592e-987c-842ceb9c2bfd",
+      "bm25_score": -14.16413366175067
+    },
+    {
+      "chunk_id": "77c1c2d1-4522-515f-9b26-d9e4d2fce697",
+      "bm25_score": -14.040845467112003
+    },
+    {
+      "chunk_id": "b23108ce-ea80-59dd-8d86-38c29748c877",
+      "bm25_score": -13.598335214008035
+    },
+    {
+      "chunk_id": "4f2b2a71-4f55-511b-979a-471609bc4f13",
+      "bm25_score": -13.556303339337433
+    },
+    {
+      "chunk_id": "b54b6550-bedd-55a8-b503-2b63b68442e5",
+      "bm25_score": -13.556303339337433
+    },
+    {
+      "chunk_id": "69426901-10e8-5211-80d1-da4b5190d0b9",
+      "bm25_score": -13.283019448692322
+    },
+    {
+      "chunk_id": "91cf3488-feaa-55a5-befd-f9068dfb4f6c",
+      "bm25_score": -12.882741258384254
+    },
+    {
+      "chunk_id": "c6873f98-dc23-58d9-b37e-68377adfb070",
+      "bm25_score": -12.607454405216913
+    },
+    {
+      "chunk_id": "9f527db1-a6fd-53bf-9a09-1cc4531e4eb9",
+      "bm25_score": -12.248210224102465
+    },
+    {
+      "chunk_id": "92f27392-91ab-510c-adf4-416ac3724605",
+      "bm25_score": -12.199235392523285
+    },
+    {
+      "chunk_id": "b252867a-567b-5cd0-bdf3-0276e5eb92c5",
+      "bm25_score": -11.95999575751619
+    },
+    {
+      "chunk_id": "da89ebd1-d53b-5429-8b09-7d0c755570b8",
+      "bm25_score": -11.781695471006424
+    },
+    {
+      "chunk_id": "200c05e1-b304-5258-9a0c-6be603a3a1fe",
+      "bm25_score": -11.43067917552613
+    }
+  ],
+  "fused_candidates": [
+    {
+      "chunk_id": "b595456b-9abf-5dc0-9ad8-6bc60d1b78dd",
+      "score": 0.016001024065540194,
+      "dense_rank": 2,
+      "dense_score": 0.7281705082079979,
+      "keyword_rank": 3,
+      "keyword_score": -15.616741011463672
+    },
+    {
+      "chunk_id": "169ecba8-4e08-5d1c-a1dc-9f18ac61d482",
+      "score": 0.016001024065540194,
+      "dense_rank": 3,
+      "dense_score": 0.7045220743240048,
+      "keyword_rank": 2,
+      "keyword_score": -16.36549587328671
+    },
+    {
+      "chunk_id": "91cf3488-feaa-55a5-befd-f9068dfb4f6c",
+      "score": 0.014953478068232167,
+      "dense_rank": 1,
+      "dense_score": 0.8862659688635066,
+      "keyword_rank": 14,
+      "keyword_score": -12.882741258384254
+    },
+    {
+      "chunk_id": "77c1c2d1-4522-515f-9b26-d9e4d2fce697",
+      "score": 0.014389233954451346,
+      "dense_rank": 10,
+      "dense_score": 0.6328654564894649,
+      "keyword_rank": 9,
+      "keyword_score": -14.040845467112003
+    },
+    {
+      "chunk_id": "9f527db1-a6fd-53bf-9a09-1cc4531e4eb9",
+      "score": 0.014271255060728745,
+      "dense_rank": 5,
+      "dense_score": 0.6570273120562151,
+      "keyword_rank": 16,
+      "keyword_score": -12.248210224102465
+    },
+    {
+      "chunk_id": "90fff32d-d56a-5032-b776-cf590dbd7848",
+      "score": 0.013942307692307693,
+      "dense_rank": 20,
+      "dense_score": 0.6111056838070922,
+      "keyword_rank": 5,
+      "keyword_score": -14.829029817387969
+    },
+    {
+      "chunk_id": "200c05e1-b304-5258-9a0c-6be603a3a1fe",
+      "score": 0.013602941176470588,
+      "dense_rank": 8,
+      "dense_score": 0.6353599744381907,
+      "keyword_rank": 20,
+      "keyword_score": -11.43067917552613
+    },
+    {
+      "chunk_id": "d127bfb4-b50b-5c25-9489-11cd907068ae",
+      "score": 0.00819672131147541,
+      "keyword_rank": 1,
+      "keyword_score": -16.75799414470171
+    },
+    {
+      "chunk_id": "45bc80b7-ff04-52cb-a662-a26409f4a3cd",
+      "score": 0.0078125,
+      "dense_rank": 4,
+      "dense_score": 0.6632701575746766
+    },
+    {
+      "chunk_id": "6daa60f9-d4be-5cac-b8ee-fa83195d2d5b",
+      "score": 0.0078125,
+      "keyword_rank": 4,
+      "keyword_score": -15.30809396006682
+    },
+    {
+      "chunk_id": "6b6ec7cf-b165-5a87-8efc-64e9066000fa",
+      "score": 0.007575757575757576,
+      "dense_rank": 6,
+      "dense_score": 0.6463895360324865
+    },
+    {
+      "chunk_id": "38ae1c75-ffb8-5fee-a6b4-21f7ab2e732a",
+      "score": 0.007575757575757576,
+      "keyword_rank": 6,
+      "keyword_score": -14.779073482288988
+    },
+    {
+      "chunk_id": "0a3b3357-8c67-5f68-aca8-4495cd566860",
+      "score": 0.007462686567164179,
+      "dense_rank": 7,
+      "dense_score": 0.6395084335947172
+    },
+    {
+      "chunk_id": "0fcb3f1f-b05c-561e-9ed5-4d9a61601f93",
+      "score": 0.007462686567164179,
+      "keyword_rank": 7,
+      "keyword_score": -14.379040249285104
+    },
+    {
+      "chunk_id": "1269d84d-ee27-592e-987c-842ceb9c2bfd",
+      "score": 0.007352941176470588,
+      "keyword_rank": 8,
+      "keyword_score": -14.16413366175067
+    },
+    {
+      "chunk_id": "1232cc88-dbde-515c-8a33-447066011e08",
+      "score": 0.007246376811594203,
+      "dense_rank": 9,
+      "dense_score": 0.6330885245049211
+    },
+    {
+      "chunk_id": "b23108ce-ea80-59dd-8d86-38c29748c877",
+      "score": 0.007142857142857143,
+      "keyword_rank": 10,
+      "keyword_score": -13.598335214008035
+    },
+    {
+      "chunk_id": "3c4fc749-b295-5315-98dc-1bcd737d97dd",
+      "score": 0.007042253521126761,
+      "dense_rank": 11,
+      "dense_score": 0.6299613238329919
+    },
+    {
+      "chunk_id": "4f2b2a71-4f55-511b-979a-471609bc4f13",
+      "score": 0.007042253521126761,
+      "keyword_rank": 11,
+      "keyword_score": -13.556303339337433
+    },
+    {
+      "chunk_id": "04f75a9b-2703-5728-a172-ae3bc6e67ff9",
+      "score": 0.006944444444444444,
+      "dense_rank": 12,
+      "dense_score": 0.6258824267559692
+    },
+    {
+      "chunk_id": "b54b6550-bedd-55a8-b503-2b63b68442e5",
+      "score": 0.006944444444444444,
+      "keyword_rank": 12,
+      "keyword_score": -13.556303339337433
+    },
+    {
+      "chunk_id": "03e11203-d14d-52a8-b20c-6d8f11882f33",
+      "score": 0.00684931506849315,
+      "dense_rank": 13,
+      "dense_score": 0.623780244944285
+    },
+    {
+      "chunk_id": "69426901-10e8-5211-80d1-da4b5190d0b9",
+      "score": 0.00684931506849315,
+      "keyword_rank": 13,
+      "keyword_score": -13.283019448692322
+    },
+    {
+      "chunk_id": "6eb5c607-6252-55b2-a046-1f2ec96c12b4",
+      "score": 0.006756756756756757,
+      "dense_rank": 14,
+      "dense_score": 0.6200695117990244
+    },
+    {
+      "chunk_id": "8185745c-7ddf-5864-80df-22236a0c8f28",
+      "score": 0.006666666666666667,
+      "dense_rank": 15,
+      "dense_score": 0.6164562222714358
+    },
+    {
+      "chunk_id": "c6873f98-dc23-58d9-b37e-68377adfb070",
+      "score": 0.006666666666666667,
+      "keyword_rank": 15,
+      "keyword_score": -12.607454405216913
+    },
+    {
+      "chunk_id": "16736c51-f329-5021-b8e2-555df48249dc",
+      "score": 0.006578947368421052,
+      "dense_rank": 16,
+      "dense_score": 0.6137439212516864
+    },
+    {
+      "chunk_id": "d2b72600-944a-58df-b415-79cfb98f79b8",
+      "score": 0.006493506493506494,
+      "dense_rank": 17,
+      "dense_score": 0.6133646448323549
+    },
+    {
+      "chunk_id": "92f27392-91ab-510c-adf4-416ac3724605",
+      "score": 0.006493506493506494,
+      "keyword_rank": 17,
+      "keyword_score": -12.199235392523285
+    },
+    {
+      "chunk_id": "dc84b05b-dd9b-53b8-9017-879c94186f90",
+      "score": 0.00641025641025641,
+      "dense_rank": 18,
+      "dense_score": 0.6128299251669314
+    },
+    {
+      "chunk_id": "b252867a-567b-5cd0-bdf3-0276e5eb92c5",
+      "score": 0.00641025641025641,
+      "keyword_rank": 18,
+      "keyword_score": -11.95999575751619
+    },
+    {
+      "chunk_id": "eb28fd81-55af-5dde-a2da-f47abaa8d456",
+      "score": 0.006329113924050633,
+      "dense_rank": 19,
+      "dense_score": 0.6113066538705163
+    },
+    {
+      "chunk_id": "da89ebd1-d53b-5429-8b09-7d0c755570b8",
+      "score": 0.006329113924050633,
+      "keyword_rank": 19,
+      "keyword_score": -11.781695471006424
+    }
+  ],
+  "variants": {
+    "B_english_dense": {
+      "sources": [
+        {
+          "chunk_id": "91cf3488-feaa-55a5-befd-f9068dfb4f6c",
+          "manual_id": "Watch_Apple_User_Guide",
+          "page_id": "Watch_Apple_User_Guide_00058",
+          "chunk_type": "text",
+          "text": "• Use Siri: Raise your wrist and say “What time is it?”",
+          "content_region_ids": [
+            "Watch_Apple_User_Guide_2253"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00063.jpg",
+          "source_shapes": [
+            {
+              "id": "Watch_Apple_User_Guide_2253",
+              "shape": {
+                "x": 314.00000000000006,
+                "y": 557.8819580078124,
+                "width": 476.68298339843767,
+                "height": 33.881835937500114
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "Watch_Apple_User_Guide_2253",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 55
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.8862659688635066,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S1"
+        },
+        {
+          "chunk_id": "b595456b-9abf-5dc0-9ad8-6bc60d1b78dd",
+          "manual_id": "Watch_Apple_User_Guide",
+          "page_id": "Watch_Apple_User_Guide_00280",
+          "chunk_type": "text",
+          "text": "Use World Clock on AppleWatch to check the time in\nUse the World Clock app on your AppleWatch to check the time in cities around the globe.\nAsk Siri.Say something like: “What time is it in Auckland?”",
+          "content_region_ids": [
+            "Watch_Apple_User_Guide_5273",
+            "Watch_Apple_User_Guide_5274"
+          ],
+          "context_region_ids": [
+            "Watch_Apple_User_Guide_5272"
+          ],
+          "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00285.jpg",
+          "source_shapes": [
+            {
+              "id": "Watch_Apple_User_Guide_5273",
+              "shape": {
+                "x": 313.99999999999983,
+                "y": 260.68200683593733,
+                "width": 727.2965698242181,
+                "height": 52.8818359375
+              }
+            },
+            {
+              "id": "Watch_Apple_User_Guide_5274",
+              "shape": {
+                "x": 313.70599365234364,
+                "y": 326.2689208984374,
+                "width": 543.5660400390625,
+                "height": 34.70800781250006
+              }
+            },
+            {
+              "id": "Watch_Apple_User_Guide_5272",
+              "shape": {
+                "x": 313.00000000000006,
+                "y": 184.5870361328125,
+                "width": 703.7700805664058,
+                "height": 65.42968749999989
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "Watch_Apple_User_Guide_5273",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 88
+            },
+            {
+              "region_id": "Watch_Apple_User_Guide_5274",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 59
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.7281705082079979,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S2"
+        },
+        {
+          "chunk_id": "169ecba8-4e08-5d1c-a1dc-9f18ac61d482",
+          "manual_id": "Watch_Apple_User_Guide",
+          "page_id": "Watch_Apple_User_Guide_00248",
+          "chunk_type": "text",
+          "text": "Ask Siri.Say something like: “Set a timer for 20 minutes.”",
+          "content_region_ids": [
+            "Watch_Apple_User_Guide_5636"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00253.jpg",
+          "source_shapes": [
+            {
+              "id": "Watch_Apple_User_Guide_5636",
+              "shape": {
+                "x": 340.7059936523439,
+                "y": 295.60225423177087,
+                "width": 506.4146525065103,
+                "height": 26.708007812499943
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "Watch_Apple_User_Guide_5636",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 58
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.7045220743240048,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S3"
+        },
+        {
+          "chunk_id": "45bc80b7-ff04-52cb-a662-a26409f4a3cd",
+          "manual_id": "Watch_Apple_User_Guide",
+          "page_id": "Watch_Apple_User_Guide_00090",
+          "chunk_type": "text",
+          "text": "To make a Siri request, do any of the following:",
+          "content_region_ids": [
+            "Watch_Apple_User_Guide_1421"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00095.jpg",
+          "source_shapes": [
+            {
+              "id": "Watch_Apple_User_Guide_1421",
+              "shape": {
+                "x": 314.0000000000002,
+                "y": 134.7998046875001,
+                "width": 409.7947998046876,
+                "height": 33.881835937499886
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "Watch_Apple_User_Guide_1421",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 48
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.6632701575746766,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S4"
+        },
+        {
+          "chunk_id": "9f527db1-a6fd-53bf-9a09-1cc4531e4eb9",
+          "manual_id": "Watch_Apple_User_Guide",
+          "page_id": "Watch_Apple_User_Guide_00156",
+          "chunk_type": "text",
+          "text": "Use Siri to play audiobooks\n“Play the audiobook ‘In the Time of the Butterflies.’”",
+          "content_region_ids": [
+            "Watch_Apple_User_Guide_2692"
+          ],
+          "context_region_ids": [
+            "Watch_Apple_User_Guide_2690"
+          ],
+          "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00161.jpg",
+          "source_shapes": [
+            {
+              "id": "Watch_Apple_User_Guide_2692",
+              "shape": {
+                "x": 314.00000000000006,
+                "y": 769.7597656249999,
+                "width": 455.2720947265628,
+                "height": 33.88183593750023
+              }
+            },
+            {
+              "id": "Watch_Apple_User_Guide_2690",
+              "shape": {
+                "x": 314.00000000000006,
+                "y": 695.7792968750001,
+                "width": 263.30969238281256,
+                "height": 37.137207031249886
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "Watch_Apple_User_Guide_2692",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 54
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.6570273120562151,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S5"
+        }
+      ],
+      "excluded_sources": [],
+      "retrieved_chunk_ids": [
+        "91cf3488-feaa-55a5-befd-f9068dfb4f6c",
+        "b595456b-9abf-5dc0-9ad8-6bc60d1b78dd",
+        "169ecba8-4e08-5d1c-a1dc-9f18ac61d482",
+        "45bc80b7-ff04-52cb-a662-a26409f4a3cd",
+        "9f527db1-a6fd-53bf-9a09-1cc4531e4eb9"
+      ]
+    },
+    "C_english_hybrid": {
+      "sources": [
+        {
+          "chunk_id": "b595456b-9abf-5dc0-9ad8-6bc60d1b78dd",
+          "manual_id": "Watch_Apple_User_Guide",
+          "page_id": "Watch_Apple_User_Guide_00280",
+          "chunk_type": "text",
+          "text": "Use World Clock on AppleWatch to check the time in\nUse the World Clock app on your AppleWatch to check the time in cities around the globe.\nAsk Siri.Say something like: “What time is it in Auckland?”",
+          "content_region_ids": [
+            "Watch_Apple_User_Guide_5273",
+            "Watch_Apple_User_Guide_5274"
+          ],
+          "context_region_ids": [
+            "Watch_Apple_User_Guide_5272"
+          ],
+          "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00285.jpg",
+          "source_shapes": [
+            {
+              "id": "Watch_Apple_User_Guide_5273",
+              "shape": {
+                "x": 313.99999999999983,
+                "y": 260.68200683593733,
+                "width": 727.2965698242181,
+                "height": 52.8818359375
+              }
+            },
+            {
+              "id": "Watch_Apple_User_Guide_5274",
+              "shape": {
+                "x": 313.70599365234364,
+                "y": 326.2689208984374,
+                "width": 543.5660400390625,
+                "height": 34.70800781250006
+              }
+            },
+            {
+              "id": "Watch_Apple_User_Guide_5272",
+              "shape": {
+                "x": 313.00000000000006,
+                "y": 184.5870361328125,
+                "width": 703.7700805664058,
+                "height": 65.42968749999989
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "Watch_Apple_User_Guide_5273",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 88
+            },
+            {
+              "region_id": "Watch_Apple_User_Guide_5274",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 59
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.016001024065540194,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S1"
+        },
+        {
+          "chunk_id": "169ecba8-4e08-5d1c-a1dc-9f18ac61d482",
+          "manual_id": "Watch_Apple_User_Guide",
+          "page_id": "Watch_Apple_User_Guide_00248",
+          "chunk_type": "text",
+          "text": "Ask Siri.Say something like: “Set a timer for 20 minutes.”",
+          "content_region_ids": [
+            "Watch_Apple_User_Guide_5636"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00253.jpg",
+          "source_shapes": [
+            {
+              "id": "Watch_Apple_User_Guide_5636",
+              "shape": {
+                "x": 340.7059936523439,
+                "y": 295.60225423177087,
+                "width": 506.4146525065103,
+                "height": 26.708007812499943
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "Watch_Apple_User_Guide_5636",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 58
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.016001024065540194,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S2"
+        },
+        {
+          "chunk_id": "91cf3488-feaa-55a5-befd-f9068dfb4f6c",
+          "manual_id": "Watch_Apple_User_Guide",
+          "page_id": "Watch_Apple_User_Guide_00058",
+          "chunk_type": "text",
+          "text": "• Use Siri: Raise your wrist and say “What time is it?”",
+          "content_region_ids": [
+            "Watch_Apple_User_Guide_2253"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00063.jpg",
+          "source_shapes": [
+            {
+              "id": "Watch_Apple_User_Guide_2253",
+              "shape": {
+                "x": 314.00000000000006,
+                "y": 557.8819580078124,
+                "width": 476.68298339843767,
+                "height": 33.881835937500114
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "Watch_Apple_User_Guide_2253",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 55
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.014953478068232167,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S3"
+        },
+        {
+          "chunk_id": "77c1c2d1-4522-515f-9b26-d9e4d2fce697",
+          "manual_id": "Watch_Apple_User_Guide",
+          "page_id": "Watch_Apple_User_Guide_00089",
+          "chunk_type": "text",
+          "text": "Useful Siri commands\nAsk Siri.Say something like:\n• “How do you say ‘How are you?’ in Chinese?”\n• “Start a 30-minute outdoor run”\n• “Tell Kathleen I’m almost finished”\n• “Open the Sleep app”\n• “What song is this?”\n• “What causes rainbows?”\n• “What’s my update?”\n• “What kinds of things can I ask you?”",
+          "content_region_ids": [
+            "Watch_Apple_User_Guide_1409",
+            "Watch_Apple_User_Guide_1410",
+            "Watch_Apple_User_Guide_1411",
+            "Watch_Apple_User_Guide_1412",
+            "Watch_Apple_User_Guide_1413",
+            "Watch_Apple_User_Guide_1414",
+            "Watch_Apple_User_Guide_1415",
+            "Watch_Apple_User_Guide_1416",
+            "Watch_Apple_User_Guide_1417"
+          ],
+          "context_region_ids": [
+            "Watch_Apple_User_Guide_1406"
+          ],
+          "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00094.jpg",
+          "source_shapes": [
+            {
+              "id": "Watch_Apple_User_Guide_1409",
+              "shape": {
+                "x": 312.7059936523438,
+                "y": 735.9818725585938,
+                "width": 279.7228393554686,
+                "height": 32.7080078125
+              }
+            },
+            {
+              "id": "Watch_Apple_User_Guide_1410",
+              "shape": {
+                "x": 314,
+                "y": 776.3949584960944,
+                "width": 423.83404541015636,
+                "height": 33.88183593749932
+              }
+            },
+            {
+              "id": "Watch_Apple_User_Guide_1411",
+              "shape": {
+                "x": 314,
+                "y": 812.394958496094,
+                "width": 308.8483886718751,
+                "height": 33.88183593750034
+              }
+            },
+            {
+              "id": "Watch_Apple_User_Guide_1412",
+              "shape": {
+                "x": 314,
+                "y": 848.3949584960938,
+                "width": 328.252380371094,
+                "height": 33.881835937499886
+              }
+            },
+            {
+              "id": "Watch_Apple_User_Guide_1413",
+              "shape": {
+                "x": 314,
+                "y": 884.3949584960936,
+                "width": 217.2860107421876,
+                "height": 33.8818359375
+              }
+            },
+            {
+              "id": "Watch_Apple_User_Guide_1414",
+              "shape": {
+                "x": 314,
+                "y": 920.3949584960943,
+                "width": 205.5698242187501,
+                "height": 33.88183593749932
+              }
+            },
+            {
+              "id": "Watch_Apple_User_Guide_1415",
+              "shape": {
+                "x": 314,
+                "y": 956.3949584960931,
+                "width": 250.8594970703126,
+                "height": 33.88183593750057
+              }
+            },
+            {
+              "id": "Watch_Apple_User_Guide_1416",
+              "shape": {
+                "x": 314,
+                "y": 992.3949584960936,
+                "width": 212.06414794921875,
+                "height": 33.88189697265659
+              }
+            },
+            {
+              "id": "Watch_Apple_User_Guide_1417",
+              "shape": {
+                "x": 314,
+                "y": 1028.3950195312495,
+                "width": 354.43872070312534,
+                "height": 33.88183593750068
+              }
+            },
+            {
+              "id": "Watch_Apple_User_Guide_1406",
+              "shape": {
+                "x": 312.66666666666674,
+                "y": 498.41455078125017,
+                "width": 214.22908528645814,
+                "height": 26.137207031250057
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "Watch_Apple_User_Guide_1409",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 28
+            },
+            {
+              "region_id": "Watch_Apple_User_Guide_1410",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 45
+            },
+            {
+              "region_id": "Watch_Apple_User_Guide_1411",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 33
+            },
+            {
+              "region_id": "Watch_Apple_User_Guide_1412",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 37
+            },
+            {
+              "region_id": "Watch_Apple_User_Guide_1413",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 22
+            },
+            {
+              "region_id": "Watch_Apple_User_Guide_1414",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 22
+            },
+            {
+              "region_id": "Watch_Apple_User_Guide_1415",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 25
+            },
+            {
+              "region_id": "Watch_Apple_User_Guide_1416",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 21
+            },
+            {
+              "region_id": "Watch_Apple_User_Guide_1417",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 39
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.014389233954451346,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S4"
+        },
+        {
+          "chunk_id": "9f527db1-a6fd-53bf-9a09-1cc4531e4eb9",
+          "manual_id": "Watch_Apple_User_Guide",
+          "page_id": "Watch_Apple_User_Guide_00156",
+          "chunk_type": "text",
+          "text": "Use Siri to play audiobooks\n“Play the audiobook ‘In the Time of the Butterflies.’”",
+          "content_region_ids": [
+            "Watch_Apple_User_Guide_2692"
+          ],
+          "context_region_ids": [
+            "Watch_Apple_User_Guide_2690"
+          ],
+          "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00161.jpg",
+          "source_shapes": [
+            {
+              "id": "Watch_Apple_User_Guide_2692",
+              "shape": {
+                "x": 314.00000000000006,
+                "y": 769.7597656249999,
+                "width": 455.2720947265628,
+                "height": 33.88183593750023
+              }
+            },
+            {
+              "id": "Watch_Apple_User_Guide_2690",
+              "shape": {
+                "x": 314.00000000000006,
+                "y": 695.7792968750001,
+                "width": 263.30969238281256,
+                "height": 37.137207031249886
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "Watch_Apple_User_Guide_2692",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 54
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.014271255060728745,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S5"
+        }
+      ],
+      "excluded_sources": [],
+      "retrieved_chunk_ids": [
+        "b595456b-9abf-5dc0-9ad8-6bc60d1b78dd",
+        "169ecba8-4e08-5d1c-a1dc-9f18ac61d482",
+        "91cf3488-feaa-55a5-befd-f9068dfb4f6c",
+        "77c1c2d1-4522-515f-9b26-d9e4d2fce697",
+        "9f527db1-a6fd-53bf-9a09-1cc4531e4eb9"
+      ]
+    }
+  },
+  "retrieval_seconds": 1.7050594000029378
+}

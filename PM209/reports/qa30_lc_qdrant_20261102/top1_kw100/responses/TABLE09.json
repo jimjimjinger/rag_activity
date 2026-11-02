@@ -1,0 +1,125 @@
+{
+  "case_id": "TABLE09",
+  "manual_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)",
+  "question": "네트워크 아이콘의 R은 무엇을 뜻하나요?",
+  "english_query": "What does the R in the network icon mean?",
+  "keyword_percent": 100,
+  "variant": "top1_kw100",
+  "top_k": 1,
+  "retrieved_chunk_ids": [
+    "93e4f751-7ca8-5677-a623-3787635e591a"
+  ],
+  "sources": [
+    {
+      "chunk_id": "93e4f751-7ca8-5677-a623-3787635e591a",
+      "manual_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)",
+      "page_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00007",
+      "chunk_type": "text",
+      "text": "Notification and Status Icons\nNetwork status icons may vary depending on your region or network service provider.\nSupported functions vary depending on the device model. Some of the following icons",
+      "content_region_ids": [
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_184",
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_185"
+      ],
+      "context_region_ids": [
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_182"
+      ],
+      "image_filename": "images/HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)/images/HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00010.jpg",
+      "source_shapes": [
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_184",
+          "shape": {
+            "x": 132.81561279296872,
+            "y": 1115.3051757812505,
+            "width": 936.2029418945317,
+            "height": 28.125
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_185",
+          "shape": {
+            "x": 132.81561279296872,
+            "y": 1153.3051757812502,
+            "width": 943.5081176757815,
+            "height": 28.125000000000455
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_182",
+          "shape": {
+            "x": 90.04759216308597,
+            "y": 990.6762695312503,
+            "width": 558.4535064697268,
+            "height": 46.875000000000114
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_184",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 83
+        },
+        {
+          "region_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_185",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 83
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 12.686177253723145,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "excluded_sources": [],
+  "created_at": "2026-11-02T05:00:58.073929+00:00",
+  "status": "insufficient_evidence",
+  "answer": "검색된 매뉴얼 근거에서 질문에 대한 답을 확인하지 못했습니다.",
+  "source_ids": [],
+  "insufficient_evidence": true,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 52,
+        "prompt_eval_count": 392,
+        "total_duration": 759680000,
+        "load_duration": 6278800,
+        "attempt": 1,
+        "prompt_token_upper_bound": 2418
+      }
+    ],
+    "elapsed_seconds": 0.7647898999857716,
+    "backend": "LangChain ChatPromptTemplate | ChatOllama"
+  },
+  "citations": [],
+  "cited_figures": [],
+  "elapsed_seconds": 0.7648090000147931,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 66,
+    "utilization_percent": 82
+  }
+}

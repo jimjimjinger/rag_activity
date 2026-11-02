@@ -1,0 +1,246 @@
+{
+  "date": "2026-11-02",
+  "questions": 30,
+  "weights": {
+    "0": {
+      "keyword_percent": 0,
+      "dense_percent": 100,
+      "reused": true,
+      "verdicts": {
+        "correct": 20,
+        "partial": 5,
+        "incorrect": 2,
+        "no_answer": 2,
+        "error": 1
+      },
+      "correct_percent": 66.7,
+      "context_sufficiency": {
+        "sufficient": 23,
+        "partial": 4,
+        "insufficient": 3
+      },
+      "by_category": {
+        "text": {
+          "correct": 9,
+          "incorrect": 1
+        },
+        "table": {
+          "correct": 6,
+          "no_answer": 1,
+          "partial": 2,
+          "error": 1
+        },
+        "figure": {
+          "correct": 5,
+          "partial": 3,
+          "incorrect": 1,
+          "no_answer": 1
+        }
+      },
+      "annotation_region_hit_at_1": 23,
+      "annotation_region_hit_at_5": 28
+    },
+    "25": {
+      "keyword_percent": 25,
+      "dense_percent": 75,
+      "reused": false,
+      "verdicts": {
+        "correct": 17,
+        "partial": 8,
+        "incorrect": 2,
+        "no_answer": 2,
+        "error": 1
+      },
+      "correct_percent": 56.7,
+      "context_sufficiency": {
+        "sufficient": 23,
+        "insufficient": 4,
+        "partial": 3
+      },
+      "by_category": {
+        "text": {
+          "correct": 9,
+          "partial": 1
+        },
+        "table": {
+          "correct": 4,
+          "no_answer": 2,
+          "incorrect": 1,
+          "partial": 3
+        },
+        "figure": {
+          "partial": 4,
+          "correct": 4,
+          "error": 1,
+          "incorrect": 1
+        }
+      },
+      "annotation_region_hit_at_1": 23,
+      "annotation_region_hit_at_5": 29
+    },
+    "50": {
+      "keyword_percent": 50,
+      "dense_percent": 50,
+      "reused": true,
+      "verdicts": {
+        "correct": 18,
+        "partial": 5,
+        "incorrect": 4,
+        "no_answer": 2,
+        "error": 1
+      },
+      "correct_percent": 60.0,
+      "context_sufficiency": {
+        "sufficient": 22,
+        "insufficient": 4,
+        "partial": 4
+      },
+      "by_category": {
+        "text": {
+          "correct": 9,
+          "partial": 1
+        },
+        "table": {
+          "correct": 4,
+          "no_answer": 1,
+          "incorrect": 4,
+          "partial": 1
+        },
+        "figure": {
+          "correct": 5,
+          "partial": 3,
+          "error": 1,
+          "no_answer": 1
+        }
+      },
+      "annotation_region_hit_at_1": 22,
+      "annotation_region_hit_at_5": 29
+    },
+    "75": {
+      "keyword_percent": 75,
+      "dense_percent": 25,
+      "reused": false,
+      "verdicts": {
+        "correct": 15,
+        "partial": 7,
+        "incorrect": 6,
+        "no_answer": 2,
+        "error": 0
+      },
+      "correct_percent": 50.0,
+      "context_sufficiency": {
+        "sufficient": 20,
+        "insufficient": 4,
+        "partial": 6
+      },
+      "by_category": {
+        "text": {
+          "correct": 8,
+          "partial": 2
+        },
+        "table": {
+          "correct": 5,
+          "no_answer": 1,
+          "incorrect": 3,
+          "partial": 1
+        },
+        "figure": {
+          "partial": 4,
+          "no_answer": 1,
+          "incorrect": 3,
+          "correct": 2
+        }
+      },
+      "annotation_region_hit_at_1": 17,
+      "annotation_region_hit_at_5": 28
+    },
+    "100": {
+      "keyword_percent": 100,
+      "dense_percent": 0,
+      "reused": false,
+      "verdicts": {
+        "correct": 13,
+        "partial": 8,
+        "incorrect": 5,
+        "no_answer": 3,
+        "error": 1
+      },
+      "correct_percent": 43.3,
+      "context_sufficiency": {
+        "sufficient": 18,
+        "partial": 8,
+        "insufficient": 4
+      },
+      "by_category": {
+        "text": {
+          "correct": 8,
+          "partial": 2
+        },
+        "table": {
+          "correct": 3,
+          "no_answer": 2,
+          "incorrect": 3,
+          "partial": 2
+        },
+        "figure": {
+          "partial": 4,
+          "error": 1,
+          "incorrect": 2,
+          "no_answer": 1,
+          "correct": 2
+        }
+      },
+      "annotation_region_hit_at_1": 16,
+      "annotation_region_hit_at_5": 26
+    }
+  },
+  "new_run": {
+    "status": "completed_with_errors",
+    "started_at": "2026-11-02T00:40:29.357526+00:00",
+    "total": 90,
+    "processed": 90,
+    "stage": "complete",
+    "updated_at": "2026-11-02T00:43:14.063701+00:00",
+    "elapsed_seconds": 164.70600700000068,
+    "selected_payloads": 211,
+    "keyword_percent": 100,
+    "answered": 81,
+    "abstained": 7,
+    "errors": 2
+  },
+  "reviewer": "Codex assistant; not independent human grading",
+  "measurement": "Fixed English queries; 0/50 reused; 25/75/100 newly generated. Tuning set, not held-out evaluation.",
+  "resources": {
+    "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "observed_used_mib_min": 3834,
+    "observed_used_mib_max": 3836,
+    "observed_temperature_c_min": 57,
+    "observed_temperature_c_max": 70,
+    "observation_note": "Snapshots after responses, not continuous peak measurement.",
+    "attempts": 94,
+    "output_tokens_all_attempts": 8355,
+    "output_tokens_per_attempt_max": 292,
+    "done_reasons": {
+      "stop": 94
+    }
+  },
+  "same_input_check": {
+    "comparison": "same serialized original Korean question + evidence messages; answer settings/model fixed",
+    "same_input_groups": 16,
+    "text_or_status_variation_groups": 0,
+    "verdict_variation_groups": 0
+  },
+  "errors": [
+    {
+      "keyword_percent": 25,
+      "case_id": "FIG04",
+      "error": "답변 생성 검증 실패: 근거 부족 응답에는 채택한 근거 ID를 넣을 수 없습니다."
+    },
+    {
+      "keyword_percent": 100,
+      "case_id": "FIG02",
+      "error": "답변 생성 검증 실패: 근거 부족 응답에는 채택한 근거 ID를 넣을 수 없습니다."
+    }
+  ]
+}

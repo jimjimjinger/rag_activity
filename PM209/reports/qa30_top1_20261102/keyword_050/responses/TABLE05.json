@@ -1,0 +1,280 @@
+{
+  "case_id": "TABLE05",
+  "manual_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a",
+  "question": "시스템이 작동하지 않으면 어떻게 해야 하나요?",
+  "english_query": "What should I do if the system does not work?",
+  "keyword_percent": 50,
+  "dense_percent": 50,
+  "top_k": 1,
+  "retrieved_chunk_ids": [
+    "b53003b8-6559-5888-ab8c-8e6265119cdd"
+  ],
+  "sources": [
+    {
+      "chunk_id": "b53003b8-6559-5888-ab8c-8e6265119cdd",
+      "manual_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a",
+      "page_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00026",
+      "chunk_type": "table",
+      "text": "Troubleshooting\nFirst row (header unconfirmed): Column 1: Problem | Column 2: What to do\nColumn 1: Problem | Column 2: What to do\nColumn 1: System does not function | Column 2: . Make sure the power cord is fully plugged into an operating electrical outlet. Press On/Off to see if the display lights.",
+      "content_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_609"
+      ],
+      "context_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_592"
+      ],
+      "image_filename": "images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a/images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00027.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_609",
+          "shape": {
+            "x": 56.25,
+            "y": 152.1281147003174,
+            "width": 1100.25,
+            "height": 792.0
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_592",
+          "shape": {
+            "x": 71.99804687500003,
+            "y": 114.84631347656249,
+            "width": 224.74398803710935,
+            "height": 38.474868774414134
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_595",
+          "shape": {
+            "x": 80.39842224121094,
+            "y": 169.9004974365234,
+            "width": 79.84733581542969,
+            "height": 27.529434204101562
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_596",
+          "shape": {
+            "x": 338.2588500976563,
+            "y": 169.9004974365234,
+            "width": 104.2193298339842,
+            "height": 27.529434204101562
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_597",
+          "shape": {
+            "x": 80.39842224121094,
+            "y": 213.7802124023438,
+            "width": 231.55946350097673,
+            "height": 27.529083251953068
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "score": 0.015339578454332554,
+      "table_rows": [
+        0,
+        1
+      ],
+      "table_cells": [
+        {
+          "row": 0,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S1"
+    }
+  ],
+  "excluded_sources": [],
+  "top5_response_file": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_hybrid_20261102\\C_english_hybrid\\results.json",
+  "status": "answered",
+  "variant": "keyword_050",
+  "created_at": "2026-11-02T00:57:02.903843+00:00",
+  "answer": "시스템이 작동하지 않는 경우, 전원 코드를 작동하는 전기 콘센트에 완전히 꽂아 있는지 확인한 후, On/Off 버튼을 눌러 디스플레이가 켜지는지 확인하세요.",
+  "source_ids": [
+    "S1"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 69,
+        "prompt_eval_count": 436,
+        "total_duration": 974678400,
+        "load_duration": 5497100,
+        "attempt": 1,
+        "prompt_token_upper_bound": 2544
+      }
+    ],
+    "elapsed_seconds": 1.031074600003194,
+    "ollama_model": {
+      "name": "qwen3.5:4b",
+      "model": "qwen3.5:4b",
+      "size": 3214409726,
+      "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "4.2B",
+        "quantization_level": "Q4_K_M"
+      },
+      "expires_at": "2026-11-02T09:58:03.9329947+09:00",
+      "size_vram": 3214409726,
+      "context_length": 8192,
+      "runner": "llamacpp"
+    },
+    "observation_error": null
+  },
+  "citations": [
+    {
+      "chunk_id": "b53003b8-6559-5888-ab8c-8e6265119cdd",
+      "manual_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a",
+      "page_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00026",
+      "chunk_type": "table",
+      "text": "Troubleshooting\nFirst row (header unconfirmed): Column 1: Problem | Column 2: What to do\nColumn 1: Problem | Column 2: What to do\nColumn 1: System does not function | Column 2: . Make sure the power cord is fully plugged into an operating electrical outlet. Press On/Off to see if the display lights.",
+      "content_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_609"
+      ],
+      "context_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_592"
+      ],
+      "image_filename": "images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a/images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00027.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_609",
+          "shape": {
+            "x": 56.25,
+            "y": 152.1281147003174,
+            "width": 1100.25,
+            "height": 792.0
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_592",
+          "shape": {
+            "x": 71.99804687500003,
+            "y": 114.84631347656249,
+            "width": 224.74398803710935,
+            "height": 38.474868774414134
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_595",
+          "shape": {
+            "x": 80.39842224121094,
+            "y": 169.9004974365234,
+            "width": 79.84733581542969,
+            "height": 27.529434204101562
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_596",
+          "shape": {
+            "x": 338.2588500976563,
+            "y": 169.9004974365234,
+            "width": 104.2193298339842,
+            "height": 27.529434204101562
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_597",
+          "shape": {
+            "x": 80.39842224121094,
+            "y": 213.7802124023438,
+            "width": 231.55946350097673,
+            "height": 27.529083251953068
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "score": 0.015339578454332554,
+      "table_rows": [
+        0,
+        1
+      ],
+      "table_cells": [
+        {
+          "row": 0,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S1"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 1.0312353000044823,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 64,
+    "utilization_percent": 84
+  }
+}

@@ -1,0 +1,551 @@
+{
+  "case_id": "TEXT07",
+  "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+  "question": "Assistive Ball은 어떤 기능을 하나요?",
+  "english_query": "What functions does the Assistive Ball have?",
+  "keyword_percent": 0,
+  "variant": "top5_kw000",
+  "top_k": 5,
+  "retrieved_chunk_ids": [
+    "6146b317-3e23-5382-8186-4f414032ae3a",
+    "fb9875a4-d820-526e-8fee-4ea6732cd525",
+    "c3aa2ebd-c324-52b1-b0f1-0075ce8535fa",
+    "1b59c9da-78c0-5da5-bcd6-4320ec3eb3cb",
+    "55250b33-5875-50ce-aae4-6743a205aa1b"
+  ],
+  "sources": [
+    {
+      "chunk_id": "6146b317-3e23-5382-8186-4f414032ae3a",
+      "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+      "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00021",
+      "chunk_type": "text",
+      "text": "Assistive Ball\nAssistive Ball lets you complete different tasks quickly by using gestures or through the menu options. Path: Settings - System settings - Convenience tools - Assistive Ball.",
+      "content_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_468"
+      ],
+      "context_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_467"
+      ],
+      "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00021.jpg",
+      "source_shapes": [
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_468",
+          "shape": {
+            "x": 176.9999999999999,
+            "y": 1384.612487792969,
+            "width": 835.0000000000002,
+            "height": 88.99999999999955
+          }
+        },
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_467",
+          "shape": {
+            "x": 177.99999999999991,
+            "y": 1355.6124877929688,
+            "width": 132.00000000000009,
+            "height": 25.999999999999545
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_468",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 174
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.8243156422528517,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "fb9875a4-d820-526e-8fee-4ea6732cd525",
+      "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+      "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00046",
+      "chunk_type": "text",
+      "text": "Use Assistive Ball to take a screenshot\n1. Go to \"Settings - System settings - Convenience tools - Assistive Ball\", and turn on \"Assistive Ball\". 2. Choose \"Tap menu\". 3. Tap the Assistive Ball and tap the Screenshot icon.",
+      "content_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_348"
+      ],
+      "context_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_347"
+      ],
+      "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00046.jpg",
+      "source_shapes": [
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_348",
+          "shape": {
+            "x": 175.99999999999994,
+            "y": 271.6124954223633,
+            "width": 835.9999999999998,
+            "height": 120.0
+          }
+        },
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_347",
+          "shape": {
+            "x": 175,
+            "y": 240.61249542236322,
+            "width": 363.9999999999999,
+            "height": 26.999999999999943
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_348",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 182
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.6623718983086755,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "c3aa2ebd-c324-52b1-b0f1-0075ce8535fa",
+      "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+      "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00022",
+      "chunk_type": "text",
+      "text": "Menu control\nIn menu mode, tapping the Assistive Ball will display five buttons, which correspond to the following actions: • Go back to the previous page • Take a screenshot • Multitask • Lock the screen • Go back to the home screen To personalize your Assistive Ball: • Drag it to your preferred position on the screen. • Adjust its visibility. • Automatically hide it in full screen mode.",
+      "content_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_473"
+      ],
+      "context_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_478"
+      ],
+      "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00022.jpg",
+      "source_shapes": [
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_473",
+          "shape": {
+            "x": 176.0480041503906,
+            "y": 365.17508951822896,
+            "width": 833.9994201660155,
+            "height": 337.6209920247398
+          }
+        },
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_478",
+          "shape": {
+            "x": 177.33333333333323,
+            "y": 335.0750122070311,
+            "width": 136.66666666666677,
+            "height": 24.000000000000057
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_473",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 378
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.6550188129030801,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S3"
+    },
+    {
+      "chunk_id": "1b59c9da-78c0-5da5-bcd6-4320ec3eb3cb",
+      "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+      "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00022",
+      "chunk_type": "text",
+      "text": "Gesture controls\n• Tap the Assistive Ball to go back to the previous page. • Double-tap the Assistive Ball to enter multitask mode. • Tap and hold the Assistive Ball to go back to the home screen. You can customize gestures to suit your needs and preferences.",
+      "content_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_477"
+      ],
+      "context_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_476"
+      ],
+      "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00022.jpg",
+      "source_shapes": [
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_477",
+          "shape": {
+            "x": 175.99999999999991,
+            "y": 179.74166615804026,
+            "width": 569.333333333333,
+            "height": 124.00000000000003
+          }
+        },
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_476",
+          "shape": {
+            "x": 178.6666666666666,
+            "y": 149.74166615804035,
+            "width": 158.66666666666666,
+            "height": 23.333333333333314
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_477",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 242
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.6210687262510091,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S4"
+    },
+    {
+      "chunk_id": "55250b33-5875-50ce-aae4-6743a205aa1b",
+      "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+      "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00053",
+      "chunk_type": "text",
+      "text": "Assistive tools\n• Assistive Ball: Enable Assistive Ball to make your phone easier to use.\n• One-handed mode: In One-handed mode, the screen shrinks, so that you can use your phone with one hand.\n• Auto rotate: The screen will automatically rotate when you rotate your phone.",
+      "content_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_402",
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_403",
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_404"
+      ],
+      "context_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_408"
+      ],
+      "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00053.jpg",
+      "source_shapes": [
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_402",
+          "shape": {
+            "x": 180.3443004466869,
+            "y": 1399.0981354890039,
+            "width": 666.1181018970635,
+            "height": 22.826302987558847
+          }
+        },
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_403",
+          "shape": {
+            "x": 180.04800415039065,
+            "y": 1423.6696777343743,
+            "width": 829.8842468261714,
+            "height": 60.654785156251364
+          }
+        },
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_404",
+          "shape": {
+            "x": 180.04800415039065,
+            "y": 1486.0617675781252,
+            "width": 727.3109436035153,
+            "height": 29.454711914062273
+          }
+        },
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_408",
+          "shape": {
+            "x": 178.6625614872685,
+            "y": 1367.276765046296,
+            "width": 133.33333333333334,
+            "height": 19.259259259258897
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_402",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 73
+        },
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_403",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 104
+        },
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_404",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 79
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.6030393692938351,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S5"
+    }
+  ],
+  "excluded_sources": [],
+  "created_at": "2026-11-02T05:01:19.943042+00:00",
+  "status": "answered",
+  "answer": "Assistive Ball 은 제스처나 메뉴 옵션을 통해 다양한 작업을 빠르게 수행할 수 있도록 도와줍니다. 메뉴 모드에서는 뒤로 가기, 스크린샷 촬영, 멀티태스킹, 화면 잠금, 홈 화면으로 이동하는 5 가지 동작에 해당하는 버튼을 표시합니다. 또한, 뒤로 가기, 멀티태스킹 모드 진입, 홈 화면으로 이동하는 제스처를 통해 제어할 수 있습니다.",
+  "source_ids": [
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 131,
+        "prompt_eval_count": 779,
+        "total_duration": 2071462200,
+        "load_duration": 5593300,
+        "attempt": 1,
+        "prompt_token_upper_bound": 3998
+      }
+    ],
+    "elapsed_seconds": 2.079586300009396,
+    "backend": "LangChain ChatPromptTemplate | ChatOllama"
+  },
+  "citations": [
+    {
+      "chunk_id": "6146b317-3e23-5382-8186-4f414032ae3a",
+      "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+      "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00021",
+      "chunk_type": "text",
+      "text": "Assistive Ball\nAssistive Ball lets you complete different tasks quickly by using gestures or through the menu options. Path: Settings - System settings - Convenience tools - Assistive Ball.",
+      "content_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_468"
+      ],
+      "context_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_467"
+      ],
+      "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00021.jpg",
+      "source_shapes": [
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_468",
+          "shape": {
+            "x": 176.9999999999999,
+            "y": 1384.612487792969,
+            "width": 835.0000000000002,
+            "height": 88.99999999999955
+          }
+        },
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_467",
+          "shape": {
+            "x": 177.99999999999991,
+            "y": 1355.6124877929688,
+            "width": 132.00000000000009,
+            "height": 25.999999999999545
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_468",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 174
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.8243156422528517,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "fb9875a4-d820-526e-8fee-4ea6732cd525",
+      "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+      "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00046",
+      "chunk_type": "text",
+      "text": "Use Assistive Ball to take a screenshot\n1. Go to \"Settings - System settings - Convenience tools - Assistive Ball\", and turn on \"Assistive Ball\". 2. Choose \"Tap menu\". 3. Tap the Assistive Ball and tap the Screenshot icon.",
+      "content_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_348"
+      ],
+      "context_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_347"
+      ],
+      "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00046.jpg",
+      "source_shapes": [
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_348",
+          "shape": {
+            "x": 175.99999999999994,
+            "y": 271.6124954223633,
+            "width": 835.9999999999998,
+            "height": 120.0
+          }
+        },
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_347",
+          "shape": {
+            "x": 175,
+            "y": 240.61249542236322,
+            "width": 363.9999999999999,
+            "height": 26.999999999999943
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_348",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 182
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.6623718983086755,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "c3aa2ebd-c324-52b1-b0f1-0075ce8535fa",
+      "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+      "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00022",
+      "chunk_type": "text",
+      "text": "Menu control\nIn menu mode, tapping the Assistive Ball will display five buttons, which correspond to the following actions: • Go back to the previous page • Take a screenshot • Multitask • Lock the screen • Go back to the home screen To personalize your Assistive Ball: • Drag it to your preferred position on the screen. • Adjust its visibility. • Automatically hide it in full screen mode.",
+      "content_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_473"
+      ],
+      "context_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_478"
+      ],
+      "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00022.jpg",
+      "source_shapes": [
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_473",
+          "shape": {
+            "x": 176.0480041503906,
+            "y": 365.17508951822896,
+            "width": 833.9994201660155,
+            "height": 337.6209920247398
+          }
+        },
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_478",
+          "shape": {
+            "x": 177.33333333333323,
+            "y": 335.0750122070311,
+            "width": 136.66666666666677,
+            "height": 24.000000000000057
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_473",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 378
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.6550188129030801,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S3"
+    },
+    {
+      "chunk_id": "1b59c9da-78c0-5da5-bcd6-4320ec3eb3cb",
+      "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+      "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00022",
+      "chunk_type": "text",
+      "text": "Gesture controls\n• Tap the Assistive Ball to go back to the previous page. • Double-tap the Assistive Ball to enter multitask mode. • Tap and hold the Assistive Ball to go back to the home screen. You can customize gestures to suit your needs and preferences.",
+      "content_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_477"
+      ],
+      "context_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_476"
+      ],
+      "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00022.jpg",
+      "source_shapes": [
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_477",
+          "shape": {
+            "x": 175.99999999999991,
+            "y": 179.74166615804026,
+            "width": 569.333333333333,
+            "height": 124.00000000000003
+          }
+        },
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_476",
+          "shape": {
+            "x": 178.6666666666666,
+            "y": 149.74166615804035,
+            "width": 158.66666666666666,
+            "height": 23.333333333333314
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_477",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 242
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.6210687262510091,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S4"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 2.0797820999869145,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 65,
+    "utilization_percent": 81
+  }
+}

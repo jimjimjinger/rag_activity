@@ -1,0 +1,131 @@
+{
+  "case_id": "FIG02",
+  "manual_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122",
+  "question": "오디오 입력 커넥터에는 무엇을 사용해 연결하나요?",
+  "english_query": "What is used to connect the audio input connector?",
+  "keyword_percent": 50,
+  "dense_percent": 50,
+  "top_k": 1,
+  "retrieved_chunk_ids": [
+    "2f3fefc7-02fc-5728-910d-d53ca4a0f56d"
+  ],
+  "sources": [
+    {
+      "chunk_id": "2f3fefc7-02fc-5728-910d-d53ca4a0f56d",
+      "manual_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122",
+      "page_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_00008",
+      "chunk_type": "text",
+      "text": "Connecting an audio device\nHeadphone connector",
+      "content_region_ids": [
+        "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_124"
+      ],
+      "context_region_ids": [
+        "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_110"
+      ],
+      "image_filename": "images/bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122/images/bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_00008.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_124",
+          "shape": {
+            "x": 78.60324096679685,
+            "y": 551.091125488281,
+            "width": 85.66374206542966,
+            "height": 34.681030273437386
+          }
+        },
+        {
+          "id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_110",
+          "shape": {
+            "x": 71.99999999999996,
+            "y": 117.00406646728506,
+            "width": 446.59912109375006,
+            "height": 37.82520294189452
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_124",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 19
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.01565940787863959,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "excluded_sources": [],
+  "top5_response_file": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_hybrid_20261102\\C_english_hybrid\\results.json",
+  "status": "insufficient_evidence",
+  "variant": "keyword_050",
+  "created_at": "2026-11-02T00:57:10.711680+00:00",
+  "answer": "검색된 매뉴얼 근거에서 질문에 대한 답을 확인하지 못했습니다.",
+  "source_ids": [],
+  "insufficient_evidence": true,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 53,
+        "prompt_eval_count": 368,
+        "total_duration": 759081100,
+        "load_duration": 5201900,
+        "attempt": 1,
+        "prompt_token_upper_bound": 2281
+      }
+    ],
+    "elapsed_seconds": 0.8179120999993756,
+    "ollama_model": {
+      "name": "qwen3.5:4b",
+      "model": "qwen3.5:4b",
+      "size": 3214409726,
+      "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "4.2B",
+        "quantization_level": "Q4_K_M"
+      },
+      "expires_at": "2026-11-02T09:58:11.5284603+09:00",
+      "size_vram": 3214409726,
+      "context_length": 8192,
+      "runner": "llamacpp"
+    },
+    "observation_error": null
+  },
+  "citations": [],
+  "cited_figures": [],
+  "elapsed_seconds": 0.8180660999787506,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 67,
+    "utilization_percent": 85
+  }
+}

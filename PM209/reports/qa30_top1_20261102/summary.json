@@ -1,0 +1,296 @@
+{
+  "questions": 30,
+  "new_generation_count": 150,
+  "date": "2026-11-02",
+  "reviewer": "Codex assistant; not independent human grading",
+  "status": {
+    "status": "completed_with_errors",
+    "started_at": "2026-11-02T00:55:27.836981+00:00",
+    "total": 150,
+    "processed": 150,
+    "stage": "complete",
+    "updated_at": "2026-11-02T00:58:31.079581+00:00",
+    "elapsed_seconds": 183.2419151000213,
+    "keyword_percent": 100,
+    "answered": 119,
+    "abstained": 30,
+    "errors": 1
+  },
+  "weights": {
+    "0": {
+      "keyword_percent": 0,
+      "dense_percent": 100,
+      "top1_verdicts": {
+        "correct": 15,
+        "partial": 6,
+        "incorrect": 4,
+        "no_answer": 4,
+        "error": 1
+      },
+      "top1_correct": 15,
+      "top1_correct_percent": 50.0,
+      "top5_correct": 20,
+      "top5_correct_percent": 66.7,
+      "annotation_hit_at_1": 23,
+      "context_sufficiency": {
+        "sufficient": 17,
+        "partial": 5,
+        "insufficient": 8
+      },
+      "gained_correct_vs_top5": [],
+      "lost_correct_vs_top5": [
+        "TEXT08",
+        "TABLE02",
+        "TABLE04",
+        "FIG01",
+        "FIG02"
+      ],
+      "by_category": {
+        "text": {
+          "correct": 8,
+          "partial": 1,
+          "no_answer": 1
+        },
+        "table": {
+          "correct": 4,
+          "error": 1,
+          "incorrect": 2,
+          "partial": 2,
+          "no_answer": 1
+        },
+        "figure": {
+          "no_answer": 2,
+          "partial": 3,
+          "incorrect": 2,
+          "correct": 3
+        }
+      }
+    },
+    "25": {
+      "keyword_percent": 25,
+      "dense_percent": 75,
+      "top1_verdicts": {
+        "correct": 14,
+        "partial": 7,
+        "incorrect": 4,
+        "no_answer": 5,
+        "error": 0
+      },
+      "top1_correct": 14,
+      "top1_correct_percent": 46.7,
+      "top5_correct": 17,
+      "top5_correct_percent": 56.7,
+      "annotation_hit_at_1": 23,
+      "context_sufficiency": {
+        "sufficient": 16,
+        "insufficient": 8,
+        "partial": 6
+      },
+      "gained_correct_vs_top5": [
+        "TEXT06"
+      ],
+      "lost_correct_vs_top5": [
+        "TEXT08",
+        "TEXT09",
+        "TABLE04",
+        "FIG02"
+      ],
+      "by_category": {
+        "text": {
+          "correct": 8,
+          "no_answer": 1,
+          "partial": 1
+        },
+        "table": {
+          "correct": 3,
+          "no_answer": 2,
+          "incorrect": 2,
+          "partial": 3
+        },
+        "figure": {
+          "no_answer": 2,
+          "partial": 3,
+          "incorrect": 2,
+          "correct": 3
+        }
+      }
+    },
+    "50": {
+      "keyword_percent": 50,
+      "dense_percent": 50,
+      "top1_verdicts": {
+        "correct": 14,
+        "partial": 7,
+        "incorrect": 4,
+        "no_answer": 5,
+        "error": 0
+      },
+      "top1_correct": 14,
+      "top1_correct_percent": 46.7,
+      "top5_correct": 18,
+      "top5_correct_percent": 60.0,
+      "annotation_hit_at_1": 22,
+      "context_sufficiency": {
+        "sufficient": 16,
+        "insufficient": 8,
+        "partial": 6
+      },
+      "gained_correct_vs_top5": [
+        "TEXT06"
+      ],
+      "lost_correct_vs_top5": [
+        "TEXT08",
+        "TEXT09",
+        "TABLE09",
+        "FIG01",
+        "FIG02"
+      ],
+      "by_category": {
+        "text": {
+          "correct": 8,
+          "no_answer": 1,
+          "partial": 1
+        },
+        "table": {
+          "correct": 3,
+          "no_answer": 2,
+          "incorrect": 2,
+          "partial": 3
+        },
+        "figure": {
+          "no_answer": 2,
+          "partial": 3,
+          "incorrect": 2,
+          "correct": 3
+        }
+      }
+    },
+    "75": {
+      "keyword_percent": 75,
+      "dense_percent": 25,
+      "top1_verdicts": {
+        "correct": 12,
+        "partial": 6,
+        "incorrect": 4,
+        "no_answer": 8,
+        "error": 0
+      },
+      "top1_correct": 12,
+      "top1_correct_percent": 40.0,
+      "top5_correct": 15,
+      "top5_correct_percent": 50.0,
+      "annotation_hit_at_1": 17,
+      "context_sufficiency": {
+        "sufficient": 14,
+        "partial": 4,
+        "insufficient": 12
+      },
+      "gained_correct_vs_top5": [
+        "TEXT10",
+        "FIG06"
+      ],
+      "lost_correct_vs_top5": [
+        "TEXT08",
+        "TEXT09",
+        "TABLE03",
+        "TABLE05",
+        "TABLE09"
+      ],
+      "by_category": {
+        "text": {
+          "correct": 7,
+          "partial": 1,
+          "no_answer": 2
+        },
+        "table": {
+          "correct": 2,
+          "no_answer": 3,
+          "incorrect": 2,
+          "partial": 3
+        },
+        "figure": {
+          "no_answer": 3,
+          "incorrect": 2,
+          "correct": 3,
+          "partial": 2
+        }
+      }
+    },
+    "100": {
+      "keyword_percent": 100,
+      "dense_percent": 0,
+      "top1_verdicts": {
+        "correct": 11,
+        "partial": 6,
+        "incorrect": 5,
+        "no_answer": 8,
+        "error": 0
+      },
+      "top1_correct": 11,
+      "top1_correct_percent": 36.7,
+      "top5_correct": 13,
+      "top5_correct_percent": 43.3,
+      "annotation_hit_at_1": 16,
+      "context_sufficiency": {
+        "sufficient": 13,
+        "insufficient": 13,
+        "partial": 4
+      },
+      "gained_correct_vs_top5": [
+        "FIG06"
+      ],
+      "lost_correct_vs_top5": [
+        "TEXT04",
+        "TEXT08",
+        "TABLE03"
+      ],
+      "by_category": {
+        "text": {
+          "correct": 6,
+          "incorrect": 1,
+          "partial": 1,
+          "no_answer": 2
+        },
+        "table": {
+          "correct": 2,
+          "no_answer": 3,
+          "incorrect": 2,
+          "partial": 3
+        },
+        "figure": {
+          "no_answer": 3,
+          "incorrect": 2,
+          "correct": 3,
+          "partial": 2
+        }
+      }
+    }
+  },
+  "same_input_check": {
+    "unique_input_groups": 48,
+    "same_input_groups": 37,
+    "text_or_status_variation_groups": 6,
+    "verdict_variation_groups": 1
+  },
+  "resources": {
+    "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "observed_used_mib_min": 3830,
+    "observed_used_mib_max": 3834,
+    "observed_temperature_c_min": 57,
+    "observed_temperature_c_max": 72,
+    "attempts": 155,
+    "output_tokens_total": 10636,
+    "output_tokens_max": 130,
+    "done_reasons": {
+      "stop": 155
+    }
+  },
+  "errors": [
+    {
+      "keyword_percent": 0,
+      "case_id": "TABLE02",
+      "error": "답변 생성 검증 실패: 근거 부족 응답에는 채택한 근거 ID를 넣을 수 없습니다."
+    }
+  ]
+}

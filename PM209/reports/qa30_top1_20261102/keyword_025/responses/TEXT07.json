@@ -1,0 +1,184 @@
+{
+  "case_id": "TEXT07",
+  "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+  "question": "Assistive Ball은 어떤 기능을 하나요?",
+  "english_query": "What functions does the Assistive Ball have?",
+  "keyword_percent": 25,
+  "dense_percent": 75,
+  "top_k": 1,
+  "retrieved_chunk_ids": [
+    "6146b317-3e23-5382-8186-4f414032ae3a"
+  ],
+  "sources": [
+    {
+      "chunk_id": "6146b317-3e23-5382-8186-4f414032ae3a",
+      "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+      "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00021",
+      "chunk_type": "text",
+      "text": "Assistive Ball\nAssistive Ball lets you complete different tasks quickly by using gestures or through the menu options. Path: Settings - System settings - Convenience tools - Assistive Ball.",
+      "content_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_468"
+      ],
+      "context_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_467"
+      ],
+      "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00021.jpg",
+      "source_shapes": [
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_468",
+          "shape": {
+            "x": 176.9999999999999,
+            "y": 1384.612487792969,
+            "width": 835.0000000000002,
+            "height": 88.99999999999955
+          }
+        },
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_467",
+          "shape": {
+            "x": 177.99999999999991,
+            "y": 1355.6124877929688,
+            "width": 132.00000000000009,
+            "height": 25.999999999999545
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_468",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 174
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.016327340031729243,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "excluded_sources": [],
+  "top5_response_file": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_weights_20261102\\keyword_025\\results.json",
+  "status": "answered",
+  "variant": "keyword_025",
+  "created_at": "2026-11-02T00:56:16.800319+00:00",
+  "answer": "Assistive Ball 은 제스처나 메뉴 옵션을 사용하여 다양한 작업을 빠르게 완료할 수 있게 해줍니다.",
+  "source_ids": [
+    "S1"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 58,
+        "prompt_eval_count": 394,
+        "total_duration": 828662400,
+        "load_duration": 4703700,
+        "attempt": 1,
+        "prompt_token_upper_bound": 2400
+      }
+    ],
+    "elapsed_seconds": 0.8820215000014286,
+    "ollama_model": {
+      "name": "qwen3.5:4b",
+      "model": "qwen3.5:4b",
+      "size": 3214409726,
+      "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "4.2B",
+        "quantization_level": "Q4_K_M"
+      },
+      "expires_at": "2026-11-02T09:57:17.6809501+09:00",
+      "size_vram": 3214409726,
+      "context_length": 8192,
+      "runner": "llamacpp"
+    },
+    "observation_error": null
+  },
+  "citations": [
+    {
+      "chunk_id": "6146b317-3e23-5382-8186-4f414032ae3a",
+      "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+      "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00021",
+      "chunk_type": "text",
+      "text": "Assistive Ball\nAssistive Ball lets you complete different tasks quickly by using gestures or through the menu options. Path: Settings - System settings - Convenience tools - Assistive Ball.",
+      "content_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_468"
+      ],
+      "context_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_467"
+      ],
+      "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00021.jpg",
+      "source_shapes": [
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_468",
+          "shape": {
+            "x": 176.9999999999999,
+            "y": 1384.612487792969,
+            "width": 835.0000000000002,
+            "height": 88.99999999999955
+          }
+        },
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_467",
+          "shape": {
+            "x": 177.99999999999991,
+            "y": 1355.6124877929688,
+            "width": 132.00000000000009,
+            "height": 25.999999999999545
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_468",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 174
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.016327340031729243,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 0.882162399997469,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3832,
+    "temperature_c": 71,
+    "utilization_percent": 83
+  }
+}

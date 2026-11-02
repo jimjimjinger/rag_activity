@@ -1,0 +1,140 @@
+{
+  "case_id": "TEXT02",
+  "manual_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9",
+  "question": "모니터를 설치하기 전에 무엇을 해야 하나요?",
+  "english_query": "What should I do before installing the monitor?",
+  "keyword_percent": 50,
+  "variant": "top1_kw050",
+  "top_k": 1,
+  "retrieved_chunk_ids": [
+    "5e4b4267-ff79-5cd8-803b-6da941d6e757"
+  ],
+  "sources": [
+    {
+      "chunk_id": "5e4b4267-ff79-5cd8-803b-6da941d6e757",
+      "manual_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9",
+      "page_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00007",
+      "chunk_type": "text",
+      "text": "Before setting up the monitor, ensure that the power to the monitor, the computer system, and other attached devices is turned off.",
+      "content_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_230"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9/images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00007.jpg",
+      "source_shapes": [
+        {
+          "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_230",
+          "shape": {
+            "x": 93.81079864501955,
+            "y": 76.34643554687501,
+            "width": 647.1618576049805,
+            "height": 47.36328125
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_230",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 131
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.03131881575727918,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "excluded_sources": [],
+  "created_at": "2026-11-02T04:59:31.086530+00:00",
+  "status": "answered",
+  "answer": "모니터를 설치하기 전에 모니터, 컴퓨터 시스템 및 기타 연결된 장치의 전원을 끄는 것을 확인해야 합니다.",
+  "source_ids": [
+    "S1"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 61,
+        "prompt_eval_count": 383,
+        "total_duration": 875940600,
+        "load_duration": 5530400,
+        "attempt": 1,
+        "prompt_token_upper_bound": 2356
+      }
+    ],
+    "elapsed_seconds": 0.8829924000019673,
+    "backend": "LangChain ChatPromptTemplate | ChatOllama"
+  },
+  "citations": [
+    {
+      "chunk_id": "5e4b4267-ff79-5cd8-803b-6da941d6e757",
+      "manual_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9",
+      "page_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00007",
+      "chunk_type": "text",
+      "text": "Before setting up the monitor, ensure that the power to the monitor, the computer system, and other attached devices is turned off.",
+      "content_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_230"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9/images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00007.jpg",
+      "source_shapes": [
+        {
+          "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_230",
+          "shape": {
+            "x": 93.81079864501955,
+            "y": 76.34643554687501,
+            "width": 647.1618576049805,
+            "height": 47.36328125
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_230",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 131
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.03131881575727918,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 0.883050300006289,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3832,
+    "temperature_c": 74,
+    "utilization_percent": 83
+  }
+}

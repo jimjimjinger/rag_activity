@@ -1,0 +1,290 @@
+{
+  "case_id": "TEXT03",
+  "manual_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)",
+  "question": "PIN 식별 코드는 무엇인가요?",
+  "english_query": "What is the PIN identification code?",
+  "keyword_percent": 25,
+  "variant": "top1_kw025",
+  "top_k": 1,
+  "retrieved_chunk_ids": [
+    "7b7b7f36-ebb1-54f2-94ac-7e252fc8c858"
+  ],
+  "sources": [
+    {
+      "chunk_id": "7b7b7f36-ebb1-54f2-94ac-7e252fc8c858",
+      "manual_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)",
+      "page_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00071",
+      "chunk_type": "text",
+      "text": "Set a SIM PIN Lock\nA PIN is the identity code of a SIM card, and can be set as the SIM card lock. After you set it\nup, you will be required to enter the correct PIN to unlock the SIM card every time you power\non your tablet or switch to a new tablet to prevent unauthorized access.\nIf you have entered a wrong PIN and exceeded the maximum number of attempts allowed to\nunlock the PIN, you will need to enter the PIN Unlocking Key (PUK) then reset the PIN.",
+      "content_region_ids": [
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2061",
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2062",
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2063",
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2064",
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2065"
+      ],
+      "context_region_ids": [
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2060"
+      ],
+      "image_filename": "images/HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)/images/HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00074.jpg",
+      "source_shapes": [
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2061",
+          "shape": {
+            "x": 90.03160095214847,
+            "y": 819.2534790039061,
+            "width": 1009.3022613525397,
+            "height": 28.125
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2062",
+          "shape": {
+            "x": 90.03167724609378,
+            "y": 857.2534790039066,
+            "width": 1023.9718627929688,
+            "height": 28.124999999999773
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2063",
+          "shape": {
+            "x": 90.03167724609378,
+            "y": 895.2534790039062,
+            "width": 789.707153320313,
+            "height": 28.12499999999966
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2064",
+          "shape": {
+            "x": 90.03178405761717,
+            "y": 939.2534790039061,
+            "width": 1022.883621215821,
+            "height": 28.12500000000034
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2065",
+          "shape": {
+            "x": 90.03187561035156,
+            "y": 977.2534790039066,
+            "width": 1022.5429534912114,
+            "height": 28.125000000000455
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2060",
+          "shape": {
+            "x": 90.02362060546878,
+            "y": 772.0962524414064,
+            "width": 254.57226562500009,
+            "height": 32.8125
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2061",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 95
+        },
+        {
+          "region_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2062",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 93
+        },
+        {
+          "region_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2063",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 72
+        },
+        {
+          "region_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2064",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 86
+        },
+        {
+          "region_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2065",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 86
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.03244760150837499,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "excluded_sources": [],
+  "created_at": "2026-11-02T04:58:59.867574+00:00",
+  "status": "answered",
+  "answer": "PIN 식별 코드는 SIM 카드의 신원 코드이며, SIM 카드 잠금으로 설정할 수 있습니다. 이를 설정하면 태블릿을 켜거나 새로운 태블릿으로 전환할 때마다 올바른 PIN 을 입력해야 SIM 카드를 잠금 해제할 수 있습니다.",
+  "source_ids": [
+    "S1"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 92,
+        "prompt_eval_count": 462,
+        "total_duration": 1290867400,
+        "load_duration": 5935000,
+        "attempt": 1,
+        "prompt_token_upper_bound": 2662
+      }
+    ],
+    "elapsed_seconds": 1.2940732999995816,
+    "backend": "LangChain ChatPromptTemplate | ChatOllama"
+  },
+  "citations": [
+    {
+      "chunk_id": "7b7b7f36-ebb1-54f2-94ac-7e252fc8c858",
+      "manual_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)",
+      "page_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00071",
+      "chunk_type": "text",
+      "text": "Set a SIM PIN Lock\nA PIN is the identity code of a SIM card, and can be set as the SIM card lock. After you set it\nup, you will be required to enter the correct PIN to unlock the SIM card every time you power\non your tablet or switch to a new tablet to prevent unauthorized access.\nIf you have entered a wrong PIN and exceeded the maximum number of attempts allowed to\nunlock the PIN, you will need to enter the PIN Unlocking Key (PUK) then reset the PIN.",
+      "content_region_ids": [
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2061",
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2062",
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2063",
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2064",
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2065"
+      ],
+      "context_region_ids": [
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2060"
+      ],
+      "image_filename": "images/HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)/images/HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00074.jpg",
+      "source_shapes": [
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2061",
+          "shape": {
+            "x": 90.03160095214847,
+            "y": 819.2534790039061,
+            "width": 1009.3022613525397,
+            "height": 28.125
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2062",
+          "shape": {
+            "x": 90.03167724609378,
+            "y": 857.2534790039066,
+            "width": 1023.9718627929688,
+            "height": 28.124999999999773
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2063",
+          "shape": {
+            "x": 90.03167724609378,
+            "y": 895.2534790039062,
+            "width": 789.707153320313,
+            "height": 28.12499999999966
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2064",
+          "shape": {
+            "x": 90.03178405761717,
+            "y": 939.2534790039061,
+            "width": 1022.883621215821,
+            "height": 28.12500000000034
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2065",
+          "shape": {
+            "x": 90.03187561035156,
+            "y": 977.2534790039066,
+            "width": 1022.5429534912114,
+            "height": 28.125000000000455
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2060",
+          "shape": {
+            "x": 90.02362060546878,
+            "y": 772.0962524414064,
+            "width": 254.57226562500009,
+            "height": 32.8125
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2061",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 95
+        },
+        {
+          "region_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2062",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 93
+        },
+        {
+          "region_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2063",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 72
+        },
+        {
+          "region_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2064",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 86
+        },
+        {
+          "region_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2065",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 86
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.03244760150837499,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 1.2941485999908764,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3832,
+    "temperature_c": 62,
+    "utilization_percent": 85
+  }
+}

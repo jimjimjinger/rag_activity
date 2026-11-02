@@ -1,0 +1,162 @@
+{
+  "case_id": "FIG09",
+  "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+  "question": "전체 화면에서 알림 피드백을 줄이려면 어떻게 하나요?",
+  "english_query": "How do I reduce notification feedback in full screen mode?",
+  "keyword_percent": 100,
+  "variant": "top1_kw100",
+  "top_k": 1,
+  "retrieved_chunk_ids": [
+    "72d253f2-69df-5554-b0c7-591ae8332efa"
+  ],
+  "sources": [
+    {
+      "chunk_id": "72d253f2-69df-5554-b0c7-591ae8332efa",
+      "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+      "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00019",
+      "chunk_type": "text",
+      "text": "Reduce notification feedback in full screen\nWhen you're playing games or watching videos in full screen, ColorOS will soften notification sounds and reduce the vibration intensity to not interrupt your immersive experience. Path: Settings - Notifications & status bar - Manage notifications - More - Reduce notification feedback on full screen.",
+      "content_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_137"
+      ],
+      "context_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_139"
+      ],
+      "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00019.jpg",
+      "source_shapes": [
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_137",
+          "shape": {
+            "x": 175.04800415039062,
+            "y": 805.5684204101562,
+            "width": 835.3148498535157,
+            "height": 117.09600830078136
+          }
+        },
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_139",
+          "shape": {
+            "x": 175.99652862548828,
+            "y": 769.559051513672,
+            "width": 412.0000000000001,
+            "height": 31.999999999999886
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_137",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 300
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 43.87773132324219,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "excluded_sources": [],
+  "created_at": "2026-11-02T05:01:08.760055+00:00",
+  "status": "answered",
+  "answer": "전체 화면에서 알림 피드백을 줄이려면 설정 > 알림 및 상태 표시줄 > 알림 관리 > 기타 > 전체 화면에서 알림 피드백 감소 순서로 이동하여 해당 기능을 켜세요.",
+  "source_ids": [
+    "S1"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 74,
+        "prompt_eval_count": 420,
+        "total_duration": 1050002900,
+        "load_duration": 5546300,
+        "attempt": 1,
+        "prompt_token_upper_bound": 2583
+      }
+    ],
+    "elapsed_seconds": 1.0591070000082254,
+    "backend": "LangChain ChatPromptTemplate | ChatOllama"
+  },
+  "citations": [
+    {
+      "chunk_id": "72d253f2-69df-5554-b0c7-591ae8332efa",
+      "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+      "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00019",
+      "chunk_type": "text",
+      "text": "Reduce notification feedback in full screen\nWhen you're playing games or watching videos in full screen, ColorOS will soften notification sounds and reduce the vibration intensity to not interrupt your immersive experience. Path: Settings - Notifications & status bar - Manage notifications - More - Reduce notification feedback on full screen.",
+      "content_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_137"
+      ],
+      "context_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_139"
+      ],
+      "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00019.jpg",
+      "source_shapes": [
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_137",
+          "shape": {
+            "x": 175.04800415039062,
+            "y": 805.5684204101562,
+            "width": 835.3148498535157,
+            "height": 117.09600830078136
+          }
+        },
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_139",
+          "shape": {
+            "x": 175.99652862548828,
+            "y": 769.559051513672,
+            "width": 412.0000000000001,
+            "height": 31.999999999999886
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_137",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 300
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 43.87773132324219,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 1.059185600024648,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 66,
+    "utilization_percent": 85
+  }
+}

@@ -1,0 +1,2451 @@
+{
+  "case_id": "TEXT10",
+  "manual_id": "samsung_dish_washer_6918977 a",
+  "question": "유입되는 물의 온도는 얼마여야 하나요?",
+  "english_query": "What temperature should the incoming water be?",
+  "dense_candidates": [
+    {
+      "score": 0.6606352277821343,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_dish_washer_6918977 a",
+      "split": "val",
+      "page_id": "samsung_dish_washer_6918977 a_00006",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "samsung_dish_washer_6918977 a_145",
+        "samsung_dish_washer_6918977 a_146"
+      ],
+      "context_region_ids": [
+        "samsung_dish_washer_6918977 a_165"
+      ],
+      "image_filename": "images/samsung_dish_washer_6918977 a/images/6.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_dish_washer_6918977 a_145",
+          "shape": {
+            "x": 75.62000000000006,
+            "y": 211.13,
+            "width": 507.2500000000003,
+            "height": 105.71000000000038
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_146",
+          "shape": {
+            "x": 75.62000000000006,
+            "y": 329.2500000000004,
+            "width": 501.19000000000034,
+            "height": 131.5799999999998
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_165",
+          "shape": {
+            "x": 76.62000000000006,
+            "y": 152.44000000000005,
+            "width": 166.64000000000001,
+            "height": 43.379999999999995
+          }
+        }
+      ],
+      "title": "Hot Water",
+      "text": "Hot Water\nFor optimal cleaning and drying results, hot water is necessary. The incoming water temperature should be 120° F (49° C) to properly activate the detergent and melt greasy food soils.\nTo check the incoming water temperature, turn on the hot water faucet nearest the dishwasher and let it run into a glass in the sink. Place a candy thermometer in the glass and check the temperature once it has stopped rising.",
+      "char_count": 420,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_dish_washer_6918977 a_145",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 183
+        },
+        {
+          "region_id": "samsung_dish_washer_6918977 a_146",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 226
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "37a9e891-900d-5c2c-b5c8-7dfa202a72c8",
+      "text_sha256": "7a6ca43334e8f1cb935e99c8158445a661705a0ae9b2c2d4e5882ed6fd2766e7",
+      "token_count": 89
+    },
+    {
+      "score": 0.5025136337417444,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_dish_washer_6918977 a",
+      "split": "val",
+      "page_id": "samsung_dish_washer_6918977 a_00012",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "samsung_dish_washer_6918977 a_376",
+        "samsung_dish_washer_6918977 a_375"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_dish_washer_6918977 a/images/12.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_dish_washer_6918977 a_376",
+          "shape": {
+            "x": 397.90000000000003,
+            "y": 1011.56,
+            "width": 707.0999999999999,
+            "height": 49.20000000000027
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_375",
+          "shape": {
+            "x": 397.90000000000003,
+            "y": 1086.7300000000002,
+            "width": 736.1599999999994,
+            "height": 197.6199999999999
+          }
+        }
+      ],
+      "title": "",
+      "text": "• High Temp or Sanitize has been selected and the cycle is extended to heat water. • Check to see that the incoming water temperature is 120° F (49° C).\n• Run dishes being held in the dishwasher through a Rinse Only cycle. • Many dishwashers have a “new” smell when first installed. This will dissipate with use. • Dishwasher may not be draining properly. (See “Dishwasher Will Not Drain” section.) • For a strong odor, place baking soda in both sides of the detergent cup.",
+      "char_count": 473,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_dish_washer_6918977 a_376",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 152
+        },
+        {
+          "region_id": "samsung_dish_washer_6918977 a_375",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 320
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "40238ce1-9807-584d-be85-43fee70127a4",
+      "text_sha256": "1551020f34378cf5bcaeb30191088db8f89a609044f45b66e0f8dc6185016e64",
+      "token_count": 115
+    },
+    {
+      "score": 0.4779737691021379,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_dish_washer_6918977 a",
+      "split": "val",
+      "page_id": "samsung_dish_washer_6918977 a_00013",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "samsung_dish_washer_6918977 a_395",
+        "samsung_dish_washer_6918977 a_397"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_dish_washer_6918977 a/images/13.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_dish_washer_6918977 a_395",
+          "shape": {
+            "x": 395.8400000000004,
+            "y": 273.84,
+            "width": 736.1599999999996,
+            "height": 224.82000000000028
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_397",
+          "shape": {
+            "x": 395.8400000000004,
+            "y": 515.2800000000001,
+            "width": 736.2499999999995,
+            "height": 317.95000000000016
+          }
+        }
+      ],
+      "title": "",
+      "text": "• The lock indicator flashes and the countdown display (selected models) flashes an “L” if a pad is pressed while the control lock is enabled.\n• Select Extra Rinse (select models). • Check water temperature. Incoming water should be 120° F (49° C). • Always use a rinse aid. • Confirm that the cloudiness is removable by soaking the item in white vinegar for approximately 5 minutes. If removed, the problem is due to hard water. Adjust detergent amount being used to match water hardness (pg. 6).",
+      "char_count": 497,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_dish_washer_6918977 a_395",
+          "field": "ocr_normalized",
+          "start": 445,
+          "end": 587
+        },
+        {
+          "region_id": "samsung_dish_washer_6918977 a_397",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 354
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "92507c75-0062-5aef-9cdb-9bd58336f31d",
+      "text_sha256": "515f66878e637a937c508e86baa8767b29e5ee6bd60bf0fe3cf2f7f19f3cdbef",
+      "token_count": 114
+    },
+    {
+      "score": 0.46867022176653883,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_dish_washer_6918977 a",
+      "split": "val",
+      "page_id": "samsung_dish_washer_6918977 a_00013",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "samsung_dish_washer_6918977 a_404"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_dish_washer_6918977 a/images/13.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_dish_washer_6918977 a_404",
+          "shape": {
+            "x": 395.8400000000004,
+            "y": 849.0100000000008,
+            "width": 736.1899999999996,
+            "height": 351.4599999999997
+          }
+        }
+      ],
+      "title": "",
+      "text": "• Check water temperature (pg 6). • Run hot water at the sink before starting the dishwasher. • Select High Temp option. • Check water hardness and adjust detergent amount accordingly (pg. 6). • Use fresh detergent stored in a cool dry place. • Select proper cycle for the soil level (pg. 7). • Make sure the upper rack wash arm connector is correctly aligned in one of the water inlet holes (pg. 5). • Load items so they do not block the wash arms (pg. 2-5).",
+      "char_count": 459,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_dish_washer_6918977 a_404",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 459
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "3a394ae0-58ec-5c80-b2dd-a918b90ff1d0",
+      "text_sha256": "d2ef23a83edf997cd22d0ea06d393490aa0b2e726a24349493cb7f1b183180be",
+      "token_count": 111
+    },
+    {
+      "score": 0.4315997703711437,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_dish_washer_6918977 a",
+      "split": "val",
+      "page_id": "samsung_dish_washer_6918977 a_00014",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "samsung_dish_washer_6918977 a_413"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_dish_washer_6918977 a/images/14.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_dish_washer_6918977 a_413",
+          "shape": {
+            "x": 395.8500000000001,
+            "y": 206.01000000000016,
+            "width": 736.1399999999999,
+            "height": 300.2900000000001
+          }
+        }
+      ],
+      "title": "",
+      "text": "• Be sure Heated Dry is selected. • Water droplets may form on the inner door as part of the drying process. • Use a rinse aid separate from the detergent like Jet Dry* or Cascade Rinse Aid* regularly, to improve drying. Turn the rinse aid selector toward the MAX setting. • Check water temperature (pg. 6). • Select Sanitize. • Increase detergent amount to match water hardness (pg. 6). • Load properly. (pg.",
+      "char_count": 409,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_dish_washer_6918977 a_413",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 409
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "be376673-761f-57f0-8660-b87b92bbcbc6",
+      "text_sha256": "2f010aee64006f490cf44660d9c9ed6fbcd81efddf61c44cd338ae849366511d",
+      "token_count": 97
+    },
+    {
+      "score": 0.4113646657534693,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_dish_washer_6918977 a",
+      "split": "val",
+      "page_id": "samsung_dish_washer_6918977 a_00008",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "samsung_dish_washer_6918977 a_241"
+      ],
+      "context_region_ids": [
+        "samsung_dish_washer_6918977 a_231"
+      ],
+      "image_filename": "images/samsung_dish_washer_6918977 a/images/8.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_dish_washer_6918977 a_241",
+          "shape": {
+            "x": 321.94000000000017,
+            "y": 402.6200000000001,
+            "width": 586.3500000000003,
+            "height": 121.9799999999999
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_231",
+          "shape": {
+            "x": 172.38999999999996,
+            "y": 29.320000000000004,
+            "width": 862.7400000000001,
+            "height": 86.75999999999999
+          }
+        }
+      ],
+      "title": "CYCLES, OPTIONS AND LIGHTS",
+      "text": "CYCLES, OPTIONS AND LIGHTS\nSanitizes dishware. When cycle monitor recognizes that the proper conditions have been met, SANITIZED light will activate at the end of the cycle. Sanitization may not be achieved if there is an interruption of the cycle, power failure or if the incoming water temperature is below 120° F (49° C).",
+      "char_count": 324,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_dish_washer_6918977 a_241",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 297
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "e29bec1e-3dce-5e5a-a534-3cd4155e84c0",
+      "text_sha256": "f38e2104622bf2d5be67acb93c07926bf9f58c3af95901d5488e6d7698f884a8",
+      "token_count": 78
+    },
+    {
+      "score": 0.4077191637773756,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_dish_washer_6918977 a",
+      "split": "val",
+      "page_id": "samsung_dish_washer_6918977 a_00012",
+      "chunk_type": "table",
+      "content_region_ids": [
+        "samsung_dish_washer_6918977 a_392"
+      ],
+      "context_region_ids": [
+        "samsung_dish_washer_6918977 a_372"
+      ],
+      "image_filename": "images/samsung_dish_washer_6918977 a/images/12.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_dish_washer_6918977 a_392",
+          "shape": {
+            "x": 60.765586853027344,
+            "y": 163.26560783386233,
+            "width": 1095.7500000000002,
+            "height": 1305.0
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_372",
+          "shape": {
+            "x": 170.99000000000015,
+            "y": 29.130000000000003,
+            "width": 535.2900000000004,
+            "height": 86.75999999999996
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_382",
+          "shape": {
+            "x": 409.9000000000002,
+            "y": 178.48000000000002,
+            "width": 109.99999999999977,
+            "height": 26.51000000000002
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_385",
+          "shape": {
+            "x": 87.06000000000002,
+            "y": 1009.22,
+            "width": 292.6000000000002,
+            "height": 52.91000000000008
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_390",
+          "shape": {
+            "x": 86.06000000000003,
+            "y": 178.48000000000002,
+            "width": 107.27999999999997,
+            "height": 26.51000000000002
+          }
+        }
+      ],
+      "title": "TROUBLESHOOTING",
+      "text": "TROUBLESHOOTING\nFirst row (header unconfirmed): Column 1: PROBLEM | Column 2: SOLUTION\nColumn 1: Cycle takes too long (Heating light stays on) | Column 2: HighTemp orSanitize hasbeen selected and the cycle is extendedto heat water. Check to see that the incoming water temperature is 120°F (49°C)",
+      "char_count": 296,
+      "overlap_char_count": 0,
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "source_spans": [],
+      "table_rows": [
+        6
+      ],
+      "table_cells": [
+        {
+          "row": 6,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "chunk_id": "186804a2-70ee-5513-9810-d9dd7317a935",
+      "text_sha256": "60454a29200814e0ec28fb86c05c9e6049c9f34f2c58b69e3d26e44679082fd2",
+      "deduplicated_region_ids": [
+        "samsung_dish_washer_6918977 a_382",
+        "samsung_dish_washer_6918977 a_385",
+        "samsung_dish_washer_6918977 a_390"
+      ],
+      "token_count": 83
+    },
+    {
+      "score": 0.4011137850806065,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_dish_washer_6918977 a",
+      "split": "val",
+      "page_id": "samsung_dish_washer_6918977 a_00006",
+      "chunk_type": "table",
+      "content_region_ids": [
+        "samsung_dish_washer_6918977 a_162"
+      ],
+      "context_region_ids": [
+        "samsung_dish_washer_6918977 a_167"
+      ],
+      "image_filename": "images/samsung_dish_washer_6918977 a/images/6.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_dish_washer_6918977 a_162",
+          "shape": {
+            "x": 66.35000000000005,
+            "y": 913.3000000000002,
+            "width": 557.2400000000005,
+            "height": 322.4700000000014
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_167",
+          "shape": {
+            "x": 75.62000000000006,
+            "y": 658.4300000000002,
+            "width": 305.67000000000024,
+            "height": 33.73999999999967
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_157",
+          "shape": {
+            "x": 108.90000000000006,
+            "y": 928.5099999999994,
+            "width": 128.8100000000002,
+            "height": 48.50999999999999
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_158",
+          "shape": {
+            "x": 321.6600000000001,
+            "y": 928.5099999999994,
+            "width": 63.29000000000008,
+            "height": 48.50999999999999
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_159",
+          "shape": {
+            "x": 456.32999999999987,
+            "y": 928.5099999999994,
+            "width": 125.63000000000073,
+            "height": 48.50999999999999
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_169",
+          "shape": {
+            "x": 295.07000000000033,
+            "y": 989.010000000001,
+            "width": 116.74999999999972,
+            "height": 68.93999999999949
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_172",
+          "shape": {
+            "x": 296.9100000000001,
+            "y": 1068.0600000000002,
+            "width": 113.99000000000046,
+            "height": 68.95000000000095
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_174",
+          "shape": {
+            "x": 84.57,
+            "y": 1167.3400000000006,
+            "width": 185.68,
+            "height": 28.500000000000455
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_175",
+          "shape": {
+            "x": 295.9900000000003,
+            "y": 1144.3600000000004,
+            "width": 114.91000000000014,
+            "height": 71.70000000000005
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_176",
+          "shape": {
+            "x": 445.8300000000005,
+            "y": 1145.2800000000013,
+            "width": 129.60999999999945,
+            "height": 73.53999999999837
+          }
+        }
+      ],
+      "title": "Recommended Amount",
+      "text": "Recommended Amount\nFirst row (header unconfirmed): Column 1: WATER HARDNESS* | Column 2: SOIL LEVEL | Column 3: DETERGENT AMOUNT\nColumn 1: Hard (10-12 gpg) | Column 2: Light Soil Normal Soil Heavy Soil | Column 3: 9 teaspoons 10 teaspoons 12 teaspoons",
+      "char_count": 251,
+      "overlap_char_count": 0,
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "source_spans": [],
+      "table_rows": [
+        3
+      ],
+      "table_cells": [
+        {
+          "row": 3,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "chunk_id": "59b29a92-7203-5a62-ba9b-27b7ff2ad29b",
+      "text_sha256": "ebe586207308639585924c1fc12353a101673e957c3711ca33561155d517aa9b",
+      "deduplicated_region_ids": [
+        "samsung_dish_washer_6918977 a_157",
+        "samsung_dish_washer_6918977 a_158",
+        "samsung_dish_washer_6918977 a_159",
+        "samsung_dish_washer_6918977 a_169",
+        "samsung_dish_washer_6918977 a_172",
+        "samsung_dish_washer_6918977 a_174",
+        "samsung_dish_washer_6918977 a_175",
+        "samsung_dish_washer_6918977 a_176"
+      ],
+      "token_count": 79
+    },
+    {
+      "score": 0.3983059533495963,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_dish_washer_6918977 a",
+      "split": "val",
+      "page_id": "samsung_dish_washer_6918977 a_00007",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "samsung_dish_washer_6918977 a_206"
+      ],
+      "context_region_ids": [
+        "samsung_dish_washer_6918977 a_189"
+      ],
+      "image_filename": "images/samsung_dish_washer_6918977 a/images/7.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_dish_washer_6918977 a_206",
+          "shape": {
+            "x": 85.25000000000001,
+            "y": 1086.0499999999995,
+            "width": 1036.94,
+            "height": 176.23000000000047
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_189",
+          "shape": {
+            "x": 173.35999999999999,
+            "y": 28.130000000000003,
+            "width": 862.7399999999999,
+            "height": 86.75999999999996
+          }
+        }
+      ],
+      "title": "CYCLES, OPTIONS AND LIGHTS",
+      "text": "CYCLES, OPTIONS AND LIGHTS\nNotes • Depending on water temperature, there may be time added to the cycle to bring water up to temperature. • Cycle times shown in the numerical display will increase or decrease, based on each load’s soil level, water temperature and selected options. • Only the following certified cycles have been designed to meet NSF requirements (NSF/ANSI 184 Residential Dishwasher) for sanitization: Auto Clean, Heavy Wash, Normal Wash and Light Wash.",
+      "char_count": 472,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_dish_washer_6918977 a_206",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 445
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "cbba5bb2-34e5-5353-a247-8d4852a16985",
+      "text_sha256": "0f09a7c7c39e3444729c72d84cb0866c937725ea4481349cc648f6c4757b0fd7",
+      "token_count": 101
+    },
+    {
+      "score": 0.39015669981241574,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_dish_washer_6918977 a",
+      "split": "val",
+      "page_id": "samsung_dish_washer_6918977 a_00006",
+      "chunk_type": "table",
+      "content_region_ids": [
+        "samsung_dish_washer_6918977 a_162"
+      ],
+      "context_region_ids": [
+        "samsung_dish_washer_6918977 a_167"
+      ],
+      "image_filename": "images/samsung_dish_washer_6918977 a/images/6.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_dish_washer_6918977 a_162",
+          "shape": {
+            "x": 66.35000000000005,
+            "y": 913.3000000000002,
+            "width": 557.2400000000005,
+            "height": 322.4700000000014
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_167",
+          "shape": {
+            "x": 75.62000000000006,
+            "y": 658.4300000000002,
+            "width": 305.67000000000024,
+            "height": 33.73999999999967
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_144",
+          "shape": {
+            "x": 87.86000000000007,
+            "y": 987.0400000000008,
+            "width": 166.74000000000007,
+            "height": 67.25999999999965
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_157",
+          "shape": {
+            "x": 108.90000000000006,
+            "y": 928.5099999999994,
+            "width": 128.8100000000002,
+            "height": 48.50999999999999
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_158",
+          "shape": {
+            "x": 321.6600000000001,
+            "y": 928.5099999999994,
+            "width": 63.29000000000008,
+            "height": 48.50999999999999
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_159",
+          "shape": {
+            "x": 456.32999999999987,
+            "y": 928.5099999999994,
+            "width": 125.63000000000073,
+            "height": 48.50999999999999
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_169",
+          "shape": {
+            "x": 295.07000000000033,
+            "y": 989.010000000001,
+            "width": 116.74999999999972,
+            "height": 68.93999999999949
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_170",
+          "shape": {
+            "x": 442.1499999999997,
+            "y": 989.010000000001,
+            "width": 136.97000000000043,
+            "height": 71.69999999999925
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_171",
+          "shape": {
+            "x": 84.57,
+            "y": 1085.5300000000018,
+            "width": 195.8,
+            "height": 34.92999999999847
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_172",
+          "shape": {
+            "x": 296.9100000000001,
+            "y": 1068.0600000000002,
+            "width": 113.99000000000046,
+            "height": 68.95000000000095
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_173",
+          "shape": {
+            "x": 445.8300000000005,
+            "y": 1068.9800000000002,
+            "width": 129.60999999999945,
+            "height": 68.95000000000005
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_175",
+          "shape": {
+            "x": 295.9900000000003,
+            "y": 1144.3600000000004,
+            "width": 114.91000000000014,
+            "height": 71.70000000000005
+          }
+        }
+      ],
+      "title": "Recommended Amount",
+      "text": "Recommended Amount\nFirst row (header unconfirmed): Column 1: WATER HARDNESS* | Column 2: SOIL LEVEL | Column 3: DETERGENT AMOUNT\nColumn 1: WATER HARDNESS* | Column 2: SOIL LEVEL | Column 3: DETERGENT AMOUNT\nColumn 1: Soft (0-4 gpg) | Column 2: Light Soil Normal Soil Heavy Soil | Column 3: 5 teaspoons 6 teaspoons 8 teaspoons\nColumn 1: Medium (5-9 gpg) | Column 2: Light Soil NormalSoil Heavy Soil | Column 3: 7 teaspoons 8 teaspoons 10 teaspoons",
+      "char_count": 446,
+      "overlap_char_count": 0,
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "source_spans": [],
+      "table_rows": [
+        0,
+        1,
+        2
+      ],
+      "table_cells": [
+        {
+          "row": 0,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "chunk_id": "bbb828af-df26-541c-8ed7-9216cea91b32",
+      "text_sha256": "a3c03890642c0a2ed7e4b6a0445936b9321adf98e4da6681777b12901f5f73be",
+      "deduplicated_region_ids": [
+        "samsung_dish_washer_6918977 a_144",
+        "samsung_dish_washer_6918977 a_157",
+        "samsung_dish_washer_6918977 a_158",
+        "samsung_dish_washer_6918977 a_159",
+        "samsung_dish_washer_6918977 a_169",
+        "samsung_dish_washer_6918977 a_170",
+        "samsung_dish_washer_6918977 a_171",
+        "samsung_dish_washer_6918977 a_172",
+        "samsung_dish_washer_6918977 a_173",
+        "samsung_dish_washer_6918977 a_175"
+      ],
+      "token_count": 143
+    },
+    {
+      "score": 0.38739466761249364,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_dish_washer_6918977 a",
+      "split": "val",
+      "page_id": "samsung_dish_washer_6918977 a_00001",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "samsung_dish_washer_6918977 a_1"
+      ],
+      "context_region_ids": [
+        "samsung_dish_washer_6918977 a_26"
+      ],
+      "image_filename": "images/samsung_dish_washer_6918977 a/images/1.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_dish_washer_6918977 a_1",
+          "shape": {
+            "x": 654.13,
+            "y": 278.83000000000004,
+            "width": 498.0400000000003,
+            "height": 1127.6199999999994
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_26",
+          "shape": {
+            "x": 846.8900000000003,
+            "y": 177.94,
+            "width": 136.5699999999996,
+            "height": 33.74000000000004
+          }
+        }
+      ],
+      "title": "WARNING",
+      "text": "WARNING\nAlso, load sharp items so they are not likely to damage the door seal. 8. Do not touch the heating element on the bottom of the tub during or at the completion of a cycle. It will be hot. 9. Use only detergents and rinse additives designed for a residential automatic dishwasher. Never use soap, laundry detergent, or hand washing detergent in your dishwasher. Keep these products out of reach of children. 10. Do not sit, stand on or abuse the door or dish racks of the dishwasher.",
+      "char_count": 490,
+      "overlap_char_count": 71,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_dish_washer_6918977 a_1",
+          "field": "ocr_normalized",
+          "start": 745,
+          "end": 1227
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "b139261f-baf4-5a8c-9fe3-596ddf876493",
+      "text_sha256": "a304c5a2067fa84512d782b76d2d60d63830c4027dba20b6894fc7eff0444aeb",
+      "token_count": 110
+    },
+    {
+      "score": 0.38553361116696383,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_dish_washer_6918977 a",
+      "split": "val",
+      "page_id": "samsung_dish_washer_6918977 a_00013",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "samsung_dish_washer_6918977 a_397"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_dish_washer_6918977 a/images/13.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_dish_washer_6918977 a_397",
+          "shape": {
+            "x": 395.8400000000004,
+            "y": 515.2800000000001,
+            "width": 736.2499999999995,
+            "height": 317.95000000000016
+          }
+        }
+      ],
+      "title": "",
+      "text": "If etching has occurred, the glassware is permanently damaged. To prevent further etching, adjust the detergent amount to match the water hardness, stop prewashing, and use water heating options only when incoming water temperature is below 120° F (49° C).",
+      "char_count": 256,
+      "overlap_char_count": 63,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_dish_washer_6918977 a_397",
+          "field": "ocr_normalized",
+          "start": 659,
+          "end": 915
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "f473d679-48f7-51a5-840b-0162b7da9174",
+      "text_sha256": "700f233db389c962b1904546aad24cb89150755c526e148ea3b833ea5c170283",
+      "token_count": 57
+    },
+    {
+      "score": 0.38475472520519066,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_dish_washer_6918977 a",
+      "split": "val",
+      "page_id": "samsung_dish_washer_6918977 a_00006",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "samsung_dish_washer_6918977 a_151"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_dish_washer_6918977 a/images/6.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_dish_washer_6918977 a_151",
+          "shape": {
+            "x": 637.44,
+            "y": 194.85000000000002,
+            "width": 502.08000000000015,
+            "height": 78.79000000000008
+          }
+        }
+      ],
+      "title": "",
+      "text": "Add recommended amount of detergent to either side of the Main Wash compartment as shown and close the detergent lid.",
+      "char_count": 117,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_dish_washer_6918977 a_151",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 117
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "88cdf259-3424-50d2-a66a-cd3285b91446",
+      "text_sha256": "e1c16d3c5195583601bf48aec1b2d139b29c39113c18fdac902912e6d6ee8975",
+      "token_count": 21
+    },
+    {
+      "score": 0.37580098866808437,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_dish_washer_6918977 a",
+      "split": "val",
+      "page_id": "samsung_dish_washer_6918977 a_00011",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "samsung_dish_washer_6918977 a_359"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_dish_washer_6918977 a/images/11.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_dish_washer_6918977 a_359",
+          "shape": {
+            "x": 714.1900000000006,
+            "y": 985.7000000000004,
+            "width": 425.42999999999995,
+            "height": 21.25000000000034
+          }
+        }
+      ],
+      "title": "",
+      "text": "Switch dishwasher detergent to chlorine-based product.",
+      "char_count": 54,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_dish_washer_6918977 a_359",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 54
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "eb387fcc-4464-5864-a5d4-e6c66b4df47a",
+      "text_sha256": "5e5216e51671979092b0f40f622c23398186c823856cc9167194627f6477912b",
+      "token_count": 8
+    },
+    {
+      "score": 0.3748508184787903,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_dish_washer_6918977 a",
+      "split": "val",
+      "page_id": "samsung_dish_washer_6918977 a_00010",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "samsung_dish_washer_6918977 a_288"
+      ],
+      "context_region_ids": [
+        "samsung_dish_washer_6918977 a_332"
+      ],
+      "image_filename": "images/samsung_dish_washer_6918977 a/images/10.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_dish_washer_6918977 a_288",
+          "shape": {
+            "x": 327.03000000000026,
+            "y": 481.5899999999999,
+            "width": 450.6199999999995,
+            "height": 21.25000000000034
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_332",
+          "shape": {
+            "x": 175.50000000000003,
+            "y": 30.13,
+            "width": 862.73,
+            "height": 86.76000000000002
+          }
+        }
+      ],
+      "title": "CYCLES, OPTIONS AND LIGHTS",
+      "text": "CYCLES, OPTIONS AND LIGHTS\nIlluminates when cycle is being extended to heat the water.",
+      "char_count": 86,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_dish_washer_6918977 a_288",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 59
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "bc25148b-2741-5b59-8e5d-cc83f070e2d0",
+      "text_sha256": "a2cf3d628c852bfa50915ecad2d245097d15a0ec66d9d53c611d98f2b4c063ef",
+      "token_count": 23
+    },
+    {
+      "score": 0.3711257751120388,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_dish_washer_6918977 a",
+      "split": "val",
+      "page_id": "samsung_dish_washer_6918977 a_00010",
+      "chunk_type": "table",
+      "content_region_ids": [
+        "samsung_dish_washer_6918977 a_329"
+      ],
+      "context_region_ids": [
+        "samsung_dish_washer_6918977 a_331"
+      ],
+      "image_filename": "images/samsung_dish_washer_6918977 a/images/10.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_dish_washer_6918977 a_329",
+          "shape": {
+            "x": 67.03,
+            "y": 868.2800000000002,
+            "width": 1106.0599999999997,
+            "height": 646.1099999999988
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_331",
+          "shape": {
+            "x": 173.62999999999997,
+            "y": 741.62,
+            "width": 990.9199999999997,
+            "height": 79.5300000000002
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_293",
+          "shape": {
+            "x": 306.01000000000016,
+            "y": 919.4999999999994,
+            "width": 162.21999999999986,
+            "height": 21.260000000000332
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_294",
+          "shape": {
+            "x": 306.01000000000016,
+            "y": 955.4999999999994,
+            "width": 22.1099999999999,
+            "height": 21.260000000000673
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_298",
+          "shape": {
+            "x": 306.01000000000016,
+            "y": 1139.5,
+            "width": 26.25999999999982,
+            "height": 21.25999999999999
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_299",
+          "shape": {
+            "x": 306.01000000000016,
+            "y": 1175.500000000001,
+            "width": 22.1099999999999,
+            "height": 21.259999999999536
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_300",
+          "shape": {
+            "x": 306.01000000000016,
+            "y": 1211.5000000000002,
+            "width": 22.1099999999999,
+            "height": 21.25999999999999
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_302",
+          "shape": {
+            "x": 306.01000000000016,
+            "y": 1323.5,
+            "width": 26.25999999999982,
+            "height": 21.259999999999536
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_304",
+          "shape": {
+            "x": 306.01000000000016,
+            "y": 1475.5,
+            "width": 22.1099999999999,
+            "height": 21.259999999999764
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_305",
+          "shape": {
+            "x": 533.3199999999999,
+            "y": 918.8600000000002,
+            "width": 435.11000000000024,
+            "height": 21.259999999999422
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_318",
+          "shape": {
+            "x": 144.29,
+            "y": 958.8899999999995,
+            "width": 75.85000000000014,
+            "height": 21.690000000000623
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_319",
+          "shape": {
+            "x": 140.01,
+            "y": 919.89,
+            "width": 85.10999999999984,
+            "height": 21.68999999999994
+          }
+        }
+      ],
+      "title": "WHAT CAN AND CANNOT BE WASHED",
+      "text": "WHAT CAN AND CANNOT BE WASHED\nFirst row (header unconfirmed): Column 1: MATERIAL | Column 2: DISHWASHER SAFE? | Column 3: SPECIALJNFORMATION\nColumn 1: MATERIAL | Column 2: DISHWASHER SAFE? | Column 3: SPECIALJNFORMATION\nColumn 1: Aluminum | Column 2: Yes, except anodized. | Column 3: High water temperature and detergents may affect finish.\nColumn 1: Cast Iron | Column 2: No | Column 3: Seasoning willbe removed,and iron willrust",
+      "char_count": 431,
+      "overlap_char_count": 0,
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "source_spans": [],
+      "table_rows": [
+        0,
+        1,
+        2
+      ],
+      "table_cells": [
+        {
+          "row": 0,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "chunk_id": "1837fd3f-2d54-5325-82a2-d411826f951d",
+      "text_sha256": "6d689c8859e116a15c51e9f146362be98ee2a1be07e65abe9e9f4fb1fcd06a4d",
+      "deduplicated_region_ids": [
+        "samsung_dish_washer_6918977 a_293",
+        "samsung_dish_washer_6918977 a_294",
+        "samsung_dish_washer_6918977 a_298",
+        "samsung_dish_washer_6918977 a_299",
+        "samsung_dish_washer_6918977 a_300",
+        "samsung_dish_washer_6918977 a_302",
+        "samsung_dish_washer_6918977 a_304",
+        "samsung_dish_washer_6918977 a_305",
+        "samsung_dish_washer_6918977 a_318",
+        "samsung_dish_washer_6918977 a_319"
+      ],
+      "token_count": 128
+    },
+    {
+      "score": 0.36850750933833876,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_dish_washer_6918977 a",
+      "split": "val",
+      "page_id": "samsung_dish_washer_6918977 a_00001",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "samsung_dish_washer_6918977 a_1"
+      ],
+      "context_region_ids": [
+        "samsung_dish_washer_6918977 a_26"
+      ],
+      "image_filename": "images/samsung_dish_washer_6918977 a/images/1.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_dish_washer_6918977 a_1",
+          "shape": {
+            "x": 654.13,
+            "y": 278.83000000000004,
+            "width": 498.0400000000003,
+            "height": 1127.6199999999994
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_26",
+          "shape": {
+            "x": 846.8900000000003,
+            "y": 177.94,
+            "width": 136.5699999999996,
+            "height": 33.74000000000004
+          }
+        }
+      ],
+      "title": "WARNING",
+      "text": "WARNING\n10. Do not sit, stand on or abuse the door or dish racks of the dishwasher. 11. Under certain conditions, hydrogen gas may be produced in a hot water system that has not been used for two weeks or more. Hydrogen gas is explosive. If the hot water system has not been used for such a period, turn on all hot water faucets and let the water flow from each for several minutes. This will release any accumulated hydrogen gas.",
+      "char_count": 430,
+      "overlap_char_count": 76,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_dish_washer_6918977 a_1",
+          "field": "ocr_normalized",
+          "start": 1152,
+          "end": 1574
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "1fe0c75d-1611-5573-864a-6350ab3c28c6",
+      "text_sha256": "0eb9ead79e602096e25f6c376a458b9a662454a630578a96b8f5cd082be2b8be",
+      "token_count": 97
+    },
+    {
+      "score": 0.3646007446804671,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_dish_washer_6918977 a",
+      "split": "val",
+      "page_id": "samsung_dish_washer_6918977 a_00008",
+      "chunk_type": "table",
+      "content_region_ids": [
+        "samsung_dish_washer_6918977 a_235"
+      ],
+      "context_region_ids": [
+        "samsung_dish_washer_6918977 a_231"
+      ],
+      "image_filename": "images/samsung_dish_washer_6918977 a/images/8.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_dish_washer_6918977 a_235",
+          "shape": {
+            "x": 56.03,
+            "y": 237.39,
+            "width": 1111.9000000000008,
+            "height": 546.9200000000001
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_231",
+          "shape": {
+            "x": 172.38999999999996,
+            "y": 29.320000000000004,
+            "width": 862.7400000000001,
+            "height": 86.75999999999999
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_228",
+          "shape": {
+            "x": 155.95,
+            "y": 251.21000000000012,
+            "width": 82.5100000000001,
+            "height": 26.509999999999962
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_229",
+          "shape": {
+            "x": 533.66,
+            "y": 251.21000000000012,
+            "width": 148.13,
+            "height": 26.509999999999962
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_244",
+          "shape": {
+            "x": 148.5200000000001,
+            "y": 428.0899999999999,
+            "width": 81.06,
+            "height": 26.510000000000332
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_246",
+          "shape": {
+            "x": 936.63,
+            "y": 251.21000000000012,
+            "width": 192.44000000000017,
+            "height": 26.509999999999962
+          }
+        }
+      ],
+      "title": "CYCLES, OPTIONS AND LIGHTS",
+      "text": "CYCLES, OPTIONS AND LIGHTS\nFirst row (header unconfirmed): Column 1: OPTION | Column 2: DESCRIPTION | Column 3: USE WITH CYCLES\nColumn 1: Sanitize\nColumn 2\nSanitizes dishware. When cycle monitor recognizes thatthe proper conditions have been met,SANITIZED light will activate at the endofthe cycle. Sanitization may not be achieved if there is an interruptionofthe cycle,powerfailure or if the incoming water temperature is below 120°F (49°C).",
+      "char_count": 443,
+      "overlap_char_count": 0,
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "source_spans": [
+        {
+          "row": 2,
+          "column": 1,
+          "start": 0,
+          "end": 287,
+          "field": "normalized_cell_text"
+        }
+      ],
+      "table_rows": [
+        2
+      ],
+      "table_cells": [
+        {
+          "row": 2,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "chunk_id": "e094ae41-8eb4-5f88-93be-764c5d6c801f",
+      "text_sha256": "2d02ebe7b2265122ded1146528f4582b376a4bb2fbb74f16915617dd813ef643",
+      "deduplicated_region_ids": [
+        "samsung_dish_washer_6918977 a_228",
+        "samsung_dish_washer_6918977 a_229",
+        "samsung_dish_washer_6918977 a_244",
+        "samsung_dish_washer_6918977 a_246"
+      ],
+      "token_count": 116
+    },
+    {
+      "score": 0.36236487032937165,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_dish_washer_6918977 a",
+      "split": "val",
+      "page_id": "samsung_dish_washer_6918977 a_00004",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "samsung_dish_washer_6918977 a_94"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_dish_washer_6918977 a/images/4.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_dish_washer_6918977 a_94",
+          "shape": {
+            "x": 424.7000000000002,
+            "y": 437.49999999999994,
+            "width": 164.39999999999958,
+            "height": 212.80000000000013
+          }
+        }
+      ],
+      "title": "",
+      "text": "A dishwasher rack holding glassware and plates, showing adjustable tines and compartments designed to secure items during washing cycles.",
+      "char_count": 137,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "samsung_dish_washer_6918977 a_94",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 137
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "5a9e8fe4-05ad-56e9-bf9d-ec855ced9da5",
+      "text_sha256": "c1203bde95bf3980ccc1ca3bd3eca34b666c79d3a3856d097b66a0173f09150c",
+      "token_count": 23
+    },
+    {
+      "score": 0.3598318922188931,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_dish_washer_6918977 a",
+      "split": "val",
+      "page_id": "samsung_dish_washer_6918977 a_00014",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "samsung_dish_washer_6918977 a_408"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_dish_washer_6918977 a/images/14.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_dish_washer_6918977 a_408",
+          "shape": {
+            "x": 395.8500000000001,
+            "y": 638.2300000000002,
+            "width": 736.110000000001,
+            "height": 122.7900000000003
+          }
+        }
+      ],
+      "title": "",
+      "text": "• Sanitize was not selected. • Sanitization can only be achieved with the Auto Clean, Heavy Wash, Normal Wash or Light Wash cycles. • Sanitization may not be achieved if there is an interruption of the cycle, power failure or if incoming water temperature is below 120° F (49° C).",
+      "char_count": 280,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_dish_washer_6918977 a_408",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 280
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "41228125-00e8-54af-a698-080864e75a6b",
+      "text_sha256": "cb4f0576e6aaefcd0012fcfc628855cb6ae92aa6a9fd15b1c94c9b8f62025b8d",
+      "token_count": 68
+    }
+  ],
+  "keyword_candidates": [
+    {
+      "chunk_id": "37a9e891-900d-5c2c-b5c8-7dfa202a72c8",
+      "bm25_score": -18.783242713923613
+    },
+    {
+      "chunk_id": "f473d679-48f7-51a5-840b-0162b7da9174",
+      "bm25_score": -16.65644945726271
+    },
+    {
+      "chunk_id": "186804a2-70ee-5513-9810-d9dd7317a935",
+      "bm25_score": -14.650136439011014
+    },
+    {
+      "chunk_id": "c33bfcee-5ec2-5d87-bd59-f7831963574a",
+      "bm25_score": -14.484742986374041
+    },
+    {
+      "chunk_id": "41228125-00e8-54af-a698-080864e75a6b",
+      "bm25_score": -12.898177595891028
+    },
+    {
+      "chunk_id": "92507c75-0062-5aef-9cdb-9bd58336f31d",
+      "bm25_score": -12.765134653470717
+    },
+    {
+      "chunk_id": "e29bec1e-3dce-5e5a-a534-3cd4155e84c0",
+      "bm25_score": -12.003432377250139
+    },
+    {
+      "chunk_id": "cbba5bb2-34e5-5353-a247-8d4852a16985",
+      "bm25_score": -11.28501776513663
+    },
+    {
+      "chunk_id": "40238ce1-9807-584d-be85-43fee70127a4",
+      "bm25_score": -11.168230743164735
+    },
+    {
+      "chunk_id": "7f195ce4-c6e6-568d-8ca0-a3a2105391b0",
+      "bm25_score": -10.72769663429148
+    },
+    {
+      "chunk_id": "e094ae41-8eb4-5f88-93be-764c5d6c801f",
+      "bm25_score": -10.540979154237885
+    },
+    {
+      "chunk_id": "83a79db1-263c-5b84-8d73-9a4319c89c3d",
+      "bm25_score": -10.450036773994276
+    },
+    {
+      "chunk_id": "3a394ae0-58ec-5c80-b2dd-a918b90ff1d0",
+      "bm25_score": -9.09969949508821
+    },
+    {
+      "chunk_id": "be376673-761f-57f0-8660-b87b92bbcbc6",
+      "bm25_score": -9.092070605233623
+    },
+    {
+      "chunk_id": "579d915d-ec57-5e8d-9b69-c9bae9c41a51",
+      "bm25_score": -8.867045649414099
+    },
+    {
+      "chunk_id": "6f740848-343c-5137-b589-bb775e7acd3d",
+      "bm25_score": -7.5726988197069405
+    },
+    {
+      "chunk_id": "0f6c9799-fb52-58b0-abce-28eac7670760",
+      "bm25_score": -7.488776159062394
+    },
+    {
+      "chunk_id": "b871df31-83ee-5602-9533-3cd3fdfa22f7",
+      "bm25_score": -7.397200810048069
+    },
+    {
+      "chunk_id": "eec3f06a-fb69-52d0-a60e-1ba19bff56b2",
+      "bm25_score": -6.668772670987684
+    },
+    {
+      "chunk_id": "1837fd3f-2d54-5325-82a2-d411826f951d",
+      "bm25_score": -6.608096898291693
+    }
+  ],
+  "fused_candidates": [
+    {
+      "chunk_id": "37a9e891-900d-5c2c-b5c8-7dfa202a72c8",
+      "score": 0.01639344262295082,
+      "dense_rank": 1,
+      "dense_score": 0.6606352277821343,
+      "keyword_rank": 1,
+      "keyword_score": -18.783242713923613
+    },
+    {
+      "chunk_id": "92507c75-0062-5aef-9cdb-9bd58336f31d",
+      "score": 0.015512265512265512,
+      "dense_rank": 3,
+      "dense_score": 0.4779737691021379,
+      "keyword_rank": 6,
+      "keyword_score": -12.765134653470717
+    },
+    {
+      "chunk_id": "186804a2-70ee-5513-9810-d9dd7317a935",
+      "score": 0.015399194503672116,
+      "dense_rank": 7,
+      "dense_score": 0.4077191637773756,
+      "keyword_rank": 3,
+      "keyword_score": -14.650136439011014
+    },
+    {
+      "chunk_id": "40238ce1-9807-584d-be85-43fee70127a4",
+      "score": 0.015310892940626462,
+      "dense_rank": 2,
+      "dense_score": 0.5025136337417444,
+      "keyword_rank": 9,
+      "keyword_score": -11.168230743164735
+    },
+    {
+      "chunk_id": "e29bec1e-3dce-5e5a-a534-3cd4155e84c0",
+      "score": 0.015038444142921756,
+      "dense_rank": 6,
+      "dense_score": 0.4113646657534693,
+      "keyword_rank": 7,
+      "keyword_score": -12.003432377250139
+    },
+    {
+      "chunk_id": "f473d679-48f7-51a5-840b-0162b7da9174",
+      "score": 0.015008960573476702,
+      "dense_rank": 12,
+      "dense_score": 0.38553361116696383,
+      "keyword_rank": 2,
+      "keyword_score": -16.65644945726271
+    },
+    {
+      "chunk_id": "3a394ae0-58ec-5c80-b2dd-a918b90ff1d0",
+      "score": 0.01466181506849315,
+      "dense_rank": 4,
+      "dense_score": 0.46867022176653883,
+      "keyword_rank": 13,
+      "keyword_score": -9.09969949508821
+    },
+    {
+      "chunk_id": "cbba5bb2-34e5-5353-a247-8d4852a16985",
+      "score": 0.01459931798806479,
+      "dense_rank": 9,
+      "dense_score": 0.3983059533495963,
+      "keyword_rank": 8,
+      "keyword_score": -11.28501776513663
+    },
+    {
+      "chunk_id": "be376673-761f-57f0-8660-b87b92bbcbc6",
+      "score": 0.01444906444906445,
+      "dense_rank": 5,
+      "dense_score": 0.4315997703711437,
+      "keyword_rank": 14,
+      "keyword_score": -9.092070605233623
+    },
+    {
+      "chunk_id": "41228125-00e8-54af-a698-080864e75a6b",
+      "score": 0.013942307692307693,
+      "dense_rank": 20,
+      "dense_score": 0.3598318922188931,
+      "keyword_rank": 5,
+      "keyword_score": -12.898177595891028
+    },
+    {
+      "chunk_id": "e094ae41-8eb4-5f88-93be-764c5d6c801f",
+      "score": 0.01345250993138317,
+      "dense_rank": 18,
+      "dense_score": 0.3646007446804671,
+      "keyword_rank": 11,
+      "keyword_score": -10.540979154237885
+    },
+    {
+      "chunk_id": "1837fd3f-2d54-5325-82a2-d411826f951d",
+      "score": 0.012828947368421053,
+      "dense_rank": 16,
+      "dense_score": 0.3711257751120388,
+      "keyword_rank": 20,
+      "keyword_score": -6.608096898291693
+    },
+    {
+      "chunk_id": "c33bfcee-5ec2-5d87-bd59-f7831963574a",
+      "score": 0.0078125,
+      "keyword_rank": 4,
+      "keyword_score": -14.484742986374041
+    },
+    {
+      "chunk_id": "59b29a92-7203-5a62-ba9b-27b7ff2ad29b",
+      "score": 0.007352941176470588,
+      "dense_rank": 8,
+      "dense_score": 0.4011137850806065
+    },
+    {
+      "chunk_id": "bbb828af-df26-541c-8ed7-9216cea91b32",
+      "score": 0.007142857142857143,
+      "dense_rank": 10,
+      "dense_score": 0.39015669981241574
+    },
+    {
+      "chunk_id": "7f195ce4-c6e6-568d-8ca0-a3a2105391b0",
+      "score": 0.007142857142857143,
+      "keyword_rank": 10,
+      "keyword_score": -10.72769663429148
+    },
+    {
+      "chunk_id": "b139261f-baf4-5a8c-9fe3-596ddf876493",
+      "score": 0.007042253521126761,
+      "dense_rank": 11,
+      "dense_score": 0.38739466761249364
+    },
+    {
+      "chunk_id": "83a79db1-263c-5b84-8d73-9a4319c89c3d",
+      "score": 0.006944444444444444,
+      "keyword_rank": 12,
+      "keyword_score": -10.450036773994276
+    },
+    {
+      "chunk_id": "88cdf259-3424-50d2-a66a-cd3285b91446",
+      "score": 0.00684931506849315,
+      "dense_rank": 13,
+      "dense_score": 0.38475472520519066
+    },
+    {
+      "chunk_id": "eb387fcc-4464-5864-a5d4-e6c66b4df47a",
+      "score": 0.006756756756756757,
+      "dense_rank": 14,
+      "dense_score": 0.37580098866808437
+    },
+    {
+      "chunk_id": "bc25148b-2741-5b59-8e5d-cc83f070e2d0",
+      "score": 0.006666666666666667,
+      "dense_rank": 15,
+      "dense_score": 0.3748508184787903
+    },
+    {
+      "chunk_id": "579d915d-ec57-5e8d-9b69-c9bae9c41a51",
+      "score": 0.006666666666666667,
+      "keyword_rank": 15,
+      "keyword_score": -8.867045649414099
+    },
+    {
+      "chunk_id": "6f740848-343c-5137-b589-bb775e7acd3d",
+      "score": 0.006578947368421052,
+      "keyword_rank": 16,
+      "keyword_score": -7.5726988197069405
+    },
+    {
+      "chunk_id": "1fe0c75d-1611-5573-864a-6350ab3c28c6",
+      "score": 0.006493506493506494,
+      "dense_rank": 17,
+      "dense_score": 0.36850750933833876
+    },
+    {
+      "chunk_id": "0f6c9799-fb52-58b0-abce-28eac7670760",
+      "score": 0.006493506493506494,
+      "keyword_rank": 17,
+      "keyword_score": -7.488776159062394
+    },
+    {
+      "chunk_id": "b871df31-83ee-5602-9533-3cd3fdfa22f7",
+      "score": 0.00641025641025641,
+      "keyword_rank": 18,
+      "keyword_score": -7.397200810048069
+    },
+    {
+      "chunk_id": "5a9e8fe4-05ad-56e9-bf9d-ec855ced9da5",
+      "score": 0.006329113924050633,
+      "dense_rank": 19,
+      "dense_score": 0.36236487032937165
+    },
+    {
+      "chunk_id": "eec3f06a-fb69-52d0-a60e-1ba19bff56b2",
+      "score": 0.006329113924050633,
+      "keyword_rank": 19,
+      "keyword_score": -6.668772670987684
+    }
+  ],
+  "variants": {
+    "B_english_dense": {
+      "sources": [
+        {
+          "chunk_id": "37a9e891-900d-5c2c-b5c8-7dfa202a72c8",
+          "manual_id": "samsung_dish_washer_6918977 a",
+          "page_id": "samsung_dish_washer_6918977 a_00006",
+          "chunk_type": "text",
+          "text": "Hot Water\nFor optimal cleaning and drying results, hot water is necessary. The incoming water temperature should be 120° F (49° C) to properly activate the detergent and melt greasy food soils.\nTo check the incoming water temperature, turn on the hot water faucet nearest the dishwasher and let it run into a glass in the sink. Place a candy thermometer in the glass and check the temperature once it has stopped rising.",
+          "content_region_ids": [
+            "samsung_dish_washer_6918977 a_145",
+            "samsung_dish_washer_6918977 a_146"
+          ],
+          "context_region_ids": [
+            "samsung_dish_washer_6918977 a_165"
+          ],
+          "image_filename": "images/samsung_dish_washer_6918977 a/images/6.jpg",
+          "source_shapes": [
+            {
+              "id": "samsung_dish_washer_6918977 a_145",
+              "shape": {
+                "x": 75.62000000000006,
+                "y": 211.13,
+                "width": 507.2500000000003,
+                "height": 105.71000000000038
+              }
+            },
+            {
+              "id": "samsung_dish_washer_6918977 a_146",
+              "shape": {
+                "x": 75.62000000000006,
+                "y": 329.2500000000004,
+                "width": 501.19000000000034,
+                "height": 131.5799999999998
+              }
+            },
+            {
+              "id": "samsung_dish_washer_6918977 a_165",
+              "shape": {
+                "x": 76.62000000000006,
+                "y": 152.44000000000005,
+                "width": 166.64000000000001,
+                "height": 43.379999999999995
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "samsung_dish_washer_6918977 a_145",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 183
+            },
+            {
+              "region_id": "samsung_dish_washer_6918977 a_146",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 226
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.6606352277821343,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S1"
+        },
+        {
+          "chunk_id": "40238ce1-9807-584d-be85-43fee70127a4",
+          "manual_id": "samsung_dish_washer_6918977 a",
+          "page_id": "samsung_dish_washer_6918977 a_00012",
+          "chunk_type": "text",
+          "text": "• High Temp or Sanitize has been selected and the cycle is extended to heat water. • Check to see that the incoming water temperature is 120° F (49° C).\n• Run dishes being held in the dishwasher through a Rinse Only cycle. • Many dishwashers have a “new” smell when first installed. This will dissipate with use. • Dishwasher may not be draining properly. (See “Dishwasher Will Not Drain” section.) • For a strong odor, place baking soda in both sides of the detergent cup.",
+          "content_region_ids": [
+            "samsung_dish_washer_6918977 a_376",
+            "samsung_dish_washer_6918977 a_375"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/samsung_dish_washer_6918977 a/images/12.jpg",
+          "source_shapes": [
+            {
+              "id": "samsung_dish_washer_6918977 a_376",
+              "shape": {
+                "x": 397.90000000000003,
+                "y": 1011.56,
+                "width": 707.0999999999999,
+                "height": 49.20000000000027
+              }
+            },
+            {
+              "id": "samsung_dish_washer_6918977 a_375",
+              "shape": {
+                "x": 397.90000000000003,
+                "y": 1086.7300000000002,
+                "width": 736.1599999999994,
+                "height": 197.6199999999999
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "samsung_dish_washer_6918977 a_376",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 152
+            },
+            {
+              "region_id": "samsung_dish_washer_6918977 a_375",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 320
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.5025136337417444,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S2"
+        },
+        {
+          "chunk_id": "92507c75-0062-5aef-9cdb-9bd58336f31d",
+          "manual_id": "samsung_dish_washer_6918977 a",
+          "page_id": "samsung_dish_washer_6918977 a_00013",
+          "chunk_type": "text",
+          "text": "• The lock indicator flashes and the countdown display (selected models) flashes an “L” if a pad is pressed while the control lock is enabled.\n• Select Extra Rinse (select models). • Check water temperature. Incoming water should be 120° F (49° C). • Always use a rinse aid. • Confirm that the cloudiness is removable by soaking the item in white vinegar for approximately 5 minutes. If removed, the problem is due to hard water. Adjust detergent amount being used to match water hardness (pg. 6).",
+          "content_region_ids": [
+            "samsung_dish_washer_6918977 a_395",
+            "samsung_dish_washer_6918977 a_397"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/samsung_dish_washer_6918977 a/images/13.jpg",
+          "source_shapes": [
+            {
+              "id": "samsung_dish_washer_6918977 a_395",
+              "shape": {
+                "x": 395.8400000000004,
+                "y": 273.84,
+                "width": 736.1599999999996,
+                "height": 224.82000000000028
+              }
+            },
+            {
+              "id": "samsung_dish_washer_6918977 a_397",
+              "shape": {
+                "x": 395.8400000000004,
+                "y": 515.2800000000001,
+                "width": 736.2499999999995,
+                "height": 317.95000000000016
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "samsung_dish_washer_6918977 a_395",
+              "field": "ocr_normalized",
+              "start": 445,
+              "end": 587
+            },
+            {
+              "region_id": "samsung_dish_washer_6918977 a_397",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 354
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.4779737691021379,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S3"
+        },
+        {
+          "chunk_id": "3a394ae0-58ec-5c80-b2dd-a918b90ff1d0",
+          "manual_id": "samsung_dish_washer_6918977 a",
+          "page_id": "samsung_dish_washer_6918977 a_00013",
+          "chunk_type": "text",
+          "text": "• Check water temperature (pg 6). • Run hot water at the sink before starting the dishwasher. • Select High Temp option. • Check water hardness and adjust detergent amount accordingly (pg. 6). • Use fresh detergent stored in a cool dry place. • Select proper cycle for the soil level (pg. 7). • Make sure the upper rack wash arm connector is correctly aligned in one of the water inlet holes (pg. 5). • Load items so they do not block the wash arms (pg. 2-5).",
+          "content_region_ids": [
+            "samsung_dish_washer_6918977 a_404"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/samsung_dish_washer_6918977 a/images/13.jpg",
+          "source_shapes": [
+            {
+              "id": "samsung_dish_washer_6918977 a_404",
+              "shape": {
+                "x": 395.8400000000004,
+                "y": 849.0100000000008,
+                "width": 736.1899999999996,
+                "height": 351.4599999999997
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "samsung_dish_washer_6918977 a_404",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 459
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.46867022176653883,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S4"
+        },
+        {
+          "chunk_id": "be376673-761f-57f0-8660-b87b92bbcbc6",
+          "manual_id": "samsung_dish_washer_6918977 a",
+          "page_id": "samsung_dish_washer_6918977 a_00014",
+          "chunk_type": "text",
+          "text": "• Be sure Heated Dry is selected. • Water droplets may form on the inner door as part of the drying process. • Use a rinse aid separate from the detergent like Jet Dry* or Cascade Rinse Aid* regularly, to improve drying. Turn the rinse aid selector toward the MAX setting. • Check water temperature (pg. 6). • Select Sanitize. • Increase detergent amount to match water hardness (pg. 6). • Load properly. (pg.",
+          "content_region_ids": [
+            "samsung_dish_washer_6918977 a_413"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/samsung_dish_washer_6918977 a/images/14.jpg",
+          "source_shapes": [
+            {
+              "id": "samsung_dish_washer_6918977 a_413",
+              "shape": {
+                "x": 395.8500000000001,
+                "y": 206.01000000000016,
+                "width": 736.1399999999999,
+                "height": 300.2900000000001
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "samsung_dish_washer_6918977 a_413",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 409
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.4315997703711437,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S5"
+        }
+      ],
+      "excluded_sources": [],
+      "retrieved_chunk_ids": [
+        "37a9e891-900d-5c2c-b5c8-7dfa202a72c8",
+        "40238ce1-9807-584d-be85-43fee70127a4",
+        "92507c75-0062-5aef-9cdb-9bd58336f31d",
+        "3a394ae0-58ec-5c80-b2dd-a918b90ff1d0",
+        "be376673-761f-57f0-8660-b87b92bbcbc6"
+      ]
+    },
+    "C_english_hybrid": {
+      "sources": [
+        {
+          "chunk_id": "37a9e891-900d-5c2c-b5c8-7dfa202a72c8",
+          "manual_id": "samsung_dish_washer_6918977 a",
+          "page_id": "samsung_dish_washer_6918977 a_00006",
+          "chunk_type": "text",
+          "text": "Hot Water\nFor optimal cleaning and drying results, hot water is necessary. The incoming water temperature should be 120° F (49° C) to properly activate the detergent and melt greasy food soils.\nTo check the incoming water temperature, turn on the hot water faucet nearest the dishwasher and let it run into a glass in the sink. Place a candy thermometer in the glass and check the temperature once it has stopped rising.",
+          "content_region_ids": [
+            "samsung_dish_washer_6918977 a_145",
+            "samsung_dish_washer_6918977 a_146"
+          ],
+          "context_region_ids": [
+            "samsung_dish_washer_6918977 a_165"
+          ],
+          "image_filename": "images/samsung_dish_washer_6918977 a/images/6.jpg",
+          "source_shapes": [
+            {
+              "id": "samsung_dish_washer_6918977 a_145",
+              "shape": {
+                "x": 75.62000000000006,
+                "y": 211.13,
+                "width": 507.2500000000003,
+                "height": 105.71000000000038
+              }
+            },
+            {
+              "id": "samsung_dish_washer_6918977 a_146",
+              "shape": {
+                "x": 75.62000000000006,
+                "y": 329.2500000000004,
+                "width": 501.19000000000034,
+                "height": 131.5799999999998
+              }
+            },
+            {
+              "id": "samsung_dish_washer_6918977 a_165",
+              "shape": {
+                "x": 76.62000000000006,
+                "y": 152.44000000000005,
+                "width": 166.64000000000001,
+                "height": 43.379999999999995
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "samsung_dish_washer_6918977 a_145",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 183
+            },
+            {
+              "region_id": "samsung_dish_washer_6918977 a_146",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 226
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.01639344262295082,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S1"
+        },
+        {
+          "chunk_id": "92507c75-0062-5aef-9cdb-9bd58336f31d",
+          "manual_id": "samsung_dish_washer_6918977 a",
+          "page_id": "samsung_dish_washer_6918977 a_00013",
+          "chunk_type": "text",
+          "text": "• The lock indicator flashes and the countdown display (selected models) flashes an “L” if a pad is pressed while the control lock is enabled.\n• Select Extra Rinse (select models). • Check water temperature. Incoming water should be 120° F (49° C). • Always use a rinse aid. • Confirm that the cloudiness is removable by soaking the item in white vinegar for approximately 5 minutes. If removed, the problem is due to hard water. Adjust detergent amount being used to match water hardness (pg. 6).",
+          "content_region_ids": [
+            "samsung_dish_washer_6918977 a_395",
+            "samsung_dish_washer_6918977 a_397"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/samsung_dish_washer_6918977 a/images/13.jpg",
+          "source_shapes": [
+            {
+              "id": "samsung_dish_washer_6918977 a_395",
+              "shape": {
+                "x": 395.8400000000004,
+                "y": 273.84,
+                "width": 736.1599999999996,
+                "height": 224.82000000000028
+              }
+            },
+            {
+              "id": "samsung_dish_washer_6918977 a_397",
+              "shape": {
+                "x": 395.8400000000004,
+                "y": 515.2800000000001,
+                "width": 736.2499999999995,
+                "height": 317.95000000000016
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "samsung_dish_washer_6918977 a_395",
+              "field": "ocr_normalized",
+              "start": 445,
+              "end": 587
+            },
+            {
+              "region_id": "samsung_dish_washer_6918977 a_397",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 354
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.015512265512265512,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S2"
+        },
+        {
+          "chunk_id": "186804a2-70ee-5513-9810-d9dd7317a935",
+          "manual_id": "samsung_dish_washer_6918977 a",
+          "page_id": "samsung_dish_washer_6918977 a_00012",
+          "chunk_type": "table",
+          "text": "TROUBLESHOOTING\nFirst row (header unconfirmed): Column 1: PROBLEM | Column 2: SOLUTION\nColumn 1: Cycle takes too long (Heating light stays on) | Column 2: HighTemp orSanitize hasbeen selected and the cycle is extendedto heat water. Check to see that the incoming water temperature is 120°F (49°C)",
+          "content_region_ids": [
+            "samsung_dish_washer_6918977 a_392"
+          ],
+          "context_region_ids": [
+            "samsung_dish_washer_6918977 a_372"
+          ],
+          "image_filename": "images/samsung_dish_washer_6918977 a/images/12.jpg",
+          "source_shapes": [
+            {
+              "id": "samsung_dish_washer_6918977 a_392",
+              "shape": {
+                "x": 60.765586853027344,
+                "y": 163.26560783386233,
+                "width": 1095.7500000000002,
+                "height": 1305.0
+              }
+            },
+            {
+              "id": "samsung_dish_washer_6918977 a_372",
+              "shape": {
+                "x": 170.99000000000015,
+                "y": 29.130000000000003,
+                "width": 535.2900000000004,
+                "height": 86.75999999999996
+              }
+            },
+            {
+              "id": "samsung_dish_washer_6918977 a_382",
+              "shape": {
+                "x": 409.9000000000002,
+                "y": 178.48000000000002,
+                "width": 109.99999999999977,
+                "height": 26.51000000000002
+              }
+            },
+            {
+              "id": "samsung_dish_washer_6918977 a_385",
+              "shape": {
+                "x": 87.06000000000002,
+                "y": 1009.22,
+                "width": 292.6000000000002,
+                "height": 52.91000000000008
+              }
+            },
+            {
+              "id": "samsung_dish_washer_6918977 a_390",
+              "shape": {
+                "x": 86.06000000000003,
+                "y": 178.48000000000002,
+                "width": 107.27999999999997,
+                "height": 26.51000000000002
+              }
+            }
+          ],
+          "source_spans": [],
+          "content_origin": "paddle_table",
+          "quality_flags": [
+            "table_header_unmarked_review_required"
+          ],
+          "score": 0.015399194503672116,
+          "table_rows": [
+            6
+          ],
+          "table_cells": [
+            {
+              "row": 6,
+              "column": 0,
+              "rowspan": 1,
+              "colspan": 1
+            },
+            {
+              "row": 6,
+              "column": 1,
+              "rowspan": 1,
+              "colspan": 1
+            }
+          ],
+          "source_id": "S3"
+        },
+        {
+          "chunk_id": "40238ce1-9807-584d-be85-43fee70127a4",
+          "manual_id": "samsung_dish_washer_6918977 a",
+          "page_id": "samsung_dish_washer_6918977 a_00012",
+          "chunk_type": "text",
+          "text": "• High Temp or Sanitize has been selected and the cycle is extended to heat water. • Check to see that the incoming water temperature is 120° F (49° C).\n• Run dishes being held in the dishwasher through a Rinse Only cycle. • Many dishwashers have a “new” smell when first installed. This will dissipate with use. • Dishwasher may not be draining properly. (See “Dishwasher Will Not Drain” section.) • For a strong odor, place baking soda in both sides of the detergent cup.",
+          "content_region_ids": [
+            "samsung_dish_washer_6918977 a_376",
+            "samsung_dish_washer_6918977 a_375"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/samsung_dish_washer_6918977 a/images/12.jpg",
+          "source_shapes": [
+            {
+              "id": "samsung_dish_washer_6918977 a_376",
+              "shape": {
+                "x": 397.90000000000003,
+                "y": 1011.56,
+                "width": 707.0999999999999,
+                "height": 49.20000000000027
+              }
+            },
+            {
+              "id": "samsung_dish_washer_6918977 a_375",
+              "shape": {
+                "x": 397.90000000000003,
+                "y": 1086.7300000000002,
+                "width": 736.1599999999994,
+                "height": 197.6199999999999
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "samsung_dish_washer_6918977 a_376",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 152
+            },
+            {
+              "region_id": "samsung_dish_washer_6918977 a_375",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 320
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.015310892940626462,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S4"
+        },
+        {
+          "chunk_id": "e29bec1e-3dce-5e5a-a534-3cd4155e84c0",
+          "manual_id": "samsung_dish_washer_6918977 a",
+          "page_id": "samsung_dish_washer_6918977 a_00008",
+          "chunk_type": "text",
+          "text": "CYCLES, OPTIONS AND LIGHTS\nSanitizes dishware. When cycle monitor recognizes that the proper conditions have been met, SANITIZED light will activate at the end of the cycle. Sanitization may not be achieved if there is an interruption of the cycle, power failure or if the incoming water temperature is below 120° F (49° C).",
+          "content_region_ids": [
+            "samsung_dish_washer_6918977 a_241"
+          ],
+          "context_region_ids": [
+            "samsung_dish_washer_6918977 a_231"
+          ],
+          "image_filename": "images/samsung_dish_washer_6918977 a/images/8.jpg",
+          "source_shapes": [
+            {
+              "id": "samsung_dish_washer_6918977 a_241",
+              "shape": {
+                "x": 321.94000000000017,
+                "y": 402.6200000000001,
+                "width": 586.3500000000003,
+                "height": 121.9799999999999
+              }
+            },
+            {
+              "id": "samsung_dish_washer_6918977 a_231",
+              "shape": {
+                "x": 172.38999999999996,
+                "y": 29.320000000000004,
+                "width": 862.7400000000001,
+                "height": 86.75999999999999
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "samsung_dish_washer_6918977 a_241",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 297
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.015038444142921756,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S5"
+        }
+      ],
+      "excluded_sources": [],
+      "retrieved_chunk_ids": [
+        "37a9e891-900d-5c2c-b5c8-7dfa202a72c8",
+        "92507c75-0062-5aef-9cdb-9bd58336f31d",
+        "186804a2-70ee-5513-9810-d9dd7317a935",
+        "40238ce1-9807-584d-be85-43fee70127a4",
+        "e29bec1e-3dce-5e5a-a534-3cd4155e84c0"
+      ]
+    }
+  },
+  "retrieval_seconds": 1.6539514000178315
+}

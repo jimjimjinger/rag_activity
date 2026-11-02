@@ -1,0 +1,172 @@
+{
+  "case_id": "FIG05",
+  "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+  "question": "스피커의 AC 전원 공급장치는 몇 가지 유형이며 각각 어떻게 준비하나요?",
+  "english_query": "What are the types of AC power supply for the speaker, and how is each prepared?",
+  "keyword_percent": 50,
+  "variant": "top1_kw050",
+  "top_k": 1,
+  "retrieved_chunk_ids": [
+    "dae6f25d-d94d-5f84-9234-afdef58a8346"
+  ],
+  "sources": [
+    {
+      "chunk_id": "dae6f25d-d94d-5f84-9234-afdef58a8346",
+      "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+      "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00015",
+      "chunk_type": "text",
+      "text": "If using AC power, ensure: • Your system is connected to a working AC (mains) outlet. • You are using the Bose ® AC power supply shipped with your speaker or a Bose accessory charger designed for the speaker. If using battery power, the battery may be in protection mode or discharged. Connect to a working AC outlet to restore the battery to operational mode and charge the battery.\n• Ensure your speaker is discoverable (Bluetooth status indicator blinks blue).",
+      "content_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_155",
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_157"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00016.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_155",
+          "shape": {
+            "x": 161.30632909138996,
+            "y": 184.43835449218733,
+            "width": 556.3065859476719,
+            "height": 146.90686035156244
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_157",
+          "shape": {
+            "x": 164.57778930664048,
+            "y": 338.91192626953114,
+            "width": 545.0863952636716,
+            "height": 459.854309082031
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_155",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 383
+        },
+        {
+          "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_157",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 79
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.031746031746031744,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "excluded_sources": [],
+  "created_at": "2026-11-02T04:59:56.109758+00:00",
+  "status": "answered",
+  "answer": "스피커의 AC 전원 공급장치는 Bose ® 제품으로 제공된 AC 전원 공급 장치 또는 해당 스피커를 위한 Bose 액세서리 충전기를 사용하는 두 가지 유형입니다. 준비 방법은 다음과 같습니다: 시스템이 작동하는 AC (전원) 플러그에 연결되고, Bose ® AC 전원 공급 장치가 사용되어야 합니다.",
+  "source_ids": [
+    "S1"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 99,
+        "prompt_eval_count": 461,
+        "total_duration": 1379508400,
+        "load_duration": 7026100,
+        "attempt": 1,
+        "prompt_token_upper_bound": 2732
+      }
+    ],
+    "elapsed_seconds": 1.3872509999782778,
+    "backend": "LangChain ChatPromptTemplate | ChatOllama"
+  },
+  "citations": [
+    {
+      "chunk_id": "dae6f25d-d94d-5f84-9234-afdef58a8346",
+      "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+      "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00015",
+      "chunk_type": "text",
+      "text": "If using AC power, ensure: • Your system is connected to a working AC (mains) outlet. • You are using the Bose ® AC power supply shipped with your speaker or a Bose accessory charger designed for the speaker. If using battery power, the battery may be in protection mode or discharged. Connect to a working AC outlet to restore the battery to operational mode and charge the battery.\n• Ensure your speaker is discoverable (Bluetooth status indicator blinks blue).",
+      "content_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_155",
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_157"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00016.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_155",
+          "shape": {
+            "x": 161.30632909138996,
+            "y": 184.43835449218733,
+            "width": 556.3065859476719,
+            "height": 146.90686035156244
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_157",
+          "shape": {
+            "x": 164.57778930664048,
+            "y": 338.91192626953114,
+            "width": 545.0863952636716,
+            "height": 459.854309082031
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_155",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 383
+        },
+        {
+          "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_157",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 79
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.031746031746031744,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 1.3873300999985076,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 70,
+    "utilization_percent": 84
+  }
+}

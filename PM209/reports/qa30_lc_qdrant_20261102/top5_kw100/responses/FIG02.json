@@ -1,0 +1,443 @@
+{
+  "case_id": "FIG02",
+  "manual_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122",
+  "question": "오디오 입력 커넥터에는 무엇을 사용해 연결하나요?",
+  "english_query": "What is used to connect the audio input connector?",
+  "keyword_percent": 100,
+  "variant": "top5_kw100",
+  "top_k": 5,
+  "retrieved_chunk_ids": [
+    "2515cceb-89da-5ca3-a522-0bd6a5367cb6",
+    "eedbb743-2d61-589c-a9a7-b162f5986767",
+    "73081183-eddb-5dc4-a64f-1002b0cfbf46",
+    "b4f86778-49c7-5655-87cd-8b67d05d1ed7",
+    "22d7092d-2527-5214-978b-1809a33881d4"
+  ],
+  "sources": [
+    {
+      "chunk_id": "2515cceb-89da-5ca3-a522-0bd6a5367cb6",
+      "manual_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122",
+      "page_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_00004",
+      "chunk_type": "text",
+      "text": "The rear panel provides a power connector, audio input connectors, and room code switches.\nRoom Code – Four miniature switches used to set the room code. See “Checking the room code” on page 4. 1\nDC Power – A DC power input jack which accepts the power pack output cable. 2\nAUX IN – A 3.5 mm stereo input jack for connecting an external audio source (local source). 3\nBose® link – A multi-pin jack for connecting your speaker to a LIFESTYLE® system Bose link network. 4",
+      "content_region_ids": [
+        "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_242",
+        "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_243",
+        "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_244",
+        "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_245"
+      ],
+      "context_region_ids": [
+        "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_238"
+      ],
+      "image_filename": "images/bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122/images/bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_00004.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_242",
+          "shape": {
+            "x": 77.91998291015624,
+            "y": 428.9321594238282,
+            "width": 464.5432535807288,
+            "height": 46.69604492187449
+          }
+        },
+        {
+          "id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_243",
+          "shape": {
+            "x": 77.25331624348954,
+            "y": 486.1860860188796,
+            "width": 462.17789713541686,
+            "height": 41.48115030924504
+          }
+        },
+        {
+          "id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_244",
+          "shape": {
+            "x": 79.25333150227866,
+            "y": 540.8917846679685,
+            "width": 462.18960062662745,
+            "height": 42.69598388671909
+          }
+        },
+        {
+          "id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_245",
+          "shape": {
+            "x": 77.918212890625,
+            "y": 596.9321289062501,
+            "width": 439.213439941406,
+            "height": 42.696044921875
+          }
+        },
+        {
+          "id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_238",
+          "shape": {
+            "x": 71.99999999999997,
+            "y": 175.34397888183588,
+            "width": 443.00689697265614,
+            "height": 41.022003173828125
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_242",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 104
+        },
+        {
+          "region_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_243",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 77
+        },
+        {
+          "region_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_244",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 93
+        },
+        {
+          "region_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_245",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 101
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 26.50849723815918,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "eedbb743-2d61-589c-a9a7-b162f5986767",
+      "manual_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122",
+      "page_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_00004",
+      "chunk_type": "figure",
+      "text": "The rear panel provides a power connector, audio input connectors, and room code switches.\nA rear panel view of an electronic device showing four connection ports labeled as Remote Code (1), DC Power (2), AUX IN (3), and BNC IN (4). The image highlights these input/output interfaces for external connectivity.",
+      "content_region_ids": [
+        "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_252"
+      ],
+      "context_region_ids": [
+        "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_238"
+      ],
+      "image_filename": "images/bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122/images/bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_00004.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_252",
+          "shape": {
+            "x": 59.99999999999996,
+            "y": 221.60937500000003,
+            "width": 497.00000000000017,
+            "height": 179.00000000000003
+          }
+        },
+        {
+          "id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_238",
+          "shape": {
+            "x": 71.99999999999997,
+            "y": 175.34397888183588,
+            "width": 443.00689697265614,
+            "height": 41.022003173828125
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_252",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 219
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": 23.4804744720459,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "73081183-eddb-5dc4-a64f-1002b0cfbf46",
+      "manual_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122",
+      "page_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_00005",
+      "chunk_type": "figure",
+      "text": "Connecting the RoomMate® speaker to your system\nA close-up view of the rear panel of an audio device showing various input/output ports. A green arrow points to a Bose link OUT port with a cable plugged in. Visible ports include RCA connectors (red, white, yellow) and other audio/video inputs.",
+      "content_region_ids": [
+        "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_273"
+      ],
+      "context_region_ids": [
+        "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_259"
+      ],
+      "image_filename": "images/bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122/images/bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_00005.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_273",
+          "shape": {
+            "x": 110.99999999999997,
+            "y": 461.6406249999998,
+            "width": 325.0000000000002,
+            "height": 231.00000000000034
+          }
+        },
+        {
+          "id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_259",
+          "shape": {
+            "x": 93.60000610351553,
+            "y": 118.4440689086913,
+            "width": 441.64797973632824,
+            "height": 69.86524200439449
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_273",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 246
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": 22.90216636657715,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S3"
+    },
+    {
+      "chunk_id": "b4f86778-49c7-5655-87cd-8b67d05d1ed7",
+      "manual_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122",
+      "page_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_00005",
+      "chunk_type": "figure",
+      "text": "Connecting the RoomMate® speaker to your system\nA close-up view of the rear panel of an electronic device showing various input/output ports. A green arrow points to a multi-pin connector labeled 'Video In', which is being connected by a black cable. Other visible ports include 'Power Jack', 'DC Charger', and 'Audio Out'. The image serves as a visual guide for identifying connection points on the device.",
+      "content_region_ids": [
+        "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_270"
+      ],
+      "context_region_ids": [
+        "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_259"
+      ],
+      "image_filename": "images/bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122/images/bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_00005.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_270",
+          "shape": {
+            "x": 89.99999999999996,
+            "y": 253.64062499999994,
+            "width": 395.9999999999999,
+            "height": 138.99999999999994
+          }
+        },
+        {
+          "id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_259",
+          "shape": {
+            "x": 93.60000610351553,
+            "y": 118.4440689086913,
+            "width": 441.64797973632824,
+            "height": 69.86524200439449
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_270",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 359
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": 21.47372817993164,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S4"
+    },
+    {
+      "chunk_id": "22d7092d-2527-5214-978b-1809a33881d4",
+      "manual_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122",
+      "page_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_00005",
+      "chunk_type": "figure",
+      "text": "A diagram showing the rear panel of a Bose LIFESTYLE system with a green cable plugged into the 'Bose link Speakers' connector. The image illustrates connecting audio equipment via the Bose link cable to this specific input port.",
+      "content_region_ids": [
+        "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_278"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122/images/bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_00005.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_278",
+          "shape": {
+            "x": 682.0000000000001,
+            "y": 115.609375,
+            "width": 472.0000000000001,
+            "height": 305.00000000000006
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_278",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 229
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": 21.36507225036621,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S5"
+    }
+  ],
+  "excluded_sources": [],
+  "created_at": "2026-11-02T05:05:22.103167+00:00",
+  "status": "answered",
+  "answer": "오디오 입력 커넥터(AUX IN)에는 외부 오디오 소스(로컬 소스)를 연결하기 위한 3.5mm 스테레오 입력 잭을 사용합니다.",
+  "source_ids": [
+    "S1"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 70,
+        "prompt_eval_count": 833,
+        "total_duration": 1357354400,
+        "load_duration": 4901300,
+        "attempt": 1,
+        "prompt_token_upper_bound": 4278
+      }
+    ],
+    "elapsed_seconds": 1.362654799973825,
+    "backend": "LangChain ChatPromptTemplate | ChatOllama"
+  },
+  "citations": [
+    {
+      "chunk_id": "2515cceb-89da-5ca3-a522-0bd6a5367cb6",
+      "manual_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122",
+      "page_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_00004",
+      "chunk_type": "text",
+      "text": "The rear panel provides a power connector, audio input connectors, and room code switches.\nRoom Code – Four miniature switches used to set the room code. See “Checking the room code” on page 4. 1\nDC Power – A DC power input jack which accepts the power pack output cable. 2\nAUX IN – A 3.5 mm stereo input jack for connecting an external audio source (local source). 3\nBose® link – A multi-pin jack for connecting your speaker to a LIFESTYLE® system Bose link network. 4",
+      "content_region_ids": [
+        "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_242",
+        "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_243",
+        "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_244",
+        "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_245"
+      ],
+      "context_region_ids": [
+        "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_238"
+      ],
+      "image_filename": "images/bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122/images/bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_00004.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_242",
+          "shape": {
+            "x": 77.91998291015624,
+            "y": 428.9321594238282,
+            "width": 464.5432535807288,
+            "height": 46.69604492187449
+          }
+        },
+        {
+          "id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_243",
+          "shape": {
+            "x": 77.25331624348954,
+            "y": 486.1860860188796,
+            "width": 462.17789713541686,
+            "height": 41.48115030924504
+          }
+        },
+        {
+          "id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_244",
+          "shape": {
+            "x": 79.25333150227866,
+            "y": 540.8917846679685,
+            "width": 462.18960062662745,
+            "height": 42.69598388671909
+          }
+        },
+        {
+          "id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_245",
+          "shape": {
+            "x": 77.918212890625,
+            "y": 596.9321289062501,
+            "width": 439.213439941406,
+            "height": 42.696044921875
+          }
+        },
+        {
+          "id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_238",
+          "shape": {
+            "x": 71.99999999999997,
+            "y": 175.34397888183588,
+            "width": 443.00689697265614,
+            "height": 41.022003173828125
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_242",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 104
+        },
+        {
+          "region_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_243",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 77
+        },
+        {
+          "region_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_244",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 93
+        },
+        {
+          "region_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_245",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 101
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 26.50849723815918,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 1.3627518999855965,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 67,
+    "utilization_percent": 86
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "case_id": "TABLE02",
+  "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+  "question": "제품 패키지에는 어떤 구성품이 들어 있어야 하나요?",
+  "english_query": "What components should be included in the product package?",
+  "keyword_percent": 0,
+  "dense_percent": 100,
+  "top_k": 1,
+  "retrieved_chunk_ids": [
+    "409d262c-b26f-5067-922d-a42c9ce2a1b1"
+  ],
+  "sources": [
+    {
+      "chunk_id": "409d262c-b26f-5067-922d-a42c9ce2a1b1",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00001",
+      "chunk_type": "text",
+      "text": "Package Contents\nBe sure to check that the package contains all the items listed below:",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_11"
+      ],
+      "context_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_2"
+      ],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00002.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_11",
+          "shape": {
+            "x": 175.0000000000001,
+            "y": 517.6093749999999,
+            "width": 643.0000000000003,
+            "height": 29.000000000000114
+          }
+        },
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_2",
+          "shape": {
+            "x": 174.8399963378907,
+            "y": 474.95278930664085,
+            "width": 193.29559326171866,
+            "height": 28.044128417968864
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_11",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 70
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.6826876508425146,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "excluded_sources": [],
+  "top5_response_file": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_hybrid_20261102\\B_english_dense\\results.json",
+  "status": "failed",
+  "variant": "keyword_000",
+  "created_at": "2026-11-02T00:55:47.040296+00:00",
+  "error": "답변 생성 검증 실패: 근거 부족 응답에는 채택한 근거 ID를 넣을 수 없습니다.",
+  "failed_attempts": [
+    {
+      "done_reason": "stop",
+      "eval_count": 66,
+      "prompt_eval_count": 375,
+      "total_duration": 927063000,
+      "load_duration": 5597300,
+      "attempt": 1,
+      "prompt_token_upper_bound": 2323,
+      "error": "근거 부족 응답에는 채택한 근거 ID를 넣을 수 없습니다.",
+      "rejected_content": "{\n  \"answer\": \"제공된 매뉴얼 excerpt 은 제품 패키지 구성품 목록을 확인하라는 안내만 포함되어 있으며, 구체적인 구성품 항목은 명시되어 있지 않습니다.\",\n  \"source_ids\": [\n    \"S1\"\n  ],\n  \"insufficient_evidence\": true\n}"
+    },
+    {
+      "done_reason": "stop",
+      "eval_count": 66,
+      "prompt_eval_count": 394,
+      "total_duration": 924709700,
+      "load_duration": 6430300,
+      "attempt": 2,
+      "prompt_token_upper_bound": 2401,
+      "error": "근거 부족 응답에는 채택한 근거 ID를 넣을 수 없습니다.",
+      "rejected_content": "{\n  \"answer\": \"제공된 매뉴얼 excerpt 은 제품 패키지 구성품 목록을 확인하라는 안내만 포함되어 있으며, 구체적인 구성품 항목은 명시되어 있지 않습니다.\",\n  \"source_ids\": [\n    \"S1\"\n  ],\n  \"insufficient_evidence\": true\n}"
+    }
+  ],
+  "elapsed_seconds": 1.9235123999824282,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3832,
+    "temperature_c": 65,
+    "utilization_percent": 84
+  }
+}

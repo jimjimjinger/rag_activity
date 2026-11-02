@@ -1,0 +1,184 @@
+{
+  "case_id": "FIG03",
+  "manual_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7",
+  "question": "이미지 파일은 어떻게 보나요?",
+  "english_query": "How do I view image files?",
+  "keyword_percent": 25,
+  "dense_percent": 75,
+  "top_k": 1,
+  "retrieved_chunk_ids": [
+    "62112a0c-9b9e-535a-af37-73c5b533a11c"
+  ],
+  "sources": [
+    {
+      "chunk_id": "62112a0c-9b9e-535a-af37-73c5b533a11c",
+      "manual_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7",
+      "page_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_00016",
+      "chunk_type": "text",
+      "text": "I Viewing Image File\nSelect [My Pictures] folder in the search screen and then Press the button up or down to move to the file you want to view. If you press button, you can view the selected images.",
+      "content_region_ids": [
+        "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_132"
+      ],
+      "context_region_ids": [
+        "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_130"
+      ],
+      "image_filename": "images/samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7/images/samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_00017.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_132",
+          "shape": {
+            "x": 711.2600097656245,
+            "y": 332.89999389648426,
+            "width": 336.09594726562545,
+            "height": 87.98400878906261
+          }
+        },
+        {
+          "id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_130",
+          "shape": {
+            "x": 707.9199829101559,
+            "y": 300.006663004557,
+            "width": 181.44854736328148,
+            "height": 27.627339680989735
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_132",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 178
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.016327340031729243,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "excluded_sources": [],
+  "top5_response_file": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_weights_20261102\\keyword_025\\results.json",
+  "status": "answered",
+  "variant": "keyword_025",
+  "created_at": "2026-11-02T00:56:35.804069+00:00",
+  "answer": "검색 화면의 [My Pictures] 폴더를 선택한 후, 원할 파일을 이동시키려면 위 또는 아래 버튼을 누르세요. 버튼을 누르면 선택된 이미지를 확인할 수 있습니다.",
+  "source_ids": [
+    "S1"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 70,
+        "prompt_eval_count": 399,
+        "total_duration": 993290400,
+        "load_duration": 5848500,
+        "attempt": 1,
+        "prompt_token_upper_bound": 2405
+      }
+    ],
+    "elapsed_seconds": 1.0561968000256456,
+    "ollama_model": {
+      "name": "qwen3.5:4b",
+      "model": "qwen3.5:4b",
+      "size": 3214409726,
+      "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "4.2B",
+        "quantization_level": "Q4_K_M"
+      },
+      "expires_at": "2026-11-02T09:57:36.8577711+09:00",
+      "size_vram": 3214409726,
+      "context_length": 8192,
+      "runner": "llamacpp"
+    },
+    "observation_error": null
+  },
+  "citations": [
+    {
+      "chunk_id": "62112a0c-9b9e-535a-af37-73c5b533a11c",
+      "manual_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7",
+      "page_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_00016",
+      "chunk_type": "text",
+      "text": "I Viewing Image File\nSelect [My Pictures] folder in the search screen and then Press the button up or down to move to the file you want to view. If you press button, you can view the selected images.",
+      "content_region_ids": [
+        "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_132"
+      ],
+      "context_region_ids": [
+        "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_130"
+      ],
+      "image_filename": "images/samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7/images/samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_00017.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_132",
+          "shape": {
+            "x": 711.2600097656245,
+            "y": 332.89999389648426,
+            "width": 336.09594726562545,
+            "height": 87.98400878906261
+          }
+        },
+        {
+          "id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_130",
+          "shape": {
+            "x": 707.9199829101559,
+            "y": 300.006663004557,
+            "width": 181.44854736328148,
+            "height": 27.627339680989735
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_132",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 178
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.016327340031729243,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 1.0565311999816913,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 71,
+    "utilization_percent": 84
+  }
+}

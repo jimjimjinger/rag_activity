@@ -1,0 +1,482 @@
+{
+  "case_id": "TABLE03",
+  "manual_id": "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)",
+  "question": "헤드셋은 어디에 연결하나요?",
+  "english_query": "Where do I connect the headset?",
+  "keyword_percent": 0,
+  "variant": "top5_kw000",
+  "top_k": 5,
+  "retrieved_chunk_ids": [
+    "ca646b5c-78a9-5ae2-8277-b3858498df79",
+    "4a4f9519-63b9-5719-ae3c-ab119549a98c",
+    "8f791448-b9e9-599d-afdb-572c93527fd0",
+    "0fc60bff-d9a7-5a5c-be18-ff6bc3c6f2a9",
+    "855bcd7e-2ea9-5ae8-9111-94498d9bcf74"
+  ],
+  "sources": [
+    {
+      "chunk_id": "ca646b5c-78a9-5ae2-8277-b3858498df79",
+      "manual_id": "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)",
+      "page_id": "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_00001",
+      "chunk_type": "text",
+      "text": "Appearance\nConnects to a headset.",
+      "content_region_ids": [
+        "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_22"
+      ],
+      "context_region_ids": [
+        "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_1"
+      ],
+      "image_filename": "images/HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)/images/HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_00003.jpg",
+      "source_shapes": [
+        {
+          "id": "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_22",
+          "shape": {
+            "x": 192.08750915527358,
+            "y": 1047.3531494140634,
+            "width": 248.50727844238295,
+            "height": 28.124999999999318
+          }
+        },
+        {
+          "id": "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_1",
+          "shape": {
+            "x": 90.03945922851564,
+            "y": 188.62457275390636,
+            "width": 226.64233398437506,
+            "height": 46.87499999999997
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_22",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 22
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.7167126260731481,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "4a4f9519-63b9-5719-ae3c-ab119549a98c",
+      "manual_id": "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)",
+      "page_id": "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_00001",
+      "chunk_type": "text",
+      "text": "Get to know your computer\nConnects to an external device, such as a speaker, to transmit audio signals from",
+      "content_region_ids": [
+        "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_31"
+      ],
+      "context_region_ids": [
+        "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_0"
+      ],
+      "image_filename": "images/HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)/images/HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_00003.jpg",
+      "source_shapes": [
+        {
+          "id": "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_31",
+          "shape": {
+            "x": 192.0877227783205,
+            "y": 1441.3531494140627,
+            "width": 882.7267303466808,
+            "height": 28.12500000000091
+          }
+        },
+        {
+          "id": "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_0",
+          "shape": {
+            "x": 68.03150177001955,
+            "y": 76.15290832519531,
+            "width": 695.4295578002934,
+            "height": 60.9375
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_31",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 81
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.5388745513531328,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "8f791448-b9e9-599d-afdb-572c93527fd0",
+      "manual_id": "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)",
+      "page_id": "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_00002",
+      "chunk_type": "table",
+      "text": "First row (header unconfirmed): Column 1: 7 | Column 2: Line in port Connects to an external audio device and transmits audio from the external device to the computer.\nColumn 1: 15 | Column 2: Charging port Connects the power cable.",
+      "content_region_ids": [
+        "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_90"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)/images/HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_00004.jpg",
+      "source_shapes": [
+        {
+          "id": "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_90",
+          "shape": {
+            "x": 81.00000000000001,
+            "y": 69.37500000000004,
+            "width": 1042.8750000000002,
+            "height": 1243.5000000000007
+          }
+        },
+        {
+          "id": "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_46",
+          "shape": {
+            "x": 190.12350463867205,
+            "y": 81.75354003906257,
+            "width": 135.61068725585938,
+            "height": 31.124999999999943
+          }
+        },
+        {
+          "id": "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_47",
+          "shape": {
+            "x": 192.08729553222673,
+            "y": 119.75354003906257,
+            "width": 903.7278900146484,
+            "height": 28.124999999999986
+          }
+        },
+        {
+          "id": "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_48",
+          "shape": {
+            "x": 192.08746337890636,
+            "y": 157.75354003906253,
+            "width": 180.8752441406251,
+            "height": 28.12500000000017
+          }
+        },
+        {
+          "id": "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_73",
+          "shape": {
+            "x": 190.71163940429702,
+            "y": 1219.753540039063,
+            "width": 162.09469604492202,
+            "height": 29.625000000000455
+          }
+        },
+        {
+          "id": "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_74",
+          "shape": {
+            "x": 192.0874328613283,
+            "y": 1257.7535400390625,
+            "width": 287.65124511718784,
+            "height": 28.125000000001137
+          }
+        },
+        {
+          "id": "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_81",
+          "shape": {
+            "x": 128.25000000000006,
+            "y": 82.50000000000007,
+            "width": 19.5,
+            "height": 23.99999999999997
+          }
+        },
+        {
+          "id": "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_89",
+          "shape": {
+            "x": 123.75000000000007,
+            "y": 1219.5000000000005,
+            "width": 33.0000000000001,
+            "height": 26.999999999999773
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "score": 0.5319274370559841,
+      "table_rows": [
+        8
+      ],
+      "table_cells": [
+        {
+          "row": 8,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 8,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S3"
+    },
+    {
+      "chunk_id": "0fc60bff-d9a7-5a5c-be18-ff6bc3c6f2a9",
+      "manual_id": "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)",
+      "page_id": "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_00002",
+      "chunk_type": "table",
+      "text": "First row (header unconfirmed): Column 1: 7 | Column 2: Line in port Connects to an external audio device and transmits audio from the external device to the computer.\nColumn 1: 12\nColumn 2\n.Connects the Huaweikeyboard that supportsfingerprint login.If thecomputer comes with a Huaweikeyboard that supports fingerprint login, you must connect the keyboard to this port so that you can power on and unlock the computer by pressing the fingerprint button on thekeyboard.",
+      "content_region_ids": [
+        "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_90"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)/images/HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_00004.jpg",
+      "source_shapes": [
+        {
+          "id": "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_90",
+          "shape": {
+            "x": 81.00000000000001,
+            "y": 69.37500000000004,
+            "width": 1042.8750000000002,
+            "height": 1243.5000000000007
+          }
+        },
+        {
+          "id": "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_46",
+          "shape": {
+            "x": 190.12350463867205,
+            "y": 81.75354003906257,
+            "width": 135.61068725585938,
+            "height": 31.124999999999943
+          }
+        },
+        {
+          "id": "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_47",
+          "shape": {
+            "x": 192.08729553222673,
+            "y": 119.75354003906257,
+            "width": 903.7278900146484,
+            "height": 28.124999999999986
+          }
+        },
+        {
+          "id": "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_48",
+          "shape": {
+            "x": 192.08746337890636,
+            "y": 157.75354003906253,
+            "width": 180.8752441406251,
+            "height": 28.12500000000017
+          }
+        },
+        {
+          "id": "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_63",
+          "shape": {
+            "x": 217.07978820800787,
+            "y": 800.7535400390632,
+            "width": 875.944015502931,
+            "height": 28.124999999999886
+          }
+        },
+        {
+          "id": "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_81",
+          "shape": {
+            "x": 128.25000000000006,
+            "y": 82.50000000000007,
+            "width": 19.5,
+            "height": 23.99999999999997
+          }
+        },
+        {
+          "id": "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_86",
+          "shape": {
+            "x": 123.75000000000013,
+            "y": 564.0000000000003,
+            "width": 33.00000000000004,
+            "height": 26.999999999999886
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "row": 5,
+          "column": 1,
+          "start": 171,
+          "end": 449,
+          "field": "normalized_cell_text"
+        }
+      ],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "score": 0.5271572337213525,
+      "table_rows": [
+        5
+      ],
+      "table_cells": [
+        {
+          "row": 5,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S4"
+    },
+    {
+      "chunk_id": "855bcd7e-2ea9-5ae8-9111-94498d9bcf74",
+      "manual_id": "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)",
+      "page_id": "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_00002",
+      "chunk_type": "table",
+      "text": "First row (header unconfirmed): Column 1: 7 | Column 2: Line in port Connects to an external audio device and transmits audio from the external device to the computer.\nColumn 1\n12",
+      "content_region_ids": [
+        "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_90"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)/images/HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_00004.jpg",
+      "source_shapes": [
+        {
+          "id": "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_90",
+          "shape": {
+            "x": 81.00000000000001,
+            "y": 69.37500000000004,
+            "width": 1042.8750000000002,
+            "height": 1243.5000000000007
+          }
+        },
+        {
+          "id": "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_46",
+          "shape": {
+            "x": 190.12350463867205,
+            "y": 81.75354003906257,
+            "width": 135.61068725585938,
+            "height": 31.124999999999943
+          }
+        },
+        {
+          "id": "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_47",
+          "shape": {
+            "x": 192.08729553222673,
+            "y": 119.75354003906257,
+            "width": 903.7278900146484,
+            "height": 28.124999999999986
+          }
+        },
+        {
+          "id": "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_48",
+          "shape": {
+            "x": 192.08746337890636,
+            "y": 157.75354003906253,
+            "width": 180.8752441406251,
+            "height": 28.12500000000017
+          }
+        },
+        {
+          "id": "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_81",
+          "shape": {
+            "x": 128.25000000000006,
+            "y": 82.50000000000007,
+            "width": 19.5,
+            "height": 23.99999999999997
+          }
+        },
+        {
+          "id": "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_86",
+          "shape": {
+            "x": 123.75000000000013,
+            "y": 564.0000000000003,
+            "width": 33.00000000000004,
+            "height": 26.999999999999886
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "row": 5,
+          "column": 0,
+          "start": 0,
+          "end": 2,
+          "field": "normalized_cell_text"
+        }
+      ],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "score": 0.5197372387091652,
+      "table_rows": [
+        5
+      ],
+      "table_cells": [
+        {
+          "row": 5,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S5"
+    }
+  ],
+  "excluded_sources": [],
+  "created_at": "2026-11-02T05:01:30.331304+00:00",
+  "status": "insufficient_evidence",
+  "answer": "검색된 매뉴얼 근거에서 질문에 대한 답을 확인하지 못했습니다.",
+  "source_ids": [],
+  "insufficient_evidence": true,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 123,
+        "prompt_eval_count": 726,
+        "total_duration": 2048882700,
+        "load_duration": 6644400,
+        "attempt": 1,
+        "prompt_token_upper_bound": 3682
+      }
+    ],
+    "elapsed_seconds": 2.05576179997297,
+    "backend": "LangChain ChatPromptTemplate | ChatOllama"
+  },
+  "citations": [],
+  "cited_figures": [],
+  "elapsed_seconds": 2.0557832999911625,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 63,
+    "utilization_percent": 85
+  }
+}

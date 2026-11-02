@@ -1,0 +1,529 @@
+{
+  "case_id": "TEXT08",
+  "manual_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16",
+  "question": "이 장치의 입력 전압은 얼마인가요?",
+  "english_query": "What is the input voltage of this device?",
+  "sources": [
+    {
+      "chunk_id": "f3745ada-2f50-5aea-b145-7a1df768eac0",
+      "manual_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16",
+      "page_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00006",
+      "chunk_type": "text",
+      "text": "Electrical\nAC input voltage / frequency / current",
+      "content_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_780"
+      ],
+      "context_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_774"
+      ],
+      "image_filename": "images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16/images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00006.jpg",
+      "source_shapes": [
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_780",
+          "shape": {
+            "x": 165.9374847412107,
+            "y": 1000.5687255859362,
+            "width": 171.49961853027344,
+            "height": 27.867919921874886
+          }
+        },
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_774",
+          "shape": {
+            "x": 161.3671722412109,
+            "y": 863.0662841796872,
+            "width": 90.94734191894497,
+            "height": 23.914611816405
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_780",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 38
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.6576126948524221,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "ab638cd4-c797-567b-8926-da36f8f20320",
+      "manual_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16",
+      "page_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00006",
+      "chunk_type": "text",
+      "text": "Analog RGB, 0.7 Volts +/-5%, positive polarity at 75 ohm input impedance Digital DVI-D TMDS, 600mV for each differential line, positive polarity at 50 ohm input impedance\nSeparate horizontal and vertical synchronizations, polarity-free TTL level, SOG (Composite SYNC on green)\n100 to 240 VAC / 50 or 60 Hz + 3 Hz / 2.0A (Max.)",
+      "content_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_777",
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_779",
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_781"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16/images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00006.jpg",
+      "source_shapes": [
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_777",
+          "shape": {
+            "x": 380.7420654296867,
+            "y": 938.4124755859365,
+            "width": 552.0939331054685,
+            "height": 27.867919921875
+          }
+        },
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_779",
+          "shape": {
+            "x": 380.7420654296867,
+            "y": 969.4906005859373,
+            "width": 569.154418945312,
+            "height": 27.867919921873977
+          }
+        },
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_781",
+          "shape": {
+            "x": 380.7420654296867,
+            "y": 1006.9671630859362,
+            "width": 286.10144042968795,
+            "height": 15.071044921875114
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_777",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 170
+        },
+        {
+          "region_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_779",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 105
+        },
+        {
+          "region_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_781",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 49
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.6188738394945784,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "1584b300-4720-584a-8908-1b21394932d3",
+      "manual_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16",
+      "page_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00006",
+      "chunk_type": "table",
+      "text": "Video input signals: ACinput voltage/frequency/ current | AnalogRGB.0.7Volts+/-5%.positive polarityat75 ohminputimpedance Digital DVI-D TMDS,60OmVfor each differentialline,positive polarityat5Oohm input impedance: 100 to 240 VAC/50or 60 Hz ±3 Hz/2.OA(Max.)\nVideo input signals: Inrush current | AnalogRGB.0.7Volts+/-5%.positive polarityat75 ohminputimpedance Digital DVI-D TMDS,60OmVfor each differentialline,positive polarityat5Oohm input impedance: 120V:30A(Max.) 240V:60A(Max.)",
+      "content_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_809"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16/images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00006.jpg",
+      "source_shapes": [
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_809",
+          "shape": {
+            "x": 155.00000000000006,
+            "y": 930.6124877929677,
+            "width": 813.9999999999995,
+            "height": 136.00000000000057
+          }
+        },
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_776",
+          "shape": {
+            "x": 165.9374847412107,
+            "y": 944.810913085937,
+            "width": 108.77339172363259,
+            "height": 15.071044921874204
+          }
+        },
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_782",
+          "shape": {
+            "x": 165.9374847412107,
+            "y": 1038.0451660156232,
+            "width": 82.26564025878912,
+            "height": 15.071044921875455
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [],
+      "score": 0.5919750741218325,
+      "table_rows": [
+        2,
+        3
+      ],
+      "table_cells": [
+        {
+          "row": 2,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S3"
+    },
+    {
+      "chunk_id": "6057253f-6d43-5ade-b8a5-9b4c9e8eb5d8",
+      "manual_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16",
+      "page_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00006",
+      "chunk_type": "table",
+      "text": "Video input signals: Synchronization input signals | AnalogRGB.0.7Volts+/-5%.positive polarityat75 ohminputimpedance Digital DVI-D TMDS,60OmVfor each differentialline,positive polarityat5Oohm input impedance: Separate horizontal and vertical synchronizations,polarity-free TTL level,SOG(Composite SYNCon green)",
+      "content_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_809"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16/images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00006.jpg",
+      "source_shapes": [
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_809",
+          "shape": {
+            "x": 155.00000000000006,
+            "y": 930.6124877929677,
+            "width": 813.9999999999995,
+            "height": 136.00000000000057
+          }
+        },
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_776",
+          "shape": {
+            "x": 165.9374847412107,
+            "y": 944.810913085937,
+            "width": 108.77339172363259,
+            "height": 15.071044921874204
+          }
+        },
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_778",
+          "shape": {
+            "x": 165.9374847412107,
+            "y": 975.8890380859373,
+            "width": 168.18757629394537,
+            "height": 15.071044921875
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [],
+      "score": 0.5733031027895787,
+      "table_rows": [
+        1
+      ],
+      "table_cells": [
+        {
+          "row": 1,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S4"
+    },
+    {
+      "chunk_id": "c635142e-d735-5fa5-9c92-135e12afda84",
+      "manual_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16",
+      "page_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00017",
+      "chunk_type": "figure",
+      "text": "Text indicates '1: Auto Detect (Analog Input)' and warns it cannot display this video mode. Optimum resolution is listed as 1440 x 900 at 60Hz.",
+      "content_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_461"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16/images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00017.jpg",
+      "source_shapes": [
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_461",
+          "shape": {
+            "x": 235.9999999999999,
+            "y": 441.64062500000017,
+            "width": 354.0000000000002,
+            "height": 50.999999999999545
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_461",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 143
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": 0.4943555368303503,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S5"
+    }
+  ],
+  "excluded_sources": [],
+  "retrieved_chunk_ids": [
+    "f3745ada-2f50-5aea-b145-7a1df768eac0",
+    "ab638cd4-c797-567b-8926-da36f8f20320",
+    "1584b300-4720-584a-8908-1b21394932d3",
+    "6057253f-6d43-5ade-b8a5-9b4c9e8eb5d8",
+    "c635142e-d735-5fa5-9c92-135e12afda84"
+  ],
+  "variant": "B_english_dense",
+  "created_at": "2026-11-02T00:17:49.682361+00:00",
+  "status": "answered",
+  "answer": "이 장치의 입력 전압은 100V에서 240V AC이며, 주파수는 50Hz 또는 60Hz입니다.",
+  "source_ids": [
+    "S2",
+    "S3"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 68,
+        "prompt_eval_count": 871,
+        "total_duration": 1292527700,
+        "load_duration": 5497600,
+        "attempt": 1,
+        "prompt_token_upper_bound": 3860
+      }
+    ],
+    "elapsed_seconds": 1.3614743999787606,
+    "ollama_model": {
+      "name": "qwen3.5:4b",
+      "model": "qwen3.5:4b",
+      "size": 3214409726,
+      "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "4.2B",
+        "quantization_level": "Q4_K_M"
+      },
+      "expires_at": "2026-11-02T09:18:51.0421363+09:00",
+      "size_vram": 3214409726,
+      "context_length": 8192,
+      "runner": "llamacpp"
+    },
+    "observation_error": null
+  },
+  "citations": [
+    {
+      "chunk_id": "ab638cd4-c797-567b-8926-da36f8f20320",
+      "manual_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16",
+      "page_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00006",
+      "chunk_type": "text",
+      "text": "Analog RGB, 0.7 Volts +/-5%, positive polarity at 75 ohm input impedance Digital DVI-D TMDS, 600mV for each differential line, positive polarity at 50 ohm input impedance\nSeparate horizontal and vertical synchronizations, polarity-free TTL level, SOG (Composite SYNC on green)\n100 to 240 VAC / 50 or 60 Hz + 3 Hz / 2.0A (Max.)",
+      "content_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_777",
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_779",
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_781"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16/images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00006.jpg",
+      "source_shapes": [
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_777",
+          "shape": {
+            "x": 380.7420654296867,
+            "y": 938.4124755859365,
+            "width": 552.0939331054685,
+            "height": 27.867919921875
+          }
+        },
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_779",
+          "shape": {
+            "x": 380.7420654296867,
+            "y": 969.4906005859373,
+            "width": 569.154418945312,
+            "height": 27.867919921873977
+          }
+        },
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_781",
+          "shape": {
+            "x": 380.7420654296867,
+            "y": 1006.9671630859362,
+            "width": 286.10144042968795,
+            "height": 15.071044921875114
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_777",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 170
+        },
+        {
+          "region_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_779",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 105
+        },
+        {
+          "region_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_781",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 49
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.6188738394945784,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "1584b300-4720-584a-8908-1b21394932d3",
+      "manual_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16",
+      "page_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00006",
+      "chunk_type": "table",
+      "text": "Video input signals: ACinput voltage/frequency/ current | AnalogRGB.0.7Volts+/-5%.positive polarityat75 ohminputimpedance Digital DVI-D TMDS,60OmVfor each differentialline,positive polarityat5Oohm input impedance: 100 to 240 VAC/50or 60 Hz ±3 Hz/2.OA(Max.)\nVideo input signals: Inrush current | AnalogRGB.0.7Volts+/-5%.positive polarityat75 ohminputimpedance Digital DVI-D TMDS,60OmVfor each differentialline,positive polarityat5Oohm input impedance: 120V:30A(Max.) 240V:60A(Max.)",
+      "content_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_809"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16/images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00006.jpg",
+      "source_shapes": [
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_809",
+          "shape": {
+            "x": 155.00000000000006,
+            "y": 930.6124877929677,
+            "width": 813.9999999999995,
+            "height": 136.00000000000057
+          }
+        },
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_776",
+          "shape": {
+            "x": 165.9374847412107,
+            "y": 944.810913085937,
+            "width": 108.77339172363259,
+            "height": 15.071044921874204
+          }
+        },
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_782",
+          "shape": {
+            "x": 165.9374847412107,
+            "y": 1038.0451660156232,
+            "width": 82.26564025878912,
+            "height": 15.071044921875455
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [],
+      "score": 0.5919750741218325,
+      "table_rows": [
+        2,
+        3
+      ],
+      "table_cells": [
+        {
+          "row": 2,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S3"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 1.361684300005436,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3836,
+    "temperature_c": 59,
+    "utilization_percent": 85
+  }
+}

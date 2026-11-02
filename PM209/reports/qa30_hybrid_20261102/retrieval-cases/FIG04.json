@@ -1,0 +1,1727 @@
+{
+  "case_id": "FIG04",
+  "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+  "question": "볼륨을 낮추는 Volume- 버튼은 어디에 있나요?",
+  "english_query": "Where is the Volume- button to lower the volume located?",
+  "dense_candidates": [
+    {
+      "score": 0.7049541943702371,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+      "split": "val",
+      "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00002",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_16"
+      ],
+      "context_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_17"
+      ],
+      "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/2.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_16",
+          "shape": {
+            "x": 55.93999999999999,
+            "y": 94.95999999999998,
+            "width": 93.00999999999996,
+            "height": 15.390000000000057
+          }
+        },
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_17",
+          "shape": {
+            "x": 34.019999999999996,
+            "y": 31.28,
+            "width": 99.83,
+            "height": 22.299999999999955
+          }
+        }
+      ],
+      "title": "Device layout",
+      "text": "Device layout\n[Volume (-)] button",
+      "char_count": 33,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_16",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 19
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "09fed5a3-fac8-52d4-a53f-e7b46f349387",
+      "text_sha256": "8fe4ae28c6085110249d7af372b5904d821cf6b4a19827b6241226847ebc2593",
+      "token_count": 8
+    },
+    {
+      "score": 0.6365091776960681,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+      "split": "val",
+      "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00014",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_99"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/14.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_99",
+          "shape": {
+            "x": 272.13,
+            "y": 103.71,
+            "width": 135.8199999999997,
+            "height": 94.04
+          }
+        }
+      ],
+      "title": "",
+      "text": "• Some device may allow you to control only the volume. • The audio cable connection allows you to control only the volume.",
+      "char_count": 123,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_99",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 123
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "c2f2dcbf-7be5-5ccc-b65a-66d0137aa80a",
+      "text_sha256": "21169887916488bdf267973863ae8ad512dcaa5b402121a0d28ffd143b1d2308",
+      "token_count": 25
+    },
+    {
+      "score": 0.6265470627770475,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+      "split": "val",
+      "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00002",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_8"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/2.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_8",
+          "shape": {
+            "x": 304.5899999999999,
+            "y": 96.59999999999995,
+            "width": 96.45000000000005,
+            "height": 15.390000000000043
+          }
+        }
+      ],
+      "title": "",
+      "text": "[Volume (+)] button",
+      "char_count": 19,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_8",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 19
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "ffbb4b35-d0ce-5984-9c27-19e61e3871e7",
+      "text_sha256": "9749c2989583db210fb5550810fafc4617d913915edff0910b0b1b339bdeb281",
+      "token_count": 5
+    },
+    {
+      "score": 0.598268413385002,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+      "split": "val",
+      "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00002",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_12"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/2.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_12",
+          "shape": {
+            "x": 54.76999999999999,
+            "y": 93.28999999999999,
+            "width": 348.2499999999999,
+            "height": 126.1
+          }
+        }
+      ],
+      "title": "",
+      "text": "A top-down view of a portable speaker showing labeled controls including [Volume (+)] button, [Play/Stop] button, [Talk] button, Status indicator, NFC antenna, and Microphone.",
+      "char_count": 175,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_12",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 175
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "bd8d2934-bccd-5903-b0b4-2b6933eae133",
+      "text_sha256": "84fd0166aae80919bf2422c631f7ffbcd170ffb1f9a9976a6d3445ad6b70f95f",
+      "token_count": 40
+    },
+    {
+      "score": 0.5637146695543689,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+      "split": "val",
+      "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00014",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_98"
+      ],
+      "context_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_97"
+      ],
+      "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/14.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_98",
+          "shape": {
+            "x": 34.02,
+            "y": 54.57,
+            "width": 176.09,
+            "height": 172.43
+          }
+        },
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_97",
+          "shape": {
+            "x": 34.02,
+            "y": 31.58,
+            "width": 89.97999999999999,
+            "height": 19.83
+          }
+        }
+      ],
+      "title": "Playing audio",
+      "text": "Playing audio\nPlay audio from your smartphone, multimedia player, or PC. • Adjust the volume with the [Volume (+)/(-)] buttons. • A notification will sound when the speaker volume reaches its maximum value. If the sound is not loud enough even with the speaker volume set to maximum, adjust the volume of the connected device.",
+      "char_count": 326,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_98",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 312
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "daa5566f-4518-5c00-ac6e-69cd5bb57237",
+      "text_sha256": "1104f32c7c0d572ef5565c54a0459621608dc33daf8d77f9b89e708d2d2e9732",
+      "token_count": 67
+    },
+    {
+      "score": 0.5572058207687733,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+      "split": "val",
+      "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00015",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_103"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/15.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_103",
+          "shape": {
+            "x": 238.11,
+            "y": 32.519999999999975,
+            "width": 181.39999999999998,
+            "height": 97.41999999999999
+          }
+        }
+      ],
+      "title": "",
+      "text": "• Press the [Volume (+)/(-)] buttons to adjust the volume. • Press the [Play/Stop] button to mute or unmute the microphone. • Press and hold the [Talk] button to pause or resume a call.",
+      "char_count": 185,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_103",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 185
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "ef923ed8-e95d-55d8-a008-60de25cf2c60",
+      "text_sha256": "7e4e27e0b8ecf04930da348ec9975c43017a8c5f22108c360d8e05108c882551",
+      "token_count": 48
+    },
+    {
+      "score": 0.542128825899071,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+      "split": "val",
+      "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00002",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_15"
+      ],
+      "context_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_17"
+      ],
+      "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/2.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_15",
+          "shape": {
+            "x": 60.010000000000005,
+            "y": 129.98,
+            "width": 88.93999999999996,
+            "height": 15.390000000000015
+          }
+        },
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_17",
+          "shape": {
+            "x": 34.019999999999996,
+            "y": 31.28,
+            "width": 99.83,
+            "height": 22.299999999999955
+          }
+        }
+      ],
+      "title": "Device layout",
+      "text": "Device layout\n[Play/Stop] button",
+      "char_count": 32,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_15",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 18
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "e948adc9-5792-5764-88d0-7c8565e8d197",
+      "text_sha256": "d7ad5e8629f501119030881200fe41268259c4e3fca95778636c6671ee86970c",
+      "token_count": 9
+    },
+    {
+      "score": 0.5414034044782509,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+      "split": "val",
+      "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00013",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_95"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/13.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_95",
+          "shape": {
+            "x": 36.129725406044386,
+            "y": 29.178504970617457,
+            "width": 379.66315789473674,
+            "height": 169.4035087719298
+          }
+        }
+      ],
+      "title": "",
+      "text": "A cropped page from an English product manual titled 'Using the Level Box,' showing a diagram of a Level Box connected via Bluetooth or NFC to a smartphone. The illustration depicts audio playback functionality and voice recognition activation using the [Talk] button.",
+      "char_count": 268,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_95",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 268
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "c6a67c35-34d8-5056-9f85-9554adbf69de",
+      "text_sha256": "322469423edc33460cbcd8d00a906f61c5193d8f5df89293f228ebca79173d28",
+      "token_count": 48
+    },
+    {
+      "score": 0.470757451621819,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+      "split": "val",
+      "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00003",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_22"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/3.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_22",
+          "shape": {
+            "x": 304.45999999999987,
+            "y": 79.65999999999998,
+            "width": 79.20000000000005,
+            "height": 15.389999999999986
+          }
+        }
+      ],
+      "title": "",
+      "text": "Audio input jack",
+      "char_count": 16,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_22",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 16
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "8eead4c4-f810-5341-9662-70bd774d84f8",
+      "text_sha256": "df2d81c8757e34f245c4d7405dc38ea9f135a560a023c2437f41b8871caefbc8",
+      "token_count": 3
+    },
+    {
+      "score": 0.4499195563590322,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+      "split": "val",
+      "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00004",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_31"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/4.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_31",
+          "shape": {
+            "x": 269.3899999999999,
+            "y": 139.42,
+            "width": 118.25,
+            "height": 103.54999999999995
+          }
+        }
+      ],
+      "title": "",
+      "text": "A white rectangular speaker with rounded edges, featuring four circular buttons on the top surface and five small indicator lights on the front panel. A USB cable is plugged into the bottom port.",
+      "char_count": 195,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_31",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 195
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "10d6621d-7468-5327-9edd-881c0e7ff689",
+      "text_sha256": "d28904bd3c28ef40dceb29d4ffe5989d7c72f62415ee8c3833959476ffbbe073",
+      "token_count": 36
+    },
+    {
+      "score": 0.4485660760173628,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+      "split": "val",
+      "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00002",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_9",
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_10",
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_11"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/2.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_9",
+          "shape": {
+            "x": 304.5899999999999,
+            "y": 135.25000000000003,
+            "width": 62.0,
+            "height": 15.379999999999995
+          }
+        },
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_10",
+          "shape": {
+            "x": 304.5899999999999,
+            "y": 175.29999999999998,
+            "width": 62.94999999999982,
+            "height": 15.379999999999967
+          }
+        },
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_11",
+          "shape": {
+            "x": 304.6,
+            "y": 202.59,
+            "width": 59.5499999999999,
+            "height": 15.390000000000015
+          }
+        }
+      ],
+      "title": "",
+      "text": "[Talk] button\nNFC antenna\nMicrophone",
+      "char_count": 36,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_9",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 13
+        },
+        {
+          "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_10",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 11
+        },
+        {
+          "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_11",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 10
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "c70383d8-1e41-52ca-8aa0-4582e043f3d1",
+      "text_sha256": "b4a5ed3e97877a8c890963cd5df2c87110586f1bef1bb8c0112aebf4060a8875",
+      "token_count": 11
+    },
+    {
+      "score": 0.44849382066080967,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+      "split": "val",
+      "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00003",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_24"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/3.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_24",
+          "shape": {
+            "x": 50.66999999999999,
+            "y": 55.35,
+            "width": 349.62,
+            "height": 102.52999999999994
+          }
+        }
+      ],
+      "title": "",
+      "text": "A diagram of a portable audio device showing its top and side views. Key visible parts include the [Pairing (#)] button, [Power] switch, Audio input jack, and Power connection jack.",
+      "char_count": 181,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_24",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 181
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "fc393268-3917-54ca-9347-cdc4b1fef500",
+      "text_sha256": "bb1dc656f3c01670ee64b701bb770e2e9ba1239cc6b574b28369929ae127bc23",
+      "token_count": 40
+    },
+    {
+      "score": 0.44609828673633517,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+      "split": "val",
+      "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00013",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_93"
+      ],
+      "context_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_91"
+      ],
+      "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/13.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_93",
+          "shape": {
+            "x": 238.11,
+            "y": 59.07999999999999,
+            "width": 174.43999999999994,
+            "height": 135.6399999999998
+          }
+        },
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_91",
+          "shape": {
+            "x": 238.11,
+            "y": 31.28,
+            "width": 143.45,
+            "height": 22.299999999999955
+          }
+        }
+      ],
+      "title": "Using the Level Box",
+      "text": "Using the Level Box\nWhen the Level Box is connected to a Bluetooth or NFC-enabled device, you can play audio on the Level Box or use it as a speaker phone. While a device is connected to the Bluetooth speaker, you can press the [Talk] button to turn on the voice recognition feature of the connected device (if available).",
+      "char_count": 322,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_93",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 302
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "79be3b1f-5949-52c9-a70e-b23d00bce839",
+      "text_sha256": "df00aed50571462ec271df4eb0d05bacad5d3ed9e816f820b63417bfbae58ac5",
+      "token_count": 68
+    },
+    {
+      "score": 0.4274486161604246,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+      "split": "val",
+      "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00011",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_84"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/11.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_84",
+          "shape": {
+            "x": 55,
+            "y": 32.4083353678385,
+            "width": 139.99999999999997,
+            "height": 142.0
+          }
+        }
+      ],
+      "title": "",
+      "text": "A hand holds a white electronic device with buttons on top; an inset shows the back panel featuring a circular button and a rectangular slot.",
+      "char_count": 141,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_84",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 141
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "caa9a603-fdd0-5f5e-8215-9d799e8ef7a1",
+      "text_sha256": "ec8e15130982c60f301b169661d83f6a7ade89b11a9dff1d848f2ca39c0e0397",
+      "token_count": 27
+    },
+    {
+      "score": 0.42599084798511405,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+      "split": "val",
+      "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00006",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_46"
+      ],
+      "context_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_45"
+      ],
+      "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/6.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_46",
+          "shape": {
+            "x": 238.1100000000001,
+            "y": 73.57,
+            "width": 179.90000000000006,
+            "height": 75.62999999999997
+          }
+        },
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_45",
+          "shape": {
+            "x": 238.1100000000001,
+            "y": 31.580000000000005,
+            "width": 146.34999999999994,
+            "height": 38.820000000000014
+          }
+        }
+      ],
+      "title": "Measuring the battery charge",
+      "text": "Measuring the battery charge\nPress and hold the [Talk] and [Volume (-)] buttons simultaneously. The status indicator flashes 4 times in different colors, according to the charge left in the battery.",
+      "char_count": 198,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_46",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 169
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "3d4b8cc1-ec92-578f-bfa3-57f474353331",
+      "text_sha256": "9c26a2619ba0c331dda3b5759972af12269ba7acfb047da661fa44995b60fd2e",
+      "token_count": 41
+    },
+    {
+      "score": 0.41184894471265954,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+      "split": "val",
+      "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00008",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_65"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/8.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_65",
+          "shape": {
+            "x": 138.84,
+            "y": 153.09,
+            "width": 27.67999999999998,
+            "height": 16.74999999999997
+          }
+        }
+      ],
+      "title": "",
+      "text": "A close-up view of a circular control knob with concentric rings and a central indicator mark, likely part of an appliance interface.",
+      "char_count": 133,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_65",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 133
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "eed774c2-f063-5a72-9068-5f167a406215",
+      "text_sha256": "6bf1e73f4cba3fa1a4ff64e1bbb31410249ee17fd2a7ac70c07f56ac2a046e39",
+      "token_count": 26
+    },
+    {
+      "score": 0.41164177970704435,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+      "split": "val",
+      "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00015",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_101"
+      ],
+      "context_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_102"
+      ],
+      "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/15.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_101",
+          "shape": {
+            "x": 34.019999999999996,
+            "y": 54.56999999999999,
+            "width": 181.38999999999987,
+            "height": 112.44999999999999
+          }
+        },
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_102",
+          "shape": {
+            "x": 34.019999999999996,
+            "y": 31.58,
+            "width": 99.98,
+            "height": 19.83
+          }
+        }
+      ],
+      "title": "Receiving a call",
+      "text": "Receiving a call\nIf a smartphone is connected to the Level Box, you can press the [Talk] button to answer a call. • Press and hold the [Talk] button to reject a call. • Press the [Talk] button to end a call.",
+      "char_count": 207,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_101",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 190
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "b52e57a1-acaa-56bd-949e-6129b90f2b09",
+      "text_sha256": "3cb8a9415fcecafb2f6e4fbb324984372d02fec80d0722ad6a16a3ff5bacddb1",
+      "token_count": 54
+    },
+    {
+      "score": 0.4081430507663011,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+      "split": "val",
+      "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00003",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_26",
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_27"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/3.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_26",
+          "shape": {
+            "x": 65.99999999999997,
+            "y": 170.06250000000003,
+            "width": 339.55555555555543,
+            "height": 58.66666666666663
+          }
+        },
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_27",
+          "shape": {
+            "x": 67.77777777777777,
+            "y": 232.7291666666667,
+            "width": 280.88888888888886,
+            "height": 15.555555555555486
+          }
+        }
+      ],
+      "title": "",
+      "text": "• Check the product box for the Level Box, charger (USB power adapter, USB cable), 3.5 mm audio cable, and user manual. The items supplied with the device and available accessories may vary by region.\n• The status indicator is visible only when it is turned on.",
+      "char_count": 261,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_26",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 200
+        },
+        {
+          "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_27",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 60
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "01940c09-9220-5ee1-b9bc-38d05a164b89",
+      "text_sha256": "ac1cdc62d3d6d8cf1607b6a8d43996143151837a5c1bb46006c86f4ccd89ce1f",
+      "token_count": 58
+    },
+    {
+      "score": 0.4003724144278805,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+      "split": "val",
+      "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00014",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_96"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/14.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_96",
+          "shape": {
+            "x": 238.11,
+            "y": 32.51999999999997,
+            "width": 178.65999999999997,
+            "height": 64.03000000000003
+          }
+        }
+      ],
+      "title": "",
+      "text": "• Press the [Play/Stop] button to pause or resume playback. • Press the [Play/Stop] button twice to skip to the next file.",
+      "char_count": 122,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_96",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 122
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "0f05997f-b5d8-5af6-8f7c-ba590dc20b27",
+      "text_sha256": "780982049998250f83894659de9771da8a92adc1f11b5c5d1e298d113cd569f4",
+      "token_count": 32
+    },
+    {
+      "score": 0.39778269602549843,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+      "split": "val",
+      "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00003",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_20"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/3.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_20",
+          "shape": {
+            "x": 51.81999999999999,
+            "y": 66.98999999999998,
+            "width": 97.25999999999996,
+            "height": 15.389999999999986
+          }
+        }
+      ],
+      "title": "",
+      "text": "[Pairing ( )] button",
+      "char_count": 20,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_20",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 20
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "55a631fc-2046-584f-85ff-28ed2f776783",
+      "text_sha256": "abae3c8a020e1018b1176329475a2b60f210e38e1038e320209a0f96a56bb46a",
+      "token_count": 7
+    }
+  ],
+  "keyword_candidates": [
+    {
+      "chunk_id": "ffbb4b35-d0ce-5984-9c27-19e61e3871e7",
+      "bm25_score": -16.636281900248946
+    },
+    {
+      "chunk_id": "09fed5a3-fac8-52d4-a53f-e7b46f349387",
+      "bm25_score": -15.982703876527918
+    },
+    {
+      "chunk_id": "daa5566f-4518-5c00-ac6e-69cd5bb57237",
+      "bm25_score": -14.95300578083367
+    },
+    {
+      "chunk_id": "ef923ed8-e95d-55d8-a008-60de25cf2c60",
+      "bm25_score": -14.690457726395124
+    },
+    {
+      "chunk_id": "bd8d2934-bccd-5903-b0b4-2b6933eae133",
+      "bm25_score": -12.48851312332386
+    },
+    {
+      "chunk_id": "c2f2dcbf-7be5-5ccc-b65a-66d0137aa80a",
+      "bm25_score": -12.385404220775506
+    },
+    {
+      "chunk_id": "3d4b8cc1-ec92-578f-bfa3-57f474353331",
+      "bm25_score": -10.579513915244355
+    },
+    {
+      "chunk_id": "bdf1248f-6bd4-55f4-8c5e-bc98c42a17ce",
+      "bm25_score": -3.614997271344575
+    },
+    {
+      "chunk_id": "55a631fc-2046-584f-85ff-28ed2f776783",
+      "bm25_score": -3.4690078678743763
+    },
+    {
+      "chunk_id": "c70383d8-1e41-52ca-8aa0-4582e043f3d1",
+      "bm25_score": -3.268519349170535
+    },
+    {
+      "chunk_id": "e948adc9-5792-5764-88d0-7c8565e8d197",
+      "bm25_score": -3.268519349170535
+    },
+    {
+      "chunk_id": "0f05997f-b5d8-5af6-8f7c-ba590dc20b27",
+      "bm25_score": -3.2319401092853197
+    },
+    {
+      "chunk_id": "b52e57a1-acaa-56bd-949e-6129b90f2b09",
+      "bm25_score": -3.1996867208219832
+    },
+    {
+      "chunk_id": "caa9a603-fdd0-5f5e-8215-9d799e8ef7a1",
+      "bm25_score": -3.142157058228882
+    },
+    {
+      "chunk_id": "692cbe2d-4f99-5293-bc20-1d34b66aaa5f",
+      "bm25_score": -2.8423295235929964
+    },
+    {
+      "chunk_id": "5ccdfc09-fdbd-573f-a5e5-cd9a67794a59",
+      "bm25_score": -2.5742327101477
+    },
+    {
+      "chunk_id": "fc393268-3917-54ca-9347-cdc4b1fef500",
+      "bm25_score": -2.235108820931868
+    },
+    {
+      "chunk_id": "10d6621d-7468-5327-9edd-881c0e7ff689",
+      "bm25_score": -2.1232251711170314
+    },
+    {
+      "chunk_id": "fffac2ae-3cfe-5765-b473-42df89324ff6",
+      "bm25_score": -2.071381231753508
+    },
+    {
+      "chunk_id": "c6a67c35-34d8-5056-9f85-9554adbf69de",
+      "bm25_score": -1.9082956232471853
+    }
+  ],
+  "fused_candidates": [
+    {
+      "chunk_id": "09fed5a3-fac8-52d4-a53f-e7b46f349387",
+      "score": 0.01626123744050767,
+      "dense_rank": 1,
+      "dense_score": 0.7049541943702371,
+      "keyword_rank": 2,
+      "keyword_score": -15.982703876527918
+    },
+    {
+      "chunk_id": "ffbb4b35-d0ce-5984-9c27-19e61e3871e7",
+      "score": 0.016133229247983348,
+      "dense_rank": 3,
+      "dense_score": 0.6265470627770475,
+      "keyword_rank": 1,
+      "keyword_score": -16.636281900248946
+    },
+    {
+      "chunk_id": "c2f2dcbf-7be5-5ccc-b65a-66d0137aa80a",
+      "score": 0.015640273704789834,
+      "dense_rank": 2,
+      "dense_score": 0.6365091776960681,
+      "keyword_rank": 6,
+      "keyword_score": -12.385404220775506
+    },
+    {
+      "chunk_id": "daa5566f-4518-5c00-ac6e-69cd5bb57237",
+      "score": 0.01562881562881563,
+      "dense_rank": 5,
+      "dense_score": 0.5637146695543689,
+      "keyword_rank": 3,
+      "keyword_score": -14.95300578083367
+    },
+    {
+      "chunk_id": "bd8d2934-bccd-5903-b0b4-2b6933eae133",
+      "score": 0.015504807692307693,
+      "dense_rank": 4,
+      "dense_score": 0.598268413385002,
+      "keyword_rank": 5,
+      "keyword_score": -12.48851312332386
+    },
+    {
+      "chunk_id": "ef923ed8-e95d-55d8-a008-60de25cf2c60",
+      "score": 0.015388257575757576,
+      "dense_rank": 6,
+      "dense_score": 0.5572058207687733,
+      "keyword_rank": 4,
+      "keyword_score": -14.690457726395124
+    },
+    {
+      "chunk_id": "e948adc9-5792-5764-88d0-7c8565e8d197",
+      "score": 0.01450494008829094,
+      "dense_rank": 7,
+      "dense_score": 0.542128825899071,
+      "keyword_rank": 11,
+      "keyword_score": -3.268519349170535
+    },
+    {
+      "chunk_id": "c70383d8-1e41-52ca-8aa0-4582e043f3d1",
+      "score": 0.014185110663983903,
+      "dense_rank": 11,
+      "dense_score": 0.4485660760173628,
+      "keyword_rank": 10,
+      "keyword_score": -3.268519349170535
+    },
+    {
+      "chunk_id": "3d4b8cc1-ec92-578f-bfa3-57f474353331",
+      "score": 0.014129353233830846,
+      "dense_rank": 15,
+      "dense_score": 0.42599084798511405,
+      "keyword_rank": 7,
+      "keyword_score": -10.579513915244355
+    },
+    {
+      "chunk_id": "c6a67c35-34d8-5056-9f85-9554adbf69de",
+      "score": 0.013602941176470588,
+      "dense_rank": 8,
+      "dense_score": 0.5414034044782509,
+      "keyword_rank": 20,
+      "keyword_score": -1.9082956232471853
+    },
+    {
+      "chunk_id": "10d6621d-7468-5327-9edd-881c0e7ff689",
+      "score": 0.013553113553113554,
+      "dense_rank": 10,
+      "dense_score": 0.4499195563590322,
+      "keyword_rank": 18,
+      "keyword_score": -2.1232251711170314
+    },
+    {
+      "chunk_id": "caa9a603-fdd0-5f5e-8215-9d799e8ef7a1",
+      "score": 0.013513513513513514,
+      "dense_rank": 14,
+      "dense_score": 0.4274486161604246,
+      "keyword_rank": 14,
+      "keyword_score": -3.142157058228882
+    },
+    {
+      "chunk_id": "55a631fc-2046-584f-85ff-28ed2f776783",
+      "score": 0.013496376811594202,
+      "dense_rank": 20,
+      "dense_score": 0.39778269602549843,
+      "keyword_rank": 9,
+      "keyword_score": -3.4690078678743763
+    },
+    {
+      "chunk_id": "fc393268-3917-54ca-9347-cdc4b1fef500",
+      "score": 0.013437950937950938,
+      "dense_rank": 12,
+      "dense_score": 0.44849382066080967,
+      "keyword_rank": 17,
+      "keyword_score": -2.235108820931868
+    },
+    {
+      "chunk_id": "b52e57a1-acaa-56bd-949e-6129b90f2b09",
+      "score": 0.013342821561999644,
+      "dense_rank": 17,
+      "dense_score": 0.41164177970704435,
+      "keyword_rank": 13,
+      "keyword_score": -3.1996867208219832
+    },
+    {
+      "chunk_id": "0f05997f-b5d8-5af6-8f7c-ba590dc20b27",
+      "score": 0.013273558368495076,
+      "dense_rank": 19,
+      "dense_score": 0.4003724144278805,
+      "keyword_rank": 12,
+      "keyword_score": -3.2319401092853197
+    },
+    {
+      "chunk_id": "bdf1248f-6bd4-55f4-8c5e-bc98c42a17ce",
+      "score": 0.007352941176470588,
+      "keyword_rank": 8,
+      "keyword_score": -3.614997271344575
+    },
+    {
+      "chunk_id": "8eead4c4-f810-5341-9662-70bd774d84f8",
+      "score": 0.007246376811594203,
+      "dense_rank": 9,
+      "dense_score": 0.470757451621819
+    },
+    {
+      "chunk_id": "79be3b1f-5949-52c9-a70e-b23d00bce839",
+      "score": 0.00684931506849315,
+      "dense_rank": 13,
+      "dense_score": 0.44609828673633517
+    },
+    {
+      "chunk_id": "692cbe2d-4f99-5293-bc20-1d34b66aaa5f",
+      "score": 0.006666666666666667,
+      "keyword_rank": 15,
+      "keyword_score": -2.8423295235929964
+    },
+    {
+      "chunk_id": "eed774c2-f063-5a72-9068-5f167a406215",
+      "score": 0.006578947368421052,
+      "dense_rank": 16,
+      "dense_score": 0.41184894471265954
+    },
+    {
+      "chunk_id": "5ccdfc09-fdbd-573f-a5e5-cd9a67794a59",
+      "score": 0.006578947368421052,
+      "keyword_rank": 16,
+      "keyword_score": -2.5742327101477
+    },
+    {
+      "chunk_id": "01940c09-9220-5ee1-b9bc-38d05a164b89",
+      "score": 0.00641025641025641,
+      "dense_rank": 18,
+      "dense_score": 0.4081430507663011
+    },
+    {
+      "chunk_id": "fffac2ae-3cfe-5765-b473-42df89324ff6",
+      "score": 0.006329113924050633,
+      "keyword_rank": 19,
+      "keyword_score": -2.071381231753508
+    }
+  ],
+  "variants": {
+    "B_english_dense": {
+      "sources": [
+        {
+          "chunk_id": "09fed5a3-fac8-52d4-a53f-e7b46f349387",
+          "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+          "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00002",
+          "chunk_type": "text",
+          "text": "Device layout\n[Volume (-)] button",
+          "content_region_ids": [
+            "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_16"
+          ],
+          "context_region_ids": [
+            "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_17"
+          ],
+          "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/2.jpg",
+          "source_shapes": [
+            {
+              "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_16",
+              "shape": {
+                "x": 55.93999999999999,
+                "y": 94.95999999999998,
+                "width": 93.00999999999996,
+                "height": 15.390000000000057
+              }
+            },
+            {
+              "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_17",
+              "shape": {
+                "x": 34.019999999999996,
+                "y": 31.28,
+                "width": 99.83,
+                "height": 22.299999999999955
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_16",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 19
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.7049541943702371,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S1"
+        },
+        {
+          "chunk_id": "c2f2dcbf-7be5-5ccc-b65a-66d0137aa80a",
+          "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+          "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00014",
+          "chunk_type": "text",
+          "text": "• Some device may allow you to control only the volume. • The audio cable connection allows you to control only the volume.",
+          "content_region_ids": [
+            "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_99"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/14.jpg",
+          "source_shapes": [
+            {
+              "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_99",
+              "shape": {
+                "x": 272.13,
+                "y": 103.71,
+                "width": 135.8199999999997,
+                "height": 94.04
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_99",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 123
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.6365091776960681,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S2"
+        },
+        {
+          "chunk_id": "ffbb4b35-d0ce-5984-9c27-19e61e3871e7",
+          "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+          "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00002",
+          "chunk_type": "text",
+          "text": "[Volume (+)] button",
+          "content_region_ids": [
+            "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_8"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/2.jpg",
+          "source_shapes": [
+            {
+              "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_8",
+              "shape": {
+                "x": 304.5899999999999,
+                "y": 96.59999999999995,
+                "width": 96.45000000000005,
+                "height": 15.390000000000043
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_8",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 19
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.6265470627770475,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S3"
+        },
+        {
+          "chunk_id": "bd8d2934-bccd-5903-b0b4-2b6933eae133",
+          "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+          "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00002",
+          "chunk_type": "figure",
+          "text": "A top-down view of a portable speaker showing labeled controls including [Volume (+)] button, [Play/Stop] button, [Talk] button, Status indicator, NFC antenna, and Microphone.",
+          "content_region_ids": [
+            "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_12"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/2.jpg",
+          "source_shapes": [
+            {
+              "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_12",
+              "shape": {
+                "x": 54.76999999999999,
+                "y": 93.28999999999999,
+                "width": 348.2499999999999,
+                "height": 126.1
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_12",
+              "field": "description_normalized",
+              "start": 0,
+              "end": 175
+            }
+          ],
+          "content_origin": "qwen_figure_description",
+          "quality_flags": [],
+          "score": 0.598268413385002,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S4"
+        },
+        {
+          "chunk_id": "daa5566f-4518-5c00-ac6e-69cd5bb57237",
+          "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+          "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00014",
+          "chunk_type": "text",
+          "text": "Playing audio\nPlay audio from your smartphone, multimedia player, or PC. • Adjust the volume with the [Volume (+)/(-)] buttons. • A notification will sound when the speaker volume reaches its maximum value. If the sound is not loud enough even with the speaker volume set to maximum, adjust the volume of the connected device.",
+          "content_region_ids": [
+            "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_98"
+          ],
+          "context_region_ids": [
+            "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_97"
+          ],
+          "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/14.jpg",
+          "source_shapes": [
+            {
+              "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_98",
+              "shape": {
+                "x": 34.02,
+                "y": 54.57,
+                "width": 176.09,
+                "height": 172.43
+              }
+            },
+            {
+              "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_97",
+              "shape": {
+                "x": 34.02,
+                "y": 31.58,
+                "width": 89.97999999999999,
+                "height": 19.83
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_98",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 312
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.5637146695543689,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S5"
+        }
+      ],
+      "excluded_sources": [],
+      "retrieved_chunk_ids": [
+        "09fed5a3-fac8-52d4-a53f-e7b46f349387",
+        "c2f2dcbf-7be5-5ccc-b65a-66d0137aa80a",
+        "ffbb4b35-d0ce-5984-9c27-19e61e3871e7",
+        "bd8d2934-bccd-5903-b0b4-2b6933eae133",
+        "daa5566f-4518-5c00-ac6e-69cd5bb57237"
+      ]
+    },
+    "C_english_hybrid": {
+      "sources": [
+        {
+          "chunk_id": "09fed5a3-fac8-52d4-a53f-e7b46f349387",
+          "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+          "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00002",
+          "chunk_type": "text",
+          "text": "Device layout\n[Volume (-)] button",
+          "content_region_ids": [
+            "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_16"
+          ],
+          "context_region_ids": [
+            "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_17"
+          ],
+          "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/2.jpg",
+          "source_shapes": [
+            {
+              "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_16",
+              "shape": {
+                "x": 55.93999999999999,
+                "y": 94.95999999999998,
+                "width": 93.00999999999996,
+                "height": 15.390000000000057
+              }
+            },
+            {
+              "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_17",
+              "shape": {
+                "x": 34.019999999999996,
+                "y": 31.28,
+                "width": 99.83,
+                "height": 22.299999999999955
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_16",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 19
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.01626123744050767,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S1"
+        },
+        {
+          "chunk_id": "ffbb4b35-d0ce-5984-9c27-19e61e3871e7",
+          "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+          "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00002",
+          "chunk_type": "text",
+          "text": "[Volume (+)] button",
+          "content_region_ids": [
+            "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_8"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/2.jpg",
+          "source_shapes": [
+            {
+              "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_8",
+              "shape": {
+                "x": 304.5899999999999,
+                "y": 96.59999999999995,
+                "width": 96.45000000000005,
+                "height": 15.390000000000043
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_8",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 19
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.016133229247983348,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S2"
+        },
+        {
+          "chunk_id": "c2f2dcbf-7be5-5ccc-b65a-66d0137aa80a",
+          "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+          "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00014",
+          "chunk_type": "text",
+          "text": "• Some device may allow you to control only the volume. • The audio cable connection allows you to control only the volume.",
+          "content_region_ids": [
+            "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_99"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/14.jpg",
+          "source_shapes": [
+            {
+              "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_99",
+              "shape": {
+                "x": 272.13,
+                "y": 103.71,
+                "width": 135.8199999999997,
+                "height": 94.04
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_99",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 123
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.015640273704789834,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S3"
+        },
+        {
+          "chunk_id": "daa5566f-4518-5c00-ac6e-69cd5bb57237",
+          "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+          "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00014",
+          "chunk_type": "text",
+          "text": "Playing audio\nPlay audio from your smartphone, multimedia player, or PC. • Adjust the volume with the [Volume (+)/(-)] buttons. • A notification will sound when the speaker volume reaches its maximum value. If the sound is not loud enough even with the speaker volume set to maximum, adjust the volume of the connected device.",
+          "content_region_ids": [
+            "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_98"
+          ],
+          "context_region_ids": [
+            "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_97"
+          ],
+          "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/14.jpg",
+          "source_shapes": [
+            {
+              "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_98",
+              "shape": {
+                "x": 34.02,
+                "y": 54.57,
+                "width": 176.09,
+                "height": 172.43
+              }
+            },
+            {
+              "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_97",
+              "shape": {
+                "x": 34.02,
+                "y": 31.58,
+                "width": 89.97999999999999,
+                "height": 19.83
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_98",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 312
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.01562881562881563,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S4"
+        },
+        {
+          "chunk_id": "bd8d2934-bccd-5903-b0b4-2b6933eae133",
+          "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+          "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00002",
+          "chunk_type": "figure",
+          "text": "A top-down view of a portable speaker showing labeled controls including [Volume (+)] button, [Play/Stop] button, [Talk] button, Status indicator, NFC antenna, and Microphone.",
+          "content_region_ids": [
+            "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_12"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/2.jpg",
+          "source_shapes": [
+            {
+              "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_12",
+              "shape": {
+                "x": 54.76999999999999,
+                "y": 93.28999999999999,
+                "width": 348.2499999999999,
+                "height": 126.1
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_12",
+              "field": "description_normalized",
+              "start": 0,
+              "end": 175
+            }
+          ],
+          "content_origin": "qwen_figure_description",
+          "quality_flags": [],
+          "score": 0.015504807692307693,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S5"
+        }
+      ],
+      "excluded_sources": [],
+      "retrieved_chunk_ids": [
+        "09fed5a3-fac8-52d4-a53f-e7b46f349387",
+        "ffbb4b35-d0ce-5984-9c27-19e61e3871e7",
+        "c2f2dcbf-7be5-5ccc-b65a-66d0137aa80a",
+        "daa5566f-4518-5c00-ac6e-69cd5bb57237",
+        "bd8d2934-bccd-5903-b0b4-2b6933eae133"
+      ]
+    }
+  },
+  "retrieval_seconds": 1.7316955999995116
+}

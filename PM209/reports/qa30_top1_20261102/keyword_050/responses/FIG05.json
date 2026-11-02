@@ -1,0 +1,184 @@
+{
+  "case_id": "FIG05",
+  "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+  "question": "스피커의 AC 전원 공급장치는 몇 가지 유형이며 각각 어떻게 준비하나요?",
+  "english_query": "What are the types of AC power supply for the speaker, and how is each prepared?",
+  "keyword_percent": 50,
+  "dense_percent": 50,
+  "top_k": 1,
+  "retrieved_chunk_ids": [
+    "6c6335a5-b563-50cc-a441-e9aa27eea06e"
+  ],
+  "sources": [
+    {
+      "chunk_id": "6c6335a5-b563-50cc-a441-e9aa27eea06e",
+      "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+      "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00007",
+      "chunk_type": "text",
+      "text": "Operation\n2. Plug the power cord on the AC power supply into the DC connector on the back of the speaker.",
+      "content_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_12"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_11"
+      ],
+      "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00008.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_12",
+          "shape": {
+            "x": 53.35300064086906,
+            "y": 96.1903533935546,
+            "width": 636.1020164489744,
+            "height": 41.4000549316406
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_11",
+          "shape": {
+            "x": 53.35300064086906,
+            "y": 54.16992187499997,
+            "width": 108.7440147399902,
+            "height": 28.416000366210824
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_12",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 95
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.01626123744050767,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "excluded_sources": [],
+  "top5_response_file": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_hybrid_20261102\\C_english_hybrid\\results.json",
+  "status": "answered",
+  "variant": "keyword_050",
+  "created_at": "2026-11-02T00:57:13.740887+00:00",
+  "answer": "제공된 매뉴얼 excerpt 에 따르면, 스피커의 AC 전원 공급 장치는 'DC 커넥터'라는 하나의 유형으로 명시되어 있으며, 준비 방법은 'AC 전원 케이블을 스피커 뒷면의 DC 커넥터에 꽂는 것'입니다.",
+  "source_ids": [
+    "S1"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 94,
+        "prompt_eval_count": 389,
+        "total_duration": 1281103200,
+        "load_duration": 5775100,
+        "attempt": 1,
+        "prompt_token_upper_bound": 2367
+      }
+    ],
+    "elapsed_seconds": 1.3415223000047263,
+    "ollama_model": {
+      "name": "qwen3.5:4b",
+      "model": "qwen3.5:4b",
+      "size": 3214409726,
+      "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "4.2B",
+        "quantization_level": "Q4_K_M"
+      },
+      "expires_at": "2026-11-02T09:58:15.0808655+09:00",
+      "size_vram": 3214409726,
+      "context_length": 8192,
+      "runner": "llamacpp"
+    },
+    "observation_error": null
+  },
+  "citations": [
+    {
+      "chunk_id": "6c6335a5-b563-50cc-a441-e9aa27eea06e",
+      "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+      "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00007",
+      "chunk_type": "text",
+      "text": "Operation\n2. Plug the power cord on the AC power supply into the DC connector on the back of the speaker.",
+      "content_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_12"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_11"
+      ],
+      "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00008.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_12",
+          "shape": {
+            "x": 53.35300064086906,
+            "y": 96.1903533935546,
+            "width": 636.1020164489744,
+            "height": 41.4000549316406
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_11",
+          "shape": {
+            "x": 53.35300064086906,
+            "y": 54.16992187499997,
+            "width": 108.7440147399902,
+            "height": 28.416000366210824
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_12",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 95
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.01626123744050767,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 1.341714799986221,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 66,
+    "utilization_percent": 83
+  }
+}

@@ -1,0 +1,2521 @@
+{
+  "case_id": "TABLE07",
+  "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+  "question": "배터리 상태 표시로 무엇을 알 수 있나요?",
+  "english_query": "What can be known from the battery status indicator?",
+  "dense_candidates": [
+    {
+      "score": 0.7334783967373236,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00011",
+      "chunk_type": "table",
+      "content_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_100"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_84"
+      ],
+      "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00012.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_100",
+          "shape": {
+            "x": 50,
+            "y": 427.6406249999998,
+            "width": 676.9999999999991,
+            "height": 476.9999999999998
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_84",
+          "shape": {
+            "x": 53.35300064086908,
+            "y": 94.41240692138666,
+            "width": 323.2880516052244,
+            "height": 33.54399871826169
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_86",
+          "shape": {
+            "x": 60.186333974202434,
+            "y": 437.6632080078121,
+            "width": 79.76270167032874,
+            "height": 40.80531819661434
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_95",
+          "shape": {
+            "x": 156.66666666666652,
+            "y": 459.09375,
+            "width": 126.66666666666646,
+            "height": 21.333333333332803
+          }
+        }
+      ],
+      "title": "System status indicators",
+      "text": "System status indicators\nFirst row (header unconfirmed): Column 1: Status indicator | Column 2: System status\nColumn 1: [empty cell] | Column 2: Indicates the battery power level or the battery charging state.See“Checking the battery\" on page 14.",
+      "char_count": 246,
+      "overlap_char_count": 0,
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "source_spans": [],
+      "table_rows": [
+        4
+      ],
+      "table_cells": [
+        {
+          "row": 4,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "chunk_id": "2333ca0c-4e3f-550d-9afc-63d6631c573b",
+      "text_sha256": "2e91d05eded2305f0bac866d8f1a5c46a2405b9335b72ab1974eccdb20c7efc8",
+      "deduplicated_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_86",
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_95"
+      ],
+      "token_count": 61
+    },
+    {
+      "score": 0.731409658033511,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00011",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_92"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00012.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_92",
+          "shape": {
+            "x": 159.3801083034938,
+            "y": 848.0529785156245,
+            "width": 553.3369327121308,
+            "height": 37.9484727647565
+          }
+        }
+      ],
+      "title": "",
+      "text": "Indicates the battery power level or the battery charging state. See “Checking the battery” on page 14.",
+      "char_count": 103,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_92",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 103
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "92a55104-ce18-5045-9d18-3d96a9b73da2",
+      "text_sha256": "1368d058d51937ec7036d356a6f6114015c18c912ae2b25420876ae111bff7ea",
+      "token_count": 24
+    },
+    {
+      "score": 0.7254791112434245,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00013",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_136"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_118"
+      ],
+      "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00014.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_136",
+          "shape": {
+            "x": 58.49999999999998,
+            "y": 392.64062499999983,
+            "width": 52.44444444444439,
+            "height": 23.77777777777777
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_118",
+          "shape": {
+            "x": 53.353000640869084,
+            "y": 209.15240478515616,
+            "width": 232.5119895935058,
+            "height": 28.751998901367188
+          }
+        }
+      ],
+      "title": "Checking the battery",
+      "text": "Checking the battery\nA battery icon showing a rectangular shape with a protruding terminal on the right side, indicating power status or charge level.",
+      "char_count": 150,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_136",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 129
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "3eeebd12-3905-5f72-814e-79952aa3e54c",
+      "text_sha256": "dff98cd8d9d821a3ef8ceffcbb87572746403f8c38c27b5aa436f09f883e663f",
+      "token_count": 28
+    },
+    {
+      "score": 0.722276450600698,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00011",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_99"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_84"
+      ],
+      "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00012.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_99",
+          "shape": {
+            "x": 76.66666666666663,
+            "y": 848.4270833333325,
+            "width": 51.999999999999915,
+            "height": 22.666666666667084
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_84",
+          "shape": {
+            "x": 53.35300064086908,
+            "y": 94.41240692138666,
+            "width": 323.2880516052244,
+            "height": 33.54399871826169
+          }
+        }
+      ],
+      "title": "System status indicators",
+      "text": "System status indicators\nA black battery icon showing low charge level, depicted as a rectangular outline with two horizontal bars inside and a protruding terminal on the right side.",
+      "char_count": 182,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_99",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 157
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "9d31f93b-601f-5ad9-9871-4d6fb81f41cc",
+      "text_sha256": "1eebf3332b876dd85525fd485d534cc14fda7f4e2357fe1f94d683c0ae796f61",
+      "token_count": 33
+    },
+    {
+      "score": 0.6722887285375654,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00013",
+      "chunk_type": "table",
+      "content_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_137"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_118"
+      ],
+      "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00014.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_137",
+          "shape": {
+            "x": 49.49999999999998,
+            "y": 379.6406249999999,
+            "width": 533.9999999999998,
+            "height": 97.99999999999989
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_118",
+          "shape": {
+            "x": 53.353000640869084,
+            "y": 209.15240478515616,
+            "width": 232.5119895935058,
+            "height": 28.751998901367188
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_121",
+          "shape": {
+            "x": 140.55300903320307,
+            "y": 392.3442077636717,
+            "width": 80.89601135253906,
+            "height": 19.503997802734375
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_122",
+          "shape": {
+            "x": 363.0809936523435,
+            "y": 392.3442077636717,
+            "width": 77.60000610351562,
+            "height": 19.503997802734375
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_123",
+          "shape": {
+            "x": 140.55299377441398,
+            "y": 420.888214111328,
+            "width": 84.99201965332031,
+            "height": 19.50399780273426
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_124",
+          "shape": {
+            "x": 363.0809936523435,
+            "y": 420.888214111328,
+            "width": 111.1360473632813,
+            "height": 19.50399780273426
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_125",
+          "shape": {
+            "x": 140.55299377441398,
+            "y": 449.432220458984,
+            "width": 84.46401977539062,
+            "height": 19.503997802734602
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_126",
+          "shape": {
+            "x": 363.0809936523435,
+            "y": 449.432220458984,
+            "width": 138.83193969726574,
+            "height": 19.503997802734602
+          }
+        }
+      ],
+      "title": "Checking the battery",
+      "text": "Checking the battery\nFirst row (header unconfirmed): Column 1: [empty cell] | Column 2: Solid green | Column 3: Full charge\nColumn 1: [empty cell] | Column 2: Solid green | Column 3: Full charge\nColumn 1: [empty cell] | Column 2: Solid yellow | Column 3: Medium charge\nColumn 1: [empty cell] | Column 2: Blinking red | Column 3: Charging is needed",
+      "char_count": 347,
+      "overlap_char_count": 0,
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "source_spans": [],
+      "table_rows": [
+        0,
+        1,
+        2
+      ],
+      "table_cells": [
+        {
+          "row": 0,
+          "column": 0,
+          "rowspan": 3,
+          "colspan": 1
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 0,
+          "column": 0,
+          "rowspan": 3,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 0,
+          "column": 0,
+          "rowspan": 3,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "chunk_id": "99d892c6-65d7-54aa-9318-603c8537755c",
+      "text_sha256": "9aae7c5257af3372d85ac779638910f478373dfad0c5cd40c5e9d3b0f09480b2",
+      "deduplicated_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_121",
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_122",
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_123",
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_124",
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_125",
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_126"
+      ],
+      "token_count": 104
+    },
+    {
+      "score": 0.6385558253497845,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00013",
+      "chunk_type": "table",
+      "content_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_139"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_127"
+      ],
+      "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00014.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_139",
+          "shape": {
+            "x": 49.49999999999998,
+            "y": 690.6406249999998,
+            "width": 538.0,
+            "height": 67.99999999999989
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_127",
+          "shape": {
+            "x": 53.353000640869084,
+            "y": 495.795959472656,
+            "width": 229.9439964294433,
+            "height": 28.75201416015625
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_130",
+          "shape": {
+            "x": 140.55300903320307,
+            "y": 698.9877319335931,
+            "width": 105.7440338134765,
+            "height": 19.50402832031284
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_131",
+          "shape": {
+            "x": 363.0809936523435,
+            "y": 698.9877319335931,
+            "width": 133.61605834960943,
+            "height": 19.50402832031284
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_132",
+          "shape": {
+            "x": 140.55299377441398,
+            "y": 727.5317382812497,
+            "width": 80.89601135253903,
+            "height": 19.5040283203125
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_133",
+          "shape": {
+            "x": 363.0809936523435,
+            "y": 727.5317382812497,
+            "width": 163.24798583984375,
+            "height": 19.5040283203125
+          }
+        }
+      ],
+      "title": "Charging the battery",
+      "text": "Charging the battery\nFirst row (header unconfirmed): Column 1: [empty cell] | Column 2: Blinking yellow | Column 3: Battery is charging\nColumn 1: [empty cell] | Column 2: Blinking yellow | Column 3: Battery is charging\nColumn 1: [empty cell] | Column 2: Solid green | Column 3: Battery is fully charged",
+      "char_count": 302,
+      "overlap_char_count": 0,
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "source_spans": [],
+      "table_rows": [
+        0,
+        1
+      ],
+      "table_cells": [
+        {
+          "row": 0,
+          "column": 0,
+          "rowspan": 2,
+          "colspan": 1
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 0,
+          "column": 0,
+          "rowspan": 2,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "chunk_id": "ca44096d-5518-5a2d-bca0-d9c6fbf6ea8c",
+      "text_sha256": "27dfb56dc837b80269c79bae83207d8bc369c56561dc3ed1c5820797497a850d",
+      "deduplicated_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_130",
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_131",
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_132",
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_133"
+      ],
+      "token_count": 86
+    },
+    {
+      "score": 0.622038593204297,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00007",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_14",
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_15"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00008.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_14",
+          "shape": {
+            "x": 89.35296630859366,
+            "y": 603.6023559570309,
+            "width": 603.2879638671864,
+            "height": 40.989990234375
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_15",
+          "shape": {
+            "x": 89.3448028564452,
+            "y": 643.6024169921868,
+            "width": 308.8260345458982,
+            "height": 20.98797607421875
+          }
+        }
+      ],
+      "title": "",
+      "text": "The speaker emits a tone to confirm connection to AC power, and charging begins. On the front of the speaker, the battery status indicator blinks\nyellow to show the battery is charging.",
+      "char_count": 185,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_14",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 145
+        },
+        {
+          "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_15",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 39
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "c04f121d-5fae-59e2-9c49-55d0a0702f79",
+      "text_sha256": "c046ff91aabb99cc640de4057a8756e842b51c4868a78282f8996b14865eed72",
+      "token_count": 38
+    },
+    {
+      "score": 0.6190520333198238,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00013",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_119",
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_120"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_118"
+      ],
+      "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00014.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_119",
+          "shape": {
+            "x": 53.353000640869084,
+            "y": 243.45640563964835,
+            "width": 661.4999656677244,
+            "height": 80.98194885253903
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_120",
+          "shape": {
+            "x": 52.908556196424655,
+            "y": 329.3372531467013,
+            "width": 640.0603769090438,
+            "height": 44.10512966579847
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_118",
+          "shape": {
+            "x": 53.353000640869084,
+            "y": 209.15240478515616,
+            "width": 232.5119895935058,
+            "height": 28.751998901367188
+          }
+        }
+      ],
+      "title": "Checking the battery",
+      "text": "Checking the battery\nWhen the speaker is turned on, the battery status indicator briefly illuminates, then turns off to conserve battery power. However, if the battery requires charging, the battery status indicator illuminates and continuously blink red until the speaker the speaker is connected to AC power and the battery begins charging.\nTo check the battery charge level, press and hold Power on the speaker and observe the battery status indicator.",
+      "char_count": 455,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_119",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 321
+        },
+        {
+          "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_120",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 112
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "e65b3cf6-1236-5a26-a4ca-7b9aed89c7f2",
+      "text_sha256": "2b4c6f6a6bc71ae7ae0b4c223ec4416c0acc35ccd87075a1865c7e70fc220f7d",
+      "token_count": 82
+    },
+    {
+      "score": 0.6190175425989314,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00011",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_94"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_84"
+      ],
+      "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00012.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_94",
+          "shape": {
+            "x": 45.99999999999997,
+            "y": 137.64062499999994,
+            "width": 685.9999999999995,
+            "height": 276.00000000000006
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_84",
+          "shape": {
+            "x": 53.35300064086908,
+            "y": 94.41240692138666,
+            "width": 323.2880516052244,
+            "height": 33.54399871826169
+          }
+        }
+      ],
+      "title": "System status indicators",
+      "text": "System status indicators\nA Bose speaker with status indicators on the front panel showing Bluetooth, AUX input, mute, and power states. The device features a compact rectangular design with visible branding and control icons.",
+      "char_count": 225,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_94",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 200
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "7af2dc8a-8768-58ef-9a27-3d4cd1e208aa",
+      "text_sha256": "a7ea783146f998844a136e59889a45b3e575de73f833218530b5f1efab10f5d4",
+      "token_count": 40
+    },
+    {
+      "score": 0.6119458128560005,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00011",
+      "chunk_type": "table",
+      "content_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_100"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_84"
+      ],
+      "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00012.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_100",
+          "shape": {
+            "x": 50,
+            "y": 427.6406249999998,
+            "width": 676.9999999999991,
+            "height": 476.9999999999998
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_84",
+          "shape": {
+            "x": 53.35300064086908,
+            "y": 94.41240692138666,
+            "width": 323.2880516052244,
+            "height": 33.54399871826169
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_86",
+          "shape": {
+            "x": 60.186333974202434,
+            "y": 437.6632080078121,
+            "width": 79.76270167032874,
+            "height": 40.80531819661434
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_95",
+          "shape": {
+            "x": 156.66666666666652,
+            "y": 459.09375,
+            "width": 126.66666666666646,
+            "height": 21.333333333332803
+          }
+        }
+      ],
+      "title": "System status indicators",
+      "text": "System status indicators\nFirst row (header unconfirmed): Column 1: Status indicator | Column 2: System status\nColumn 1: 8\nColumn 2\nBlinks as the yolume of the speaker increases or decreases when Bluetooth is the source.When the indicator blinks twice.the maximumor minimum yolume has been reached.",
+      "char_count": 297,
+      "overlap_char_count": 0,
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "source_spans": [
+        {
+          "row": 1,
+          "column": 1,
+          "start": 322,
+          "end": 488,
+          "field": "normalized_cell_text"
+        }
+      ],
+      "table_rows": [
+        1
+      ],
+      "table_cells": [
+        {
+          "row": 1,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "chunk_id": "168203cd-dedf-57a8-8dbb-c9dde3684e22",
+      "text_sha256": "095e28134eed3dc1bae4c1db8af700f27342c2d06c2b5c041e7b43f10f2d5382",
+      "deduplicated_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_86",
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_95"
+      ],
+      "token_count": 69
+    },
+    {
+      "score": 0.6074482995823707,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00013",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_138"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_127"
+      ],
+      "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00014.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_138",
+          "shape": {
+            "x": 59.33333333333329,
+            "y": 699.7604166666662,
+            "width": 50.666666666666664,
+            "height": 23.333333333333485
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_127",
+          "shape": {
+            "x": 53.353000640869084,
+            "y": 495.795959472656,
+            "width": 229.9439964294433,
+            "height": 28.75201416015625
+          }
+        }
+      ],
+      "title": "Charging the battery",
+      "text": "Charging the battery\nA black battery icon showing low charge level, depicted as a rectangular outline with two horizontal bars inside and a small protrusion on the right side.",
+      "char_count": 175,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_138",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 154
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "dcfd67b4-d0a3-5edd-a782-eb1523cc0d9f",
+      "text_sha256": "4f789ab4d3a0667c4aa7b8a462c8cadd6467ccc853e8fc2f57e21994ecb13212",
+      "token_count": 34
+    },
+    {
+      "score": 0.6074119530406525,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00011",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_91"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_84"
+      ],
+      "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00012.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_91",
+          "shape": {
+            "x": 160.26899719238273,
+            "y": 801.0529785156247,
+            "width": 232.67204284667955,
+            "height": 19.504028320312386
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_84",
+          "shape": {
+            "x": 53.35300064086908,
+            "y": 94.41240692138666,
+            "width": 323.2880516052244,
+            "height": 33.54399871826169
+          }
+        }
+      ],
+      "title": "System status indicators",
+      "text": "System status indicators\nBlinks when the sound is muted.",
+      "char_count": 56,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_91",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 31
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "ca1219e3-728f-5542-ba47-306e2f26dbfa",
+      "text_sha256": "b35a1b3126160c3e4b0457b6968a2b08ddd099fbd18d84238bfd83082e434c55",
+      "token_count": 12
+    },
+    {
+      "score": 0.6059565100673596,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00011",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_97"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_84"
+      ],
+      "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00012.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_97",
+          "shape": {
+            "x": 77.33333333333327,
+            "y": 703.0937499999995,
+            "width": 50.66666666666667,
+            "height": 22.6666666666664
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_84",
+          "shape": {
+            "x": 53.35300064086908,
+            "y": 94.41240692138666,
+            "width": 323.2880516052244,
+            "height": 33.54399871826169
+          }
+        }
+      ],
+      "title": "System status indicators",
+      "text": "System status indicators\nA cropped image showing the black text label 'AUX' in bold capital letters against a white background.",
+      "char_count": 127,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_97",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 102
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "4141cd5f-1aa3-581c-b6d3-906d331a629e",
+      "text_sha256": "cbbb08263ac17263ebd3ba045624d973d60659f9cc26c043aa51b0bc75b535f9",
+      "token_count": 25
+    },
+    {
+      "score": 0.5930819913117312,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00011",
+      "chunk_type": "table",
+      "content_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_100"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_84"
+      ],
+      "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00012.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_100",
+          "shape": {
+            "x": 50,
+            "y": 427.6406249999998,
+            "width": 676.9999999999991,
+            "height": 476.9999999999998
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_84",
+          "shape": {
+            "x": 53.35300064086908,
+            "y": 94.41240692138666,
+            "width": 323.2880516052244,
+            "height": 33.54399871826169
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_86",
+          "shape": {
+            "x": 60.186333974202434,
+            "y": 437.6632080078121,
+            "width": 79.76270167032874,
+            "height": 40.80531819661434
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_95",
+          "shape": {
+            "x": 156.66666666666652,
+            "y": 459.09375,
+            "width": 126.66666666666646,
+            "height": 21.333333333332803
+          }
+        }
+      ],
+      "title": "System status indicators",
+      "text": "System status indicators\nFirst row (header unconfirmed): Column 1: Status indicator | Column 2: System status\nColumn 1\n8",
+      "char_count": 120,
+      "overlap_char_count": 0,
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "source_spans": [
+        {
+          "row": 1,
+          "column": 0,
+          "start": 0,
+          "end": 1,
+          "field": "normalized_cell_text"
+        }
+      ],
+      "table_rows": [
+        1
+      ],
+      "table_cells": [
+        {
+          "row": 1,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "chunk_id": "882e6f1c-2b42-570c-9487-c4dd50768d1e",
+      "text_sha256": "693f9c6564c40d57b9453c28edefa7b588ffeff3d6b87cbd9551b878e15d0598",
+      "deduplicated_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_86",
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_95"
+      ],
+      "token_count": 30
+    },
+    {
+      "score": 0.5914310846002906,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00011",
+      "chunk_type": "table",
+      "content_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_100"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_84"
+      ],
+      "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00012.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_100",
+          "shape": {
+            "x": 50,
+            "y": 427.6406249999998,
+            "width": 676.9999999999991,
+            "height": 476.9999999999998
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_84",
+          "shape": {
+            "x": 53.35300064086908,
+            "y": 94.41240692138666,
+            "width": 323.2880516052244,
+            "height": 33.54399871826169
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_86",
+          "shape": {
+            "x": 60.186333974202434,
+            "y": 437.6632080078121,
+            "width": 79.76270167032874,
+            "height": 40.80531819661434
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_95",
+          "shape": {
+            "x": 156.66666666666652,
+            "y": 459.09375,
+            "width": 126.66666666666646,
+            "height": 21.333333333332803
+          }
+        }
+      ],
+      "title": "System status indicators",
+      "text": "System status indicators\nFirst row (header unconfirmed): Column 1: Status indicator | Column 2: System status\nColumn 1: Status indicator | Column 2: System status",
+      "char_count": 162,
+      "overlap_char_count": 0,
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "source_spans": [],
+      "table_rows": [
+        0
+      ],
+      "table_cells": [
+        {
+          "row": 0,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "chunk_id": "8c7f46e1-518c-5a38-9812-ee6280c04127",
+      "text_sha256": "2491c3114f8813056b577f6925844147897649ba110d53f50292ab2605ff66af",
+      "deduplicated_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_86",
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_95"
+      ],
+      "token_count": 38
+    },
+    {
+      "score": 0.5759763024778142,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00011",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_85"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_84"
+      ],
+      "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00012.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_85",
+          "shape": {
+            "x": 50.686333974202455,
+            "y": 141.45640563964835,
+            "width": 627.0901756286614,
+            "height": 40.98605346679685
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_84",
+          "shape": {
+            "x": 53.35300064086908,
+            "y": 94.41240692138666,
+            "width": 323.2880516052244,
+            "height": 33.54399871826169
+          }
+        }
+      ],
+      "title": "System status indicators",
+      "text": "System status indicators\nStatus indicators illuminate to show when an audio source or speaker state is activated. Status indicators are located on the front of the speaker.",
+      "char_count": 172,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_85",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 147
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "bc112282-9cfd-5529-8044-39b305664ce0",
+      "text_sha256": "0664ab7b84e0a4fbc13116e64fe636f6e667c0b41e520380a79036bad488d515",
+      "token_count": 30
+    },
+    {
+      "score": 0.5737013974842544,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00011",
+      "chunk_type": "table",
+      "content_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_100"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_84"
+      ],
+      "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00012.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_100",
+          "shape": {
+            "x": 50,
+            "y": 427.6406249999998,
+            "width": 676.9999999999991,
+            "height": 476.9999999999998
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_84",
+          "shape": {
+            "x": 53.35300064086908,
+            "y": 94.41240692138666,
+            "width": 323.2880516052244,
+            "height": 33.54399871826169
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_86",
+          "shape": {
+            "x": 60.186333974202434,
+            "y": 437.6632080078121,
+            "width": 79.76270167032874,
+            "height": 40.80531819661434
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_95",
+          "shape": {
+            "x": 156.66666666666652,
+            "y": 459.09375,
+            "width": 126.66666666666646,
+            "height": 21.333333333332803
+          }
+        }
+      ],
+      "title": "System status indicators",
+      "text": "System status indicators\nFirst row (header unconfirmed): Column 1: Status indicator | Column 2: System status\nColumn 1: 8\nColumn 2\nIndicates the Bluetooth state of the speaker when the Bluetooth source is selected.See\"Pairing and connecting a device to the speaker”on page 9. Blinking blue light-Discoverable and ready to pair with a device. Blinking white light-Attempting to connect to a paired device. Solid white light-Connected to a paired device.",
+      "char_count": 452,
+      "overlap_char_count": 0,
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "source_spans": [
+        {
+          "row": 1,
+          "column": 1,
+          "start": 0,
+          "end": 321,
+          "field": "normalized_cell_text"
+        }
+      ],
+      "table_rows": [
+        1
+      ],
+      "table_cells": [
+        {
+          "row": 1,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "chunk_id": "eec07c9f-a21c-54f5-ac08-bf9835c15199",
+      "text_sha256": "28703d4cb8613a392185c31cb41d64615dbd6be28f8e94a5fa96573258c4b490",
+      "deduplicated_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_86",
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_95"
+      ],
+      "token_count": 106
+    },
+    {
+      "score": 0.5567956144275693,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00011",
+      "chunk_type": "table",
+      "content_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_100"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_84"
+      ],
+      "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00012.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_100",
+          "shape": {
+            "x": 50,
+            "y": 427.6406249999998,
+            "width": 676.9999999999991,
+            "height": 476.9999999999998
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_84",
+          "shape": {
+            "x": 53.35300064086908,
+            "y": 94.41240692138666,
+            "width": 323.2880516052244,
+            "height": 33.54399871826169
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_86",
+          "shape": {
+            "x": 60.186333974202434,
+            "y": 437.6632080078121,
+            "width": 79.76270167032874,
+            "height": 40.80531819661434
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_95",
+          "shape": {
+            "x": 156.66666666666652,
+            "y": 459.09375,
+            "width": 126.66666666666646,
+            "height": 21.333333333332803
+          }
+        }
+      ],
+      "title": "System status indicators",
+      "text": "System status indicators\nFirst row (header unconfirmed): Column 1: Status indicator | Column 2: System status\nColumn 1: AUX | Column 2: The speaker is playing the source connected to the AUx INconnector. Blinks as the volume of the speaker increases or decreases when AUXis the source. When the indicator blinks twice,the maximum or minimum volume has been reached.\nColumn 1: 公 | Column 2: Blinks when the sound is muted",
+      "char_count": 420,
+      "overlap_char_count": 0,
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "source_spans": [],
+      "table_rows": [
+        2,
+        3
+      ],
+      "table_cells": [
+        {
+          "row": 2,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "chunk_id": "b4638f4e-c4a0-5583-a341-bb8147120180",
+      "text_sha256": "4917f1d9a55961e308060493bd0ee5580ae4010b983aa79ef91bdfd196ee4e8d",
+      "deduplicated_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_86",
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_95"
+      ],
+      "token_count": 99
+    },
+    {
+      "score": 0.5451923661837035,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00011",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_96"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_84"
+      ],
+      "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00012.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_96",
+          "shape": {
+            "x": 86.66666666666661,
+            "y": 490.4270833333331,
+            "width": 24.666666666666615,
+            "height": 39.99999999999994
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_84",
+          "shape": {
+            "x": 53.35300064086908,
+            "y": 94.41240692138666,
+            "width": 323.2880516052244,
+            "height": 33.54399871826169
+          }
+        }
+      ],
+      "title": "System status indicators",
+      "text": "System status indicators\nA black Bluetooth symbol featuring an interlocking B and B design, commonly used to indicate wireless connectivity capabilities in electronic devices.",
+      "char_count": 175,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_96",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 150
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "b3aeb2df-7460-562d-a949-20e5c34b413d",
+      "text_sha256": "5914666cf91a476e11924edfadb8df36929a7aafa08203eb14e690e3461e4649",
+      "token_count": 28
+    },
+    {
+      "score": 0.5308279928531505,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00010",
+      "chunk_type": "table",
+      "content_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_79"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_59"
+      ],
+      "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00011.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_79",
+          "shape": {
+            "x": 69.24999999999997,
+            "y": 414.46093749999983,
+            "width": 687.4999999999993,
+            "height": 635.0000000000002
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_59",
+          "shape": {
+            "x": 74.9530029296875,
+            "y": 92.41240692138658,
+            "width": 204.87603759765597,
+            "height": 33.54399871826172
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_61",
+          "shape": {
+            "x": 84.45300292968744,
+            "y": 424.61840820312443,
+            "width": 67.04667154947907,
+            "height": 41.47198486328159
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_72",
+          "shape": {
+            "x": 179.99999999999977,
+            "y": 446.42708333333314,
+            "width": 102.66666666666674,
+            "height": 21.999999999999943
+          }
+        }
+      ],
+      "title": "Control buttons",
+      "text": "Control buttons\nFirst row (header unconfirmed): Column 1: Control button | Column 2: Description\nColumn 1: [empty cell]\nColumn 2\nSee\"Checking the battery\" on page 14. If the speaker is not used within 30 minutes,the speaker automatically turns off to preserve battery power.",
+      "char_count": 274,
+      "overlap_char_count": 0,
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "source_spans": [
+        {
+          "row": 1,
+          "column": 1,
+          "start": 352,
+          "end": 497,
+          "field": "normalized_cell_text"
+        }
+      ],
+      "table_rows": [
+        1
+      ],
+      "table_cells": [
+        {
+          "row": 1,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "chunk_id": "d2349f5d-db29-54cc-af06-839661644b48",
+      "text_sha256": "ca14d5a5c198b32ba46661d4fafa7a2b53840db46e2bf884c95a473e2a6f3ed7",
+      "deduplicated_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_61",
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_72"
+      ],
+      "token_count": 68
+    }
+  ],
+  "keyword_candidates": [
+    {
+      "chunk_id": "2333ca0c-4e3f-550d-9afc-63d6631c573b",
+      "bm25_score": -14.611541595366962
+    },
+    {
+      "chunk_id": "e65b3cf6-1236-5a26-a4ca-7b9aed89c7f2",
+      "bm25_score": -13.631999734493371
+    },
+    {
+      "chunk_id": "d86aca9e-15df-5e00-8663-074d5075c80b",
+      "bm25_score": -13.339938738066632
+    },
+    {
+      "chunk_id": "3eeebd12-3905-5f72-814e-79952aa3e54c",
+      "bm25_score": -12.019494126743119
+    },
+    {
+      "chunk_id": "8c7f46e1-518c-5a38-9812-ee6280c04127",
+      "bm25_score": -11.19281137113334
+    },
+    {
+      "chunk_id": "c04f121d-5fae-59e2-9c49-55d0a0702f79",
+      "bm25_score": -10.96031800358812
+    },
+    {
+      "chunk_id": "882e6f1c-2b42-570c-9487-c4dd50768d1e",
+      "bm25_score": -10.496663143165192
+    },
+    {
+      "chunk_id": "bc112282-9cfd-5529-8044-39b305664ce0",
+      "bm25_score": -10.206921279529299
+    },
+    {
+      "chunk_id": "9d31f93b-601f-5ad9-9871-4d6fb81f41cc",
+      "bm25_score": -10.078418501202998
+    },
+    {
+      "chunk_id": "3cd6fa82-d9c2-5530-81de-4d1a6e0115b1",
+      "bm25_score": -9.437706744107349
+    },
+    {
+      "chunk_id": "168203cd-dedf-57a8-8dbb-c9dde3684e22",
+      "bm25_score": -8.97772696901404
+    },
+    {
+      "chunk_id": "ca1219e3-728f-5542-ba47-306e2f26dbfa",
+      "bm25_score": -8.889408440324235
+    },
+    {
+      "chunk_id": "92a55104-ce18-5045-9d18-3d96a9b73da2",
+      "bm25_score": -8.768245291591231
+    },
+    {
+      "chunk_id": "dae6f25d-d94d-5f84-9234-afdef58a8346",
+      "bm25_score": -8.681873339807638
+    },
+    {
+      "chunk_id": "7af2dc8a-8768-58ef-9a27-3d4cd1e208aa",
+      "bm25_score": -8.496194913394493
+    },
+    {
+      "chunk_id": "8b27f515-3142-5ba8-9d6b-bd5d65121ff5",
+      "bm25_score": -8.397852453032336
+    },
+    {
+      "chunk_id": "fec42923-d50a-5fdb-b004-b5b2a1c7798a",
+      "bm25_score": -8.245208465949217
+    },
+    {
+      "chunk_id": "b4638f4e-c4a0-5583-a341-bb8147120180",
+      "bm25_score": -7.927560758713246
+    },
+    {
+      "chunk_id": "b3aeb2df-7460-562d-a949-20e5c34b413d",
+      "bm25_score": -7.84758606023594
+    },
+    {
+      "chunk_id": "eec07c9f-a21c-54f5-ac08-bf9835c15199",
+      "bm25_score": -7.722263298891255
+    }
+  ],
+  "fused_candidates": [
+    {
+      "chunk_id": "2333ca0c-4e3f-550d-9afc-63d6631c573b",
+      "score": 0.01639344262295082,
+      "dense_rank": 1,
+      "dense_score": 0.7334783967373236,
+      "keyword_rank": 1,
+      "keyword_score": -14.611541595366962
+    },
+    {
+      "chunk_id": "3eeebd12-3905-5f72-814e-79952aa3e54c",
+      "score": 0.015749007936507936,
+      "dense_rank": 3,
+      "dense_score": 0.7254791112434245,
+      "keyword_rank": 4,
+      "keyword_score": -12.019494126743119
+    },
+    {
+      "chunk_id": "e65b3cf6-1236-5a26-a4ca-7b9aed89c7f2",
+      "score": 0.015417457305502846,
+      "dense_rank": 8,
+      "dense_score": 0.6190520333198238,
+      "keyword_rank": 2,
+      "keyword_score": -13.631999734493371
+    },
+    {
+      "chunk_id": "9d31f93b-601f-5ad9-9871-4d6fb81f41cc",
+      "score": 0.015058876811594204,
+      "dense_rank": 4,
+      "dense_score": 0.722276450600698,
+      "keyword_rank": 9,
+      "keyword_score": -10.078418501202998
+    },
+    {
+      "chunk_id": "c04f121d-5fae-59e2-9c49-55d0a0702f79",
+      "score": 0.015038444142921756,
+      "dense_rank": 7,
+      "dense_score": 0.622038593204297,
+      "keyword_rank": 6,
+      "keyword_score": -10.96031800358812
+    },
+    {
+      "chunk_id": "92a55104-ce18-5045-9d18-3d96a9b73da2",
+      "score": 0.014913831197525408,
+      "dense_rank": 2,
+      "dense_score": 0.731409658033511,
+      "keyword_rank": 13,
+      "keyword_score": -8.768245291591231
+    },
+    {
+      "chunk_id": "8c7f46e1-518c-5a38-9812-ee6280c04127",
+      "score": 0.01435897435897436,
+      "dense_rank": 15,
+      "dense_score": 0.5914310846002906,
+      "keyword_rank": 5,
+      "keyword_score": -11.19281137113334
+    },
+    {
+      "chunk_id": "882e6f1c-2b42-570c-9487-c4dd50768d1e",
+      "score": 0.014219443323920937,
+      "dense_rank": 14,
+      "dense_score": 0.5930819913117312,
+      "keyword_rank": 7,
+      "keyword_score": -10.496663143165192
+    },
+    {
+      "chunk_id": "168203cd-dedf-57a8-8dbb-c9dde3684e22",
+      "score": 0.014185110663983903,
+      "dense_rank": 10,
+      "dense_score": 0.6119458128560005,
+      "keyword_rank": 11,
+      "keyword_score": -8.97772696901404
+    },
+    {
+      "chunk_id": "bc112282-9cfd-5529-8044-39b305664ce0",
+      "score": 0.01393188854489164,
+      "dense_rank": 16,
+      "dense_score": 0.5759763024778142,
+      "keyword_rank": 8,
+      "keyword_score": -10.206921279529299
+    },
+    {
+      "chunk_id": "7af2dc8a-8768-58ef-9a27-3d4cd1e208aa",
+      "score": 0.01391304347826087,
+      "dense_rank": 9,
+      "dense_score": 0.6190175425989314,
+      "keyword_rank": 15,
+      "keyword_score": -8.496194913394493
+    },
+    {
+      "chunk_id": "ca1219e3-728f-5542-ba47-306e2f26dbfa",
+      "score": 0.013888888888888888,
+      "dense_rank": 12,
+      "dense_score": 0.6074119530406525,
+      "keyword_rank": 12,
+      "keyword_score": -8.889408440324235
+    },
+    {
+      "chunk_id": "b4638f4e-c4a0-5583-a341-bb8147120180",
+      "score": 0.01282051282051282,
+      "dense_rank": 18,
+      "dense_score": 0.5567956144275693,
+      "keyword_rank": 18,
+      "keyword_score": -7.927560758713246
+    },
+    {
+      "chunk_id": "eec07c9f-a21c-54f5-ac08-bf9835c15199",
+      "score": 0.012743506493506494,
+      "dense_rank": 17,
+      "dense_score": 0.5737013974842544,
+      "keyword_rank": 20,
+      "keyword_score": -7.722263298891255
+    },
+    {
+      "chunk_id": "b3aeb2df-7460-562d-a949-20e5c34b413d",
+      "score": 0.012658227848101266,
+      "dense_rank": 19,
+      "dense_score": 0.5451923661837035,
+      "keyword_rank": 19,
+      "keyword_score": -7.84758606023594
+    },
+    {
+      "chunk_id": "d86aca9e-15df-5e00-8663-074d5075c80b",
+      "score": 0.007936507936507936,
+      "keyword_rank": 3,
+      "keyword_score": -13.339938738066632
+    },
+    {
+      "chunk_id": "99d892c6-65d7-54aa-9318-603c8537755c",
+      "score": 0.007692307692307693,
+      "dense_rank": 5,
+      "dense_score": 0.6722887285375654
+    },
+    {
+      "chunk_id": "ca44096d-5518-5a2d-bca0-d9c6fbf6ea8c",
+      "score": 0.007575757575757576,
+      "dense_rank": 6,
+      "dense_score": 0.6385558253497845
+    },
+    {
+      "chunk_id": "3cd6fa82-d9c2-5530-81de-4d1a6e0115b1",
+      "score": 0.007142857142857143,
+      "keyword_rank": 10,
+      "keyword_score": -9.437706744107349
+    },
+    {
+      "chunk_id": "dcfd67b4-d0a3-5edd-a782-eb1523cc0d9f",
+      "score": 0.007042253521126761,
+      "dense_rank": 11,
+      "dense_score": 0.6074482995823707
+    },
+    {
+      "chunk_id": "4141cd5f-1aa3-581c-b6d3-906d331a629e",
+      "score": 0.00684931506849315,
+      "dense_rank": 13,
+      "dense_score": 0.6059565100673596
+    },
+    {
+      "chunk_id": "dae6f25d-d94d-5f84-9234-afdef58a8346",
+      "score": 0.006756756756756757,
+      "keyword_rank": 14,
+      "keyword_score": -8.681873339807638
+    },
+    {
+      "chunk_id": "8b27f515-3142-5ba8-9d6b-bd5d65121ff5",
+      "score": 0.006578947368421052,
+      "keyword_rank": 16,
+      "keyword_score": -8.397852453032336
+    },
+    {
+      "chunk_id": "fec42923-d50a-5fdb-b004-b5b2a1c7798a",
+      "score": 0.006493506493506494,
+      "keyword_rank": 17,
+      "keyword_score": -8.245208465949217
+    },
+    {
+      "chunk_id": "d2349f5d-db29-54cc-af06-839661644b48",
+      "score": 0.00625,
+      "dense_rank": 20,
+      "dense_score": 0.5308279928531505
+    }
+  ],
+  "variants": {
+    "B_english_dense": {
+      "sources": [
+        {
+          "chunk_id": "2333ca0c-4e3f-550d-9afc-63d6631c573b",
+          "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+          "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00011",
+          "chunk_type": "table",
+          "text": "System status indicators\nFirst row (header unconfirmed): Column 1: Status indicator | Column 2: System status\nColumn 1: [empty cell] | Column 2: Indicates the battery power level or the battery charging state.See“Checking the battery\" on page 14.",
+          "content_region_ids": [
+            "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_100"
+          ],
+          "context_region_ids": [
+            "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_84"
+          ],
+          "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00012.jpg",
+          "source_shapes": [
+            {
+              "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_100",
+              "shape": {
+                "x": 50,
+                "y": 427.6406249999998,
+                "width": 676.9999999999991,
+                "height": 476.9999999999998
+              }
+            },
+            {
+              "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_84",
+              "shape": {
+                "x": 53.35300064086908,
+                "y": 94.41240692138666,
+                "width": 323.2880516052244,
+                "height": 33.54399871826169
+              }
+            },
+            {
+              "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_86",
+              "shape": {
+                "x": 60.186333974202434,
+                "y": 437.6632080078121,
+                "width": 79.76270167032874,
+                "height": 40.80531819661434
+              }
+            },
+            {
+              "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_95",
+              "shape": {
+                "x": 156.66666666666652,
+                "y": 459.09375,
+                "width": 126.66666666666646,
+                "height": 21.333333333332803
+              }
+            }
+          ],
+          "source_spans": [],
+          "content_origin": "paddle_table",
+          "quality_flags": [
+            "table_header_unmarked_review_required"
+          ],
+          "score": 0.7334783967373236,
+          "table_rows": [
+            4
+          ],
+          "table_cells": [
+            {
+              "row": 4,
+              "column": 0,
+              "rowspan": 1,
+              "colspan": 1
+            },
+            {
+              "row": 4,
+              "column": 1,
+              "rowspan": 1,
+              "colspan": 1
+            }
+          ],
+          "source_id": "S1"
+        },
+        {
+          "chunk_id": "92a55104-ce18-5045-9d18-3d96a9b73da2",
+          "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+          "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00011",
+          "chunk_type": "text",
+          "text": "Indicates the battery power level or the battery charging state. See “Checking the battery” on page 14.",
+          "content_region_ids": [
+            "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_92"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00012.jpg",
+          "source_shapes": [
+            {
+              "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_92",
+              "shape": {
+                "x": 159.3801083034938,
+                "y": 848.0529785156245,
+                "width": 553.3369327121308,
+                "height": 37.9484727647565
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_92",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 103
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.731409658033511,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S2"
+        },
+        {
+          "chunk_id": "3eeebd12-3905-5f72-814e-79952aa3e54c",
+          "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+          "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00013",
+          "chunk_type": "figure",
+          "text": "Checking the battery\nA battery icon showing a rectangular shape with a protruding terminal on the right side, indicating power status or charge level.",
+          "content_region_ids": [
+            "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_136"
+          ],
+          "context_region_ids": [
+            "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_118"
+          ],
+          "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00014.jpg",
+          "source_shapes": [
+            {
+              "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_136",
+              "shape": {
+                "x": 58.49999999999998,
+                "y": 392.64062499999983,
+                "width": 52.44444444444439,
+                "height": 23.77777777777777
+              }
+            },
+            {
+              "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_118",
+              "shape": {
+                "x": 53.353000640869084,
+                "y": 209.15240478515616,
+                "width": 232.5119895935058,
+                "height": 28.751998901367188
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_136",
+              "field": "description_normalized",
+              "start": 0,
+              "end": 129
+            }
+          ],
+          "content_origin": "qwen_figure_description",
+          "quality_flags": [],
+          "score": 0.7254791112434245,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S3"
+        },
+        {
+          "chunk_id": "9d31f93b-601f-5ad9-9871-4d6fb81f41cc",
+          "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+          "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00011",
+          "chunk_type": "figure",
+          "text": "System status indicators\nA black battery icon showing low charge level, depicted as a rectangular outline with two horizontal bars inside and a protruding terminal on the right side.",
+          "content_region_ids": [
+            "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_99"
+          ],
+          "context_region_ids": [
+            "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_84"
+          ],
+          "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00012.jpg",
+          "source_shapes": [
+            {
+              "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_99",
+              "shape": {
+                "x": 76.66666666666663,
+                "y": 848.4270833333325,
+                "width": 51.999999999999915,
+                "height": 22.666666666667084
+              }
+            },
+            {
+              "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_84",
+              "shape": {
+                "x": 53.35300064086908,
+                "y": 94.41240692138666,
+                "width": 323.2880516052244,
+                "height": 33.54399871826169
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_99",
+              "field": "description_normalized",
+              "start": 0,
+              "end": 157
+            }
+          ],
+          "content_origin": "qwen_figure_description",
+          "quality_flags": [],
+          "score": 0.722276450600698,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S4"
+        },
+        {
+          "chunk_id": "99d892c6-65d7-54aa-9318-603c8537755c",
+          "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+          "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00013",
+          "chunk_type": "table",
+          "text": "Checking the battery\nFirst row (header unconfirmed): Column 1: [empty cell] | Column 2: Solid green | Column 3: Full charge\nColumn 1: [empty cell] | Column 2: Solid green | Column 3: Full charge\nColumn 1: [empty cell] | Column 2: Solid yellow | Column 3: Medium charge\nColumn 1: [empty cell] | Column 2: Blinking red | Column 3: Charging is needed",
+          "content_region_ids": [
+            "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_137"
+          ],
+          "context_region_ids": [
+            "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_118"
+          ],
+          "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00014.jpg",
+          "source_shapes": [
+            {
+              "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_137",
+              "shape": {
+                "x": 49.49999999999998,
+                "y": 379.6406249999999,
+                "width": 533.9999999999998,
+                "height": 97.99999999999989
+              }
+            },
+            {
+              "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_118",
+              "shape": {
+                "x": 53.353000640869084,
+                "y": 209.15240478515616,
+                "width": 232.5119895935058,
+                "height": 28.751998901367188
+              }
+            },
+            {
+              "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_121",
+              "shape": {
+                "x": 140.55300903320307,
+                "y": 392.3442077636717,
+                "width": 80.89601135253906,
+                "height": 19.503997802734375
+              }
+            },
+            {
+              "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_122",
+              "shape": {
+                "x": 363.0809936523435,
+                "y": 392.3442077636717,
+                "width": 77.60000610351562,
+                "height": 19.503997802734375
+              }
+            },
+            {
+              "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_123",
+              "shape": {
+                "x": 140.55299377441398,
+                "y": 420.888214111328,
+                "width": 84.99201965332031,
+                "height": 19.50399780273426
+              }
+            },
+            {
+              "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_124",
+              "shape": {
+                "x": 363.0809936523435,
+                "y": 420.888214111328,
+                "width": 111.1360473632813,
+                "height": 19.50399780273426
+              }
+            },
+            {
+              "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_125",
+              "shape": {
+                "x": 140.55299377441398,
+                "y": 449.432220458984,
+                "width": 84.46401977539062,
+                "height": 19.503997802734602
+              }
+            },
+            {
+              "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_126",
+              "shape": {
+                "x": 363.0809936523435,
+                "y": 449.432220458984,
+                "width": 138.83193969726574,
+                "height": 19.503997802734602
+              }
+            }
+          ],
+          "source_spans": [],
+          "content_origin": "paddle_table",
+          "quality_flags": [
+            "table_header_unmarked_review_required"
+          ],
+          "score": 0.6722887285375654,
+          "table_rows": [
+            0,
+            1,
+            2
+          ],
+          "table_cells": [
+            {
+              "row": 0,
+              "column": 0,
+              "rowspan": 3,
+              "colspan": 1
+            },
+            {
+              "row": 0,
+              "column": 1,
+              "rowspan": 1,
+              "colspan": 1
+            },
+            {
+              "row": 0,
+              "column": 2,
+              "rowspan": 1,
+              "colspan": 1
+            },
+            {
+              "row": 0,
+              "column": 0,
+              "rowspan": 3,
+              "colspan": 1
+            },
+            {
+              "row": 1,
+              "column": 1,
+              "rowspan": 1,
+              "colspan": 1
+            },
+            {
+              "row": 1,
+              "column": 2,
+              "rowspan": 1,
+              "colspan": 1
+            },
+            {
+              "row": 0,
+              "column": 0,
+              "rowspan": 3,
+              "colspan": 1
+            },
+            {
+              "row": 2,
+              "column": 1,
+              "rowspan": 1,
+              "colspan": 1
+            },
+            {
+              "row": 2,
+              "column": 2,
+              "rowspan": 1,
+              "colspan": 1
+            }
+          ],
+          "source_id": "S5"
+        }
+      ],
+      "excluded_sources": [],
+      "retrieved_chunk_ids": [
+        "2333ca0c-4e3f-550d-9afc-63d6631c573b",
+        "92a55104-ce18-5045-9d18-3d96a9b73da2",
+        "3eeebd12-3905-5f72-814e-79952aa3e54c",
+        "9d31f93b-601f-5ad9-9871-4d6fb81f41cc",
+        "99d892c6-65d7-54aa-9318-603c8537755c"
+      ]
+    },
+    "C_english_hybrid": {
+      "sources": [
+        {
+          "chunk_id": "2333ca0c-4e3f-550d-9afc-63d6631c573b",
+          "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+          "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00011",
+          "chunk_type": "table",
+          "text": "System status indicators\nFirst row (header unconfirmed): Column 1: Status indicator | Column 2: System status\nColumn 1: [empty cell] | Column 2: Indicates the battery power level or the battery charging state.See“Checking the battery\" on page 14.",
+          "content_region_ids": [
+            "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_100"
+          ],
+          "context_region_ids": [
+            "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_84"
+          ],
+          "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00012.jpg",
+          "source_shapes": [
+            {
+              "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_100",
+              "shape": {
+                "x": 50,
+                "y": 427.6406249999998,
+                "width": 676.9999999999991,
+                "height": 476.9999999999998
+              }
+            },
+            {
+              "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_84",
+              "shape": {
+                "x": 53.35300064086908,
+                "y": 94.41240692138666,
+                "width": 323.2880516052244,
+                "height": 33.54399871826169
+              }
+            },
+            {
+              "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_86",
+              "shape": {
+                "x": 60.186333974202434,
+                "y": 437.6632080078121,
+                "width": 79.76270167032874,
+                "height": 40.80531819661434
+              }
+            },
+            {
+              "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_95",
+              "shape": {
+                "x": 156.66666666666652,
+                "y": 459.09375,
+                "width": 126.66666666666646,
+                "height": 21.333333333332803
+              }
+            }
+          ],
+          "source_spans": [],
+          "content_origin": "paddle_table",
+          "quality_flags": [
+            "table_header_unmarked_review_required"
+          ],
+          "score": 0.01639344262295082,
+          "table_rows": [
+            4
+          ],
+          "table_cells": [
+            {
+              "row": 4,
+              "column": 0,
+              "rowspan": 1,
+              "colspan": 1
+            },
+            {
+              "row": 4,
+              "column": 1,
+              "rowspan": 1,
+              "colspan": 1
+            }
+          ],
+          "source_id": "S1"
+        },
+        {
+          "chunk_id": "3eeebd12-3905-5f72-814e-79952aa3e54c",
+          "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+          "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00013",
+          "chunk_type": "figure",
+          "text": "Checking the battery\nA battery icon showing a rectangular shape with a protruding terminal on the right side, indicating power status or charge level.",
+          "content_region_ids": [
+            "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_136"
+          ],
+          "context_region_ids": [
+            "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_118"
+          ],
+          "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00014.jpg",
+          "source_shapes": [
+            {
+              "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_136",
+              "shape": {
+                "x": 58.49999999999998,
+                "y": 392.64062499999983,
+                "width": 52.44444444444439,
+                "height": 23.77777777777777
+              }
+            },
+            {
+              "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_118",
+              "shape": {
+                "x": 53.353000640869084,
+                "y": 209.15240478515616,
+                "width": 232.5119895935058,
+                "height": 28.751998901367188
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_136",
+              "field": "description_normalized",
+              "start": 0,
+              "end": 129
+            }
+          ],
+          "content_origin": "qwen_figure_description",
+          "quality_flags": [],
+          "score": 0.015749007936507936,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S2"
+        },
+        {
+          "chunk_id": "e65b3cf6-1236-5a26-a4ca-7b9aed89c7f2",
+          "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+          "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00013",
+          "chunk_type": "text",
+          "text": "Checking the battery\nWhen the speaker is turned on, the battery status indicator briefly illuminates, then turns off to conserve battery power. However, if the battery requires charging, the battery status indicator illuminates and continuously blink red until the speaker the speaker is connected to AC power and the battery begins charging.\nTo check the battery charge level, press and hold Power on the speaker and observe the battery status indicator.",
+          "content_region_ids": [
+            "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_119",
+            "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_120"
+          ],
+          "context_region_ids": [
+            "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_118"
+          ],
+          "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00014.jpg",
+          "source_shapes": [
+            {
+              "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_119",
+              "shape": {
+                "x": 53.353000640869084,
+                "y": 243.45640563964835,
+                "width": 661.4999656677244,
+                "height": 80.98194885253903
+              }
+            },
+            {
+              "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_120",
+              "shape": {
+                "x": 52.908556196424655,
+                "y": 329.3372531467013,
+                "width": 640.0603769090438,
+                "height": 44.10512966579847
+              }
+            },
+            {
+              "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_118",
+              "shape": {
+                "x": 53.353000640869084,
+                "y": 209.15240478515616,
+                "width": 232.5119895935058,
+                "height": 28.751998901367188
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_119",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 321
+            },
+            {
+              "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_120",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 112
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.015417457305502846,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S3"
+        },
+        {
+          "chunk_id": "9d31f93b-601f-5ad9-9871-4d6fb81f41cc",
+          "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+          "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00011",
+          "chunk_type": "figure",
+          "text": "System status indicators\nA black battery icon showing low charge level, depicted as a rectangular outline with two horizontal bars inside and a protruding terminal on the right side.",
+          "content_region_ids": [
+            "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_99"
+          ],
+          "context_region_ids": [
+            "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_84"
+          ],
+          "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00012.jpg",
+          "source_shapes": [
+            {
+              "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_99",
+              "shape": {
+                "x": 76.66666666666663,
+                "y": 848.4270833333325,
+                "width": 51.999999999999915,
+                "height": 22.666666666667084
+              }
+            },
+            {
+              "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_84",
+              "shape": {
+                "x": 53.35300064086908,
+                "y": 94.41240692138666,
+                "width": 323.2880516052244,
+                "height": 33.54399871826169
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_99",
+              "field": "description_normalized",
+              "start": 0,
+              "end": 157
+            }
+          ],
+          "content_origin": "qwen_figure_description",
+          "quality_flags": [],
+          "score": 0.015058876811594204,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S4"
+        },
+        {
+          "chunk_id": "c04f121d-5fae-59e2-9c49-55d0a0702f79",
+          "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+          "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00007",
+          "chunk_type": "text",
+          "text": "The speaker emits a tone to confirm connection to AC power, and charging begins. On the front of the speaker, the battery status indicator blinks\nyellow to show the battery is charging.",
+          "content_region_ids": [
+            "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_14",
+            "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_15"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00008.jpg",
+          "source_shapes": [
+            {
+              "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_14",
+              "shape": {
+                "x": 89.35296630859366,
+                "y": 603.6023559570309,
+                "width": 603.2879638671864,
+                "height": 40.989990234375
+              }
+            },
+            {
+              "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_15",
+              "shape": {
+                "x": 89.3448028564452,
+                "y": 643.6024169921868,
+                "width": 308.8260345458982,
+                "height": 20.98797607421875
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_14",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 145
+            },
+            {
+              "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_15",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 39
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.015038444142921756,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S5"
+        }
+      ],
+      "excluded_sources": [],
+      "retrieved_chunk_ids": [
+        "2333ca0c-4e3f-550d-9afc-63d6631c573b",
+        "3eeebd12-3905-5f72-814e-79952aa3e54c",
+        "e65b3cf6-1236-5a26-a4ca-7b9aed89c7f2",
+        "9d31f93b-601f-5ad9-9871-4d6fb81f41cc",
+        "c04f121d-5fae-59e2-9c49-55d0a0702f79"
+      ]
+    }
+  },
+  "retrieval_seconds": 1.791070800012676
+}

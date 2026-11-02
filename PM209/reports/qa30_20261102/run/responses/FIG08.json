@@ -1,0 +1,379 @@
+{
+  "case_id": "FIG08",
+  "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+  "question": "스피커를 컴퓨터 바로 옆에 배치하기 쉬운 이유는 무엇인가요?",
+  "retrieved_chunk_ids": [
+    "b1c45281-074a-5bdc-b9e3-b5e329aa5f4a",
+    "d5adcc90-5928-58c9-8233-cd2ed4b9fdb1",
+    "d5ff03f4-a62c-5f17-b4b3-30a9129bd547",
+    "1fb6780e-aac9-5280-82c6-cc2823ceb55a",
+    "340837ef-2096-5d27-a42a-7f863dbd5865"
+  ],
+  "sources": [
+    {
+      "chunk_id": "b1c45281-074a-5bdc-b9e3-b5e329aa5f4a",
+      "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+      "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00006",
+      "chunk_type": "text",
+      "text": "Positioning the speakers\nThe size and shape of these speakers make it easy to position them directly next to your c omputer. For proper performance, place the right speaker to the right and the left speaker to the left of your computer. Make sure there is equal distance on either side. This provides an accurate sound stage.",
+      "content_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_3"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_2"
+      ],
+      "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00007.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_3",
+          "shape": {
+            "x": 61.79998779296873,
+            "y": 179.4273986816405,
+            "width": 520.8798828124995,
+            "height": 133.32000732421892
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_2",
+          "shape": {
+            "x": 64.8000030517578,
+            "y": 137.1674041748047,
+            "width": 329.81199645996065,
+            "height": 33.40400695800784
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_3",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 300
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.7060803025585152,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "d5adcc90-5928-58c9-8233-cd2ed4b9fdb1",
+      "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+      "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00006",
+      "chunk_type": "figure",
+      "text": "Positioning the speakers\nA diagram showing speaker placement next to a computer for optimal sound stage. The left and right speakers are positioned at an equal distance from the computer, with recommended spacing of 18\"–36\" (46 cm–92 cm). Arrows indicate outward positioning.",
+      "content_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_22"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_2"
+      ],
+      "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00007.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_22",
+          "shape": {
+            "x": 50.249999999999986,
+            "y": 172.66406250000006,
+            "width": 542.4999999999999,
+            "height": 425.49999999999994
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_2",
+          "shape": {
+            "x": 64.8000030517578,
+            "y": 137.1674041748047,
+            "width": 329.81199645996065,
+            "height": 33.40400695800784
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_22",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 250
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": 0.6954899579067207,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "d5ff03f4-a62c-5f17-b4b3-30a9129bd547",
+      "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+      "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00006",
+      "chunk_type": "text",
+      "text": "Positioning the speakers\nBe sure not to place any object in front of the speakers, which could block the sound or any signals from the remote control.",
+      "content_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_4"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_2"
+      ],
+      "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00007.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_4",
+          "shape": {
+            "x": 64.79998779296875,
+            "y": 609.4274291992184,
+            "width": 410.4599609374998,
+            "height": 67.32000732421864
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_2",
+          "shape": {
+            "x": 64.8000030517578,
+            "y": 137.1674041748047,
+            "width": 329.81199645996065,
+            "height": 33.40400695800784
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_4",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 125
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.6016362470715038,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S3"
+    },
+    {
+      "chunk_id": "1fb6780e-aac9-5280-82c6-cc2823ceb55a",
+      "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+      "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00006",
+      "chunk_type": "figure",
+      "text": "Positioning the speakers\nA gray laptop computer viewed from the front, showing the screen and base without any visible labels or controls.",
+      "content_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_15"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_2"
+      ],
+      "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00007.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_15",
+          "shape": {
+            "x": 202.9999999999999,
+            "y": 394.6406249999998,
+            "width": 227.99999999999977,
+            "height": 188.99999999999977
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_2",
+          "shape": {
+            "x": 64.8000030517578,
+            "y": 137.1674041748047,
+            "width": 329.81199645996065,
+            "height": 33.40400695800784
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_15",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 113
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": 0.5799042601584694,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S4"
+    },
+    {
+      "chunk_id": "340837ef-2096-5d27-a42a-7f863dbd5865",
+      "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+      "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00006",
+      "chunk_type": "text",
+      "text": "Positioning the speakers\nLeft speaker",
+      "content_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_12"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_2"
+      ],
+      "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00007.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_12",
+          "shape": {
+            "x": 135.66641235351565,
+            "y": 437.60360717773415,
+            "width": 64.0079956054685,
+            "height": 40.985961914062216
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_2",
+          "shape": {
+            "x": 64.8000030517578,
+            "y": 137.1674041748047,
+            "width": 329.81199645996065,
+            "height": 33.40400695800784
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_12",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 12
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.5738265911181926,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S5"
+    }
+  ],
+  "excluded_sources": [],
+  "retrieval_seconds": 1.6254508000274654,
+  "created_at": "2026-11-01T23:54:40.687081+00:00",
+  "status": "answered",
+  "answer": "제공된 매뉴얼에 따르면, 이 스피커의 크기와 형태가 컴퓨터 바로 옆에 배치하기 쉽도록 설계되어 있습니다.",
+  "source_ids": [
+    "S1"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 65,
+        "prompt_eval_count": 662,
+        "total_duration": 1205463500,
+        "load_duration": 5695100,
+        "attempt": 1,
+        "prompt_token_upper_bound": 3546
+      }
+    ],
+    "elapsed_seconds": 1.2747925999865402,
+    "ollama_model": {
+      "name": "qwen3.5:4b",
+      "model": "qwen3.5:4b",
+      "size": 3214409726,
+      "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "4.2B",
+        "quantization_level": "Q4_K_M"
+      },
+      "expires_at": "2026-11-02T08:55:41.9600483+09:00",
+      "size_vram": 3214409726,
+      "context_length": 8192,
+      "runner": "llamacpp"
+    },
+    "observation_error": null
+  },
+  "citations": [
+    {
+      "chunk_id": "b1c45281-074a-5bdc-b9e3-b5e329aa5f4a",
+      "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+      "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00006",
+      "chunk_type": "text",
+      "text": "Positioning the speakers\nThe size and shape of these speakers make it easy to position them directly next to your c omputer. For proper performance, place the right speaker to the right and the left speaker to the left of your computer. Make sure there is equal distance on either side. This provides an accurate sound stage.",
+      "content_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_3"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_2"
+      ],
+      "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00007.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_3",
+          "shape": {
+            "x": 61.79998779296873,
+            "y": 179.4273986816405,
+            "width": 520.8798828124995,
+            "height": 133.32000732421892
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_2",
+          "shape": {
+            "x": 64.8000030517578,
+            "y": 137.1674041748047,
+            "width": 329.81199645996065,
+            "height": 33.40400695800784
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_3",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 300
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.7060803025585152,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 1.2750205000047572,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3836,
+    "temperature_c": 67,
+    "utilization_percent": 83
+  }
+}

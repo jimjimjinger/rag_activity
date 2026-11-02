@@ -1,0 +1,33 @@
+{
+  "questions_sha256": "46ac65f02b6aa6c04cd622ca1fade73ef8ea97ec6fcff9d4095081d6a9df2da6",
+  "top_k": 5,
+  "embedding_model": "qwen3-embedding:0.6b",
+  "answer_model": "qwen3.5:4b",
+  "index_identity": {
+    "chunks_sha256": "9c2d4ec474e9f2e0a2b1ede9e1ef6edc8311f1d2be843b1f1bd107567989acc5",
+    "model_identity": {
+      "model": "qwen3-embedding:0.6b",
+      "digest": "ac6da0dfba84a81fdbfbaf330198c33cd77c4cdfc53e8bc50eb581914a15621d",
+      "options": {
+        "num_ctx": 2048,
+        "num_batch": 128,
+        "num_thread": 4,
+        "num_gpu": 99
+      },
+      "query_instruction": "Given a question about a product manual, retrieve passages that answer the question.",
+      "truncate": false
+    }
+  },
+  "answering_code_sha256": "c19f7a3d098cbdc5689ec98c59f7de157fd8253b287db099c974ac6457ef771f",
+  "runner_code_sha256": "ad107f9e145daf36b429216db9bd0b89a6c6c92d6a2fb9c224d272e12fcd1a40",
+  "options": {
+    "num_ctx": 8192,
+    "num_predict": 1024,
+    "num_batch": 128,
+    "num_thread": 4,
+    "num_gpu": 99,
+    "temperature": 0
+  },
+  "prompt_version": "pm209-grounded-ko-v1",
+  "prompt_sha256": "c91519edde59dce486e00674416af01f0dc00ab413da31a60cd324fe0f2cecb2"
+}

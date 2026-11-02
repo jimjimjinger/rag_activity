@@ -1,0 +1,562 @@
+{
+  "case": "table",
+  "query": "이 노트북의 무게와 크기는 어떻게 되나요?",
+  "manual": "alienware-17-r5_users-guide_en-us",
+  "answer": "이 노트북의 크기는 높이 29.99mm(1.18 인치), 너비 424mm(16.69 인치), 깊이 332mm(13.07 인치)이며, 무게는 4.42kg(9.74 파운드)입니다. 다만, 주문한 구성과 제조 변동에 따라 무게가 달라질 수 있습니다.",
+  "source_ids": [
+    "S3",
+    "S4"
+  ],
+  "insufficient_evidence": false,
+  "sources": [
+    {
+      "chunk_id": "40f8bad9-b684-5375-8121-5cc638b85755",
+      "manual_id": "alienware-17-r5_users-guide_en-us",
+      "page_id": "alienware-17-r5_users-guide_en-us_00015",
+      "chunk_type": "title",
+      "text": "Table 3. Dimensions and weight",
+      "content_region_ids": [
+        "alienware-17-r5_users-guide_en-us_128"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/alienware-17-r5_users-guide_en-us/images/alienware-17-r5_users-guide_en-us_00017.jpg",
+      "source_shapes": [
+        {
+          "id": "alienware-17-r5_users-guide_en-us_128",
+          "shape": {
+            "x": 108.00000000000001,
+            "y": 727.6500244140618,
+            "width": 241.84201049804653,
+            "height": 20.739990234375
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "alienware-17-r5_users-guide_en-us_128",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 30
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [],
+      "score": 0.5497304381296175,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "7d05b8ce-c23e-5bac-8ee9-7533f730b4b1",
+      "manual_id": "alienware-17-r5_users-guide_en-us",
+      "page_id": "alienware-17-r5_users-guide_en-us_00019",
+      "chunk_type": "text",
+      "text": "Touchpad\nDimensions",
+      "content_region_ids": [
+        "alienware-17-r5_users-guide_en-us_451"
+      ],
+      "context_region_ids": [
+        "alienware-17-r5_users-guide_en-us_446"
+      ],
+      "image_filename": "images/alienware-17-r5_users-guide_en-us/images/alienware-17-r5_users-guide_en-us_00021.jpg",
+      "source_shapes": [
+        {
+          "id": "alienware-17-r5_users-guide_en-us_451",
+          "shape": {
+            "x": 113.99400329589835,
+            "y": 817.4999999999994,
+            "width": 89.2980041503906,
+            "height": 21.96002197265659
+          }
+        },
+        {
+          "id": "alienware-17-r5_users-guide_en-us_446",
+          "shape": {
+            "x": 108.00000000000001,
+            "y": 641.200012207031,
+            "width": 137.85600280761696,
+            "height": 39.03997802734352
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "alienware-17-r5_users-guide_en-us_451",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 10
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.5386091129579822,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "85756e51-acce-5878-a97d-cd7c357356ab",
+      "manual_id": "alienware-17-r5_users-guide_en-us",
+      "page_id": "alienware-17-r5_users-guide_en-us_00015",
+      "chunk_type": "table",
+      "text": "Dimensions and weight\nFirst row (header unconfirmed): Column 1: Height | Column 2: 29.99 mm (1.18 in)\nColumn 1: Height | Column 2: 29.99 mm (1.18 in)\nColumn 1: Width | Column 2: 424 mm(16.69 in)\nColumn 1: Depth | Column 2: 332 mm (13.07in)\nColumn 1: Weight | Column 2: 4.42 kg (9.74 Ib)",
+      "content_region_ids": [
+        "alienware-17-r5_users-guide_en-us_140"
+      ],
+      "context_region_ids": [
+        "alienware-17-r5_users-guide_en-us_127"
+      ],
+      "image_filename": "images/alienware-17-r5_users-guide_en-us/images/alienware-17-r5_users-guide_en-us_00017.jpg",
+      "source_shapes": [
+        {
+          "id": "alienware-17-r5_users-guide_en-us_140",
+          "shape": {
+            "x": 105.01041412353516,
+            "y": 750.5520935058588,
+            "width": 486.99999999999966,
+            "height": 148.0
+          }
+        },
+        {
+          "id": "alienware-17-r5_users-guide_en-us_127",
+          "shape": {
+            "x": 108.00000000000001,
+            "y": 667.7000122070312,
+            "width": 338.4960021972656,
+            "height": 39.03997802734284
+          }
+        },
+        {
+          "id": "alienware-17-r5_users-guide_en-us_129",
+          "shape": {
+            "x": 113.99400329589835,
+            "y": 763.9999999999998,
+            "width": 54.41400146484378,
+            "height": 21.960021972655454
+          }
+        },
+        {
+          "id": "alienware-17-r5_users-guide_en-us_130",
+          "shape": {
+            "x": 436.5539855957031,
+            "y": 763.9999999999998,
+            "width": 147.56405639648403,
+            "height": 21.960021972655454
+          }
+        },
+        {
+          "id": "alienware-17-r5_users-guide_en-us_131",
+          "shape": {
+            "x": 113.99400329589835,
+            "y": 797.599975585937,
+            "width": 49.89599609375003,
+            "height": 21.96002197265625
+          }
+        },
+        {
+          "id": "alienware-17-r5_users-guide_en-us_133",
+          "shape": {
+            "x": 113.99400329589835,
+            "y": 831.2000122070303,
+            "width": 50.77799987792966,
+            "height": 21.960021972656705
+          }
+        },
+        {
+          "id": "alienware-17-r5_users-guide_en-us_135",
+          "shape": {
+            "x": 113.99400329589835,
+            "y": 864.7999877929688,
+            "width": 58.60800170898435,
+            "height": 21.96002197265534
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "score": 0.5081582553601653,
+      "table_rows": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "table_cells": [
+        {
+          "row": 0,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S3"
+    },
+    {
+      "chunk_id": "25084d43-b254-5571-96ef-98658615295d",
+      "manual_id": "alienware-17-r5_users-guide_en-us",
+      "page_id": "alienware-17-r5_users-guide_en-us_00015",
+      "chunk_type": "text",
+      "text": "NOTE: The weight of your computer varies depending on the configuration ordered and the manufacturing variability.",
+      "content_region_ids": [
+        "alienware-17-r5_users-guide_en-us_137"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/alienware-17-r5_users-guide_en-us/images/alienware-17-r5_users-guide_en-us_00017.jpg",
+      "source_shapes": [
+        {
+          "id": "alienware-17-r5_users-guide_en-us_137",
+          "shape": {
+            "x": 481.1940002441402,
+            "y": 898.4000244140619,
+            "width": 247.57205200195284,
+            "height": 86.76000976562466
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "alienware-17-r5_users-guide_en-us_137",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 114
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.494881647344671,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S4"
+    },
+    {
+      "chunk_id": "d6590f33-caab-5bf3-8e41-3e72013c30d6",
+      "manual_id": "alienware-17-r5_users-guide_en-us",
+      "page_id": "alienware-17-r5_users-guide_en-us_00018",
+      "chunk_type": "title",
+      "text": "Table 11. Keyboard specifications",
+      "content_region_ids": [
+        "alienware-17-r5_users-guide_en-us_282"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/alienware-17-r5_users-guide_en-us/images/alienware-17-r5_users-guide_en-us_00020.jpg",
+      "source_shapes": [
+        {
+          "id": "alienware-17-r5_users-guide_en-us_282",
+          "shape": {
+            "x": 107.99999999999996,
+            "y": 867.2500610351556,
+            "width": 254.2010192871092,
+            "height": 20.739990234375682
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "alienware-17-r5_users-guide_en-us_282",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 33
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [],
+      "score": 0.4750867082472389,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S5"
+    }
+  ],
+  "excluded_sources": [],
+  "citations": [
+    {
+      "chunk_id": "85756e51-acce-5878-a97d-cd7c357356ab",
+      "manual_id": "alienware-17-r5_users-guide_en-us",
+      "page_id": "alienware-17-r5_users-guide_en-us_00015",
+      "chunk_type": "table",
+      "text": "Dimensions and weight\nFirst row (header unconfirmed): Column 1: Height | Column 2: 29.99 mm (1.18 in)\nColumn 1: Height | Column 2: 29.99 mm (1.18 in)\nColumn 1: Width | Column 2: 424 mm(16.69 in)\nColumn 1: Depth | Column 2: 332 mm (13.07in)\nColumn 1: Weight | Column 2: 4.42 kg (9.74 Ib)",
+      "content_region_ids": [
+        "alienware-17-r5_users-guide_en-us_140"
+      ],
+      "context_region_ids": [
+        "alienware-17-r5_users-guide_en-us_127"
+      ],
+      "image_filename": "images/alienware-17-r5_users-guide_en-us/images/alienware-17-r5_users-guide_en-us_00017.jpg",
+      "source_shapes": [
+        {
+          "id": "alienware-17-r5_users-guide_en-us_140",
+          "shape": {
+            "x": 105.01041412353516,
+            "y": 750.5520935058588,
+            "width": 486.99999999999966,
+            "height": 148.0
+          }
+        },
+        {
+          "id": "alienware-17-r5_users-guide_en-us_127",
+          "shape": {
+            "x": 108.00000000000001,
+            "y": 667.7000122070312,
+            "width": 338.4960021972656,
+            "height": 39.03997802734284
+          }
+        },
+        {
+          "id": "alienware-17-r5_users-guide_en-us_129",
+          "shape": {
+            "x": 113.99400329589835,
+            "y": 763.9999999999998,
+            "width": 54.41400146484378,
+            "height": 21.960021972655454
+          }
+        },
+        {
+          "id": "alienware-17-r5_users-guide_en-us_130",
+          "shape": {
+            "x": 436.5539855957031,
+            "y": 763.9999999999998,
+            "width": 147.56405639648403,
+            "height": 21.960021972655454
+          }
+        },
+        {
+          "id": "alienware-17-r5_users-guide_en-us_131",
+          "shape": {
+            "x": 113.99400329589835,
+            "y": 797.599975585937,
+            "width": 49.89599609375003,
+            "height": 21.96002197265625
+          }
+        },
+        {
+          "id": "alienware-17-r5_users-guide_en-us_133",
+          "shape": {
+            "x": 113.99400329589835,
+            "y": 831.2000122070303,
+            "width": 50.77799987792966,
+            "height": 21.960021972656705
+          }
+        },
+        {
+          "id": "alienware-17-r5_users-guide_en-us_135",
+          "shape": {
+            "x": 113.99400329589835,
+            "y": 864.7999877929688,
+            "width": 58.60800170898435,
+            "height": 21.96002197265534
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "score": 0.5081582553601653,
+      "table_rows": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "table_cells": [
+        {
+          "row": 0,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S3"
+    },
+    {
+      "chunk_id": "25084d43-b254-5571-96ef-98658615295d",
+      "manual_id": "alienware-17-r5_users-guide_en-us",
+      "page_id": "alienware-17-r5_users-guide_en-us_00015",
+      "chunk_type": "text",
+      "text": "NOTE: The weight of your computer varies depending on the configuration ordered and the manufacturing variability.",
+      "content_region_ids": [
+        "alienware-17-r5_users-guide_en-us_137"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/alienware-17-r5_users-guide_en-us/images/alienware-17-r5_users-guide_en-us_00017.jpg",
+      "source_shapes": [
+        {
+          "id": "alienware-17-r5_users-guide_en-us_137",
+          "shape": {
+            "x": 481.1940002441402,
+            "y": 898.4000244140619,
+            "width": 247.57205200195284,
+            "height": 86.76000976562466
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "alienware-17-r5_users-guide_en-us_137",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 114
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.494881647344671,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S4"
+    }
+  ],
+  "cited_figures": [],
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 122,
+        "prompt_eval_count": 641,
+        "total_duration": 2034368000,
+        "load_duration": 6515500,
+        "attempt": 1,
+        "prompt_token_upper_bound": 3083
+      }
+    ],
+    "elapsed_seconds": 2.2474546000012197,
+    "ollama_model": {
+      "name": "qwen3.5:4b",
+      "model": "qwen3.5:4b",
+      "size": 3214409726,
+      "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "4.2B",
+        "quantization_level": "Q4_K_M"
+      },
+      "expires_at": "2026-11-02T08:44:51.2614707+09:00",
+      "size_vram": 3214409726,
+      "context_length": 8192,
+      "runner": "llamacpp"
+    },
+    "observation_error": null
+  },
+  "gpu_after_generation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 57,
+    "utilization_percent": 84
+  },
+  "validation_mode": "Final Korean prompt on the same previously retrieved full-index hits",
+  "prior_end_to_end_report": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\datasets\\PM209\\rag\\full_char500_v1\\answers\\20261101T233809-e26a3376.json",
+  "semantic_accuracy_verified": false
+}

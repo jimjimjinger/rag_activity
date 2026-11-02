@@ -1,0 +1,333 @@
+{
+  "case_id": "FIG02",
+  "manual_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122",
+  "question": "오디오 입력 커넥터에는 무엇을 사용해 연결하나요?",
+  "english_query": "What is used to connect the audio input connector?",
+  "keyword_percent": 75,
+  "dense_percent": 25,
+  "retrieved_chunk_ids": [
+    "489ca772-b962-5132-b518-295cf22cf597",
+    "66ccf002-98a5-5775-81ef-8744c5ab865f",
+    "2f3fefc7-02fc-5728-910d-d53ca4a0f56d",
+    "b25ab115-8fcc-5bb9-9afd-bb6af352644f",
+    "ec2eade5-c87f-5d91-bdf3-e6117054650d"
+  ],
+  "sources": [
+    {
+      "chunk_id": "489ca772-b962-5132-b518-295cf22cf597",
+      "manual_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122",
+      "page_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_00004",
+      "chunk_type": "text",
+      "text": "The rear panel provides a power connector, audio input connectors, and room code switches.\n2",
+      "content_region_ids": [
+        "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_247"
+      ],
+      "context_region_ids": [
+        "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_238"
+      ],
+      "image_filename": "images/bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122/images/bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_00004.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_247",
+          "shape": {
+            "x": 286.32000732421875,
+            "y": 366.88198852539017,
+            "width": 11.339996337890511,
+            "height": 21.330017089843693
+          }
+        },
+        {
+          "id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_238",
+          "shape": {
+            "x": 71.99999999999997,
+            "y": 175.34397888183588,
+            "width": 443.00689697265614,
+            "height": 41.022003173828125
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_247",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.01562841530054645,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "66ccf002-98a5-5775-81ef-8744c5ab865f",
+      "manual_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122",
+      "page_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_00004",
+      "chunk_type": "text",
+      "text": "The rear panel provides a power connector, audio input connectors, and room code switches.\n4",
+      "content_region_ids": [
+        "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_249"
+      ],
+      "context_region_ids": [
+        "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_238"
+      ],
+      "image_filename": "images/bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122/images/bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_00004.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_249",
+          "shape": {
+            "x": 433.32000732421864,
+            "y": 366.88198852539017,
+            "width": 11.339996337890568,
+            "height": 21.330017089843693
+          }
+        },
+        {
+          "id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_238",
+          "shape": {
+            "x": 71.99999999999997,
+            "y": 175.34397888183588,
+            "width": 443.00689697265614,
+            "height": 41.022003173828125
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_249",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.015301902398676591,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "2f3fefc7-02fc-5728-910d-d53ca4a0f56d",
+      "manual_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122",
+      "page_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_00008",
+      "chunk_type": "text",
+      "text": "Connecting an audio device\nHeadphone connector",
+      "content_region_ids": [
+        "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_124"
+      ],
+      "context_region_ids": [
+        "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_110"
+      ],
+      "image_filename": "images/bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122/images/bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_00008.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_124",
+          "shape": {
+            "x": 78.60324096679685,
+            "y": 551.091125488281,
+            "width": 85.66374206542966,
+            "height": 34.681030273437386
+          }
+        },
+        {
+          "id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_110",
+          "shape": {
+            "x": 71.99999999999996,
+            "y": 117.00406646728506,
+            "width": 446.59912109375006,
+            "height": 37.82520294189452
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_124",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 19
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.015292390506483972,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S3"
+    },
+    {
+      "chunk_id": "b25ab115-8fcc-5bb9-9afd-bb6af352644f",
+      "manual_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122",
+      "page_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_00004",
+      "chunk_type": "text",
+      "text": "The rear panel provides a power connector, audio input connectors, and room code switches.\n3",
+      "content_region_ids": [
+        "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_248"
+      ],
+      "context_region_ids": [
+        "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_238"
+      ],
+      "image_filename": "images/bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122/images/bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_00004.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_248",
+          "shape": {
+            "x": 358.920013427734,
+            "y": 366.88198852539017,
+            "width": 11.339996337890625,
+            "height": 21.330017089843693
+          }
+        },
+        {
+          "id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_238",
+          "shape": {
+            "x": 71.99999999999997,
+            "y": 175.34397888183588,
+            "width": 443.00689697265614,
+            "height": 41.022003173828125
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_248",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.01519423558897243,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S4"
+    },
+    {
+      "chunk_id": "ec2eade5-c87f-5d91-bdf3-e6117054650d",
+      "manual_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122",
+      "page_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_00004",
+      "chunk_type": "text",
+      "text": "The rear panel provides a power connector, audio input connectors, and room code switches.\n1",
+      "content_region_ids": [
+        "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_246"
+      ],
+      "context_region_ids": [
+        "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_238"
+      ],
+      "image_filename": "images/bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122/images/bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_00004.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_246",
+          "shape": {
+            "x": 214.07998657226554,
+            "y": 366.88198852539017,
+            "width": 11.339996337890483,
+            "height": 21.330017089843693
+          }
+        },
+        {
+          "id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_238",
+          "shape": {
+            "x": 71.99999999999997,
+            "y": 175.34397888183588,
+            "width": 443.00689697265614,
+            "height": 41.022003173828125
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_246",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 1
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.015097128378378379,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S5"
+    }
+  ],
+  "excluded_sources": [],
+  "status": "insufficient_evidence",
+  "variant": "keyword_075",
+  "created_at": "2026-11-02T00:42:04.603980+00:00",
+  "answer": "검색된 매뉴얼 근거에서 질문에 대한 답을 확인하지 못했습니다.",
+  "source_ids": [],
+  "insufficient_evidence": true,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 51,
+        "prompt_eval_count": 568,
+        "total_duration": 950900300,
+        "load_duration": 5827100,
+        "attempt": 1,
+        "prompt_token_upper_bound": 3065
+      }
+    ],
+    "elapsed_seconds": 1.0097832000174094,
+    "ollama_model": {
+      "name": "qwen3.5:4b",
+      "model": "qwen3.5:4b",
+      "size": 3214409726,
+      "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "4.2B",
+        "quantization_level": "Q4_K_M"
+      },
+      "expires_at": "2026-11-02T09:43:05.6130936+09:00",
+      "size_vram": 3214409726,
+      "context_length": 8192,
+      "runner": "llamacpp"
+    },
+    "observation_error": null
+  },
+  "citations": [],
+  "cited_figures": [],
+  "elapsed_seconds": 1.0099059999920428,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3836,
+    "temperature_c": 68,
+    "utilization_percent": 83
+  }
+}

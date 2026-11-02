@@ -1,0 +1,439 @@
+{
+  "case": "absent",
+  "query": "이 노트북을 2026년 11월 2일 서울 매장에서 구매하면 가격이 정확히 얼마인가요?",
+  "manual": "alienware-17-r5_users-guide_en-us",
+  "answer": "검색된 매뉴얼 근거에서 질문에 대한 답을 확인하지 못했습니다.",
+  "source_ids": [],
+  "insufficient_evidence": true,
+  "sources": [
+    {
+      "chunk_id": "d6590f33-caab-5bf3-8e41-3e72013c30d6",
+      "manual_id": "alienware-17-r5_users-guide_en-us",
+      "page_id": "alienware-17-r5_users-guide_en-us_00018",
+      "chunk_type": "title",
+      "text": "Table 11. Keyboard specifications",
+      "content_region_ids": [
+        "alienware-17-r5_users-guide_en-us_282"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/alienware-17-r5_users-guide_en-us/images/alienware-17-r5_users-guide_en-us_00020.jpg",
+      "source_shapes": [
+        {
+          "id": "alienware-17-r5_users-guide_en-us_282",
+          "shape": {
+            "x": 107.99999999999996,
+            "y": 867.2500610351556,
+            "width": 254.2010192871092,
+            "height": 20.739990234375682
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "alienware-17-r5_users-guide_en-us_282",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 33
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [],
+      "score": 0.4637865453482686,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "9a32a501-9383-5a15-84ee-ef976bf2cf43",
+      "manual_id": "alienware-17-r5_users-guide_en-us",
+      "page_id": "alienware-17-r5_users-guide_en-us_00021",
+      "chunk_type": "text",
+      "text": "3.50 A",
+      "content_region_ids": [
+        "alienware-17-r5_users-guide_en-us_510"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/alienware-17-r5_users-guide_en-us/images/alienware-17-r5_users-guide_en-us_00023.jpg",
+      "source_shapes": [
+        {
+          "id": "alienware-17-r5_users-guide_en-us_510",
+          "shape": {
+            "x": 447.502471923828,
+            "y": 504.8999633789061,
+            "width": 54.48599243164051,
+            "height": 21.960021972656193
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "alienware-17-r5_users-guide_en-us_510",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 6
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.431898097194639,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "2a84a031-f1e7-50c3-a0fd-14169a81cbf8",
+      "manual_id": "alienware-17-r5_users-guide_en-us",
+      "page_id": "alienware-17-r5_users-guide_en-us_00018",
+      "chunk_type": "table",
+      "text": "First row (header unconfirmed): Column 1: Type | Column 2: RGB Backlit keyboard RGB per Key keyboard\nColumn 1: Type | Column 2: RGB Backlit keyboard RGB per Key keyboard\nColumn 1: Shortcut keys | Column 2: Some keys on your keyboard have two symbols on them.These keys can be",
+      "content_region_ids": [
+        "alienware-17-r5_users-guide_en-us_291"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/alienware-17-r5_users-guide_en-us/images/alienware-17-r5_users-guide_en-us_00020.jpg",
+      "source_shapes": [
+        {
+          "id": "alienware-17-r5_users-guide_en-us_291",
+          "shape": {
+            "x": 107.01041412353514,
+            "y": 896.5555725097655,
+            "width": 641.9999999999999,
+            "height": 141.0000000000001
+          }
+        },
+        {
+          "id": "alienware-17-r5_users-guide_en-us_283",
+          "shape": {
+            "x": 113.99400329589837,
+            "y": 903.6000366210928,
+            "width": 37.386001586914134,
+            "height": 21.96002197265659
+          }
+        },
+        {
+          "id": "alienware-17-r5_users-guide_en-us_286",
+          "shape": {
+            "x": 113.99400329589837,
+            "y": 983.6000366210933,
+            "width": 105.62400817871081,
+            "height": 21.96002197265591
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "score": 0.4239343674188268,
+      "table_rows": [
+        0,
+        1
+      ],
+      "table_cells": [
+        {
+          "row": 0,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S3"
+    },
+    {
+      "chunk_id": "6ec50cfc-b552-53dc-98ad-351b65d0b619",
+      "manual_id": "alienware-17-r5_users-guide_en-us",
+      "page_id": "alienware-17-r5_users-guide_en-us_00023",
+      "chunk_type": "text",
+      "text": "110 G†",
+      "content_region_ids": [
+        "alienware-17-r5_users-guide_en-us_366"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/alienware-17-r5_users-guide_en-us/images/alienware-17-r5_users-guide_en-us_00025.jpg",
+      "source_shapes": [
+        {
+          "id": "alienware-17-r5_users-guide_en-us_366",
+          "shape": {
+            "x": 297.99999999999994,
+            "y": 268.40833536783845,
+            "width": 56.66666666666657,
+            "height": 20.666666666666742
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "alienware-17-r5_users-guide_en-us_366",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 6
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.41978896626942763,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S4"
+    },
+    {
+      "chunk_id": "a3a06e16-19e6-54e7-aa26-b7fcc450f64c",
+      "manual_id": "alienware-17-r5_users-guide_en-us",
+      "page_id": "alienware-17-r5_users-guide_en-us_00022",
+      "chunk_type": "table",
+      "text": "First row (header unconfirmed): Column 1: [empty cell] | Column 2: 17.3-inch FHD Anti-Glare panel | Column 3: 17.3-inch QHD Anti-Glare panel | Column 4: 17.3-inch UHD Anti-Glare panel\nColumn 1: G-sync support | Column 2: Yes (optional) | Column 3: Yes | Column 4: Yes\nColumn 1: Tobii Eye-tracking No support | Column 2: [empty cell] | Column 3: Yes | Column 4: Yes",
+      "content_region_ids": [
+        "alienware-17-r5_users-guide_en-us_339"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/alienware-17-r5_users-guide_en-us/images/alienware-17-r5_users-guide_en-us_00024.jpg",
+      "source_shapes": [
+        {
+          "id": "alienware-17-r5_users-guide_en-us_339",
+          "shape": {
+            "x": 104.24999999999999,
+            "y": 210.9140625,
+            "width": 649.4999999999999,
+            "height": 600.0
+          }
+        },
+        {
+          "id": "alienware-17-r5_users-guide_en-us_295",
+          "shape": {
+            "x": 274.26388549804693,
+            "y": 222.69996643066403,
+            "width": 138.49200439453125,
+            "height": 39.96000671386727
+          }
+        },
+        {
+          "id": "alienware-17-r5_users-guide_en-us_296",
+          "shape": {
+            "x": 440.05569458007807,
+            "y": 222.69996643066403,
+            "width": 138.49203491210943,
+            "height": 39.96000671386727
+          }
+        },
+        {
+          "id": "alienware-17-r5_users-guide_en-us_297",
+          "shape": {
+            "x": 598.4400634765625,
+            "y": 222.69996643066403,
+            "width": 138.49200439453068,
+            "height": 39.96000671386727
+          }
+        },
+        {
+          "id": "alienware-17-r5_users-guide_en-us_323",
+          "shape": {
+            "x": 113.99400329589845,
+            "y": 661.1199951171874,
+            "width": 124.37924702962248,
+            "height": 21.96002197265625
+          }
+        },
+        {
+          "id": "alienware-17-r5_users-guide_en-us_324",
+          "shape": {
+            "x": 440.05569458007807,
+            "y": 661.1199951171874,
+            "width": 24.534027099609375,
+            "height": 21.96002197265625
+          }
+        },
+        {
+          "id": "alienware-17-r5_users-guide_en-us_325",
+          "shape": {
+            "x": 598.4400634765625,
+            "y": 661.1199951171874,
+            "width": 24.53399658203091,
+            "height": 21.96002197265625
+          }
+        },
+        {
+          "id": "alienware-17-r5_users-guide_en-us_327",
+          "shape": {
+            "x": 274.26388549804693,
+            "y": 694.719970703125,
+            "width": 24.804016113281193,
+            "height": 21.96002197265625
+          }
+        },
+        {
+          "id": "alienware-17-r5_users-guide_en-us_328",
+          "shape": {
+            "x": 440.05569458007807,
+            "y": 694.719970703125,
+            "width": 24.534027099609375,
+            "height": 21.96002197265625
+          }
+        },
+        {
+          "id": "alienware-17-r5_users-guide_en-us_329",
+          "shape": {
+            "x": 598.4400634765625,
+            "y": 694.719970703125,
+            "width": 24.53399658203091,
+            "height": 21.96002197265625
+          }
+        },
+        {
+          "id": "alienware-17-r5_users-guide_en-us_347",
+          "shape": {
+            "x": 273.3333333333333,
+            "y": 659.8263888888888,
+            "width": 108.44444444444446,
+            "height": 23.999999999999886
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "score": 0.4180497007174774,
+      "table_rows": [
+        9,
+        10
+      ],
+      "table_cells": [
+        {
+          "row": 9,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 9,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 9,
+          "column": 2,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 9,
+          "column": 3,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 10,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 10,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 10,
+          "column": 2,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 10,
+          "column": 3,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S5"
+    }
+  ],
+  "excluded_sources": [],
+  "citations": [],
+  "cited_figures": [],
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 82,
+        "prompt_eval_count": 711,
+        "total_duration": 1381370100,
+        "load_duration": 7074700,
+        "attempt": 1,
+        "prompt_token_upper_bound": 3372
+      }
+    ],
+    "elapsed_seconds": 1.4623397000250407,
+    "ollama_model": {
+      "name": "qwen3.5:4b",
+      "model": "qwen3.5:4b",
+      "size": 3214409726,
+      "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "4.2B",
+        "quantization_level": "Q4_K_M"
+      },
+      "expires_at": "2026-11-02T08:44:56.1593638+09:00",
+      "size_vram": 3214409726,
+      "context_length": 8192,
+      "runner": "llamacpp"
+    },
+    "observation_error": null
+  },
+  "gpu_after_generation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 57,
+    "utilization_percent": 83
+  },
+  "validation_mode": "Final Korean prompt on the same previously retrieved full-index hits",
+  "prior_end_to_end_report": ".runtime\\pm209-answer-check\\absent.json",
+  "semantic_accuracy_verified": false
+}

@@ -1,0 +1,93 @@
+{
+  "questions": 30,
+  "keyword_percent": [
+    0,
+    25,
+    50,
+    75,
+    100
+  ],
+  "final_top_k": [
+    1,
+    5
+  ],
+  "candidate_k": 20,
+  "rrf_k": 60,
+  "fusion": "Qdrant RrfQuery; weights=[1-w,w]; native score=1/(rank/weight+k-1), rank starts at 1",
+  "endpoints": "0% dense only; 100% BM25 only",
+  "manual_filter": "metadata.manual_id on both prefetch branches",
+  "bm25": {
+    "model_name": "Qdrant/bm25",
+    "k": 1.2,
+    "b": 0.75,
+    "avg_len": 256.0,
+    "language": "english",
+    "token_max_length": 40,
+    "disable_stemmer": false
+  },
+  "idf": "Qdrant Modifier.IDF over all 126938 chunks",
+  "index_identity": {
+    "source_chunk_sha256": "9c2d4ec474e9f2e0a2b1ede9e1ef6edc8311f1d2be843b1f1bd107567989acc5",
+    "dense_identity": {
+      "model": "qwen3-embedding:0.6b",
+      "digest": "ac6da0dfba84a81fdbfbaf330198c33cd77c4cdfc53e8bc50eb581914a15621d",
+      "options": {
+        "num_ctx": 2048,
+        "num_batch": 128,
+        "num_thread": 4,
+        "num_gpu": 99
+      },
+      "query_instruction": "Given a question about a product manual, retrieve passages that answer the question.",
+      "truncate": false
+    },
+    "sparse_model": {
+      "model_name": "Qdrant/bm25",
+      "k": 1.2,
+      "b": 0.75,
+      "avg_len": 256.0,
+      "language": "english",
+      "token_max_length": 40,
+      "disable_stemmer": false
+    },
+    "sparse_modifier": "idf",
+    "packages": {
+      "langchain-core": "1.7.3",
+      "langchain-ollama": "1.1.0",
+      "langchain-qdrant": "1.1.0",
+      "qdrant-client": "1.20.0",
+      "fastembed": "0.9.1",
+      "ollama": "0.6.3"
+    },
+    "collection": "pm209_hybrid_v1",
+    "vectors": {
+      "dense": 1024,
+      "bm25": "sparse"
+    },
+    "payload": {
+      "text": "original text",
+      "metadata": "all remaining original chunk fields"
+    }
+  },
+  "questions_sha256": "46ac65f02b6aa6c04cd622ca1fade73ef8ea97ec6fcff9d4095081d6a9df2da6",
+  "references_sha256": "415eddb36cbf30fed9008d2a904ba19d9b30f48d1688d171f870d457141c3b88",
+  "translations_sha256": "6f5d88bb5f4290d2badf723114ea7f6903053b3b69c73ce3edfaa8699ce1bc2c",
+  "translation_policy": "Reuse the exact 30 English queries; no new translation in comparison",
+  "answer_model": "qwen3.5:4b",
+  "answer_digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+  "answer_options": {
+    "num_ctx": 8192,
+    "num_predict": 1024,
+    "num_batch": 128,
+    "num_thread": 4,
+    "num_gpu": 99,
+    "temperature": 0
+  },
+  "think": false,
+  "prompt_version": "pm209-grounded-ko-v1",
+  "answering_code_sha256": "c19f7a3d098cbdc5689ec98c59f7de157fd8253b287db099c974ac6457ef771f",
+  "langchain_code_sha256": "c3982642a9f6c9eb4fff136f50a5dc99e2518fa667762bb2a629278a29092dae",
+  "runner_code_sha256": "17a2d4d7f641e346ddb51658d7f0d23d8884fe4e2f6751aa2094625270011d6b",
+  "answer_reuse": "Only identical same-condition resume files; all 300 conditions invoke ChatOllama",
+  "evaluation": "Fixed previous rubric; assistant review, not an independent held-out test",
+  "comparison_limits": "BM25 tokenizer/scoring and native RRF formula differ from legacy SQLite/Python; not a pure framework-only accuracy experiment"
+}

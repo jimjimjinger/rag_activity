@@ -1,0 +1,65 @@
+{
+  "index_validation": {
+    "status": "complete",
+    "checked_at": "2026-11-02T04:48:26.991313+00:00",
+    "points_verified": 126938,
+    "dimension": 1024,
+    "payload_exact_match": true,
+    "cached_dense_vectors_preserved": true,
+    "max_dense_abs_difference": 1.341104507446289e-07,
+    "bm25_vectors_recomputed_and_verified": true,
+    "empty_sparse_vectors": 533,
+    "source_and_previous_results_preserved": true,
+    "protected_files": 482,
+    "document_embeddings_generated": 0,
+    "errors": [],
+    "elapsed_seconds": 140.50384429999394,
+    "semantic_accuracy_verified": false,
+    "collection": "pm209_hybrid_v1",
+    "packages": {
+      "langchain-core": "1.7.3",
+      "langchain-ollama": "1.1.0",
+      "langchain-qdrant": "1.1.0",
+      "qdrant-client": "1.20.0",
+      "fastembed": "0.9.1",
+      "ollama": "0.6.3"
+    }
+  },
+  "component_checks": {
+    "unit_tests": {
+      "passed": 17,
+      "failed": 0,
+      "modules": [
+        "test_lc_qdrant_rag.py",
+        "test_answering.py"
+      ]
+    },
+    "integration_probe": "integration-probe.json",
+    "fresh_query_embedding_matches_original": true,
+    "fresh_document_embedding_matches_original": true,
+    "actual_langchain_translation_and_answer_probe_passed": true,
+    "syntax_check": "passed",
+    "git_diff_check": "passed",
+    "actual_run_cmd_pipeline": "cli-smoke.json",
+    "fresh_query_embedding_via_cli": true
+  },
+  "build_recovery": {
+    "first_attempt_started_at": "2026-11-02T04:28:35.165289+00:00",
+    "first_attempt_failure": "Windows PermissionError replacing status.json; 126938 points already saved; process exited",
+    "fix": "Atomic JSON uses a unique temporary file and bounded retry for PermissionError",
+    "resumed_points": 126938,
+    "new_dense_embeddings_on_resume": 0,
+    "completed_at": "2026-11-02T04:48:26.991313+00:00",
+    "total_wall_seconds_including_diagnosis_and_resume": 1191.826024,
+    "logs": [
+      "build.stdout.log",
+      "build.stderr.log",
+      "build-resume.stdout.log",
+      "build-resume.stderr.log"
+    ]
+  },
+  "dense_top5_same_as_legacy": 30,
+  "dense_top5_changed_cases": [],
+  "empty_bm25_note": "533 chunks have no terms after the official English stopword/token filter, e.g. OFF or a. Their dense vectors and payloads are retained.",
+  "native_query_traces_verified": 150
+}

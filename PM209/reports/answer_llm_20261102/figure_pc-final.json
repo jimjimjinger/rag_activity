@@ -1,0 +1,534 @@
+{
+  "case": "figure_pc",
+  "query": "스피커를 PC에 블루투스로 연결하는 절차를 알려주세요.",
+  "manual": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)",
+  "answer": "스피커를 PC 에 블루투스로 연결하려면, 먼저 스피커에 있는 블루투스 버튼을 단축 누름으로 눌러 블루투스를 켜야 합니다. 그 후 PC 화면에 연결 카드가 나타날 때 'CONNECT' 를 클릭하여 연결을 완료하면 됩니다.",
+  "source_ids": [
+    "S1",
+    "S2"
+  ],
+  "insufficient_evidence": false,
+  "sources": [
+    {
+      "chunk_id": "11690549-9c63-50fa-9661-266b3086715e",
+      "manual_id": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)",
+      "page_id": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_00004",
+      "chunk_type": "figure",
+      "text": "Connect the speaker to a PC\nManual instruction showing how to enable Bluetooth on a speaker by pressing the Bluetooth button briefly when near a PC. A connection card will appear on the computer screen; user must click CONNECT to complete pairing between speaker and device.",
+      "content_region_ids": [
+        "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_179"
+      ],
+      "context_region_ids": [
+        "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_164"
+      ],
+      "image_filename": "images/HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)/images/HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_00005.jpg",
+      "source_shapes": [
+        {
+          "id": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_179",
+          "shape": {
+            "x": 83.25000000000001,
+            "y": 529.5000000000001,
+            "width": 951.0000000000002,
+            "height": 550.5000000000001
+          }
+        },
+        {
+          "id": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_164",
+          "shape": {
+            "x": 90.02165222167972,
+            "y": 490.7573852539063,
+            "width": 381.13331604003906,
+            "height": 32.81249999999994
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_179",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 246
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": 0.7811538297042043,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "622e5aeb-03aa-5f6b-b2b1-77333bbde5a2",
+      "manual_id": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)",
+      "page_id": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_00004",
+      "chunk_type": "text",
+      "text": "Connect the speaker to a PC\nWhen the speaker is close to a PC, press the Bluetooth button briefly to enable\nBluetooth. A connection card will pop up on the PC. Click CONNECT to complete the\nBluetooth connection between the speaker and the computer.",
+      "content_region_ids": [
+        "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_165",
+        "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_166",
+        "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_167"
+      ],
+      "context_region_ids": [
+        "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_164"
+      ],
+      "image_filename": "images/HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)/images/HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_00005.jpg",
+      "source_shapes": [
+        {
+          "id": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_165",
+          "shape": {
+            "x": 90.0376129150391,
+            "y": 536.4769287109376,
+            "width": 913.5712127685548,
+            "height": 47.624999999999886
+          }
+        },
+        {
+          "id": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_166",
+          "shape": {
+            "x": 90.03955078125,
+            "y": 593.9769287109376,
+            "width": 928.3280639648442,
+            "height": 28.124999999999886
+          }
+        },
+        {
+          "id": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_167",
+          "shape": {
+            "x": 90.03955078125,
+            "y": 631.9769287109373,
+            "width": 675.8272094726564,
+            "height": 28.12500000000034
+          }
+        },
+        {
+          "id": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_164",
+          "shape": {
+            "x": 90.02165222167972,
+            "y": 490.7573852539063,
+            "width": 381.13331604003906,
+            "height": 32.81249999999994
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_165",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 79
+        },
+        {
+          "region_id": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_166",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 81
+        },
+        {
+          "region_id": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_167",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 58
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.7801549477769345,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "5fe7173d-4c41-578e-b185-fc237a3b4b94",
+      "manual_id": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)",
+      "page_id": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_00004",
+      "chunk_type": "figure",
+      "text": "Connect the speaker to a PC\nIllustration showing a hand pressing the Bluetooth button on a laptop's side panel, followed by an image of a smartphone displayed on the laptop screen.",
+      "content_region_ids": [
+        "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_178"
+      ],
+      "context_region_ids": [
+        "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_164"
+      ],
+      "image_filename": "images/HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)/images/HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_00005.jpg",
+      "source_shapes": [
+        {
+          "id": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_178",
+          "shape": {
+            "x": 90.03149414062503,
+            "y": 676.9202880859377,
+            "width": 787.5000000000001,
+            "height": 390.0
+          }
+        },
+        {
+          "id": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_164",
+          "shape": {
+            "x": 90.02165222167972,
+            "y": 490.7573852539063,
+            "width": 381.13331604003906,
+            "height": 32.81249999999994
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_178",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 152
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": 0.7090026452058137,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S3"
+    },
+    {
+      "chunk_id": "462268f8-daad-5a03-b8e3-f50eeb47b5fc",
+      "manual_id": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)",
+      "page_id": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_00005",
+      "chunk_type": "text",
+      "text": "Connect to the speaker via Bluetooth to play music\n1 Press the Bluetooth button on the speaker to turn on Bluetooth.\n2 Open Settings on the phone, access the Bluetooth screen, and enable Bluetooth. Search for available devices nearby and select the speaker that you want to connect to. 3 After a Bluetooth connection is set up between the speaker and your phone, the speaker can be used for Bluetooth calls or to play audio from your phone.",
+      "content_region_ids": [
+        "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_184",
+        "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_185"
+      ],
+      "context_region_ids": [
+        "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_183"
+      ],
+      "image_filename": "images/HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)/images/HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_00006.jpg",
+      "source_shapes": [
+        {
+          "id": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_184",
+          "shape": {
+            "x": 84.75949096679688,
+            "y": 1179.311035156251,
+            "width": 787.4988708496098,
+            "height": 49.125
+          }
+        },
+        {
+          "id": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_185",
+          "shape": {
+            "x": 90.02740478515632,
+            "y": 1240.7446289062507,
+            "width": 1004.003967285157,
+            "height": 138.02197265625
+          }
+        },
+        {
+          "id": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_183",
+          "shape": {
+            "x": 90.02351379394537,
+            "y": 1135.0914306640634,
+            "width": 692.1035003662112,
+            "height": 32.81250000000023
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_184",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 65
+        },
+        {
+          "region_id": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_185",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 323
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.6850471866616099,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S4"
+    },
+    {
+      "chunk_id": "35483c0d-878f-5fbf-a6ac-cdc88dca428f",
+      "manual_id": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)",
+      "page_id": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_00004",
+      "chunk_type": "text",
+      "text": "• Update PC Manager to the latest version on the above laptops to use this feature.\n• If you are using a Huawei PC not listed above, or a non-Huawei PC, enable Bluetooth\non the speaker and the computer and manually connect them.",
+      "content_region_ids": [
+        "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_171",
+        "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_172",
+        "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_173"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)/images/HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_00005.jpg",
+      "source_shapes": [
+        {
+          "id": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_171",
+          "shape": {
+            "x": 132.81542968749997,
+            "y": 1208.6546630859377,
+            "width": 921.7387695312502,
+            "height": 28.125
+          }
+        },
+        {
+          "id": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_172",
+          "shape": {
+            "x": 132.81542968749997,
+            "y": 1257.3675537109377,
+            "width": 959.322387695313,
+            "height": 28.125
+          }
+        },
+        {
+          "id": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_173",
+          "shape": {
+            "x": 157.8314819335938,
+            "y": 1295.3675537109377,
+            "width": 685.6911621093752,
+            "height": 28.125000000000455
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_171",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 83
+        },
+        {
+          "region_id": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_172",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 85
+        },
+        {
+          "region_id": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_173",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 58
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.6836897534020809,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S5"
+    }
+  ],
+  "excluded_sources": [],
+  "citations": [
+    {
+      "chunk_id": "11690549-9c63-50fa-9661-266b3086715e",
+      "manual_id": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)",
+      "page_id": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_00004",
+      "chunk_type": "figure",
+      "text": "Connect the speaker to a PC\nManual instruction showing how to enable Bluetooth on a speaker by pressing the Bluetooth button briefly when near a PC. A connection card will appear on the computer screen; user must click CONNECT to complete pairing between speaker and device.",
+      "content_region_ids": [
+        "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_179"
+      ],
+      "context_region_ids": [
+        "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_164"
+      ],
+      "image_filename": "images/HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)/images/HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_00005.jpg",
+      "source_shapes": [
+        {
+          "id": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_179",
+          "shape": {
+            "x": 83.25000000000001,
+            "y": 529.5000000000001,
+            "width": 951.0000000000002,
+            "height": 550.5000000000001
+          }
+        },
+        {
+          "id": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_164",
+          "shape": {
+            "x": 90.02165222167972,
+            "y": 490.7573852539063,
+            "width": 381.13331604003906,
+            "height": 32.81249999999994
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_179",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 246
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": 0.7811538297042043,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "622e5aeb-03aa-5f6b-b2b1-77333bbde5a2",
+      "manual_id": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)",
+      "page_id": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_00004",
+      "chunk_type": "text",
+      "text": "Connect the speaker to a PC\nWhen the speaker is close to a PC, press the Bluetooth button briefly to enable\nBluetooth. A connection card will pop up on the PC. Click CONNECT to complete the\nBluetooth connection between the speaker and the computer.",
+      "content_region_ids": [
+        "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_165",
+        "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_166",
+        "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_167"
+      ],
+      "context_region_ids": [
+        "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_164"
+      ],
+      "image_filename": "images/HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)/images/HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_00005.jpg",
+      "source_shapes": [
+        {
+          "id": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_165",
+          "shape": {
+            "x": 90.0376129150391,
+            "y": 536.4769287109376,
+            "width": 913.5712127685548,
+            "height": 47.624999999999886
+          }
+        },
+        {
+          "id": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_166",
+          "shape": {
+            "x": 90.03955078125,
+            "y": 593.9769287109376,
+            "width": 928.3280639648442,
+            "height": 28.124999999999886
+          }
+        },
+        {
+          "id": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_167",
+          "shape": {
+            "x": 90.03955078125,
+            "y": 631.9769287109373,
+            "width": 675.8272094726564,
+            "height": 28.12500000000034
+          }
+        },
+        {
+          "id": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_164",
+          "shape": {
+            "x": 90.02165222167972,
+            "y": 490.7573852539063,
+            "width": 381.13331604003906,
+            "height": 32.81249999999994
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_165",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 79
+        },
+        {
+          "region_id": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_166",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 81
+        },
+        {
+          "region_id": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_167",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 58
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.7801549477769345,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    }
+  ],
+  "cited_figures": [
+    {
+      "source_id": "S1",
+      "page_id": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_00004",
+      "region_id": "HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_179",
+      "image_filename": "images/HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)/images/HUAWEI_Sound Joy User Guide-(EGRT-09,02,en)_00005.jpg",
+      "shape": {
+        "x": 83.25000000000001,
+        "y": 529.5000000000001,
+        "width": 951.0000000000002,
+        "height": 550.5000000000001
+      }
+    }
+  ],
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 101,
+        "prompt_eval_count": 748,
+        "total_duration": 1621516500,
+        "load_duration": 4887700,
+        "attempt": 1,
+        "prompt_token_upper_bound": 3984
+      }
+    ],
+    "elapsed_seconds": 1.6996801999921445,
+    "ollama_model": {
+      "name": "qwen3.5:4b",
+      "model": "qwen3.5:4b",
+      "size": 3214409726,
+      "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "4.2B",
+        "quantization_level": "Q4_K_M"
+      },
+      "expires_at": "2026-11-02T08:44:53.0866196+09:00",
+      "size_vram": 3214409726,
+      "context_length": 8192,
+      "runner": "llamacpp"
+    },
+    "observation_error": null
+  },
+  "gpu_after_generation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 57,
+    "utilization_percent": 84
+  },
+  "validation_mode": "Final Korean prompt on the same previously retrieved full-index hits",
+  "prior_end_to_end_report": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\datasets\\PM209\\rag\\full_char500_v1\\answers\\20261101T234212-f9e1e9a3.json",
+  "semantic_accuracy_verified": false
+}

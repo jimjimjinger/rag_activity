@@ -1,0 +1,194 @@
+{
+  "case_id": "TEXT10",
+  "manual_id": "samsung_dish_washer_6918977 a",
+  "question": "유입되는 물의 온도는 얼마여야 하나요?",
+  "english_query": "What temperature should the incoming water be?",
+  "keyword_percent": 100,
+  "variant": "top1_kw100",
+  "top_k": 1,
+  "retrieved_chunk_ids": [
+    "37a9e891-900d-5c2c-b5c8-7dfa202a72c8"
+  ],
+  "sources": [
+    {
+      "chunk_id": "37a9e891-900d-5c2c-b5c8-7dfa202a72c8",
+      "manual_id": "samsung_dish_washer_6918977 a",
+      "page_id": "samsung_dish_washer_6918977 a_00006",
+      "chunk_type": "text",
+      "text": "Hot Water\nFor optimal cleaning and drying results, hot water is necessary. The incoming water temperature should be 120° F (49° C) to properly activate the detergent and melt greasy food soils.\nTo check the incoming water temperature, turn on the hot water faucet nearest the dishwasher and let it run into a glass in the sink. Place a candy thermometer in the glass and check the temperature once it has stopped rising.",
+      "content_region_ids": [
+        "samsung_dish_washer_6918977 a_145",
+        "samsung_dish_washer_6918977 a_146"
+      ],
+      "context_region_ids": [
+        "samsung_dish_washer_6918977 a_165"
+      ],
+      "image_filename": "images/samsung_dish_washer_6918977 a/images/6.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_dish_washer_6918977 a_145",
+          "shape": {
+            "x": 75.62000000000006,
+            "y": 211.13,
+            "width": 507.2500000000003,
+            "height": 105.71000000000038
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_146",
+          "shape": {
+            "x": 75.62000000000006,
+            "y": 329.2500000000004,
+            "width": 501.19000000000034,
+            "height": 131.5799999999998
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_165",
+          "shape": {
+            "x": 76.62000000000006,
+            "y": 152.44000000000005,
+            "width": 166.64000000000001,
+            "height": 43.379999999999995
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_dish_washer_6918977 a_145",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 183
+        },
+        {
+          "region_id": "samsung_dish_washer_6918977 a_146",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 226
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 28.93783950805664,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "excluded_sources": [],
+  "created_at": "2026-11-02T05:00:45.854767+00:00",
+  "status": "answered",
+  "answer": "최적의 세척 및 건조 결과를 얻기 위해 유입되는 물의 온도는 120°F (49°C) 이어야 합니다. 이 온도를 확인하려면 dishwasher 근처의 뜨거운 물 수도꼭지를 켜서 싱크대 유리잔에 흘려보내주고, 그 안에 캔디 온도계를 넣고 온도가 더 오르지 않을 때 한 번 측정해야 합니다.",
+  "source_ids": [
+    "S1"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 110,
+        "prompt_eval_count": 448,
+        "total_duration": 1503611800,
+        "load_duration": 5226700,
+        "attempt": 1,
+        "prompt_token_upper_bound": 2642
+      }
+    ],
+    "elapsed_seconds": 1.5103051000041887,
+    "backend": "LangChain ChatPromptTemplate | ChatOllama"
+  },
+  "citations": [
+    {
+      "chunk_id": "37a9e891-900d-5c2c-b5c8-7dfa202a72c8",
+      "manual_id": "samsung_dish_washer_6918977 a",
+      "page_id": "samsung_dish_washer_6918977 a_00006",
+      "chunk_type": "text",
+      "text": "Hot Water\nFor optimal cleaning and drying results, hot water is necessary. The incoming water temperature should be 120° F (49° C) to properly activate the detergent and melt greasy food soils.\nTo check the incoming water temperature, turn on the hot water faucet nearest the dishwasher and let it run into a glass in the sink. Place a candy thermometer in the glass and check the temperature once it has stopped rising.",
+      "content_region_ids": [
+        "samsung_dish_washer_6918977 a_145",
+        "samsung_dish_washer_6918977 a_146"
+      ],
+      "context_region_ids": [
+        "samsung_dish_washer_6918977 a_165"
+      ],
+      "image_filename": "images/samsung_dish_washer_6918977 a/images/6.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_dish_washer_6918977 a_145",
+          "shape": {
+            "x": 75.62000000000006,
+            "y": 211.13,
+            "width": 507.2500000000003,
+            "height": 105.71000000000038
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_146",
+          "shape": {
+            "x": 75.62000000000006,
+            "y": 329.2500000000004,
+            "width": 501.19000000000034,
+            "height": 131.5799999999998
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_165",
+          "shape": {
+            "x": 76.62000000000006,
+            "y": 152.44000000000005,
+            "width": 166.64000000000001,
+            "height": 43.379999999999995
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_dish_washer_6918977 a_145",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 183
+        },
+        {
+          "region_id": "samsung_dish_washer_6918977 a_146",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 226
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 28.93783950805664,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 1.51036600000225,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 66,
+    "utilization_percent": 84
+  }
+}

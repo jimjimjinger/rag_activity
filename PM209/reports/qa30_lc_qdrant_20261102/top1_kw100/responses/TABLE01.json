@@ -1,0 +1,98 @@
+{
+  "case_id": "TABLE01",
+  "manual_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740",
+  "question": "저음이나 고음이 약하면 어떻게 해야 하나요?",
+  "english_query": "What should I do if the low or high sound is weak?",
+  "keyword_percent": 100,
+  "variant": "top1_kw100",
+  "top_k": 1,
+  "retrieved_chunk_ids": [
+    "1a272593-823d-50af-9797-dec2d7ca0e5e"
+  ],
+  "sources": [
+    {
+      "chunk_id": "1a272593-823d-50af-9797-dec2d7ca0e5e",
+      "manual_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740",
+      "page_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00003",
+      "chunk_type": "text",
+      "text": "Thank you for purchasing Bose ® 251 TM environmental speakers. These high-performance out- door speakers are engineered to provide sound quality far beyond that of other environmental speakers. The 251 environmental speakers are designed to withstand nature’s elements – so you can be confident they will perform for years to come.",
+      "content_region_ids": [
+        "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_16"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740/images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00004.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_16",
+          "shape": {
+            "x": 351.50201416015625,
+            "y": 188.91702270507812,
+            "width": 798.3493041992188,
+            "height": 97.32000732421875
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_16",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 331
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 12.726067543029785,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "excluded_sources": [],
+  "created_at": "2026-11-02T05:00:47.447571+00:00",
+  "status": "insufficient_evidence",
+  "answer": "검색된 매뉴얼 근거에서 질문에 대한 답을 확인하지 못했습니다.",
+  "source_ids": [],
+  "insufficient_evidence": true,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 48,
+        "prompt_eval_count": 421,
+        "total_duration": 732200300,
+        "load_duration": 5177600,
+        "attempt": 1,
+        "prompt_token_upper_bound": 2561
+      }
+    ],
+    "elapsed_seconds": 0.7402584000083152,
+    "backend": "LangChain ChatPromptTemplate | ChatOllama"
+  },
+  "citations": [],
+  "cited_figures": [],
+  "elapsed_seconds": 0.7402811000065412,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 67,
+    "utilization_percent": 83
+  }
+}

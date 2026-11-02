@@ -1,0 +1,630 @@
+{
+  "case_id": "TEXT10",
+  "manual_id": "samsung_dish_washer_6918977 a",
+  "question": "유입되는 물의 온도는 얼마여야 하나요?",
+  "english_query": "What temperature should the incoming water be?",
+  "keyword_percent": 75,
+  "variant": "top5_kw075",
+  "top_k": 5,
+  "retrieved_chunk_ids": [
+    "37a9e891-900d-5c2c-b5c8-7dfa202a72c8",
+    "40238ce1-9807-584d-be85-43fee70127a4",
+    "92507c75-0062-5aef-9cdb-9bd58336f31d",
+    "186804a2-70ee-5513-9810-d9dd7317a935",
+    "3a394ae0-58ec-5c80-b2dd-a918b90ff1d0"
+  ],
+  "sources": [
+    {
+      "chunk_id": "37a9e891-900d-5c2c-b5c8-7dfa202a72c8",
+      "manual_id": "samsung_dish_washer_6918977 a",
+      "page_id": "samsung_dish_washer_6918977 a_00006",
+      "chunk_type": "text",
+      "text": "Hot Water\nFor optimal cleaning and drying results, hot water is necessary. The incoming water temperature should be 120° F (49° C) to properly activate the detergent and melt greasy food soils.\nTo check the incoming water temperature, turn on the hot water faucet nearest the dishwasher and let it run into a glass in the sink. Place a candy thermometer in the glass and check the temperature once it has stopped rising.",
+      "content_region_ids": [
+        "samsung_dish_washer_6918977 a_145",
+        "samsung_dish_washer_6918977 a_146"
+      ],
+      "context_region_ids": [
+        "samsung_dish_washer_6918977 a_165"
+      ],
+      "image_filename": "images/samsung_dish_washer_6918977 a/images/6.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_dish_washer_6918977 a_145",
+          "shape": {
+            "x": 75.62000000000006,
+            "y": 211.13,
+            "width": 507.2500000000003,
+            "height": 105.71000000000038
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_146",
+          "shape": {
+            "x": 75.62000000000006,
+            "y": 329.2500000000004,
+            "width": 501.19000000000034,
+            "height": 131.5799999999998
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_165",
+          "shape": {
+            "x": 76.62000000000006,
+            "y": 152.44000000000005,
+            "width": 166.64000000000001,
+            "height": 43.379999999999995
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_dish_washer_6918977 a_145",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 183
+        },
+        {
+          "region_id": "samsung_dish_washer_6918977 a_146",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 226
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.03244760150837499,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "40238ce1-9807-584d-be85-43fee70127a4",
+      "manual_id": "samsung_dish_washer_6918977 a",
+      "page_id": "samsung_dish_washer_6918977 a_00012",
+      "chunk_type": "text",
+      "text": "• High Temp or Sanitize has been selected and the cycle is extended to heat water. • Check to see that the incoming water temperature is 120° F (49° C).\n• Run dishes being held in the dishwasher through a Rinse Only cycle. • Many dishwashers have a “new” smell when first installed. This will dissipate with use. • Dishwasher may not be draining properly. (See “Dishwasher Will Not Drain” section.) • For a strong odor, place baking soda in both sides of the detergent cup.",
+      "content_region_ids": [
+        "samsung_dish_washer_6918977 a_376",
+        "samsung_dish_washer_6918977 a_375"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_dish_washer_6918977 a/images/12.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_dish_washer_6918977 a_376",
+          "shape": {
+            "x": 397.90000000000003,
+            "y": 1011.56,
+            "width": 707.0999999999999,
+            "height": 49.20000000000027
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_375",
+          "shape": {
+            "x": 397.90000000000003,
+            "y": 1086.7300000000002,
+            "width": 736.1599999999994,
+            "height": 197.6199999999999
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_dish_washer_6918977 a_376",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 152
+        },
+        {
+          "region_id": "samsung_dish_washer_6918977 a_375",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 320
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.029850746268656716,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "92507c75-0062-5aef-9cdb-9bd58336f31d",
+      "manual_id": "samsung_dish_washer_6918977 a",
+      "page_id": "samsung_dish_washer_6918977 a_00013",
+      "chunk_type": "text",
+      "text": "• The lock indicator flashes and the countdown display (selected models) flashes an “L” if a pad is pressed while the control lock is enabled.\n• Select Extra Rinse (select models). • Check water temperature. Incoming water should be 120° F (49° C). • Always use a rinse aid. • Confirm that the cloudiness is removable by soaking the item in white vinegar for approximately 5 minutes. If removed, the problem is due to hard water. Adjust detergent amount being used to match water hardness (pg. 6).",
+      "content_region_ids": [
+        "samsung_dish_washer_6918977 a_395",
+        "samsung_dish_washer_6918977 a_397"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_dish_washer_6918977 a/images/13.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_dish_washer_6918977 a_395",
+          "shape": {
+            "x": 395.8400000000004,
+            "y": 273.84,
+            "width": 736.1599999999996,
+            "height": 224.82000000000028
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_397",
+          "shape": {
+            "x": 395.8400000000004,
+            "y": 515.2800000000001,
+            "width": 736.2499999999995,
+            "height": 317.95000000000016
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_dish_washer_6918977 a_395",
+          "field": "ocr_normalized",
+          "start": 445,
+          "end": 587
+        },
+        {
+          "region_id": "samsung_dish_washer_6918977 a_397",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 354
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.029628548493030725,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S3"
+    },
+    {
+      "chunk_id": "186804a2-70ee-5513-9810-d9dd7317a935",
+      "manual_id": "samsung_dish_washer_6918977 a",
+      "page_id": "samsung_dish_washer_6918977 a_00012",
+      "chunk_type": "table",
+      "text": "TROUBLESHOOTING\nFirst row (header unconfirmed): Column 1: PROBLEM | Column 2: SOLUTION\nColumn 1: Cycle takes too long (Heating light stays on) | Column 2: HighTemp orSanitize hasbeen selected and the cycle is extendedto heat water. Check to see that the incoming water temperature is 120°F (49°C)",
+      "content_region_ids": [
+        "samsung_dish_washer_6918977 a_392"
+      ],
+      "context_region_ids": [
+        "samsung_dish_washer_6918977 a_372"
+      ],
+      "image_filename": "images/samsung_dish_washer_6918977 a/images/12.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_dish_washer_6918977 a_392",
+          "shape": {
+            "x": 60.765586853027344,
+            "y": 163.26560783386233,
+            "width": 1095.7500000000002,
+            "height": 1305.0
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_372",
+          "shape": {
+            "x": 170.99000000000015,
+            "y": 29.130000000000003,
+            "width": 535.2900000000004,
+            "height": 86.75999999999996
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_382",
+          "shape": {
+            "x": 409.9000000000002,
+            "y": 178.48000000000002,
+            "width": 109.99999999999977,
+            "height": 26.51000000000002
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_385",
+          "shape": {
+            "x": 87.06000000000002,
+            "y": 1009.22,
+            "width": 292.6000000000002,
+            "height": 52.91000000000008
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_390",
+          "shape": {
+            "x": 86.06000000000003,
+            "y": 178.48000000000002,
+            "width": 107.27999999999997,
+            "height": 26.51000000000002
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "score": 0.0267226792695023,
+      "table_rows": [
+        6
+      ],
+      "table_cells": [
+        {
+          "row": 6,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S4"
+    },
+    {
+      "chunk_id": "3a394ae0-58ec-5c80-b2dd-a918b90ff1d0",
+      "manual_id": "samsung_dish_washer_6918977 a",
+      "page_id": "samsung_dish_washer_6918977 a_00013",
+      "chunk_type": "text",
+      "text": "• Check water temperature (pg 6). • Run hot water at the sink before starting the dishwasher. • Select High Temp option. • Check water hardness and adjust detergent amount accordingly (pg. 6). • Use fresh detergent stored in a cool dry place. • Select proper cycle for the soil level (pg. 7). • Make sure the upper rack wash arm connector is correctly aligned in one of the water inlet holes (pg. 5). • Load items so they do not block the wash arms (pg. 2-5).",
+      "content_region_ids": [
+        "samsung_dish_washer_6918977 a_404"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_dish_washer_6918977 a/images/13.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_dish_washer_6918977 a_404",
+          "shape": {
+            "x": 395.8400000000004,
+            "y": 849.0100000000008,
+            "width": 736.1899999999996,
+            "height": 351.4599999999997
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_dish_washer_6918977 a_404",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 459
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.026433770014556043,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S5"
+    }
+  ],
+  "excluded_sources": [],
+  "created_at": "2026-11-02T05:04:06.357277+00:00",
+  "status": "answered",
+  "answer": "유입되는 물의 온도는 세척제 활성화와 기름진 음식 오염물 녹임을 위해 적절히 설정해야 하며, 이 온도는 120°F (49°C) 이어야 합니다.",
+  "source_ids": [
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 85,
+        "prompt_eval_count": 996,
+        "total_duration": 1619427600,
+        "load_duration": 6205300,
+        "attempt": 1,
+        "prompt_token_upper_bound": 4852
+      }
+    ],
+    "elapsed_seconds": 1.6241960000188556,
+    "backend": "LangChain ChatPromptTemplate | ChatOllama"
+  },
+  "citations": [
+    {
+      "chunk_id": "37a9e891-900d-5c2c-b5c8-7dfa202a72c8",
+      "manual_id": "samsung_dish_washer_6918977 a",
+      "page_id": "samsung_dish_washer_6918977 a_00006",
+      "chunk_type": "text",
+      "text": "Hot Water\nFor optimal cleaning and drying results, hot water is necessary. The incoming water temperature should be 120° F (49° C) to properly activate the detergent and melt greasy food soils.\nTo check the incoming water temperature, turn on the hot water faucet nearest the dishwasher and let it run into a glass in the sink. Place a candy thermometer in the glass and check the temperature once it has stopped rising.",
+      "content_region_ids": [
+        "samsung_dish_washer_6918977 a_145",
+        "samsung_dish_washer_6918977 a_146"
+      ],
+      "context_region_ids": [
+        "samsung_dish_washer_6918977 a_165"
+      ],
+      "image_filename": "images/samsung_dish_washer_6918977 a/images/6.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_dish_washer_6918977 a_145",
+          "shape": {
+            "x": 75.62000000000006,
+            "y": 211.13,
+            "width": 507.2500000000003,
+            "height": 105.71000000000038
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_146",
+          "shape": {
+            "x": 75.62000000000006,
+            "y": 329.2500000000004,
+            "width": 501.19000000000034,
+            "height": 131.5799999999998
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_165",
+          "shape": {
+            "x": 76.62000000000006,
+            "y": 152.44000000000005,
+            "width": 166.64000000000001,
+            "height": 43.379999999999995
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_dish_washer_6918977 a_145",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 183
+        },
+        {
+          "region_id": "samsung_dish_washer_6918977 a_146",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 226
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.03244760150837499,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "40238ce1-9807-584d-be85-43fee70127a4",
+      "manual_id": "samsung_dish_washer_6918977 a",
+      "page_id": "samsung_dish_washer_6918977 a_00012",
+      "chunk_type": "text",
+      "text": "• High Temp or Sanitize has been selected and the cycle is extended to heat water. • Check to see that the incoming water temperature is 120° F (49° C).\n• Run dishes being held in the dishwasher through a Rinse Only cycle. • Many dishwashers have a “new” smell when first installed. This will dissipate with use. • Dishwasher may not be draining properly. (See “Dishwasher Will Not Drain” section.) • For a strong odor, place baking soda in both sides of the detergent cup.",
+      "content_region_ids": [
+        "samsung_dish_washer_6918977 a_376",
+        "samsung_dish_washer_6918977 a_375"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_dish_washer_6918977 a/images/12.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_dish_washer_6918977 a_376",
+          "shape": {
+            "x": 397.90000000000003,
+            "y": 1011.56,
+            "width": 707.0999999999999,
+            "height": 49.20000000000027
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_375",
+          "shape": {
+            "x": 397.90000000000003,
+            "y": 1086.7300000000002,
+            "width": 736.1599999999994,
+            "height": 197.6199999999999
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_dish_washer_6918977 a_376",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 152
+        },
+        {
+          "region_id": "samsung_dish_washer_6918977 a_375",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 320
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.029850746268656716,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "92507c75-0062-5aef-9cdb-9bd58336f31d",
+      "manual_id": "samsung_dish_washer_6918977 a",
+      "page_id": "samsung_dish_washer_6918977 a_00013",
+      "chunk_type": "text",
+      "text": "• The lock indicator flashes and the countdown display (selected models) flashes an “L” if a pad is pressed while the control lock is enabled.\n• Select Extra Rinse (select models). • Check water temperature. Incoming water should be 120° F (49° C). • Always use a rinse aid. • Confirm that the cloudiness is removable by soaking the item in white vinegar for approximately 5 minutes. If removed, the problem is due to hard water. Adjust detergent amount being used to match water hardness (pg. 6).",
+      "content_region_ids": [
+        "samsung_dish_washer_6918977 a_395",
+        "samsung_dish_washer_6918977 a_397"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_dish_washer_6918977 a/images/13.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_dish_washer_6918977 a_395",
+          "shape": {
+            "x": 395.8400000000004,
+            "y": 273.84,
+            "width": 736.1599999999996,
+            "height": 224.82000000000028
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_397",
+          "shape": {
+            "x": 395.8400000000004,
+            "y": 515.2800000000001,
+            "width": 736.2499999999995,
+            "height": 317.95000000000016
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_dish_washer_6918977 a_395",
+          "field": "ocr_normalized",
+          "start": 445,
+          "end": 587
+        },
+        {
+          "region_id": "samsung_dish_washer_6918977 a_397",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 354
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.029628548493030725,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S3"
+    },
+    {
+      "chunk_id": "186804a2-70ee-5513-9810-d9dd7317a935",
+      "manual_id": "samsung_dish_washer_6918977 a",
+      "page_id": "samsung_dish_washer_6918977 a_00012",
+      "chunk_type": "table",
+      "text": "TROUBLESHOOTING\nFirst row (header unconfirmed): Column 1: PROBLEM | Column 2: SOLUTION\nColumn 1: Cycle takes too long (Heating light stays on) | Column 2: HighTemp orSanitize hasbeen selected and the cycle is extendedto heat water. Check to see that the incoming water temperature is 120°F (49°C)",
+      "content_region_ids": [
+        "samsung_dish_washer_6918977 a_392"
+      ],
+      "context_region_ids": [
+        "samsung_dish_washer_6918977 a_372"
+      ],
+      "image_filename": "images/samsung_dish_washer_6918977 a/images/12.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_dish_washer_6918977 a_392",
+          "shape": {
+            "x": 60.765586853027344,
+            "y": 163.26560783386233,
+            "width": 1095.7500000000002,
+            "height": 1305.0
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_372",
+          "shape": {
+            "x": 170.99000000000015,
+            "y": 29.130000000000003,
+            "width": 535.2900000000004,
+            "height": 86.75999999999996
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_382",
+          "shape": {
+            "x": 409.9000000000002,
+            "y": 178.48000000000002,
+            "width": 109.99999999999977,
+            "height": 26.51000000000002
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_385",
+          "shape": {
+            "x": 87.06000000000002,
+            "y": 1009.22,
+            "width": 292.6000000000002,
+            "height": 52.91000000000008
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_390",
+          "shape": {
+            "x": 86.06000000000003,
+            "y": 178.48000000000002,
+            "width": 107.27999999999997,
+            "height": 26.51000000000002
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "score": 0.0267226792695023,
+      "table_rows": [
+        6
+      ],
+      "table_cells": [
+        {
+          "row": 6,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S4"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 1.6243869000172708,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 65,
+    "utilization_percent": 83
+  }
+}

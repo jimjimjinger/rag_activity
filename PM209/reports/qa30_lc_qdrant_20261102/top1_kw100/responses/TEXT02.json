@@ -1,0 +1,116 @@
+{
+  "case_id": "TEXT02",
+  "manual_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9",
+  "question": "모니터를 설치하기 전에 무엇을 해야 하나요?",
+  "english_query": "What should I do before installing the monitor?",
+  "keyword_percent": 100,
+  "variant": "top1_kw100",
+  "top_k": 1,
+  "retrieved_chunk_ids": [
+    "fa76f670-32d3-5b89-957b-095f7629b9e4"
+  ],
+  "sources": [
+    {
+      "chunk_id": "fa76f670-32d3-5b89-957b-095f7629b9e4",
+      "manual_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9",
+      "page_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00019",
+      "chunk_type": "table",
+      "text": "First row (header unconfirmed): Column 1: Have you installedthedisplay driver? Have you installed the display driver? | Column 2: Have you installedthedisplay driver? Have you installed the display driver?\nColumn 1: Do you see an \"Unrecognized monitor, | Column 2: Plug&Play (VESADDC) monitor found\" message?",
+      "content_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_81"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9/images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00019.jpg",
+      "source_shapes": [
+        {
+          "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_81",
+          "shape": {
+            "x": 81.50000000000001,
+            "y": 74.61249542236328,
+            "width": 677.0000000000001,
+            "height": 332.00000000000006
+          }
+        },
+        {
+          "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_76",
+          "shape": {
+            "x": 110.15740203857426,
+            "y": 89.03198242187499,
+            "width": 394.7111282348632,
+            "height": 28.60800170898436
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "html_parser_repaired_review_required",
+        "table_header_unmarked_review_required"
+      ],
+      "score": 13.133517265319824,
+      "table_rows": [
+        2
+      ],
+      "table_cells": [
+        {
+          "row": 2,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S1"
+    }
+  ],
+  "excluded_sources": [],
+  "created_at": "2026-11-02T05:00:37.401572+00:00",
+  "status": "insufficient_evidence",
+  "answer": "검색된 매뉴얼 근거에서 질문에 대한 답을 확인하지 못했습니다.",
+  "source_ids": [],
+  "insufficient_evidence": true,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 56,
+        "prompt_eval_count": 443,
+        "total_duration": 828533300,
+        "load_duration": 5231200,
+        "attempt": 1,
+        "prompt_token_upper_bound": 2589
+      }
+    ],
+    "elapsed_seconds": 0.8355198999925051,
+    "backend": "LangChain ChatPromptTemplate | ChatOllama"
+  },
+  "citations": [],
+  "cited_figures": [],
+  "elapsed_seconds": 0.8355427000205964,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 67,
+    "utilization_percent": 83
+  }
+}

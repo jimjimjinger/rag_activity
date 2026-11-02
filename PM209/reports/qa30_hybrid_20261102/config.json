@@ -1,0 +1,57 @@
+{
+  "questions_sha256": "46ac65f02b6aa6c04cd622ca1fade73ef8ea97ec6fcff9d4095081d6a9df2da6",
+  "baseline_results_sha256": "12d73fe6860f304f02f885e8fa5399c9fba87bc1b6bee441b9d42af93a2fcddb",
+  "index_identity": {
+    "chunks_sha256": "9c2d4ec474e9f2e0a2b1ede9e1ef6edc8311f1d2be843b1f1bd107567989acc5",
+    "model_identity": {
+      "model": "qwen3-embedding:0.6b",
+      "digest": "ac6da0dfba84a81fdbfbaf330198c33cd77c4cdfc53e8bc50eb581914a15621d",
+      "options": {
+        "num_ctx": 2048,
+        "num_batch": 128,
+        "num_thread": 4,
+        "num_gpu": 99
+      },
+      "query_instruction": "Given a question about a product manual, retrieve passages that answer the question.",
+      "truncate": false
+    }
+  },
+  "answering_code_sha256": "c19f7a3d098cbdc5689ec98c59f7de157fd8253b287db099c974ac6457ef771f",
+  "hybrid_code_sha256": "59515ef72ffce78f3a30b2d50f090264d70c2e07b2f7738a8796e6531f1cbad2",
+  "runner_code_sha256": "8b9c962497e5cc23d047ac8934a38ceea0dfcae81a43b3638cf9d2526604d51a",
+  "translation_prompt_sha256": "3ae68161f5d9d7a5b64752df37a1ba72e9977b2663861b52571a7186e3a31a0c",
+  "translation_options": {
+    "num_ctx": 4096,
+    "num_predict": 256,
+    "num_batch": 128,
+    "num_thread": 4,
+    "num_gpu": 99,
+    "temperature": 0
+  },
+  "answer_options": {
+    "num_ctx": 8192,
+    "num_predict": 1024,
+    "num_batch": 128,
+    "num_thread": 4,
+    "num_gpu": 99,
+    "temperature": 0
+  },
+  "answer_prompt_version": "pm209-grounded-ko-v1",
+  "answer_prompt_sha256": "c91519edde59dce486e00674416af01f0dc00ab413da31a60cd324fe0f2cecb2",
+  "answer_model": "qwen3.5:4b",
+  "translation_model": "qwen3.5:4b",
+  "model_digests": {
+    "qwen3-embedding:0.6b": "ac6da0dfba84a81fdbfbaf330198c33cd77c4cdfc53e8bc50eb581914a15621d",
+    "qwen3.5:4b": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04"
+  },
+  "candidate_k": 20,
+  "final_k": 5,
+  "dense_weight": 0.5,
+  "keyword_weight": 0.5,
+  "rrf_k": 60,
+  "bm25_tokenizer": "porter unicode61",
+  "bm25_statistics_scope": "all_chunks",
+  "tie_break": "dense_rank_then_keyword_rank_then_chunk_id",
+  "manual_filter": "same as baseline",
+  "reference_input": false
+}

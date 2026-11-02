@@ -1,0 +1,140 @@
+{
+  "case_id": "FIG01",
+  "manual_id": "og_en_wmsucb",
+  "question": "전동 드릴을 사용하기 전에 무엇에 주의해야 하나요?",
+  "english_query": "What should I pay attention to before using the cordless drill?",
+  "keyword_percent": 25,
+  "variant": "top1_kw025",
+  "top_k": 1,
+  "retrieved_chunk_ids": [
+    "ba169ff7-8963-51df-ae03-f24b8e964454"
+  ],
+  "sources": [
+    {
+      "chunk_id": "ba169ff7-8963-51df-ae03-f24b8e964454",
+      "manual_id": "og_en_wmsucb",
+      "page_id": "og_en_wmsucb_00004",
+      "chunk_type": "text",
+      "text": "WARNING: Use eye protection and be sure to observe all safety precautions while using a drill or cutting tool.",
+      "content_region_ids": [
+        "og_en_wmsucb_379"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00004.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_379",
+          "shape": {
+            "x": 326.04000854492205,
+            "y": 228.3548889160156,
+            "width": 428.1311950683592,
+            "height": 67.26736450195315
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_379",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 110
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.03030072325846974,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "excluded_sources": [],
+  "created_at": "2026-11-02T04:59:18.716556+00:00",
+  "status": "answered",
+  "answer": "전동 드릴을 사용하기 전에 안경과 같은 보호 장비 착용에 주의해야 하며, 모든 안전 수칙을 준수해야 합니다.",
+  "source_ids": [
+    "S1"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 63,
+        "prompt_eval_count": 381,
+        "total_duration": 893533900,
+        "load_duration": 6544000,
+        "attempt": 1,
+        "prompt_token_upper_bound": 2345
+      }
+    ],
+    "elapsed_seconds": 0.9020277999807149,
+    "backend": "LangChain ChatPromptTemplate | ChatOllama"
+  },
+  "citations": [
+    {
+      "chunk_id": "ba169ff7-8963-51df-ae03-f24b8e964454",
+      "manual_id": "og_en_wmsucb",
+      "page_id": "og_en_wmsucb_00004",
+      "chunk_type": "text",
+      "text": "WARNING: Use eye protection and be sure to observe all safety precautions while using a drill or cutting tool.",
+      "content_region_ids": [
+        "og_en_wmsucb_379"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00004.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_379",
+          "shape": {
+            "x": 326.04000854492205,
+            "y": 228.3548889160156,
+            "width": 428.1311950683592,
+            "height": 67.26736450195315
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_379",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 110
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.03030072325846974,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 0.9020944999938365,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3832,
+    "temperature_c": 71,
+    "utilization_percent": 86
+  }
+}

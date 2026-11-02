@@ -1,0 +1,162 @@
+{
+  "case_id": "TEXT09",
+  "manual_id": "Watch_Apple_User_Guide",
+  "question": "Siri에게 시간을 물으려면 어떻게 말해야 하나요?",
+  "english_query": "How do I ask Siri for the time?",
+  "keyword_percent": 0,
+  "dense_percent": 100,
+  "top_k": 1,
+  "retrieved_chunk_ids": [
+    "91cf3488-feaa-55a5-befd-f9068dfb4f6c"
+  ],
+  "sources": [
+    {
+      "chunk_id": "91cf3488-feaa-55a5-befd-f9068dfb4f6c",
+      "manual_id": "Watch_Apple_User_Guide",
+      "page_id": "Watch_Apple_User_Guide_00058",
+      "chunk_type": "text",
+      "text": "• Use Siri: Raise your wrist and say “What time is it?”",
+      "content_region_ids": [
+        "Watch_Apple_User_Guide_2253"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00063.jpg",
+      "source_shapes": [
+        {
+          "id": "Watch_Apple_User_Guide_2253",
+          "shape": {
+            "x": 314.00000000000006,
+            "y": 557.8819580078124,
+            "width": 476.68298339843767,
+            "height": 33.881835937500114
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "Watch_Apple_User_Guide_2253",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 55
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.8862659688635066,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "excluded_sources": [],
+  "top5_response_file": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_hybrid_20261102\\B_english_dense\\results.json",
+  "status": "answered",
+  "variant": "keyword_000",
+  "created_at": "2026-11-02T00:55:43.323394+00:00",
+  "answer": "시리에게 시간을 물어보기 위해 팔을 들어 올리고 \"지금 몇 시입니까?\"라고 말씀하셔야 합니다.",
+  "source_ids": [
+    "S1"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 59,
+        "prompt_eval_count": 375,
+        "total_duration": 841478500,
+        "load_duration": 6006500,
+        "attempt": 1,
+        "prompt_token_upper_bound": 2290
+      }
+    ],
+    "elapsed_seconds": 0.8968288000032771,
+    "ollama_model": {
+      "name": "qwen3.5:4b",
+      "model": "qwen3.5:4b",
+      "size": 3214409726,
+      "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "4.2B",
+        "quantization_level": "Q4_K_M"
+      },
+      "expires_at": "2026-11-02T09:56:44.2194307+09:00",
+      "size_vram": 3214409726,
+      "context_length": 8192,
+      "runner": "llamacpp"
+    },
+    "observation_error": null
+  },
+  "citations": [
+    {
+      "chunk_id": "91cf3488-feaa-55a5-befd-f9068dfb4f6c",
+      "manual_id": "Watch_Apple_User_Guide",
+      "page_id": "Watch_Apple_User_Guide_00058",
+      "chunk_type": "text",
+      "text": "• Use Siri: Raise your wrist and say “What time is it?”",
+      "content_region_ids": [
+        "Watch_Apple_User_Guide_2253"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00063.jpg",
+      "source_shapes": [
+        {
+          "id": "Watch_Apple_User_Guide_2253",
+          "shape": {
+            "x": 314.00000000000006,
+            "y": 557.8819580078124,
+            "width": 476.68298339843767,
+            "height": 33.881835937500114
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "Watch_Apple_User_Guide_2253",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 55
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.8862659688635066,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 0.8969457999919541,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3832,
+    "temperature_c": 62,
+    "utilization_percent": 81
+  }
+}

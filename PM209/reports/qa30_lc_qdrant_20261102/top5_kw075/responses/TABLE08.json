@@ -1,0 +1,560 @@
+{
+  "case_id": "TABLE08",
+  "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+  "question": "충전 수준은 어떻게 확인하나요?",
+  "english_query": "How do I check the charge level?",
+  "keyword_percent": 75,
+  "variant": "top5_kw075",
+  "top_k": 5,
+  "retrieved_chunk_ids": [
+    "eca1aed9-43f3-547b-83f7-637664c2a4d3",
+    "3d4b8cc1-ec92-578f-bfa3-57f474353331",
+    "01940c09-9220-5ee1-b9bc-38d05a164b89",
+    "d874a6b5-ebc4-5639-9dd7-d13f8041682d",
+    "c6a67c35-34d8-5056-9f85-9554adbf69de"
+  ],
+  "sources": [
+    {
+      "chunk_id": "eca1aed9-43f3-547b-83f7-637664c2a4d3",
+      "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+      "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00007",
+      "chunk_type": "table",
+      "text": "First row (header unconfirmed): Column 1: Charge level | Column 2: Indicator color\nColumn 1: Charge level | Column 2: Indicator color\nColumn 1: More than 80% | Column 2: Blue\nColumn 1: 30-80% | Column 2: Purple\nColumn 1: Less than 30% | Column 2: Red",
+      "content_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_55"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/7.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_55",
+          "shape": {
+            "x": 31.87,
+            "y": 33.14,
+            "width": 187.6299999999999,
+            "height": 118.24
+          }
+        },
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_49",
+          "shape": {
+            "x": 140.04,
+            "y": 81.14999999999998,
+            "width": 22.039999999999935,
+            "height": 15.620000000000033
+          }
+        },
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_51",
+          "shape": {
+            "x": 140.04,
+            "y": 37.56,
+            "width": 44.569999999999936,
+            "height": 30.629999999999995
+          }
+        },
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_57",
+          "shape": {
+            "x": 139.52,
+            "y": 132.93,
+            "width": 21.879999999999995,
+            "height": 12.990000000000009
+          }
+        },
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_58",
+          "shape": {
+            "x": 42.519999999999996,
+            "y": 45.05999999999998,
+            "width": 61.59999999999998,
+            "height": 15.620000000000019
+          }
+        },
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_59",
+          "shape": {
+            "x": 140.04,
+            "y": 109.73,
+            "width": 32.47999999999999,
+            "height": 15.629999999999995
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "score": 0.031499958769687475,
+      "table_rows": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "table_cells": [
+        {
+          "row": 0,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "3d4b8cc1-ec92-578f-bfa3-57f474353331",
+      "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+      "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00006",
+      "chunk_type": "text",
+      "text": "Measuring the battery charge\nPress and hold the [Talk] and [Volume (-)] buttons simultaneously. The status indicator flashes 4 times in different colors, according to the charge left in the battery.",
+      "content_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_46"
+      ],
+      "context_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_45"
+      ],
+      "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/6.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_46",
+          "shape": {
+            "x": 238.1100000000001,
+            "y": 73.57,
+            "width": 179.90000000000006,
+            "height": 75.62999999999997
+          }
+        },
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_45",
+          "shape": {
+            "x": 238.1100000000001,
+            "y": 31.580000000000005,
+            "width": 146.34999999999994,
+            "height": 38.820000000000014
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_46",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 169
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.029697900665642603,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "01940c09-9220-5ee1-b9bc-38d05a164b89",
+      "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+      "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00003",
+      "chunk_type": "text",
+      "text": "• Check the product box for the Level Box, charger (USB power adapter, USB cable), 3.5 mm audio cable, and user manual. The items supplied with the device and available accessories may vary by region.\n• The status indicator is visible only when it is turned on.",
+      "content_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_26",
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_27"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/3.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_26",
+          "shape": {
+            "x": 65.99999999999997,
+            "y": 170.06250000000003,
+            "width": 339.55555555555543,
+            "height": 58.66666666666663
+          }
+        },
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_27",
+          "shape": {
+            "x": 67.77777777777777,
+            "y": 232.7291666666667,
+            "width": 280.88888888888886,
+            "height": 15.555555555555486
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_26",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 200
+        },
+        {
+          "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_27",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 60
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.029549549549549553,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S3"
+    },
+    {
+      "chunk_id": "d874a6b5-ebc4-5639-9dd7-d13f8041682d",
+      "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+      "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00005",
+      "chunk_type": "text",
+      "text": "• The status indicator turns red while the device is being charged. The status indicator turns blue when charging is complete.",
+      "content_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_39"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/5.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_39",
+          "shape": {
+            "x": 34.01999999999999,
+            "y": 32.51999999999998,
+            "width": 179.41999999999993,
+            "height": 60.62999999999995
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_39",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 126
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.028169014084507043,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S4"
+    },
+    {
+      "chunk_id": "c6a67c35-34d8-5056-9f85-9554adbf69de",
+      "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+      "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00013",
+      "chunk_type": "figure",
+      "text": "A cropped page from an English product manual titled 'Using the Level Box,' showing a diagram of a Level Box connected via Bluetooth or NFC to a smartphone. The illustration depicts audio playback functionality and voice recognition activation using the [Talk] button.",
+      "content_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_95"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/13.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_95",
+          "shape": {
+            "x": 36.129725406044386,
+            "y": 29.178504970617457,
+            "width": 379.66315789473674,
+            "height": 169.4035087719298
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_95",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 268
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": 0.024880382775119614,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S5"
+    }
+  ],
+  "excluded_sources": [],
+  "created_at": "2026-11-02T05:04:20.581400+00:00",
+  "status": "answered",
+  "answer": "충전 수준을 확인하려면 [Talk] 버튼과 [Volume (-)] 버튼을 동시에 길게 누른 후, 상태 표시등이 4 번의 다른 색상으로 깜빡이는 것을 확인하세요. 충전 잔량이 80% 이상일 때는 파란색, 30~80% 일 때 보라색, 30% 미만일 때 빨간색으로 표시됩니다.",
+  "source_ids": [
+    "S1",
+    "S2"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 115,
+        "prompt_eval_count": 731,
+        "total_duration": 1869995800,
+        "load_duration": 10117100,
+        "attempt": 1,
+        "prompt_token_upper_bound": 3723
+      }
+    ],
+    "elapsed_seconds": 1.8786901999847032,
+    "backend": "LangChain ChatPromptTemplate | ChatOllama"
+  },
+  "citations": [
+    {
+      "chunk_id": "eca1aed9-43f3-547b-83f7-637664c2a4d3",
+      "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+      "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00007",
+      "chunk_type": "table",
+      "text": "First row (header unconfirmed): Column 1: Charge level | Column 2: Indicator color\nColumn 1: Charge level | Column 2: Indicator color\nColumn 1: More than 80% | Column 2: Blue\nColumn 1: 30-80% | Column 2: Purple\nColumn 1: Less than 30% | Column 2: Red",
+      "content_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_55"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/7.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_55",
+          "shape": {
+            "x": 31.87,
+            "y": 33.14,
+            "width": 187.6299999999999,
+            "height": 118.24
+          }
+        },
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_49",
+          "shape": {
+            "x": 140.04,
+            "y": 81.14999999999998,
+            "width": 22.039999999999935,
+            "height": 15.620000000000033
+          }
+        },
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_51",
+          "shape": {
+            "x": 140.04,
+            "y": 37.56,
+            "width": 44.569999999999936,
+            "height": 30.629999999999995
+          }
+        },
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_57",
+          "shape": {
+            "x": 139.52,
+            "y": 132.93,
+            "width": 21.879999999999995,
+            "height": 12.990000000000009
+          }
+        },
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_58",
+          "shape": {
+            "x": 42.519999999999996,
+            "y": 45.05999999999998,
+            "width": 61.59999999999998,
+            "height": 15.620000000000019
+          }
+        },
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_59",
+          "shape": {
+            "x": 140.04,
+            "y": 109.73,
+            "width": 32.47999999999999,
+            "height": 15.629999999999995
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "score": 0.031499958769687475,
+      "table_rows": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "table_cells": [
+        {
+          "row": 0,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "3d4b8cc1-ec92-578f-bfa3-57f474353331",
+      "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+      "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00006",
+      "chunk_type": "text",
+      "text": "Measuring the battery charge\nPress and hold the [Talk] and [Volume (-)] buttons simultaneously. The status indicator flashes 4 times in different colors, according to the charge left in the battery.",
+      "content_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_46"
+      ],
+      "context_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_45"
+      ],
+      "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/6.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_46",
+          "shape": {
+            "x": 238.1100000000001,
+            "y": 73.57,
+            "width": 179.90000000000006,
+            "height": 75.62999999999997
+          }
+        },
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_45",
+          "shape": {
+            "x": 238.1100000000001,
+            "y": 31.580000000000005,
+            "width": 146.34999999999994,
+            "height": 38.820000000000014
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_46",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 169
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.029697900665642603,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 1.8788827999960631,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 65,
+    "utilization_percent": 84
+  }
+}

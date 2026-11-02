@@ -1,0 +1,60 @@
+{
+  "note": "Rank of the specific answer-bearing chunk; only top 5 is supplied. null = absent from that branch top 20.",
+  "cases": [
+    {
+      "case_id": "TABLE02",
+      "content": "Hand Strap 등 여섯 구성품",
+      "rank_by_weight": {
+        "0": 2,
+        "50": 6,
+        "100": null,
+        "25": 6,
+        "75": 21
+      }
+    },
+    {
+      "case_id": "TABLE04",
+      "content": "SamsungPortableSSD.exe 조건의 PSSD_Cleanup.bat 행",
+      "rank_by_weight": {
+        "0": 5,
+        "50": 7,
+        "100": 14,
+        "25": 5,
+        "75": 9
+      }
+    },
+    {
+      "case_id": "TABLE03",
+      "content": "Headset port",
+      "rank_by_weight": {
+        "0": 16,
+        "50": 8,
+        "100": 3,
+        "25": 13,
+        "75": 4
+      }
+    },
+    {
+      "case_id": "TEXT06",
+      "content": "1.5GB 여유 공간",
+      "rank_by_weight": {
+        "0": 12,
+        "50": 1,
+        "100": 1,
+        "25": 1,
+        "75": 1
+      }
+    },
+    {
+      "case_id": "TABLE09",
+      "content": "R 아이콘과 Roaming 대응",
+      "rank_by_weight": {
+        "0": 4,
+        "50": 3,
+        "100": 4,
+        "25": 3,
+        "75": 3
+      }
+    }
+  ]
+}

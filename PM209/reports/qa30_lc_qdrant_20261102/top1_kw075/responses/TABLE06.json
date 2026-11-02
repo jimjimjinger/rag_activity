@@ -1,0 +1,258 @@
+{
+  "case_id": "TABLE06",
+  "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+  "question": "리모컨으로 스피커를 제어할 수 없으면 어떻게 해야 하나요?",
+  "english_query": "What should I do if I cannot control the speaker with the remote?",
+  "keyword_percent": 75,
+  "variant": "top1_kw075",
+  "top_k": 1,
+  "retrieved_chunk_ids": [
+    "b41f3257-c602-58e6-8790-6d4aea65e51a"
+  ],
+  "sources": [
+    {
+      "chunk_id": "b41f3257-c602-58e6-8790-6d4aea65e51a",
+      "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+      "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00012",
+      "chunk_type": "table",
+      "text": "English\nFirst row (header unconfirmed): Column 1: Problem | Column 2: What you can do\nColumn 1: Remote does not control the speakers | Column 2: •Check the battery to be sure it is installed correctly. Refer to the image on page 8. ·Refer to“Tips on using the remote control”on page7.\nColumn 1: PC monitor or TV color patten looks unnatural | Column 2: Turn off the monitor or TV for 15to 30 minutes,then turn it on again. •Move the speakers away from the monitor or TV.",
+      "content_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_125"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_113"
+      ],
+      "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00013.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_125",
+          "shape": {
+            "x": 56.24999999999998,
+            "y": 144.21093750000003,
+            "width": 1111.5000000000002,
+            "height": 476.9999999999999
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_113",
+          "shape": {
+            "x": 75.04499816894528,
+            "y": 30.511999130249006,
+            "width": 55.00801086425781,
+            "height": 19.087999343872095
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_114",
+          "shape": {
+            "x": 73.30000305175778,
+            "y": 157.0259857177733,
+            "width": 71.96398925781253,
+            "height": 21.473999023437386
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_115",
+          "shape": {
+            "x": 253.44401550292952,
+            "y": 157.0259857177733,
+            "width": 143.6939849853518,
+            "height": 21.473999023437386
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_124",
+          "shape": {
+            "x": 70.99999999999997,
+            "y": 493.640625,
+            "width": 167.99999999999983,
+            "height": 42.999999999999886
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "score": 0.031746031746031744,
+      "table_rows": [
+        3,
+        4
+      ],
+      "table_cells": [
+        {
+          "row": 3,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 4,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S1"
+    }
+  ],
+  "excluded_sources": [],
+  "created_at": "2026-11-02T05:00:20.143798+00:00",
+  "status": "answered",
+  "answer": "리모컨으로 스피커를 제어할 수 없는 경우, 배터리가 올바르게 설치되어 있는지 확인하고 리모컨 사용 팁을 참조하세요. (페이지 7 및 8 참조)",
+  "source_ids": [
+    "S1"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 70,
+        "prompt_eval_count": 494,
+        "total_duration": 1027970600,
+        "load_duration": 7642600,
+        "attempt": 1,
+        "prompt_token_upper_bound": 2740
+      }
+    ],
+    "elapsed_seconds": 1.0357931999897119,
+    "backend": "LangChain ChatPromptTemplate | ChatOllama"
+  },
+  "citations": [
+    {
+      "chunk_id": "b41f3257-c602-58e6-8790-6d4aea65e51a",
+      "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+      "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00012",
+      "chunk_type": "table",
+      "text": "English\nFirst row (header unconfirmed): Column 1: Problem | Column 2: What you can do\nColumn 1: Remote does not control the speakers | Column 2: •Check the battery to be sure it is installed correctly. Refer to the image on page 8. ·Refer to“Tips on using the remote control”on page7.\nColumn 1: PC monitor or TV color patten looks unnatural | Column 2: Turn off the monitor or TV for 15to 30 minutes,then turn it on again. •Move the speakers away from the monitor or TV.",
+      "content_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_125"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_113"
+      ],
+      "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00013.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_125",
+          "shape": {
+            "x": 56.24999999999998,
+            "y": 144.21093750000003,
+            "width": 1111.5000000000002,
+            "height": 476.9999999999999
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_113",
+          "shape": {
+            "x": 75.04499816894528,
+            "y": 30.511999130249006,
+            "width": 55.00801086425781,
+            "height": 19.087999343872095
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_114",
+          "shape": {
+            "x": 73.30000305175778,
+            "y": 157.0259857177733,
+            "width": 71.96398925781253,
+            "height": 21.473999023437386
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_115",
+          "shape": {
+            "x": 253.44401550292952,
+            "y": 157.0259857177733,
+            "width": 143.6939849853518,
+            "height": 21.473999023437386
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_124",
+          "shape": {
+            "x": 70.99999999999997,
+            "y": 493.640625,
+            "width": 167.99999999999983,
+            "height": 42.999999999999886
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "score": 0.031746031746031744,
+      "table_rows": [
+        3,
+        4
+      ],
+      "table_cells": [
+        {
+          "row": 3,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 4,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S1"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 1.03586639999412,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 67,
+    "utilization_percent": 84
+  }
+}

@@ -1,0 +1,503 @@
+{
+  "case_id": "TEXT04",
+  "manual_id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728",
+  "question": "호스트 서버를 스토리지 어레이에 연결하면 무엇을 할 수 있나요?",
+  "english_query": "What can be done by connecting the host server to the storage array?",
+  "keyword_percent": 25,
+  "dense_percent": 75,
+  "retrieved_chunk_ids": [
+    "19ac318b-6465-520a-ba65-88f7fdeadd99",
+    "ef168c85-79df-5c4f-a884-4c1717a99006",
+    "e492453f-afc3-546e-8dba-87ba19bcf84e",
+    "6fefbef5-4472-545b-b4fb-1a0d71da3339",
+    "70d77393-876b-5f95-8d9d-aa24541c939e"
+  ],
+  "sources": [
+    {
+      "chunk_id": "19ac318b-6465-520a-ba65-88f7fdeadd99",
+      "manual_id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728",
+      "page_id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_00003",
+      "chunk_type": "text",
+      "text": "Introduction to Storage Arrays\nOne or more host servers attached to the storage array can access the data on the storage array. You can also establish multiple physical paths between the hosts and the storage array so that loss of any single path (for example, through failure of a host server port) does not result in loss of access to data on the storage array.\nThe storage array is managed by MDSM running on a:",
+      "content_region_ids": [
+        "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_24",
+        "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_25"
+      ],
+      "context_region_ids": [
+        "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_22"
+      ],
+      "image_filename": "images/dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728/images/dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_00005.jpg",
+      "source_shapes": [
+        {
+          "id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_24",
+          "shape": {
+            "x": 180.0021820068358,
+            "y": 1206.3383789062498,
+            "width": 863.9456939697267,
+            "height": 91.67407226562523
+          }
+        },
+        {
+          "id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_25",
+          "shape": {
+            "x": 180.00231933593736,
+            "y": 1322.33837890625,
+            "width": 439.2720336914065,
+            "height": 19.674072265625227
+          }
+        },
+        {
+          "id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_22",
+          "shape": {
+            "x": 180.00607299804676,
+            "y": 1056.868408203124,
+            "width": 456.5119934082031,
+            "height": 35.583984375000455
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_24",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 332
+        },
+        {
+          "region_id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_25",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 50
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.016327340031729243,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "ef168c85-79df-5c4f-a884-4c1717a99006",
+      "manual_id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728",
+      "page_id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_00006",
+      "chunk_type": "text",
+      "text": "Connecting The Storage Array\nThe storage array is connected to a host using two hot-swappable RAID controller modules. The RAID controller modules are identified as RAID controller module 0 and RAID controller module 1. See the Owners Manual to know more about the functions of the different components of the storage controller.\nThe functions of the ports on each controller are described below:\n• 16 gbps Fibre Channel Host Ports (4) — Allows you to connect host servers to the storage array.",
+      "content_region_ids": [
+        "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_73",
+        "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_74",
+        "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_75"
+      ],
+      "context_region_ids": [
+        "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_72"
+      ],
+      "image_filename": "images/dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728/images/dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_00008.jpg",
+      "source_shapes": [
+        {
+          "id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_73",
+          "shape": {
+            "x": 179.99824523925776,
+            "y": 1010.205993652344,
+            "width": 862.362106323242,
+            "height": 67.67401123046852
+          }
+        },
+        {
+          "id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_74",
+          "shape": {
+            "x": 179.99824523925776,
+            "y": 1102.2059326171875,
+            "width": 546.5519866943359,
+            "height": 19.674072265624773
+          }
+        },
+        {
+          "id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_75",
+          "shape": {
+            "x": 179.99824523925776,
+            "y": 1142.2059326171875,
+            "width": 810.6481170654297,
+            "height": 19.674072265625227
+          }
+        },
+        {
+          "id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_72",
+          "shape": {
+            "x": 179.98623657226562,
+            "y": 952.7359619140627,
+            "width": 452.6399841308595,
+            "height": 35.58398437499966
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_73",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 300
+        },
+        {
+          "region_id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_74",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 66
+        },
+        {
+          "region_id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_75",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 97
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.015942928039702233,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "e492453f-afc3-546e-8dba-87ba19bcf84e",
+      "manual_id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728",
+      "page_id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_00006",
+      "chunk_type": "text",
+      "text": "Connecting The Storage Array\n• 12 gpbs SAS Host Ports (2) — Allows you to connect host servers to the storage array.\n• 1 gbps Ethernet Management (MGMT) Port (1) — Management port allows for out of band management of storage array.\n• Reserved Ethernet Port (1) — Reserved.\n• SAS Expansion Ports (2) — Allows you to connect the storage array to optional PowerVault MD1200 series expansion enclosures for additional storage capacity.",
+      "content_region_ids": [
+        "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_76",
+        "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_77",
+        "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_78",
+        "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_79"
+      ],
+      "context_region_ids": [
+        "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_72"
+      ],
+      "image_filename": "images/dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728/images/dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_00008.jpg",
+      "source_shapes": [
+        {
+          "id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_76",
+          "shape": {
+            "x": 179.99818420410148,
+            "y": 1170.2059326171868,
+            "width": 725.868087768555,
+            "height": 19.674072265625682
+          }
+        },
+        {
+          "id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_77",
+          "shape": {
+            "x": 179.99818420410148,
+            "y": 1198.205932617187,
+            "width": 761.2559661865234,
+            "height": 39.67407226562568
+          }
+        },
+        {
+          "id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_78",
+          "shape": {
+            "x": 179.99815368652347,
+            "y": 1246.2059326171877,
+            "width": 346.3200225830078,
+            "height": 19.674072265624318
+          }
+        },
+        {
+          "id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_79",
+          "shape": {
+            "x": 179.99818420410148,
+            "y": 1274.2059326171875,
+            "width": 860.9938812255858,
+            "height": 59.674072265625
+          }
+        },
+        {
+          "id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_72",
+          "shape": {
+            "x": 179.98623657226562,
+            "y": 952.7359619140627,
+            "width": 452.6399841308595,
+            "height": 35.58398437499966
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_76",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 87
+        },
+        {
+          "region_id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_77",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 114
+        },
+        {
+          "region_id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_78",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 40
+        },
+        {
+          "region_id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_79",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 158
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.015873015873015872,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S3"
+    },
+    {
+      "chunk_id": "6fefbef5-4472-545b-b4fb-1a0d71da3339",
+      "manual_id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728",
+      "page_id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_00004",
+      "chunk_type": "text",
+      "text": "• Host server — On a host server system, MDSM and the storage array communicate management requests and event information using in-band or out-of band-connections.\n• Management station — On a management station, MDSM communicates with the storage array either through an Ethernet connection to the storage array management port or through an Ethernet connection to a host server.",
+      "content_region_ids": [
+        "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_26",
+        "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_27"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728/images/dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_00006.jpg",
+      "source_shapes": [
+        {
+          "id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_26",
+          "shape": {
+            "x": 179.99999999999997,
+            "y": 142.6060028076172,
+            "width": 819.7019653320311,
+            "height": 39.67399597167963
+          }
+        },
+        {
+          "id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_27",
+          "shape": {
+            "x": 179.99999999999997,
+            "y": 190.60600280761722,
+            "width": 863.0820312499998,
+            "height": 79.67399597167955
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_26",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 163
+        },
+        {
+          "region_id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_27",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 215
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.01546199701937407,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S4"
+    },
+    {
+      "chunk_id": "70d77393-876b-5f95-8d9d-aa24541c939e",
+      "manual_id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728",
+      "page_id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_00007",
+      "chunk_type": "text",
+      "text": "Configuring Fibre Channel On SAN Attached Storage Arrays\nYou can only cable the host server to the storage array via storage area network (SAN) using supported Fibre Channel switch(es).",
+      "content_region_ids": [
+        "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_84"
+      ],
+      "context_region_ids": [
+        "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_83"
+      ],
+      "image_filename": "images/dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728/images/dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_00009.jpg",
+      "source_shapes": [
+        {
+          "id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_84",
+          "shape": {
+            "x": 180.00405883789065,
+            "y": 520.6060180664064,
+            "width": 840.6900329589843,
+            "height": 43.67401123046852
+          }
+        },
+        {
+          "id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_83",
+          "shape": {
+            "x": 180.0060577392578,
+            "y": 431.1359863281251,
+            "width": 794.5560150146486,
+            "height": 69.0840148925779
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_84",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 128
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.015100279850746268,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S5"
+    }
+  ],
+  "excluded_sources": [],
+  "status": "answered",
+  "variant": "keyword_025",
+  "created_at": "2026-11-02T00:40:42.020633+00:00",
+  "answer": "호스트 서버를 스토리지 어레이에 연결하면 스토리지 어레이의 데이터를 액세스할 수 있습니다. 또한, 호스트와 스토리지 어레이 사이에 물리적 경로를 여러 개 설정하여 단일 경로(예: 호스트 서버 포트의 고장) 손실로 인해 스토리지 어레이의 데이터에 대한 액세스가 중단되지 않도록 할 수 있습니다.",
+  "source_ids": [
+    "S1"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 111,
+        "prompt_eval_count": 880,
+        "total_duration": 1793891500,
+        "load_duration": 5005600,
+        "attempt": 1,
+        "prompt_token_upper_bound": 4606
+      }
+    ],
+    "elapsed_seconds": 1.8483952999813482,
+    "ollama_model": {
+      "name": "qwen3.5:4b",
+      "model": "qwen3.5:4b",
+      "size": 3214409726,
+      "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "4.2B",
+        "quantization_level": "Q4_K_M"
+      },
+      "expires_at": "2026-11-02T09:41:43.867574+09:00",
+      "size_vram": 3214409726,
+      "context_length": 8192,
+      "runner": "llamacpp"
+    },
+    "observation_error": null
+  },
+  "citations": [
+    {
+      "chunk_id": "19ac318b-6465-520a-ba65-88f7fdeadd99",
+      "manual_id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728",
+      "page_id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_00003",
+      "chunk_type": "text",
+      "text": "Introduction to Storage Arrays\nOne or more host servers attached to the storage array can access the data on the storage array. You can also establish multiple physical paths between the hosts and the storage array so that loss of any single path (for example, through failure of a host server port) does not result in loss of access to data on the storage array.\nThe storage array is managed by MDSM running on a:",
+      "content_region_ids": [
+        "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_24",
+        "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_25"
+      ],
+      "context_region_ids": [
+        "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_22"
+      ],
+      "image_filename": "images/dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728/images/dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_00005.jpg",
+      "source_shapes": [
+        {
+          "id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_24",
+          "shape": {
+            "x": 180.0021820068358,
+            "y": 1206.3383789062498,
+            "width": 863.9456939697267,
+            "height": 91.67407226562523
+          }
+        },
+        {
+          "id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_25",
+          "shape": {
+            "x": 180.00231933593736,
+            "y": 1322.33837890625,
+            "width": 439.2720336914065,
+            "height": 19.674072265625227
+          }
+        },
+        {
+          "id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_22",
+          "shape": {
+            "x": 180.00607299804676,
+            "y": 1056.868408203124,
+            "width": 456.5119934082031,
+            "height": 35.583984375000455
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_24",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 332
+        },
+        {
+          "region_id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_25",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 50
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.016327340031729243,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 1.848569599998882,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 60,
+    "utilization_percent": 84
+  }
+}

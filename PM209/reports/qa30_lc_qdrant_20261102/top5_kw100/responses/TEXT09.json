@@ -1,0 +1,494 @@
+{
+  "case_id": "TEXT09",
+  "manual_id": "Watch_Apple_User_Guide",
+  "question": "Siri에게 시간을 물으려면 어떻게 말해야 하나요?",
+  "english_query": "How do I ask Siri for the time?",
+  "keyword_percent": 100,
+  "variant": "top5_kw100",
+  "top_k": 5,
+  "retrieved_chunk_ids": [
+    "b595456b-9abf-5dc0-9ad8-6bc60d1b78dd",
+    "38ae1c75-ffb8-5fee-a6b4-21f7ab2e732a",
+    "69426901-10e8-5211-80d1-da4b5190d0b9",
+    "7fb7a96d-a5ee-5f5b-823f-41ae2ba0fd1b",
+    "37a25a8a-4547-5b99-9ba4-710658d3a5cc"
+  ],
+  "sources": [
+    {
+      "chunk_id": "b595456b-9abf-5dc0-9ad8-6bc60d1b78dd",
+      "manual_id": "Watch_Apple_User_Guide",
+      "page_id": "Watch_Apple_User_Guide_00280",
+      "chunk_type": "text",
+      "text": "Use World Clock on AppleWatch to check the time in\nUse the World Clock app on your AppleWatch to check the time in cities around the globe.\nAsk Siri.Say something like: “What time is it in Auckland?”",
+      "content_region_ids": [
+        "Watch_Apple_User_Guide_5273",
+        "Watch_Apple_User_Guide_5274"
+      ],
+      "context_region_ids": [
+        "Watch_Apple_User_Guide_5272"
+      ],
+      "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00285.jpg",
+      "source_shapes": [
+        {
+          "id": "Watch_Apple_User_Guide_5273",
+          "shape": {
+            "x": 313.99999999999983,
+            "y": 260.68200683593733,
+            "width": 727.2965698242181,
+            "height": 52.8818359375
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_5274",
+          "shape": {
+            "x": 313.70599365234364,
+            "y": 326.2689208984374,
+            "width": 543.5660400390625,
+            "height": 34.70800781250006
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_5272",
+          "shape": {
+            "x": 313.00000000000006,
+            "y": 184.5870361328125,
+            "width": 703.7700805664058,
+            "height": 65.42968749999989
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "Watch_Apple_User_Guide_5273",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 88
+        },
+        {
+          "region_id": "Watch_Apple_User_Guide_5274",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 59
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 24.86655044555664,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "38ae1c75-ffb8-5fee-a6b4-21f7ab2e732a",
+      "manual_id": "Watch_Apple_User_Guide",
+      "page_id": "Watch_Apple_User_Guide_00152",
+      "chunk_type": "text",
+      "text": "Add an alarm on AppleWatch\nUse the Alarms app to play a sound or vibrate your AppleWatch at a set time.\nAsk Siri.Say something like: “Set repeating alarm for 6 a.m.”",
+      "content_region_ids": [
+        "Watch_Apple_User_Guide_2616",
+        "Watch_Apple_User_Guide_2617"
+      ],
+      "context_region_ids": [
+        "Watch_Apple_User_Guide_2615"
+      ],
+      "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00157.jpg",
+      "source_shapes": [
+        {
+          "id": "Watch_Apple_User_Guide_2616",
+          "shape": {
+            "x": 314.00000000000006,
+            "y": 530.3997802734377,
+            "width": 707.359191894531,
+            "height": 33.881835937499886
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_2617",
+          "shape": {
+            "x": 311.7059936523437,
+            "y": 569.9866943359377,
+            "width": 562.5814208984375,
+            "height": 30.708007812499886
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_2615",
+          "shape": {
+            "x": 314.00000000000006,
+            "y": 478.3048095703124,
+            "width": 389.85546875000006,
+            "height": 53.429687499999886
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "Watch_Apple_User_Guide_2616",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 76
+        },
+        {
+          "region_id": "Watch_Apple_User_Guide_2617",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 61
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 23.914995193481445,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "69426901-10e8-5211-80d1-da4b5190d0b9",
+      "manual_id": "Watch_Apple_User_Guide",
+      "page_id": "Watch_Apple_User_Guide_00160",
+      "chunk_type": "text",
+      "text": "Use Calculator on AppleWatch\nIn the Calculator app , you can perform basic arithmetic calculations. You can also\nquickly calculate a tip and split the check.\nAsk Siri.Say something like: “What’s 73 times 9?” or “What’s 18 percent of 225?”",
+      "content_region_ids": [
+        "Watch_Apple_User_Guide_2742",
+        "Watch_Apple_User_Guide_2743",
+        "Watch_Apple_User_Guide_2744"
+      ],
+      "context_region_ids": [
+        "Watch_Apple_User_Guide_2741"
+      ],
+      "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00165.jpg",
+      "source_shapes": [
+        {
+          "id": "Watch_Apple_User_Guide_2742",
+          "shape": {
+            "x": 314.00000000000006,
+            "y": 226.6820068359375,
+            "width": 741.2473449707031,
+            "height": 32.881835937499886
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_2743",
+          "shape": {
+            "x": 314.00000000000006,
+            "y": 259.68200683593756,
+            "width": 367.8079223632812,
+            "height": 22.881835937499943
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_2744",
+          "shape": {
+            "x": 312.7059936523438,
+            "y": 292.2689208984374,
+            "width": 746.2993774414062,
+            "height": 34.7080078125
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_2741",
+          "shape": {
+            "x": 314.00000000000006,
+            "y": 174.58703613281247,
+            "width": 412.21423339843744,
+            "height": 45.429687500000114
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "Watch_Apple_User_Guide_2742",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 83
+        },
+        {
+          "region_id": "Watch_Apple_User_Guide_2743",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 44
+        },
+        {
+          "region_id": "Watch_Apple_User_Guide_2744",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 80
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 23.61286735534668,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S3"
+    },
+    {
+      "chunk_id": "7fb7a96d-a5ee-5f5b-823f-41ae2ba0fd1b",
+      "manual_id": "Watch_Apple_User_Guide",
+      "page_id": "Watch_Apple_User_Guide_00182",
+      "chunk_type": "text",
+      "text": "Control your home with AppleWatch\nThe first time you open the Home app on your iPhone, the setup assistant helps you create a home. Then you can define rooms, add HomeKit-enabled accessories, and create scenes. Accessories, scenes, and rooms that you add on your iPhone are available on your AppleWatch. See the iPhone User Guide for information about setting up the Home app on your iPhone.\nAsk Siri.Say something like: “Turn off the lights in the office.”",
+      "content_region_ids": [
+        "Watch_Apple_User_Guide_3059",
+        "Watch_Apple_User_Guide_3060"
+      ],
+      "context_region_ids": [
+        "Watch_Apple_User_Guide_3056"
+      ],
+      "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00187.jpg",
+      "source_shapes": [
+        {
+          "id": "Watch_Apple_User_Guide_3059",
+          "shape": {
+            "x": 313.9999999999999,
+            "y": 661.6419677734374,
+            "width": 796.1519775390626,
+            "height": 137.88183593750023
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_3060",
+          "shape": {
+            "x": 309.70599365234386,
+            "y": 805.2288818359374,
+            "width": 575.2573852539059,
+            "height": 34.7080078125
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_3056",
+          "shape": {
+            "x": 313.9999999999999,
+            "y": 174.5870361328125,
+            "width": 484.48144531250057,
+            "height": 53.42968750000006
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "Watch_Apple_User_Guide_3059",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 357
+        },
+        {
+          "region_id": "Watch_Apple_User_Guide_3060",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 65
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 22.477027893066406,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S4"
+    },
+    {
+      "chunk_id": "37a25a8a-4547-5b99-9ba4-710658d3a5cc",
+      "manual_id": "Watch_Apple_User_Guide",
+      "page_id": "Watch_Apple_User_Guide_00064",
+      "chunk_type": "text",
+      "text": "Turn on airplane mode\nAsk Siri.Say something like: “Turn on airplane mode.”\n• Put both your AppleWatch and iPhone in airplane mode in one step: Open the\nAppleWatch app on your iPhone, tap My Watch, go to General> Airplane Mode, then turn on Mirror iPhone. When your iPhone and AppleWatch are within normal Bluetooth range of each other (about 33 feet or 10 meters), any time you switch to airplane mode on one device, the other switches to match.",
+      "content_region_ids": [
+        "Watch_Apple_User_Guide_1126",
+        "Watch_Apple_User_Guide_1127",
+        "Watch_Apple_User_Guide_1128"
+      ],
+      "context_region_ids": [
+        "Watch_Apple_User_Guide_1122"
+      ],
+      "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00069.jpg",
+      "source_shapes": [
+        {
+          "id": "Watch_Apple_User_Guide_1126",
+          "shape": {
+            "x": 339.7059936523436,
+            "y": 605.3466796875001,
+            "width": 502.62860107421915,
+            "height": 31.70800781249966
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_1127",
+          "shape": {
+            "x": 315.9999999999999,
+            "y": 644.7597656249995,
+            "width": 710.7819824218747,
+            "height": 26.881835937500455
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_1128",
+          "shape": {
+            "x": 339.0000000000001,
+            "y": 675.7597656250001,
+            "width": 765.0983886718742,
+            "height": 98.88183593749955
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_1122",
+          "shape": {
+            "x": 314.00000000000006,
+            "y": 100.81933593749997,
+            "width": 216.69458007812506,
+            "height": 37.13720703124997
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "Watch_Apple_User_Guide_1126",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 53
+        },
+        {
+          "region_id": "Watch_Apple_User_Guide_1127",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 76
+        },
+        {
+          "region_id": "Watch_Apple_User_Guide_1128",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 293
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 22.316007614135742,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S5"
+    }
+  ],
+  "excluded_sources": [],
+  "created_at": "2026-11-02T05:04:58.123917+00:00",
+  "status": "answered",
+  "answer": "AppleWatch에서 세계 시계 (World Clock) 앱을 사용하여 전 세계 여러 도시의 시간을 확인하고 Siri에게 물어볼 수 있습니다. 예를 들어, \"오克兰의 시간은 무엇인가요?\"라고 말하면 됩니다.",
+  "source_ids": [
+    "S1"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 73,
+        "prompt_eval_count": 842,
+        "total_duration": 1405657100,
+        "load_duration": 5332900,
+        "attempt": 1,
+        "prompt_token_upper_bound": 4188
+      }
+    ],
+    "elapsed_seconds": 1.4124263999983668,
+    "backend": "LangChain ChatPromptTemplate | ChatOllama"
+  },
+  "citations": [
+    {
+      "chunk_id": "b595456b-9abf-5dc0-9ad8-6bc60d1b78dd",
+      "manual_id": "Watch_Apple_User_Guide",
+      "page_id": "Watch_Apple_User_Guide_00280",
+      "chunk_type": "text",
+      "text": "Use World Clock on AppleWatch to check the time in\nUse the World Clock app on your AppleWatch to check the time in cities around the globe.\nAsk Siri.Say something like: “What time is it in Auckland?”",
+      "content_region_ids": [
+        "Watch_Apple_User_Guide_5273",
+        "Watch_Apple_User_Guide_5274"
+      ],
+      "context_region_ids": [
+        "Watch_Apple_User_Guide_5272"
+      ],
+      "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00285.jpg",
+      "source_shapes": [
+        {
+          "id": "Watch_Apple_User_Guide_5273",
+          "shape": {
+            "x": 313.99999999999983,
+            "y": 260.68200683593733,
+            "width": 727.2965698242181,
+            "height": 52.8818359375
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_5274",
+          "shape": {
+            "x": 313.70599365234364,
+            "y": 326.2689208984374,
+            "width": 543.5660400390625,
+            "height": 34.70800781250006
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_5272",
+          "shape": {
+            "x": 313.00000000000006,
+            "y": 184.5870361328125,
+            "width": 703.7700805664058,
+            "height": 65.42968749999989
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "Watch_Apple_User_Guide_5273",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 88
+        },
+        {
+          "region_id": "Watch_Apple_User_Guide_5274",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 59
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 24.86655044555664,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 1.412500700011151,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 66,
+    "utilization_percent": 84
+  }
+}

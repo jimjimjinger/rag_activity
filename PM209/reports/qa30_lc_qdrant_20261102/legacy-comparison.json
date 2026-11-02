@@ -1,0 +1,43 @@
+{
+  "denominator": 30,
+  "same_questions_translations_prompt": true,
+  "dense_top5_same_cases": 30,
+  "caveat": "BM25 preprocessing/scoring and weighted RRF formula changed; not a framework-only causal comparison. Model outputs can also vary.",
+  "weights": [
+    {
+      "keyword_percent": 0,
+      "old_sqlite_python_top1": 15,
+      "new_qdrant_top1": 15,
+      "old_sqlite_python_top5": 20,
+      "new_qdrant_top5": 20
+    },
+    {
+      "keyword_percent": 25,
+      "old_sqlite_python_top1": 14,
+      "new_qdrant_top1": 13,
+      "old_sqlite_python_top5": 17,
+      "new_qdrant_top5": 18
+    },
+    {
+      "keyword_percent": 50,
+      "old_sqlite_python_top1": 14,
+      "new_qdrant_top1": 14,
+      "old_sqlite_python_top5": 18,
+      "new_qdrant_top5": 18
+    },
+    {
+      "keyword_percent": 75,
+      "old_sqlite_python_top1": 12,
+      "new_qdrant_top1": 14,
+      "old_sqlite_python_top5": 15,
+      "new_qdrant_top5": 18
+    },
+    {
+      "keyword_percent": 100,
+      "old_sqlite_python_top1": 11,
+      "new_qdrant_top1": 10,
+      "old_sqlite_python_top5": 13,
+      "new_qdrant_top5": 16
+    }
+  ]
+}

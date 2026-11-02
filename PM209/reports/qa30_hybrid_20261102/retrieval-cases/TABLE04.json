@@ -1,0 +1,2325 @@
+{
+  "case_id": "TABLE04",
+  "manual_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English",
+  "question": "SamsungPortableSSD.exe로 설치한 소프트웨어는 어떻게 삭제하나요?",
+  "english_query": "How do I uninstall the software installed with SamsungPortableSSD.exe?",
+  "dense_candidates": [
+    {
+      "score": 0.8932699944058972,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English",
+      "split": "val",
+      "page_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00015",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_200",
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_202"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English/images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00017.jpg",
+      "source_shapes": [
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_200",
+          "shape": {
+            "x": 594.4741821289062,
+            "y": 409.4771728515628,
+            "width": 440.2212524414065,
+            "height": 126.11218261718756
+          }
+        },
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_202",
+          "shape": {
+            "x": 594.4722900390628,
+            "y": 553.9707031250005,
+            "width": 413.5966796875002,
+            "height": 207.72174072265614
+          }
+        }
+      ],
+      "title": "",
+      "text": "Software can be uninstalled via “Uninstall or change a program”. Go to Control panel → Programs → Programs and Features → Uninstall or change a program → Double-click “Samsung Portable SSD Software” and select “Yes”\nSoftware need to be deleted manually by executing PSSD_Cleanup.bat in application installation path. (Normally c:\\ProgramData\\Samsung Apps\\Portable SSD\\PSSD_Cleanup.bat) Please refer to FAQ in the Samsung website (http://www.samsung.com/samsungssd) for more details.",
+      "char_count": 482,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_200",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 215
+        },
+        {
+          "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_202",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 266
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "59af191c-2011-595e-b6b3-8a3430676bf8",
+      "text_sha256": "abd1c17849181b08a70757764134af87fd102d024176fcd60a3a4926a0a9f84b",
+      "token_count": 107
+    },
+    {
+      "score": 0.8247782601866633,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English",
+      "split": "val",
+      "page_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00015",
+      "chunk_type": "title",
+      "content_region_ids": [
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_194"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English/images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00017.jpg",
+      "source_shapes": [
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_194",
+          "shape": {
+            "x": 144.00000000000006,
+            "y": 280.32763671875006,
+            "width": 469.31994628906256,
+            "height": 28.78125000000017
+          }
+        }
+      ],
+      "title": "",
+      "text": "6. Delete “Samsung Portable SSD Software”",
+      "char_count": 41,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_194",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 41
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "937e8e18-f035-5134-a31c-f157c3716d97",
+      "text_sha256": "7328d30c7e9c4ff053f592061baa21c023aca39b2ae81dda0e49d861475b2209",
+      "token_count": 9
+    },
+    {
+      "score": 0.7858141458631107,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English",
+      "split": "val",
+      "page_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00015",
+      "chunk_type": "table",
+      "content_region_ids": [
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_210"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English/images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00017.jpg",
+      "source_shapes": [
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_210",
+          "shape": {
+            "x": 156.37500000000006,
+            "y": 355.5000000000001,
+            "width": 904.5000000000005,
+            "height": 749.2500000000003
+          }
+        },
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_196",
+          "shape": {
+            "x": 316.07998657226574,
+            "y": 368.68493652343756,
+            "width": 124.41171264648443,
+            "height": 25.32751464843767
+          }
+        },
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_197",
+          "shape": {
+            "x": 761.7600097656255,
+            "y": 368.68493652343756,
+            "width": 108.56445312500011,
+            "height": 25.32751464843767
+          }
+        },
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_198",
+          "shape": {
+            "x": 185.75999450683605,
+            "y": 572.924926757813,
+            "width": 115.48521423339838,
+            "height": 25.327514648437614
+          }
+        },
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_199",
+          "shape": {
+            "x": 324.96191406250017,
+            "y": 434.6944580078126,
+            "width": 245.3084106445313,
+            "height": 75.7198486328125
+          }
+        }
+      ],
+      "title": "",
+      "text": "First row (header unconfirmed): Column 1: Computer OS | Column 2: Computer OS | Column 3: Description\nColumn 1: Computer OS | Column 2: Computer OS | Column 3: Description\nColumn 1: Windows OS | Column 2: If user installed SW using SamsungPortableSSD_Set up_Win.exe | Column 3: Software can be uninstalled via \"Uninstallor changea program\".Go to Control panel→ Programs→ Programs and Features→Uninstall or change a program→ Double-click \"Samsung Portable SSD Software\"and select \"Yes\"",
+      "char_count": 484,
+      "overlap_char_count": 0,
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "source_spans": [],
+      "table_rows": [
+        0,
+        1
+      ],
+      "table_cells": [
+        {
+          "row": 0,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 2
+        },
+        {
+          "row": 0,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 2
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "rowspan": 2,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "chunk_id": "33c2b092-3f68-5522-bd67-b7921769fa6b",
+      "text_sha256": "bf51b4e964d965ff158e3791135f892862cc93f1a88eff309889aaa3152117bb",
+      "deduplicated_region_ids": [
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_196",
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_197",
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_198",
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_199"
+      ],
+      "token_count": 122
+    },
+    {
+      "score": 0.771248939810484,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English",
+      "split": "val",
+      "page_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00015",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_201"
+      ],
+      "context_region_ids": [
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_195"
+      ],
+      "image_filename": "images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English/images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00017.jpg",
+      "source_shapes": [
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_201",
+          "shape": {
+            "x": 324.9599914550783,
+            "y": 632.6849365234378,
+            "width": 240.31326293945307,
+            "height": 50.52368164062523
+          }
+        },
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_195",
+          "shape": {
+            "x": 172.3199462890626,
+            "y": 320.88769531250017,
+            "width": 313.14846801757824,
+            "height": 28.781250000000057
+          }
+        }
+      ],
+      "title": "Deleting software on each OS",
+      "text": "Deleting software on each OS\nIf user installed SW using SamsungPortableSSD.exe",
+      "char_count": 78,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_201",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 49
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "4c214671-50e2-535e-a8ff-7ba0a9d62298",
+      "text_sha256": "380c8d671c4498c8dad7f54c5eaa6f198a608861c615639120222853fe5b0f0c",
+      "token_count": 16
+    },
+    {
+      "score": 0.7195080974670144,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English",
+      "split": "val",
+      "page_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00015",
+      "chunk_type": "table",
+      "content_region_ids": [
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_210"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English/images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00017.jpg",
+      "source_shapes": [
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_210",
+          "shape": {
+            "x": 156.37500000000006,
+            "y": 355.5000000000001,
+            "width": 904.5000000000005,
+            "height": 749.2500000000003
+          }
+        },
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_196",
+          "shape": {
+            "x": 316.07998657226574,
+            "y": 368.68493652343756,
+            "width": 124.41171264648443,
+            "height": 25.32751464843767
+          }
+        },
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_197",
+          "shape": {
+            "x": 761.7600097656255,
+            "y": 368.68493652343756,
+            "width": 108.56445312500011,
+            "height": 25.32751464843767
+          }
+        },
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_198",
+          "shape": {
+            "x": 185.75999450683605,
+            "y": 572.924926757813,
+            "width": 115.48521423339838,
+            "height": 25.327514648437614
+          }
+        }
+      ],
+      "title": "",
+      "text": "First row (header unconfirmed): Column 1: Computer OS | Column 2: Computer OS | Column 3: Description\nColumn 1: Windows OS | Column 2: If user installed SW using SamsunqPortableSSD.exe | Column 3: Software need to be deleted manuallyby executing PSSD_Cleanup.bat in application installation path.(Normally c:\\ProgramData\\Samsung Apps\\Portable SSD\\PSSD_Cleanup.bat) Please refer to FAQin the Samsung website (http://www.samsung.com/samsungssd)for more details.",
+      "char_count": 459,
+      "overlap_char_count": 0,
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "source_spans": [],
+      "table_rows": [
+        2
+      ],
+      "table_cells": [
+        {
+          "row": 1,
+          "column": 0,
+          "rowspan": 2,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "chunk_id": "d2128fe7-e263-526b-825d-5b096a8a71f6",
+      "text_sha256": "9d45737d53366b89e774d209654f8b9b565a3646ba65b8eca598e7e7cc6a1c08",
+      "deduplicated_region_ids": [
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_196",
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_197",
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_198"
+      ],
+      "token_count": 117
+    },
+    {
+      "score": 0.7182246860754454,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English",
+      "split": "val",
+      "page_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00015",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_204",
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_205"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English/images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00017.jpg",
+      "source_shapes": [
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_204",
+          "shape": {
+            "x": 594.4799804687502,
+            "y": 780.0526123046876,
+            "width": 417.9481201171876,
+            "height": 157.3063964843749
+          }
+        },
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_205",
+          "shape": {
+            "x": 594.4799804687502,
+            "y": 941.5637817382815,
+            "width": 413.5868530273441,
+            "height": 138.8486938476567
+          }
+        }
+      ],
+      "title": "",
+      "text": "Application need to be deleted manually by executing CleanupAll.scpt in SW installation path. (Normally #osascript ~/Library/Application Support/PortableSSD/CleanupAll.scpt) *Third party cleaner such as AppCleaner may\nnot delete “Samsung Portable SSD” SW completely. Please refer FAQ in the Samsung website (http://www.samsung.com/samsungssd) for detail information.",
+      "char_count": 366,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_204",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 217
+        },
+        {
+          "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_205",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 148
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "311c1887-8520-5e26-aaa0-bbc0d59357a1",
+      "text_sha256": "4a6a9497a85944e23dfc53a026730acafc5b7b3b59db40100ddffe7535ee3b03",
+      "token_count": 80
+    },
+    {
+      "score": 0.714907894341278,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English",
+      "split": "val",
+      "page_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00008",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_117"
+      ],
+      "context_region_ids": [
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_114"
+      ],
+      "image_filename": "images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English/images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00010.jpg",
+      "source_shapes": [
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_117",
+          "shape": {
+            "x": 398.64001464843756,
+            "y": 492.0074462890626,
+            "width": 393.30236816406267,
+            "height": 28.78125
+          }
+        },
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_114",
+          "shape": {
+            "x": 144,
+            "y": 169.92749023437506,
+            "width": 469.4676513671877,
+            "height": 28.78125000000003
+          }
+        }
+      ],
+      "title": "1. Running Samsung Portable SSD Software",
+      "text": "1. Running Samsung Portable SSD Software\nSamsung Portable SSD Software Icon",
+      "char_count": 75,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_117",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 34
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "a702536a-4c33-59b0-b76a-e0647f1225aa",
+      "text_sha256": "702e7c265d73be0c58b23c4755e6febfceeb77e9973913c4b107b30fbe227a1c",
+      "token_count": 13
+    },
+    {
+      "score": 0.7070618423866966,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English",
+      "split": "val",
+      "page_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00007",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_108",
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_109"
+      ],
+      "context_region_ids": [
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_103"
+      ],
+      "image_filename": "images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English/images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00009.jpg",
+      "source_shapes": [
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_108",
+          "shape": {
+            "x": 144.01989746093753,
+            "y": 977.0032348632818,
+            "width": 894.1901855468757,
+            "height": 71.89556884765568
+          }
+        },
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_109",
+          "shape": {
+            "x": 144.00003051757824,
+            "y": 1061.0057373046882,
+            "width": 892.425872802735,
+            "height": 47.892089843749545
+          }
+        },
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_103",
+          "shape": {
+            "x": 144.00000000000006,
+            "y": 689.047485351563,
+            "width": 509.9128417968754,
+            "height": 28.781249999999773
+          }
+        }
+      ],
+      "title": "(For Password protection and Firmware update)",
+      "text": "(For Password protection and Firmware update)\n* If you format partition of the X5 after purchase, Samsung Portable SSD Software stored in the drive will be deleted. In such case, please download the “Samsung Portable SSD” application from Samsung website (http://www.samsung.com/portable-ssd)\n* Installation of Samsung Portable SSD Software for X5 will automatically remove previous version, if remaining in your computer.",
+      "char_count": 422,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_108",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 246
+        },
+        {
+          "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_109",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 129
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "544ff150-b8a3-5123-a4f4-a214a8d34078",
+      "text_sha256": "ad7f80b0a4d635bf2e7c9e0199e951be7bcb2cee9e68990b3ce553f785aa143a",
+      "token_count": 83
+    },
+    {
+      "score": 0.7016552730866958,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English",
+      "split": "val",
+      "page_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00008",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_115",
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_116"
+      ],
+      "context_region_ids": [
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_114"
+      ],
+      "image_filename": "images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English/images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00010.jpg",
+      "source_shapes": [
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_115",
+          "shape": {
+            "x": 172.32000732421872,
+            "y": 210.72753906250009,
+            "width": 633.9133300781251,
+            "height": 28.78125
+          }
+        },
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_116",
+          "shape": {
+            "x": 172.32000732421872,
+            "y": 251.48062133789068,
+            "width": 736.3462524414067,
+            "height": 23.888427734375
+          }
+        },
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_114",
+          "shape": {
+            "x": 144,
+            "y": 169.92749023437506,
+            "width": 469.4676513671877,
+            "height": 28.78125000000003
+          }
+        }
+      ],
+      "title": "1. Running Samsung Portable SSD Software",
+      "text": "1. Running Samsung Portable SSD Software\nSelect “Samsung Portable SSD” application icon on Desktop.\n* Samsung Portable SSD Software may not operate without device (driver) enabled.",
+      "char_count": 180,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_115",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 58
+        },
+        {
+          "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_116",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 80
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "0f1048d5-1824-532f-8b33-5577e7a215b0",
+      "text_sha256": "c3db2473f1b5d94962af2f3c59fbaf8f4bc0b8487d3e41e9e079a688eb1b3e6f",
+      "token_count": 34
+    },
+    {
+      "score": 0.7013439144137252,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English",
+      "split": "val",
+      "page_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00015",
+      "chunk_type": "table",
+      "content_region_ids": [
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_210"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English/images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00017.jpg",
+      "source_shapes": [
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_210",
+          "shape": {
+            "x": 156.37500000000006,
+            "y": 355.5000000000001,
+            "width": 904.5000000000005,
+            "height": 749.2500000000003
+          }
+        },
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_196",
+          "shape": {
+            "x": 316.07998657226574,
+            "y": 368.68493652343756,
+            "width": 124.41171264648443,
+            "height": 25.32751464843767
+          }
+        },
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_197",
+          "shape": {
+            "x": 761.7600097656255,
+            "y": 368.68493652343756,
+            "width": 108.56445312500011,
+            "height": 25.32751464843767
+          }
+        }
+      ],
+      "title": "",
+      "text": "First row (header unconfirmed): Column 1: Computer OS | Column 2: Computer OS | Column 3: Description\nColumn 1: Mac Os\nColumn 3\nApplication need to be deleted manually by executingCleanupAll.scpt in SW installation path.(Normally #oascript ~/Library/Application Support/PortableSSD/CleanupAll.scpt) *Third party cleaner such as AppCleaner may not delete \"Samsung Portable SSD\"SW completely. Please refer FAQ in the Samsung website (http://www.samsung.com/samsungssd) for detail information.",
+      "char_count": 490,
+      "overlap_char_count": 0,
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "source_spans": [
+        {
+          "row": 3,
+          "column": 2,
+          "start": 0,
+          "end": 362,
+          "field": "normalized_cell_text"
+        }
+      ],
+      "table_rows": [
+        3
+      ],
+      "table_cells": [
+        {
+          "row": 3,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 2
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 2
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "chunk_id": "c98247c8-7253-5136-b55a-9dd91b2cbeee",
+      "text_sha256": "5b1fa40bb899689da531b1b7ab80b0dab57533dcc1fe1cb65bc26a3f3221e0ed",
+      "deduplicated_region_ids": [
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_196",
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_197"
+      ],
+      "token_count": 116
+    },
+    {
+      "score": 0.6789880714856986,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English",
+      "split": "val",
+      "page_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00008",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_125"
+      ],
+      "context_region_ids": [
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_114"
+      ],
+      "image_filename": "images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English/images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00010.jpg",
+      "source_shapes": [
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_125",
+          "shape": {
+            "x": 161.0000076293946,
+            "y": 203.3402824401856,
+            "width": 752.0,
+            "height": 326.00000000000006
+          }
+        },
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_114",
+          "shape": {
+            "x": 144,
+            "y": 169.92749023437506,
+            "width": 469.4676513671877,
+            "height": 28.78125000000003
+          }
+        }
+      ],
+      "title": "1. Running Samsung Portable SSD Software",
+      "text": "1. Running Samsung Portable SSD Software\nImage shows the Samsung Portable SSD Software icon on a desktop, labeled as 'Portable SSD' in blue and gray text. A warning note indicates software may not operate without device (driver) enabled.",
+      "char_count": 237,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_125",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 196
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "2ea81d9d-c4b7-567f-a1e8-d4e8a23e72e6",
+      "text_sha256": "53d9999b2c582b9f92bb64d344dfcfde6785a5cc76e0d146c07f64037436aba4",
+      "token_count": 47
+    },
+    {
+      "score": 0.6770505507212428,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English",
+      "split": "val",
+      "page_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00009",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_128",
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_129",
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_130",
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_131",
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_132",
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_133",
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_134"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English/images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00011.jpg",
+      "source_shapes": [
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_128",
+          "shape": {
+            "x": 200.63999938964852,
+            "y": 182.12063598632812,
+            "width": 812.3089752197266,
+            "height": 47.88844299316409
+          }
+        },
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_129",
+          "shape": {
+            "x": 200.63999938964852,
+            "y": 242.12063598632815,
+            "width": 658.2428131103517,
+            "height": 23.88842773437497
+          }
+        },
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_130",
+          "shape": {
+            "x": 200.64001464843753,
+            "y": 278.1161193847657,
+            "width": 713.0698242187501,
+            "height": 23.888427734374886
+          }
+        },
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_131",
+          "shape": {
+            "x": 200.6399536132813,
+            "y": 314.1116027832032,
+            "width": 594.982299804688,
+            "height": 23.888427734375114
+          }
+        },
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_132",
+          "shape": {
+            "x": 200.62005615234384,
+            "y": 350.10708618164057,
+            "width": 645.7587890625002,
+            "height": 23.88842773437517
+          }
+        },
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_133",
+          "shape": {
+            "x": 200.62005615234384,
+            "y": 386.10256958007824,
+            "width": 617.7926025390628,
+            "height": 23.888427734375057
+          }
+        },
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_134",
+          "shape": {
+            "x": 200.62005615234384,
+            "y": 422.09805297851585,
+            "width": 690.2853393554689,
+            "height": 23.888427734374886
+          }
+        }
+      ],
+      "title": "",
+      "text": "* When both Samsung Portable SSD Driver and SATSMARTDriver are installed and conflict is detected, the instructions like the following will be available:\nHow to remove Samsung Portable SSD Driver and install SATSMARTDriver\n#sudo kextunload /System/Library/Extensions/SamsungPortableSSDDriver.kext\n#sudo kextload /System/Library/Extensions/SATSMARTDriver.kext\nHow to remove SATSMARTDriver and install SamsungPortableSSDDriver\n#sudo kextunload /System/Library/Extensions/SATSMARTDriver.kext\n#sudo",
+      "char_count": 494,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_128",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 153
+        },
+        {
+          "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_129",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 68
+        },
+        {
+          "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_130",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 73
+        },
+        {
+          "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_131",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 61
+        },
+        {
+          "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_132",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 65
+        },
+        {
+          "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_133",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 63
+        },
+        {
+          "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_134",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 5
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "03797055-ef9a-5b21-9e77-90984ad113cb",
+      "text_sha256": "864cd29f192657cb11bc338eaedd9a8a709ee07644e992b82844158bf80ad401",
+      "token_count": 109
+    },
+    {
+      "score": 0.6734604146712604,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English",
+      "split": "val",
+      "page_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00010",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_141",
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_142"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English/images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00012.jpg",
+      "source_shapes": [
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_141",
+          "shape": {
+            "x": 172.3200073242188,
+            "y": 649.1606445312502,
+            "width": 854.7817993164069,
+            "height": 71.89562988281284
+          }
+        },
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_142",
+          "shape": {
+            "x": 172.3001708984376,
+            "y": 733.1632690429692,
+            "width": 827.6912231445316,
+            "height": 47.89202880859352
+          }
+        }
+      ],
+      "title": "",
+      "text": "* Depending on the user environment, the “SamsungPortableSSD Software” may not be executed automatically. In such case, please double-click the “SamsungPortableSSD Software” icon in Explorer on Windows or the Desktop on Mac.\n* Password protection may be supported by certain version of each OS (or higher) only. Please check whether your OS meets the system requirements and supports password protection.",
+      "char_count": 404,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_141",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 224
+        },
+        {
+          "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_142",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 179
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "93f59691-43a1-5485-b022-6152b6a1d0b7",
+      "text_sha256": "0bc0885cdafc94e2fe2c659260ac25afd91f40e72126d9863b0270936e8d0b1d",
+      "token_count": 79
+    },
+    {
+      "score": 0.6512181462035476,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English",
+      "split": "val",
+      "page_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00010",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_144"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English/images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00012.jpg",
+      "source_shapes": [
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_144",
+          "shape": {
+            "x": 172.30010986328134,
+            "y": 877.1649169921876,
+            "width": 836.1271972656255,
+            "height": 71.8956298828125
+          }
+        }
+      ],
+      "title": "",
+      "text": "* You may choose another Samsung Portable SSD by clicking X5’s name on left panel. Samsung Portable SSD Software lists the entire host devices (up to 6) to which Samsung Portable SSD is connected.",
+      "char_count": 196,
+      "overlap_char_count": 83,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_144",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 196
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "44546d87-a3d7-52bb-9e74-db142b6ce798",
+      "text_sha256": "928cf0aec04bd3b01b00a570da8ad9e8fe4f9ca578b2c00adcac1a246c56bfab",
+      "token_count": 41
+    },
+    {
+      "score": 0.642656912206962,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English",
+      "split": "val",
+      "page_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00008",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_119"
+      ],
+      "context_region_ids": [
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_118"
+      ],
+      "image_filename": "images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English/images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00010.jpg",
+      "source_shapes": [
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_119",
+          "shape": {
+            "x": 172.32000732421872,
+            "y": 585.6075439453128,
+            "width": 873.2704467773442,
+            "height": 143.98126220703114
+          }
+        },
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_118",
+          "shape": {
+            "x": 144,
+            "y": 544.8074951171874,
+            "width": 328.9481201171877,
+            "height": 28.781250000000114
+          }
+        }
+      ],
+      "title": "2. Setting Password (Optional)",
+      "text": "2. Setting Password (Optional)\nPlease follow the instructions that appear on each screen of the Samsung Portable SSD Software. Once you agree to the terms and conditions of the Samsung Portable SSD Software while it is being installed, you can set a password through the following steps. (Certain elements of Samsung Portable SSD Software will be installed on the user’s computer for password protection.)",
+      "char_count": 405,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_119",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 374
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "990bac91-9823-53d3-9bd7-b4c48b5071c3",
+      "text_sha256": "1486895b67950960342c59570b15a44f45119f35e9bfa99cb69aaff50c5c98fc",
+      "token_count": 73
+    },
+    {
+      "score": 0.6290098141726779,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English",
+      "split": "val",
+      "page_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00008",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_126"
+      ],
+      "context_region_ids": [
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_118"
+      ],
+      "image_filename": "images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English/images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00010.jpg",
+      "source_shapes": [
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_126",
+          "shape": {
+            "x": 165.01041412353516,
+            "y": 579.5104293823246,
+            "width": 888.0000000000005,
+            "height": 604.4999999999997
+          }
+        },
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_118",
+          "shape": {
+            "x": 144,
+            "y": 544.8074951171874,
+            "width": 328.9481201171877,
+            "height": 28.781250000000114
+          }
+        }
+      ],
+      "title": "2. Setting Password (Optional)",
+      "text": "2. Setting Password (Optional)\nSamsung Portable SSD Software setup screen showing 'WELCOME!' message and fields for Name (pre-filled as 'Samsung X5') and Password (4-16 characters). Includes warning notice about data loss if password is forgotten, with UPDATE, SKIP, and FINISH buttons.",
+      "char_count": 286,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_126",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 255
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "cafd7d64-2a4a-55af-a9a1-04e82e2ed242",
+      "text_sha256": "3384d3ab5fc5bc508af614bfdb7743436bf01f7de43785e745c599a87659df8f",
+      "token_count": 62
+    },
+    {
+      "score": 0.6283814244174544,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English",
+      "split": "val",
+      "page_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00008",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_123"
+      ],
+      "context_region_ids": [
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_114"
+      ],
+      "image_filename": "images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English/images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00010.jpg",
+      "source_shapes": [
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_123",
+          "shape": {
+            "x": 503.7599792480469,
+            "y": 299.75994873046875,
+            "width": 182.6399841308595,
+            "height": 176.15997314453148
+          }
+        },
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_114",
+          "shape": {
+            "x": 144,
+            "y": 169.92749023437506,
+            "width": 469.4676513671877,
+            "height": 28.78125000000003
+          }
+        }
+      ],
+      "title": "1. Running Samsung Portable SSD Software",
+      "text": "1. Running Samsung Portable SSD Software\nA portable SSD device icon featuring the text 'Portable' in gray and 'SSD' in blue on a dark background.",
+      "char_count": 145,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_123",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 104
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "b1130b84-2864-5ddd-9327-3a49dea60949",
+      "text_sha256": "081340dbed62d7a18ff811b73dec09c554081ef72742367a2ce1c50dbec61359",
+      "token_count": 33
+    },
+    {
+      "score": 0.6139161630215799,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English",
+      "split": "val",
+      "page_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00008",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_124"
+      ],
+      "context_region_ids": [
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_114"
+      ],
+      "image_filename": "images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English/images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00010.jpg",
+      "source_shapes": [
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_124",
+          "shape": {
+            "x": 311.75994873046875,
+            "y": 753.5999755859378,
+            "width": 566.8799438476565,
+            "height": 423.5999755859376
+          }
+        },
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_114",
+          "shape": {
+            "x": 144,
+            "y": 169.92749023437506,
+            "width": 469.4676513671877,
+            "height": 28.78125000000003
+          }
+        }
+      ],
+      "title": "1. Running Samsung Portable SSD Software",
+      "text": "1. Running Samsung Portable SSD Software\nSamsung Portable SSD X5 setup screen showing welcome message, name field (filled as 'Samsung X5'), password and confirm password fields with placeholder text, red warning notice about data access loss if password is forgotten, SKIP button, and FINISH button.",
+      "char_count": 299,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_124",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 258
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "f5899572-c665-5f93-b5a1-d8766a5e902b",
+      "text_sha256": "96bd7130a26eb70be30151747b9e8cadc50cba9bd169ee943ffb595188994dc9",
+      "token_count": 58
+    },
+    {
+      "score": 0.6095285496410898,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English",
+      "split": "val",
+      "page_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00014",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_182",
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_183",
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_184",
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_185"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English/images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00016.jpg",
+      "source_shapes": [
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_182",
+          "shape": {
+            "x": 172.32000732421872,
+            "y": 175.447509765625,
+            "width": 814.2329101562502,
+            "height": 57.34130859375003
+          }
+        },
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_183",
+          "shape": {
+            "x": 172.32000732421872,
+            "y": 246.48754882812509,
+            "width": 862.7130737304694,
+            "height": 86.38134765624991
+          }
+        },
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_184",
+          "shape": {
+            "x": 172.32012939453128,
+            "y": 347.7677001953126,
+            "width": 652.3960571289065,
+            "height": 28.781249999999773
+          }
+        },
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_185",
+          "shape": {
+            "x": 172.32012939453128,
+            "y": 388.3277587890626,
+            "width": 769.1175537109375,
+            "height": 57.581298828125
+          }
+        }
+      ],
+      "title": "",
+      "text": "By clicking “UPDATE” button ( ), you can download the latest software (“SW”) or firmware (“FW”) and update it.\nBy clicking “Check for Update Automatically” toggle button ( ), you can choose whether to have SW and FW automatically updated whenever Samsung Portable SSD is connected.\nBy clicking refresh button ( ), you can refresh update status.\nBy clicking arrow down button ( ), you can see detail information on the applicable update.",
+      "char_count": 436,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_182",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 110
+        },
+        {
+          "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_183",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 170
+        },
+        {
+          "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_184",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 62
+        },
+        {
+          "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_185",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 91
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "1253d755-ad89-5124-83ce-d8053970d5dd",
+      "text_sha256": "7798e3fa4290931ac75ba22214702e3cf6acf0cdb50972161a5d26132041ef84",
+      "token_count": 85
+    },
+    {
+      "score": 0.6054940316093822,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English",
+      "split": "val",
+      "page_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00014",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_192"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English/images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00016.jpg",
+      "source_shapes": [
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_192",
+          "shape": {
+            "x": 159.77341461181646,
+            "y": 162.74998855590823,
+            "width": 906.7500000000005,
+            "height": 1014.7500000000005
+          }
+        }
+      ],
+      "title": "",
+      "text": "Samsung Portable SSD update interface showing 'Check for Updates Automatically' toggle (ON), refresh button, and two available updates: Software 1.5.1 (UI/icons improvement) and Samsung XS Firmware 2.2.1 (requires Security Mode off). Warning advises closing other software before proceeding.",
+      "char_count": 291,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_192",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 291
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "9d6e03a8-ecd6-5183-a7b5-76a44c26f611",
+      "text_sha256": "d373bf0f632eb2ef1fe64cc1607a2251ba799ee36ef18a010c31aea462517aaf",
+      "token_count": 60
+    }
+  ],
+  "keyword_candidates": [
+    {
+      "chunk_id": "4c214671-50e2-535e-a8ff-7ba0a9d62298",
+      "bm25_score": -23.77018106760054
+    },
+    {
+      "chunk_id": "59af191c-2011-595e-b6b3-8a3430676bf8",
+      "bm25_score": -15.057083366473005
+    },
+    {
+      "chunk_id": "33c2b092-3f68-5522-bd67-b7921769fa6b",
+      "bm25_score": -12.640395125992045
+    },
+    {
+      "chunk_id": "be7c5e1d-b312-50ed-a688-b8992dd37316",
+      "bm25_score": -11.431059428510629
+    },
+    {
+      "chunk_id": "21247c0a-108f-541f-8e8e-da3779c17c57",
+      "bm25_score": -10.920062604123139
+    },
+    {
+      "chunk_id": "990bac91-9823-53d3-9bd7-b4c48b5071c3",
+      "bm25_score": -8.557545092130002
+    },
+    {
+      "chunk_id": "674f80a1-7cc7-5056-a461-4de2852e2d9e",
+      "bm25_score": -7.128828548646801
+    },
+    {
+      "chunk_id": "a702536a-4c33-59b0-b76a-e0647f1225aa",
+      "bm25_score": -6.857933285832358
+    },
+    {
+      "chunk_id": "544ff150-b8a3-5123-a4f4-a214a8d34078",
+      "bm25_score": -6.640259400245668
+    },
+    {
+      "chunk_id": "aefd9ee8-eed6-55e9-842a-f44c85ba64dc",
+      "bm25_score": -6.194988650659648
+    },
+    {
+      "chunk_id": "2ea81d9d-c4b7-567f-a1e8-d4e8a23e72e6",
+      "bm25_score": -6.155548960847527
+    },
+    {
+      "chunk_id": "937e8e18-f035-5134-a31c-f157c3716d97",
+      "bm25_score": -6.091560054208875
+    },
+    {
+      "chunk_id": "af2da274-a1c7-5841-b0a4-0e17ad2cbf43",
+      "bm25_score": -6.044018996961867
+    },
+    {
+      "chunk_id": "d2128fe7-e263-526b-825d-5b096a8a71f6",
+      "bm25_score": -5.998508752849412
+    },
+    {
+      "chunk_id": "0c0085d7-bf48-597f-8b21-8b8ba891ffb3",
+      "bm25_score": -5.9785615550019635
+    },
+    {
+      "chunk_id": "0f1048d5-1824-532f-8b33-5577e7a215b0",
+      "bm25_score": -5.96887324250174
+    },
+    {
+      "chunk_id": "d3671735-5c1d-5e16-8c1f-dc2a33ce3d8b",
+      "bm25_score": -5.807540215872932
+    },
+    {
+      "chunk_id": "a6f40c17-8c10-5643-8a73-c2bbae865849",
+      "bm25_score": -5.755683314704043
+    },
+    {
+      "chunk_id": "7b6df008-a1c2-5b7b-8810-40dd7557cbc8",
+      "bm25_score": -5.739449621305772
+    },
+    {
+      "chunk_id": "bf7633f6-8f76-5903-91aa-3b5665a13ba3",
+      "bm25_score": -5.4630007541076875
+    }
+  ],
+  "fused_candidates": [
+    {
+      "chunk_id": "59af191c-2011-595e-b6b3-8a3430676bf8",
+      "score": 0.01626123744050767,
+      "dense_rank": 1,
+      "dense_score": 0.8932699944058972,
+      "keyword_rank": 2,
+      "keyword_score": -15.057083366473005
+    },
+    {
+      "chunk_id": "4c214671-50e2-535e-a8ff-7ba0a9d62298",
+      "score": 0.016009221311475412,
+      "dense_rank": 4,
+      "dense_score": 0.771248939810484,
+      "keyword_rank": 1,
+      "keyword_score": -23.77018106760054
+    },
+    {
+      "chunk_id": "33c2b092-3f68-5522-bd67-b7921769fa6b",
+      "score": 0.015873015873015872,
+      "dense_rank": 3,
+      "dense_score": 0.7858141458631107,
+      "keyword_rank": 3,
+      "keyword_score": -12.640395125992045
+    },
+    {
+      "chunk_id": "937e8e18-f035-5134-a31c-f157c3716d97",
+      "score": 0.015008960573476702,
+      "dense_rank": 2,
+      "dense_score": 0.8247782601866633,
+      "keyword_rank": 12,
+      "keyword_score": -6.091560054208875
+    },
+    {
+      "chunk_id": "a702536a-4c33-59b0-b76a-e0647f1225aa",
+      "score": 0.014815627743634766,
+      "dense_rank": 7,
+      "dense_score": 0.714907894341278,
+      "keyword_rank": 8,
+      "keyword_score": -6.857933285832358
+    },
+    {
+      "chunk_id": "544ff150-b8a3-5123-a4f4-a214a8d34078",
+      "score": 0.01459931798806479,
+      "dense_rank": 8,
+      "dense_score": 0.7070618423866966,
+      "keyword_rank": 9,
+      "keyword_score": -6.640259400245668
+    },
+    {
+      "chunk_id": "d2128fe7-e263-526b-825d-5b096a8a71f6",
+      "score": 0.01444906444906445,
+      "dense_rank": 5,
+      "dense_score": 0.7195080974670144,
+      "keyword_rank": 14,
+      "keyword_score": -5.998508752849412
+    },
+    {
+      "chunk_id": "990bac91-9823-53d3-9bd7-b4c48b5071c3",
+      "score": 0.014242424242424244,
+      "dense_rank": 15,
+      "dense_score": 0.642656912206962,
+      "keyword_rank": 6,
+      "keyword_score": -8.557545092130002
+    },
+    {
+      "chunk_id": "2ea81d9d-c4b7-567f-a1e8-d4e8a23e72e6",
+      "score": 0.014084507042253521,
+      "dense_rank": 11,
+      "dense_score": 0.6789880714856986,
+      "keyword_rank": 11,
+      "keyword_score": -6.155548960847527
+    },
+    {
+      "chunk_id": "0f1048d5-1824-532f-8b33-5577e7a215b0",
+      "score": 0.013825324180015256,
+      "dense_rank": 9,
+      "dense_score": 0.7016552730866958,
+      "keyword_rank": 16,
+      "keyword_score": -5.96887324250174
+    },
+    {
+      "chunk_id": "be7c5e1d-b312-50ed-a688-b8992dd37316",
+      "score": 0.0078125,
+      "keyword_rank": 4,
+      "keyword_score": -11.431059428510629
+    },
+    {
+      "chunk_id": "21247c0a-108f-541f-8e8e-da3779c17c57",
+      "score": 0.007692307692307693,
+      "keyword_rank": 5,
+      "keyword_score": -10.920062604123139
+    },
+    {
+      "chunk_id": "311c1887-8520-5e26-aaa0-bbc0d59357a1",
+      "score": 0.007575757575757576,
+      "dense_rank": 6,
+      "dense_score": 0.7182246860754454
+    },
+    {
+      "chunk_id": "674f80a1-7cc7-5056-a461-4de2852e2d9e",
+      "score": 0.007462686567164179,
+      "keyword_rank": 7,
+      "keyword_score": -7.128828548646801
+    },
+    {
+      "chunk_id": "c98247c8-7253-5136-b55a-9dd91b2cbeee",
+      "score": 0.007142857142857143,
+      "dense_rank": 10,
+      "dense_score": 0.7013439144137252
+    },
+    {
+      "chunk_id": "aefd9ee8-eed6-55e9-842a-f44c85ba64dc",
+      "score": 0.007142857142857143,
+      "keyword_rank": 10,
+      "keyword_score": -6.194988650659648
+    },
+    {
+      "chunk_id": "03797055-ef9a-5b21-9e77-90984ad113cb",
+      "score": 0.006944444444444444,
+      "dense_rank": 12,
+      "dense_score": 0.6770505507212428
+    },
+    {
+      "chunk_id": "93f59691-43a1-5485-b022-6152b6a1d0b7",
+      "score": 0.00684931506849315,
+      "dense_rank": 13,
+      "dense_score": 0.6734604146712604
+    },
+    {
+      "chunk_id": "af2da274-a1c7-5841-b0a4-0e17ad2cbf43",
+      "score": 0.00684931506849315,
+      "keyword_rank": 13,
+      "keyword_score": -6.044018996961867
+    },
+    {
+      "chunk_id": "44546d87-a3d7-52bb-9e74-db142b6ce798",
+      "score": 0.006756756756756757,
+      "dense_rank": 14,
+      "dense_score": 0.6512181462035476
+    },
+    {
+      "chunk_id": "0c0085d7-bf48-597f-8b21-8b8ba891ffb3",
+      "score": 0.006666666666666667,
+      "keyword_rank": 15,
+      "keyword_score": -5.9785615550019635
+    },
+    {
+      "chunk_id": "cafd7d64-2a4a-55af-a9a1-04e82e2ed242",
+      "score": 0.006578947368421052,
+      "dense_rank": 16,
+      "dense_score": 0.6290098141726779
+    },
+    {
+      "chunk_id": "b1130b84-2864-5ddd-9327-3a49dea60949",
+      "score": 0.006493506493506494,
+      "dense_rank": 17,
+      "dense_score": 0.6283814244174544
+    },
+    {
+      "chunk_id": "d3671735-5c1d-5e16-8c1f-dc2a33ce3d8b",
+      "score": 0.006493506493506494,
+      "keyword_rank": 17,
+      "keyword_score": -5.807540215872932
+    },
+    {
+      "chunk_id": "f5899572-c665-5f93-b5a1-d8766a5e902b",
+      "score": 0.00641025641025641,
+      "dense_rank": 18,
+      "dense_score": 0.6139161630215799
+    },
+    {
+      "chunk_id": "a6f40c17-8c10-5643-8a73-c2bbae865849",
+      "score": 0.00641025641025641,
+      "keyword_rank": 18,
+      "keyword_score": -5.755683314704043
+    },
+    {
+      "chunk_id": "1253d755-ad89-5124-83ce-d8053970d5dd",
+      "score": 0.006329113924050633,
+      "dense_rank": 19,
+      "dense_score": 0.6095285496410898
+    },
+    {
+      "chunk_id": "7b6df008-a1c2-5b7b-8810-40dd7557cbc8",
+      "score": 0.006329113924050633,
+      "keyword_rank": 19,
+      "keyword_score": -5.739449621305772
+    },
+    {
+      "chunk_id": "9d6e03a8-ecd6-5183-a7b5-76a44c26f611",
+      "score": 0.00625,
+      "dense_rank": 20,
+      "dense_score": 0.6054940316093822
+    },
+    {
+      "chunk_id": "bf7633f6-8f76-5903-91aa-3b5665a13ba3",
+      "score": 0.00625,
+      "keyword_rank": 20,
+      "keyword_score": -5.4630007541076875
+    }
+  ],
+  "variants": {
+    "B_english_dense": {
+      "sources": [
+        {
+          "chunk_id": "59af191c-2011-595e-b6b3-8a3430676bf8",
+          "manual_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English",
+          "page_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00015",
+          "chunk_type": "text",
+          "text": "Software can be uninstalled via “Uninstall or change a program”. Go to Control panel → Programs → Programs and Features → Uninstall or change a program → Double-click “Samsung Portable SSD Software” and select “Yes”\nSoftware need to be deleted manually by executing PSSD_Cleanup.bat in application installation path. (Normally c:\\ProgramData\\Samsung Apps\\Portable SSD\\PSSD_Cleanup.bat) Please refer to FAQ in the Samsung website (http://www.samsung.com/samsungssd) for more details.",
+          "content_region_ids": [
+            "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_200",
+            "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_202"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English/images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00017.jpg",
+          "source_shapes": [
+            {
+              "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_200",
+              "shape": {
+                "x": 594.4741821289062,
+                "y": 409.4771728515628,
+                "width": 440.2212524414065,
+                "height": 126.11218261718756
+              }
+            },
+            {
+              "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_202",
+              "shape": {
+                "x": 594.4722900390628,
+                "y": 553.9707031250005,
+                "width": 413.5966796875002,
+                "height": 207.72174072265614
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_200",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 215
+            },
+            {
+              "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_202",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 266
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.8932699944058972,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S1"
+        },
+        {
+          "chunk_id": "937e8e18-f035-5134-a31c-f157c3716d97",
+          "manual_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English",
+          "page_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00015",
+          "chunk_type": "title",
+          "text": "6. Delete “Samsung Portable SSD Software”",
+          "content_region_ids": [
+            "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_194"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English/images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00017.jpg",
+          "source_shapes": [
+            {
+              "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_194",
+              "shape": {
+                "x": 144.00000000000006,
+                "y": 280.32763671875006,
+                "width": 469.31994628906256,
+                "height": 28.78125000000017
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_194",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 41
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [],
+          "score": 0.8247782601866633,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S2"
+        },
+        {
+          "chunk_id": "33c2b092-3f68-5522-bd67-b7921769fa6b",
+          "manual_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English",
+          "page_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00015",
+          "chunk_type": "table",
+          "text": "First row (header unconfirmed): Column 1: Computer OS | Column 2: Computer OS | Column 3: Description\nColumn 1: Computer OS | Column 2: Computer OS | Column 3: Description\nColumn 1: Windows OS | Column 2: If user installed SW using SamsungPortableSSD_Set up_Win.exe | Column 3: Software can be uninstalled via \"Uninstallor changea program\".Go to Control panel→ Programs→ Programs and Features→Uninstall or change a program→ Double-click \"Samsung Portable SSD Software\"and select \"Yes\"",
+          "content_region_ids": [
+            "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_210"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English/images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00017.jpg",
+          "source_shapes": [
+            {
+              "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_210",
+              "shape": {
+                "x": 156.37500000000006,
+                "y": 355.5000000000001,
+                "width": 904.5000000000005,
+                "height": 749.2500000000003
+              }
+            },
+            {
+              "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_196",
+              "shape": {
+                "x": 316.07998657226574,
+                "y": 368.68493652343756,
+                "width": 124.41171264648443,
+                "height": 25.32751464843767
+              }
+            },
+            {
+              "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_197",
+              "shape": {
+                "x": 761.7600097656255,
+                "y": 368.68493652343756,
+                "width": 108.56445312500011,
+                "height": 25.32751464843767
+              }
+            },
+            {
+              "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_198",
+              "shape": {
+                "x": 185.75999450683605,
+                "y": 572.924926757813,
+                "width": 115.48521423339838,
+                "height": 25.327514648437614
+              }
+            },
+            {
+              "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_199",
+              "shape": {
+                "x": 324.96191406250017,
+                "y": 434.6944580078126,
+                "width": 245.3084106445313,
+                "height": 75.7198486328125
+              }
+            }
+          ],
+          "source_spans": [],
+          "content_origin": "paddle_table",
+          "quality_flags": [
+            "table_header_unmarked_review_required"
+          ],
+          "score": 0.7858141458631107,
+          "table_rows": [
+            0,
+            1
+          ],
+          "table_cells": [
+            {
+              "row": 0,
+              "column": 0,
+              "rowspan": 1,
+              "colspan": 2
+            },
+            {
+              "row": 0,
+              "column": 0,
+              "rowspan": 1,
+              "colspan": 2
+            },
+            {
+              "row": 0,
+              "column": 2,
+              "rowspan": 1,
+              "colspan": 1
+            },
+            {
+              "row": 1,
+              "column": 0,
+              "rowspan": 2,
+              "colspan": 1
+            },
+            {
+              "row": 1,
+              "column": 1,
+              "rowspan": 1,
+              "colspan": 1
+            },
+            {
+              "row": 1,
+              "column": 2,
+              "rowspan": 1,
+              "colspan": 1
+            }
+          ],
+          "source_id": "S3"
+        },
+        {
+          "chunk_id": "4c214671-50e2-535e-a8ff-7ba0a9d62298",
+          "manual_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English",
+          "page_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00015",
+          "chunk_type": "text",
+          "text": "Deleting software on each OS\nIf user installed SW using SamsungPortableSSD.exe",
+          "content_region_ids": [
+            "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_201"
+          ],
+          "context_region_ids": [
+            "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_195"
+          ],
+          "image_filename": "images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English/images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00017.jpg",
+          "source_shapes": [
+            {
+              "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_201",
+              "shape": {
+                "x": 324.9599914550783,
+                "y": 632.6849365234378,
+                "width": 240.31326293945307,
+                "height": 50.52368164062523
+              }
+            },
+            {
+              "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_195",
+              "shape": {
+                "x": 172.3199462890626,
+                "y": 320.88769531250017,
+                "width": 313.14846801757824,
+                "height": 28.781250000000057
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_201",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 49
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.771248939810484,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S4"
+        },
+        {
+          "chunk_id": "d2128fe7-e263-526b-825d-5b096a8a71f6",
+          "manual_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English",
+          "page_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00015",
+          "chunk_type": "table",
+          "text": "First row (header unconfirmed): Column 1: Computer OS | Column 2: Computer OS | Column 3: Description\nColumn 1: Windows OS | Column 2: If user installed SW using SamsunqPortableSSD.exe | Column 3: Software need to be deleted manuallyby executing PSSD_Cleanup.bat in application installation path.(Normally c:\\ProgramData\\Samsung Apps\\Portable SSD\\PSSD_Cleanup.bat) Please refer to FAQin the Samsung website (http://www.samsung.com/samsungssd)for more details.",
+          "content_region_ids": [
+            "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_210"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English/images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00017.jpg",
+          "source_shapes": [
+            {
+              "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_210",
+              "shape": {
+                "x": 156.37500000000006,
+                "y": 355.5000000000001,
+                "width": 904.5000000000005,
+                "height": 749.2500000000003
+              }
+            },
+            {
+              "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_196",
+              "shape": {
+                "x": 316.07998657226574,
+                "y": 368.68493652343756,
+                "width": 124.41171264648443,
+                "height": 25.32751464843767
+              }
+            },
+            {
+              "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_197",
+              "shape": {
+                "x": 761.7600097656255,
+                "y": 368.68493652343756,
+                "width": 108.56445312500011,
+                "height": 25.32751464843767
+              }
+            },
+            {
+              "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_198",
+              "shape": {
+                "x": 185.75999450683605,
+                "y": 572.924926757813,
+                "width": 115.48521423339838,
+                "height": 25.327514648437614
+              }
+            }
+          ],
+          "source_spans": [],
+          "content_origin": "paddle_table",
+          "quality_flags": [
+            "table_header_unmarked_review_required"
+          ],
+          "score": 0.7195080974670144,
+          "table_rows": [
+            2
+          ],
+          "table_cells": [
+            {
+              "row": 1,
+              "column": 0,
+              "rowspan": 2,
+              "colspan": 1
+            },
+            {
+              "row": 2,
+              "column": 1,
+              "rowspan": 1,
+              "colspan": 1
+            },
+            {
+              "row": 2,
+              "column": 2,
+              "rowspan": 1,
+              "colspan": 1
+            }
+          ],
+          "source_id": "S5"
+        }
+      ],
+      "excluded_sources": [],
+      "retrieved_chunk_ids": [
+        "59af191c-2011-595e-b6b3-8a3430676bf8",
+        "937e8e18-f035-5134-a31c-f157c3716d97",
+        "33c2b092-3f68-5522-bd67-b7921769fa6b",
+        "4c214671-50e2-535e-a8ff-7ba0a9d62298",
+        "d2128fe7-e263-526b-825d-5b096a8a71f6"
+      ]
+    },
+    "C_english_hybrid": {
+      "sources": [
+        {
+          "chunk_id": "59af191c-2011-595e-b6b3-8a3430676bf8",
+          "manual_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English",
+          "page_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00015",
+          "chunk_type": "text",
+          "text": "Software can be uninstalled via “Uninstall or change a program”. Go to Control panel → Programs → Programs and Features → Uninstall or change a program → Double-click “Samsung Portable SSD Software” and select “Yes”\nSoftware need to be deleted manually by executing PSSD_Cleanup.bat in application installation path. (Normally c:\\ProgramData\\Samsung Apps\\Portable SSD\\PSSD_Cleanup.bat) Please refer to FAQ in the Samsung website (http://www.samsung.com/samsungssd) for more details.",
+          "content_region_ids": [
+            "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_200",
+            "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_202"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English/images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00017.jpg",
+          "source_shapes": [
+            {
+              "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_200",
+              "shape": {
+                "x": 594.4741821289062,
+                "y": 409.4771728515628,
+                "width": 440.2212524414065,
+                "height": 126.11218261718756
+              }
+            },
+            {
+              "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_202",
+              "shape": {
+                "x": 594.4722900390628,
+                "y": 553.9707031250005,
+                "width": 413.5966796875002,
+                "height": 207.72174072265614
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_200",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 215
+            },
+            {
+              "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_202",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 266
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.01626123744050767,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S1"
+        },
+        {
+          "chunk_id": "4c214671-50e2-535e-a8ff-7ba0a9d62298",
+          "manual_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English",
+          "page_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00015",
+          "chunk_type": "text",
+          "text": "Deleting software on each OS\nIf user installed SW using SamsungPortableSSD.exe",
+          "content_region_ids": [
+            "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_201"
+          ],
+          "context_region_ids": [
+            "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_195"
+          ],
+          "image_filename": "images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English/images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00017.jpg",
+          "source_shapes": [
+            {
+              "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_201",
+              "shape": {
+                "x": 324.9599914550783,
+                "y": 632.6849365234378,
+                "width": 240.31326293945307,
+                "height": 50.52368164062523
+              }
+            },
+            {
+              "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_195",
+              "shape": {
+                "x": 172.3199462890626,
+                "y": 320.88769531250017,
+                "width": 313.14846801757824,
+                "height": 28.781250000000057
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_201",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 49
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.016009221311475412,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S2"
+        },
+        {
+          "chunk_id": "33c2b092-3f68-5522-bd67-b7921769fa6b",
+          "manual_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English",
+          "page_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00015",
+          "chunk_type": "table",
+          "text": "First row (header unconfirmed): Column 1: Computer OS | Column 2: Computer OS | Column 3: Description\nColumn 1: Computer OS | Column 2: Computer OS | Column 3: Description\nColumn 1: Windows OS | Column 2: If user installed SW using SamsungPortableSSD_Set up_Win.exe | Column 3: Software can be uninstalled via \"Uninstallor changea program\".Go to Control panel→ Programs→ Programs and Features→Uninstall or change a program→ Double-click \"Samsung Portable SSD Software\"and select \"Yes\"",
+          "content_region_ids": [
+            "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_210"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English/images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00017.jpg",
+          "source_shapes": [
+            {
+              "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_210",
+              "shape": {
+                "x": 156.37500000000006,
+                "y": 355.5000000000001,
+                "width": 904.5000000000005,
+                "height": 749.2500000000003
+              }
+            },
+            {
+              "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_196",
+              "shape": {
+                "x": 316.07998657226574,
+                "y": 368.68493652343756,
+                "width": 124.41171264648443,
+                "height": 25.32751464843767
+              }
+            },
+            {
+              "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_197",
+              "shape": {
+                "x": 761.7600097656255,
+                "y": 368.68493652343756,
+                "width": 108.56445312500011,
+                "height": 25.32751464843767
+              }
+            },
+            {
+              "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_198",
+              "shape": {
+                "x": 185.75999450683605,
+                "y": 572.924926757813,
+                "width": 115.48521423339838,
+                "height": 25.327514648437614
+              }
+            },
+            {
+              "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_199",
+              "shape": {
+                "x": 324.96191406250017,
+                "y": 434.6944580078126,
+                "width": 245.3084106445313,
+                "height": 75.7198486328125
+              }
+            }
+          ],
+          "source_spans": [],
+          "content_origin": "paddle_table",
+          "quality_flags": [
+            "table_header_unmarked_review_required"
+          ],
+          "score": 0.015873015873015872,
+          "table_rows": [
+            0,
+            1
+          ],
+          "table_cells": [
+            {
+              "row": 0,
+              "column": 0,
+              "rowspan": 1,
+              "colspan": 2
+            },
+            {
+              "row": 0,
+              "column": 0,
+              "rowspan": 1,
+              "colspan": 2
+            },
+            {
+              "row": 0,
+              "column": 2,
+              "rowspan": 1,
+              "colspan": 1
+            },
+            {
+              "row": 1,
+              "column": 0,
+              "rowspan": 2,
+              "colspan": 1
+            },
+            {
+              "row": 1,
+              "column": 1,
+              "rowspan": 1,
+              "colspan": 1
+            },
+            {
+              "row": 1,
+              "column": 2,
+              "rowspan": 1,
+              "colspan": 1
+            }
+          ],
+          "source_id": "S3"
+        },
+        {
+          "chunk_id": "937e8e18-f035-5134-a31c-f157c3716d97",
+          "manual_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English",
+          "page_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00015",
+          "chunk_type": "title",
+          "text": "6. Delete “Samsung Portable SSD Software”",
+          "content_region_ids": [
+            "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_194"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English/images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00017.jpg",
+          "source_shapes": [
+            {
+              "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_194",
+              "shape": {
+                "x": 144.00000000000006,
+                "y": 280.32763671875006,
+                "width": 469.31994628906256,
+                "height": 28.78125000000017
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_194",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 41
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [],
+          "score": 0.015008960573476702,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S4"
+        },
+        {
+          "chunk_id": "a702536a-4c33-59b0-b76a-e0647f1225aa",
+          "manual_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English",
+          "page_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00008",
+          "chunk_type": "text",
+          "text": "1. Running Samsung Portable SSD Software\nSamsung Portable SSD Software Icon",
+          "content_region_ids": [
+            "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_117"
+          ],
+          "context_region_ids": [
+            "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_114"
+          ],
+          "image_filename": "images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English/images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00010.jpg",
+          "source_shapes": [
+            {
+              "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_117",
+              "shape": {
+                "x": 398.64001464843756,
+                "y": 492.0074462890626,
+                "width": 393.30236816406267,
+                "height": 28.78125
+              }
+            },
+            {
+              "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_114",
+              "shape": {
+                "x": 144,
+                "y": 169.92749023437506,
+                "width": 469.4676513671877,
+                "height": 28.78125000000003
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_117",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 34
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.014815627743634766,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S5"
+        }
+      ],
+      "excluded_sources": [],
+      "retrieved_chunk_ids": [
+        "59af191c-2011-595e-b6b3-8a3430676bf8",
+        "4c214671-50e2-535e-a8ff-7ba0a9d62298",
+        "33c2b092-3f68-5522-bd67-b7921769fa6b",
+        "937e8e18-f035-5134-a31c-f157c3716d97",
+        "a702536a-4c33-59b0-b76a-e0647f1225aa"
+      ]
+    }
+  },
+  "retrieval_seconds": 1.6751383999944665
+}

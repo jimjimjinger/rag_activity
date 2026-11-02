@@ -1,0 +1,1825 @@
+{
+  "case_id": "TEXT02",
+  "manual_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9",
+  "question": "모니터를 설치하기 전에 무엇을 해야 하나요?",
+  "english_query": "What should I do before installing the monitor?",
+  "dense_candidates": [
+    {
+      "score": 0.7279040611419516,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9",
+      "split": "val",
+      "page_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00007",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_230"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9/images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00007.jpg",
+      "source_shapes": [
+        {
+          "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_230",
+          "shape": {
+            "x": 93.81079864501955,
+            "y": 76.34643554687501,
+            "width": 647.1618576049805,
+            "height": 47.36328125
+          }
+        }
+      ],
+      "title": "",
+      "text": "Before setting up the monitor, ensure that the power to the monitor, the computer system, and other attached devices is turned off.",
+      "char_count": 131,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_230",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 131
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "5e4b4267-ff79-5cd8-803b-6da941d6e757",
+      "text_sha256": "441dde5e571f692f6bd255db6ea8427a1bed7ae24b692f78480eb085f74023b0",
+      "token_count": 26
+    },
+    {
+      "score": 0.7279040611419516,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9",
+      "split": "val",
+      "page_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00004",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_178"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9/images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00004.jpg",
+      "source_shapes": [
+        {
+          "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_178",
+          "shape": {
+            "x": 92.71639251708977,
+            "y": 76.34643554687496,
+            "width": 642.1538467407224,
+            "height": 47.05664062499997
+          }
+        }
+      ],
+      "title": "",
+      "text": "Before setting up the monitor, ensure that the power to the monitor, the computer system, and other attached devices is turned off.",
+      "char_count": 131,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_178",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 131
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "23aab503-40fe-59de-a24d-35d71cfe186b",
+      "text_sha256": "441dde5e571f692f6bd255db6ea8427a1bed7ae24b692f78480eb085f74023b0",
+      "token_count": 26
+    },
+    {
+      "score": 0.6824659760977445,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9",
+      "split": "val",
+      "page_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00004",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_188"
+      ],
+      "context_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_179"
+      ],
+      "image_filename": "images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9/images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00004.jpg",
+      "source_shapes": [
+        {
+          "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_188",
+          "shape": {
+            "x": 91.33333333333331,
+            "y": 186.40833282470697,
+            "width": 483.99999999999994,
+            "height": 29.333333333333343
+          }
+        },
+        {
+          "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_179",
+          "shape": {
+            "x": 92.70839691162102,
+            "y": 139.25961303710938,
+            "width": 232.77393341064447,
+            "height": 33.37599182128895
+          }
+        }
+      ],
+      "title": "Connecting the stand",
+      "text": "Connecting the stand\n1. Place the monitor with its front facing downward on a soft cloth.",
+      "char_count": 89,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_188",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 68
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "25930787-1e04-57fc-af33-cbe73669bd8b",
+      "text_sha256": "515c0966d746ef03b760f1e6b119451e68d6594924f0f808946bd6b0ea9b1924",
+      "token_count": 19
+    },
+    {
+      "score": 0.6601411501008544,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9",
+      "split": "val",
+      "page_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00004",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_191"
+      ],
+      "context_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_179"
+      ],
+      "image_filename": "images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9/images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00004.jpg",
+      "source_shapes": [
+        {
+          "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_191",
+          "shape": {
+            "x": 91.99999999999999,
+            "y": 579.7416585286456,
+            "width": 519.9999999999998,
+            "height": 28.000000000000114
+          }
+        },
+        {
+          "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_179",
+          "shape": {
+            "x": 92.70839691162102,
+            "y": 139.25961303710938,
+            "width": 232.77393341064447,
+            "height": 33.37599182128895
+          }
+        }
+      ],
+      "title": "Connecting the stand",
+      "text": "Connecting the stand\n4. Once assembled take the monitor up carefully and face the front side",
+      "char_count": 92,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_191",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 71
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "a88949f9-9dbc-5bbb-895a-446137923ffd",
+      "text_sha256": "47f958a8e94db4c35663487bef4ba4b2a682c0b8e4622346da225a47996be34d",
+      "token_count": 18
+    },
+    {
+      "score": 0.6566591456027397,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9",
+      "split": "val",
+      "page_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00024",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_700"
+      ],
+      "context_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_699"
+      ],
+      "image_filename": "images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9/images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00024.jpg",
+      "source_shapes": [
+        {
+          "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_700",
+          "shape": {
+            "x": 465.80841064453097,
+            "y": 125.63110351562494,
+            "width": 283.50103759765597,
+            "height": 44.2333984375
+          }
+        },
+        {
+          "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_699",
+          "shape": {
+            "x": 92.70839691162098,
+            "y": 77.93008112321817,
+            "width": 632.4934675517834,
+            "height": 48.862775407757624
+          }
+        }
+      ],
+      "title": "This monitor satisfies the specifications of the Wall mount plate or the interchange device.",
+      "text": "This monitor satisfies the specifications of the Wall mount plate or the interchange device.\n2. Place the monitor face down on the cushion or soft cloth.",
+      "char_count": 153,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_700",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 60
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "8a070a44-d040-5d74-910d-a07551252367",
+      "text_sha256": "5b410edea28efa38f4cd7a692f36cf07489ee0cd0e989c3d4da480034123d39f",
+      "token_count": 29
+    },
+    {
+      "score": 0.6368527321879092,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9",
+      "split": "val",
+      "page_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00008",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_249"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9/images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00008.jpg",
+      "source_shapes": [
+        {
+          "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_249",
+          "shape": {
+            "x": 92.70839691162098,
+            "y": 121.00341796874989,
+            "width": 632.6872940063469,
+            "height": 109.69334411621088
+          }
+        }
+      ],
+      "title": "",
+      "text": "2 1. Place the monitor in a convenient, well-ventilated location near your computer. 2. Connect the signal cable . When attached, tighten the thumbscrews to secure the connection. 3. Connect the power cord into a proper power outlet that is easily accessible and close to the display. 1",
+      "char_count": 286,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_249",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 286
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "db580643-6f99-5fae-8798-0c462d1cfcfc",
+      "text_sha256": "93b547bb5b8e8f7bb9e32d43dd8bc466db7ba4b2382a797128e97c010cd1b34e",
+      "token_count": 65
+    },
+    {
+      "score": 0.6324529092854387,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9",
+      "split": "val",
+      "page_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00024",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_712"
+      ],
+      "context_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_699"
+      ],
+      "image_filename": "images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9/images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00024.jpg",
+      "source_shapes": [
+        {
+          "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_712",
+          "shape": {
+            "x": 91.78245614035077,
+            "y": 125.12062262819519,
+            "width": 356.6999999999997,
+            "height": 29.203508771929748
+          }
+        },
+        {
+          "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_699",
+          "shape": {
+            "x": 92.70839691162098,
+            "y": 77.93008112321817,
+            "width": 632.4934675517834,
+            "height": 48.862775407757624
+          }
+        }
+      ],
+      "title": "This monitor satisfies the specifications of the Wall mount plate or the interchange device.",
+      "text": "This monitor satisfies the specifications of the Wall mount plate or the interchange device.\n1. Put a cushion or soft cloth on a flat surface.",
+      "char_count": 142,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_712",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 49
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "74167a7f-9d2a-5c66-8d37-be351a06238b",
+      "text_sha256": "b823993fe26e4ef155c2fb3045986f97c004a9b87489a08cd26459c707a71d9d",
+      "token_count": 28
+    },
+    {
+      "score": 0.6006220515844845,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9",
+      "split": "val",
+      "page_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00024",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_701"
+      ],
+      "context_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_699"
+      ],
+      "image_filename": "images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9/images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00024.jpg",
+      "source_shapes": [
+        {
+          "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_701",
+          "shape": {
+            "x": 93.51059722900386,
+            "y": 330.10272216796847,
+            "width": 461.80672454833945,
+            "height": 26.279296875000057
+          }
+        },
+        {
+          "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_699",
+          "shape": {
+            "x": 92.70839691162098,
+            "y": 77.93008112321817,
+            "width": 632.4934675517834,
+            "height": 48.862775407757624
+          }
+        }
+      ],
+      "title": "This monitor satisfies the specifications of the Wall mount plate or the interchange device.",
+      "text": "This monitor satisfies the specifications of the Wall mount plate or the interchange device.\n3. Hold the product as it follows and lift up the Stand slightly.",
+      "char_count": 158,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_701",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 65
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "546c52ff-91cc-5bb9-9d51-ae846ddabe1e",
+      "text_sha256": "f519ba65d9dd3ddea6939fef3ee864fe53e890a04a4a5461edcae0d301e36d18",
+      "token_count": 30
+    },
+    {
+      "score": 0.5842717933278063,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9",
+      "split": "val",
+      "page_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00024",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_703"
+      ],
+      "context_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_699"
+      ],
+      "image_filename": "images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9/images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00024.jpg",
+      "source_shapes": [
+        {
+          "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_703",
+          "shape": {
+            "x": 92.04173024495435,
+            "y": 854.1111450195309,
+            "width": 250.5894037882486,
+            "height": 26.279296875
+          }
+        },
+        {
+          "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_699",
+          "shape": {
+            "x": 92.70839691162098,
+            "y": 77.93008112321817,
+            "width": 632.4934675517834,
+            "height": 48.862775407757624
+          }
+        }
+      ],
+      "title": "This monitor satisfies the specifications of the Wall mount plate or the interchange device.",
+      "text": "This monitor satisfies the specifications of the Wall mount plate or the interchange device.\n5. Pull out the Stand to remove.",
+      "char_count": 125,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_703",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 32
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "3a289fdf-dde5-5987-9090-1cd68350aef3",
+      "text_sha256": "3918054f1e1aa58340b454e0dada9b689d37fb1b661cccd221a1c31e1d02f7aa",
+      "token_count": 24
+    },
+    {
+      "score": 0.5784027940867355,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9",
+      "split": "val",
+      "page_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00008",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_270"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9/images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00008.jpg",
+      "source_shapes": [
+        {
+          "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_270",
+          "shape": {
+            "x": 515.4999999999999,
+            "y": 276.61250305175776,
+            "width": 207.0000000000001,
+            "height": 251.00000000000006
+          }
+        }
+      ],
+      "title": "",
+      "text": "A monitor base with three cables connected: two pink video cables and one blue cable. The cables are plugged into ports on the back of the monitor stand.",
+      "char_count": 153,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_270",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 153
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "93cf2ea4-0b26-546e-9388-53f8c6461067",
+      "text_sha256": "a3ac57e5e2d3bc07f7af1af29dfa82d35bdbf1cbba612e1a8ad29fd31ddc58d2",
+      "token_count": 31
+    },
+    {
+      "score": 0.5741659775264693,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9",
+      "split": "val",
+      "page_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00024",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_718"
+      ],
+      "context_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_699"
+      ],
+      "image_filename": "images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9/images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00024.jpg",
+      "source_shapes": [
+        {
+          "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_718",
+          "shape": {
+            "x": 89.99999999999997,
+            "y": 851.7416992187498,
+            "width": 444.66666666666663,
+            "height": 270.0000000000002
+          }
+        },
+        {
+          "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_699",
+          "shape": {
+            "x": 92.70839691162098,
+            "y": 77.93008112321817,
+            "width": 632.4934675517834,
+            "height": 48.862775407757624
+          }
+        }
+      ],
+      "title": "This monitor satisfies the specifications of the Wall mount plate or the interchange device.",
+      "text": "This monitor satisfies the specifications of the Wall mount plate or the interchange device.\nStep 5 shows pulling out the stand to remove it from an LG monitor base. A hand grips the black plastic stand while another supports the monitor back. The red arrow indicates the direction of removal.",
+      "char_count": 293,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_718",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 200
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "c7467dd5-b52d-55a6-b38a-642b4da6e6f6",
+      "text_sha256": "81226771584896a8dbdae6fa7d1c3ae28a157a2d1e260f52f0a1d4b2e5b6b9af",
+      "token_count": 55
+    },
+    {
+      "score": 0.567071311442484,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9",
+      "split": "val",
+      "page_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00024",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_711"
+      ],
+      "context_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_699"
+      ],
+      "image_filename": "images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9/images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00024.jpg",
+      "source_shapes": [
+        {
+          "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_711",
+          "shape": {
+            "x": 253.2638501619036,
+            "y": 884.5556702730944,
+            "width": 278.1702530710319,
+            "height": 234.03760558011209
+          }
+        },
+        {
+          "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_699",
+          "shape": {
+            "x": 92.70839691162098,
+            "y": 77.93008112321817,
+            "width": 632.4934675517834,
+            "height": 48.862775407757624
+          }
+        }
+      ],
+      "title": "This monitor satisfies the specifications of the Wall mount plate or the interchange device.",
+      "text": "This monitor satisfies the specifications of the Wall mount plate or the interchange device.\nA person is adjusting the stand of an LG monitor, pointing to the base with a red arrow. The image shows hands manipulating the monitor's mounting mechanism on a desk surface.",
+      "char_count": 268,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_711",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 175
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "e1013448-1ebe-5827-9595-4070db5a432e",
+      "text_sha256": "9c67128362d9ce8ac9f29539729147b74f7741d4e7f5adc4eb6b84d1d8feb8c4",
+      "token_count": 50
+    },
+    {
+      "score": 0.5580442843557605,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9",
+      "split": "val",
+      "page_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00004",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_193"
+      ],
+      "context_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_179"
+      ],
+      "image_filename": "images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9/images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00004.jpg",
+      "source_shapes": [
+        {
+          "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_193",
+          "shape": {
+            "x": 86.49999999999999,
+            "y": 576.6125183105469,
+            "width": 605.9999999999999,
+            "height": 373.9999999999998
+          }
+        },
+        {
+          "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_179",
+          "shape": {
+            "x": 92.70839691162102,
+            "y": 139.25961303710938,
+            "width": 232.77393341064447,
+            "height": 33.37599182128895
+          }
+        }
+      ],
+      "title": "Connecting the stand",
+      "text": "Connecting the stand\nStep 4 shows assembling the monitor stand base and body. The image displays the 'Stand Base' (a circular component) and 'Stand Body' attached to the monitor's rear panel. A blue arrow indicates the direction of assembly.",
+      "char_count": 241,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_193",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 220
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "7fa3104b-5363-5cd0-ae1c-965aabbd661e",
+      "text_sha256": "1a17b491ef2126cf66160cef98f482e78466da357ce9aea29ac3f16661da993a",
+      "token_count": 51
+    },
+    {
+      "score": 0.5572176445187238,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9",
+      "split": "val",
+      "page_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00019",
+      "chunk_type": "table",
+      "content_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_81"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9/images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00019.jpg",
+      "source_shapes": [
+        {
+          "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_81",
+          "shape": {
+            "x": 81.50000000000001,
+            "y": 74.61249542236328,
+            "width": 677.0000000000001,
+            "height": 332.00000000000006
+          }
+        },
+        {
+          "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_76",
+          "shape": {
+            "x": 110.15740203857426,
+            "y": 89.03198242187499,
+            "width": 394.7111282348632,
+            "height": 28.60800170898436
+          }
+        }
+      ],
+      "title": "",
+      "text": "First row (header unconfirmed): Column 1: Have you installedthedisplay driver? Have you installed the display driver? | Column 2: Have you installedthedisplay driver? Have you installed the display driver?\nColumn 1: Do you see an \"Unrecognized monitor, | Column 2: Plug&Play (VESADDC) monitor found\" message?",
+      "char_count": 308,
+      "overlap_char_count": 0,
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "html_parser_repaired_review_required",
+        "table_header_unmarked_review_required"
+      ],
+      "source_spans": [],
+      "table_rows": [
+        2
+      ],
+      "table_cells": [
+        {
+          "row": 2,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "chunk_id": "fa76f670-32d3-5b89-957b-095f7629b9e4",
+      "text_sha256": "8533b770a5b0cf22b24b917a2c5bbdb7142a4305992aa57baee2382611d7ad29",
+      "deduplicated_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_76"
+      ],
+      "token_count": 75
+    },
+    {
+      "score": 0.5489195464807218,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9",
+      "split": "val",
+      "page_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00024",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_708"
+      ],
+      "context_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_699"
+      ],
+      "image_filename": "images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9/images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00024.jpg",
+      "source_shapes": [
+        {
+          "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_708",
+          "shape": {
+            "x": 304.5677012661045,
+            "y": 362.1573681212304,
+            "width": 208.64989698978883,
+            "height": 187.2625475431742
+          }
+        },
+        {
+          "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_699",
+          "shape": {
+            "x": 92.70839691162098,
+            "y": 77.93008112321817,
+            "width": 632.4934675517834,
+            "height": 48.862775407757624
+          }
+        }
+      ],
+      "title": "This monitor satisfies the specifications of the Wall mount plate or the interchange device.",
+      "text": "This monitor satisfies the specifications of the Wall mount plate or the interchange device.\nA hand adjusts the back panel of a black monitor or display unit, showing its mounting bracket and stand base. The device features a circular logo near the top center of the rear casing.",
+      "char_count": 279,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_708",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 186
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "3cbc47c0-2788-59e7-83fe-990c31c86cee",
+      "text_sha256": "fd0b0629853cd6f6bfb75fd2f60fe038801197a6ad7a90e889d11afd96f72da2",
+      "token_count": 52
+    },
+    {
+      "score": 0.5486861151099648,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9",
+      "split": "val",
+      "page_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00024",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_702"
+      ],
+      "context_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_699"
+      ],
+      "image_filename": "images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9/images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00024.jpg",
+      "source_shapes": [
+        {
+          "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_702",
+          "shape": {
+            "x": 91.37506357828767,
+            "y": 550.4018758138017,
+            "width": 654.883115132649,
+            "height": 44.89988199869799
+          }
+        },
+        {
+          "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_699",
+          "shape": {
+            "x": 92.70839691162098,
+            "y": 77.93008112321817,
+            "width": 632.4934675517834,
+            "height": 48.862775407757624
+          }
+        }
+      ],
+      "title": "This monitor satisfies the specifications of the Wall mount plate or the interchange device.",
+      "text": "This monitor satisfies the specifications of the Wall mount plate or the interchange device.\n4. Change your hold on the product as it follows and turn the Stand Base in the arrow direction until you hear a \"click.\"",
+      "char_count": 214,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_702",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 121
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "e221f562-a12e-5c69-8ee3-a64bcfe519aa",
+      "text_sha256": "cfa8f6123b2cc9ee90beee815eb910b008d543ee6696a6cee635e1e8a49419ab",
+      "token_count": 42
+    },
+    {
+      "score": 0.5466691719476529,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9",
+      "split": "val",
+      "page_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00004",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_189"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9/images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00004.jpg",
+      "source_shapes": [
+        {
+          "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_189",
+          "shape": {
+            "x": 273.4999999999999,
+            "y": 276.61250019073486,
+            "width": 375.0,
+            "height": 230.9999999999999
+          }
+        }
+      ],
+      "title": "",
+      "text": "A cropped view of the back of a monitor showing its stand attachment point. A blue arrow points to the 'Stand Body' label, indicating where the stand connects to the monitor's base.",
+      "char_count": 181,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_189",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 181
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "54ac903d-eaea-5891-bc19-0dba0fc640c2",
+      "text_sha256": "8c79420e1037a42e143db1b2e029772adf137159d3bf8ba8cc68a6cb79643362",
+      "token_count": 38
+    },
+    {
+      "score": 0.5447032431487904,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9",
+      "split": "val",
+      "page_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00024",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_716"
+      ],
+      "context_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_699"
+      ],
+      "image_filename": "images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9/images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00024.jpg",
+      "source_shapes": [
+        {
+          "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_716",
+          "shape": {
+            "x": 89.33333333333329,
+            "y": 327.0750020345051,
+            "width": 469.33333333333337,
+            "height": 224.66666666666669
+          }
+        },
+        {
+          "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_699",
+          "shape": {
+            "x": 92.70839691162098,
+            "y": 77.93008112321817,
+            "width": 632.4934675517834,
+            "height": 48.862775407757624
+          }
+        }
+      ],
+      "title": "This monitor satisfies the specifications of the Wall mount plate or the interchange device.",
+      "text": "This monitor satisfies the specifications of the Wall mount plate or the interchange device.\nStep 3 shows a hand holding the back of a monitor stand while lifting it slightly off its base. The image includes a visible wristwatch on the person’s arm and part of the floor beneath the stand.",
+      "char_count": 289,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_716",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 196
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "d8f3ac6a-2084-5c1d-95a6-2a450ee4b703",
+      "text_sha256": "171704813fe17096f1170ce1bc0dcdabe976df8dd89356a55dfc505548fa461d",
+      "token_count": 57
+    },
+    {
+      "score": 0.5288522072653024,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9",
+      "split": "val",
+      "page_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00024",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_717"
+      ],
+      "context_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_699"
+      ],
+      "image_filename": "images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9/images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00024.jpg",
+      "source_shapes": [
+        {
+          "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_717",
+          "shape": {
+            "x": 86.5,
+            "y": 548.6125183105468,
+            "width": 687.0000000000001,
+            "height": 309.99999999999966
+          }
+        },
+        {
+          "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_699",
+          "shape": {
+            "x": 92.70839691162098,
+            "y": 77.93008112321817,
+            "width": 632.4934675517834,
+            "height": 48.862775407757624
+          }
+        }
+      ],
+      "title": "This monitor satisfies the specifications of the Wall mount plate or the interchange device.",
+      "text": "This monitor satisfies the specifications of the Wall mount plate or the interchange device.\nA user adjusts an LG monitor stand base by rotating it clockwise until a click is heard, as shown in the close-up view of the locking mechanism.",
+      "char_count": 237,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_717",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 144
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "fcb698cb-3cd5-57b3-9b9d-9954df82aa8f",
+      "text_sha256": "7a578846a307fbabb98bb79a48653ddc7224e1e4ae4992c5bc02f3fec5a6b860",
+      "token_count": 45
+    },
+    {
+      "score": 0.5278529803738206,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9",
+      "split": "val",
+      "page_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00007",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_235"
+      ],
+      "context_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_238"
+      ],
+      "image_filename": "images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9/images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00007.jpg",
+      "source_shapes": [
+        {
+          "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_235",
+          "shape": {
+            "x": 90.92279052734378,
+            "y": 507.2615966796873,
+            "width": 494.87499999999966,
+            "height": 64.384033203125
+          }
+        },
+        {
+          "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_238",
+          "shape": {
+            "x": 90.5,
+            "y": 129.640625,
+            "width": 267.0,
+            "height": 41.99999999999997
+          }
+        }
+      ],
+      "title": "Positioning your display",
+      "text": "Positioning your display\nWhen adjusting the angle of the screen, do not put your finger in between the head of the monitor and the stand body . You can hurt your finger(s). Warning:",
+      "char_count": 181,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_235",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 156
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "653edb75-ed9b-574d-85d7-fe7f090cd147",
+      "text_sha256": "fb64f45b6a5e728b9fed4f3d9b443235b7ca3080c4370da3617ea046ff083c96",
+      "token_count": 39
+    }
+  ],
+  "keyword_candidates": [
+    {
+      "chunk_id": "23aab503-40fe-59de-a24d-35d71cfe186b",
+      "bm25_score": -10.402658638871891
+    },
+    {
+      "chunk_id": "5e4b4267-ff79-5cd8-803b-6da941d6e757",
+      "bm25_score": -10.402658638871891
+    },
+    {
+      "chunk_id": "fa76f670-32d3-5b89-957b-095f7629b9e4",
+      "bm25_score": -8.91079645214483
+    },
+    {
+      "chunk_id": "ffef12b4-2f11-537b-8834-a8121c1e3f57",
+      "bm25_score": -6.763761837021613
+    },
+    {
+      "chunk_id": "5ffe7220-6ffc-58ff-8359-5ed61573100f",
+      "bm25_score": -6.556690271712443
+    },
+    {
+      "chunk_id": "8a070a44-d040-5d74-910d-a07551252367",
+      "bm25_score": -5.894955273782224
+    },
+    {
+      "chunk_id": "e1013448-1ebe-5827-9595-4070db5a432e",
+      "bm25_score": -5.83826439597065
+    },
+    {
+      "chunk_id": "93cf2ea4-0b26-546e-9388-53f8c6461067",
+      "bm25_score": -5.788731878118118
+    },
+    {
+      "chunk_id": "c7467dd5-b52d-55a6-b38a-642b4da6e6f6",
+      "bm25_score": -5.700141907263049
+    },
+    {
+      "chunk_id": "54ac903d-eaea-5891-bc19-0dba0fc640c2",
+      "bm25_score": -5.539199623039985
+    },
+    {
+      "chunk_id": "7fa3104b-5363-5cd0-ae1c-965aabbd661e",
+      "bm25_score": -5.223939232617166
+    },
+    {
+      "chunk_id": "782369a2-b75d-58b7-8fde-8fa717948a4f",
+      "bm25_score": -5.140350624916985
+    },
+    {
+      "chunk_id": "fcb698cb-3cd5-57b3-9b9d-9954df82aa8f",
+      "bm25_score": -5.140350624916985
+    },
+    {
+      "chunk_id": "25930787-1e04-57fc-af33-cbe73669bd8b",
+      "bm25_score": -5.106644579639105
+    },
+    {
+      "chunk_id": "a88949f9-9dbc-5bbb-895a-446137923ffd",
+      "bm25_score": -5.106644579639105
+    },
+    {
+      "chunk_id": "7a4d4e76-3393-5a51-b3b0-a4855bc4d4d8",
+      "bm25_score": -5.0967168077988285
+    },
+    {
+      "chunk_id": "36440f2f-5bd6-5fbb-b89f-54484c941053",
+      "bm25_score": -5.026738801888714
+    },
+    {
+      "chunk_id": "3cbc47c0-2788-59e7-83fe-990c31c86cee",
+      "bm25_score": -4.904899720737868
+    },
+    {
+      "chunk_id": "30285d11-07e4-5397-ba90-722525f40416",
+      "bm25_score": -4.845681339288644
+    },
+    {
+      "chunk_id": "d8f3ac6a-2084-5c1d-95a6-2a450ee4b703",
+      "bm25_score": -4.759560375156578
+    }
+  ],
+  "fused_candidates": [
+    {
+      "chunk_id": "5e4b4267-ff79-5cd8-803b-6da941d6e757",
+      "score": 0.01626123744050767,
+      "dense_rank": 1,
+      "dense_score": 0.7279040611419516,
+      "keyword_rank": 2,
+      "keyword_score": -10.402658638871891
+    },
+    {
+      "chunk_id": "23aab503-40fe-59de-a24d-35d71cfe186b",
+      "score": 0.01626123744050767,
+      "dense_rank": 2,
+      "dense_score": 0.7279040611419516,
+      "keyword_rank": 1,
+      "keyword_score": -10.402658638871891
+    },
+    {
+      "chunk_id": "8a070a44-d040-5d74-910d-a07551252367",
+      "score": 0.015268065268065269,
+      "dense_rank": 5,
+      "dense_score": 0.6566591456027397,
+      "keyword_rank": 6,
+      "keyword_score": -5.894955273782224
+    },
+    {
+      "chunk_id": "25930787-1e04-57fc-af33-cbe73669bd8b",
+      "score": 0.014693264693264693,
+      "dense_rank": 3,
+      "dense_score": 0.6824659760977445,
+      "keyword_rank": 14,
+      "keyword_score": -5.106644579639105
+    },
+    {
+      "chunk_id": "fa76f670-32d3-5b89-957b-095f7629b9e4",
+      "score": 0.014693264693264693,
+      "dense_rank": 14,
+      "dense_score": 0.5572176445187238,
+      "keyword_rank": 3,
+      "keyword_score": -8.91079645214483
+    },
+    {
+      "chunk_id": "93cf2ea4-0b26-546e-9388-53f8c6461067",
+      "score": 0.014495798319327732,
+      "dense_rank": 10,
+      "dense_score": 0.5784027940867355,
+      "keyword_rank": 8,
+      "keyword_score": -5.788731878118118
+    },
+    {
+      "chunk_id": "a88949f9-9dbc-5bbb-895a-446137923ffd",
+      "score": 0.014479166666666668,
+      "dense_rank": 4,
+      "dense_score": 0.6601411501008544,
+      "keyword_rank": 15,
+      "keyword_score": -5.106644579639105
+    },
+    {
+      "chunk_id": "e1013448-1ebe-5827-9595-4070db5a432e",
+      "score": 0.014407131011608624,
+      "dense_rank": 12,
+      "dense_score": 0.567071311442484,
+      "keyword_rank": 7,
+      "keyword_score": -5.83826439597065
+    },
+    {
+      "chunk_id": "c7467dd5-b52d-55a6-b38a-642b4da6e6f6",
+      "score": 0.014288630332720964,
+      "dense_rank": 11,
+      "dense_score": 0.5741659775264693,
+      "keyword_rank": 9,
+      "keyword_score": -5.700141907263049
+    },
+    {
+      "chunk_id": "7fa3104b-5363-5cd0-ae1c-965aabbd661e",
+      "score": 0.013891568589619912,
+      "dense_rank": 13,
+      "dense_score": 0.5580442843557605,
+      "keyword_rank": 11,
+      "keyword_score": -5.223939232617166
+    },
+    {
+      "chunk_id": "54ac903d-eaea-5891-bc19-0dba0fc640c2",
+      "score": 0.013636363636363637,
+      "dense_rank": 17,
+      "dense_score": 0.5466691719476529,
+      "keyword_rank": 10,
+      "keyword_score": -5.539199623039985
+    },
+    {
+      "chunk_id": "fcb698cb-3cd5-57b3-9b9d-9954df82aa8f",
+      "score": 0.013178428992543782,
+      "dense_rank": 19,
+      "dense_score": 0.5288522072653024,
+      "keyword_rank": 13,
+      "keyword_score": -5.140350624916985
+    },
+    {
+      "chunk_id": "3cbc47c0-2788-59e7-83fe-990c31c86cee",
+      "score": 0.013076923076923076,
+      "dense_rank": 15,
+      "dense_score": 0.5489195464807218,
+      "keyword_rank": 18,
+      "keyword_score": -4.904899720737868
+    },
+    {
+      "chunk_id": "d8f3ac6a-2084-5c1d-95a6-2a450ee4b703",
+      "score": 0.01266025641025641,
+      "dense_rank": 18,
+      "dense_score": 0.5447032431487904,
+      "keyword_rank": 20,
+      "keyword_score": -4.759560375156578
+    },
+    {
+      "chunk_id": "ffef12b4-2f11-537b-8834-a8121c1e3f57",
+      "score": 0.0078125,
+      "keyword_rank": 4,
+      "keyword_score": -6.763761837021613
+    },
+    {
+      "chunk_id": "5ffe7220-6ffc-58ff-8359-5ed61573100f",
+      "score": 0.007692307692307693,
+      "keyword_rank": 5,
+      "keyword_score": -6.556690271712443
+    },
+    {
+      "chunk_id": "db580643-6f99-5fae-8798-0c462d1cfcfc",
+      "score": 0.007575757575757576,
+      "dense_rank": 6,
+      "dense_score": 0.6368527321879092
+    },
+    {
+      "chunk_id": "74167a7f-9d2a-5c66-8d37-be351a06238b",
+      "score": 0.007462686567164179,
+      "dense_rank": 7,
+      "dense_score": 0.6324529092854387
+    },
+    {
+      "chunk_id": "546c52ff-91cc-5bb9-9d51-ae846ddabe1e",
+      "score": 0.007352941176470588,
+      "dense_rank": 8,
+      "dense_score": 0.6006220515844845
+    },
+    {
+      "chunk_id": "3a289fdf-dde5-5987-9090-1cd68350aef3",
+      "score": 0.007246376811594203,
+      "dense_rank": 9,
+      "dense_score": 0.5842717933278063
+    },
+    {
+      "chunk_id": "782369a2-b75d-58b7-8fde-8fa717948a4f",
+      "score": 0.006944444444444444,
+      "keyword_rank": 12,
+      "keyword_score": -5.140350624916985
+    },
+    {
+      "chunk_id": "e221f562-a12e-5c69-8ee3-a64bcfe519aa",
+      "score": 0.006578947368421052,
+      "dense_rank": 16,
+      "dense_score": 0.5486861151099648
+    },
+    {
+      "chunk_id": "7a4d4e76-3393-5a51-b3b0-a4855bc4d4d8",
+      "score": 0.006578947368421052,
+      "keyword_rank": 16,
+      "keyword_score": -5.0967168077988285
+    },
+    {
+      "chunk_id": "36440f2f-5bd6-5fbb-b89f-54484c941053",
+      "score": 0.006493506493506494,
+      "keyword_rank": 17,
+      "keyword_score": -5.026738801888714
+    },
+    {
+      "chunk_id": "30285d11-07e4-5397-ba90-722525f40416",
+      "score": 0.006329113924050633,
+      "keyword_rank": 19,
+      "keyword_score": -4.845681339288644
+    },
+    {
+      "chunk_id": "653edb75-ed9b-574d-85d7-fe7f090cd147",
+      "score": 0.00625,
+      "dense_rank": 20,
+      "dense_score": 0.5278529803738206
+    }
+  ],
+  "variants": {
+    "B_english_dense": {
+      "sources": [
+        {
+          "chunk_id": "5e4b4267-ff79-5cd8-803b-6da941d6e757",
+          "manual_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9",
+          "page_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00007",
+          "chunk_type": "text",
+          "text": "Before setting up the monitor, ensure that the power to the monitor, the computer system, and other attached devices is turned off.",
+          "content_region_ids": [
+            "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_230"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9/images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00007.jpg",
+          "source_shapes": [
+            {
+              "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_230",
+              "shape": {
+                "x": 93.81079864501955,
+                "y": 76.34643554687501,
+                "width": 647.1618576049805,
+                "height": 47.36328125
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_230",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 131
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.7279040611419516,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S1"
+        },
+        {
+          "chunk_id": "23aab503-40fe-59de-a24d-35d71cfe186b",
+          "manual_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9",
+          "page_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00004",
+          "chunk_type": "text",
+          "text": "Before setting up the monitor, ensure that the power to the monitor, the computer system, and other attached devices is turned off.",
+          "content_region_ids": [
+            "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_178"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9/images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00004.jpg",
+          "source_shapes": [
+            {
+              "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_178",
+              "shape": {
+                "x": 92.71639251708977,
+                "y": 76.34643554687496,
+                "width": 642.1538467407224,
+                "height": 47.05664062499997
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_178",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 131
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.7279040611419516,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S2"
+        },
+        {
+          "chunk_id": "25930787-1e04-57fc-af33-cbe73669bd8b",
+          "manual_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9",
+          "page_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00004",
+          "chunk_type": "text",
+          "text": "Connecting the stand\n1. Place the monitor with its front facing downward on a soft cloth.",
+          "content_region_ids": [
+            "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_188"
+          ],
+          "context_region_ids": [
+            "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_179"
+          ],
+          "image_filename": "images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9/images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00004.jpg",
+          "source_shapes": [
+            {
+              "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_188",
+              "shape": {
+                "x": 91.33333333333331,
+                "y": 186.40833282470697,
+                "width": 483.99999999999994,
+                "height": 29.333333333333343
+              }
+            },
+            {
+              "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_179",
+              "shape": {
+                "x": 92.70839691162102,
+                "y": 139.25961303710938,
+                "width": 232.77393341064447,
+                "height": 33.37599182128895
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_188",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 68
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.6824659760977445,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S3"
+        },
+        {
+          "chunk_id": "a88949f9-9dbc-5bbb-895a-446137923ffd",
+          "manual_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9",
+          "page_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00004",
+          "chunk_type": "text",
+          "text": "Connecting the stand\n4. Once assembled take the monitor up carefully and face the front side",
+          "content_region_ids": [
+            "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_191"
+          ],
+          "context_region_ids": [
+            "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_179"
+          ],
+          "image_filename": "images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9/images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00004.jpg",
+          "source_shapes": [
+            {
+              "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_191",
+              "shape": {
+                "x": 91.99999999999999,
+                "y": 579.7416585286456,
+                "width": 519.9999999999998,
+                "height": 28.000000000000114
+              }
+            },
+            {
+              "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_179",
+              "shape": {
+                "x": 92.70839691162102,
+                "y": 139.25961303710938,
+                "width": 232.77393341064447,
+                "height": 33.37599182128895
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_191",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 71
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.6601411501008544,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S4"
+        },
+        {
+          "chunk_id": "8a070a44-d040-5d74-910d-a07551252367",
+          "manual_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9",
+          "page_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00024",
+          "chunk_type": "text",
+          "text": "This monitor satisfies the specifications of the Wall mount plate or the interchange device.\n2. Place the monitor face down on the cushion or soft cloth.",
+          "content_region_ids": [
+            "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_700"
+          ],
+          "context_region_ids": [
+            "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_699"
+          ],
+          "image_filename": "images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9/images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00024.jpg",
+          "source_shapes": [
+            {
+              "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_700",
+              "shape": {
+                "x": 465.80841064453097,
+                "y": 125.63110351562494,
+                "width": 283.50103759765597,
+                "height": 44.2333984375
+              }
+            },
+            {
+              "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_699",
+              "shape": {
+                "x": 92.70839691162098,
+                "y": 77.93008112321817,
+                "width": 632.4934675517834,
+                "height": 48.862775407757624
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_700",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 60
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.6566591456027397,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S5"
+        }
+      ],
+      "excluded_sources": [],
+      "retrieved_chunk_ids": [
+        "5e4b4267-ff79-5cd8-803b-6da941d6e757",
+        "23aab503-40fe-59de-a24d-35d71cfe186b",
+        "25930787-1e04-57fc-af33-cbe73669bd8b",
+        "a88949f9-9dbc-5bbb-895a-446137923ffd",
+        "8a070a44-d040-5d74-910d-a07551252367"
+      ]
+    },
+    "C_english_hybrid": {
+      "sources": [
+        {
+          "chunk_id": "5e4b4267-ff79-5cd8-803b-6da941d6e757",
+          "manual_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9",
+          "page_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00007",
+          "chunk_type": "text",
+          "text": "Before setting up the monitor, ensure that the power to the monitor, the computer system, and other attached devices is turned off.",
+          "content_region_ids": [
+            "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_230"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9/images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00007.jpg",
+          "source_shapes": [
+            {
+              "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_230",
+              "shape": {
+                "x": 93.81079864501955,
+                "y": 76.34643554687501,
+                "width": 647.1618576049805,
+                "height": 47.36328125
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_230",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 131
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.01626123744050767,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S1"
+        },
+        {
+          "chunk_id": "23aab503-40fe-59de-a24d-35d71cfe186b",
+          "manual_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9",
+          "page_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00004",
+          "chunk_type": "text",
+          "text": "Before setting up the monitor, ensure that the power to the monitor, the computer system, and other attached devices is turned off.",
+          "content_region_ids": [
+            "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_178"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9/images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00004.jpg",
+          "source_shapes": [
+            {
+              "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_178",
+              "shape": {
+                "x": 92.71639251708977,
+                "y": 76.34643554687496,
+                "width": 642.1538467407224,
+                "height": 47.05664062499997
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_178",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 131
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.01626123744050767,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S2"
+        },
+        {
+          "chunk_id": "8a070a44-d040-5d74-910d-a07551252367",
+          "manual_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9",
+          "page_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00024",
+          "chunk_type": "text",
+          "text": "This monitor satisfies the specifications of the Wall mount plate or the interchange device.\n2. Place the monitor face down on the cushion or soft cloth.",
+          "content_region_ids": [
+            "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_700"
+          ],
+          "context_region_ids": [
+            "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_699"
+          ],
+          "image_filename": "images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9/images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00024.jpg",
+          "source_shapes": [
+            {
+              "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_700",
+              "shape": {
+                "x": 465.80841064453097,
+                "y": 125.63110351562494,
+                "width": 283.50103759765597,
+                "height": 44.2333984375
+              }
+            },
+            {
+              "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_699",
+              "shape": {
+                "x": 92.70839691162098,
+                "y": 77.93008112321817,
+                "width": 632.4934675517834,
+                "height": 48.862775407757624
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_700",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 60
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.015268065268065269,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S3"
+        },
+        {
+          "chunk_id": "25930787-1e04-57fc-af33-cbe73669bd8b",
+          "manual_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9",
+          "page_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00004",
+          "chunk_type": "text",
+          "text": "Connecting the stand\n1. Place the monitor with its front facing downward on a soft cloth.",
+          "content_region_ids": [
+            "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_188"
+          ],
+          "context_region_ids": [
+            "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_179"
+          ],
+          "image_filename": "images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9/images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00004.jpg",
+          "source_shapes": [
+            {
+              "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_188",
+              "shape": {
+                "x": 91.33333333333331,
+                "y": 186.40833282470697,
+                "width": 483.99999999999994,
+                "height": 29.333333333333343
+              }
+            },
+            {
+              "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_179",
+              "shape": {
+                "x": 92.70839691162102,
+                "y": 139.25961303710938,
+                "width": 232.77393341064447,
+                "height": 33.37599182128895
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_188",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 68
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.014693264693264693,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S4"
+        },
+        {
+          "chunk_id": "fa76f670-32d3-5b89-957b-095f7629b9e4",
+          "manual_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9",
+          "page_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00019",
+          "chunk_type": "table",
+          "text": "First row (header unconfirmed): Column 1: Have you installedthedisplay driver? Have you installed the display driver? | Column 2: Have you installedthedisplay driver? Have you installed the display driver?\nColumn 1: Do you see an \"Unrecognized monitor, | Column 2: Plug&Play (VESADDC) monitor found\" message?",
+          "content_region_ids": [
+            "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_81"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9/images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00019.jpg",
+          "source_shapes": [
+            {
+              "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_81",
+              "shape": {
+                "x": 81.50000000000001,
+                "y": 74.61249542236328,
+                "width": 677.0000000000001,
+                "height": 332.00000000000006
+              }
+            },
+            {
+              "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_76",
+              "shape": {
+                "x": 110.15740203857426,
+                "y": 89.03198242187499,
+                "width": 394.7111282348632,
+                "height": 28.60800170898436
+              }
+            }
+          ],
+          "source_spans": [],
+          "content_origin": "paddle_table",
+          "quality_flags": [
+            "html_parser_repaired_review_required",
+            "table_header_unmarked_review_required"
+          ],
+          "score": 0.014693264693264693,
+          "table_rows": [
+            2
+          ],
+          "table_cells": [
+            {
+              "row": 2,
+              "column": 0,
+              "rowspan": 1,
+              "colspan": 1
+            },
+            {
+              "row": 2,
+              "column": 1,
+              "rowspan": 1,
+              "colspan": 1
+            }
+          ],
+          "source_id": "S5"
+        }
+      ],
+      "excluded_sources": [],
+      "retrieved_chunk_ids": [
+        "5e4b4267-ff79-5cd8-803b-6da941d6e757",
+        "23aab503-40fe-59de-a24d-35d71cfe186b",
+        "8a070a44-d040-5d74-910d-a07551252367",
+        "25930787-1e04-57fc-af33-cbe73669bd8b",
+        "fa76f670-32d3-5b89-957b-095f7629b9e4"
+      ]
+    }
+  },
+  "retrieval_seconds": 1.772899999981746
+}

@@ -1,0 +1,2196 @@
+{
+  "case_id": "TEXT01",
+  "manual_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1",
+  "question": "FIREGL, Intergraph, 3dLabs 같은 그래픽 어댑터는 DVD 비디오 재생을 지원하나요?",
+  "english_query": "Do graphics adapters such as FIREGL, Intergraph, and 3dLabs support DVD video playback?",
+  "dense_candidates": [
+    {
+      "score": 0.9011164287955129,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1",
+      "split": "val",
+      "page_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00007",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_52"
+      ],
+      "context_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_50"
+      ],
+      "image_filename": "images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1/images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00013.jpg",
+      "source_shapes": [
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_52",
+          "shape": {
+            "x": 143.68240356445315,
+            "y": 1028.6870117187498,
+            "width": 934.9936218261719,
+            "height": 48.093750000000455
+          }
+        },
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_50",
+          "shape": {
+            "x": 143.68240356445315,
+            "y": 910.0532836914061,
+            "width": 280.9746093750001,
+            "height": 33.246459960937614
+          }
+        }
+      ],
+      "title": "Software Description",
+      "text": "Software Description\nNote: Some graphics adapters such as the FIREGL, Intergraph, and 3dLabs, do not support DVD video playback.",
+      "char_count": 128,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_52",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 107
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "058ab5fd-2e1e-5f82-a1b8-53fbdc5a1f3f",
+      "text_sha256": "2b2707f29dd6fee5ecc1e554e8ec0eaea8c40908071a51a349a60720c34d6cf7",
+      "token_count": 31
+    },
+    {
+      "score": 0.5461386097599363,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1",
+      "split": "val",
+      "page_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00011",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_91",
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_92"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1/images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00017.jpg",
+      "source_shapes": [
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_91",
+          "shape": {
+            "x": 143.68240356445318,
+            "y": 126.67999267578126,
+            "width": 941.7339782714848,
+            "height": 74.70759073893227
+          }
+        },
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_92",
+          "shape": {
+            "x": 143.68240356445318,
+            "y": 202.03369140625017,
+            "width": 943.4432067871094,
+            "height": 242.14486694335915
+          }
+        }
+      ],
+      "title": "",
+      "text": "If you are using a legacy operating system on your computer, you might need to update some components of your operating system to enable the DVD video playback function. The requirements for legacy operating systems are as follows:\nv Windows 95, Windows Server® 2000, Windows Server 2003: You must install the latest service pack, Internet Explorer® 5, and DirectX®. v Windows 98, Windows 98 Second Edition, Windows Millennium Edition: You must install the latest DirectX.",
+      "char_count": 472,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_91",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 231
+        },
+        {
+          "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_92",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 240
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "99db5fc3-5a1e-535d-96e5-d92365fa24ac",
+      "text_sha256": "d59796264a0b14b45c6ffe7231562402875f8bdb4c03e7feb6cee0c4c2ee9c17",
+      "token_count": 106
+    },
+    {
+      "score": 0.49968356975791955,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1",
+      "split": "val",
+      "page_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00007",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_51"
+      ],
+      "context_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_50"
+      ],
+      "image_filename": "images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1/images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00013.jpg",
+      "source_shapes": [
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_51",
+          "shape": {
+            "x": 143.68240356445315,
+            "y": 956.8457641601565,
+            "width": 909.2945251464846,
+            "height": 48.09375
+          }
+        },
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_50",
+          "shape": {
+            "x": 143.68240356445315,
+            "y": 910.0532836914061,
+            "width": 280.9746093750001,
+            "height": 33.246459960937614
+          }
+        }
+      ],
+      "title": "Software Description",
+      "text": "Software Description\nThe Software and User Guide CD contains Intervideo WinDVD. The software enables you to play back DVD videos on your computer or to play video files from your hard disk drive.",
+      "char_count": 195,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_51",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 174
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "08d4ca55-24e2-514e-b360-2622c18ac28e",
+      "text_sha256": "578e826e075f874615565a8b9bb44e0cf0714b6e63363bec700ea0da8e0002b9",
+      "token_count": 39
+    },
+    {
+      "score": 0.47094076222364845,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1",
+      "split": "val",
+      "page_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00010",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_84"
+      ],
+      "context_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_83"
+      ],
+      "image_filename": "images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1/images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00016.jpg",
+      "source_shapes": [
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_84",
+          "shape": {
+            "x": 119.7353973388672,
+            "y": 1215.6997070312498,
+            "width": 950.7257843017578,
+            "height": 95.98803710937545
+          }
+        },
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_83",
+          "shape": {
+            "x": 119.7353973388672,
+            "y": 1168.9073486328125,
+            "width": 316.59550476074224,
+            "height": 33.2464599609375
+          }
+        }
+      ],
+      "title": "Using the DVD function",
+      "text": "Using the DVD function\nIf the operating system of your computer is Windows Vista Home Premium or Windows Vista Ultimate, you can view DVD movies without installing any additional software. Windows Media® Player comes fully configured to play DVD videos in those operating system versions. In Windows Vista Ultimate, you can also use Windows Media Center to view DVD videos.",
+      "char_count": 373,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_84",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 350
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "b1663267-6859-5a0d-940a-45d8498eba95",
+      "text_sha256": "c55c02f54e93cdc4962a4f75f8598c1e55d5189c15c75bd52c3a55d089264b5d",
+      "token_count": 67
+    },
+    {
+      "score": 0.46452581057976977,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1",
+      "split": "val",
+      "page_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00012",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_121"
+      ],
+      "context_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_130"
+      ],
+      "image_filename": "images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1/images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00018.jpg",
+      "source_shapes": [
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_121",
+          "shape": {
+            "x": 119.73539733886722,
+            "y": 325.3695068359375,
+            "width": 943.7166290283205,
+            "height": 226.57098388671875
+          }
+        },
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_130",
+          "shape": {
+            "x": 118,
+            "y": 294.6124954223633,
+            "width": 60.00000000000003,
+            "height": 24.999999999999943
+          }
+        }
+      ],
+      "title": "Notes:",
+      "text": "Notes:\nIf you experience poor playback performance, adjust the resolution to a lower setting. 2. Audio and video streams are decoded by software. The audio and video subsystems need to be fully functional and enabled. 3. WinDVD does not enable DVD playback feature through Windows Media Player. After installing WinDVD, DVD video may play back through Media Player, but audio will not.",
+      "char_count": 385,
+      "overlap_char_count": 87,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_121",
+          "field": "ocr_normalized",
+          "start": 362,
+          "end": 740
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "1078c21c-ac61-5d96-ad7b-b1b2686d48b4",
+      "text_sha256": "db81a607c03ae6597760b6f8ce7bda8d48a20690712fc56e0eaa30f79ab14978",
+      "token_count": 78
+    },
+    {
+      "score": 0.4635212989963322,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1",
+      "split": "val",
+      "page_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00010",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_84",
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_85"
+      ],
+      "context_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_83"
+      ],
+      "image_filename": "images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1/images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00016.jpg",
+      "source_shapes": [
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_84",
+          "shape": {
+            "x": 119.7353973388672,
+            "y": 1215.6997070312498,
+            "width": 950.7257843017578,
+            "height": 95.98803710937545
+          }
+        },
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_85",
+          "shape": {
+            "x": 119.7353973388672,
+            "y": 1335.4351806640625,
+            "width": 916.5492706298828,
+            "height": 48.09399414062523
+          }
+        },
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_83",
+          "shape": {
+            "x": 119.7353973388672,
+            "y": 1168.9073486328125,
+            "width": 316.59550476074224,
+            "height": 33.2464599609375
+          }
+        }
+      ],
+      "title": "Using the DVD function",
+      "text": "Using the DVD function\nIn Windows Vista Ultimate, you can also use Windows Media Center to view DVD videos.\nIf the operating system of your computer is Windows XP, Windows Vista Business, or Windows Vista Home Basic, you must install WinDVD to play back DVD videos.",
+      "char_count": 265,
+      "overlap_char_count": 85,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_84",
+          "field": "ocr_normalized",
+          "start": 266,
+          "end": 350
+        },
+        {
+          "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_85",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 157
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "99a263a3-70dd-5e2d-9a2b-41aac3127a4b",
+      "text_sha256": "9a0214dc4efa3e25265382627397e62d7e41617c65e0b1f815636fc443191074",
+      "token_count": 54
+    },
+    {
+      "score": 0.4279815279641351,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1",
+      "split": "val",
+      "page_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00011",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_111"
+      ],
+      "context_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_93"
+      ],
+      "image_filename": "images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1/images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00017.jpg",
+      "source_shapes": [
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_111",
+          "shape": {
+            "x": 347.83358764648443,
+            "y": 1024.051147460938,
+            "width": 218.63735961914057,
+            "height": 21.732055664061818
+          }
+        },
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_93",
+          "shape": {
+            "x": 143.68240356445318,
+            "y": 465.03640747070307,
+            "width": 595.8119812011719,
+            "height": 33.24645996093767
+          }
+        }
+      ],
+      "title": "Installing WinDVD and viewing a DVD movie",
+      "text": "Installing WinDVD and viewing a DVD movie\nPeople’s Republic of China",
+      "char_count": 68,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_111",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 26
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "d52c37b8-7b45-53ec-9a42-aaca57e5f055",
+      "text_sha256": "e73475b6be2f6ad95f172ae5d246a32759c68663d7934deae5d94885256ec925",
+      "token_count": 14
+    },
+    {
+      "score": 0.42031091184705804,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1",
+      "split": "val",
+      "page_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00011",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_107"
+      ],
+      "context_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_93"
+      ],
+      "image_filename": "images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1/images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00017.jpg",
+      "source_shapes": [
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_107",
+          "shape": {
+            "x": 347.83358764648443,
+            "y": 960.192321777344,
+            "width": 318.2447814941409,
+            "height": 21.73205566406216
+          }
+        },
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_93",
+          "shape": {
+            "x": 143.68240356445318,
+            "y": 465.03640747070307,
+            "width": 595.8119812011719,
+            "height": 33.24645996093767
+          }
+        }
+      ],
+      "title": "Installing WinDVD and viewing a DVD movie",
+      "text": "Installing WinDVD and viewing a DVD movie\nLatin America, Australia, New Zealand",
+      "char_count": 79,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_107",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 37
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "9466cae4-2dd4-5f92-b6fc-bc423d312978",
+      "text_sha256": "82ff9b612db213e29da6070e383031d89facce5272f9ed5d18833bd49c6ed10e",
+      "token_count": 16
+    },
+    {
+      "score": 0.41856440859836747,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1",
+      "split": "val",
+      "page_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00007",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_54",
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_55"
+      ],
+      "context_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_53"
+      ],
+      "image_filename": "images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1/images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00013.jpg",
+      "source_shapes": [
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_54",
+          "shape": {
+            "x": 141.68240356445315,
+            "y": 1150.4179687500002,
+            "width": 869.2190246582032,
+            "height": 97.5401611328125
+          }
+        },
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_55",
+          "shape": {
+            "x": 165.2711944580078,
+            "y": 1246.2062988281252,
+            "width": 153.68296813964838,
+            "height": 24.1468505859375
+          }
+        },
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_53",
+          "shape": {
+            "x": 143.68240356445315,
+            "y": 1103.6253662109377,
+            "width": 333.7778625488279,
+            "height": 33.24645996093727
+          }
+        }
+      ],
+      "title": "Installation requirements",
+      "text": "Installation requirements\nTo install the DVD drive, your ThinkPad computer must meet the following requirements: v ThinkPad system with an Ultrabay Drive or, v ThinkPad X200 Ultrabase (9.5 mm drive only) v Microsoft® Windows® 2000 Professional, Microsoft Windows XP, or Microsoft Windows Vista®\noperating system",
+      "char_count": 311,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_54",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 268
+        },
+        {
+          "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_55",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 16
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "5aabc3b9-32e0-5ab4-9182-0313f4c0eaba",
+      "text_sha256": "fabc2a31368e61de6a495a8dac739e0ea33f97d141cfed0eae5b7196dbbb9b38",
+      "token_count": 73
+    },
+    {
+      "score": 0.41086837341978477,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1",
+      "split": "val",
+      "page_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00011",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_109"
+      ],
+      "context_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_93"
+      ],
+      "image_filename": "images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1/images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00017.jpg",
+      "source_shapes": [
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_109",
+          "shape": {
+            "x": 347.83358764648443,
+            "y": 992.121704101563,
+            "width": 334.6725769042973,
+            "height": 21.732055664062273
+          }
+        },
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_93",
+          "shape": {
+            "x": 143.68240356445318,
+            "y": 465.03640747070307,
+            "width": 595.8119812011719,
+            "height": 33.24645996093767
+          }
+        }
+      ],
+      "title": "Installing WinDVD and viewing a DVD movie",
+      "text": "Installing WinDVD and viewing a DVD movie\nFormer Soviet Union, North Africa, India",
+      "char_count": 82,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_109",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 40
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "77749f28-0d6c-5bd7-9ebe-367006367a5f",
+      "text_sha256": "72c6eba6395a84bbf6a9c3bc9af82d5d1f95de59d254f0c60f057365b68121ee",
+      "token_count": 17
+    },
+    {
+      "score": 0.38906005182008135,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1",
+      "split": "val",
+      "page_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00020",
+      "chunk_type": "table",
+      "content_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_249"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1/images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00028.jpg",
+      "source_shapes": [
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_249",
+          "shape": {
+            "x": 112.99999999999997,
+            "y": 957.6124877929688,
+            "width": 629.9999999999999,
+            "height": 130.99999999999977
+          }
+        },
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_239",
+          "shape": {
+            "x": 119.7353973388672,
+            "y": 963.1857299804689,
+            "width": 60.311004638671804,
+            "height": 21.732055664062045
+          }
+        },
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_240",
+          "shape": {
+            "x": 604.6638183593751,
+            "y": 963.1857299804689,
+            "width": 132.7791137695309,
+            "height": 21.732055664062045
+          }
+        },
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_241",
+          "shape": {
+            "x": 119.7353973388672,
+            "y": 995.1151123046874,
+            "width": 137.48286437988276,
+            "height": 21.73205566406284
+          }
+        },
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_242",
+          "shape": {
+            "x": 604.6638183593751,
+            "y": 995.1151123046874,
+            "width": 107.9398193359375,
+            "height": 21.73205566406284
+          }
+        },
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_243",
+          "shape": {
+            "x": 119.7353973388672,
+            "y": 1027.0445556640623,
+            "width": 76.02636718749996,
+            "height": 21.7320556640625
+          }
+        },
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_244",
+          "shape": {
+            "x": 604.6638183593751,
+            "y": 1027.0445556640623,
+            "width": 132.97662353515614,
+            "height": 21.7320556640625
+          }
+        },
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_245",
+          "shape": {
+            "x": 119.7353973388672,
+            "y": 1058.973876953125,
+            "width": 76.02816772460939,
+            "height": 21.732055664062727
+          }
+        },
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_246",
+          "shape": {
+            "x": 604.6638183593751,
+            "y": 1058.973876953125,
+            "width": 121.66345214843727,
+            "height": 21.732055664062727
+          }
+        }
+      ],
+      "title": "",
+      "text": "First row (header unconfirmed): Column 1: DirectX | Column 2: Windows Media\nColumn 1: DirectX | Column 2: Windows Media\nColumn 1: Internet Explorer | Column 2: Windows NT\nColumn 1: Microsoft | Column 2: Windows Server\nColumn 1: Windows | Column 2: Windows Vista",
+      "char_count": 261,
+      "overlap_char_count": 0,
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "source_spans": [],
+      "table_rows": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "table_cells": [
+        {
+          "row": 0,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "chunk_id": "f80ee167-5e9d-5425-b10c-c67c9554572b",
+      "text_sha256": "861cbf4ccbd4687aa696a6cd635bb80a533b98692a2948be733cf585a57d0f5a",
+      "deduplicated_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_239",
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_240",
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_241",
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_242",
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_243",
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_244",
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_245",
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_246"
+      ],
+      "token_count": 72
+    },
+    {
+      "score": 0.3814002373645722,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1",
+      "split": "val",
+      "page_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00007",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_45",
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_46",
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_47"
+      ],
+      "context_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_44"
+      ],
+      "image_filename": "images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1/images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00013.jpg",
+      "source_shapes": [
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_45",
+          "shape": {
+            "x": 143.68240356445315,
+            "y": 451.96124267578125,
+            "width": 912.9060974121094,
+            "height": 72.04089355468739
+          }
+        },
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_46",
+          "shape": {
+            "x": 143.68240356445315,
+            "y": 547.7495727539064,
+            "width": 833.1319885253905,
+            "height": 24.146728515624773
+          }
+        },
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_47",
+          "shape": {
+            "x": 143.68240356445315,
+            "y": 595.643798828125,
+            "width": 817.8070983886716,
+            "height": 147.434326171875
+          }
+        },
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_44",
+          "shape": {
+            "x": 143.68240356445315,
+            "y": 405.16885375976557,
+            "width": 265.4409179687501,
+            "height": 33.24645996093767
+          }
+        }
+      ],
+      "title": "Product description",
+      "text": "Product description\nThe ThinkPad DVD-ROM Ultrabay Serial ATA Drive can read from CD-RW and CD-R discs, and mass-produced, stamped CDs and DVDs. The drive can also read DVD-RAM, DVD-R, and DVD-RW formatted media.\nCD media can be read at 24X Max speeds, while DVD media can be read at 8X Max speeds.\nIn addition to the Software and User Guide CD, your option package includes the following: v ThinkPad DVD-ROM Ultrabay Serial ATA Drive v Carrying case v Laser Safety Guide v Quick Reference Guide",
+      "char_count": 494,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_45",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 191
+        },
+        {
+          "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_46",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 85
+        },
+        {
+          "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_47",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 196
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "c2fe2304-a532-5651-a989-aa6f7e64953f",
+      "text_sha256": "619ab174afd7b127d7307a2832a7ffef8fecba5d17e34fa647641f3895ed9e1d",
+      "token_count": 117
+    },
+    {
+      "score": 0.3758418956781251,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1",
+      "split": "val",
+      "page_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00009",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_62"
+      ],
+      "context_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_61"
+      ],
+      "image_filename": "images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1/images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00015.jpg",
+      "source_shapes": [
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_62",
+          "shape": {
+            "x": 143.68240356445315,
+            "y": 282.33624267578125,
+            "width": 942.7970886230469,
+            "height": 48.093658447265625
+          }
+        },
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_61",
+          "shape": {
+            "x": 143.68240356445315,
+            "y": 182.3130950927734,
+            "width": 937.8359069824221,
+            "height": 69.92555236816409
+          }
+        }
+      ],
+      "title": "Chapter 2. Using the ThinkPad DVD-ROM Ultrabay Serial ATA Drive",
+      "text": "Chapter 2. Using the ThinkPad DVD-ROM Ultrabay Serial ATA Drive\nThis chapter provides information on how to handle, load, and care for DVDs and CDs and how to care for your DVD-ROM Ultrabay Serial ATA Drive.",
+      "char_count": 207,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_62",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 143
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "3b2b7044-fb83-5419-902e-d5f015fdab5c",
+      "text_sha256": "2932f8a3cb094981d5dab72ea2e9c38a8aceb9c5701997dbb699d46708ae9da7",
+      "token_count": 47
+    },
+    {
+      "score": 0.3746748259195609,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1",
+      "split": "val",
+      "page_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00007",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_48",
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_49"
+      ],
+      "context_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_44"
+      ],
+      "image_filename": "images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1/images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00013.jpg",
+      "source_shapes": [
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_48",
+          "shape": {
+            "x": 143.6810302734375,
+            "y": 763.2733764648439,
+            "width": 615.6367797851564,
+            "height": 24.146728515625114
+          }
+        },
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_49",
+          "shape": {
+            "x": 143.68240356445315,
+            "y": 811.1676025390627,
+            "width": 927.2192077636716,
+            "height": 72.04089355468727
+          }
+        },
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_44",
+          "shape": {
+            "x": 143.68240356445315,
+            "y": 405.16885375976557,
+            "width": 265.4409179687501,
+            "height": 33.24645996093767
+          }
+        }
+      ],
+      "title": "Product description",
+      "text": "Product description\nNote: Your kit might also contain an update disc for DVD software.\nContact your place of purchase if an item is missing or damaged. Be sure to retain your proof of purchase. It might be required to receive warranty service. See Appendix A, “Service and Support,” on page 7 for technical support information.",
+      "char_count": 327,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_48",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 66
+        },
+        {
+          "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_49",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 240
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "2a5fd86c-7435-52aa-86fd-220f510cad5f",
+      "text_sha256": "a5310fd2079b901152060b86d93b830e99b31c13da3e3e4427ee41b69895780f",
+      "token_count": 66
+    },
+    {
+      "score": 0.3746289157005655,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1",
+      "split": "val",
+      "page_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00011",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_114",
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_115"
+      ],
+      "context_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_116"
+      ],
+      "image_filename": "images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1/images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00017.jpg",
+      "source_shapes": [
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_114",
+          "shape": {
+            "x": 143.68240356445318,
+            "y": 1236.2225341796877,
+            "width": 951.4742126464851,
+            "height": 48.09399414062477
+          }
+        },
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_115",
+          "shape": {
+            "x": 143.68240356445318,
+            "y": 1308.0639648437507,
+            "width": 926.6995544433591,
+            "height": 48.09387207031159
+          }
+        },
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_116",
+          "shape": {
+            "x": 143.33333333333334,
+            "y": 641.741658528646,
+            "width": 210.00000000000014,
+            "height": 28.666666666666515
+          }
+        }
+      ],
+      "title": "DVD region codes",
+      "text": "DVD region codes\nThereafter, you can play DVD content only from that region.\nTo display the region code status, click the WinDVD Properties button on the WinDVD user interface. The General tab contains this information.",
+      "char_count": 219,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_114",
+          "field": "ocr_normalized",
+          "start": 118,
+          "end": 177
+        },
+        {
+          "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_115",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 142
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "bd5791e3-48e0-5266-a9eb-ba8dc894de7d",
+      "text_sha256": "9c2aae0ebe9ffdf4425248ae8ed3ae24c9cb5fdefc2449a28ff2fc26bfc20398",
+      "token_count": 44
+    },
+    {
+      "score": 0.36909768481060673,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1",
+      "split": "val",
+      "page_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00012",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_119",
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_120"
+      ],
+      "context_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_118"
+      ],
+      "image_filename": "images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1/images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00018.jpg",
+      "source_shapes": [
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_119",
+          "shape": {
+            "x": 119.73539733886722,
+            "y": 162.60064697265628,
+            "width": 601.8119659423829,
+            "height": 24.146759033203097
+          }
+        },
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_120",
+          "shape": {
+            "x": 119.73539733886722,
+            "y": 210.4948120117188,
+            "width": 934.221145629883,
+            "height": 72.04092407226557
+          }
+        },
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_118",
+          "shape": {
+            "x": 119.73539733886722,
+            "y": 123.79068756103516,
+            "width": 224.79365539550773,
+            "height": 33.246452331543
+          }
+        }
+      ],
+      "title": "Starting WinDVD",
+      "text": "Starting WinDVD\nTo start WinDVD, click Start -> Programs -> Intervideo WinDVD.\nFor more information on how to play the DVD movie player, refer to the WinDVD help information on the Software and User Guide CD. If you want to watch a DVD movie on your TV, refer to the online information provided with your computer.",
+      "char_count": 314,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_119",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 62
+        },
+        {
+          "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_120",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 235
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "6f3856c4-bd7f-50f4-9ac8-d39412d4e797",
+      "text_sha256": "a35d8d9877926fe8eeb8dbb402e775ba7e04039c8c45726d68d1176c13a8843d",
+      "token_count": 69
+    },
+    {
+      "score": 0.36908674897279603,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1",
+      "split": "val",
+      "page_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00012",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_121"
+      ],
+      "context_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_130"
+      ],
+      "image_filename": "images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1/images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00018.jpg",
+      "source_shapes": [
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_121",
+          "shape": {
+            "x": 119.73539733886722,
+            "y": 325.3695068359375,
+            "width": 943.7166290283205,
+            "height": 226.57098388671875
+          }
+        },
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_130",
+          "shape": {
+            "x": 118,
+            "y": 294.6124954223633,
+            "width": 60.00000000000003,
+            "height": 24.999999999999943
+          }
+        }
+      ],
+      "title": "Notes:",
+      "text": "Notes:\n1. Your computer has been configured to provide the highest quality audio and video playback obtainable with the available system resources. You can alter the default settings by changing the video resolution setting within the Control Panel. Some systems do not have enough resources to provide full-quality audio and video playback at all resolution settings. If you experience poor playback performance, adjust the resolution to a lower setting.",
+      "char_count": 455,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_121",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 448
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "417ee3be-5319-54e3-8223-bf34910fce50",
+      "text_sha256": "02009fd8da05842e21eaba7b8371bc22865486fb78cb656a71daa1fb4b610d94",
+      "token_count": 78
+    },
+    {
+      "score": 0.35521207748988143,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1",
+      "split": "val",
+      "page_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00011",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_94",
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_95"
+      ],
+      "context_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_93"
+      ],
+      "image_filename": "images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1/images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00017.jpg",
+      "source_shapes": [
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_94",
+          "shape": {
+            "x": 143.68240356445318,
+            "y": 503.8466186523439,
+            "width": 944.5431823730471,
+            "height": 48.0938720703129
+          }
+        },
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_95",
+          "shape": {
+            "x": 143.68240356445318,
+            "y": 575.6878051757817,
+            "width": 953.7627868652346,
+            "height": 48.09393310546852
+          }
+        },
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_93",
+          "shape": {
+            "x": 143.68240356445318,
+            "y": 465.03640747070307,
+            "width": 595.8119812011719,
+            "height": 33.24645996093767
+          }
+        }
+      ],
+      "title": "Installing WinDVD and viewing a DVD movie",
+      "text": "Installing WinDVD and viewing a DVD movie\nTo install WinDVD, go to the Software page of the Software and User Guide CD. Select WinDVD from the available software list. Restart your computer after installation.\nAfter you install the ThinkPad DVD-ROM Ultrabay Serial ATA Drive and WinDVD, you can view a DVD movie. But first you need to set the DVD region code for your DVD content.",
+      "char_count": 380,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_94",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 167
+        },
+        {
+          "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_95",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 170
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "c5a87f2c-386d-550a-8038-6c5774db985c",
+      "text_sha256": "2bc5b9160d74f7c3a07b3eec3b60760b39dff3e923d9a2ab6be90a45abb6b86d",
+      "token_count": 81
+    },
+    {
+      "score": 0.3537915652446829,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1",
+      "split": "val",
+      "page_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00011",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_92"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1/images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00017.jpg",
+      "source_shapes": [
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_92",
+          "shape": {
+            "x": 143.68240356445318,
+            "y": 202.03369140625017,
+            "width": 943.4432067871094,
+            "height": 242.14486694335915
+          }
+        }
+      ],
+      "title": "",
+      "text": "v Windows 95 OEM Service Release 2 (OSR2): You must install Internet Explorer 5 and DirectX. v Windows 2000: You must install Service Pack 2 or higher, and DirectX. v Windows NT: You must install Service Pack 6 along with Internet Explorer 5, DirectX, and a third party IDE DMA driver. DirectX is not available in Windows NT due to Microsoft no longer providing any official DirectX for Windows NT.",
+      "char_count": 398,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_92",
+          "field": "ocr_normalized",
+          "start": 241,
+          "end": 639
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "daaa3904-9206-55ae-9d26-c148430d23d8",
+      "text_sha256": "3181652d1c88f04a5152e9c01565e24c046c4084beac8248d7291d840946a5e7",
+      "token_count": 94
+    },
+    {
+      "score": 0.35068565186973855,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1",
+      "split": "val",
+      "page_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00011",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_96",
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_97"
+      ],
+      "context_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_116"
+      ],
+      "image_filename": "images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1/images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00017.jpg",
+      "source_shapes": [
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_96",
+          "shape": {
+            "x": 141.0157368977865,
+            "y": 670.8323567708337,
+            "width": 948.6358744303387,
+            "height": 70.68918863932254
+          }
+        },
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_97",
+          "shape": {
+            "x": 143.68240356445318,
+            "y": 765.2689819335934,
+            "width": 919.3088073730469,
+            "height": 48.09375000000091
+          }
+        },
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_116",
+          "shape": {
+            "x": 143.33333333333334,
+            "y": 641.741658528646,
+            "width": 210.00000000000014,
+            "height": 28.666666666666515
+          }
+        }
+      ],
+      "title": "DVD region codes",
+      "text": "DVD region codes\nDVD region codes help protect the contents of a DVD. The world is divided into six regions and specific content can be viewed only in the appropriate region. For example, content for Region 1 can be viewed only in the U.S. and Canada. WinDVD is also region–specific.\nYou can verify the region code of the content by looking at the region code symbol on the back of the content packaging.",
+      "char_count": 404,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_96",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 266
+        },
+        {
+          "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_97",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 120
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "a7277adf-09bf-5594-8d1c-ae2010d240a1",
+      "text_sha256": "b703242af55cbb39ca911f02d9e99590a82005dc9edc98a7e218525c1cbfa941",
+      "token_count": 86
+    }
+  ],
+  "keyword_candidates": [
+    {
+      "chunk_id": "058ab5fd-2e1e-5f82-a1b8-53fbdc5a1f3f",
+      "bm25_score": -76.21335466743814
+    },
+    {
+      "chunk_id": "1078c21c-ac61-5d96-ad7b-b1b2686d48b4",
+      "bm25_score": -14.79498967252654
+    },
+    {
+      "chunk_id": "99a263a3-70dd-5e2d-9a2b-41aac3127a4b",
+      "bm25_score": -11.065382331423457
+    },
+    {
+      "chunk_id": "b1663267-6859-5a0d-940a-45d8498eba95",
+      "bm25_score": -10.801853042660792
+    },
+    {
+      "chunk_id": "417ee3be-5319-54e3-8223-bf34910fce50",
+      "bm25_score": -10.215215321620901
+    },
+    {
+      "chunk_id": "08d4ca55-24e2-514e-b360-2622c18ac28e",
+      "bm25_score": -9.433262203944707
+    },
+    {
+      "chunk_id": "f5705189-72f5-54d0-b4ec-784356a5d316",
+      "bm25_score": -8.461001968875063
+    },
+    {
+      "chunk_id": "99db5fc3-5a1e-535d-96e5-d92365fa24ac",
+      "bm25_score": -8.342583111083949
+    },
+    {
+      "chunk_id": "323dfbb7-8b00-5106-910e-a2f718e51beb",
+      "bm25_score": -8.23694604508532
+    },
+    {
+      "chunk_id": "2a5fd86c-7435-52aa-86fd-220f510cad5f",
+      "bm25_score": -7.5238777913655195
+    },
+    {
+      "chunk_id": "c2fe2304-a532-5651-a989-aa6f7e64953f",
+      "bm25_score": -7.330118929091152
+    },
+    {
+      "chunk_id": "c5a87f2c-386d-550a-8038-6c5774db985c",
+      "bm25_score": -7.226109184840066
+    },
+    {
+      "chunk_id": "3b2b7044-fb83-5419-902e-d5f015fdab5c",
+      "bm25_score": -7.128120262695442
+    },
+    {
+      "chunk_id": "f34add0f-16f6-5d1f-8297-033a13d0be19",
+      "bm25_score": -6.675507541241624
+    },
+    {
+      "chunk_id": "029de020-8c2e-5247-85d7-b07daf0e8f93",
+      "bm25_score": -6.398276417419468
+    },
+    {
+      "chunk_id": "9466cae4-2dd4-5f92-b6fc-bc423d312978",
+      "bm25_score": -6.3355467306368265
+    },
+    {
+      "chunk_id": "d52c37b8-7b45-53ec-9a42-aaca57e5f055",
+      "bm25_score": -6.3355467306368265
+    },
+    {
+      "chunk_id": "bd5791e3-48e0-5266-a9eb-ba8dc894de7d",
+      "bm25_score": -6.326150050655092
+    },
+    {
+      "chunk_id": "77749f28-0d6c-5bd7-9ebe-367006367a5f",
+      "bm25_score": -6.229792705445548
+    },
+    {
+      "chunk_id": "0891a611-a55b-5c0d-8011-407675cfe83f",
+      "bm25_score": -5.882269523807995
+    }
+  ],
+  "fused_candidates": [
+    {
+      "chunk_id": "058ab5fd-2e1e-5f82-a1b8-53fbdc5a1f3f",
+      "score": 0.01639344262295082,
+      "dense_rank": 1,
+      "dense_score": 0.9011164287955129,
+      "keyword_rank": 1,
+      "keyword_score": -76.21335466743814
+    },
+    {
+      "chunk_id": "1078c21c-ac61-5d96-ad7b-b1b2686d48b4",
+      "score": 0.01575682382133995,
+      "dense_rank": 5,
+      "dense_score": 0.46452581057976977,
+      "keyword_rank": 2,
+      "keyword_score": -14.79498967252654
+    },
+    {
+      "chunk_id": "b1663267-6859-5a0d-940a-45d8498eba95",
+      "score": 0.015625,
+      "dense_rank": 4,
+      "dense_score": 0.47094076222364845,
+      "keyword_rank": 4,
+      "keyword_score": -10.801853042660792
+    },
+    {
+      "chunk_id": "08d4ca55-24e2-514e-b360-2622c18ac28e",
+      "score": 0.015512265512265512,
+      "dense_rank": 3,
+      "dense_score": 0.49968356975791955,
+      "keyword_rank": 6,
+      "keyword_score": -9.433262203944707
+    },
+    {
+      "chunk_id": "99a263a3-70dd-5e2d-9a2b-41aac3127a4b",
+      "score": 0.015512265512265512,
+      "dense_rank": 6,
+      "dense_score": 0.4635212989963322,
+      "keyword_rank": 3,
+      "keyword_score": -11.065382331423457
+    },
+    {
+      "chunk_id": "99db5fc3-5a1e-535d-96e5-d92365fa24ac",
+      "score": 0.015417457305502846,
+      "dense_rank": 2,
+      "dense_score": 0.5461386097599363,
+      "keyword_rank": 8,
+      "keyword_score": -8.342583111083949
+    },
+    {
+      "chunk_id": "417ee3be-5319-54e3-8223-bf34910fce50",
+      "score": 0.014185814185814187,
+      "dense_rank": 17,
+      "dense_score": 0.36908674897279603,
+      "keyword_rank": 5,
+      "keyword_score": -10.215215321620901
+    },
+    {
+      "chunk_id": "c2fe2304-a532-5651-a989-aa6f7e64953f",
+      "score": 0.013986697965571206,
+      "dense_rank": 12,
+      "dense_score": 0.3814002373645722,
+      "keyword_rank": 11,
+      "keyword_score": -7.330118929091152
+    },
+    {
+      "chunk_id": "d52c37b8-7b45-53ec-9a42-aaca57e5f055",
+      "score": 0.013956193060670672,
+      "dense_rank": 7,
+      "dense_score": 0.4279815279641351,
+      "keyword_rank": 17,
+      "keyword_score": -6.3355467306368265
+    },
+    {
+      "chunk_id": "9466cae4-2dd4-5f92-b6fc-bc423d312978",
+      "score": 0.01393188854489164,
+      "dense_rank": 8,
+      "dense_score": 0.42031091184705804,
+      "keyword_rank": 16,
+      "keyword_score": -6.3355467306368265
+    },
+    {
+      "chunk_id": "2a5fd86c-7435-52aa-86fd-220f510cad5f",
+      "score": 0.013899613899613899,
+      "dense_rank": 14,
+      "dense_score": 0.3746748259195609,
+      "keyword_rank": 10,
+      "keyword_score": -7.5238777913655195
+    },
+    {
+      "chunk_id": "3b2b7044-fb83-5419-902e-d5f015fdab5c",
+      "score": 0.0136986301369863,
+      "dense_rank": 13,
+      "dense_score": 0.3758418956781251,
+      "keyword_rank": 13,
+      "keyword_score": -7.128120262695442
+    },
+    {
+      "chunk_id": "77749f28-0d6c-5bd7-9ebe-367006367a5f",
+      "score": 0.013471971066907775,
+      "dense_rank": 10,
+      "dense_score": 0.41086837341978477,
+      "keyword_rank": 19,
+      "keyword_score": -6.229792705445548
+    },
+    {
+      "chunk_id": "c5a87f2c-386d-550a-8038-6c5774db985c",
+      "score": 0.013354700854700854,
+      "dense_rank": 18,
+      "dense_score": 0.35521207748988143,
+      "keyword_rank": 12,
+      "keyword_score": -7.226109184840066
+    },
+    {
+      "chunk_id": "bd5791e3-48e0-5266-a9eb-ba8dc894de7d",
+      "score": 0.013076923076923076,
+      "dense_rank": 15,
+      "dense_score": 0.3746289157005655,
+      "keyword_rank": 18,
+      "keyword_score": -6.326150050655092
+    },
+    {
+      "chunk_id": "f5705189-72f5-54d0-b4ec-784356a5d316",
+      "score": 0.007462686567164179,
+      "keyword_rank": 7,
+      "keyword_score": -8.461001968875063
+    },
+    {
+      "chunk_id": "5aabc3b9-32e0-5ab4-9182-0313f4c0eaba",
+      "score": 0.007246376811594203,
+      "dense_rank": 9,
+      "dense_score": 0.41856440859836747
+    },
+    {
+      "chunk_id": "323dfbb7-8b00-5106-910e-a2f718e51beb",
+      "score": 0.007246376811594203,
+      "keyword_rank": 9,
+      "keyword_score": -8.23694604508532
+    },
+    {
+      "chunk_id": "f80ee167-5e9d-5425-b10c-c67c9554572b",
+      "score": 0.007042253521126761,
+      "dense_rank": 11,
+      "dense_score": 0.38906005182008135
+    },
+    {
+      "chunk_id": "f34add0f-16f6-5d1f-8297-033a13d0be19",
+      "score": 0.006756756756756757,
+      "keyword_rank": 14,
+      "keyword_score": -6.675507541241624
+    },
+    {
+      "chunk_id": "029de020-8c2e-5247-85d7-b07daf0e8f93",
+      "score": 0.006666666666666667,
+      "keyword_rank": 15,
+      "keyword_score": -6.398276417419468
+    },
+    {
+      "chunk_id": "6f3856c4-bd7f-50f4-9ac8-d39412d4e797",
+      "score": 0.006578947368421052,
+      "dense_rank": 16,
+      "dense_score": 0.36909768481060673
+    },
+    {
+      "chunk_id": "daaa3904-9206-55ae-9d26-c148430d23d8",
+      "score": 0.006329113924050633,
+      "dense_rank": 19,
+      "dense_score": 0.3537915652446829
+    },
+    {
+      "chunk_id": "a7277adf-09bf-5594-8d1c-ae2010d240a1",
+      "score": 0.00625,
+      "dense_rank": 20,
+      "dense_score": 0.35068565186973855
+    },
+    {
+      "chunk_id": "0891a611-a55b-5c0d-8011-407675cfe83f",
+      "score": 0.00625,
+      "keyword_rank": 20,
+      "keyword_score": -5.882269523807995
+    }
+  ],
+  "variants": {
+    "B_english_dense": {
+      "sources": [
+        {
+          "chunk_id": "058ab5fd-2e1e-5f82-a1b8-53fbdc5a1f3f",
+          "manual_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1",
+          "page_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00007",
+          "chunk_type": "text",
+          "text": "Software Description\nNote: Some graphics adapters such as the FIREGL, Intergraph, and 3dLabs, do not support DVD video playback.",
+          "content_region_ids": [
+            "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_52"
+          ],
+          "context_region_ids": [
+            "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_50"
+          ],
+          "image_filename": "images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1/images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00013.jpg",
+          "source_shapes": [
+            {
+              "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_52",
+              "shape": {
+                "x": 143.68240356445315,
+                "y": 1028.6870117187498,
+                "width": 934.9936218261719,
+                "height": 48.093750000000455
+              }
+            },
+            {
+              "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_50",
+              "shape": {
+                "x": 143.68240356445315,
+                "y": 910.0532836914061,
+                "width": 280.9746093750001,
+                "height": 33.246459960937614
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_52",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 107
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.9011164287955129,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S1"
+        },
+        {
+          "chunk_id": "99db5fc3-5a1e-535d-96e5-d92365fa24ac",
+          "manual_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1",
+          "page_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00011",
+          "chunk_type": "text",
+          "text": "If you are using a legacy operating system on your computer, you might need to update some components of your operating system to enable the DVD video playback function. The requirements for legacy operating systems are as follows:\nv Windows 95, Windows Server® 2000, Windows Server 2003: You must install the latest service pack, Internet Explorer® 5, and DirectX®. v Windows 98, Windows 98 Second Edition, Windows Millennium Edition: You must install the latest DirectX.",
+          "content_region_ids": [
+            "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_91",
+            "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_92"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1/images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00017.jpg",
+          "source_shapes": [
+            {
+              "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_91",
+              "shape": {
+                "x": 143.68240356445318,
+                "y": 126.67999267578126,
+                "width": 941.7339782714848,
+                "height": 74.70759073893227
+              }
+            },
+            {
+              "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_92",
+              "shape": {
+                "x": 143.68240356445318,
+                "y": 202.03369140625017,
+                "width": 943.4432067871094,
+                "height": 242.14486694335915
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_91",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 231
+            },
+            {
+              "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_92",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 240
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.5461386097599363,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S2"
+        },
+        {
+          "chunk_id": "08d4ca55-24e2-514e-b360-2622c18ac28e",
+          "manual_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1",
+          "page_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00007",
+          "chunk_type": "text",
+          "text": "Software Description\nThe Software and User Guide CD contains Intervideo WinDVD. The software enables you to play back DVD videos on your computer or to play video files from your hard disk drive.",
+          "content_region_ids": [
+            "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_51"
+          ],
+          "context_region_ids": [
+            "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_50"
+          ],
+          "image_filename": "images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1/images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00013.jpg",
+          "source_shapes": [
+            {
+              "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_51",
+              "shape": {
+                "x": 143.68240356445315,
+                "y": 956.8457641601565,
+                "width": 909.2945251464846,
+                "height": 48.09375
+              }
+            },
+            {
+              "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_50",
+              "shape": {
+                "x": 143.68240356445315,
+                "y": 910.0532836914061,
+                "width": 280.9746093750001,
+                "height": 33.246459960937614
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_51",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 174
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.49968356975791955,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S3"
+        },
+        {
+          "chunk_id": "b1663267-6859-5a0d-940a-45d8498eba95",
+          "manual_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1",
+          "page_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00010",
+          "chunk_type": "text",
+          "text": "Using the DVD function\nIf the operating system of your computer is Windows Vista Home Premium or Windows Vista Ultimate, you can view DVD movies without installing any additional software. Windows Media® Player comes fully configured to play DVD videos in those operating system versions. In Windows Vista Ultimate, you can also use Windows Media Center to view DVD videos.",
+          "content_region_ids": [
+            "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_84"
+          ],
+          "context_region_ids": [
+            "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_83"
+          ],
+          "image_filename": "images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1/images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00016.jpg",
+          "source_shapes": [
+            {
+              "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_84",
+              "shape": {
+                "x": 119.7353973388672,
+                "y": 1215.6997070312498,
+                "width": 950.7257843017578,
+                "height": 95.98803710937545
+              }
+            },
+            {
+              "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_83",
+              "shape": {
+                "x": 119.7353973388672,
+                "y": 1168.9073486328125,
+                "width": 316.59550476074224,
+                "height": 33.2464599609375
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_84",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 350
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.47094076222364845,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S4"
+        },
+        {
+          "chunk_id": "1078c21c-ac61-5d96-ad7b-b1b2686d48b4",
+          "manual_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1",
+          "page_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00012",
+          "chunk_type": "text",
+          "text": "Notes:\nIf you experience poor playback performance, adjust the resolution to a lower setting. 2. Audio and video streams are decoded by software. The audio and video subsystems need to be fully functional and enabled. 3. WinDVD does not enable DVD playback feature through Windows Media Player. After installing WinDVD, DVD video may play back through Media Player, but audio will not.",
+          "content_region_ids": [
+            "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_121"
+          ],
+          "context_region_ids": [
+            "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_130"
+          ],
+          "image_filename": "images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1/images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00018.jpg",
+          "source_shapes": [
+            {
+              "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_121",
+              "shape": {
+                "x": 119.73539733886722,
+                "y": 325.3695068359375,
+                "width": 943.7166290283205,
+                "height": 226.57098388671875
+              }
+            },
+            {
+              "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_130",
+              "shape": {
+                "x": 118,
+                "y": 294.6124954223633,
+                "width": 60.00000000000003,
+                "height": 24.999999999999943
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_121",
+              "field": "ocr_normalized",
+              "start": 362,
+              "end": 740
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.46452581057976977,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S5"
+        }
+      ],
+      "excluded_sources": [],
+      "retrieved_chunk_ids": [
+        "058ab5fd-2e1e-5f82-a1b8-53fbdc5a1f3f",
+        "99db5fc3-5a1e-535d-96e5-d92365fa24ac",
+        "08d4ca55-24e2-514e-b360-2622c18ac28e",
+        "b1663267-6859-5a0d-940a-45d8498eba95",
+        "1078c21c-ac61-5d96-ad7b-b1b2686d48b4"
+      ]
+    },
+    "C_english_hybrid": {
+      "sources": [
+        {
+          "chunk_id": "058ab5fd-2e1e-5f82-a1b8-53fbdc5a1f3f",
+          "manual_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1",
+          "page_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00007",
+          "chunk_type": "text",
+          "text": "Software Description\nNote: Some graphics adapters such as the FIREGL, Intergraph, and 3dLabs, do not support DVD video playback.",
+          "content_region_ids": [
+            "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_52"
+          ],
+          "context_region_ids": [
+            "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_50"
+          ],
+          "image_filename": "images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1/images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00013.jpg",
+          "source_shapes": [
+            {
+              "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_52",
+              "shape": {
+                "x": 143.68240356445315,
+                "y": 1028.6870117187498,
+                "width": 934.9936218261719,
+                "height": 48.093750000000455
+              }
+            },
+            {
+              "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_50",
+              "shape": {
+                "x": 143.68240356445315,
+                "y": 910.0532836914061,
+                "width": 280.9746093750001,
+                "height": 33.246459960937614
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_52",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 107
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.01639344262295082,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S1"
+        },
+        {
+          "chunk_id": "1078c21c-ac61-5d96-ad7b-b1b2686d48b4",
+          "manual_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1",
+          "page_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00012",
+          "chunk_type": "text",
+          "text": "Notes:\nIf you experience poor playback performance, adjust the resolution to a lower setting. 2. Audio and video streams are decoded by software. The audio and video subsystems need to be fully functional and enabled. 3. WinDVD does not enable DVD playback feature through Windows Media Player. After installing WinDVD, DVD video may play back through Media Player, but audio will not.",
+          "content_region_ids": [
+            "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_121"
+          ],
+          "context_region_ids": [
+            "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_130"
+          ],
+          "image_filename": "images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1/images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00018.jpg",
+          "source_shapes": [
+            {
+              "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_121",
+              "shape": {
+                "x": 119.73539733886722,
+                "y": 325.3695068359375,
+                "width": 943.7166290283205,
+                "height": 226.57098388671875
+              }
+            },
+            {
+              "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_130",
+              "shape": {
+                "x": 118,
+                "y": 294.6124954223633,
+                "width": 60.00000000000003,
+                "height": 24.999999999999943
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_121",
+              "field": "ocr_normalized",
+              "start": 362,
+              "end": 740
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.01575682382133995,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S2"
+        },
+        {
+          "chunk_id": "b1663267-6859-5a0d-940a-45d8498eba95",
+          "manual_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1",
+          "page_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00010",
+          "chunk_type": "text",
+          "text": "Using the DVD function\nIf the operating system of your computer is Windows Vista Home Premium or Windows Vista Ultimate, you can view DVD movies without installing any additional software. Windows Media® Player comes fully configured to play DVD videos in those operating system versions. In Windows Vista Ultimate, you can also use Windows Media Center to view DVD videos.",
+          "content_region_ids": [
+            "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_84"
+          ],
+          "context_region_ids": [
+            "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_83"
+          ],
+          "image_filename": "images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1/images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00016.jpg",
+          "source_shapes": [
+            {
+              "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_84",
+              "shape": {
+                "x": 119.7353973388672,
+                "y": 1215.6997070312498,
+                "width": 950.7257843017578,
+                "height": 95.98803710937545
+              }
+            },
+            {
+              "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_83",
+              "shape": {
+                "x": 119.7353973388672,
+                "y": 1168.9073486328125,
+                "width": 316.59550476074224,
+                "height": 33.2464599609375
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_84",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 350
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.015625,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S3"
+        },
+        {
+          "chunk_id": "08d4ca55-24e2-514e-b360-2622c18ac28e",
+          "manual_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1",
+          "page_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00007",
+          "chunk_type": "text",
+          "text": "Software Description\nThe Software and User Guide CD contains Intervideo WinDVD. The software enables you to play back DVD videos on your computer or to play video files from your hard disk drive.",
+          "content_region_ids": [
+            "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_51"
+          ],
+          "context_region_ids": [
+            "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_50"
+          ],
+          "image_filename": "images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1/images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00013.jpg",
+          "source_shapes": [
+            {
+              "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_51",
+              "shape": {
+                "x": 143.68240356445315,
+                "y": 956.8457641601565,
+                "width": 909.2945251464846,
+                "height": 48.09375
+              }
+            },
+            {
+              "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_50",
+              "shape": {
+                "x": 143.68240356445315,
+                "y": 910.0532836914061,
+                "width": 280.9746093750001,
+                "height": 33.246459960937614
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_51",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 174
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.015512265512265512,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S4"
+        },
+        {
+          "chunk_id": "99a263a3-70dd-5e2d-9a2b-41aac3127a4b",
+          "manual_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1",
+          "page_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00010",
+          "chunk_type": "text",
+          "text": "Using the DVD function\nIn Windows Vista Ultimate, you can also use Windows Media Center to view DVD videos.\nIf the operating system of your computer is Windows XP, Windows Vista Business, or Windows Vista Home Basic, you must install WinDVD to play back DVD videos.",
+          "content_region_ids": [
+            "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_84",
+            "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_85"
+          ],
+          "context_region_ids": [
+            "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_83"
+          ],
+          "image_filename": "images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1/images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00016.jpg",
+          "source_shapes": [
+            {
+              "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_84",
+              "shape": {
+                "x": 119.7353973388672,
+                "y": 1215.6997070312498,
+                "width": 950.7257843017578,
+                "height": 95.98803710937545
+              }
+            },
+            {
+              "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_85",
+              "shape": {
+                "x": 119.7353973388672,
+                "y": 1335.4351806640625,
+                "width": 916.5492706298828,
+                "height": 48.09399414062523
+              }
+            },
+            {
+              "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_83",
+              "shape": {
+                "x": 119.7353973388672,
+                "y": 1168.9073486328125,
+                "width": 316.59550476074224,
+                "height": 33.2464599609375
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_84",
+              "field": "ocr_normalized",
+              "start": 266,
+              "end": 350
+            },
+            {
+              "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_85",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 157
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.015512265512265512,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S5"
+        }
+      ],
+      "excluded_sources": [],
+      "retrieved_chunk_ids": [
+        "058ab5fd-2e1e-5f82-a1b8-53fbdc5a1f3f",
+        "1078c21c-ac61-5d96-ad7b-b1b2686d48b4",
+        "b1663267-6859-5a0d-940a-45d8498eba95",
+        "08d4ca55-24e2-514e-b360-2622c18ac28e",
+        "99a263a3-70dd-5e2d-9a2b-41aac3127a4b"
+      ]
+    }
+  },
+  "retrieval_seconds": 6.433576000010362
+}

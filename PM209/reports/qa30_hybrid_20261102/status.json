@@ -1,0 +1,18 @@
+{
+  "status": "completed_with_errors",
+  "stage": "complete",
+  "started_at": "2026-11-02T00:15:40.779607+00:00",
+  "total_questions": 30,
+  "updated_at": "2026-11-02T00:19:25.147463+00:00",
+  "elapsed_seconds": 224.3683224999986,
+  "bm25_chunks": 126938,
+  "retrieved": 30,
+  "index_points": 126938,
+  "query_embeddings_generated": 30,
+  "query_embedding_cache_hits": 0,
+  "processed": 60,
+  "variant": "C_english_hybrid",
+  "answered": 54,
+  "abstained": 4,
+  "errors": 2
+}

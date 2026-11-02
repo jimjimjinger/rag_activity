@@ -1,0 +1,586 @@
+{
+  "case_id": "TEXT05",
+  "manual_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a",
+  "question": "일련번호는 어디에서 확인할 수 있나요?",
+  "english_query": "Where can I check the serial number?",
+  "keyword_percent": 100,
+  "variant": "top5_kw100",
+  "top_k": 5,
+  "retrieved_chunk_ids": [
+    "b38a4a41-a87b-51de-a721-95df09f71ba9",
+    "c7245274-85f7-53ea-b1a0-1c124de425be",
+    "a37dc992-1a0a-549d-8923-1ef0eb70046f",
+    "ce9f62b8-a96b-551a-b094-bb21efaedfa9",
+    "35486629-7d7f-5f35-a7ea-27cbb72c7569"
+  ],
+  "sources": [
+    {
+      "chunk_id": "b38a4a41-a87b-51de-a721-95df09f71ba9",
+      "manual_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a",
+      "page_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_00003",
+      "chunk_type": "text",
+      "text": "Note: To use this CB, you need a mobile or base station antenna. Your local Ra- dioShack store has a wide variety of an- tennas. For more information, see “Installing an Antenna” on Page 6.\nWe recommend you record your CB’s serial number here. The number is on the CB’s back panel.\nSerial Number___________",
+      "content_region_ids": [
+        "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_243",
+        "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_244",
+        "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_245"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a/images/samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_00003.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_243",
+          "shape": {
+            "x": 246.3200073242188,
+            "y": 687.4841308593752,
+            "width": 357.5855102539064,
+            "height": 123.03936767578125
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_244",
+          "shape": {
+            "x": 246.3200073242188,
+            "y": 831.4826660156255,
+            "width": 356.79821777343744,
+            "height": 75.03985595703102
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_245",
+          "shape": {
+            "x": 246.3200073242188,
+            "y": 927.4816894531252,
+            "width": 250.01449584960938,
+            "height": 27.04034423828125
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_243",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 189
+        },
+        {
+          "region_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_244",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 91
+        },
+        {
+          "region_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_245",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 24
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 16.7109432220459,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "c7245274-85f7-53ea-b1a0-1c124de425be",
+      "manual_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a",
+      "page_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_00018",
+      "chunk_type": "table",
+      "text": "TROUBLESHOOTING\nFirst row (header unconfirmed): Column 1: Symptom: | Column 2: Check That:\nColumn 1: Symptom: | Column 2: Check That:\nColumn 1: Trouble with reception | Column 2: • The CB is turned on. • CB/WX/PA is set to CB. • OFF/VOLUME is turned up. •RF GAIN is adjusted propery. •The microphone is securely connected to the CB. •The antenna cable is securely connected to both the antenna and theCB.",
+      "content_region_ids": [
+        "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_111"
+      ],
+      "context_region_ids": [
+        "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_88"
+      ],
+      "image_filename": "images/samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a/images/samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_00019.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_111",
+          "shape": {
+            "x": 240.76171875,
+            "y": 388.8867187500002,
+            "width": 768.0000000000003,
+            "height": 744.0
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_88",
+          "shape": {
+            "x": 246.32000732421872,
+            "y": 220.1703948974609,
+            "width": 323.35772705078136,
+            "height": 43.62336730957023
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_90",
+          "shape": {
+            "x": 333.6795349121094,
+            "y": 409.90173339843756,
+            "width": 97.22976684570341,
+            "height": 27.099975585937443
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_91",
+          "shape": {
+            "x": 700.3482055664061,
+            "y": 409.9023437500003,
+            "width": 114.08496093750057,
+            "height": 27.099365234374716
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_92",
+          "shape": {
+            "x": 254.48004150390628,
+            "y": 445.56835937500017,
+            "width": 195.73706054687503,
+            "height": 27.040313720702954
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_93",
+          "shape": {
+            "x": 544.8779296875003,
+            "y": 445.56835937500017,
+            "width": 201.3069458007809,
+            "height": 27.040313720702954
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_94",
+          "shape": {
+            "x": 544.8801269531251,
+            "y": 481.5679931640626,
+            "width": 218.1109619140625,
+            "height": 27.041290283202954
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_95",
+          "shape": {
+            "x": 544.8795776367189,
+            "y": 517.5679931640627,
+            "width": 251.20471191406273,
+            "height": 27.040954589843523
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_100",
+          "shape": {
+            "x": 544.425720214844,
+            "y": 705.727783203125,
+            "width": 200.91320800781227,
+            "height": 27.040344238281477
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_101",
+          "shape": {
+            "x": 544.8804931640626,
+            "y": 741.7279663085939,
+            "width": 251.20379638671898,
+            "height": 27.04077148437534
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_107",
+          "shape": {
+            "x": 544.8807373046876,
+            "y": 989.4080200195312,
+            "width": 218.1103515625,
+            "height": 27.0428466796875
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "score": 6.397778034210205,
+      "table_rows": [
+        0,
+        1
+      ],
+      "table_cells": [
+        {
+          "row": 0,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "a37dc992-1a0a-549d-8923-1ef0eb70046f",
+      "manual_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a",
+      "page_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_00017",
+      "chunk_type": "text",
+      "text": "If problems persist, check your alterna- tor/generator, regulator, and gauges. Noise from these sources can be re- duced or eliminated using bypass ca- pacitors at various output voltage points.\nYour local RadioShack store has a wide selection of noise-suppression accesso- ries.",
+      "content_region_ids": [
+        "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_86",
+        "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_87"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a/images/samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_00018.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_86",
+          "shape": {
+            "x": 621.1978759765626,
+            "y": 675.4844970703126,
+            "width": 356.71942138671875,
+            "height": 123.03936767578125
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_87",
+          "shape": {
+            "x": 621.1978759765626,
+            "y": 819.4830322265626,
+            "width": 356.32598876953136,
+            "height": 75.03985595703114
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_86",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 194
+        },
+        {
+          "region_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_87",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 84
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 5.616995811462402,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S3"
+    },
+    {
+      "chunk_id": "ce9f62b8-a96b-551a-b094-bb21efaedfa9",
+      "manual_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a",
+      "page_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_00010",
+      "chunk_type": "text",
+      "text": "STANDING WAVE RATIO CHART\nNote: Prolonged exposure to the elements (salt spray, humidity, corrosion, and so on) or vehicle vibration can cause degradation in antenna performance and a rise in the SWR meter’s normal reading. Once a month, or anytime the SWR reading is greater than 3, check the condition of the antenna and its coaxial cable, RF electrical connections, and so on.",
+      "content_region_ids": [
+        "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_197"
+      ],
+      "context_region_ids": [
+        "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_195"
+      ],
+      "image_filename": "images/samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a/images/samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_00011.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_197",
+          "shape": {
+            "x": 246.3200073242188,
+            "y": 827.4906005859377,
+            "width": 749.6694946289065,
+            "height": 123.19683837890614
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_195",
+          "shape": {
+            "x": 246.3200073242188,
+            "y": 300.13723754882824,
+            "width": 437.5336303710937,
+            "height": 38.33566284179682
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_197",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 353
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 5.506527900695801,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S4"
+    },
+    {
+      "chunk_id": "35486629-7d7f-5f35-a7ea-27cbb72c7569",
+      "manual_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a",
+      "page_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_00018",
+      "chunk_type": "table",
+      "text": "TROUBLESHOOTING\nFirst row (header unconfirmed): Column 1: Symptom: | Column 2: Check That:\nColumn 1: Trouble with transmission | Column 2: •The CB is turned on. • OFF/VOLUME is turned up. • The microphone is securely connected to the CB. •All connectors are clean and tightened. •You are fully pressing the microphone talk but- ton. •The antenna cable is securely connected to both the antenna and the CB",
+      "content_region_ids": [
+        "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_111"
+      ],
+      "context_region_ids": [
+        "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_88"
+      ],
+      "image_filename": "images/samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a/images/samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_00019.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_111",
+          "shape": {
+            "x": 240.76171875,
+            "y": 388.8867187500002,
+            "width": 768.0000000000003,
+            "height": 744.0
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_88",
+          "shape": {
+            "x": 246.32000732421872,
+            "y": 220.1703948974609,
+            "width": 323.35772705078136,
+            "height": 43.62336730957023
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_90",
+          "shape": {
+            "x": 333.6795349121094,
+            "y": 409.90173339843756,
+            "width": 97.22976684570341,
+            "height": 27.099975585937443
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_91",
+          "shape": {
+            "x": 700.3482055664061,
+            "y": 409.9023437500003,
+            "width": 114.08496093750057,
+            "height": 27.099365234374716
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_95",
+          "shape": {
+            "x": 544.8795776367189,
+            "y": 517.5679931640627,
+            "width": 251.20471191406273,
+            "height": 27.040954589843523
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_97",
+          "shape": {
+            "x": 544.8804931640626,
+            "y": 589.5686035156251,
+            "width": 443.6660156249999,
+            "height": 51.04010009765648
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_99",
+          "shape": {
+            "x": 254.48043823242188,
+            "y": 705.727783203125,
+            "width": 225.06033325195312,
+            "height": 27.040344238281477
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_101",
+          "shape": {
+            "x": 544.8804931640626,
+            "y": 741.7279663085939,
+            "width": 251.20379638671898,
+            "height": 27.04077148437534
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_102",
+          "shape": {
+            "x": 544.8807373046876,
+            "y": 777.7285766601564,
+            "width": 442.81939697265636,
+            "height": 51.04010009765625
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "score": 5.479586601257324,
+      "table_rows": [
+        2
+      ],
+      "table_cells": [
+        {
+          "row": 2,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S5"
+    }
+  ],
+  "excluded_sources": [],
+  "created_at": "2026-11-02T05:04:49.790013+00:00",
+  "status": "answered",
+  "answer": "일련번호는 CB 의 뒷 패널(back panel) 에서 확인할 수 있습니다.",
+  "source_ids": [
+    "S1"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 51,
+        "prompt_eval_count": 927,
+        "total_duration": 1126345100,
+        "load_duration": 6538900,
+        "attempt": 1,
+        "prompt_token_upper_bound": 4471
+      }
+    ],
+    "elapsed_seconds": 1.130649099999573,
+    "backend": "LangChain ChatPromptTemplate | ChatOllama"
+  },
+  "citations": [
+    {
+      "chunk_id": "b38a4a41-a87b-51de-a721-95df09f71ba9",
+      "manual_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a",
+      "page_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_00003",
+      "chunk_type": "text",
+      "text": "Note: To use this CB, you need a mobile or base station antenna. Your local Ra- dioShack store has a wide variety of an- tennas. For more information, see “Installing an Antenna” on Page 6.\nWe recommend you record your CB’s serial number here. The number is on the CB’s back panel.\nSerial Number___________",
+      "content_region_ids": [
+        "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_243",
+        "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_244",
+        "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_245"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a/images/samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_00003.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_243",
+          "shape": {
+            "x": 246.3200073242188,
+            "y": 687.4841308593752,
+            "width": 357.5855102539064,
+            "height": 123.03936767578125
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_244",
+          "shape": {
+            "x": 246.3200073242188,
+            "y": 831.4826660156255,
+            "width": 356.79821777343744,
+            "height": 75.03985595703102
+          }
+        },
+        {
+          "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_245",
+          "shape": {
+            "x": 246.3200073242188,
+            "y": 927.4816894531252,
+            "width": 250.01449584960938,
+            "height": 27.04034423828125
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_243",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 189
+        },
+        {
+          "region_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_244",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 91
+        },
+        {
+          "region_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_245",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 24
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 16.7109432220459,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 1.1307301999768242,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 66,
+    "utilization_percent": 85
+  }
+}

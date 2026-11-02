@@ -1,0 +1,77 @@
+{
+  "created_at": "2026-11-02T00:03:45.721593+00:00",
+  "total": 30,
+  "manuals": 21,
+  "category_counts": {
+    "text": {
+      "correct": 9,
+      "incorrect": 1
+    },
+    "table": {
+      "correct": 4,
+      "no_answer": 4,
+      "incorrect": 1,
+      "partial": 1
+    },
+    "figure": {
+      "partial": 4,
+      "correct": 4,
+      "no_answer": 1,
+      "incorrect": 1
+    }
+  },
+  "verdict_counts": {
+    "correct": 17,
+    "incorrect": 3,
+    "no_answer": 5,
+    "partial": 5
+  },
+  "strict_accuracy": 0.5666666666666667,
+  "retrieved_context_assessment": {
+    "sufficient": 20,
+    "partial": 6,
+    "insufficient": 4
+  },
+  "answered": 25,
+  "abstained": 5,
+  "runtime_errors": 0,
+  "false_abstention_cases": [
+    "TABLE02",
+    "TABLE10"
+  ],
+  "elapsed_seconds": 137.04688849998638,
+  "generation_seconds": 54.54737519999617,
+  "generation_median_seconds": 1.6004943000007188,
+  "generation_attempts": 31,
+  "format_retry_cases": [
+    "TABLE09"
+  ],
+  "output_tokens_including_rejected_attempts": 2665,
+  "truncated_attempts": 0,
+  "excluded_contexts": 0,
+  "gpu_observed_vram_mib_range": [
+    3834,
+    3836
+  ],
+  "gpu_observed_temperature_c_range": [
+    62,
+    67
+  ],
+  "gpu_sampling_note": "문항별 생성 직후 관측값; 연속 측정 최대치 아님",
+  "source_files_preserved": 9,
+  "chunks_unchanged": true,
+  "reviewer": "Codex assistant; original page crops, QA references, retrieved sources, and actual responses compared directly",
+  "independent_human_review": false,
+  "questions_sha256": "46ac65f02b6aa6c04cd622ca1fade73ef8ea97ec6fcff9d4095081d6a9df2da6",
+  "references_sha256": "415eddb36cbf30fed9008d2a904ba19d9b30f48d1688d171f870d457141c3b88",
+  "review_sha256": "af7eb5bea1e4088674706f6a0253072928fdbdca70bb9ef921c44990894c6972",
+  "run_results_sha256": "12d73fe6860f304f02f885e8fa5399c9fba87bc1b6bee441b9d42af93a2fcddb",
+  "limits": [
+    "30개 진단 표본이며 전체 데이터셋 성능 추정이 아님",
+    "대상 매뉴얼 ID를 지정한 검색; 전체 문서에서 제품 식별하는 성능은 미평가",
+    "영어 QA를 한국어로 바꾼 테스트이며 FIG05는 사전 고정한 확장 질문",
+    "그림 그룹은 원 QA 근거에 그림이 포함된 분류이며 순수 시각 QA가 아님",
+    "답변 LLM에는 이미지 대신 기존 그림 description과 본문/표 텍스트가 입력됨",
+    "Codex의 원본 대조 평가이며 독립 사람 검수나 공인 벤치마크 점수가 아님"
+  ]
+}

@@ -1,0 +1,316 @@
+{
+  "case_id": "TABLE02",
+  "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+  "question": "제품 패키지에는 어떤 구성품이 들어 있어야 하나요?",
+  "english_query": "What components should be included in the product package?",
+  "sources": [
+    {
+      "chunk_id": "409d262c-b26f-5067-922d-a42c9ce2a1b1",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00001",
+      "chunk_type": "text",
+      "text": "Package Contents\nBe sure to check that the package contains all the items listed below:",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_11"
+      ],
+      "context_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_2"
+      ],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00002.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_11",
+          "shape": {
+            "x": 175.0000000000001,
+            "y": 517.6093749999999,
+            "width": 643.0000000000003,
+            "height": 29.000000000000114
+          }
+        },
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_2",
+          "shape": {
+            "x": 174.8399963378907,
+            "y": 474.95278930664085,
+            "width": 193.29559326171866,
+            "height": 28.044128417968864
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_11",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 70
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.01639344262295082,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "21291e6c-593e-5d24-bf4d-03bdb381997e",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00001",
+      "chunk_type": "text",
+      "text": "Package Contents\nIf any items are missing, please contact the store where you purchased the camera. Keep the camera packaging in a safe place as it will be needed if you return the camera for repairs, etc.",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_3"
+      ],
+      "context_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_2"
+      ],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00002.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_3",
+          "shape": {
+            "x": 169.33999633789077,
+            "y": 675.4805908203131,
+            "width": 881.207977294922,
+            "height": 60.67871093749966
+          }
+        },
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_2",
+          "shape": {
+            "x": 174.8399963378907,
+            "y": 474.95278930664085,
+            "width": 193.29559326171866,
+            "height": 28.044128417968864
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_3",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 188
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.016001024065540194,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "605dfafc-2ea1-5d54-8127-d202e9e936b7",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00002",
+      "chunk_type": "figure",
+      "text": "Blue Platfoto digital camera featuring a 2.0 megapixel sensor, flash unit, and lens. The device includes a textured back panel with visible branding and functional components like the viewfinder and shutter button.",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_36"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00003.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_36",
+          "shape": {
+            "x": 384.480010986328,
+            "y": 309.7194213867188,
+            "width": 456.6448059082036,
+            "height": 310.2000122070313
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_36",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 214
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": 0.015749007936507936,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S3"
+    },
+    {
+      "chunk_id": "501b351e-5215-5955-a707-0192a9a427d2",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00013",
+      "chunk_type": "figure",
+      "text": "Photo Impression 4.0 Installation\nA digital camera software interface displaying a list of components including Driver, Photo Impression 4.0, PhotoBase 4.0, Acrobat Reader 5.0, and User Manual. The layout features teal-colored buttons against a blurred background with the title 'Digital Camera' prominently displayed at the top.",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_383"
+      ],
+      "context_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_384"
+      ],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00014.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_383",
+          "shape": {
+            "x": 227.27999877929688,
+            "y": 369.11944580078097,
+            "width": 331.91116333007824,
+            "height": 248.03997802734415
+          }
+        },
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_384",
+          "shape": {
+            "x": 171.00000000000003,
+            "y": 217.64062500000014,
+            "width": 338.0,
+            "height": 28.99999999999997
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_383",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 295
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": 0.014938684503901897,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S4"
+    },
+    {
+      "chunk_id": "146b2464-f2db-593f-9333-1e3dd2e49f43",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00027",
+      "chunk_type": "text",
+      "text": "Disposing of This Product\nWhen disposing of this product, do so in accordance with your local waste disposal regulations.",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_347"
+      ],
+      "context_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_346"
+      ],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00028.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_347",
+          "shape": {
+            "x": 172.02777777777777,
+            "y": 1322.4609374999998,
+            "width": 788.7222222222222,
+            "height": 61.50000000000068
+          }
+        },
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_346",
+          "shape": {
+            "x": 171.75000000000006,
+            "y": 1295.4609375000005,
+            "width": 263.99999999999994,
+            "height": 26.999999999999318
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_347",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 95
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.014219443323920937,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S5"
+    }
+  ],
+  "excluded_sources": [],
+  "retrieved_chunk_ids": [
+    "409d262c-b26f-5067-922d-a42c9ce2a1b1",
+    "21291e6c-593e-5d24-bf4d-03bdb381997e",
+    "605dfafc-2ea1-5d54-8127-d202e9e936b7",
+    "501b351e-5215-5955-a707-0192a9a427d2",
+    "146b2464-f2db-593f-9333-1e3dd2e49f43"
+  ],
+  "variant": "C_english_hybrid",
+  "created_at": "2026-11-02T00:18:49.024815+00:00",
+  "status": "insufficient_evidence",
+  "answer": "검색된 매뉴얼 근거에서 질문에 대한 답을 확인하지 못했습니다.",
+  "source_ids": [],
+  "insufficient_evidence": true,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 92,
+        "prompt_eval_count": 663,
+        "total_duration": 1527216000,
+        "load_duration": 4999700,
+        "attempt": 1,
+        "prompt_token_upper_bound": 3557
+      }
+    ],
+    "elapsed_seconds": 1.5856387999956496,
+    "ollama_model": {
+      "name": "qwen3.5:4b",
+      "model": "qwen3.5:4b",
+      "size": 3214409726,
+      "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "4.2B",
+        "quantization_level": "Q4_K_M"
+      },
+      "expires_at": "2026-11-02T09:19:50.6084393+09:00",
+      "size_vram": 3214409726,
+      "context_length": 8192,
+      "runner": "llamacpp"
+    },
+    "observation_error": null
+  },
+  "citations": [],
+  "cited_figures": [],
+  "elapsed_seconds": 1.5857673000136856,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3836,
+    "temperature_c": 64,
+    "utilization_percent": 83
+  }
+}

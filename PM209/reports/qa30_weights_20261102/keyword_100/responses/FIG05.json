@@ -1,0 +1,327 @@
+{
+  "case_id": "FIG05",
+  "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+  "question": "스피커의 AC 전원 공급장치는 몇 가지 유형이며 각각 어떻게 준비하나요?",
+  "english_query": "What are the types of AC power supply for the speaker, and how is each prepared?",
+  "keyword_percent": 100,
+  "dense_percent": 0,
+  "retrieved_chunk_ids": [
+    "c8800cb1-b4d1-5517-affe-2103aec1d713",
+    "6c6335a5-b563-50cc-a441-e9aa27eea06e",
+    "da8b2408-58b7-5f54-ad0e-96f3ef13b138",
+    "2fad2f23-d641-543d-b859-69014adf2044",
+    "03885723-9bef-5c27-a17d-45e880a88d37"
+  ],
+  "sources": [
+    {
+      "chunk_id": "c8800cb1-b4d1-5517-affe-2103aec1d713",
+      "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+      "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00006",
+      "chunk_type": "text",
+      "text": "Connecting to AC power\nThe first time using your SoundLink® Bluetooth® speaker III, connect it to AC (mains) power and charge the battery for three hours. While the battery is charging, you can begin using the speaker.\n1. Depending on your AC power supply type:",
+      "content_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_2",
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_3"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_1"
+      ],
+      "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00007.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_2",
+          "shape": {
+            "x": 72.94799804687491,
+            "y": 136.12800598144514,
+            "width": 667.7661743164055,
+            "height": 63.740763346354214
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_3",
+          "shape": {
+            "x": 74.94799804687491,
+            "y": 204.7981414794922,
+            "width": 377.06334431966104,
+            "height": 23.473999023437187
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_1",
+          "shape": {
+            "x": 74.96301269531243,
+            "y": 93.83261362711578,
+            "width": 309.58528645833286,
+            "height": 28.877332051595033
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_2",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 195
+        },
+        {
+          "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_3",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 42
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.01639344262295082,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "6c6335a5-b563-50cc-a441-e9aa27eea06e",
+      "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+      "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00007",
+      "chunk_type": "text",
+      "text": "Operation\n2. Plug the power cord on the AC power supply into the DC connector on the back of the speaker.",
+      "content_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_12"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_11"
+      ],
+      "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00008.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_12",
+          "shape": {
+            "x": 53.35300064086906,
+            "y": 96.1903533935546,
+            "width": 636.1020164489744,
+            "height": 41.4000549316406
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_11",
+          "shape": {
+            "x": 53.35300064086906,
+            "y": 54.16992187499997,
+            "width": 108.7440147399902,
+            "height": 28.416000366210824
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_12",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 95
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.016129032258064516,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "da8b2408-58b7-5f54-ad0e-96f3ef13b138",
+      "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+      "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00005",
+      "chunk_type": "text",
+      "text": "AC power supply",
+      "content_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_267"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00006.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_267",
+          "shape": {
+            "x": 341.33333333333314,
+            "y": 904.4062499999995,
+            "width": 125.3333333333332,
+            "height": 19.999999999999886
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_267",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 15
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.015873015873015872,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S3"
+    },
+    {
+      "chunk_id": "2fad2f23-d641-543d-b859-69014adf2044",
+      "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+      "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00005",
+      "chunk_type": "text",
+      "text": "AC power supply adapters",
+      "content_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_265"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00006.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_265",
+          "shape": {
+            "x": 555.2708129882808,
+            "y": 904.7777709960935,
+            "width": 122.95989990234375,
+            "height": 36.65600585937432
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_265",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 24
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.015625,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S4"
+    },
+    {
+      "chunk_id": "03885723-9bef-5c27-a17d-45e880a88d37",
+      "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+      "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00006",
+      "chunk_type": "text",
+      "text": "Connecting to AC power\na. Extend the prongs from the AC power supply.",
+      "content_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_4"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_1"
+      ],
+      "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00007.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_4",
+          "shape": {
+            "x": 110.28133138020833,
+            "y": 233.79600524902312,
+            "width": 403.4167277018225,
+            "height": 24.807332356770786
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_1",
+          "shape": {
+            "x": 74.96301269531243,
+            "y": 93.83261362711578,
+            "width": 309.58528645833286,
+            "height": 28.877332051595033
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_4",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 46
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.015384615384615385,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S5"
+    }
+  ],
+  "excluded_sources": [],
+  "status": "insufficient_evidence",
+  "variant": "keyword_100",
+  "created_at": "2026-11-02T00:43:02.447395+00:00",
+  "answer": "검색된 매뉴얼 근거에서 질문에 대한 답을 확인하지 못했습니다.",
+  "source_ids": [],
+  "insufficient_evidence": true,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 156,
+        "prompt_eval_count": 594,
+        "total_duration": 2293738400,
+        "load_duration": 5995400,
+        "attempt": 1,
+        "prompt_token_upper_bound": 3153
+      }
+    ],
+    "elapsed_seconds": 2.365857500000857,
+    "ollama_model": {
+      "name": "qwen3.5:4b",
+      "model": "qwen3.5:4b",
+      "size": 3214409726,
+      "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "4.2B",
+        "quantization_level": "Q4_K_M"
+      },
+      "expires_at": "2026-11-02T09:44:04.8111201+09:00",
+      "size_vram": 3214409726,
+      "context_length": 8192,
+      "runner": "llamacpp"
+    },
+    "observation_error": null
+  },
+  "citations": [],
+  "cited_figures": [],
+  "elapsed_seconds": 2.366222500015283,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3836,
+    "temperature_c": 66,
+    "utilization_percent": 85
+  }
+}

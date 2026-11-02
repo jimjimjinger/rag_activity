@@ -1,0 +1,603 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>PM209 · 질문 30개 검수</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f5f7fa;color:#182c3a;font:16px/1.7 system-ui,"Malgun Gothic",sans-serif}main{max-width:1120px;margin:auto;padding:32px 20px 80px}h1{font-size:32px;line-height:1.3}h2{font-size:21px;margin:12px 0}h3{font-size:14px;color:#516478;margin:0 0 8px}p{margin:10px 0}a{color:#155eac}header,.intro,article{background:white;border:1px solid #dce3eb;border-radius:14px;padding:24px;margin-bottom:18px}.eyebrow,.small{font-size:13px;color:#566a7e}.stats{display:flex;gap:12px;flex-wrap:wrap;margin:22px 0}.stat{background:#edf3f8;border-radius:10px;padding:12px 20px}.stat b{display:block;font-size:26px}table{width:100%;border-collapse:collapse;margin:20px 0;text-align:center}th,td{padding:8px;border-bottom:1px solid #e0e6ed}.toolbar{position:sticky;top:0;z-index:1;background:#f5f7faf2;padding:14px 0;display:flex;flex-wrap:wrap;gap:10px;align-items:center}select,input{font:inherit;border:1px solid #abbaca;border-radius:7px;padding:8px;background:white;max-width:100%}input{flex:1;min-width:200px}.case-head{display:flex;justify-content:space-between;gap:12px;font-size:14px;font-weight:600}.badge{padding:2px 12px;border-radius:30px;background:#e7edf4}.correct{color:#116248;background:#dff4ea}.partial{color:#835214;background:#fff0d6}.incorrect{color:#a12039;background:#ffe6eb}.no_answer{color:#494a85;background:#ecebfa}.comparison{display:grid;grid-template-columns:1fr 1fr;gap:14px}.comparison section{padding:16px;background:#f4f7fb;border-radius:9px}.verbatim{white-space:pre-wrap}.judgment{border-left:3px solid #4283aa;padding-left:14px}details{border-top:1px solid #e2e8f0;padding-top:10px;margin-top:12px}summary{cursor:pointer;font-weight:600}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:14px/1.65 ui-monospace,monospace;background:#f6f7f9;padding:12px;border-radius:6px}li{margin-bottom:14px}img{display:block;max-width:100%;height:auto;margin-top:18px;border:1px solid #dce3eb}article[hidden]{display:none}@media(max-width:700px){.comparison{grid-template-columns:1fr}main{padding:16px 10px}header,.intro,article{padding:18px}h1{font-size:26px}}@media print{.toolbar{display:none}article{break-inside:avoid}body{background:white}}
+</style></head><body><main><header><p class="eyebrow">PM209 · 2026.11.02 · 최초 30문항 진단</p><h1>답변은 연결됐습니다.<br>표의 조건과 그림 속 조작에는 보완이 필요합니다.</h1>
+<p>본문·표·그림 각 10문항을 기존 검색과 답변 LLM으로 실행하고, 원본 매뉴얼에 대조했습니다.</p>
+<div class="stats"><div class="stat"><b>17 / 30</b>정답 · 56.7%</div><div class="stat"><b>5</b>부분정답</div><div class="stat"><b>3</b>오답</div><div class="stat"><b>5</b>미답변</div><div class="stat"><b>0</b>최종 실행 오류</div></div>
+<table><thead><tr><th>그룹</th><th>정답</th><th>부분정답</th><th>오답</th><th>미답변</th></tr></thead><tbody><tr><th>본문</th><td>9</td><td>0</td><td>1</td><td>0</td></tr><tr><th>표</th><td>4</td><td>1</td><td>1</td><td>4</td></tr><tr><th>그림</th><td>4</td><td>4</td><td>1</td><td>1</td></tr></tbody></table>
+<p class="small">val · 21개 매뉴얼 · 매뉴얼별 최대 2문항 · manual_id 지정 검색 · top-5 · qwen3.5:4b · 실행 2분 17초</p>
+<p><a href="REPORT.md">전체 Markdown 보고서</a> · <a href="summary.json">집계 JSON</a> · <a href="review.json">문항별 판정 JSON</a></p></header>
+<section class="intro"><b>이 결과를 읽는 기준</b><p>Codex가 원본을 대조한 진단이며 독립적인 사람 검수는 아닙니다. 그림 그룹은 원 QA 근거에 그림이 포함된 분류입니다. 답변 LLM은 이미지를 직접 보지 않고 기존 그림 description을 텍스트로 읽었습니다. 따라서 56.7%를 전체 데이터셋 성능이나 그림 인식 정확도로 해석하지 않습니다.</p>
+<p><b>정답 기준 확인:</b> TEXT08은 공식 QA의 100~400VAC를 원본의 100~240VAC로 보정했습니다. FIG10은 공식 QA의 짧은 답만 보면 충족하지만 원본의 잠금 해제 동작까지 고려해 부분정답입니다. FIG05는 준비 방법까지 묻도록 실행 전에 확장한 질문입니다.</p>
+<p><b>주요 원인:</b> 정답이 검색됐는데 거부한 2건(TABLE02·10), 필요한 표 행을 못 찾은 사례, 그림 설명의 위치 정보 누락, 설치 절차의 뒷단계 누락이 확인됐습니다. 아래 실제 답변은 문장까지 수정 없이 보존했습니다.</p>
+<p class="small">질문·정답은 분리했고 모델에 정답을 넣지 않았습니다. 원본/그림/표 9개 JSONL 및 청크 해시 보존 확인. GPU 관측 3,834~3,836MiB / 62~67°C(문항별 관측값). 원본 이미지 링크는 로컬 데이터가 필요합니다.</p></section>
+<div class="toolbar"><select id="category" aria-label="질문 그룹"><option value="">전체 그룹</option><option value="text">본문</option><option value="table">표</option><option value="figure">그림</option></select><select id="verdict" aria-label="판정"><option value="">전체 판정</option><option value="correct">정답</option><option value="partial">부분정답</option><option value="incorrect">오답</option><option value="no_answer">미답변</option></select><input id="search" type="search" aria-label="문항 검색" placeholder="질문·답변·문항 ID 검색"><span id="visible" class="small">30개</span></div>
+<article data-category="text" data-verdict="correct" id="TEXT01">
+<div class="case-head"><span>TEXT01 · 본문</span><strong class="badge correct">정답</strong></div>
+<h2>FIREGL, Intergraph, 3dLabs 같은 그래픽 어댑터는 DVD 비디오 재생을 지원하나요?</h2>
+<div class="comparison"><section><h3>기대 답변 · 검수 전용</h3><p>아니요. 매뉴얼에 나온 FIREGL, Intergraph, 3dLabs 등의 일부 어댑터는 DVD 비디오 재생을 지원하지 않습니다.</p></section>
+<section><h3>실제 답변 · 수정 없음</h3><p class="verbatim">제공된 매뉴얼에 따르면, FIREGL, Intergraph, 3dLabs 와 같은 그래픽 어댑터는 DVD 비디오 재생을 지원하지 않습니다.</p></section></div>
+<p class="judgment">S1에 해당 그래픽 어댑터들이 DVD 비디오 재생을 지원하지 않는다는 문장이 있고 답변도 일치합니다.</p>
+<p class="small">검색 근거: 충분 · 채택 출처: S1 · 생성 7.62초</p>
+<details><summary>검색된 상위 5개 근거</summary><ol><li><b>S1 · text · 답변에서 인용</b><span class="small"> 유사도 0.817</span><pre>Software Description
+Note: Some graphics adapters such as the FIREGL, Intergraph, and 3dLabs, do not support DVD video playback.</pre></li><li><b>S2 · text</b><span class="small"> 유사도 0.475</span><pre>If you are using a legacy operating system on your computer, you might need to update some components of your operating system to enable the DVD video playback function. The requirements for legacy operating systems are as follows:
+v Windows 95, Windows Server® 2000, Windows Server 2003: You must install the latest service pack, Internet Explorer® 5, and DirectX®. v Windows 98, Windows 98 Second Edition, Windows Millennium Edition: You must install the latest DirectX.</pre></li><li><b>S3 · text</b><span class="small"> 유사도 0.469</span><pre>Software Description
+The Software and User Guide CD contains Intervideo WinDVD. The software enables you to play back DVD videos on your computer or to play video files from your hard disk drive.</pre></li><li><b>S4 · table</b><span class="small"> 유사도 0.407</span><pre>First row (header unconfirmed): Column 1: DirectX | Column 2: Windows Media
+Column 1: DirectX | Column 2: Windows Media
+Column 1: Internet Explorer | Column 2: Windows NT
+Column 1: Microsoft | Column 2: Windows Server
+Column 1: Windows | Column 2: Windows Vista</pre></li><li><b>S5 · text</b><span class="small"> 유사도 0.406</span><pre>Notes:
+If you experience poor playback performance, adjust the resolution to a lower setting. 2. Audio and video streams are decoded by software. The audio and video subsystems need to be fully functional and enabled. 3. WinDVD does not enable DVD playback feature through Windows Media Player. After installing WinDVD, DVD video may play back through Media Player, but audio will not.</pre></li></ol></details>
+<details><summary>원본 대조 및 QA 원문</summary><p class="small">매뉴얼: lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1</p>
+<p><b>영문 질문</b> Can some graphics adapters such as the FIREGL, Intergraph , and 3dLabs, support DVD video playback?</p><p><b>원 QA 정답</b> No. Some graphics adapters such as the FIREGL, Intergraph , and 3dLabs, do not support DVD video playback.</p>
+<p><a href="../../datasets/PM209/images/lenovo_computer%20drive%20manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1/images/lenovo_computer%20drive%20manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00013.jpg">원본 페이지 1</a> · <a href="run/responses/TEXT01.json">출력 JSON</a></p>
+<img loading="lazy" src="../../../.runtime/pm209-qa30/reference-crops/TEXT01.png" alt="TEXT01 원본 근거 영역. 원본 매뉴얼을 잘라 표시한 검수용 이미지입니다.">
+</details></article><article data-category="text" data-verdict="correct" id="TEXT02">
+<div class="case-head"><span>TEXT02 · 본문</span><strong class="badge correct">정답</strong></div>
+<h2>모니터를 설치하기 전에 무엇을 해야 하나요?</h2>
+<div class="comparison"><section><h3>기대 답변 · 검수 전용</h3><p>모니터, 컴퓨터 시스템 및 연결된 다른 장치의 전원을 모두 끕니다.</p></section>
+<section><h3>실제 답변 · 수정 없음</h3><p class="verbatim">모니터를 설치하기 전에 모니터, 컴퓨터 시스템 및 기타 연결된 장치의 전원을 끄는 것을 확인해야 합니다.</p></section></div>
+<p class="judgment">모니터·컴퓨터·주변 장치의 전원을 꺼야 한다는 설치 전 조건을 정확히 답했습니다. S1과 S2는 내용이 중복됩니다.</p>
+<p class="small">검색 근거: 충분 · 채택 출처: S1, S2 · 생성 1.24초</p>
+<details><summary>검색된 상위 5개 근거</summary><ol><li><b>S1 · text · 답변에서 인용</b><span class="small"> 유사도 0.683</span><pre>Before setting up the monitor, ensure that the power to the monitor, the computer system, and other attached devices is turned off.</pre></li><li><b>S2 · text · 답변에서 인용</b><span class="small"> 유사도 0.683</span><pre>Before setting up the monitor, ensure that the power to the monitor, the computer system, and other attached devices is turned off.</pre></li><li><b>S3 · text</b><span class="small"> 유사도 0.644</span><pre>This monitor satisfies the specifications of the Wall mount plate or the interchange device.
+2. Place the monitor face down on the cushion or soft cloth.</pre></li><li><b>S4 · text</b><span class="small"> 유사도 0.642</span><pre>Connecting the stand
+1. Place the monitor with its front facing downward on a soft cloth.</pre></li><li><b>S5 · text</b><span class="small"> 유사도 0.642</span><pre>This monitor satisfies the specifications of the Wall mount plate or the interchange device.
+1. Put a cushion or soft cloth on a flat surface.</pre></li></ol></details>
+<details><summary>원본 대조 및 QA 원문</summary><p class="small">매뉴얼: lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9</p>
+<p><b>영문 질문</b> Before I set up the monitor. What should I do?</p><p><b>원 QA 정답</b> You should ensure that the power to the monitor, the computer system, and other attached devices is turned off.</p>
+<p><a href="../../datasets/PM209/images/lg_cd%20player%20manuals_5f2a1729-56f3-47de-a515-377f47797ba9/images/lg_cd%20player%20manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00007.jpg">원본 페이지 1</a> · <a href="run/responses/TEXT02.json">출력 JSON</a></p>
+<img loading="lazy" src="../../../.runtime/pm209-qa30/reference-crops/TEXT02.png" alt="TEXT02 원본 근거 영역. 원본 매뉴얼을 잘라 표시한 검수용 이미지입니다.">
+</details></article><article data-category="text" data-verdict="correct" id="TEXT03">
+<div class="case-head"><span>TEXT03 · 본문</span><strong class="badge correct">정답</strong></div>
+<h2>PIN 식별 코드는 무엇인가요?</h2>
+<div class="comparison"><section><h3>기대 답변 · 검수 전용</h3><p>PIN은 SIM 카드의 식별 코드입니다.</p></section>
+<section><h3>실제 답변 · 수정 없음</h3><p class="verbatim">SIM PIN Lock 설정에 대한 설명에서 PIN은 SIM 카드의 식별 코드이며, 이를 SIM 카드 잠금으로 설정하면 태블릿을 켜거나 새 태블릿으로 전환할 때마다 올바른 PIN 을 입력해야 SIM 카드를 잠금 해제할 수 있습니다.</p></section></div>
+<p class="judgment">S2의 SIM 카드 식별 및 잠금 해제 설명에 맞게 답했습니다. S1의 지도 위치 핀 그림은 질문의 PIN과 무관하지만 답변에는 사용하지 않았습니다.</p>
+<p class="small">검색 근거: 충분 · 채택 출처: S2 · 생성 1.51초</p>
+<details><summary>검색된 상위 5개 근거</summary><ol><li><b>S1 · figure</b><span class="small"> 유사도 0.552</span><pre>A gray location pin icon featuring a circular hole at its center, commonly used in user interfaces to indicate map navigation or geolocation services.</pre></li><li><b>S2 · text · 답변에서 인용</b><span class="small"> 유사도 0.489</span><pre>Set a SIM PIN Lock
+A PIN is the identity code of a SIM card, and can be set as the SIM card lock. After you set it
+up, you will be required to enter the correct PIN to unlock the SIM card every time you power
+on your tablet or switch to a new tablet to prevent unauthorized access.
+If you have entered a wrong PIN and exceeded the maximum number of attempts allowed to
+unlock the PIN, you will need to enter the PIN Unlocking Key (PUK) then reset the PIN.</pre></li><li><b>S3 · text</b><span class="small"> 유사도 0.460</span><pre>Scan Codes for Services and Information
+You can scan different types of QR codes and bar codes with AI Lens, and then touch the
+identified result to be redirected to other pages for more services and information.</pre></li><li><b>S4 · figure</b><span class="small"> 유사도 0.460</span><pre>A Wi-Fi symbol icon featuring three curved arcs above a dot and the number &#x27;4&#x27; in the lower right corner.</pre></li><li><b>S5 · figure</b><span class="small"> 유사도 0.453</span><pre>A gray Bluetooth symbol icon featuring interlocking &#x27;B&#x27; shapes and directional arrows, commonly used to indicate wireless connectivity or pairing status in product manuals.</pre></li></ol></details>
+<details><summary>원본 대조 및 QA 원문</summary><p class="small">매뉴얼: HUAWEI_MatePad User Guide-(BAH4-W09&amp;L09,HarmonyOS 2_01,en)</p>
+<p><b>영문 질문</b> What is the PIN identity code?</p><p><b>원 QA 정답</b> The PIN is the identity code of a SIM card.</p>
+<p><a href="../../datasets/PM209/images/HUAWEI_MatePad%20User%20Guide-%28BAH4-W09%26L09%2CHarmonyOS%202_01%2Cen%29/images/HUAWEI_MatePad%20User%20Guide-%28BAH4-W09%26L09%2CHarmonyOS%202_01%2Cen%29_00074.jpg">원본 페이지 1</a> · <a href="run/responses/TEXT03.json">출력 JSON</a></p>
+<img loading="lazy" src="../../../.runtime/pm209-qa30/reference-crops/TEXT03.png" alt="TEXT03 원본 근거 영역. 원본 매뉴얼을 잘라 표시한 검수용 이미지입니다.">
+</details></article><article data-category="text" data-verdict="correct" id="TEXT04">
+<div class="case-head"><span>TEXT04 · 본문</span><strong class="badge correct">정답</strong></div>
+<h2>호스트 서버를 스토리지 어레이에 연결하면 무엇을 할 수 있나요?</h2>
+<div class="comparison"><section><h3>기대 답변 · 검수 전용</h3><p>스토리지 어레이에 저장된 데이터에 접근할 수 있습니다.</p></section>
+<section><h3>실제 답변 · 수정 없음</h3><p class="verbatim">호스트 서버를 스토리지 어레이에 연결하면 스토리지 어레이의 데이터에 액세스할 수 있습니다. 또한, 호스트와 스토리지 어레이 사이에 물리적 경로를 여러 개 설정하여 단일 경로 (예: 호스트 서버 포트의 고장) 가 손실되더라도 스토리지 어레이의 데이터에 대한 액세스를 잃지 않도록 할 수 있습니다.</p></section></div>
+<p class="judgment">스토리지 배열의 데이터에 접근할 수 있다는 핵심과 다중 경로의 중복성 설명이 검색 근거와 일치합니다.</p>
+<p class="small">검색 근거: 충분 · 채택 출처: S1, S5 · 생성 2.01초</p>
+<details><summary>검색된 상위 5개 근거</summary><ol><li><b>S1 · text · 답변에서 인용</b><span class="small"> 유사도 0.604</span><pre>Introduction to Storage Arrays
+One or more host servers attached to the storage array can access the data on the storage array. You can also establish multiple physical paths between the hosts and the storage array so that loss of any single path (for example, through failure of a host server port) does not result in loss of access to data on the storage array.
+The storage array is managed by MDSM running on a:</pre></li><li><b>S2 · text</b><span class="small"> 유사도 0.583</span><pre>Connecting The Storage Array
+The storage array is connected to a host using two hot-swappable RAID controller modules. The RAID controller modules are identified as RAID controller module 0 and RAID controller module 1. See the Owners Manual to know more about the functions of the different components of the storage controller.
+The functions of the ports on each controller are described below:
+• 16 gbps Fibre Channel Host Ports (4) — Allows you to connect host servers to the storage array.</pre></li><li><b>S3 · text</b><span class="small"> 유사도 0.576</span><pre>Host Cabling for Remote Replication
+The Remote Replication premium feature provides online, real-time replication of data between storage arrays over a remote distance. In the event of a disaster or a catastrophic failure at one storage array, a second storage array can be promoted to take over responsibility for computing services. The Remote Replication premium feature requires a dedicated host port for replicating data between storage arrays.</pre></li><li><b>S4 · text</b><span class="small"> 유사도 0.570</span><pre>Connecting The Storage Array
+• 12 gpbs SAS Host Ports (2) — Allows you to connect host servers to the storage array.
+• 1 gbps Ethernet Management (MGMT) Port (1) — Management port allows for out of band management of storage array.
+• Reserved Ethernet Port (1) — Reserved.
+• SAS Expansion Ports (2) — Allows you to connect the storage array to optional PowerVault MD1200 series expansion enclosures for additional storage capacity.</pre></li><li><b>S5 · text · 답변에서 인용</b><span class="small"> 유사도 0.563</span><pre>the host server(s) from losing access to data in the event of a path failure since both RAID controller modules can independently access all the physical disks in the storage array.</pre></li></ol></details>
+<details><summary>원본 대조 및 QA 원문</summary><p class="small">매뉴얼: dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728</p>
+<p><b>영문 질문</b> What can the host servers do when they are attached to the storage array?</p><p><b>원 QA 정답</b> They can access the data on the stotage array.</p>
+<p><a href="../../datasets/PM209/images/dell_riding%20toy%20manuals_2bf024e6-587b-4f49-b935-39c8516f6728/images/dell_riding%20toy%20manuals_2bf024e6-587b-4f49-b935-39c8516f6728_00005.jpg">원본 페이지 1</a> · <a href="run/responses/TEXT04.json">출력 JSON</a></p>
+<img loading="lazy" src="../../../.runtime/pm209-qa30/reference-crops/TEXT04.png" alt="TEXT04 원본 근거 영역. 원본 매뉴얼을 잘라 표시한 검수용 이미지입니다.">
+</details></article><article data-category="text" data-verdict="correct" id="TEXT05">
+<div class="case-head"><span>TEXT05 · 본문</span><strong class="badge correct">정답</strong></div>
+<h2>일련번호는 어디에서 확인할 수 있나요?</h2>
+<div class="comparison"><section><h3>기대 답변 · 검수 전용</h3><p>CB 무전기 뒷면 패널에서 확인합니다.</p></section>
+<section><h3>실제 답변 · 수정 없음</h3><p class="verbatim">일련번호는 CB 기기의 뒷 패널(back panel)에 있습니다.</p></section></div>
+<p class="judgment">일련번호가 후면 패널에 있다는 S3 근거를 정확히 사용했습니다. 함께 검색된 무전 코드 표는 답에 불필요했습니다.</p>
+<p class="small">검색 근거: 충분 · 채택 출처: S3 · 생성 1.28초</p>
+<details><summary>검색된 상위 5개 근거</summary><ol><li><b>S1 · table</b><span class="small"> 유사도 0.437</span><pre>First row (header unconfirmed): Column 1: Code | Column 2: Meaning
+Column 1: Code | Column 2: Meaning
+Column 1: 10-17 | Column 2: En route.
+Column 1: 10-18 | Column 2: Urgent.
+Column 1: 10-19 | Column 2: Contact
+Column 1: 10-20 | Column 2: What is your location?
+Column 1: 10-21 | Column 2: Call by telephone.
+Column 1: 10-22 | Column 2: Cancel last message.
+Column 1: 10-23 | Column 2: Arrived at the scene.
+Column 1: 10-24 | Column 2: Assignment complete.
+Column 1: 10-25 | Column 2: Meet</pre></li><li><b>S2 · table</b><span class="small"> 유사도 0.431</span><pre>USING COMMON 10-CODES
+First row (header unconfirmed): Column 1: Code | Column 2: Meaning
+Column 1: 10-8 | Column 2: In service.
+Column 1: 10-9 | Column 2: Repeat last message.
+Column 1: 10-10 | Column 2: Negative (NO).
+Column 1: 10-11 | Column 2: in service.
+Column 1: 10-12 | Column 2: Stand by.
+Column 1: 10-13 | Column 2: Report road/weather condi tions.
+Column 1: 10-14 | Column 2: Information.
+Column 1: 10-15 | Column 2: Message delivered.
+Column 1: 10-16 | Column 2: Reply to message.</pre></li><li><b>S3 · text · 답변에서 인용</b><span class="small"> 유사도 0.412</span><pre>Note: To use this CB, you need a mobile or base station antenna. Your local Ra- dioShack store has a wide variety of an- tennas. For more information, see “Installing an Antenna” on Page 6.
+We recommend you record your CB’s serial number here. The number is on the CB’s back panel.
+Serial Number___________</pre></li><li><b>S4 · table</b><span class="small"> 유사도 0.395</span><pre>USING COMMON 10-CODES
+First row (header unconfirmed): Column 1: Code | Column 2: Meaning
+Column 1: Code | Column 2: Meaning
+Column 1: 10-1 | Column 2: Your signal is bad.
+Column 1: 10-2 | Column 2: Your signal is good.
+Column 1: 10-3 | Column 2: Stop transmitting.
+Column 1: 10-4 | Column 2: Message received and under- stood.
+Column 1: 10-5 | Column 2: Relay information to
+Column 1: 10-6 | Column 2: I am busy or are you busy?
+Column 1: 10-7 | Column 2: Out of service.</pre></li><li><b>S5 · text</b><span class="small"> 유사도 0.393</span><pre>Contact _____.</pre></li></ol></details>
+<details><summary>원본 대조 및 QA 원문</summary><p class="small">매뉴얼: samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a</p>
+<p><b>영문 질문</b> Where can I see the serial number?</p><p><b>원 QA 정답</b> You can see the serial number on the CB&#x27;s back panel.</p>
+<p><a href="../../datasets/PM209/images/samsung_weather%20radio%20manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a/images/samsung_weather%20radio%20manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_00003.jpg">원본 페이지 1</a> · <a href="run/responses/TEXT05.json">출력 JSON</a></p>
+<img loading="lazy" src="../../../.runtime/pm209-qa30/reference-crops/TEXT05.png" alt="TEXT05 원본 근거 영역. 원본 매뉴얼을 잘라 표시한 검수용 이미지입니다.">
+</details></article><article data-category="text" data-verdict="incorrect" id="TEXT06">
+<div class="case-head"><span>TEXT06 · 본문</span><strong class="badge incorrect">오답</strong></div>
+<h2>타임시프트 기능을 사용하려면 어떻게 해야 하나요?</h2>
+<div class="comparison"><section><h3>기대 답변 · 검수 전용</h3><p>타임시프트 기능에는 USB 저장장치의 여유 공간이 최소 1.5GB 필요합니다. 원문 질문은 광범위하지만 공식 정답은 이 조건만 제시합니다.</p></section>
+<section><h3>실제 답변 · 수정 없음</h3><p class="verbatim">타임시프트 기능을 사용하려면 USB 저장 장치 (USB 메모리 스틱 또는 플래시 드라이브) 를 연결해야 합니다. 하지만 이 장치는 지원되지 않으므로, 매뉴얼에 명시된 USB 저장 장치가 아닌 다른 기록용 USB 장치를 연결해야 할 수 있습니다. 또한 타임시프트 기능이 작동 중일 때만 일부 설정이 사용 가능하지 않으며, 모델이나 지역によっては 해당 기능이 지원되지 않을 수 있으므로 사전에 주의사항을 확인하시기 바랍니다.</p></section></div>
+<p class="judgment">기대 조건인 USB 여유 공간 최소 1.5GB가 상위 5개에 없습니다. S2는 USB 메모리 스틱·플래시 드라이브를 지원하지 않는다고 하지만 답변은 먼저 이들을 연결하라고 한 뒤 다시 지원하지 않는다고 합니다. 일본어 표현도 섞였습니다. 원 질문은 포괄적인 사용법인데 공식 QA 정답은 공간 조건 하나라는 한계도 있습니다.</p>
+<p class="small">검색 근거: 일부만 있음 · 채택 출처: S1, S2, S3 · 생성 2.10초</p>
+<details><summary>검색된 상위 5개 근거</summary><ol><li><b>S1 · text · 답변에서 인용</b><span class="small"> 유사도 0.602</span><pre>Using Timeshift
+Select button and then select Timeshift, or press the button.
+&quot; When the Timeshift function is running, some of function are not available in Settings Broadcasting.
+&quot; To use Timeshift, you must connect a USB device for recording.
+&quot; Read all precautions before using the Timeshift function. For more information, refer to &quot;Before Using the Recording and</pre></li><li><b>S2 · text · 답변에서 인용</b><span class="small"> 유사도 0.578</span><pre>Before using the timeshift function
+● USB memory sticks or flash drives are not supported.</pre></li><li><b>S3 · text · 답변에서 인용</b><span class="small"> 유사도 0.561</span><pre>Before Using the Recording and Timeshift Functions
+&quot; This function may not be supported depending on the model or geographical area.</pre></li><li><b>S4 · text</b><span class="small"> 유사도 0.560</span><pre>Recording
+Timeshift Functions&quot;.</pre></li><li><b>S5 · text</b><span class="small"> 유사도 0.554</span><pre>This function is only available when the Timeshift function is running.</pre></li></ol></details>
+<details><summary>원본 대조 및 QA 원문</summary><p class="small">매뉴얼: samsung_tv</p>
+<p><b>영문 질문</b> How to use the Timeshift function?</p><p><b>원 QA 정답</b> You should have at least 1.5 GB of free space available on the USB storage device.</p><p>원문 질문은 사용 방법 전반을 묻지만 공식 정답·지정 근거는 USB 여유 공간 1.5GB 조건만 제시함. 최소 이 조건의 포함 여부를 평가하며 질문/정답 범위 불일치를 별도 표시.</p>
+<p><a href="../../datasets/PM209/images/samsung_tv/images/131.jpg">원본 페이지 1</a> · <a href="run/responses/TEXT06.json">출력 JSON</a></p>
+<img loading="lazy" src="../../../.runtime/pm209-qa30/reference-crops/TEXT06.png" alt="TEXT06 원본 근거 영역. 원본 매뉴얼을 잘라 표시한 검수용 이미지입니다.">
+</details></article><article data-category="text" data-verdict="correct" id="TEXT07">
+<div class="case-head"><span>TEXT07 · 본문</span><strong class="badge correct">정답</strong></div>
+<h2>Assistive Ball은 어떤 기능을 하나요?</h2>
+<div class="comparison"><section><h3>기대 답변 · 검수 전용</h3><p>제스처나 메뉴 옵션으로 여러 작업을 빠르게 수행하게 해 줍니다.</p></section>
+<section><h3>실제 답변 · 수정 없음</h3><p class="verbatim">Assistive Ball 은 제스처나 메뉴 옵션을 통해 다양한 작업을 빠르게 수행할 수 있도록 도와줍니다. 메뉴 모드에서는 화면에 다음 5 가지 버튼이 표시되며, 각각의 기능은 다음과 같습니다: 이전 페이지로 돌아가기, 스크린샷 촬영, 멀티태스킹, 화면 잠금, 홈 화면으로 돌아가기. 또한 제스처를 통해 이전 페이지로 이동하기 (탭), 멀티태스킹 모드 진입하기 (더블 탭), 홈 화면으로 이동하기 (탭 및 유지) 등의 기능을 사용할 수 있습니다.</p></section></div>
+<p class="judgment">제스처·메뉴 모드, 탭·두 번 탭·길게 누르기 등 Assistive Ball 조작 설명이 검색 근거와 일치합니다.</p>
+<p class="small">검색 근거: 충분 · 채택 출처: S1, S2, S3, S5 · 생성 2.45초</p>
+<details><summary>검색된 상위 5개 근거</summary><ol><li><b>S1 · text · 답변에서 인용</b><span class="small"> 유사도 0.825</span><pre>Assistive Ball
+Assistive Ball lets you complete different tasks quickly by using gestures or through the menu options. Path: Settings - System settings - Convenience tools - Assistive Ball.</pre></li><li><b>S2 · text · 답변에서 인용</b><span class="small"> 유사도 0.669</span><pre>Use Assistive Ball to take a screenshot
+1. Go to &quot;Settings - System settings - Convenience tools - Assistive Ball&quot;, and turn on &quot;Assistive Ball&quot;. 2. Choose &quot;Tap menu&quot;. 3. Tap the Assistive Ball and tap the Screenshot icon.</pre></li><li><b>S3 · text · 답변에서 인용</b><span class="small"> 유사도 0.643</span><pre>Menu control
+In menu mode, tapping the Assistive Ball will display five buttons, which correspond to the following actions: • Go back to the previous page • Take a screenshot • Multitask • Lock the screen • Go back to the home screen To personalize your Assistive Ball: • Drag it to your preferred position on the screen. • Adjust its visibility. • Automatically hide it in full screen mode.</pre></li><li><b>S4 · text</b><span class="small"> 유사도 0.617</span><pre>Assistive tools
+• Assistive Ball: Enable Assistive Ball to make your phone easier to use.
+• One-handed mode: In One-handed mode, the screen shrinks, so that you can use your phone with one hand.
+• Auto rotate: The screen will automatically rotate when you rotate your phone.</pre></li><li><b>S5 · text · 답변에서 인용</b><span class="small"> 유사도 0.609</span><pre>Gesture controls
+• Tap the Assistive Ball to go back to the previous page. • Double-tap the Assistive Ball to enter multitask mode. • Tap and hold the Assistive Ball to go back to the home screen. You can customize gestures to suit your needs and preferences.</pre></li></ol></details>
+<details><summary>원본 대조 및 QA 원문</summary><p class="small">매뉴얼: phone_os_User Guide_ColorOS_12_v1.0_20211028</p>
+<p><b>영문 질문</b> What&#x27;s the function of the Assistive Ball?</p><p><b>원 QA 정답</b> It can help you complete different tasks rapidly by using gestures or through the menu options.</p>
+<p><a href="../../datasets/PM209/images/phone_os_User%20Guide_ColorOS_12_v1.0_20211028/images/phone_os_User%20Guide_ColorOS_12_v1.0_20211028_00021.jpg">원본 페이지 1</a> · <a href="run/responses/TEXT07.json">출력 JSON</a></p>
+<img loading="lazy" src="../../../.runtime/pm209-qa30/reference-crops/TEXT07.png" alt="TEXT07 원본 근거 영역. 원본 매뉴얼을 잘라 표시한 검수용 이미지입니다.">
+</details></article><article data-category="text" data-verdict="correct" id="TEXT08">
+<div class="case-head"><span>TEXT08 · 본문</span><strong class="badge correct">정답</strong></div>
+<h2>이 장치의 입력 전압은 얼마인가요?</h2>
+<div class="comparison"><section><h3>기대 답변 · 검수 전용</h3><p>입력 전압은 100~240 VAC입니다.</p></section>
+<section><h3>실제 답변 · 수정 없음</h3><p class="verbatim">이 장치의 입력 전압은 100 VAC 에서 240 VAC 입니다.</p></section></div>
+<p class="judgment">답변의 100~240VAC는 원본 이미지·OCR·표와 일치합니다. 공식 QA의 100~400VAC가 잘못되어 원문을 보존하고 원본 기준으로 정답을 보정했습니다. 모델 오류가 아닙니다.</p>
+<p class="small">검색 근거: 충분 · 채택 출처: S2, S3 · 생성 1.31초</p>
+<details><summary>검색된 상위 5개 근거</summary><ol><li><b>S1 · text</b><span class="small"> 유사도 0.696</span><pre>Electrical
+AC input voltage / frequency / current</pre></li><li><b>S2 · text · 답변에서 인용</b><span class="small"> 유사도 0.651</span><pre>Analog RGB, 0.7 Volts +/-5%, positive polarity at 75 ohm input impedance Digital DVI-D TMDS, 600mV for each differential line, positive polarity at 50 ohm input impedance
+Separate horizontal and vertical synchronizations, polarity-free TTL level, SOG (Composite SYNC on green)
+100 to 240 VAC / 50 or 60 Hz + 3 Hz / 2.0A (Max.)</pre></li><li><b>S3 · table · 답변에서 인용</b><span class="small"> 유사도 0.644</span><pre>Video input signals: ACinput voltage/frequency/ current | AnalogRGB.0.7Volts+/-5%.positive polarityat75 ohminputimpedance Digital DVI-D TMDS,60OmVfor each differentialline,positive polarityat5Oohm input impedance: 100 to 240 VAC/50or 60 Hz ±3 Hz/2.OA(Max.)
+Video input signals: Inrush current | AnalogRGB.0.7Volts+/-5%.positive polarityat75 ohminputimpedance Digital DVI-D TMDS,60OmVfor each differentialline,positive polarityat5Oohm input impedance: 120V:30A(Max.) 240V:60A(Max.)</pre></li><li><b>S4 · table</b><span class="small"> 유사도 0.605</span><pre>Video input signals: Synchronization input signals | AnalogRGB.0.7Volts+/-5%.positive polarityat75 ohminputimpedance Digital DVI-D TMDS,60OmVfor each differentialline,positive polarityat5Oohm input impedance: Separate horizontal and vertical synchronizations,polarity-free TTL level,SOG(Composite SYNCon green)</pre></li><li><b>S5 · text</b><span class="small"> 유사도 0.514</span><pre>120V:30A (Max.) 240V:60A (Max.)</pre></li></ol></details>
+<details><summary>원본 대조 및 QA 원문</summary><p class="small">매뉴얼: dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16</p>
+<p><b>영문 질문</b> What is the input voltage of the device?</p><p><b>원 QA 정답</b> The input voltage of the device is 100 to 400 VAC</p><p>공식 QA의 100~400 VAC는 원본 이미지의 100~240 VAC와 불일치. 원본 이미지와 기존 OCR 모두 240을 표시하여 평가값만 보정했으며 원본 데이터는 수정하지 않음.</p>
+<p><a href="../../datasets/PM209/images/dell_baby%20monitor%20manuals_25ea8974-362d-478e-92d0-7cbecb902f16/images/dell_baby%20monitor%20manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00006.jpg">원본 페이지 1</a> · <a href="run/responses/TEXT08.json">출력 JSON</a></p>
+<img loading="lazy" src="../../../.runtime/pm209-qa30/reference-crops/TEXT08.png" alt="TEXT08 원본 근거 영역. 원본 매뉴얼을 잘라 표시한 검수용 이미지입니다.">
+</details></article><article data-category="text" data-verdict="correct" id="TEXT09">
+<div class="case-head"><span>TEXT09 · 본문</span><strong class="badge correct">정답</strong></div>
+<h2>Siri에게 시간을 물으려면 어떻게 말해야 하나요?</h2>
+<div class="comparison"><section><h3>기대 답변 · 검수 전용</h3><p>손목을 들어 Siri에게 “What time is it?”이라고 말합니다.</p></section>
+<section><h3>실제 답변 · 수정 없음</h3><p class="verbatim">손목 들어 올리고 &quot;What time is it?&quot;라고 말씀하세요.</p></section></div>
+<p class="judgment">손목을 들고 Siri에 시간을 묻는 방법이 원본과 일치합니다.</p>
+<p class="small">검색 근거: 충분 · 채택 출처: S1 · 생성 1.14초</p>
+<details><summary>검색된 상위 5개 근거</summary><ol><li><b>S1 · text · 답변에서 인용</b><span class="small"> 유사도 0.851</span><pre>• Use Siri: Raise your wrist and say “What time is it?”</pre></li><li><b>S2 · text</b><span class="small"> 유사도 0.726</span><pre>Ask Siri.Say something like: “Set a timer for 20 minutes.”</pre></li><li><b>S3 · text</b><span class="small"> 유사도 0.675</span><pre>To make a Siri request, do any of the following:</pre></li><li><b>S4 · text</b><span class="small"> 유사도 0.665</span><pre>Useful Siri commands
+Ask Siri.Say something like:
+• “How do you say ‘How are you?’ in Chinese?”
+• “Start a 30-minute outdoor run”
+• “Tell Kathleen I’m almost finished”
+• “Open the Sleep app”
+• “What song is this?”
+• “What causes rainbows?”
+• “What’s my update?”
+• “What kinds of things can I ask you?”</pre></li><li><b>S5 · text</b><span class="small"> 유사도 0.662</span><pre>Tip:To assign a label such as “Pizza” to a timer, use Siri to create the timer.</pre></li></ol></details>
+<details><summary>원본 대조 및 QA 원문</summary><p class="small">매뉴얼: Watch_Apple_User_Guide</p>
+<p><b>영문 질문</b> How should I say to Siri to know the time?</p><p><b>원 QA 정답</b> You can raise your wrist and say &quot;What time is it?&quot;</p>
+<p><a href="../../datasets/PM209/images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00063.jpg">원본 페이지 1</a> · <a href="run/responses/TEXT09.json">출력 JSON</a></p>
+<img loading="lazy" src="../../../.runtime/pm209-qa30/reference-crops/TEXT09.png" alt="TEXT09 원본 근거 영역. 원본 매뉴얼을 잘라 표시한 검수용 이미지입니다.">
+</details></article><article data-category="text" data-verdict="correct" id="TEXT10">
+<div class="case-head"><span>TEXT10 · 본문</span><strong class="badge correct">정답</strong></div>
+<h2>유입되는 물의 온도는 얼마여야 하나요?</h2>
+<div class="comparison"><section><h3>기대 답변 · 검수 전용</h3><p>120°F(49°C)입니다.</p></section>
+<section><h3>실제 답변 · 수정 없음</h3><p class="verbatim">유입되는 물의 온도는 세척제 활성화와 기름진 음식 오염물 녹임을 위해 적절히 설정해야 하며, 매뉴얼에 명시된 권장 온도는 120°F (49°C) 입니다.</p></section></div>
+<p class="judgment">권장 유입 수온 120°F/49°C 및 세제 용해·기름 제거 이유를 정확히 답했습니다.</p>
+<p class="small">검색 근거: 충분 · 채택 출처: S1, S2, S3 · 생성 1.64초</p>
+<details><summary>검색된 상위 5개 근거</summary><ol><li><b>S1 · text · 답변에서 인용</b><span class="small"> 유사도 0.589</span><pre>Hot Water
+For optimal cleaning and drying results, hot water is necessary. The incoming water temperature should be 120° F (49° C) to properly activate the detergent and melt greasy food soils.
+To check the incoming water temperature, turn on the hot water faucet nearest the dishwasher and let it run into a glass in the sink. Place a candy thermometer in the glass and check the temperature once it has stopped rising.</pre></li><li><b>S2 · text · 답변에서 인용</b><span class="small"> 유사도 0.430</span><pre>• The lock indicator flashes and the countdown display (selected models) flashes an “L” if a pad is pressed while the control lock is enabled.
+• Select Extra Rinse (select models). • Check water temperature. Incoming water should be 120° F (49° C). • Always use a rinse aid. • Confirm that the cloudiness is removable by soaking the item in white vinegar for approximately 5 minutes. If removed, the problem is due to hard water. Adjust detergent amount being used to match water hardness (pg. 6).</pre></li><li><b>S3 · text · 답변에서 인용</b><span class="small"> 유사도 0.415</span><pre>• High Temp or Sanitize has been selected and the cycle is extended to heat water. • Check to see that the incoming water temperature is 120° F (49° C).
+• Run dishes being held in the dishwasher through a Rinse Only cycle. • Many dishwashers have a “new” smell when first installed. This will dissipate with use. • Dishwasher may not be draining properly. (See “Dishwasher Will Not Drain” section.) • For a strong odor, place baking soda in both sides of the detergent cup.</pre></li><li><b>S4 · text</b><span class="small"> 유사도 0.408</span><pre>• Check water temperature (pg 6). • Run hot water at the sink before starting the dishwasher. • Select High Temp option. • Check water hardness and adjust detergent amount accordingly (pg. 6). • Use fresh detergent stored in a cool dry place. • Select proper cycle for the soil level (pg. 7). • Make sure the upper rack wash arm connector is correctly aligned in one of the water inlet holes (pg. 5). • Load items so they do not block the wash arms (pg. 2-5).</pre></li><li><b>S5 · table</b><span class="small"> 유사도 0.404</span><pre>Recommended Amount
+First row (header unconfirmed): Column 1: WATER HARDNESS* | Column 2: SOIL LEVEL | Column 3: DETERGENT AMOUNT
+Column 1: Hard (10-12 gpg) | Column 2: Light Soil Normal Soil Heavy Soil | Column 3: 9 teaspoons 10 teaspoons 12 teaspoons</pre></li></ol></details>
+<details><summary>원본 대조 및 QA 원문</summary><p class="small">매뉴얼: samsung_dish_washer_6918977 a</p>
+<p><b>영문 질문</b> What is the incoming water temperature?</p><p><b>원 QA 정답</b> The incoming water temperature should be 120°F（49°C）.</p>
+<p><a href="../../datasets/PM209/images/samsung_dish_washer_6918977%20a/images/12.jpg">원본 페이지 1</a> · <a href="run/responses/TEXT10.json">출력 JSON</a></p>
+<img loading="lazy" src="../../../.runtime/pm209-qa30/reference-crops/TEXT10.png" alt="TEXT10 원본 근거 영역. 원본 매뉴얼을 잘라 표시한 검수용 이미지입니다.">
+</details></article><article data-category="table" data-verdict="correct" id="TABLE01">
+<div class="case-head"><span>TABLE01 · 표</span><strong class="badge correct">정답</strong></div>
+<h2>저음이나 고음이 약하면 어떻게 해야 하나요?</h2>
+<div class="comparison"><section><h3>기대 답변 · 검수 전용</h3><p>리시버 또는 앰프의 음색 균형(tonal balance) 설정을 확인합니다.</p></section>
+<section><h3>실제 답변 · 수정 없음</h3><p class="verbatim">저음이나 고음이 약하다면, 수신기나 앰플의 톤 밸런스 설정을 확인하세요.</p></section></div>
+<p class="judgment">수신기/앰프의 톤 밸런스를 확인하라는 S4 표의 핵심 조치는 맞습니다. 다만 &#x27;앰프&#x27;를 &#x27;앰플&#x27;로 표기해 문장 교정이 필요합니다.</p>
+<p class="small">검색 근거: 충분 · 채택 출처: S4 · 생성 1.17초</p>
+<details><summary>검색된 상위 5개 근거</summary><ol><li><b>S1 · title</b><span class="small"> 유사도 0.557</span><pre>Cleaning your speakers</pre></li><li><b>S2 · title</b><span class="small"> 유사도 0.523</span><pre>Protecting the speaker wire</pre></li><li><b>S3 · text</b><span class="small"> 유사도 0.513</span><pre>Note: This product is not intended for use in areas where it will be subject to high vibration. If you are unsure about installing these speakers, contact a qualified professional installer.</pre></li><li><b>S4 · table · 답변에서 인용</b><span class="small"> 유사도 0.494</span><pre>Troubleshooting
+First row (header unconfirmed): Column 1: Problem | Column 2: What to do
+Column 1: The bass or treble is weak | Column 2: • Check the tonal balance setting on your receiver or amplifier.</pre></li><li><b>S5 · title</b><span class="small"> 유사도 0.485</span><pre>Maintaining Your 251 TM Speakers</pre></li></ol></details>
+<details><summary>원본 대조 및 QA 원문</summary><p class="small">매뉴얼: bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740</p>
+<p><b>영문 질문</b> The bass of treble is weak, what should I do?</p><p><b>원 QA 정답</b> You have to check the tonal balance setting on your receiver or amplifier.</p>
+<p><a href="../../datasets/PM209/images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740/images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00012.jpg">원본 페이지 1</a> · <a href="run/responses/TABLE01.json">출력 JSON</a></p>
+<img loading="lazy" src="../../../.runtime/pm209-qa30/reference-crops/TABLE01.png" alt="TABLE01 원본 근거 영역. 원본 매뉴얼을 잘라 표시한 검수용 이미지입니다.">
+</details></article><article data-category="table" data-verdict="no_answer" id="TABLE02">
+<div class="case-head"><span>TABLE02 · 표</span><strong class="badge no_answer">미답변</strong></div>
+<h2>제품 패키지에는 어떤 구성품이 들어 있어야 하나요?</h2>
+<div class="comparison"><section><h3>기대 답변 · 검수 전용</h3><p>카메라, USB 케이블, 도킹 스테이션, 핸드 스트랩, CD-ROM, 빠른 사용 안내서입니다.</p></section>
+<section><h3>실제 답변 · 수정 없음</h3><p class="verbatim">검색된 매뉴얼 근거에서 질문에 대한 답을 확인하지 못했습니다.</p></section></div>
+<p class="judgment">S5 표에 Camera, Hand Strap, USB cable, CD-ROM, Docking Station, Quick Operation Guide의 여섯 구성품이 모두 있는데도 근거 부족으로 답변을 거부했습니다. 검색 실패로 분류하지 않았습니다.</p>
+<p class="small">검색 근거: 충분 · 채택 출처: 없음 · 생성 1.31초</p>
+<details><summary>검색된 상위 5개 근거</summary><ol><li><b>S1 · text</b><span class="small"> 유사도 0.642</span><pre>Package Contents
+Be sure to check that the package contains all the items listed below:</pre></li><li><b>S2 · figure</b><span class="small"> 유사도 0.470</span><pre>Blue Platfoto digital camera featuring a 2.0 megapixel sensor, flash unit, and lens. The device includes a textured back panel with visible branding and functional components like the viewfinder and shutter button.</pre></li><li><b>S3 · text</b><span class="small"> 유사도 0.436</span><pre>Package Contents
+If any items are missing, please contact the store where you purchased the camera. Keep the camera packaging in a safe place as it will be needed if you return the camera for repairs, etc.</pre></li><li><b>S4 · figure</b><span class="small"> 유사도 0.435</span><pre>Blue compact digital camera with SD card slot; LCD displays battery, flash, SD icon, and storage count (235). Manual instructs inserting SD card via push-and-pull mechanism.</pre></li><li><b>S5 · table</b><span class="small"> 유사도 0.433</span><pre>1 Brief Description
+First row (header unconfirmed): Column 1: Camera | Column 2: Hand Strap
+Column 1: Camera | Column 2: Hand Strap
+Column 1: USB cable | Column 2: CD-ROM
+Column 1: Docking Station | Column 2: Quick Operation Guide</pre></li></ol></details>
+<details><summary>원본 대조 및 QA 원문</summary><p class="small">매뉴얼: samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a</p>
+<p><b>영문 질문</b> What items should be included in the package?</p><p><b>원 QA 정답</b> Camera, USB cable, Docking Station, Hand Strap, CD-ROM and Quick Operation Guide.</p>
+<p><a href="../../datasets/PM209/images/samsung_camcorder%20manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder%20manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00002.jpg">원본 페이지 1</a> · <a href="run/responses/TABLE02.json">출력 JSON</a></p>
+<img loading="lazy" src="../../../.runtime/pm209-qa30/reference-crops/TABLE02.png" alt="TABLE02 원본 근거 영역. 원본 매뉴얼을 잘라 표시한 검수용 이미지입니다.">
+</details></article><article data-category="table" data-verdict="no_answer" id="TABLE03">
+<div class="case-head"><span>TABLE03 · 표</span><strong class="badge no_answer">미답변</strong></div>
+<h2>헤드셋은 어디에 연결하나요?</h2>
+<div class="comparison"><section><h3>기대 답변 · 검수 전용</h3><p>헤드셋 포트에 연결합니다.</p></section>
+<section><h3>실제 답변 · 수정 없음</h3><p class="verbatim">검색된 매뉴얼 근거에서 질문에 대한 답을 확인하지 못했습니다.</p></section></div>
+<p class="judgment">S1은 &#x27;헤드셋에 연결한다&#x27;는 설명만 있고 포트 이름/번호가 분리되어 있습니다. Headset port(2번)가 포함된 정상 표 청크는 전체 인덱스에 존재하지만 상위 5개에서 빠졌습니다. 주어진 근거만 보면 답변 거부는 타당합니다.</p>
+<p class="small">검색 근거: 불충분 · 채택 출처: 없음 · 생성 1.62초</p>
+<details><summary>검색된 상위 5개 근거</summary><ol><li><b>S1 · text</b><span class="small"> 유사도 0.676</span><pre>Appearance
+Connects to a headset.</pre></li><li><b>S2 · text</b><span class="small"> 유사도 0.509</span><pre>Get to know your computer
+Connects to an external device, such as a speaker, to transmit audio signals from</pre></li><li><b>S3 · table</b><span class="small"> 유사도 0.484</span><pre>First row (header unconfirmed): Column 1: 7 | Column 2: Line in port Connects to an external audio device and transmits audio from the external device to the computer.
+Column 1: 12
+Column 2
+.Connects the Huaweikeyboard that supportsfingerprint login.If thecomputer comes with a Huaweikeyboard that supports fingerprint login, you must connect the keyboard to this port so that you can power on and unlock the computer by pressing the fingerprint button on thekeyboard.</pre></li><li><b>S4 · table</b><span class="small"> 유사도 0.475</span><pre>First row (header unconfirmed): Column 1: 7 | Column 2: Line in port Connects to an external audio device and transmits audio from the external device to the computer.
+Column 1: 7 | Column 2: Line in port Connects to an external audio device and transmits audio from the external device to the computer.
+Column 1: 8 | Column 2: HDMI port A high-definition multimedia port. Connects to external displays.
+Column 1: 9 | Column 2: VGA port Connects the VGA cable to a display device.</pre></li><li><b>S5 · table</b><span class="small"> 유사도 0.474</span><pre>First row (header unconfirmed): Column 1: 7 | Column 2: Line in port Connects to an external audio device and transmits audio from the external device to the computer.
+Column 1: 12
+Column 2
+USB-A (USB 2.0) port (dedicated for Huawei keyboards that support fingerprint login) . Connects to mobile phones, USB drives, and other external devices to transfer data.</pre></li></ol></details>
+<details><summary>원본 대조 및 QA 원문</summary><p class="small">매뉴얼: HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)</p>
+<p><b>영문 질문</b> Where can I connect my headset?</p><p><b>원 QA 정답</b> You should connect your headset to the headset port.</p>
+<p><a href="../../datasets/PM209/images/HUAWEI_MateStation%20S%20User%20Guide-%28Windows11_01%2Cen%2CPanguB%29/images/HUAWEI_MateStation%20S%20User%20Guide-%28Windows11_01%2Cen%2CPanguB%29_00003.jpg">원본 페이지 1</a> · <a href="run/responses/TABLE03.json">출력 JSON</a></p>
+<img loading="lazy" src="../../../.runtime/pm209-qa30/reference-crops/TABLE03.png" alt="TABLE03 원본 근거 영역. 원본 매뉴얼을 잘라 표시한 검수용 이미지입니다.">
+</details></article><article data-category="table" data-verdict="incorrect" id="TABLE04">
+<div class="case-head"><span>TABLE04 · 표</span><strong class="badge incorrect">오답</strong></div>
+<h2>SamsungPortableSSD.exe로 설치한 소프트웨어는 어떻게 삭제하나요?</h2>
+<div class="comparison"><section><h3>기대 답변 · 검수 전용</h3><p>애플리케이션 설치 경로의 PSSD_Cleanup.bat를 실행해 수동 삭제합니다.</p></section>
+<section><h3>실제 답변 · 수정 없음</h3><p class="verbatim">설치 프로그램인 &#x27;SamsungPortableSSD.exe&#x27; 를 사용하여 소프트웨어를 설치한 경우, 제어판 → 프로그램 및 기능 → 프로그램의 제거 또는 변경을 통해 &#x27;Samsung Portable SSD Software&#x27;를 더블 클릭하여 선택한 후 &#x27;예&#x27;를 누르면 삭제할 수 있습니다.</p></section></div>
+<p class="judgment">질문은 SamsungPortableSSD.exe로 설치한 경우이므로 PSSD_Cleanup.bat 실행이 맞습니다. 답변은 다른 설치 파일(Set_up_Win.exe)에 해당하는 제어판 삭제 절차를 골랐습니다. 올바른 조건+방법의 표 청크는 인덱스에 있으나 검색에서 빠졌고, 검색된 본문에는 조건과 방법이 떨어져 있습니다. 정답 표의 설치 파일명에 Samsunq 오인식도 있습니다.</p>
+<p class="small">검색 근거: 일부만 있음 · 채택 출처: S4 · 생성 1.65초</p>
+<details><summary>검색된 상위 5개 근거</summary><ol><li><b>S1 · text</b><span class="small"> 유사도 0.853</span><pre>Software can be uninstalled via “Uninstall or change a program”. Go to Control panel → Programs → Programs and Features → Uninstall or change a program → Double-click “Samsung Portable SSD Software” and select “Yes”
+Software need to be deleted manually by executing PSSD_Cleanup.bat in application installation path. (Normally c:\ProgramData\Samsung Apps\Portable SSD\PSSD_Cleanup.bat) Please refer to FAQ in the Samsung website (http://www.samsung.com/samsungssd) for more details.</pre></li><li><b>S2 · title</b><span class="small"> 유사도 0.844</span><pre>6. Delete “Samsung Portable SSD Software”</pre></li><li><b>S3 · text</b><span class="small"> 유사도 0.796</span><pre>Deleting software on each OS
+If user installed SW using SamsungPortableSSD.exe</pre></li><li><b>S4 · table · 답변에서 인용</b><span class="small"> 유사도 0.780</span><pre>First row (header unconfirmed): Column 1: Computer OS | Column 2: Computer OS | Column 3: Description
+Column 1: Computer OS | Column 2: Computer OS | Column 3: Description
+Column 1: Windows OS | Column 2: If user installed SW using SamsungPortableSSD_Set up_Win.exe | Column 3: Software can be uninstalled via &quot;Uninstallor changea program&quot;.Go to Control panel→ Programs→ Programs and Features→Uninstall or change a program→ Double-click &quot;Samsung Portable SSD Software&quot;and select &quot;Yes&quot;</pre></li><li><b>S5 · text</b><span class="small"> 유사도 0.761</span><pre>Application need to be deleted manually by executing CleanupAll.scpt in SW installation path. (Normally #osascript ~/Library/Application Support/PortableSSD/CleanupAll.scpt) *Third party cleaner such as AppCleaner may
+not delete “Samsung Portable SSD” SW completely. Please refer FAQ in the Samsung website (http://www.samsung.com/samsungssd) for detail information.</pre></li></ol></details>
+<details><summary>원본 대조 및 QA 원문</summary><p class="small">매뉴얼: Samsung_Portable_SSD_X5_User_Manual_v0_0_English</p>
+<p><b>영문 질문</b> How can I delete the software if I installed SW using SamsungPortableSSD.exe?</p><p><b>원 QA 정답</b> Software can be deleted manually by executing PSSD_Cleanup.bat in application installation path.</p>
+<p><a href="../../datasets/PM209/images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English/images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00017.jpg">원본 페이지 1</a> · <a href="run/responses/TABLE04.json">출력 JSON</a></p>
+<img loading="lazy" src="../../../.runtime/pm209-qa30/reference-crops/TABLE04.png" alt="TABLE04 원본 근거 영역. 원본 매뉴얼을 잘라 표시한 검수용 이미지입니다.">
+</details></article><article data-category="table" data-verdict="correct" id="TABLE05">
+<div class="case-head"><span>TABLE05 · 표</span><strong class="badge correct">정답</strong></div>
+<h2>시스템이 작동하지 않으면 어떻게 해야 하나요?</h2>
+<div class="comparison"><section><h3>기대 답변 · 검수 전용</h3><p>전원 코드가 작동하는 콘센트에 완전히 꽂혔는지 확인하고, On/Off를 눌러 디스플레이가 켜지는지 확인합니다.</p></section>
+<section><h3>실제 답변 · 수정 없음</h3><p class="verbatim">시스템이 작동하지 않는 경우, 전원 코드를 작동하는 전기 콘센트에 완전히 꽂아 있는지 확인한 후 On/Off 버튼을 눌러 디스플레이가 켜지는지 확인하세요.</p></section></div>
+<p class="judgment">전원 코드·정상 콘센트 연결과 On/Off 버튼 및 표시창 확인을 표 근거에 맞게 답했습니다.</p>
+<p class="small">검색 근거: 충분 · 채택 출처: S1, S2 · 생성 1.40초</p>
+<details><summary>검색된 상위 5개 근거</summary><ol><li><b>S1 · table · 답변에서 인용</b><span class="small"> 유사도 0.634</span><pre>Troubleshooting
+First row (header unconfirmed): Column 1: Problem | Column 2: What to do
+Column 1: Problem | Column 2: What to do
+Column 1: System does not function | Column 2: . Make sure the power cord is fully plugged into an operating electrical outlet. Press On/Off to see if the display lights.</pre></li><li><b>S2 · text · 답변에서 인용</b><span class="small"> 유사도 0.538</span><pre>Maintaining Your Wave Music System
+• Make sure the power cord is fully plugged into an operating electrical outlet. • Press On/Off to see if the display lights.</pre></li><li><b>S3 · table</b><span class="small"> 유사도 0.529</span><pre>Wave® music system Setup Menu
+First row (header unconfirmed): Column 1: System Setting | Column 2: Menu Item | Column 3: Factory Setting | Column 4: Choices | Column 5: Description
+Column 1: Display High Brightness Level | Column 2: BRIGHT HI- | Column 3: 12 | Column 4: 8-15 | Column 5: Sets the display brightness level when the uni detects high ambient light conditions.</pre></li><li><b>S4 · table</b><span class="small"> 유사도 0.529</span><pre>Wave® music system Setup Menu
+First row (header unconfirmed): Column 1: System Setting | Column 2: Menu Item | Column 3: Factory Setting | Column 4: Choices | Column 5: Description
+Column 1: Display Low Brightness Level | Column 2: BRIGHT LO- | Column 3: 4 | Column 4: 1-8 | Column 5: Sets the display brightness level when the unit detects low ambient light conditions.</pre></li><li><b>S5 · text</b><span class="small"> 유사도 0.527</span><pre>The setup menu allows you to personalize system operation
+• Reset to factory settings</pre></li></ol></details>
+<details><summary>원본 대조 및 QA 원문</summary><p class="small">매뉴얼: bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a</p>
+<p><b>영문 질문</b> What to do if system does not function?</p><p><b>원 QA 정답</b> You should do the following:
+1.Make sure the power cord is fully plugged into an operating electrical outlet.
+2.Press On/Off to see if the display lights.</p>
+<p><a href="../../datasets/PM209/images/bose_cd%20player%20manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a/images/bose_cd%20player%20manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00027.jpg">원본 페이지 1</a> · <a href="run/responses/TABLE05.json">출력 JSON</a></p>
+<img loading="lazy" src="../../../.runtime/pm209-qa30/reference-crops/TABLE05.png" alt="TABLE05 원본 근거 영역. 원본 매뉴얼을 잘라 표시한 검수용 이미지입니다.">
+</details></article><article data-category="table" data-verdict="correct" id="TABLE06">
+<div class="case-head"><span>TABLE06 · 표</span><strong class="badge correct">정답</strong></div>
+<h2>리모컨으로 스피커를 제어할 수 없으면 어떻게 해야 하나요?</h2>
+<div class="comparison"><section><h3>기대 답변 · 검수 전용</h3><p>배터리가 올바르게 장착됐는지 확인하고 매뉴얼 7쪽의 리모컨 사용 팁을 참고합니다.</p></section>
+<section><h3>실제 답변 · 수정 없음</h3><p class="verbatim">리모컨으로 스피커를 제어할 수 없다면, 먼저 리모컨 배터리가 올바르게 설치되어 있는지 확인하고(페이지 8 참조), &#x27;리모컨 사용 팁&#x27;을 참고하여(페이지 7) 해결해 보세요. 또한 리모컨을 오른쪽 스피커에 더 직접적으로 향하게 하거나, 방 조명이나 직사광선을 줄이고, 시스템에 더 가까이서 리모컨을 사용하는 것도 도움이 됩니다. 문제가 지속될 경우 리모컨 배터리를 교체하세요.</p></section></div>
+<p class="judgment">배터리 장착, 오른쪽 스피커 조준, 조명/거리 조절, 배터리 교체 등 리모컨 점검 절차가 S4 표에 모두 있습니다.</p>
+<p class="small">검색 근거: 충분 · 채택 출처: S1, S4 · 생성 2.35초</p>
+<details><summary>검색된 상위 5개 근거</summary><ol><li><b>S1 · table · 답변에서 인용</b><span class="small"> 유사도 0.661</span><pre>English
+First row (header unconfirmed): Column 1: Problem | Column 2: What you can do
+Column 1: Remote does not control the speakers | Column 2: •Check the battery to be sure it is installed correctly. Refer to the image on page 8. ·Refer to“Tips on using the remote control”on page7.
+Column 1: PC monitor or TV color patten looks unnatural | Column 2: Turn off the monitor or TV for 15to 30 minutes,then turn it on again. •Move the speakers away from the monitor or TV.</pre></li><li><b>S2 · figure</b><span class="small"> 유사도 0.604</span><pre>Two Bose speakers connected by an audio cable, labeled &#x27;speaker&#x27; and &#x27;speaker cable attached&#x27;. The right speaker shows three control buttons.</pre></li><li><b>S3 · table</b><span class="small"> 유사도 0.602</span><pre>English
+First row (header unconfirmed): Column 1: Problem | Column 2: What you can do
+Column 1: No sound
+Column 2
+•Make sure the speakers are turned on as indicated by the light on the front of the right speaker. •Make sure the speaker volume is not set to the minimum.Press the + button on the right speaker for 2 seconds to raise the volume enough.</pre></li><li><b>S4 · text · 답변에서 인용</b><span class="small"> 유사도 0.569</span><pre>tips on using the remote control:
+Some conditions, such as room lighting, furniture that blocks the signal path, or direct sunlight, can affect remote operation.
+If the remote does not work as it should:
+Point the remote more directly at the right speaker, • which receives the remote control signals.
+Dim the room lights or move the speakers away from • direct sunlight.
+Move closer to the system when you use the remote. •
+If the problem persists, replace the remote control • battery.</pre></li><li><b>S5 · text</b><span class="small"> 유사도 0.553</span><pre>Positioning the speakers
+Be sure not to place any object in front of the speakers, which could block the sound or any signals from the remote control.</pre></li></ol></details>
+<details><summary>원본 대조 및 QA 원문</summary><p class="small">매뉴얼: bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed</p>
+<p><b>영문 질문</b> My remote does not control the speakers, what should I do?</p><p><b>원 QA 정답</b> You should check the battery to ensure it is installed correctly and refer to &quot;Tips on using the remote control&quot; on page 7.</p>
+<p><a href="../../datasets/PM209/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00013.jpg">원본 페이지 1</a> · <a href="run/responses/TABLE06.json">출력 JSON</a></p>
+<img loading="lazy" src="../../../.runtime/pm209-qa30/reference-crops/TABLE06.png" alt="TABLE06 원본 근거 영역. 원본 매뉴얼을 잘라 표시한 검수용 이미지입니다.">
+</details></article><article data-category="table" data-verdict="partial" id="TABLE07">
+<div class="case-head"><span>TABLE07 · 표</span><strong class="badge partial">부분정답</strong></div>
+<h2>배터리 상태 표시로 무엇을 알 수 있나요?</h2>
+<div class="comparison"><section><h3>기대 답변 · 검수 전용</h3><p>배터리 잔량이나 충전 상태를 알 수 있습니다.</p></section>
+<section><h3>실제 답변 · 수정 없음</h3><p class="verbatim">배터리 상태 표시는 배터리 전압 레벨 또는 충전 상태를 알 수 있습니다.</p></section></div>
+<p class="judgment">충전 상태는 맞지만 battery power level(배터리 잔량)을 &#x27;전압 레벨&#x27;로 바꾸었습니다. 원문은 전압 측정을 의미하지 않습니다. S1·S5에 정확한 의미가 있으므로 생성 단계의 의미 변형입니다.</p>
+<p class="small">검색 근거: 충분 · 채택 출처: S1, S5 · 생성 1.17초</p>
+<details><summary>검색된 상위 5개 근거</summary><ol><li><b>S1 · text · 답변에서 인용</b><span class="small"> 유사도 0.740</span><pre>Indicates the battery power level or the battery charging state. See “Checking the battery” on page 14.</pre></li><li><b>S2 · figure</b><span class="small"> 유사도 0.702</span><pre>Checking the battery
+A battery icon showing a rectangular shape with a protruding terminal on the right side, indicating power status or charge level.</pre></li><li><b>S3 · figure</b><span class="small"> 유사도 0.694</span><pre>System status indicators
+A black battery icon showing low charge level, depicted as a rectangular outline with two horizontal bars inside and a protruding terminal on the right side.</pre></li><li><b>S4 · table</b><span class="small"> 유사도 0.658</span><pre>Checking the battery
+First row (header unconfirmed): Column 1: [empty cell] | Column 2: Solid green | Column 3: Full charge
+Column 1: [empty cell] | Column 2: Solid green | Column 3: Full charge
+Column 1: [empty cell] | Column 2: Solid yellow | Column 3: Medium charge
+Column 1: [empty cell] | Column 2: Blinking red | Column 3: Charging is needed</pre></li><li><b>S5 · table · 답변에서 인용</b><span class="small"> 유사도 0.650</span><pre>System status indicators
+First row (header unconfirmed): Column 1: Status indicator | Column 2: System status
+Column 1: [empty cell] | Column 2: Indicates the battery power level or the battery charging state.See“Checking the battery&quot; on page 14.</pre></li></ol></details>
+<details><summary>원본 대조 및 QA 원문</summary><p class="small">매뉴얼: bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d</p>
+<p><b>영문 질문</b> What can we learn from the Battery status?</p><p><b>원 QA 정답</b> You can get information about the battery level or the battery charging state.</p>
+<p><a href="../../datasets/PM209/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00012.jpg">원본 페이지 1</a> · <a href="run/responses/TABLE07.json">출력 JSON</a></p>
+<img loading="lazy" src="../../../.runtime/pm209-qa30/reference-crops/TABLE07.png" alt="TABLE07 원본 근거 영역. 원본 매뉴얼을 잘라 표시한 검수용 이미지입니다.">
+</details></article><article data-category="table" data-verdict="correct" id="TABLE08">
+<div class="case-head"><span>TABLE08 · 표</span><strong class="badge correct">정답</strong></div>
+<h2>충전 수준은 어떻게 확인하나요?</h2>
+<div class="comparison"><section><h3>기대 답변 · 검수 전용</h3><p>표시등의 색상으로 확인합니다.</p></section>
+<section><h3>실제 답변 · 수정 없음</h3><p class="verbatim">충전 수준을 확인하려면 [Talk] 버튼과 [Volume (-)] 버튼을 동시에 길게 누른 후, 배터리 잔량에 따라 상태 표시등이 네 번의 다른 색상으로 깜빡입니다. 충전 중일 때는 빨간색, 완료가 되면 파란색으로 변합니다.</p></section></div>
+<p class="judgment">질문의 핵심인 표시등 색상으로 잔량 확인하기와 Talk+Volume(-) 길게 누르기가 맞습니다. 추가한 충전 중 빨강/완료 파랑도 S3에 있습니다. 다만 &#x27;네 번의 다른 색상&#x27;은 &#x27;잔량에 해당하는 색으로 4회&#x27;로 고치는 편이 명확합니다. 잔량별 색상·백분율 표는 답변에 재현하지 않았지만 원 QA의 요구 범위에는 없습니다.</p>
+<p class="small">검색 근거: 충분 · 채택 출처: S2, S3 · 생성 1.65초</p>
+<details><summary>검색된 상위 5개 근거</summary><ol><li><b>S1 · table</b><span class="small"> 유사도 0.663</span><pre>First row (header unconfirmed): Column 1: Charge level | Column 2: Indicator color
+Column 1: Charge level | Column 2: Indicator color
+Column 1: More than 80% | Column 2: Blue
+Column 1: 30-80% | Column 2: Purple
+Column 1: Less than 30% | Column 2: Red</pre></li><li><b>S2 · text · 답변에서 인용</b><span class="small"> 유사도 0.631</span><pre>Measuring the battery charge
+Press and hold the [Talk] and [Volume (-)] buttons simultaneously. The status indicator flashes 4 times in different colors, according to the charge left in the battery.</pre></li><li><b>S3 · text · 답변에서 인용</b><span class="small"> 유사도 0.594</span><pre>• The status indicator turns red while the device is being charged. The status indicator turns blue when charging is complete.</pre></li><li><b>S4 · text</b><span class="small"> 유사도 0.523</span><pre>Use only the battery charger supplied with the product. Using unapproved chargers may slow down the charging process or cause damage to the product.</pre></li><li><b>S5 · text</b><span class="small"> 유사도 0.504</span><pre>• Check the product box for the Level Box, charger (USB power adapter, USB cable), 3.5 mm audio cable, and user manual. The items supplied with the device and available accessories may vary by region.
+• The status indicator is visible only when it is turned on.</pre></li></ol></details>
+<details><summary>원본 대조 및 QA 원문</summary><p class="small">매뉴얼: samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen</p>
+<p><b>영문 질문</b> How can I know the Charge level?</p><p><b>원 QA 정답</b> You can know the charge level by indicator color.</p>
+<p><a href="../../datasets/PM209/images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/7.jpg">원본 페이지 1</a> · <a href="run/responses/TABLE08.json">출력 JSON</a></p>
+<img loading="lazy" src="../../../.runtime/pm209-qa30/reference-crops/TABLE08.png" alt="TABLE08 원본 근거 영역. 원본 매뉴얼을 잘라 표시한 검수용 이미지입니다.">
+</details></article><article data-category="table" data-verdict="no_answer" id="TABLE09">
+<div class="case-head"><span>TABLE09 · 표</span><strong class="badge no_answer">미답변</strong></div>
+<h2>네트워크 아이콘의 R은 무엇을 뜻하나요?</h2>
+<div class="comparison"><section><h3>기대 답변 · 검수 전용</h3><p>로밍 상태입니다.</p></section>
+<section><h3>실제 답변 · 수정 없음</h3><p class="verbatim">검색된 매뉴얼 근거에서 질문에 대한 답을 확인하지 못했습니다.</p></section></div>
+<p class="judgment">상위 5개에는 R 아이콘의 모양 설명만 있고 의미인 Roaming이 없습니다. Rl→Roaming 대응이 있는 표 청크는 전체 인덱스에 존재하지만 검색되지 않았습니다. 아이콘 모양 설명과 표의 의미를 함께 검색할 필요가 있습니다.</p>
+<p class="small">검색 근거: 불충분 · 채택 출처: 없음 · 생성 2.83초</p>
+<details><summary>검색된 상위 5개 근거</summary><ol><li><b>S1 · figure</b><span class="small"> 유사도 0.609</span><pre>Notification and Status Icons
+A black-and-white icon depicting the letter &#x27;R&#x27; alongside four ascending vertical bars resembling signal strength indicators.</pre></li><li><b>S2 · figure</b><span class="small"> 유사도 0.541</span><pre>A Wi-Fi signal icon displaying the number &#x27;6&#x27; and a small &#x27;4x&#x27; symbol, indicating wireless network connectivity strength or range.</pre></li><li><b>S3 · figure</b><span class="small"> 유사도 0.531</span><pre>A grayscale icon depicting a stylized screen emitting wireless signal waves, commonly used to represent Wi-Fi connectivity or network access in product manuals.</pre></li><li><b>S4 · figure</b><span class="small"> 유사도 0.523</span><pre>A Wi-Fi symbol icon featuring three curved arcs above a dot and the number &#x27;4&#x27; in the lower right corner.</pre></li><li><b>S5 · figure</b><span class="small"> 유사도 0.523</span><pre>A gray icon combining a power symbol with Wi-Fi signal waves and two curved arrows indicating connectivity or refresh.</pre></li></ol></details>
+<details><summary>원본 대조 및 QA 원문</summary><p class="small">매뉴얼: HUAWEI_MatePad User Guide-(BAH4-W09&amp;L09,HarmonyOS 2_01,en)</p>
+<p><b>영문 질문</b> What does the R on the network icon stand for?</p><p><b>원 QA 정답</b> It means that your network is roaming.</p>
+<p><a href="../../datasets/PM209/images/HUAWEI_MatePad%20User%20Guide-%28BAH4-W09%26L09%2CHarmonyOS%202_01%2Cen%29/images/HUAWEI_MatePad%20User%20Guide-%28BAH4-W09%26L09%2CHarmonyOS%202_01%2Cen%29_00010.jpg">원본 페이지 1</a> · <a href="run/responses/TABLE09.json">출력 JSON</a></p>
+<img loading="lazy" src="../../../.runtime/pm209-qa30/reference-crops/TABLE09.png" alt="TABLE09 원본 근거 영역. 원본 매뉴얼을 잘라 표시한 검수용 이미지입니다.">
+</details></article><article data-category="table" data-verdict="no_answer" id="TABLE10">
+<div class="case-head"><span>TABLE10 · 표</span><strong class="badge no_answer">미답변</strong></div>
+<h2>10-1 코드는 무슨 뜻인가요?</h2>
+<div class="comparison"><section><h3>기대 답변 · 검수 전용</h3><p>신호가 좋지 않다는 뜻입니다.</p></section>
+<section><h3>실제 답변 · 수정 없음</h3><p class="verbatim">검색된 매뉴얼 근거에서 질문에 대한 답을 확인하지 못했습니다.</p></section></div>
+<p class="judgment">S3 표에 10-1 → Your signal is bad가 명시되어 있는데 답변을 거부했습니다. 정답은 &#x27;신호 상태가 좋지 않다&#x27;입니다.</p>
+<p class="small">검색 근거: 충분 · 채택 출처: 없음 · 생성 1.82초</p>
+<details><summary>검색된 상위 5개 근거</summary><ol><li><b>S1 · text</b><span class="small"> 유사도 0.671</span><pre>USING COMMON 10-CODES
+_____ in service.</pre></li><li><b>S2 · table</b><span class="small"> 유사도 0.643</span><pre>USING COMMON 10-CODES
+First row (header unconfirmed): Column 1: Code | Column 2: Meaning
+Column 1: 10-8 | Column 2: In service.
+Column 1: 10-9 | Column 2: Repeat last message.
+Column 1: 10-10 | Column 2: Negative (NO).
+Column 1: 10-11 | Column 2: in service.
+Column 1: 10-12 | Column 2: Stand by.
+Column 1: 10-13 | Column 2: Report road/weather condi tions.
+Column 1: 10-14 | Column 2: Information.
+Column 1: 10-15 | Column 2: Message delivered.
+Column 1: 10-16 | Column 2: Reply to message.</pre></li><li><b>S3 · table</b><span class="small"> 유사도 0.641</span><pre>USING COMMON 10-CODES
+First row (header unconfirmed): Column 1: Code | Column 2: Meaning
+Column 1: Code | Column 2: Meaning
+Column 1: 10-1 | Column 2: Your signal is bad.
+Column 1: 10-2 | Column 2: Your signal is good.
+Column 1: 10-3 | Column 2: Stop transmitting.
+Column 1: 10-4 | Column 2: Message received and under- stood.
+Column 1: 10-5 | Column 2: Relay information to
+Column 1: 10-6 | Column 2: I am busy or are you busy?
+Column 1: 10-7 | Column 2: Out of service.</pre></li><li><b>S4 · text</b><span class="small"> 유사도 0.616</span><pre>USING COMMON 10-CODES
+Relay information to _____.</pre></li><li><b>S5 · text</b><span class="small"> 유사도 0.615</span><pre>USING COMMON 10-CODES
+10-2 Your signal is good.</pre></li></ol></details>
+<details><summary>원본 대조 및 QA 원문</summary><p class="small">매뉴얼: samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a</p>
+<p><b>영문 질문</b> What&#x27;s the meaning of the 10-1 code?</p><p><b>원 QA 정답</b> It means your signal is bad.</p>
+<p><a href="../../datasets/PM209/images/samsung_weather%20radio%20manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a/images/samsung_weather%20radio%20manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_00017.jpg">원본 페이지 1</a> · <a href="run/responses/TABLE10.json">출력 JSON</a></p>
+<img loading="lazy" src="../../../.runtime/pm209-qa30/reference-crops/TABLE10.png" alt="TABLE10 원본 근거 영역. 원본 매뉴얼을 잘라 표시한 검수용 이미지입니다.">
+</details></article><article data-category="figure" data-verdict="partial" id="FIG01">
+<div class="case-head"><span>FIG01 · 그림</span><strong class="badge partial">부분정답</strong></div>
+<h2>전동 드릴을 사용하기 전에 무엇에 주의해야 하나요?</h2>
+<div class="comparison"><section><h3>기대 답변 · 검수 전용</h3><p>표시한 각 구멍 원에 드릴 비트 끝을 대고, 보안경을 착용하며 모든 안전 수칙을 지킵니다.</p></section>
+<section><h3>실제 답변 · 수정 없음</h3><p class="verbatim">전동 드릴을 사용하기 전에는 안경 등 보호 장비를 착용하고 모든 안전 수칙을 준수해야 하며, 절단할 위치가 안전인지 확인해야 합니다. 또한 전기 배선이나 관로, 수도관과 같은 위험 요소가 숨겨져 있을 수 있는 표면을 통과하지 않도록 주의해야 합니다.</p></section></div>
+<p class="judgment">눈 보호·안전 수칙은 맞지만 표시한 구멍 원에 드릴 비트를 맞추는 단계가 빠졌습니다. 해당 단계는 상위 5개에도 없었습니다. &#x27;안경&#x27;보다는 &#x27;보안경&#x27;이 원문의 eye protection 의미를 명확하게 전달합니다.</p>
+<p class="small">검색 근거: 일부만 있음 · 채택 출처: S2, S5 · 생성 1.65초</p>
+<details><summary>검색된 상위 5개 근거</summary><ol><li><b>S1 · title</b><span class="small"> 유사도 0.646</span><pre>Before using your drill</pre></li><li><b>S2 · text · 답변에서 인용</b><span class="small"> 유사도 0.609</span><pre>WARNING: Use eye protection and be sure to observe all safety precautions while using a drill or cutting tool.</pre></li><li><b>S3 · text</b><span class="small"> 유사도 0.562</span><pre>WARNING: Do NOT use the mounting assembly as a template while drilling.</pre></li><li><b>S4 · text</b><span class="small"> 유사도 0.562</span><pre>WARNING: Do NOT use the mounting assembly as a template while drilling.</pre></li><li><b>S5 · text · 답변에서 인용</b><span class="small"> 유사도 0.512</span><pre>WARNING: Make sure the spot chosen is safe for cutting. Do not cut through surfaces that may have hazards such as electrical wiring, conduits, or plumb- ing concealed behind them. Follow all other safety precautions.</pre></li></ol></details>
+<details><summary>원본 대조 및 QA 원문</summary><p class="small">매뉴얼: og_en_wmsucb</p>
+<p><b>영문 질문</b> What should I notice before using an electric drill?</p><p><b>원 QA 정답</b> You should enter the tip of the drill bit in each drill hole circle you draw. What&#x27;s more, you should use eye protection and be sure to observe all safety precautions.</p>
+<p><a href="../../datasets/PM209/images/og_en_wmsucb/images/og_en_wmsucb_00004.jpg">원본 페이지 1</a> · <a href="run/responses/FIG01.json">출력 JSON</a></p>
+<img loading="lazy" src="../../../.runtime/pm209-qa30/reference-crops/FIG01.png" alt="FIG01 원본 근거 영역. 원본 매뉴얼을 잘라 표시한 검수용 이미지입니다.">
+</details></article><article data-category="figure" data-verdict="correct" id="FIG02">
+<div class="case-head"><span>FIG02 · 그림</span><strong class="badge correct">정답</strong></div>
+<h2>오디오 입력 커넥터에는 무엇을 사용해 연결하나요?</h2>
+<div class="comparison"><section><h3>기대 답변 · 검수 전용</h3><p>외부 오디오 소스 연결에 3.5mm 스테레오 입력 잭을 사용합니다.</p></section>
+<section><h3>실제 답변 · 수정 없음</h3><p class="verbatim">오디오 입력 커넥터에는 마일 3.5mm(1/8 인치) 스테레오 플러그를 사용하여 연결합니다.</p></section></div>
+<p class="judgment">3.5mm(1/8인치) 스테레오 플러그라는 핵심 규격이 S5와 일치합니다. Male을 &#x27;마일&#x27;로 옮긴 표현은 잘못되었지만 커넥터 규격 자체는 맞아 별도 문장 품질 문제로 기록했습니다.</p>
+<p class="small">검색 근거: 충분 · 채택 출처: S5 · 생성 1.36초</p>
+<details><summary>검색된 상위 5개 근거</summary><ol><li><b>S1 · text</b><span class="small"> 유사도 0.684</span><pre>Connecting an audio device
+Headphone connector</pre></li><li><b>S2 · figure</b><span class="small"> 유사도 0.655</span><pre>A Bose audio receiver showing rear connectivity ports including RCA inputs and outputs, optical digital input, and a green-labeled &#x27;Bose link Speakers&#x27; cable plugged into the dedicated output port.</pre></li><li><b>S3 · text</b><span class="small"> 유사도 0.647</span><pre>Connecting an audio device
+Portable CD player</pre></li><li><b>S4 · figure</b><span class="small"> 유사도 0.634</span><pre>A Bose speaker unit showing its rear panel with various audio input ports and controls. A green cable labeled &#x27;Bose link Speakers&#x27; is connected to one of the inputs.</pre></li><li><b>S5 · text · 답변에서 인용</b><span class="small"> 유사도 0.614</span><pre>Connecting an audio device
+Male 3.5 mm (1/8&quot;) stereo plug</pre></li></ol></details>
+<details><summary>원본 대조 및 QA 원문</summary><p class="small">매뉴얼: bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122</p>
+<p><b>영문 질문</b> What should I use to connect the audio input connector?</p><p><b>원 QA 정답</b> You can use a 3.5 mm stereo input jack for connecting an external audio source.</p>
+<p><a href="../../datasets/PM209/images/bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122/images/bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_00004.jpg">원본 페이지 1</a> · <a href="run/responses/FIG02.json">출력 JSON</a></p>
+<img loading="lazy" src="../../../.runtime/pm209-qa30/reference-crops/FIG02.png" alt="FIG02 원본 근거 영역. 원본 매뉴얼을 잘라 표시한 검수용 이미지입니다.">
+</details></article><article data-category="figure" data-verdict="partial" id="FIG03">
+<div class="case-head"><span>FIG03 · 그림</span><strong class="badge partial">부분정답</strong></div>
+<h2>이미지 파일은 어떻게 보나요?</h2>
+<div class="comparison"><section><h3>기대 답변 · 검수 전용</h3><p>검색 화면에서 My Pictures 폴더를 선택하고 그림에 표시된 이동 버튼을 위아래로 움직여 파일을 고른 뒤 OK로 이미지를 봅니다.</p></section>
+<section><h3>실제 답변 · 수정 없음</h3><p class="verbatim">이미지 파일은 JPEG 형식에서 볼 수 있습니다. 검색 화면의 [My Pictures] 폴더를 선택한 후, 원하는 파일을 보기 위해 위/아래 버튼을 눌러 파일을 이동시킨 뒤 해당 버튼을 누르면 선택된 이미지를 확인할 수 있습니다.</p></section></div>
+<p class="judgment">My Pictures에서 파일을 고르는 단계는 맞지만 마지막 OK 버튼을 &#x27;해당 버튼&#x27;으로 뭉뚱그려 조작이 불명확합니다. S5 OCR에는 버튼 아이콘명이 빠져 있습니다. 원 QA의 Power 표현은 이미지의 이동 버튼 아이콘과 대조해 별도 주석으로 남겼습니다.</p>
+<p class="small">검색 근거: 일부만 있음 · 채택 출처: S1, S2, S5 · 생성 1.58초</p>
+<details><summary>검색된 상위 5개 근거</summary><ol><li><b>S1 · text · 답변에서 인용</b><span class="small"> 유사도 0.682</span><pre>Image File Viewer Function
+G You can view image files in JPEG format.</pre></li><li><b>S2 · text · 답변에서 인용</b><span class="small"> 유사도 0.618</span><pre>I Selecting My Pictures
+G You can view image files in JPEG format in [my pictures].</pre></li><li><b>S3 · figure</b><span class="small"> 유사도 0.584</span><pre>I Viewing Image File
+This cropped figure from an English product manual illustrates the [My Pictures] folder selection in a search screen. It shows controls to sort files by name or date and indicates that newly downloaded files appear for two weeks.</pre></li><li><b>S4 · text</b><span class="small"> 유사도 0.579</span><pre>I Viewing Image File
+Category G new : Newly downloaded file will appear for 2 weeks. G sort by name : Saved files will appear in alphabetical order. G sort by date : Saved files will appear in the order of date.</pre></li><li><b>S5 · text · 답변에서 인용</b><span class="small"> 유사도 0.552</span><pre>I Viewing Image File
+Select [My Pictures] folder in the search screen and then Press the button up or down to move to the file you want to view. If you press button, you can view the selected images.</pre></li></ol></details>
+<details><summary>원본 대조 및 QA 원문</summary><p class="small">매뉴얼: samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7</p>
+<p><b>영문 질문</b> How can I View the Image File?</p><p><b>원 QA 정답</b> You can select My Pictures folder in the search screen and then press the Power button up or down to move the file you want to view, then press the OK button to view the selected images.</p><p>공식 QA는 이동 버튼을 Power로 부르지만 원본 본문은 버튼 그림으로만 표시함. My Pictures → 파일 선택 → OK의 핵심 순서를 기준으로 검수.</p>
+<p><a href="../../datasets/PM209/images/samsung_portable%20multimedia%20player%20manuals_216a3e86-d52b-26d4-4947-255f2d4bada7/images/samsung_portable%20multimedia%20player%20manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_00017.jpg">원본 페이지 1</a> · <a href="run/responses/FIG03.json">출력 JSON</a></p>
+<img loading="lazy" src="../../../.runtime/pm209-qa30/reference-crops/FIG03.png" alt="FIG03 원본 근거 영역. 원본 매뉴얼을 잘라 표시한 검수용 이미지입니다.">
+</details></article><article data-category="figure" data-verdict="no_answer" id="FIG04">
+<div class="case-head"><span>FIG04 · 그림</span><strong class="badge no_answer">미답변</strong></div>
+<h2>볼륨을 낮추는 Volume- 버튼은 어디에 있나요?</h2>
+<div class="comparison"><section><h3>기대 답변 · 검수 전용</h3><p>장치 상단에서 Play/Stop 버튼 바로 오른쪽의 Volume(-) 버튼입니다.</p></section>
+<section><h3>실제 답변 · 수정 없음</h3><p class="verbatim">검색된 매뉴얼 근거에서 질문에 대한 답을 확인하지 못했습니다.</p></section></div>
+<p class="judgment">올바른 장치 그림 설명과 Volume(-) 라벨은 검색됐지만 기존 그림 description은 Volume(-) 자체와 Play/Stop 오른쪽이라는 상대 위치를 빠뜨렸습니다. 현재 LLM은 그림 원본/좌표를 보지 않고 텍스트만 받아 위치를 알 수 없습니다. 단순히 top-k만 늘려 해결된다고 볼 수 없습니다.</p>
+<p class="small">검색 근거: 불충분 · 채택 출처: 없음 · 생성 1.05초</p>
+<details><summary>검색된 상위 5개 근거</summary><ol><li><b>S1 · text</b><span class="small"> 유사도 0.685</span><pre>Device layout
+[Volume (-)] button</pre></li><li><b>S2 · text</b><span class="small"> 유사도 0.638</span><pre>[Volume (+)] button</pre></li><li><b>S3 · text</b><span class="small"> 유사도 0.566</span><pre>• Some device may allow you to control only the volume. • The audio cable connection allows you to control only the volume.</pre></li><li><b>S4 · figure</b><span class="small"> 유사도 0.551</span><pre>A top-down view of a portable speaker showing labeled controls including [Volume (+)] button, [Play/Stop] button, [Talk] button, Status indicator, NFC antenna, and Microphone.</pre></li><li><b>S5 · text</b><span class="small"> 유사도 0.529</span><pre>Device layout
+[Play/Stop] button</pre></li></ol></details>
+<details><summary>원본 대조 및 QA 원문</summary><p class="small">매뉴얼: samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen</p>
+<p><b>영문 질문</b> Where is the Volume- button?</p><p><b>원 QA 정답</b> The Volume button is located on the top of the device and on the right of the stop button.</p>
+<p><a href="../../datasets/PM209/images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/2.jpg">원본 페이지 1</a> · <a href="run/responses/FIG04.json">출력 JSON</a></p>
+<img loading="lazy" src="../../../.runtime/pm209-qa30/reference-crops/FIG04.png" alt="FIG04 원본 근거 영역. 원본 매뉴얼을 잘라 표시한 검수용 이미지입니다.">
+</details></article><article data-category="figure" data-verdict="incorrect" id="FIG05">
+<div class="case-head"><span>FIG05 · 그림</span><strong class="badge incorrect">오답</strong></div>
+<h2>스피커의 AC 전원 공급장치는 몇 가지 유형이며 각각 어떻게 준비하나요?</h2>
+<div class="comparison"><section><h3>기대 답변 · 검수 전용</h3><p>두 유형입니다. 한 유형은 전원 공급장치의 플러그 핀을 펼치고, 다른 유형은 해당 지역용 AC 어댑터를 공급장치에 밀어 끼웁니다.</p></section>
+<section><h3>실제 답변 · 수정 없음</h3><p class="verbatim">제공된 매뉴얼 excerpt 에 따르면, 스피커의 AC 전원 공급 장치는 Bose ® AC 전원 공급 장치 또는 스피커용 Bose 액세서리 충전기 두 가지 유형입니다. 준비 방법은 다음과 같습니다: 1) AC 전원 공급 장치를 스피커 뒷면의 DC 커넥터에 꽂습니다. 2) AC 전원 공급 장치를 작동 가능한 AC (마인스) 아웃렛에 연결합니다.</p></section></div>
+<p class="judgment">정답인 핀 펼치기형/지역 어댑터 끼우기형 대신 AC 공급장치/액세서리 충전기를 두 유형으로 잘못 답했습니다. 맞는 준비 절차 청크들은 인덱스에 있으나 상위 5개에 없습니다. 이 문항은 원 질문의 유형 수에 준비 방법을 추가한 사전 고정 변형 문항입니다.</p>
+<p class="small">검색 근거: 불충분 · 채택 출처: S1, S2, S3, S5 · 생성 2.13초</p>
+<details><summary>검색된 상위 5개 근거</summary><ol><li><b>S1 · text · 답변에서 인용</b><span class="small"> 유사도 0.686</span><pre>Operation
+2. Plug the power cord on the AC power supply into the DC connector on the back of the speaker.</pre></li><li><b>S2 · figure · 답변에서 인용</b><span class="small"> 유사도 0.657</span><pre>Operation
+Step 2 shows plugging the AC power supply into the DC connector on the back of the speaker. The diagram includes a close-up view of the rear panel with labeled ports: SERVICE, POWER (12V), and USB. A black arrow indicates inserting the power cord plug into the designated socket.</pre></li><li><b>S3 · text · 답변에서 인용</b><span class="small"> 유사도 0.642</span><pre>If using AC power, ensure: • Your system is connected to a working AC (mains) outlet. • You are using the Bose ® AC power supply shipped with your speaker or a Bose accessory charger designed for the speaker. If using battery power, the battery may be in protection mode or discharged. Connect to a working AC outlet to restore the battery to operational mode and charge the battery.
+• Ensure your speaker is discoverable (Bluetooth status indicator blinks blue).</pre></li><li><b>S4 · text</b><span class="small"> 유사도 0.616</span><pre>Connecting to AC power
+Or,</pre></li><li><b>S5 · text · 답변에서 인용</b><span class="small"> 유사도 0.616</span><pre>Operation
+3. Plug the AC power supply into a live AC (mains) outlet.</pre></li></ol></details>
+<details><summary>원본 대조 및 QA 원문</summary><p class="small">매뉴얼: bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d</p>
+<p><b>영문 질문</b> How many AC power supply types does the speaker have?</p><p><b>원 QA 정답</b> It has two types: the first type you need to extend the prongs from the AC power supply, and the second one you need to slide the AC power adapter for your region onto the AC power supply.</p><p>한국어 질문은 원문의 유형 수 질문에 각 유형의 준비 방법도 함께 물어보도록 명확화·확장함. 이 변형은 검색/답변 결과 확인 전에 고정됨.</p>
+<p><a href="../../datasets/PM209/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00007.jpg">원본 페이지 1</a> · <a href="run/responses/FIG05.json">출력 JSON</a></p>
+<img loading="lazy" src="../../../.runtime/pm209-qa30/reference-crops/FIG05.png" alt="FIG05 원본 근거 영역. 원본 매뉴얼을 잘라 표시한 검수용 이미지입니다.">
+</details></article><article data-category="figure" data-verdict="correct" id="FIG06">
+<div class="case-head"><span>FIG06 · 그림</span><strong class="badge correct">정답</strong></div>
+<h2>비밀번호를 잊어버리면 제 데이터에 접근할 수 있나요?</h2>
+<div class="comparison"><section><h3>기대 답변 · 검수 전용</h3><p>아니요. 비밀번호를 잊거나 잃어버리면 데이터에 접근할 수 없습니다.</p></section>
+<section><h3>실제 답변 · 수정 없음</h3><p class="verbatim">비밀번호를 잊어버리면 제 데이터에 접근할 수 없습니다. 비밀번호가 잊혀지거나 도난당했을 경우 사용자는 데이터를 복구할 수 없으며, 모든 사용자 데이터는 공장 초기화 과정에서 삭제됩니다. 제품 사용을 복원하려면 삼성 서비스 센터의 온라인 서비스를 통해 공장으로 초기화해야 합니다.</p></section></div>
+<p class="judgment">비밀번호를 잊으면 데이터 접근이 불가능하고 공장 초기화 시 데이터가 삭제된다는 핵심은 S1·S3와 일치합니다. &#x27;제 데이터&#x27;, &#x27;공장으로 초기화&#x27; 등 표현은 다듬을 필요가 있습니다.</p>
+<p class="small">검색 근거: 충분 · 채택 출처: S1, S3 · 생성 1.76초</p>
+<details><summary>검색된 상위 5개 근거</summary><ol><li><b>S1 · text · 답변에서 인용</b><span class="small"> 유사도 0.567</span><pre>Safeguard User Password
+Because X5 utilizes advanced encryption technologies, user data cannot be accessed if password is lost or forgotton. Please write down your password and store it in a safe place. If the product cannot be used due to user’sfailure to enter correct password, the only way to restore product is to have it reset to factory settings via an online service by a Samsung Service Center.</pre></li><li><b>S2 · text</b><span class="small"> 유사도 0.566</span><pre>3. Unlock
+If you’ve enabled password protection, every time you connect X5 to your computer you need to enter your password and click the “UNLOCK” button before getting access to the data in X5. If you fail to type correct password, your access will be confined to capacity of about 128MB allocated to SamsungPortableSSD.exe which means that you will be locked out of the data protected by password.</pre></li><li><b>S3 · text · 답변에서 인용</b><span class="small"> 유사도 0.553</span><pre>2. Setting Password (Optional)
+* Samsung shall not be liable for loss of user data caused by forgotten or stolen passwords. In an effort to keep the device as secure as possible, there is no password recovery option. If the password is forgotten, users need to have X5 to be restored to factory setting through online service rendered by our customer service centers. Please keep it in mind that all user data placed in X5 will be lost by factory reset.</pre></li><li><b>S4 · figure</b><span class="small"> 유사도 0.549</span><pre>• Name /Password
+Samsung Portable SSD X5 settings screen showing Security Mode ON, Name (Samsung X5), Password fields (current/new/confirm) with CHANGE button, and warning about data loss if password is forgotten.</pre></li><li><b>S5 · figure</b><span class="small"> 유사도 0.546</span><pre>2. Setting Password (Optional)
+Samsung Portable SSD Software setup screen showing &#x27;WELCOME!&#x27; message and fields for Name (pre-filled as &#x27;Samsung X5&#x27;) and Password (4-16 characters). Includes warning notice about data loss if password is forgotten, with UPDATE, SKIP, and FINISH buttons.</pre></li></ol></details>
+<details><summary>원본 대조 및 QA 원문</summary><p class="small">매뉴얼: Samsung_Portable_SSD_X5_User_Manual_v0_0_English</p>
+<p><b>영문 질문</b> Can I see my data if I forget my password?</p><p><b>원 QA 정답</b> No, you can&#x27;t. You will not have access to your data if you forget or lose your password.</p>
+<p><a href="../../datasets/PM209/images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English/images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00014.jpg">원본 페이지 1</a> · <a href="run/responses/FIG06.json">출력 JSON</a></p>
+<img loading="lazy" src="../../../.runtime/pm209-qa30/reference-crops/FIG06.png" alt="FIG06 원본 근거 영역. 원본 매뉴얼을 잘라 표시한 검수용 이미지입니다.">
+</details></article><article data-category="figure" data-verdict="partial" id="FIG07">
+<div class="case-head"><span>FIG07 · 그림</span><strong class="badge partial">부분정답</strong></div>
+<h2>Photo Base 4.0을 설치하려면 어떻게 해야 하나요?</h2>
+<div class="comparison"><section><h3>기대 답변 · 검수 전용</h3><p>설치 CD를 넣고 ArcSoft Photo Base 4.0을 선택한 뒤 Yes → Next → Next → Finish를 누릅니다. 완료 후 컴퓨터 재시작을 권장합니다.</p></section>
+<section><h3>실제 답변 · 수정 없음</h3><p class="verbatim">Photo Base 4.0 설치 방법은 다음과 같습니다:
+1. PC의 CD-ROM 드라이브에 설치용 CD를 삽입합니다.
+2. 자동으로 소개 화면이 나타납니다.
+3. &#x27;ArcSoft Photo Base 4.0&#x27;을 클릭합니다.</p></section></div>
+<p class="judgment">CD 삽입→소개 화면→프로그램 선택까지만 답했습니다. 검색된 S1 Yes, S2 Next도 생략했고, 후반 Next/Finish 및 재시작 권장은 검색에서 빠졌습니다. 전체 인덱스에는 후반 단계가 있지만 일부는 제목 없이 짧게 분리되어 있습니다.</p>
+<p class="small">검색 근거: 일부만 있음 · 채택 출처: S3 · 생성 1.49초</p>
+<details><summary>검색된 상위 5개 근거</summary><ol><li><b>S1 · text</b><span class="small"> 유사도 0.792</span><pre>Photo Base 4.0 Installation
+4. Click “Yes”</pre></li><li><b>S2 · text</b><span class="small"> 유사도 0.789</span><pre>Photo Base 4.0 Installation
+5. Click “Next”</pre></li><li><b>S3 · text · 답변에서 인용</b><span class="small"> 유사도 0.785</span><pre>Photo Base 4.0 Installation
+1. Insert installation CD into your PC’s CD-ROM 2. Introduction screen will appear automatically. 3. Click “ArcSoft Photo Base 4.0”</pre></li><li><b>S4 · text</b><span class="small"> 유사도 0.766</span><pre>Photo Base 4.0 Installation
+Note: To find out more about Photo Base4.0 or how to use it, consult online help by clicking “?” icon or “help” on the pull-down menu.</pre></li><li><b>S5 · figure</b><span class="small"> 유사도 0.746</span><pre>Photo Base 4.0 Installation
+Digital Camera installation screen showing options: Driver, Photo Impression 4.0, PhotoBase 4.0, Acrobat Reader 5.0, and User Manual.</pre></li></ol></details>
+<details><summary>원본 대조 및 QA 원문</summary><p class="small">매뉴얼: samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a</p>
+<p><b>영문 질문</b> What can I do if I want to install Photo Base 4.0?</p><p><b>원 QA 정답</b> 1. You should insert the installation CD into your PC&#x27;s CD-ROM. 
+2. You should click &quot;ArcSoft Photo Base 4.0&quot; when the introduction screen appears automatically. 
+3. You should click &quot;Yes&quot;. 
+4. You should click &quot;Next&quot;.  
+5.  You should click &quot;Next&quot;.   
+6. You should click &quot;Finish&quot;.   
+7. You should restart your computer. </p><p>원본의 재시작은 권장 사항이며 강제 요구가 아님.</p>
+<p><a href="../../datasets/PM209/images/samsung_camcorder%20manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder%20manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00015.jpg">원본 페이지 1</a> · <a href="run/responses/FIG07.json">출력 JSON</a></p>
+<img loading="lazy" src="../../../.runtime/pm209-qa30/reference-crops/FIG07.png" alt="FIG07 원본 근거 영역. 원본 매뉴얼을 잘라 표시한 검수용 이미지입니다.">
+</details></article><article data-category="figure" data-verdict="correct" id="FIG08">
+<div class="case-head"><span>FIG08 · 그림</span><strong class="badge correct">정답</strong></div>
+<h2>스피커를 컴퓨터 바로 옆에 배치하기 쉬운 이유는 무엇인가요?</h2>
+<div class="comparison"><section><h3>기대 답변 · 검수 전용</h3><p>스피커의 크기와 모양 때문입니다.</p></section>
+<section><h3>실제 답변 · 수정 없음</h3><p class="verbatim">제공된 매뉴얼에 따르면, 이 스피커의 크기와 형태가 컴퓨터 바로 옆에 배치하기 쉽도록 설계되어 있습니다.</p></section></div>
+<p class="judgment">컴퓨터 옆 배치가 쉬운 이유인 스피커의 크기와 형태를 S1에 맞게 답했습니다. 그림 그룹 문항이지만 이 답은 본문만으로도 가능합니다.</p>
+<p class="small">검색 근거: 충분 · 채택 출처: S1 · 생성 1.28초</p>
+<details><summary>검색된 상위 5개 근거</summary><ol><li><b>S1 · text · 답변에서 인용</b><span class="small"> 유사도 0.706</span><pre>Positioning the speakers
+The size and shape of these speakers make it easy to position them directly next to your c omputer. For proper performance, place the right speaker to the right and the left speaker to the left of your computer. Make sure there is equal distance on either side. This provides an accurate sound stage.</pre></li><li><b>S2 · figure</b><span class="small"> 유사도 0.695</span><pre>Positioning the speakers
+A diagram showing speaker placement next to a computer for optimal sound stage. The left and right speakers are positioned at an equal distance from the computer, with recommended spacing of 18&quot;–36&quot; (46 cm–92 cm). Arrows indicate outward positioning.</pre></li><li><b>S3 · text</b><span class="small"> 유사도 0.602</span><pre>Positioning the speakers
+Be sure not to place any object in front of the speakers, which could block the sound or any signals from the remote control.</pre></li><li><b>S4 · figure</b><span class="small"> 유사도 0.580</span><pre>Positioning the speakers
+A gray laptop computer viewed from the front, showing the screen and base without any visible labels or controls.</pre></li><li><b>S5 · text</b><span class="small"> 유사도 0.574</span><pre>Positioning the speakers
+Left speaker</pre></li></ol></details>
+<details><summary>원본 대조 및 QA 원문</summary><p class="small">매뉴얼: bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed</p>
+<p><b>영문 질문</b> What makes it easy to position the speakers directly next to your computer?</p><p><b>원 QA 정답</b> It is the size and shape of these speakers.</p>
+<p><a href="../../datasets/PM209/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00007.jpg">원본 페이지 1</a> · <a href="run/responses/FIG08.json">출력 JSON</a></p>
+<img loading="lazy" src="../../../.runtime/pm209-qa30/reference-crops/FIG08.png" alt="FIG08 원본 근거 영역. 원본 매뉴얼을 잘라 표시한 검수용 이미지입니다.">
+</details></article><article data-category="figure" data-verdict="correct" id="FIG09">
+<div class="case-head"><span>FIG09 · 그림</span><strong class="badge correct">정답</strong></div>
+<h2>전체 화면에서 알림 피드백을 줄이려면 어떻게 하나요?</h2>
+<div class="comparison"><section><h3>기대 답변 · 검수 전용</h3><p>Settings → Notifications &amp; status bar → Manage notifications → More → Reduce notification feedback on full screen 순으로 엽니다.</p></section>
+<section><h3>실제 답변 · 수정 없음</h3><p class="verbatim">전체 화면에서 알림 피드백을 줄이려면 설정 &gt; 알림 및 상태 표시줄 &gt; 알림 관리 &gt; 기타 &gt; 전체 화면에서 알림 피드백 감소로 이동하여 해당 기능을 켜세요. ColorOS 는 게임이나 영상 재생 중 전체 화면 모드일 때 알림 소리를 부드럽게 하고 진동 강도를 낮추어 몰입감을 방해하지 않도록 자동으로 처리합니다.</p></section></div>
+<p class="judgment">설정 경로와 전체 화면에서 소리·진동을 줄이는 기능 설명이 S1과 일치합니다.</p>
+<p class="small">검색 근거: 충분 · 채택 출처: S1 · 생성 1.87초</p>
+<details><summary>검색된 상위 5개 근거</summary><ol><li><b>S1 · text · 답변에서 인용</b><span class="small"> 유사도 0.622</span><pre>Reduce notification feedback in full screen
+When you&#x27;re playing games or watching videos in full screen, ColorOS will soften notification sounds and reduce the vibration intensity to not interrupt your immersive experience. Path: Settings - Notifications &amp; status bar - Manage notifications - More - Reduce notification feedback on full screen.</pre></li><li><b>S2 · figure</b><span class="small"> 유사도 0.565</span><pre>A smartphone screen displaying the &#x27;More&#x27; settings page under &#x27;Silent Notifications&#x27;. It shows two options: &#x27;Do not collapse&#x27; (selected) and &#x27;Collapse&#x27;, along with toggles for notification history, snoozing, banner notifications on fullscreen, reduced feedback on fullscreen, and wake screen functionality.</pre></li><li><b>S3 · text</b><span class="small"> 유사도 0.564</span><pre>Anti-peeping for notifications
+This feature is only available on some models.</pre></li><li><b>S4 · figure</b><span class="small"> 유사도 0.558</span><pre>A smartphone screen showing the Notification sound settings in ColorOS, featuring tone tunes like Keyboard presses and Melody options. Below are custom audio selections and alert tones including &#x27;Colorful Future&#x27;. The image also includes a manual section titled &#x27;Reduce notification feedback in full screen&#x27;, explaining how ColorOS softens sounds during gaming or video playback to maintain immersion.</pre></li><li><b>S5 · text</b><span class="small"> 유사도 0.537</span><pre>Tap an app to specify which notifications you want to receive and set the badge style based on your preferences and usage habits. Tap &quot;Default channel&quot; to adjust more detailed settings. • If you choose &quot;Number&quot;, the number of unread notifications will be displayed on the top right of the app icon. If you choose &quot;Dot&quot;, a red dot will be displayed to indicate unread notifications. You can also choose to not show a badge to keep the home screen simple and clean.</pre></li></ol></details>
+<details><summary>원본 대조 및 QA 원문</summary><p class="small">매뉴얼: phone_os_User Guide_ColorOS_12_v1.0_20211028</p>
+<p><b>영문 질문</b> How to reduce notification feedback in full screen? </p><p><b>원 QA 정답</b> You can open Settings, Notifications &amp; status bar, Manage notifications, More, and Reduce notification feedback on full screen in order. </p>
+<p><a href="../../datasets/PM209/images/phone_os_User%20Guide_ColorOS_12_v1.0_20211028/images/phone_os_User%20Guide_ColorOS_12_v1.0_20211028_00019.jpg">원본 페이지 1</a> · <a href="run/responses/FIG09.json">출력 JSON</a></p>
+<img loading="lazy" src="../../../.runtime/pm209-qa30/reference-crops/FIG09.png" alt="FIG09 원본 근거 영역. 원본 매뉴얼을 잘라 표시한 검수용 이미지입니다.">
+</details></article><article data-category="figure" data-verdict="partial" id="FIG10">
+<div class="case-head"><span>FIG10 · 그림</span><strong class="badge partial">부분정답</strong></div>
+<h2>바구니는 어떻게 분리하나요?</h2>
+<div class="comparison"><section><h3>기대 답변 · 검수 전용</h3><p>바구니 양옆을 단단히 잡고 그림의 화살표 방향으로 움직여 잠금을 풀어 분리합니다.</p></section>
+<section><h3>실제 답변 · 수정 없음</h3><p class="verbatim">바구니를 분리하려면 바구니의 양쪽을 단단히 잡고 분리하세요.</p></section></div>
+<p class="judgment">양옆을 잡는다는 원 QA의 짧은 답은 충족하지만 실제 분리 조작에 필요한 잠금 해제/움직임이 빠져 원본 기준 부분정답입니다. S1에도 Unlock이 있고 S2에도 분리 설명이 있으나 답변에서 생략했습니다. S4 그림 설명은 원본의 분리 동작을 물건이 든 바구니를 들어 올리는 모습으로 부정확하게 설명해 재검토가 필요합니다.</p>
+<p class="small">검색 근거: 일부만 있음 · 채택 출처: S1, S2 · 생성 1.09초</p>
+<details><summary>검색된 상위 5개 근거</summary><ol><li><b>S1 · text · 답변에서 인용</b><span class="small"> 유사도 0.582</span><pre>Split Silverware Basket (select models)
+To split the basket, hold the basket firmly along the sides. Unlock baskets as shown here.</pre></li><li><b>S2 · figure · 답변에서 인용</b><span class="small"> 유사도 0.548</span><pre>Removable Silverware Basket (select models)
+A split silverware basket in a dishwasher rack, shown separated into two sections for flexible loading of flatware and utensils. The image illustrates how to unlock the basket by holding it firmly along the sides and pulling apart. Labels include &#x27;Split Silverware Basket (select models)&#x27; and instructions on separating the basket.</pre></li><li><b>S3 · text</b><span class="small"> 유사도 0.511</span><pre>Removable Silverware Basket (select models)
+For best cleaning results, prevent items from nesting together by placing some items in the basket with handles up and some with handles down. Load knives, handles up and spoons and forks handles down, through the slots in the hinged covered section(s) (when closed).</pre></li><li><b>S4 · figure</b><span class="small"> 유사도 0.493</span><pre>Split Silverware Basket (select models)
+A hand lifts a rectangular plastic basket filled with cylindrical items, likely bottles or containers, using its handle. Two black arrows indicate the direction of lifting or removal from a surface.</pre></li><li><b>S5 · figure</b><span class="small"> 유사도 0.481</span><pre>A wire mesh shopping basket with two metal tongs resting inside it. The tongs have black handles and silver metallic arms, positioned diagonally across the basket&#x27;s interior.</pre></li></ol></details>
+<details><summary>원본 대조 및 QA 원문</summary><p class="small">매뉴얼: samsung_dish_washer_6918977 a</p>
+<p><b>영문 질문</b> How to split the basket?</p><p><b>원 QA 정답</b> You can hold the basket firmly along the sides.</p><p>공식 QA는 양옆을 잡는 내용만 포함. 원본 본문의 Unlock baskets as shown here 및 그림 화살표를 근거로 평가값에 잠금 해제·분리 동작을 보완.</p>
+<p><a href="../../datasets/PM209/images/samsung_dish_washer_6918977%20a/images/4.jpg">원본 페이지 1</a> · <a href="run/responses/FIG10.json">출력 JSON</a></p>
+<img loading="lazy" src="../../../.runtime/pm209-qa30/reference-crops/FIG10.png" alt="FIG10 원본 근거 영역. 원본 매뉴얼을 잘라 표시한 검수용 이미지입니다.">
+</details></article>
+<p class="small">실행 설정과 원본 응답은 run/에, 별도 검수 판단은 review.json에 보관했습니다. 원본 데이터나 생성 답변을 정답에 맞게 고치지 않았습니다.</p></main><script>
+const category=document.getElementById('category'),verdict=document.getElementById('verdict'),search=document.getElementById('search');
+function filter(){let n=0;for(const card of document.querySelectorAll('article')){let show=(!category.value||card.dataset.category===category.value)&&(!verdict.value||card.dataset.verdict===verdict.value)&&card.textContent.toLowerCase().includes(search.value.toLowerCase());card.hidden=!show;if(show)n++}document.getElementById('visible').textContent=n+'개'}
+for(const el of [category,verdict,search])el.addEventListener('input',filter);
+</script></body></html>

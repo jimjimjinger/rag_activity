@@ -1,0 +1,357 @@
+{
+  "case_id": "FIG02",
+  "manual_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122",
+  "question": "오디오 입력 커넥터에는 무엇을 사용해 연결하나요?",
+  "retrieved_chunk_ids": [
+    "2f3fefc7-02fc-5728-910d-d53ca4a0f56d",
+    "92effec6-4b05-59e3-a69d-108b57646664",
+    "b5f3a05a-2177-5b6f-a11f-41cfd3b847a1",
+    "b53ee022-5f8a-5944-9003-9ce25bcd3add",
+    "7ac82e88-75d8-5a75-a893-2f49b3bf50f2"
+  ],
+  "sources": [
+    {
+      "chunk_id": "2f3fefc7-02fc-5728-910d-d53ca4a0f56d",
+      "manual_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122",
+      "page_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_00008",
+      "chunk_type": "text",
+      "text": "Connecting an audio device\nHeadphone connector",
+      "content_region_ids": [
+        "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_124"
+      ],
+      "context_region_ids": [
+        "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_110"
+      ],
+      "image_filename": "images/bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122/images/bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_00008.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_124",
+          "shape": {
+            "x": 78.60324096679685,
+            "y": 551.091125488281,
+            "width": 85.66374206542966,
+            "height": 34.681030273437386
+          }
+        },
+        {
+          "id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_110",
+          "shape": {
+            "x": 71.99999999999996,
+            "y": 117.00406646728506,
+            "width": 446.59912109375006,
+            "height": 37.82520294189452
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_124",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 19
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.6840915891159016,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "92effec6-4b05-59e3-a69d-108b57646664",
+      "manual_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122",
+      "page_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_00005",
+      "chunk_type": "figure",
+      "text": "A Bose audio receiver showing rear connectivity ports including RCA inputs and outputs, optical digital input, and a green-labeled 'Bose link Speakers' cable plugged into the dedicated output port.",
+      "content_region_ids": [
+        "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_274"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122/images/bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_00005.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_274",
+          "shape": {
+            "x": 743.9999999999995,
+            "y": 167.640625,
+            "width": 383.0,
+            "height": 234.99999999999994
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_274",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 197
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": 0.6547529474123465,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "b5f3a05a-2177-5b6f-a11f-41cfd3b847a1",
+      "manual_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122",
+      "page_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_00008",
+      "chunk_type": "text",
+      "text": "Connecting an audio device\nPortable CD player",
+      "content_region_ids": [
+        "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_122"
+      ],
+      "context_region_ids": [
+        "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_110"
+      ],
+      "image_filename": "images/bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122/images/bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_00008.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_122",
+          "shape": {
+            "x": 267.1199951171875,
+            "y": 506.20611572265585,
+            "width": 72.92758178710926,
+            "height": 34.80871582031267
+          }
+        },
+        {
+          "id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_110",
+          "shape": {
+            "x": 71.99999999999996,
+            "y": 117.00406646728506,
+            "width": 446.59912109375006,
+            "height": 37.82520294189452
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_122",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 18
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.6469813320145819,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S3"
+    },
+    {
+      "chunk_id": "b53ee022-5f8a-5944-9003-9ce25bcd3add",
+      "manual_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122",
+      "page_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_00005",
+      "chunk_type": "figure",
+      "text": "A Bose speaker unit showing its rear panel with various audio input ports and controls. A green cable labeled 'Bose link Speakers' is connected to one of the inputs.",
+      "content_region_ids": [
+        "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_275"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122/images/bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_00005.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_275",
+          "shape": {
+            "x": 739.9999999999992,
+            "y": 161.64062500000003,
+            "width": 390.00000000000057,
+            "height": 245.9999999999998
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_275",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 165
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": 0.6343479711266119,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S4"
+    },
+    {
+      "chunk_id": "7ac82e88-75d8-5a75-a893-2f49b3bf50f2",
+      "manual_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122",
+      "page_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_00008",
+      "chunk_type": "text",
+      "text": "Connecting an audio device\nMale 3.5 mm (1/8\") stereo plug",
+      "content_region_ids": [
+        "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_123"
+      ],
+      "context_region_ids": [
+        "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_110"
+      ],
+      "image_filename": "images/bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122/images/bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_00008.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_123",
+          "shape": {
+            "x": 362.40118408203114,
+            "y": 367.9660949707029,
+            "width": 132.9608154296876,
+            "height": 34.68106079101585
+          }
+        },
+        {
+          "id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_110",
+          "shape": {
+            "x": 71.99999999999996,
+            "y": 117.00406646728506,
+            "width": 446.59912109375006,
+            "height": 37.82520294189452
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_123",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 30
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.6138626391482391,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S5"
+    }
+  ],
+  "excluded_sources": [],
+  "retrieval_seconds": 1.7035474999865983,
+  "created_at": "2026-11-01T23:54:30.727194+00:00",
+  "status": "answered",
+  "answer": "오디오 입력 커넥터에는 마일 3.5mm(1/8 인치) 스테레오 플러그를 사용하여 연결합니다.",
+  "source_ids": [
+    "S5"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 68,
+        "prompt_eval_count": 577,
+        "total_duration": 1289666700,
+        "load_duration": 5252600,
+        "attempt": 1,
+        "prompt_token_upper_bound": 3110
+      }
+    ],
+    "elapsed_seconds": 1.3627815999789163,
+    "ollama_model": {
+      "name": "qwen3.5:4b",
+      "model": "qwen3.5:4b",
+      "size": 3214409726,
+      "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "4.2B",
+        "quantization_level": "Q4_K_M"
+      },
+      "expires_at": "2026-11-02T08:55:32.0887949+09:00",
+      "size_vram": 3214409726,
+      "context_length": 8192,
+      "runner": "llamacpp"
+    },
+    "observation_error": null
+  },
+  "citations": [
+    {
+      "chunk_id": "7ac82e88-75d8-5a75-a893-2f49b3bf50f2",
+      "manual_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122",
+      "page_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_00008",
+      "chunk_type": "text",
+      "text": "Connecting an audio device\nMale 3.5 mm (1/8\") stereo plug",
+      "content_region_ids": [
+        "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_123"
+      ],
+      "context_region_ids": [
+        "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_110"
+      ],
+      "image_filename": "images/bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122/images/bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_00008.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_123",
+          "shape": {
+            "x": 362.40118408203114,
+            "y": 367.9660949707029,
+            "width": 132.9608154296876,
+            "height": 34.68106079101585
+          }
+        },
+        {
+          "id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_110",
+          "shape": {
+            "x": 71.99999999999996,
+            "y": 117.00406646728506,
+            "width": 446.59912109375006,
+            "height": 37.82520294189452
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_123",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 30
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.6138626391482391,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S5"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 1.36293800000567,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3836,
+    "temperature_c": 66,
+    "utilization_percent": 83
+  }
+}

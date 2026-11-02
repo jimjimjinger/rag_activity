@@ -1,0 +1,193 @@
+{
+  "case_id": "FIG10",
+  "manual_id": "samsung_dish_washer_6918977 a",
+  "question": "바구니는 어떻게 분리하나요?",
+  "english_query": "How do I separate the basket?",
+  "keyword_percent": 75,
+  "dense_percent": 25,
+  "top_k": 1,
+  "retrieved_chunk_ids": [
+    "df6df243-de5a-5912-94d8-b4e6cf614aa2"
+  ],
+  "sources": [
+    {
+      "chunk_id": "df6df243-de5a-5912-94d8-b4e6cf614aa2",
+      "manual_id": "samsung_dish_washer_6918977 a",
+      "page_id": "samsung_dish_washer_6918977 a_00004",
+      "chunk_type": "figure",
+      "text": "Removable Silverware Basket (select models)\nA split silverware basket in a dishwasher rack, shown separated into two sections for flexible loading of flatware and utensils. The image illustrates how to unlock the basket by holding it firmly along the sides and pulling apart. Labels include 'Split Silverware Basket (select models)' and instructions on separating the basket.",
+      "content_region_ids": [
+        "samsung_dish_washer_6918977 a_118"
+      ],
+      "context_region_ids": [
+        "samsung_dish_washer_6918977 a_100"
+      ],
+      "image_filename": "images/samsung_dish_washer_6918977 a/images/4.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_dish_washer_6918977 a_118",
+          "shape": {
+            "x": 621.7500000000002,
+            "y": 729.918754577637,
+            "width": 539.9999999999998,
+            "height": 472.5000000000002
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_100",
+          "shape": {
+            "x": 634.4400000000004,
+            "y": 216.63000000000002,
+            "width": 330.2600000000001,
+            "height": 57.72000000000011
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_dish_washer_6918977 a_118",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 331
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": 0.016327340031729243,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "excluded_sources": [],
+  "top5_response_file": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_weights_20261102\\keyword_075\\results.json",
+  "status": "answered",
+  "variant": "keyword_075",
+  "created_at": "2026-11-02T00:57:54.449757+00:00",
+  "answer": "바구니를 분리하려면 양쪽 측면을 단단히 잡고 서로 당겨서 분리합니다.",
+  "source_ids": [
+    "S1"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 49,
+        "prompt_eval_count": 422,
+        "total_duration": 748732200,
+        "load_duration": 7350100,
+        "attempt": 1,
+        "prompt_token_upper_bound": 2555
+      }
+    ],
+    "elapsed_seconds": 0.8329637999995612,
+    "ollama_model": {
+      "name": "qwen3.5:4b",
+      "model": "qwen3.5:4b",
+      "size": 3214409726,
+      "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "4.2B",
+        "quantization_level": "Q4_K_M"
+      },
+      "expires_at": "2026-11-02T09:58:55.2814082+09:00",
+      "size_vram": 3214409726,
+      "context_length": 8192,
+      "runner": "llamacpp"
+    },
+    "observation_error": null
+  },
+  "citations": [
+    {
+      "chunk_id": "df6df243-de5a-5912-94d8-b4e6cf614aa2",
+      "manual_id": "samsung_dish_washer_6918977 a",
+      "page_id": "samsung_dish_washer_6918977 a_00004",
+      "chunk_type": "figure",
+      "text": "Removable Silverware Basket (select models)\nA split silverware basket in a dishwasher rack, shown separated into two sections for flexible loading of flatware and utensils. The image illustrates how to unlock the basket by holding it firmly along the sides and pulling apart. Labels include 'Split Silverware Basket (select models)' and instructions on separating the basket.",
+      "content_region_ids": [
+        "samsung_dish_washer_6918977 a_118"
+      ],
+      "context_region_ids": [
+        "samsung_dish_washer_6918977 a_100"
+      ],
+      "image_filename": "images/samsung_dish_washer_6918977 a/images/4.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_dish_washer_6918977 a_118",
+          "shape": {
+            "x": 621.7500000000002,
+            "y": 729.918754577637,
+            "width": 539.9999999999998,
+            "height": 472.5000000000002
+          }
+        },
+        {
+          "id": "samsung_dish_washer_6918977 a_100",
+          "shape": {
+            "x": 634.4400000000004,
+            "y": 216.63000000000002,
+            "width": 330.2600000000001,
+            "height": 57.72000000000011
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_dish_washer_6918977 a_118",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 331
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": 0.016327340031729243,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "cited_figures": [
+    {
+      "source_id": "S1",
+      "page_id": "samsung_dish_washer_6918977 a_00004",
+      "region_id": "samsung_dish_washer_6918977 a_118",
+      "image_filename": "images/samsung_dish_washer_6918977 a/images/4.jpg",
+      "shape": {
+        "x": 621.7500000000002,
+        "y": 729.918754577637,
+        "width": 539.9999999999998,
+        "height": 472.5000000000002
+      }
+    }
+  ],
+  "elapsed_seconds": 0.8331186999857891,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 66,
+    "utilization_percent": 82
+  }
+}

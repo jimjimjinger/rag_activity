@@ -1,0 +1,96 @@
+{
+  "case_id": "TABLE02",
+  "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+  "question": "제품 패키지에는 어떤 구성품이 들어 있어야 하나요?",
+  "english_query": "What components should be included in the product package?",
+  "keyword_percent": 25,
+  "variant": "top1_kw025",
+  "top_k": 1,
+  "retrieved_chunk_ids": [
+    "605dfafc-2ea1-5d54-8127-d202e9e936b7"
+  ],
+  "sources": [
+    {
+      "chunk_id": "605dfafc-2ea1-5d54-8127-d202e9e936b7",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00002",
+      "chunk_type": "figure",
+      "text": "Blue Platfoto digital camera featuring a 2.0 megapixel sensor, flash unit, and lens. The device includes a textured back panel with visible branding and functional components like the viewfinder and shutter button.",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_36"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00003.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_36",
+          "shape": {
+            "x": 384.480010986328,
+            "y": 309.7194213867188,
+            "width": 456.6448059082036,
+            "height": 310.2000122070313
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_36",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 214
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": 0.03046941458510556,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "excluded_sources": [],
+  "created_at": "2026-11-02T04:59:09.582829+00:00",
+  "status": "insufficient_evidence",
+  "answer": "검색된 매뉴얼 근거에서 질문에 대한 답을 확인하지 못했습니다.",
+  "source_ids": [],
+  "insufficient_evidence": true,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 44,
+        "prompt_eval_count": 396,
+        "total_duration": 661031900,
+        "load_duration": 5640800,
+        "attempt": 1,
+        "prompt_token_upper_bound": 2424
+      }
+    ],
+    "elapsed_seconds": 0.6697002000000793,
+    "backend": "LangChain ChatPromptTemplate | ChatOllama"
+  },
+  "citations": [],
+  "cited_figures": [],
+  "elapsed_seconds": 0.6697266999981366,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3832,
+    "temperature_c": 67,
+    "utilization_percent": 81
+  }
+}

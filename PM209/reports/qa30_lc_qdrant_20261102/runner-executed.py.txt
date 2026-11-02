@@ -1,0 +1,159 @@
+"""Fixed 30 questions × five Qdrant native weights × Top-1/5; 300 new answers.
+
+Gold answers are deliberately not loaded here. Semantic review is a separate step.
+"""
+import datetime as dt
+import hashlib
+import json
+import os
+from pathlib import Path
+import sys
+import time
+
+sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'src'))
+import lc_qdrant_rag as app
+
+DEST=app.PM/'reports/qa30_lc_qdrant_20261102'
+WEIGHTS=[0,25,50,75,100]
+
+
+def now():return dt.datetime.now(dt.timezone.utc).isoformat()
+
+
+def trace_query(kwargs):
+    query=kwargs.get('query')
+    return {'query_type':type(query).__name__,'using':kwargs.get('using'),'limit':kwargs['limit'],
+            'filter':kwargs.get('query_filter').model_dump(mode='json') if kwargs.get('query_filter') else None,
+            'rrf':query.rrf.model_dump(mode='json') if isinstance(query,app.models.RrfQuery) else None,
+            'prefetch':[{'using':p.using,'limit':p.limit,'filter':p.filter.model_dump(mode='json')}
+                        for p in kwargs.get('prefetch',[]) or []]}
+
+
+def run():
+    DEST.mkdir(parents=True,exist_ok=True)
+    started=time.perf_counter()
+    state={'status':'running','pid':os.getpid(),'started_at':now(),'total_answers':300,'processed':0}
+    def update(**values):
+        state.update(values,updated_at=now(),elapsed_seconds=time.perf_counter()-started)
+        app.write_json(DEST/'status.json',state)
+    embeddings=client=None
+    try:
+        old=app.PM/'reports/qa30_hybrid_20261102'
+        config=app.legacy.read_json(old/'config.json')
+        if app.legacy.sha(Path(app.answering.__file__))!=config['answering_code_sha256']:
+            raise ValueError('Original answer prompt/validation code changed')
+        translations=app.legacy.read_json(old/'translations.json')
+        if app.legacy.sha(old/'translations.json')!=app.legacy.read_json(old/'frozen-input.json')['translations_sha256']:
+            raise ValueError('Frozen translations changed')
+        if app.legacy.read_json(app.OUTPUT/'final-validation.json')['status']!='complete':
+            raise ValueError('Full native index is not validated')
+        protocol={'questions':30,'keyword_percent':WEIGHTS,'final_top_k':[1,5],'candidate_k':20,'rrf_k':60,
+            'fusion':'Qdrant RrfQuery; weights=[1-w,w]; native score=1/(rank/weight+k-1), rank starts at 1',
+            'endpoints':'0% dense only; 100% BM25 only','manual_filter':'metadata.manual_id on both prefetch branches',
+            'bm25':app.BM25_OPTIONS,'idf':'Qdrant Modifier.IDF over all 126938 chunks',
+            'index_identity':app.legacy.read_json(app.OUTPUT/'index-identity.json'),
+            'questions_sha256':app.legacy.sha(app.PM/'reports/qa30_20261102/questions.json'),
+            'references_sha256':app.legacy.sha(app.PM/'reports/qa30_20261102/references.json'),
+            'translations_sha256':app.legacy.sha(old/'translations.json'),
+            'translation_policy':'Reuse the exact 30 English queries; no new translation in comparison',
+            'answer_model':app.answering.MODEL,'answer_digest':app.ANSWER_DIGEST,'answer_options':app.answering.OPTIONS,
+            'think':False,'prompt_version':app.answering.PROMPT_VERSION,
+            'answering_code_sha256':app.legacy.sha(Path(app.answering.__file__)),
+            'langchain_code_sha256':app.legacy.sha(Path(app.__file__)),
+            'runner_code_sha256':app.legacy.sha(Path(__file__)),
+            'answer_reuse':'Only identical same-condition resume files; all 300 conditions invoke ChatOllama',
+            'evaluation':'Fixed previous rubric; assistant review, not an independent held-out test',
+            'comparison_limits':'BM25 tokenizer/scoring and native RRF formula differ from legacy SQLite/Python; not a pure framework-only accuracy experiment'}
+        protocol_path=DEST/'protocol.json'
+        if protocol_path.exists() and app.legacy.read_json(protocol_path)!=protocol:
+            raise ValueError('Frozen protocol changed; use a new directory')
+        app.write_json(protocol_path,protocol)
+        retrieval_path=DEST/'retrieval.json'
+        if retrieval_path.exists():
+            retrieval=app.legacy.read_json(retrieval_path)
+        else:
+            update(stage='retrieval',retrieved=0)
+            embeddings=app.ReusedQwenEmbeddings();embeddings.verify_model()
+            client=app.QdrantClient(path=str(app.OUTPUT/'qdrant'))
+            info=app.checked_collection(client)
+            if info.points_count!=126938:raise ValueError('Expected the full corpus')
+            retriever=app.NativeRetriever(client,embeddings,app.make_sparse())
+            traces=[];original_query=client.query_points
+            def traced(**kwargs):
+                traces.append(trace_query(kwargs))
+                return original_query(**kwargs)
+            client.query_points=traced
+            retrieval=[]
+            for item in translations:
+                for weight in WEIGHTS:
+                    base={k:item[k] for k in ('case_id','manual_id','question','english_query')}
+                    hits=retriever.search(item['english_query'],item['manual_id'],weight,20)
+                    if not hits:raise ValueError('No candidates for '+item['case_id'])
+                    retrieval.append({**base,'keyword_percent':weight,'hits':hits,'qdrant_request':traces[-1]})
+                    update(retrieved=len(retrieval),case_id=item['case_id'],keyword_percent=weight)
+                print('Retrieved '+item['case_id'],flush=True)
+            app.write_json(retrieval_path,retrieval)
+            app.write_json(DEST/'embedding-reuse.json',{'query_cache_hits':embeddings.query_reused,
+                'query_generated':embeddings.query_generated,'document_generated':0})
+            embeddings.unload();embeddings.close();embeddings=None
+            client.close();client=None
+        if len(retrieval)!=150:raise ValueError('Expected 150 rankings')
+        plans=[]
+        for k in (1,5):
+            for w in WEIGHTS:
+                for row in retrieval:
+                    if row['keyword_percent']!=w:continue
+                    hits=row['hits'][:k]
+                    sources,excluded=app.answering.prepare_context(row['question'],hits,row['manual_id'])
+                    plans.append({key:row[key] for key in ('case_id','manual_id','question','english_query','keyword_percent')} |
+                        {'variant':f'top{k}_kw{w:03d}','top_k':k,'retrieved_chunk_ids':[h['chunk_id'] for h in hits],
+                         'sources':sources,'excluded_sources':excluded})
+        app.write_json(DEST/'frozen-input.json',plans)
+        chat=app.LocalChat();results=[];fresh=0;generation_started=time.perf_counter()
+        update(stage='generation')
+        for plan in plans:
+            path=DEST/plan['variant']/'responses'/(plan['case_id']+'.json')
+            if path.exists():
+                result=app.legacy.read_json(path)
+                if any(result[k]!=v for k,v in plan.items()):raise ValueError('Resume input changed')
+            else:
+                begin=time.perf_counter()
+                result={**plan,'created_at':now(),'status':'failed'}
+                try:
+                    value,generation=chat.generate(plan['question'],plan['sources'])
+                    citations,figures=app.answering.resolve_citations(value,plan['sources'])
+                    result.update(value,generation=generation,citations=citations,cited_figures=figures,
+                                  status='insufficient_evidence' if value['insufficient_evidence'] else 'answered')
+                except Exception as error:
+                    result['error']=str(error)
+                    if isinstance(error,app.answering.AnswerGenerationError):result['failed_attempts']=error.attempts
+                result.update(elapsed_seconds=time.perf_counter()-begin,gpu_observation=app.legacy.gpu_snapshot())
+                app.write_json(path,result);fresh+=1
+            results.append(result)
+            elapsed=time.perf_counter()-generation_started
+            update(processed=len(results),fresh_answers=fresh,variant=plan['variant'],case_id=plan['case_id'],
+                   errors=sum(r['status']=='failed' for r in results),
+                   eta_seconds=(300-len(results))*elapsed/fresh if fresh else None)
+            print(f"Answered {len(results)}/300 {plan['variant']} {plan['case_id']}: {result['status']}",flush=True)
+        app.write_json(DEST/'results.json',results)
+        update(stage='checking_preservation')
+        protected=app.legacy.read_json(app.OUTPUT/'source-preservation.json')
+        changed=[p for p,h in protected.items() if app.legacy.sha(Path(p))!=h]
+        if changed:raise ValueError('Protected input changed: '+str(changed))
+        report={'source_and_legacy_results_preserved':True,'files_checked':len(protected),
+                'results':len(results),'fresh_answers_this_run':fresh,
+                'generation_errors':sum(r['status']=='failed' for r in results),
+                'max_gpu_used_mib':max(r.get('gpu_observation',{}).get('used_mib',0) for r in results),
+                'max_gpu_temperature_c':max(r.get('gpu_observation',{}).get('temperature_c',0) for r in results),
+                'elapsed_seconds':time.perf_counter()-started,'semantic_review_complete':False}
+        app.write_json(DEST/'execution-validation.json',report)
+        update(status='generated_pending_review',stage='awaiting_semantic_review',eta_seconds=0)
+        print(json.dumps(report,ensure_ascii=False),flush=True)
+    except BaseException as error:
+        update(status='failed',error=str(error));raise
+    finally:
+        if client is not None:client.close()
+        if embeddings is not None:embeddings.close()
+
+
+if __name__=='__main__':run()

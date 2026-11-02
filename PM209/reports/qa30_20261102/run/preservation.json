@@ -1,0 +1,29 @@
+{
+  "protected_files": {
+    "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\datasets\\PM209\\data\\train.jsonl": true,
+    "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\datasets\\PM209\\data\\val.jsonl": true,
+    "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\datasets\\PM209\\data\\test.jsonl": true,
+    "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\datasets\\PM209\\data\\vlm\\train.jsonl": true,
+    "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\datasets\\PM209\\data\\vlm\\val.jsonl": true,
+    "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\datasets\\PM209\\data\\vlm\\test.jsonl": true,
+    "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\datasets\\PM209\\data\\paddle_tables_manual_20261026\\train.jsonl": true,
+    "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\datasets\\PM209\\data\\paddle_tables_manual_20261026\\val.jsonl": true,
+    "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\datasets\\PM209\\data\\paddle_tables_manual_20261026\\test.jsonl": true
+  },
+  "chunks_unchanged": true,
+  "index_identity": {
+    "chunks_sha256": "9c2d4ec474e9f2e0a2b1ede9e1ef6edc8311f1d2be843b1f1bd107567989acc5",
+    "model_identity": {
+      "model": "qwen3-embedding:0.6b",
+      "digest": "ac6da0dfba84a81fdbfbaf330198c33cd77c4cdfc53e8bc50eb581914a15621d",
+      "options": {
+        "num_ctx": 2048,
+        "num_batch": 128,
+        "num_thread": 4,
+        "num_gpu": 99
+      },
+      "query_instruction": "Given a question about a product manual, retrieve passages that answer the question.",
+      "truncate": false
+    }
+  }
+}

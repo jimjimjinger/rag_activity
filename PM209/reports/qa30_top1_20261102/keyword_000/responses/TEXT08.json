@@ -1,0 +1,131 @@
+{
+  "case_id": "TEXT08",
+  "manual_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16",
+  "question": "이 장치의 입력 전압은 얼마인가요?",
+  "english_query": "What is the input voltage of this device?",
+  "keyword_percent": 0,
+  "dense_percent": 100,
+  "top_k": 1,
+  "retrieved_chunk_ids": [
+    "f3745ada-2f50-5aea-b145-7a1df768eac0"
+  ],
+  "sources": [
+    {
+      "chunk_id": "f3745ada-2f50-5aea-b145-7a1df768eac0",
+      "manual_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16",
+      "page_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00006",
+      "chunk_type": "text",
+      "text": "Electrical\nAC input voltage / frequency / current",
+      "content_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_780"
+      ],
+      "context_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_774"
+      ],
+      "image_filename": "images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16/images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00006.jpg",
+      "source_shapes": [
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_780",
+          "shape": {
+            "x": 165.9374847412107,
+            "y": 1000.5687255859362,
+            "width": 171.49961853027344,
+            "height": 27.867919921874886
+          }
+        },
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_774",
+          "shape": {
+            "x": 161.3671722412109,
+            "y": 863.0662841796872,
+            "width": 90.94734191894497,
+            "height": 23.914611816405
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_780",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 38
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.6576126948524221,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "excluded_sources": [],
+  "top5_response_file": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_hybrid_20261102\\B_english_dense\\results.json",
+  "status": "insufficient_evidence",
+  "variant": "keyword_000",
+  "created_at": "2026-11-02T00:55:42.504247+00:00",
+  "answer": "검색된 매뉴얼 근거에서 질문에 대한 답을 확인하지 못했습니다.",
+  "source_ids": [],
+  "insufficient_evidence": true,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 46,
+        "prompt_eval_count": 367,
+        "total_duration": 675560200,
+        "load_duration": 5764900,
+        "attempt": 1,
+        "prompt_token_upper_bound": 2262
+      }
+    ],
+    "elapsed_seconds": 0.733485800010385,
+    "ollama_model": {
+      "name": "qwen3.5:4b",
+      "model": "qwen3.5:4b",
+      "size": 3214409726,
+      "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "4.2B",
+        "quantization_level": "Q4_K_M"
+      },
+      "expires_at": "2026-11-02T09:56:43.2368759+09:00",
+      "size_vram": 3214409726,
+      "context_length": 8192,
+      "runner": "llamacpp"
+    },
+    "observation_error": null
+  },
+  "citations": [],
+  "cited_figures": [],
+  "elapsed_seconds": 0.7335854000120889,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3832,
+    "temperature_c": 61,
+    "utilization_percent": 82
+  }
+}

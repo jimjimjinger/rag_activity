@@ -1,0 +1,630 @@
+{
+  "definition": "Content annotation ID overlap only, not semantic sufficiency or answer accuracy. Same ranking as prior Top-5.",
+  "weights": [
+    {
+      "keyword_percent": 0,
+      "cases": [
+        {
+          "case_id": "TEXT01",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TEXT02",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TEXT03",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TEXT04",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TEXT05",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TEXT06",
+          "hit_at_1": false
+        },
+        {
+          "case_id": "TEXT07",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TEXT08",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TEXT09",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TEXT10",
+          "hit_at_1": false
+        },
+        {
+          "case_id": "TABLE01",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TABLE02",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TABLE03",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TABLE04",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TABLE05",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TABLE06",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TABLE07",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TABLE08",
+          "hit_at_1": false
+        },
+        {
+          "case_id": "TABLE09",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TABLE10",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "FIG01",
+          "hit_at_1": false
+        },
+        {
+          "case_id": "FIG02",
+          "hit_at_1": false
+        },
+        {
+          "case_id": "FIG03",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "FIG04",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "FIG05",
+          "hit_at_1": false
+        },
+        {
+          "case_id": "FIG06",
+          "hit_at_1": false
+        },
+        {
+          "case_id": "FIG07",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "FIG08",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "FIG09",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "FIG10",
+          "hit_at_1": true
+        }
+      ]
+    },
+    {
+      "keyword_percent": 25,
+      "cases": [
+        {
+          "case_id": "TEXT01",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TEXT02",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TEXT03",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TEXT04",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TEXT05",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TEXT06",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TEXT07",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TEXT08",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TEXT09",
+          "hit_at_1": false
+        },
+        {
+          "case_id": "TEXT10",
+          "hit_at_1": false
+        },
+        {
+          "case_id": "TABLE01",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TABLE02",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TABLE03",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TABLE04",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TABLE05",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TABLE06",
+          "hit_at_1": false
+        },
+        {
+          "case_id": "TABLE07",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TABLE08",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TABLE09",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TABLE10",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "FIG01",
+          "hit_at_1": false
+        },
+        {
+          "case_id": "FIG02",
+          "hit_at_1": false
+        },
+        {
+          "case_id": "FIG03",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "FIG04",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "FIG05",
+          "hit_at_1": false
+        },
+        {
+          "case_id": "FIG06",
+          "hit_at_1": false
+        },
+        {
+          "case_id": "FIG07",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "FIG08",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "FIG09",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "FIG10",
+          "hit_at_1": true
+        }
+      ]
+    },
+    {
+      "keyword_percent": 50,
+      "cases": [
+        {
+          "case_id": "TEXT01",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TEXT02",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TEXT03",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TEXT04",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TEXT05",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TEXT06",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TEXT07",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TEXT08",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TEXT09",
+          "hit_at_1": false
+        },
+        {
+          "case_id": "TEXT10",
+          "hit_at_1": false
+        },
+        {
+          "case_id": "TABLE01",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TABLE02",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TABLE03",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TABLE04",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TABLE05",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TABLE06",
+          "hit_at_1": false
+        },
+        {
+          "case_id": "TABLE07",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TABLE08",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TABLE09",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TABLE10",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "FIG01",
+          "hit_at_1": false
+        },
+        {
+          "case_id": "FIG02",
+          "hit_at_1": false
+        },
+        {
+          "case_id": "FIG03",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "FIG04",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "FIG05",
+          "hit_at_1": false
+        },
+        {
+          "case_id": "FIG06",
+          "hit_at_1": false
+        },
+        {
+          "case_id": "FIG07",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "FIG08",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "FIG09",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "FIG10",
+          "hit_at_1": false
+        }
+      ]
+    },
+    {
+      "keyword_percent": 75,
+      "cases": [
+        {
+          "case_id": "TEXT01",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TEXT02",
+          "hit_at_1": false
+        },
+        {
+          "case_id": "TEXT03",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TEXT04",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TEXT05",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TEXT06",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TEXT07",
+          "hit_at_1": false
+        },
+        {
+          "case_id": "TEXT08",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TEXT09",
+          "hit_at_1": false
+        },
+        {
+          "case_id": "TEXT10",
+          "hit_at_1": false
+        },
+        {
+          "case_id": "TABLE01",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TABLE02",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TABLE03",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TABLE04",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TABLE05",
+          "hit_at_1": false
+        },
+        {
+          "case_id": "TABLE06",
+          "hit_at_1": false
+        },
+        {
+          "case_id": "TABLE07",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TABLE08",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TABLE09",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TABLE10",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "FIG01",
+          "hit_at_1": false
+        },
+        {
+          "case_id": "FIG02",
+          "hit_at_1": false
+        },
+        {
+          "case_id": "FIG03",
+          "hit_at_1": false
+        },
+        {
+          "case_id": "FIG04",
+          "hit_at_1": false
+        },
+        {
+          "case_id": "FIG05",
+          "hit_at_1": false
+        },
+        {
+          "case_id": "FIG06",
+          "hit_at_1": false
+        },
+        {
+          "case_id": "FIG07",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "FIG08",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "FIG09",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "FIG10",
+          "hit_at_1": false
+        }
+      ]
+    },
+    {
+      "keyword_percent": 100,
+      "cases": [
+        {
+          "case_id": "TEXT01",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TEXT02",
+          "hit_at_1": false
+        },
+        {
+          "case_id": "TEXT03",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TEXT04",
+          "hit_at_1": false
+        },
+        {
+          "case_id": "TEXT05",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TEXT06",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TEXT07",
+          "hit_at_1": false
+        },
+        {
+          "case_id": "TEXT08",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TEXT09",
+          "hit_at_1": false
+        },
+        {
+          "case_id": "TEXT10",
+          "hit_at_1": false
+        },
+        {
+          "case_id": "TABLE01",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TABLE02",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TABLE03",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TABLE04",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TABLE05",
+          "hit_at_1": false
+        },
+        {
+          "case_id": "TABLE06",
+          "hit_at_1": false
+        },
+        {
+          "case_id": "TABLE07",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TABLE08",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "TABLE09",
+          "hit_at_1": false
+        },
+        {
+          "case_id": "TABLE10",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "FIG01",
+          "hit_at_1": false
+        },
+        {
+          "case_id": "FIG02",
+          "hit_at_1": false
+        },
+        {
+          "case_id": "FIG03",
+          "hit_at_1": false
+        },
+        {
+          "case_id": "FIG04",
+          "hit_at_1": false
+        },
+        {
+          "case_id": "FIG05",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "FIG06",
+          "hit_at_1": false
+        },
+        {
+          "case_id": "FIG07",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "FIG08",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "FIG09",
+          "hit_at_1": true
+        },
+        {
+          "case_id": "FIG10",
+          "hit_at_1": false
+        }
+      ]
+    }
+  ]
+}

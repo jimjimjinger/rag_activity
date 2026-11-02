@@ -1,0 +1,413 @@
+{
+  "case_id": "FIG09",
+  "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+  "question": "전체 화면에서 알림 피드백을 줄이려면 어떻게 하나요?",
+  "english_query": "How do I reduce notification feedback in full screen mode?",
+  "keyword_percent": 100,
+  "dense_percent": 0,
+  "retrieved_chunk_ids": [
+    "72d253f2-69df-5554-b0c7-591ae8332efa",
+    "03600720-995a-56ca-a40f-1b33ad8e99e9",
+    "788d855a-0a90-5ca9-9f9a-f2ff1da1dbe0",
+    "d0e076a0-a403-570d-93c9-03aec212b7ba",
+    "c3aa2ebd-c324-52b1-b0f1-0075ce8535fa"
+  ],
+  "sources": [
+    {
+      "chunk_id": "72d253f2-69df-5554-b0c7-591ae8332efa",
+      "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+      "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00019",
+      "chunk_type": "text",
+      "text": "Reduce notification feedback in full screen\nWhen you're playing games or watching videos in full screen, ColorOS will soften notification sounds and reduce the vibration intensity to not interrupt your immersive experience. Path: Settings - Notifications & status bar - Manage notifications - More - Reduce notification feedback on full screen.",
+      "content_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_137"
+      ],
+      "context_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_139"
+      ],
+      "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00019.jpg",
+      "source_shapes": [
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_137",
+          "shape": {
+            "x": 175.04800415039062,
+            "y": 805.5684204101562,
+            "width": 835.3148498535157,
+            "height": 117.09600830078136
+          }
+        },
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_139",
+          "shape": {
+            "x": 175.99652862548828,
+            "y": 769.559051513672,
+            "width": 412.0000000000001,
+            "height": 31.999999999999886
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_137",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 300
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.01639344262295082,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "03600720-995a-56ca-a40f-1b33ad8e99e9",
+      "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+      "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00019",
+      "chunk_type": "figure",
+      "text": "A smartphone screen showing the Notification sound settings in ColorOS, featuring tone tunes like Keyboard presses and Melody options. Below are custom audio selections and alert tones including 'Colorful Future'. The image also includes a manual section titled 'Reduce notification feedback in full screen', explaining how ColorOS softens sounds during gaming or video playback to maintain immersion.",
+      "content_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_140"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00019.jpg",
+      "source_shapes": [
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_140",
+          "shape": {
+            "x": 162.7552070617676,
+            "y": 129.833330154419,
+            "width": 864.0000000000002,
+            "height": 804.0000000000005
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_140",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 401
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": 0.016129032258064516,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "788d855a-0a90-5ca9-9f9a-f2ff1da1dbe0",
+      "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+      "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00020",
+      "chunk_type": "figure",
+      "text": "A smartphone screen displaying the 'More' settings page under 'Silent Notifications'. It shows two options: 'Do not collapse' (selected) and 'Collapse', along with toggles for notification history, snoozing, banner notifications on fullscreen, reduced feedback on fullscreen, and wake screen functionality.",
+      "content_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_142"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00020.jpg",
+      "source_shapes": [
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_142",
+          "shape": {
+            "x": 179.99999999999997,
+            "y": 144.49999999999997,
+            "width": 283.39999389648426,
+            "height": 622.9199829101561
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_142",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 306
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": 0.015873015873015872,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S3"
+    },
+    {
+      "chunk_id": "d0e076a0-a403-570d-93c9-03aec212b7ba",
+      "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+      "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00055",
+      "chunk_type": "text",
+      "text": "You can also choose to not show a badge to keep the home screen simple and clean.\n• To receive notifications from the app on the lock screen, choose \"Lock screen\".\n• To receive banner notifications from the app, choose \"Banner\".\n• To set a special ringtone for the app, tap \"Ringtone\" and choose your preferred ringtone.\n• You may also allow the app's notifications even if your phone is in Do Not Disturb mode, so you will not miss any important notification from the app.",
+      "content_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_430",
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_431",
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_432",
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_433",
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_434"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00055.jpg",
+      "source_shapes": [
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_430",
+          "shape": {
+            "x": 180.04800415039065,
+            "y": 144.3096923828125,
+            "width": 830.0658264160157,
+            "height": 185.45471191406256
+          }
+        },
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_431",
+          "shape": {
+            "x": 180.04800415039065,
+            "y": 331.509765625,
+            "width": 741.486602783203,
+            "height": 29.454711914062557
+          }
+        },
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_432",
+          "shape": {
+            "x": 180.04800415039065,
+            "y": 362.709716796875,
+            "width": 598.9346008300781,
+            "height": 29.454711914062443
+          }
+        },
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_433",
+          "shape": {
+            "x": 180.04800415039065,
+            "y": 393.90966796875006,
+            "width": 819.6717224121093,
+            "height": 29.454711914062443
+          }
+        },
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_434",
+          "shape": {
+            "x": 180.04800415039065,
+            "y": 425.1097412109374,
+            "width": 829.4971008300779,
+            "height": 60.65466308593756
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_430",
+          "field": "ocr_normalized",
+          "start": 382,
+          "end": 463
+        },
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_431",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 81
+        },
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_432",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 64
+        },
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_433",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 91
+        },
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_434",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 152
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.015625,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S4"
+    },
+    {
+      "chunk_id": "c3aa2ebd-c324-52b1-b0f1-0075ce8535fa",
+      "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+      "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00022",
+      "chunk_type": "text",
+      "text": "Menu control\nIn menu mode, tapping the Assistive Ball will display five buttons, which correspond to the following actions: • Go back to the previous page • Take a screenshot • Multitask • Lock the screen • Go back to the home screen To personalize your Assistive Ball: • Drag it to your preferred position on the screen. • Adjust its visibility. • Automatically hide it in full screen mode.",
+      "content_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_473"
+      ],
+      "context_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_478"
+      ],
+      "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00022.jpg",
+      "source_shapes": [
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_473",
+          "shape": {
+            "x": 176.0480041503906,
+            "y": 365.17508951822896,
+            "width": 833.9994201660155,
+            "height": 337.6209920247398
+          }
+        },
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_478",
+          "shape": {
+            "x": 177.33333333333323,
+            "y": 335.0750122070311,
+            "width": 136.66666666666677,
+            "height": 24.000000000000057
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_473",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 378
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.015384615384615385,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S5"
+    }
+  ],
+  "excluded_sources": [],
+  "status": "answered",
+  "variant": "keyword_100",
+  "created_at": "2026-11-02T00:43:09.911150+00:00",
+  "answer": "전체 화면 모드에서 알림 피드백을 줄이려면 설정 메뉴를 통해 이동해야 합니다. 구체적인 경로는 '설정' > '알림 및 상태 표시줄' > '알림 관리' > '더보기' > '전체 화면에서 알림 피드백 감소'입니다. 이 기능을 활성화하면 게임이나 영상 시청 중 전체 화면 모드가 작동할 때 ColorOS 가 알림 소음을 완화하고 진동 강도를 낮추어 몰입감을 방해하지 않도록 합니다.",
+  "source_ids": [
+    "S1"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 129,
+        "prompt_eval_count": 851,
+        "total_duration": 2110917700,
+        "load_duration": 5635200,
+        "attempt": 1,
+        "prompt_token_upper_bound": 4551
+      }
+    ],
+    "elapsed_seconds": 2.1725540999905206,
+    "ollama_model": {
+      "name": "qwen3.5:4b",
+      "model": "qwen3.5:4b",
+      "size": 3214409726,
+      "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "4.2B",
+        "quantization_level": "Q4_K_M"
+      },
+      "expires_at": "2026-11-02T09:44:12.0809782+09:00",
+      "size_vram": 3214409726,
+      "context_length": 8192,
+      "runner": "llamacpp"
+    },
+    "observation_error": null
+  },
+  "citations": [
+    {
+      "chunk_id": "72d253f2-69df-5554-b0c7-591ae8332efa",
+      "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+      "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00019",
+      "chunk_type": "text",
+      "text": "Reduce notification feedback in full screen\nWhen you're playing games or watching videos in full screen, ColorOS will soften notification sounds and reduce the vibration intensity to not interrupt your immersive experience. Path: Settings - Notifications & status bar - Manage notifications - More - Reduce notification feedback on full screen.",
+      "content_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_137"
+      ],
+      "context_region_ids": [
+        "phone_os_User Guide_ColorOS_12_v1.0_20211028_139"
+      ],
+      "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00019.jpg",
+      "source_shapes": [
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_137",
+          "shape": {
+            "x": 175.04800415039062,
+            "y": 805.5684204101562,
+            "width": 835.3148498535157,
+            "height": 117.09600830078136
+          }
+        },
+        {
+          "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_139",
+          "shape": {
+            "x": 175.99652862548828,
+            "y": 769.559051513672,
+            "width": 412.0000000000001,
+            "height": 31.999999999999886
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_137",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 300
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.01639344262295082,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 2.1727686999947764,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3836,
+    "temperature_c": 67,
+    "utilization_percent": 84
+  }
+}

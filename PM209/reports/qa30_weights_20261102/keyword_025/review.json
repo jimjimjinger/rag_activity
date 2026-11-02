@@ -1,0 +1,185 @@
+{
+  "reviewer": "Codex assistant, not independent human grading",
+  "cases": [
+    {
+      "case_id": "TEXT01",
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "원본 기준 핵심 답과 채택한 근거가 일치합니다."
+    },
+    {
+      "case_id": "TEXT02",
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "원본 기준 핵심 답과 채택한 근거가 일치합니다."
+    },
+    {
+      "case_id": "TEXT03",
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "원본 기준 핵심 답과 채택한 근거가 일치합니다."
+    },
+    {
+      "case_id": "TEXT04",
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "원본 기준 핵심 답과 채택한 근거가 일치합니다."
+    },
+    {
+      "case_id": "TEXT05",
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "원본 기준 핵심 답과 채택한 근거가 일치합니다."
+    },
+    {
+      "case_id": "TEXT06",
+      "verdict": "partial",
+      "retrieval_sufficiency": "sufficient",
+      "note": "S1에 최소 1.5GB 여유 공간이 있지만 답변에서 생략했습니다. USB 연결과 모델/지역 제한은 맞습니다."
+    },
+    {
+      "case_id": "TEXT07",
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "원본 기준 핵심 답과 채택한 근거가 일치합니다."
+    },
+    {
+      "case_id": "TEXT08",
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "원본 기준 핵심 답과 채택한 근거가 일치합니다."
+    },
+    {
+      "case_id": "TEXT09",
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "원본 기준 핵심 답과 채택한 근거가 일치합니다."
+    },
+    {
+      "case_id": "TEXT10",
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "원본 기준 핵심 답과 채택한 근거가 일치합니다."
+    },
+    {
+      "case_id": "TABLE01",
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "원본 기준 핵심 답과 채택한 근거가 일치합니다."
+    },
+    {
+      "case_id": "TABLE02",
+      "verdict": "no_answer",
+      "retrieval_sufficiency": "insufficient",
+      "note": "구성품 표가 최종 5개에서 빠지고 제목·주변 설명만 남아 답변을 거부했습니다."
+    },
+    {
+      "case_id": "TABLE03",
+      "verdict": "incorrect",
+      "retrieval_sufficiency": "insufficient",
+      "note": "정답인 Headset port가 없는데 다른 장치용 Line in port를 헤드셋 연결 포트로 잘못 답했습니다."
+    },
+    {
+      "case_id": "TABLE04",
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "정답 조건과 PSSD_Cleanup.bat가 함께 있는 표가 S5에 남아 올바른 수동 삭제 방법을 답했습니다."
+    },
+    {
+      "case_id": "TABLE05",
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "원본 기준 핵심 답과 채택한 근거가 일치합니다."
+    },
+    {
+      "case_id": "TABLE06",
+      "verdict": "partial",
+      "retrieval_sufficiency": "sufficient",
+      "note": "사용 팁은 답했지만 S2에 있는 배터리 장착 확인이 빠졌습니다. right speaker를 올바른 수신 스피커라고 옮겨 오른쪽 방향도 모호합니다."
+    },
+    {
+      "case_id": "TABLE07",
+      "verdict": "partial",
+      "retrieval_sufficiency": "sufficient",
+      "note": "배터리 잔량을 전압 수준으로 잘못 옮겼습니다. 충전 상태라는 일부 핵심은 맞으며 추가 점멸 설명에서는 빨간색 조건을 생략했습니다."
+    },
+    {
+      "case_id": "TABLE08",
+      "verdict": "partial",
+      "retrieval_sufficiency": "sufficient",
+      "note": "80% 초과를 80% 이상으로 바꿔 경계값에서 파랑/보라 조건이 겹칩니다. 버튼 조합과 나머지 색상 대응은 맞습니다."
+    },
+    {
+      "case_id": "TABLE09",
+      "verdict": "no_answer",
+      "retrieval_sufficiency": "sufficient",
+      "note": "S3의 Rl→Roaming 표가 있는데 근거 부족으로 답변을 거부했습니다."
+    },
+    {
+      "case_id": "TABLE10",
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "원본 기준 핵심 답과 채택한 근거가 일치합니다."
+    },
+    {
+      "case_id": "FIG01",
+      "verdict": "partial",
+      "retrieval_sufficiency": "sufficient",
+      "note": "S2에 원 중심으로 드릴 비트를 맞추는 단계가 있으나 답변에서 생략했습니다. 안전 수칙은 맞습니다."
+    },
+    {
+      "case_id": "FIG02",
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "원본 기준 핵심 답과 채택한 근거가 일치합니다."
+    },
+    {
+      "case_id": "FIG03",
+      "verdict": "partial",
+      "retrieval_sufficiency": "partial",
+      "note": "My Pictures에서 파일을 고르는 내용은 맞지만 마지막 OK 버튼을 특정하지 못했습니다. OCR에 버튼 아이콘명이 빠져 있습니다."
+    },
+    {
+      "case_id": "FIG04",
+      "verdict": "error",
+      "retrieval_sufficiency": "insufficient",
+      "note": "위치 정보가 없고, 근거 부족 응답에 출처 ID를 넣어 두 번 모두 기존 출력 형식 검사에서 실패했습니다."
+    },
+    {
+      "case_id": "FIG05",
+      "verdict": "incorrect",
+      "retrieval_sufficiency": "insufficient",
+      "note": "핀 펼치기형/지역 어댑터 끼우기형 대신 공급장치/액세서리 충전기를 두 유형으로 잘못 답하고 준비 방법도 빠졌습니다."
+    },
+    {
+      "case_id": "FIG06",
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "원본 기준 핵심 답과 채택한 근거가 일치합니다."
+    },
+    {
+      "case_id": "FIG07",
+      "verdict": "partial",
+      "retrieval_sufficiency": "partial",
+      "note": "Yes와 첫 Next까지 답했지만 두 번째 Next/Finish 및 재시작 권장이 검색되지 않아 빠졌습니다."
+    },
+    {
+      "case_id": "FIG08",
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "원본 기준 핵심 답과 채택한 근거가 일치합니다."
+    },
+    {
+      "case_id": "FIG09",
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "원본 기준 핵심 답과 채택한 근거가 일치합니다."
+    },
+    {
+      "case_id": "FIG10",
+      "verdict": "partial",
+      "retrieval_sufficiency": "partial",
+      "note": "양쪽을 잡는 내용만 답하고 잠금을 푸는 구체적 움직임을 생략했습니다. 기존 원본 기준 판정을 유지했습니다."
+    }
+  ]
+}

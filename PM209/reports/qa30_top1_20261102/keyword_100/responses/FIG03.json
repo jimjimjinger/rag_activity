@@ -1,0 +1,184 @@
+{
+  "case_id": "FIG03",
+  "manual_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7",
+  "question": "이미지 파일은 어떻게 보나요?",
+  "english_query": "How do I view image files?",
+  "keyword_percent": 100,
+  "dense_percent": 0,
+  "top_k": 1,
+  "retrieved_chunk_ids": [
+    "9f7364b7-886f-5b78-91dd-10401fc7d443"
+  ],
+  "sources": [
+    {
+      "chunk_id": "9f7364b7-886f-5b78-91dd-10401fc7d443",
+      "manual_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7",
+      "page_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_00004",
+      "chunk_type": "text",
+      "text": "Image File Viewer Function\nG You can view image files in JPEG format.",
+      "content_region_ids": [
+        "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_634"
+      ],
+      "context_region_ids": [
+        "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_633"
+      ],
+      "image_filename": "images/samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7/images/samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_00005.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_634",
+          "shape": {
+            "x": 727.6599731445315,
+            "y": 513.5599975585939,
+            "width": 278.0084228515624,
+            "height": 21.984008789062386
+          }
+        },
+        {
+          "id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_633",
+          "shape": {
+            "x": 727.6599731445315,
+            "y": 472.66000366210955,
+            "width": 352.8195190429685,
+            "height": 41.310028076171704
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_634",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 42
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.01639344262295082,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "excluded_sources": [],
+  "top5_response_file": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_weights_20261102\\keyword_100\\results.json",
+  "status": "answered",
+  "variant": "keyword_100",
+  "created_at": "2026-11-02T00:58:20.958241+00:00",
+  "answer": "이미지 파일은 JPEG 형식만 보일 수 있습니다.",
+  "source_ids": [
+    "S1"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 48,
+        "prompt_eval_count": 369,
+        "total_duration": 698721000,
+        "load_duration": 5527500,
+        "attempt": 1,
+        "prompt_token_upper_bound": 2275
+      }
+    ],
+    "elapsed_seconds": 0.7586815000104252,
+    "ollama_model": {
+      "name": "qwen3.5:4b",
+      "model": "qwen3.5:4b",
+      "size": 3214409726,
+      "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "4.2B",
+        "quantization_level": "Q4_K_M"
+      },
+      "expires_at": "2026-11-02T09:59:21.7155872+09:00",
+      "size_vram": 3214409726,
+      "context_length": 8192,
+      "runner": "llamacpp"
+    },
+    "observation_error": null
+  },
+  "citations": [
+    {
+      "chunk_id": "9f7364b7-886f-5b78-91dd-10401fc7d443",
+      "manual_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7",
+      "page_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_00004",
+      "chunk_type": "text",
+      "text": "Image File Viewer Function\nG You can view image files in JPEG format.",
+      "content_region_ids": [
+        "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_634"
+      ],
+      "context_region_ids": [
+        "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_633"
+      ],
+      "image_filename": "images/samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7/images/samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_00005.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_634",
+          "shape": {
+            "x": 727.6599731445315,
+            "y": 513.5599975585939,
+            "width": 278.0084228515624,
+            "height": 21.984008789062386
+          }
+        },
+        {
+          "id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_633",
+          "shape": {
+            "x": 727.6599731445315,
+            "y": 472.66000366210955,
+            "width": 352.8195190429685,
+            "height": 41.310028076171704
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_634",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 42
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.01639344262295082,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 0.7588304000091739,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 66,
+    "utilization_percent": 82
+  }
+}

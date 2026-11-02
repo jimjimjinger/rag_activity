@@ -1,0 +1,413 @@
+{
+  "case_id": "FIG06",
+  "manual_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English",
+  "question": "비밀번호를 잊어버리면 제 데이터에 접근할 수 있나요?",
+  "english_query": "If I forget my password, can I access my data?",
+  "keyword_percent": 0,
+  "variant": "top5_kw000",
+  "top_k": 5,
+  "retrieved_chunk_ids": [
+    "674f80a1-7cc7-5056-a461-4de2852e2d9e",
+    "ff0b296e-dcf2-58ca-b50a-9f66cab2fb8d",
+    "cafd7d64-2a4a-55af-a9a1-04e82e2ed242",
+    "763d7e6f-f2d7-5a31-9211-4451112e1a3b",
+    "2c2f1c06-75a4-56e7-9b61-ac081875e2d3"
+  ],
+  "sources": [
+    {
+      "chunk_id": "674f80a1-7cc7-5056-a461-4de2852e2d9e",
+      "manual_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English",
+      "page_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00009",
+      "chunk_type": "text",
+      "text": "3. Unlock\nIf you’ve enabled password protection, every time you connect X5 to your computer you need to enter your password and click the “UNLOCK” button before getting access to the data in X5. If you fail to type correct password, your access will be confined to capacity of about 128MB allocated to SamsungPortableSSD.exe which means that you will be locked out of the data protected by password.",
+      "content_region_ids": [
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_136"
+      ],
+      "context_region_ids": [
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_135"
+      ],
+      "image_filename": "images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English/images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00011.jpg",
+      "source_shapes": [
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_136",
+          "shape": {
+            "x": 172.32000732421872,
+            "y": 553.447509765625,
+            "width": 870.165100097656,
+            "height": 143.9813232421876
+          }
+        },
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_135",
+          "shape": {
+            "x": 144,
+            "y": 512.6474609375,
+            "width": 103.05470275878912,
+            "height": 28.78125
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_136",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 389
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.604352187167515,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "ff0b296e-dcf2-58ca-b50a-9f66cab2fb8d",
+      "manual_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English",
+      "page_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00008",
+      "chunk_type": "text",
+      "text": "2. Setting Password (Optional)\n* Samsung shall not be liable for loss of user data caused by forgotten or stolen passwords. In an effort to keep the device as secure as possible, there is no password recovery option. If the password is forgotten, users need to have X5 to be restored to factory setting through online service rendered by our customer service centers. Please keep it in mind that all user data placed in X5 will be lost by factory reset.",
+      "content_region_ids": [
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_120"
+      ],
+      "context_region_ids": [
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_118"
+      ],
+      "image_filename": "images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English/images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00010.jpg",
+      "source_shapes": [
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_120",
+          "shape": {
+            "x": 172.31665039062506,
+            "y": 1192.5236816406255,
+            "width": 853.843505859375,
+            "height": 119.90283203125
+          }
+        },
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_118",
+          "shape": {
+            "x": 144,
+            "y": 544.8074951171874,
+            "width": 328.9481201171877,
+            "height": 28.781250000000114
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_120",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 422
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.6017677981271373,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "cafd7d64-2a4a-55af-a9a1-04e82e2ed242",
+      "manual_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English",
+      "page_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00008",
+      "chunk_type": "figure",
+      "text": "2. Setting Password (Optional)\nSamsung Portable SSD Software setup screen showing 'WELCOME!' message and fields for Name (pre-filled as 'Samsung X5') and Password (4-16 characters). Includes warning notice about data loss if password is forgotten, with UPDATE, SKIP, and FINISH buttons.",
+      "content_region_ids": [
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_126"
+      ],
+      "context_region_ids": [
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_118"
+      ],
+      "image_filename": "images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English/images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00010.jpg",
+      "source_shapes": [
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_126",
+          "shape": {
+            "x": 165.01041412353516,
+            "y": 579.5104293823246,
+            "width": 888.0000000000005,
+            "height": 604.4999999999997
+          }
+        },
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_118",
+          "shape": {
+            "x": 144,
+            "y": 544.8074951171874,
+            "width": 328.9481201171877,
+            "height": 28.781250000000114
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_126",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 255
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": 0.5870617180914974,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S3"
+    },
+    {
+      "chunk_id": "763d7e6f-f2d7-5a31-9211-4451112e1a3b",
+      "manual_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English",
+      "page_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00016",
+      "chunk_type": "text",
+      "text": "Safeguard User Password\nBecause X5 utilizes advanced encryption technologies, user data cannot be accessed if password is lost or forgotton. Please write down your password and store it in a safe place. If the product cannot be used due to user’sfailure to enter correct password, the only way to restore product is to have it reset to factory settings via an online service by a Samsung Service Center.",
+      "content_region_ids": [
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_216"
+      ],
+      "context_region_ids": [
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_215"
+      ],
+      "image_filename": "images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English/images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00018.jpg",
+      "source_shapes": [
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_216",
+          "shape": {
+            "x": 144.00000000000009,
+            "y": 637.6874389648441,
+            "width": 898.7371826171881,
+            "height": 201.34118652343784
+          }
+        },
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_215",
+          "shape": {
+            "x": 144.00000000000009,
+            "y": 587.3643188476564,
+            "width": 362.68872070312534,
+            "height": 38.27905273437534
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_216",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 379
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.5847306677714394,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S4"
+    },
+    {
+      "chunk_id": "2c2f1c06-75a4-56e7-9b61-ac081875e2d3",
+      "manual_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English",
+      "page_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00012",
+      "chunk_type": "figure",
+      "text": "• Name /Password\nSamsung Portable SSD X5 settings screen showing Security Mode ON, Name (Samsung X5), Password fields (current/new/confirm) with CHANGE button, and warning about data loss if password is forgotten.",
+      "content_region_ids": [
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_172"
+      ],
+      "context_region_ids": [
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_168"
+      ],
+      "image_filename": "images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English/images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00014.jpg",
+      "source_shapes": [
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_172",
+          "shape": {
+            "x": 192.01041412353527,
+            "y": 696.49479675293,
+            "width": 795.0000000000005,
+            "height": 529.5000000000003
+          }
+        },
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_168",
+          "shape": {
+            "x": 172.3200073242188,
+            "y": 659.8800048828133,
+            "width": 210.37026977539062,
+            "height": 32.97601318359341
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_172",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 196
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": 0.5740464257029898,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S5"
+    }
+  ],
+  "excluded_sources": [],
+  "created_at": "2026-11-02T05:01:54.924555+00:00",
+  "status": "answered",
+  "answer": "비밀번호를 잊어버리면 데이터에 접근할 수 없습니다. 비밀번호가 잊혀지거나 도난당했을 경우 사용자는 데이터를 복구할 수 없으며, 고객 서비스 센터의 온라인 서비스를 통해 제품을 공장 초기 설정으로 복원해야 합니다. 이 과정에서 모든 사용자 데이터가 삭제됩니다.",
+  "source_ids": [
+    "S2",
+    "S4"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 93,
+        "prompt_eval_count": 841,
+        "total_duration": 2437221200,
+        "load_duration": 5705500,
+        "attempt": 1,
+        "prompt_token_upper_bound": 4369
+      }
+    ],
+    "elapsed_seconds": 2.447167600010289,
+    "backend": "LangChain ChatPromptTemplate | ChatOllama"
+  },
+  "citations": [
+    {
+      "chunk_id": "ff0b296e-dcf2-58ca-b50a-9f66cab2fb8d",
+      "manual_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English",
+      "page_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00008",
+      "chunk_type": "text",
+      "text": "2. Setting Password (Optional)\n* Samsung shall not be liable for loss of user data caused by forgotten or stolen passwords. In an effort to keep the device as secure as possible, there is no password recovery option. If the password is forgotten, users need to have X5 to be restored to factory setting through online service rendered by our customer service centers. Please keep it in mind that all user data placed in X5 will be lost by factory reset.",
+      "content_region_ids": [
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_120"
+      ],
+      "context_region_ids": [
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_118"
+      ],
+      "image_filename": "images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English/images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00010.jpg",
+      "source_shapes": [
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_120",
+          "shape": {
+            "x": 172.31665039062506,
+            "y": 1192.5236816406255,
+            "width": 853.843505859375,
+            "height": 119.90283203125
+          }
+        },
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_118",
+          "shape": {
+            "x": 144,
+            "y": 544.8074951171874,
+            "width": 328.9481201171877,
+            "height": 28.781250000000114
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_120",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 422
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.6017677981271373,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "763d7e6f-f2d7-5a31-9211-4451112e1a3b",
+      "manual_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English",
+      "page_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00016",
+      "chunk_type": "text",
+      "text": "Safeguard User Password\nBecause X5 utilizes advanced encryption technologies, user data cannot be accessed if password is lost or forgotton. Please write down your password and store it in a safe place. If the product cannot be used due to user’sfailure to enter correct password, the only way to restore product is to have it reset to factory settings via an online service by a Samsung Service Center.",
+      "content_region_ids": [
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_216"
+      ],
+      "context_region_ids": [
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_215"
+      ],
+      "image_filename": "images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English/images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00018.jpg",
+      "source_shapes": [
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_216",
+          "shape": {
+            "x": 144.00000000000009,
+            "y": 637.6874389648441,
+            "width": 898.7371826171881,
+            "height": 201.34118652343784
+          }
+        },
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_215",
+          "shape": {
+            "x": 144.00000000000009,
+            "y": 587.3643188476564,
+            "width": 362.68872070312534,
+            "height": 38.27905273437534
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_216",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 379
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.5847306677714394,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S4"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 2.4472596000123303,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 63,
+    "utilization_percent": 87
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "keyword_percent": [
+    25,
+    75,
+    100
+  ],
+  "dense_percent": [
+    75,
+    25,
+    0
+  ],
+  "rrf_k": 60,
+  "candidate_k": 20,
+  "final_k": 5,
+  "questions": 30,
+  "source": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_hybrid_20261102",
+  "protected_inputs": {
+    "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_hybrid_20261102\\config.json": "01877ef9bbb510b1ad6ae80f53ae29ccea3dcd8a9501a3d29800a56e9237de85",
+    "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_hybrid_20261102\\retrieval.json": "fa951c324451fe282b3c87b12f78384b1dab80c5a378b047e98eff56a3a8ecf3",
+    "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_hybrid_20261102\\translations.json": "6f5d88bb5f4290d2badf723114ea7f6903053b3b69c73ce3edfaa8699ce1bc2c",
+    "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_hybrid_20261102\\translation-review.json": "85a4f14c1c2772cf5703f9140ead379220d9a0d19075c7b9b78e09c58bfb578e",
+    "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_hybrid_20261102\\frozen-input.json": "32b65a8bef37e04a798e4a7384e49d8a03e8be3d466eb903ab0b884bfb240fce",
+    "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_hybrid_20261102\\B_english_dense\\results.json": "468f3caae7406d5c060f3175cadf505f9598b352c8ad14a81c304587188d4cf8",
+    "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_hybrid_20261102\\C_english_hybrid\\results.json": "06e07e393fa6d2f20da3d91fd249ffbabc51c4785c4b810160ce1f80f70c45f7"
+  },
+  "index_identity": {
+    "chunks_sha256": "9c2d4ec474e9f2e0a2b1ede9e1ef6edc8311f1d2be843b1f1bd107567989acc5",
+    "model_identity": {
+      "model": "qwen3-embedding:0.6b",
+      "digest": "ac6da0dfba84a81fdbfbaf330198c33cd77c4cdfc53e8bc50eb581914a15621d",
+      "options": {
+        "num_ctx": 2048,
+        "num_batch": 128,
+        "num_thread": 4,
+        "num_gpu": 99
+      },
+      "query_instruction": "Given a question about a product manual, retrieve passages that answer the question.",
+      "truncate": false
+    }
+  },
+  "runner_code_sha256": "72495b37d96afbe06dd97afa3c73b20d167e10c2405d64e938bb29898a7ecd60",
+  "answering_code_sha256": "c19f7a3d098cbdc5689ec98c59f7de157fd8253b287db099c974ac6457ef771f",
+  "hybrid_code_sha256": "59515ef72ffce78f3a30b2d50f090264d70c2e07b2f7738a8796e6531f1cbad2",
+  "answer_model": "qwen3.5:4b",
+  "answer_model_digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+  "answer_options": {
+    "num_ctx": 8192,
+    "num_predict": 1024,
+    "num_batch": 128,
+    "num_thread": 4,
+    "num_gpu": 99,
+    "temperature": 0
+  },
+  "prompt_version": "pm209-grounded-ko-v1",
+  "prompt_sha256": "c91519edde59dce486e00674416af01f0dc00ab413da31a60cd324fe0f2cecb2",
+  "translation_rerun": false,
+  "embedding_rerun": false,
+  "retrieval_rerun": false,
+  "answer_reuse": "Only existing same-variant files on resume; all new weight cases invoke the model."
+}

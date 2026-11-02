@@ -1,0 +1,213 @@
+{
+  "date": "2026-11-02",
+  "question_count": 10,
+  "compared_answer_count": 100,
+  "new_model_calls": 0,
+  "selection": "Existing TEXT01–TEXT10; same questions, translations, rankings and rubric. No rerun.",
+  "reviewer": "Codex assistant; no independent human review",
+  "scope_note": "Text-labelled questions, not a text-only search corpus. TEXT08 uses a table chunk for the actual voltage value in Top-5.",
+  "weights": {
+    "0": {
+      "top1": {
+        "counts": {
+          "correct": 8,
+          "partial": 1,
+          "incorrect": 0,
+          "no_answer": 1,
+          "error": 0
+        },
+        "correct_percent": 80,
+        "context_sufficiency": {
+          "sufficient": 8,
+          "partial": 1,
+          "insufficient": 1
+        },
+        "source_type_counts": {
+          "text": 10
+        },
+        "annotation_hit_at_1": 8
+      },
+      "top5": {
+        "counts": {
+          "correct": 9,
+          "partial": 0,
+          "incorrect": 1,
+          "no_answer": 0,
+          "error": 0
+        },
+        "correct_percent": 90,
+        "context_sufficiency": {
+          "sufficient": 9,
+          "partial": 1
+        },
+        "source_type_counts": {
+          "text": 44,
+          "figure": 3,
+          "table": 3
+        },
+        "annotation_hit_at_1": 8
+      }
+    },
+    "25": {
+      "top1": {
+        "counts": {
+          "correct": 8,
+          "partial": 1,
+          "incorrect": 0,
+          "no_answer": 1,
+          "error": 0
+        },
+        "correct_percent": 80,
+        "context_sufficiency": {
+          "sufficient": 8,
+          "insufficient": 1,
+          "partial": 1
+        },
+        "source_type_counts": {
+          "text": 10
+        },
+        "annotation_hit_at_1": 8
+      },
+      "top5": {
+        "counts": {
+          "correct": 9,
+          "partial": 1,
+          "incorrect": 0,
+          "no_answer": 0,
+          "error": 0
+        },
+        "correct_percent": 90,
+        "context_sufficiency": {
+          "sufficient": 10
+        },
+        "source_type_counts": {
+          "text": 44,
+          "figure": 2,
+          "table": 4
+        },
+        "annotation_hit_at_1": 8
+      }
+    },
+    "50": {
+      "top1": {
+        "counts": {
+          "correct": 8,
+          "partial": 1,
+          "incorrect": 0,
+          "no_answer": 1,
+          "error": 0
+        },
+        "correct_percent": 80,
+        "context_sufficiency": {
+          "sufficient": 8,
+          "insufficient": 1,
+          "partial": 1
+        },
+        "source_type_counts": {
+          "text": 10
+        },
+        "annotation_hit_at_1": 8
+      },
+      "top5": {
+        "counts": {
+          "correct": 9,
+          "partial": 1,
+          "incorrect": 0,
+          "no_answer": 0,
+          "error": 0
+        },
+        "correct_percent": 90,
+        "context_sufficiency": {
+          "sufficient": 10
+        },
+        "source_type_counts": {
+          "text": 42,
+          "table": 6,
+          "figure": 2
+        },
+        "annotation_hit_at_1": 8
+      }
+    },
+    "75": {
+      "top1": {
+        "counts": {
+          "correct": 7,
+          "partial": 1,
+          "incorrect": 0,
+          "no_answer": 2,
+          "error": 0
+        },
+        "correct_percent": 70,
+        "context_sufficiency": {
+          "sufficient": 7,
+          "partial": 1,
+          "insufficient": 2
+        },
+        "source_type_counts": {
+          "text": 10
+        },
+        "annotation_hit_at_1": 6
+      },
+      "top5": {
+        "counts": {
+          "correct": 8,
+          "partial": 2,
+          "incorrect": 0,
+          "no_answer": 0,
+          "error": 0
+        },
+        "correct_percent": 80,
+        "context_sufficiency": {
+          "sufficient": 10
+        },
+        "source_type_counts": {
+          "text": 43,
+          "table": 5,
+          "figure": 2
+        },
+        "annotation_hit_at_1": 6
+      }
+    },
+    "100": {
+      "top1": {
+        "counts": {
+          "correct": 6,
+          "partial": 1,
+          "incorrect": 1,
+          "no_answer": 2,
+          "error": 0
+        },
+        "correct_percent": 60,
+        "context_sufficiency": {
+          "sufficient": 6,
+          "insufficient": 3,
+          "partial": 1
+        },
+        "source_type_counts": {
+          "text": 10
+        },
+        "annotation_hit_at_1": 5
+      },
+      "top5": {
+        "counts": {
+          "correct": 8,
+          "partial": 2,
+          "incorrect": 0,
+          "no_answer": 0,
+          "error": 0
+        },
+        "correct_percent": 80,
+        "context_sufficiency": {
+          "sufficient": 9,
+          "partial": 1
+        },
+        "source_type_counts": {
+          "text": 43,
+          "table": 5,
+          "figure": 2
+        },
+        "annotation_hit_at_1": 5
+      }
+    }
+  }
+}

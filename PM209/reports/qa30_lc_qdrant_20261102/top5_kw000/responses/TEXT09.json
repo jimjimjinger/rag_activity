@@ -1,0 +1,338 @@
+{
+  "case_id": "TEXT09",
+  "manual_id": "Watch_Apple_User_Guide",
+  "question": "Siri에게 시간을 물으려면 어떻게 말해야 하나요?",
+  "english_query": "How do I ask Siri for the time?",
+  "keyword_percent": 0,
+  "variant": "top5_kw000",
+  "top_k": 5,
+  "retrieved_chunk_ids": [
+    "91cf3488-feaa-55a5-befd-f9068dfb4f6c",
+    "b595456b-9abf-5dc0-9ad8-6bc60d1b78dd",
+    "169ecba8-4e08-5d1c-a1dc-9f18ac61d482",
+    "45bc80b7-ff04-52cb-a662-a26409f4a3cd",
+    "9f527db1-a6fd-53bf-9a09-1cc4531e4eb9"
+  ],
+  "sources": [
+    {
+      "chunk_id": "91cf3488-feaa-55a5-befd-f9068dfb4f6c",
+      "manual_id": "Watch_Apple_User_Guide",
+      "page_id": "Watch_Apple_User_Guide_00058",
+      "chunk_type": "text",
+      "text": "• Use Siri: Raise your wrist and say “What time is it?”",
+      "content_region_ids": [
+        "Watch_Apple_User_Guide_2253"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00063.jpg",
+      "source_shapes": [
+        {
+          "id": "Watch_Apple_User_Guide_2253",
+          "shape": {
+            "x": 314.00000000000006,
+            "y": 557.8819580078124,
+            "width": 476.68298339843767,
+            "height": 33.881835937500114
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "Watch_Apple_User_Guide_2253",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 55
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.8862659688635066,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "b595456b-9abf-5dc0-9ad8-6bc60d1b78dd",
+      "manual_id": "Watch_Apple_User_Guide",
+      "page_id": "Watch_Apple_User_Guide_00280",
+      "chunk_type": "text",
+      "text": "Use World Clock on AppleWatch to check the time in\nUse the World Clock app on your AppleWatch to check the time in cities around the globe.\nAsk Siri.Say something like: “What time is it in Auckland?”",
+      "content_region_ids": [
+        "Watch_Apple_User_Guide_5273",
+        "Watch_Apple_User_Guide_5274"
+      ],
+      "context_region_ids": [
+        "Watch_Apple_User_Guide_5272"
+      ],
+      "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00285.jpg",
+      "source_shapes": [
+        {
+          "id": "Watch_Apple_User_Guide_5273",
+          "shape": {
+            "x": 313.99999999999983,
+            "y": 260.68200683593733,
+            "width": 727.2965698242181,
+            "height": 52.8818359375
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_5274",
+          "shape": {
+            "x": 313.70599365234364,
+            "y": 326.2689208984374,
+            "width": 543.5660400390625,
+            "height": 34.70800781250006
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_5272",
+          "shape": {
+            "x": 313.00000000000006,
+            "y": 184.5870361328125,
+            "width": 703.7700805664058,
+            "height": 65.42968749999989
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "Watch_Apple_User_Guide_5273",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 88
+        },
+        {
+          "region_id": "Watch_Apple_User_Guide_5274",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 59
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.7281705082079979,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "169ecba8-4e08-5d1c-a1dc-9f18ac61d482",
+      "manual_id": "Watch_Apple_User_Guide",
+      "page_id": "Watch_Apple_User_Guide_00248",
+      "chunk_type": "text",
+      "text": "Ask Siri.Say something like: “Set a timer for 20 minutes.”",
+      "content_region_ids": [
+        "Watch_Apple_User_Guide_5636"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00253.jpg",
+      "source_shapes": [
+        {
+          "id": "Watch_Apple_User_Guide_5636",
+          "shape": {
+            "x": 340.7059936523439,
+            "y": 295.60225423177087,
+            "width": 506.4146525065103,
+            "height": 26.708007812499943
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "Watch_Apple_User_Guide_5636",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 58
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.7045220743240048,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S3"
+    },
+    {
+      "chunk_id": "45bc80b7-ff04-52cb-a662-a26409f4a3cd",
+      "manual_id": "Watch_Apple_User_Guide",
+      "page_id": "Watch_Apple_User_Guide_00090",
+      "chunk_type": "text",
+      "text": "To make a Siri request, do any of the following:",
+      "content_region_ids": [
+        "Watch_Apple_User_Guide_1421"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00095.jpg",
+      "source_shapes": [
+        {
+          "id": "Watch_Apple_User_Guide_1421",
+          "shape": {
+            "x": 314.0000000000002,
+            "y": 134.7998046875001,
+            "width": 409.7947998046876,
+            "height": 33.881835937499886
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "Watch_Apple_User_Guide_1421",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 48
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.6632701575746766,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S4"
+    },
+    {
+      "chunk_id": "9f527db1-a6fd-53bf-9a09-1cc4531e4eb9",
+      "manual_id": "Watch_Apple_User_Guide",
+      "page_id": "Watch_Apple_User_Guide_00156",
+      "chunk_type": "text",
+      "text": "Use Siri to play audiobooks\n“Play the audiobook ‘In the Time of the Butterflies.’”",
+      "content_region_ids": [
+        "Watch_Apple_User_Guide_2692"
+      ],
+      "context_region_ids": [
+        "Watch_Apple_User_Guide_2690"
+      ],
+      "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00161.jpg",
+      "source_shapes": [
+        {
+          "id": "Watch_Apple_User_Guide_2692",
+          "shape": {
+            "x": 314.00000000000006,
+            "y": 769.7597656249999,
+            "width": 455.2720947265628,
+            "height": 33.88183593750023
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_2690",
+          "shape": {
+            "x": 314.00000000000006,
+            "y": 695.7792968750001,
+            "width": 263.30969238281256,
+            "height": 37.137207031249886
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "Watch_Apple_User_Guide_2692",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 54
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.6570273120562151,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S5"
+    }
+  ],
+  "excluded_sources": [],
+  "created_at": "2026-11-02T05:01:23.620352+00:00",
+  "status": "answered",
+  "answer": "손목 들어 올리고 'What time is it?'라고 말씀하세요.",
+  "source_ids": [
+    "S1"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 50,
+        "prompt_eval_count": 597,
+        "total_duration": 986715000,
+        "load_duration": 9272500,
+        "attempt": 1,
+        "prompt_token_upper_bound": 3108
+      }
+    ],
+    "elapsed_seconds": 0.9948918999871239,
+    "backend": "LangChain ChatPromptTemplate | ChatOllama"
+  },
+  "citations": [
+    {
+      "chunk_id": "91cf3488-feaa-55a5-befd-f9068dfb4f6c",
+      "manual_id": "Watch_Apple_User_Guide",
+      "page_id": "Watch_Apple_User_Guide_00058",
+      "chunk_type": "text",
+      "text": "• Use Siri: Raise your wrist and say “What time is it?”",
+      "content_region_ids": [
+        "Watch_Apple_User_Guide_2253"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00063.jpg",
+      "source_shapes": [
+        {
+          "id": "Watch_Apple_User_Guide_2253",
+          "shape": {
+            "x": 314.00000000000006,
+            "y": 557.8819580078124,
+            "width": 476.68298339843767,
+            "height": 33.881835937500114
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "Watch_Apple_User_Guide_2253",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 55
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.8862659688635066,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 0.9949818000022788,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 61,
+    "utilization_percent": 51
+  }
+}

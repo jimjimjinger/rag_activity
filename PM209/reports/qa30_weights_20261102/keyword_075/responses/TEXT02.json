@@ -1,0 +1,398 @@
+{
+  "case_id": "TEXT02",
+  "manual_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9",
+  "question": "모니터를 설치하기 전에 무엇을 해야 하나요?",
+  "english_query": "What should I do before installing the monitor?",
+  "keyword_percent": 75,
+  "dense_percent": 25,
+  "retrieved_chunk_ids": [
+    "23aab503-40fe-59de-a24d-35d71cfe186b",
+    "5e4b4267-ff79-5cd8-803b-6da941d6e757",
+    "fa76f670-32d3-5b89-957b-095f7629b9e4",
+    "8a070a44-d040-5d74-910d-a07551252367",
+    "e1013448-1ebe-5827-9595-4070db5a432e"
+  ],
+  "sources": [
+    {
+      "chunk_id": "23aab503-40fe-59de-a24d-35d71cfe186b",
+      "manual_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9",
+      "page_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00004",
+      "chunk_type": "text",
+      "text": "Before setting up the monitor, ensure that the power to the monitor, the computer system, and other attached devices is turned off.",
+      "content_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_178"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9/images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00004.jpg",
+      "source_shapes": [
+        {
+          "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_178",
+          "shape": {
+            "x": 92.71639251708977,
+            "y": 76.34643554687496,
+            "width": 642.1538467407224,
+            "height": 47.05664062499997
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_178",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 131
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.016327340031729243,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "5e4b4267-ff79-5cd8-803b-6da941d6e757",
+      "manual_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9",
+      "page_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00007",
+      "chunk_type": "text",
+      "text": "Before setting up the monitor, ensure that the power to the monitor, the computer system, and other attached devices is turned off.",
+      "content_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_230"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9/images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00007.jpg",
+      "source_shapes": [
+        {
+          "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_230",
+          "shape": {
+            "x": 93.81079864501955,
+            "y": 76.34643554687501,
+            "width": 647.1618576049805,
+            "height": 47.36328125
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_230",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 131
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.016195134849286093,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "fa76f670-32d3-5b89-957b-095f7629b9e4",
+      "manual_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9",
+      "page_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00019",
+      "chunk_type": "table",
+      "text": "First row (header unconfirmed): Column 1: Have you installedthedisplay driver? Have you installed the display driver? | Column 2: Have you installedthedisplay driver? Have you installed the display driver?\nColumn 1: Do you see an \"Unrecognized monitor, | Column 2: Plug&Play (VESADDC) monitor found\" message?",
+      "content_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_81"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9/images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00019.jpg",
+      "source_shapes": [
+        {
+          "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_81",
+          "shape": {
+            "x": 81.50000000000001,
+            "y": 74.61249542236328,
+            "width": 677.0000000000001,
+            "height": 332.00000000000006
+          }
+        },
+        {
+          "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_76",
+          "shape": {
+            "x": 110.15740203857426,
+            "y": 89.03198242187499,
+            "width": 394.7111282348632,
+            "height": 28.60800170898436
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "html_parser_repaired_review_required",
+        "table_header_unmarked_review_required"
+      ],
+      "score": 0.015283140283140283,
+      "table_rows": [
+        2
+      ],
+      "table_cells": [
+        {
+          "row": 2,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S3"
+    },
+    {
+      "chunk_id": "8a070a44-d040-5d74-910d-a07551252367",
+      "manual_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9",
+      "page_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00024",
+      "chunk_type": "text",
+      "text": "This monitor satisfies the specifications of the Wall mount plate or the interchange device.\n2. Place the monitor face down on the cushion or soft cloth.",
+      "content_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_700"
+      ],
+      "context_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_699"
+      ],
+      "image_filename": "images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9/images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00024.jpg",
+      "source_shapes": [
+        {
+          "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_700",
+          "shape": {
+            "x": 465.80841064453097,
+            "y": 125.63110351562494,
+            "width": 283.50103759765597,
+            "height": 44.2333984375
+          }
+        },
+        {
+          "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_699",
+          "shape": {
+            "x": 92.70839691162098,
+            "y": 77.93008112321817,
+            "width": 632.4934675517834,
+            "height": 48.862775407757624
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_700",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 60
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.01520979020979021,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S4"
+    },
+    {
+      "chunk_id": "e1013448-1ebe-5827-9595-4070db5a432e",
+      "manual_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9",
+      "page_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00024",
+      "chunk_type": "figure",
+      "text": "This monitor satisfies the specifications of the Wall mount plate or the interchange device.\nA person is adjusting the stand of an LG monitor, pointing to the base with a red arrow. The image shows hands manipulating the monitor's mounting mechanism on a desk surface.",
+      "content_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_711"
+      ],
+      "context_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_699"
+      ],
+      "image_filename": "images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9/images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00024.jpg",
+      "source_shapes": [
+        {
+          "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_711",
+          "shape": {
+            "x": 253.2638501619036,
+            "y": 884.5556702730944,
+            "width": 278.1702530710319,
+            "height": 234.03760558011209
+          }
+        },
+        {
+          "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_699",
+          "shape": {
+            "x": 92.70839691162098,
+            "y": 77.93008112321817,
+            "width": 632.4934675517834,
+            "height": 48.862775407757624
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_711",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 175
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": 0.01466625207296849,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S5"
+    }
+  ],
+  "excluded_sources": [],
+  "status": "answered",
+  "variant": "keyword_075",
+  "created_at": "2026-11-02T00:41:29.887652+00:00",
+  "answer": "모니터를 설치하기 전에 모니터, 컴퓨터 시스템 및 기타 연결된 장치의 전원을 끄는 것을 확인해야 합니다.",
+  "source_ids": [
+    "S1",
+    "S2"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 59,
+        "prompt_eval_count": 692,
+        "total_duration": 1105836000,
+        "load_duration": 7749300,
+        "attempt": 1,
+        "prompt_token_upper_bound": 3661
+      }
+    ],
+    "elapsed_seconds": 1.1606649000023026,
+    "ollama_model": {
+      "name": "qwen3.5:4b",
+      "model": "qwen3.5:4b",
+      "size": 3214409726,
+      "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "4.2B",
+        "quantization_level": "Q4_K_M"
+      },
+      "expires_at": "2026-11-02T09:42:31.0469724+09:00",
+      "size_vram": 3214409726,
+      "context_length": 8192,
+      "runner": "llamacpp"
+    },
+    "observation_error": null
+  },
+  "citations": [
+    {
+      "chunk_id": "23aab503-40fe-59de-a24d-35d71cfe186b",
+      "manual_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9",
+      "page_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00004",
+      "chunk_type": "text",
+      "text": "Before setting up the monitor, ensure that the power to the monitor, the computer system, and other attached devices is turned off.",
+      "content_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_178"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9/images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00004.jpg",
+      "source_shapes": [
+        {
+          "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_178",
+          "shape": {
+            "x": 92.71639251708977,
+            "y": 76.34643554687496,
+            "width": 642.1538467407224,
+            "height": 47.05664062499997
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_178",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 131
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.016327340031729243,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "5e4b4267-ff79-5cd8-803b-6da941d6e757",
+      "manual_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9",
+      "page_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00007",
+      "chunk_type": "text",
+      "text": "Before setting up the monitor, ensure that the power to the monitor, the computer system, and other attached devices is turned off.",
+      "content_region_ids": [
+        "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_230"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9/images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00007.jpg",
+      "source_shapes": [
+        {
+          "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_230",
+          "shape": {
+            "x": 93.81079864501955,
+            "y": 76.34643554687501,
+            "width": 647.1618576049805,
+            "height": 47.36328125
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_230",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 131
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.016195134849286093,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 1.1610089000023436,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3836,
+    "temperature_c": 69,
+    "utilization_percent": 84
+  }
+}

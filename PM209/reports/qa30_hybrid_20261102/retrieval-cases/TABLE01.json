@@ -1,0 +1,2094 @@
+{
+  "case_id": "TABLE01",
+  "manual_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740",
+  "question": "저음이나 고음이 약하면 어떻게 해야 하나요?",
+  "english_query": "What should I do if the low or high sound is weak?",
+  "dense_candidates": [
+    {
+      "score": 0.6029654397784046,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00011",
+      "chunk_type": "table",
+      "content_region_ids": [
+        "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_100"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_97"
+      ],
+      "image_filename": "images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740/images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00012.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_100",
+          "shape": {
+            "x": 70.25000000000001,
+            "y": 168.99999999999994,
+            "width": 1091.5,
+            "height": 676.0000000000002
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_97",
+          "shape": {
+            "x": 77.99999999999996,
+            "y": 116.5570526123047,
+            "width": 221.66030883789074,
+            "height": 34.97200012207027
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_82",
+          "shape": {
+            "x": 83.95440673828124,
+            "y": 384.0797424316407,
+            "width": 222.1856079101563,
+            "height": 23.320007324218864
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_83",
+          "shape": {
+            "x": 358.4524230957031,
+            "y": 384.0797424316407,
+            "width": 528.2588806152344,
+            "height": 23.320007324218864
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_95",
+          "shape": {
+            "x": 86.40000152587893,
+            "y": 182.81225585937503,
+            "width": 82.94721221923831,
+            "height": 24.979995727539034
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_96",
+          "shape": {
+            "x": 350.31378173828136,
+            "y": 182.81225585937503,
+            "width": 104.742431640625,
+            "height": 24.979995727539034
+          }
+        }
+      ],
+      "title": "Troubleshooting",
+      "text": "Troubleshooting\nFirst row (header unconfirmed): Column 1: Problem | Column 2: What to do\nColumn 1: The bass or treble is weak | Column 2: • Check the tonal balance setting on your receiver or amplifier.",
+      "char_count": 202,
+      "overlap_char_count": 0,
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "source_spans": [],
+      "table_rows": [
+        2
+      ],
+      "table_cells": [
+        {
+          "row": 2,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "chunk_id": "1aff7bae-3e4e-5724-b112-1fd1f3dc9a66",
+      "text_sha256": "a3f60b57dcd8d6739e16ede4e2b5b56280d0033c34a135549d2bdfcb4601acfa",
+      "deduplicated_region_ids": [
+        "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_82",
+        "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_83",
+        "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_95",
+        "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_96"
+      ],
+      "token_count": 54
+    },
+    {
+      "score": 0.5691317342324647,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00011",
+      "chunk_type": "title",
+      "content_region_ids": [
+        "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_90"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740/images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00012.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_90",
+          "shape": {
+            "x": 83.99999999999997,
+            "y": 1132.7569580078125,
+            "width": 322.0083923339845,
+            "height": 34.97204589843727
+          }
+        }
+      ],
+      "title": "",
+      "text": "Cleaning your speakers",
+      "char_count": 22,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_90",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 22
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "2b941c80-bbc2-5392-8077-20869c4e7230",
+      "text_sha256": "1ac871c308f778788d8dff4aa3b8705fac143f13ca75a103dd3eab7b86b2a4ac",
+      "token_count": 3
+    },
+    {
+      "score": 0.549087720873382,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00011",
+      "chunk_type": "title",
+      "content_region_ids": [
+        "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_92"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740/images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00012.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_92",
+          "shape": {
+            "x": 83.99999999999997,
+            "y": 1284.8569335937502,
+            "width": 380.31842041015614,
+            "height": 34.972045898437045
+          }
+        }
+      ],
+      "title": "",
+      "text": "Protecting the speaker wire",
+      "char_count": 27,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_92",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 27
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "735b121c-f5c3-5934-98b8-b46f904f17fe",
+      "text_sha256": "04ae489ac3cda7c6fc491a6e23a071edc5acaf744dde8a859056f7d23663633e",
+      "token_count": 5
+    },
+    {
+      "score": 0.5379601278014454,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00011",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_84"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740/images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00012.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_84",
+          "shape": {
+            "x": 350.954376220703,
+            "y": 438.67971801757824,
+            "width": 792.8700866699222,
+            "height": 336.820037841797
+          }
+        }
+      ],
+      "title": "",
+      "text": "• Remove the cord from the working speaker and connect it to the “faulty” speaker. - If the speaker now works, the problem was in the original speaker cord. - If there is still no sound, the problem is in the speaker. • If trouble persists, contact your authorized Bose ® dealer, who will arrange for service. Or,",
+      "char_count": 313,
+      "overlap_char_count": 83,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_84",
+          "field": "ocr_normalized",
+          "start": 694,
+          "end": 1007
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "8501d6d9-06de-58ef-9514-f5402f11f589",
+      "text_sha256": "321b562961df31f755057b3eeaef38ea6aac0b798812547e3dbeaeafe7c9c802",
+      "token_count": 70
+    },
+    {
+      "score": 0.5357392902420128,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00004",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_43"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740/images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00005.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_43",
+          "shape": {
+            "x": 352.5053710937499,
+            "y": 688.4569702148433,
+            "width": 790.1938476562501,
+            "height": 47.78002929687557
+          }
+        }
+      ],
+      "title": "",
+      "text": "Note: This product is not intended for use in areas where it will be subject to high vibration. If you are unsure about installing these speakers, contact a qualified professional installer.",
+      "char_count": 190,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_43",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 190
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "726196f6-c766-59bd-91b8-44395582e7a1",
+      "text_sha256": "8cabbb6976ac039b533d5ece2d54a4acf12d3d6e36eb02f8f9102b4e0c41c1b9",
+      "token_count": 35
+    },
+    {
+      "score": 0.5351278554829756,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00011",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_84"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740/images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00012.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_84",
+          "shape": {
+            "x": 350.954376220703,
+            "y": 438.67971801757824,
+            "width": 792.8700866699222,
+            "height": 336.820037841797
+          }
+        }
+      ],
+      "title": "",
+      "text": "• Check the balance control on your receiver or amplifier and make sure it’s centered. • Check the wires connected to the speaker that does not play. Make sure the wires are in good condition and are firmly connected. Review the “Making the connections” section on page 9. • Disconnect the working speaker from the receiver or amplifier.",
+      "char_count": 337,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_84",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 337
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "36e0ff9b-81a1-56d5-bfda-304202258d2d",
+      "text_sha256": "5f5a453bb39c78cee102e8ff875e5bea93ab1e0f9df3870b1b2ccf9f45361143",
+      "token_count": 67
+    },
+    {
+      "score": 0.5343971272317314,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00005",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_66"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740/images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00006.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_66",
+          "shape": {
+            "x": 352.33638509114564,
+            "y": 368.45703125,
+            "width": 629.7093302408856,
+            "height": 25.19331868489587
+          }
+        }
+      ],
+      "title": "",
+      "text": "Note: Be sure to cut enough wire to reach from the receiver to each speaker.",
+      "char_count": 76,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_66",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 76
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "fbdc7bcb-4989-58a2-a954-86ee1dfda369",
+      "text_sha256": "61acad04dafe030e0f5e3216a3fc45f35e86ed078643c38a7bdd0f3391095971",
+      "token_count": 17
+    },
+    {
+      "score": 0.5281550703347505,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00011",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_84"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740/images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00012.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_84",
+          "shape": {
+            "x": 350.954376220703,
+            "y": 438.67971801757824,
+            "width": 792.8700866699222,
+            "height": 336.820037841797
+          }
+        }
+      ],
+      "title": "",
+      "text": "• Switch the cord of the “faulty” speaker from its original receiver or amplifier jacks to the other set of jacks (the working speaker was originally attached to those jacks). - If the speaker now works, the problem is in your receiver or amplifier. Reconnect your speakers to a working unit. - If there is still no sound from the speaker, continue below. • Remove the cord from the working speaker and connect it to the “faulty” speaker.",
+      "char_count": 438,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_84",
+          "field": "ocr_normalized",
+          "start": 338,
+          "end": 776
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "ac3033e8-d9d6-5f47-a7f7-59e2a3e8bc76",
+      "text_sha256": "09ca86ec3e230dc8d96686efed7d9b6f24448583e72b3da7e5b6279638c9a704",
+      "token_count": 96
+    },
+    {
+      "score": 0.5181044241440749,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00011",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_101"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_97"
+      ],
+      "image_filename": "images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740/images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00012.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_101",
+          "shape": {
+            "x": 74.99999999999997,
+            "y": 534.2499999999999,
+            "width": 244.99999999999997,
+            "height": 30.000000000000114
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_97",
+          "shape": {
+            "x": 77.99999999999996,
+            "y": 116.5570526123047,
+            "width": 221.66030883789074,
+            "height": 34.97200012207027
+          }
+        }
+      ],
+      "title": "Troubleshooting",
+      "text": "Troubleshooting\nOnly one speaker still plays",
+      "char_count": 44,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_101",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 28
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "afc5d4bd-b915-587c-a292-72923eb5084e",
+      "text_sha256": "6be779c5bc24fea790a953ea7b4073b9f83f2f6fce1fc9af71b980037c862775",
+      "token_count": 9
+    },
+    {
+      "score": 0.50152361740104,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00011",
+      "chunk_type": "title",
+      "content_region_ids": [
+        "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_98"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740/images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00012.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_98",
+          "shape": {
+            "x": 104.00000000000007,
+            "y": 63.339622497558594,
+            "width": 386.196075439453,
+            "height": 29.975997924804673
+          }
+        }
+      ],
+      "title": "",
+      "text": "Maintaining Your 251 TM Speakers",
+      "char_count": 32,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_98",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 32
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "2c5427d5-ef61-51a3-af4c-e66bb9807b0f",
+      "text_sha256": "64a84d27dba97e19101fa2238580d7c0f78b8d6d2c5ef2ac2c399ee0523ac9d9",
+      "token_count": 9
+    },
+    {
+      "score": 0.48954933676509615,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00003",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_18"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740/images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00004.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_18",
+          "shape": {
+            "x": 356.50000000000006,
+            "y": 367.01724243164057,
+            "width": 791.4478759765625,
+            "height": 95.32000732421858
+          }
+        }
+      ],
+      "title": "",
+      "text": "Carefully unpack your speakers and save all packing materials for possible future use. Check that your system contains the parts identified in Figure 1. Do not attempt to use your speak- ers if any part of them appears damaged. Instead, notify Bose Corporation or your authorized Bose dealer immediately.",
+      "char_count": 304,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_18",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 304
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "377020ee-bf8d-530a-83a6-7abf1a85b974",
+      "text_sha256": "9d6eebe1a7fa3a373b6c9e6631a55509d37539863c1746569391cc52f0e81a52",
+      "token_count": 57
+    },
+    {
+      "score": 0.48706168704302655,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00011",
+      "chunk_type": "table",
+      "content_region_ids": [
+        "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_100"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_97"
+      ],
+      "image_filename": "images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740/images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00012.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_100",
+          "shape": {
+            "x": 70.25000000000001,
+            "y": 168.99999999999994,
+            "width": 1091.5,
+            "height": 676.0000000000002
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_97",
+          "shape": {
+            "x": 77.99999999999996,
+            "y": 116.5570526123047,
+            "width": 221.66030883789074,
+            "height": 34.97200012207027
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_95",
+          "shape": {
+            "x": 86.40000152587893,
+            "y": 182.81225585937503,
+            "width": 82.94721221923831,
+            "height": 24.979995727539034
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_96",
+          "shape": {
+            "x": 350.31378173828136,
+            "y": 182.81225585937503,
+            "width": 104.742431640625,
+            "height": 24.979995727539034
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_99",
+          "shape": {
+            "x": 77.74999999999999,
+            "y": 439.5,
+            "width": 211.0,
+            "height": 30.000000000000057
+          }
+        }
+      ],
+      "title": "Troubleshooting",
+      "text": "Troubleshooting\nFirst row (header unconfirmed): Column 1: Problem | Column 2: What to do\nColumn 1: Only one speaker plays Onlyone speaker still plays\nColumn 2\n●Check thebalance controlon your receiveror amplifier and make sure it's centered. Checkthe wires connectedto thespeaker that does not play.Make sure the wiresare in goodconditionand arefirmly connected.Reviewthe\"Makingtheconnections”sectionon page 9. Disconnect the working speaker from the receiver or amplifier.",
+      "char_count": 473,
+      "overlap_char_count": 0,
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "source_spans": [
+        {
+          "row": 3,
+          "column": 1,
+          "start": 0,
+          "end": 314,
+          "field": "normalized_cell_text"
+        }
+      ],
+      "table_rows": [
+        3
+      ],
+      "table_cells": [
+        {
+          "row": 3,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "chunk_id": "161aedfa-e9e0-5aed-832f-90f8a3c7774c",
+      "text_sha256": "b407feb0802be15567e70570be27846ea925d376375a20d71ecae272a3592d05",
+      "deduplicated_region_ids": [
+        "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_95",
+        "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_96",
+        "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_99"
+      ],
+      "token_count": 108
+    },
+    {
+      "score": 0.48665064661655505,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00009",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_254",
+        "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_255",
+        "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_256",
+        "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_257"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_253"
+      ],
+      "image_filename": "images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740/images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00010.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_254",
+          "shape": {
+            "x": 354.50000000000006,
+            "y": 1245.6945800781248,
+            "width": 555.267639160156,
+            "height": 23.320068359375227
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_255",
+          "shape": {
+            "x": 368.00439453125,
+            "y": 1277.6945800781245,
+            "width": 645.0357055664059,
+            "height": 23.320068359375227
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_256",
+          "shape": {
+            "x": 368.00439453125,
+            "y": 1309.694580078125,
+            "width": 564.2640991210935,
+            "height": 23.320068359375227
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_257",
+          "shape": {
+            "x": 354.50000000000006,
+            "y": 1341.6945800781252,
+            "width": 777.296875,
+            "height": 119.32006835937386
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_253",
+          "shape": {
+            "x": 354.50000000000006,
+            "y": 1211.3345947265623,
+            "width": 279.0884399414062,
+            "height": 29.976074218750455
+          }
+        }
+      ],
+      "title": "Testing the connections",
+      "text": "Testing the connections\nTo make sure your speakers operate correctly, follow these steps:\n1. Set the balance control on your receiver or amplifier to normal (centered).\n2. Play some deep bass passages of music through the speakers.\nThe sound should seem to come from a point between the two speakers. The bass should be full and natural. If not, your connections may be reversed, causing the speakers to play out of phase.",
+      "char_count": 422,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_254",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 65
+        },
+        {
+          "region_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_255",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 78
+        },
+        {
+          "region_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_256",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 62
+        },
+        {
+          "region_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_257",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 190
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "0b0d4d73-f133-5260-ac74-d409deb17975",
+      "text_sha256": "37232b61cd7994daaeacb73cf858adc46455e9773a2a5c70eb67e43140ebfa75",
+      "token_count": 86
+    },
+    {
+      "score": 0.47535534563986837,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00003",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_30"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740/images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00004.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_30",
+          "shape": {
+            "x": 356.4943847656249,
+            "y": 1392.4570312500005,
+            "width": 795.3682861328126,
+            "height": 71.78002929687455
+          }
+        }
+      ],
+      "title": "",
+      "text": "CAUTION: Failure to follow the instructions in this owner’s guide voids all warranties on your speakers. If you are unsure of your ability to complete this process, consult a professional installer. Please read this owner’s guide completely before beginning installation.",
+      "char_count": 271,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_30",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 271
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "718f07bc-0b2e-5c1f-ba66-cb839b2be79b",
+      "text_sha256": "04adc3d8598025e7a8972a14fc483453a4bc817a5d69f93788856f65d50a319a",
+      "token_count": 49
+    },
+    {
+      "score": 0.4744954678545144,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00011",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_91"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740/images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00012.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_91",
+          "shape": {
+            "x": 358.49999999999994,
+            "y": 1173.116943359375,
+            "width": 762.7141113281245,
+            "height": 71.32006835937432
+          }
+        }
+      ],
+      "title": "",
+      "text": "Use a cloth dampened in mild detergent and water to remove dust or dirt from the outside of your 251 speakers. Or use a hose to rinse them thoroughly with fresh water. Do not use enough pressure to force water behind the grille and into the drivers or the acoustic ports.",
+      "char_count": 271,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_91",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 271
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "eb6292e2-8f7c-573d-9d4d-8cedac11da12",
+      "text_sha256": "9082f796d5894dee1853e62e1d5002161c9a4d5242b115db97d6357282cc078b",
+      "token_count": 58
+    },
+    {
+      "score": 0.4711750321915137,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00007",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_189"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_188"
+      ],
+      "image_filename": "images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740/images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00008.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_189",
+          "shape": {
+            "x": 77.99999999999997,
+            "y": 1271.294189453125,
+            "width": 206.75848388671872,
+            "height": 40.96801757812477
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_188",
+          "shape": {
+            "x": 77.99999999999997,
+            "y": 1236.9122314453123,
+            "width": 93.37440490722656,
+            "height": 24.979980468749773
+          }
+        }
+      ],
+      "title": "Figure 12",
+      "text": "Figure 12\nSliding the speakers into the brackets",
+      "char_count": 48,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_189",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 38
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "f7fc1587-51b3-51a2-af36-2a4c292353d9",
+      "text_sha256": "f61d7ec0b453a1731129cfbfa8001ed8af490a3db4f9bb2aa22e736bde920efc",
+      "token_count": 12
+    },
+    {
+      "score": 0.47072885629072053,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00011",
+      "chunk_type": "table",
+      "content_region_ids": [
+        "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_100"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_97"
+      ],
+      "image_filename": "images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740/images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00012.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_100",
+          "shape": {
+            "x": 70.25000000000001,
+            "y": 168.99999999999994,
+            "width": 1091.5,
+            "height": 676.0000000000002
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_97",
+          "shape": {
+            "x": 77.99999999999996,
+            "y": 116.5570526123047,
+            "width": 221.66030883789074,
+            "height": 34.97200012207027
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_79",
+          "shape": {
+            "x": 83.99999999999997,
+            "y": 231.97976684570307,
+            "width": 184.35754394531253,
+            "height": 23.320007324218807
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_95",
+          "shape": {
+            "x": 86.40000152587893,
+            "y": 182.81225585937503,
+            "width": 82.94721221923831,
+            "height": 24.979995727539034
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_96",
+          "shape": {
+            "x": 350.31378173828136,
+            "y": 182.81225585937503,
+            "width": 104.742431640625,
+            "height": 24.979995727539034
+          }
+        }
+      ],
+      "title": "Troubleshooting",
+      "text": "Troubleshooting\nFirst row (header unconfirmed): Column 1: Problem | Column 2: What to do\nColumn 1: Problem | Column 2: What to do\nColumn 1: Neither speaker plays | Column 2: •Check the settings on your receiver or amplifier. Refer to the owner's guide that came with it for instruction on settings. If your251speakers are connected as a second setofspeakers to yourreceiver or amplifier, checkthat the connections havebeenmade to the\"B\"terminals andthat the\"B\" speakers are selected to play.",
+      "char_count": 491,
+      "overlap_char_count": 0,
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "source_spans": [],
+      "table_rows": [
+        0,
+        1
+      ],
+      "table_cells": [
+        {
+          "row": 0,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "chunk_id": "ca564daf-f67c-5b22-a1fa-60c95f6fa05c",
+      "text_sha256": "9c2cf306964c92c876996010fed53976db1f9cfee7b234b6dc1d34cded2e6b64",
+      "deduplicated_region_ids": [
+        "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_79",
+        "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_95",
+        "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_96"
+      ],
+      "token_count": 122
+    },
+    {
+      "score": 0.45978597605981997,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00011",
+      "chunk_type": "table",
+      "content_region_ids": [
+        "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_100"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_97"
+      ],
+      "image_filename": "images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740/images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00012.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_100",
+          "shape": {
+            "x": 70.25000000000001,
+            "y": 168.99999999999994,
+            "width": 1091.5,
+            "height": 676.0000000000002
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_97",
+          "shape": {
+            "x": 77.99999999999996,
+            "y": 116.5570526123047,
+            "width": 221.66030883789074,
+            "height": 34.97200012207027
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_95",
+          "shape": {
+            "x": 86.40000152587893,
+            "y": 182.81225585937503,
+            "width": 82.94721221923831,
+            "height": 24.979995727539034
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_96",
+          "shape": {
+            "x": 350.31378173828136,
+            "y": 182.81225585937503,
+            "width": 104.742431640625,
+            "height": 24.979995727539034
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_99",
+          "shape": {
+            "x": 77.74999999999999,
+            "y": 439.5,
+            "width": 211.0,
+            "height": 30.000000000000057
+          }
+        }
+      ],
+      "title": "Troubleshooting",
+      "text": "Troubleshooting\nFirst row (header unconfirmed): Column 1: Problem | Column 2: What to do\nColumn 1: Only one speaker plays Onlyone speaker still plays\nColumn 2\nIf trouble persists,contact your authorized Bosedealer, who will arrange for service.Or, contactBose customer service.Seethe inside back cover of this owner's guide fora listof phone numbers.",
+      "char_count": 350,
+      "overlap_char_count": 0,
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "source_spans": [
+        {
+          "row": 3,
+          "column": 1,
+          "start": 862,
+          "end": 1053,
+          "field": "normalized_cell_text"
+        }
+      ],
+      "table_rows": [
+        3
+      ],
+      "table_cells": [
+        {
+          "row": 3,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "chunk_id": "acb5d0b8-d493-5c56-895b-665b44daff29",
+      "text_sha256": "e6c628ce8c73fce5005595a3e12b080ce7b5391ded7f9f0c60dc880863214904",
+      "deduplicated_region_ids": [
+        "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_95",
+        "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_96",
+        "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_99"
+      ],
+      "token_count": 82
+    },
+    {
+      "score": 0.455145531686987,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00005",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_56"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740/images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00006.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_56",
+          "shape": {
+            "x": 352.49661254882807,
+            "y": 622.4570312499997,
+            "width": 803.4246520996094,
+            "height": 73.78002929687511
+          }
+        }
+      ],
+      "title": "",
+      "text": "CAUTION: If you do not use the supplied brackets, choose a level surface for the speakers. Vibra- tion can cause the speakers to move, so it is important that you install the supplied rubber feet before using the speakers on a surface. Refer to “Attaching the rubber feet” on page 11.",
+      "char_count": 284,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_56",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 284
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "93047005-89d5-5dc7-823e-a61e007c2dec",
+      "text_sha256": "59212b3507a75f6efc76decf6dc45eb9d57dc6e45ee0f55bc1400ea2260e7084",
+      "token_count": 65
+    },
+    {
+      "score": 0.45490931772063403,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00009",
+      "chunk_type": "title",
+      "content_region_ids": [
+        "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_237"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740/images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00010.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_237",
+          "shape": {
+            "x": 102,
+            "y": 63.339622497558565,
+            "width": 357.1120300292967,
+            "height": 31.975997924804673
+          }
+        }
+      ],
+      "title": "",
+      "text": "Installing Your 251 TM Speakers",
+      "char_count": 31,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_237",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 31
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "ad7b2f7f-8b8d-5e7a-966f-5d8360878496",
+      "text_sha256": "a56c9039eba6922d98f222df1af857339681b1b65ae7a5f63012c6fe890af697",
+      "token_count": 8
+    }
+  ],
+  "keyword_candidates": [
+    {
+      "chunk_id": "1aff7bae-3e4e-5724-b112-1fd1f3dc9a66",
+      "bm25_score": -6.796473571295472
+    },
+    {
+      "chunk_id": "726196f6-c766-59bd-91b8-44395582e7a1",
+      "bm25_score": -6.652797917465904
+    },
+    {
+      "chunk_id": "1a272593-823d-50af-9797-dec2d7ca0e5e",
+      "bm25_score": -6.604410289592435
+    },
+    {
+      "chunk_id": "8501d6d9-06de-58ef-9514-f5402f11f589",
+      "bm25_score": -6.031824668510209
+    },
+    {
+      "chunk_id": "43c6f8d0-5d58-5231-9311-b02c17882a38",
+      "bm25_score": -5.0704920779823155
+    },
+    {
+      "chunk_id": "72816e67-1ec9-5b8c-aa69-a2bc50b6534a",
+      "bm25_score": -4.8699147587742635
+    },
+    {
+      "chunk_id": "00725dcd-620c-52ce-a03c-2a26a7394e43",
+      "bm25_score": -4.766222747139403
+    },
+    {
+      "chunk_id": "ac3033e8-d9d6-5f47-a7f7-59e2a3e8bc76",
+      "bm25_score": -4.695869365049534
+    },
+    {
+      "chunk_id": "0b0d4d73-f133-5260-ac74-d409deb17975",
+      "bm25_score": -3.988787946739713
+    },
+    {
+      "chunk_id": "3979f5e8-d050-52ca-b307-853799c62834",
+      "bm25_score": -2.8875926940660173
+    },
+    {
+      "chunk_id": "33456309-3b56-58c8-9eed-1896a97705cd",
+      "bm25_score": -2.3727172809415267
+    },
+    {
+      "chunk_id": "1769a38e-5d41-55b5-8e1d-34dfef59fe4c",
+      "bm25_score": -2.013667981501911
+    },
+    {
+      "chunk_id": "344b9011-43c6-5063-badc-5c9ac61b28a5",
+      "bm25_score": -1.9904979579923276
+    },
+    {
+      "chunk_id": "fe92681c-2359-502c-baf1-a04d909b529d",
+      "bm25_score": -1.967855075068411
+    },
+    {
+      "chunk_id": "718f07bc-0b2e-5c1f-ba66-cb839b2be79b",
+      "bm25_score": -1.945721545625071
+    },
+    {
+      "chunk_id": "377020ee-bf8d-530a-83a6-7abf1a85b974",
+      "bm25_score": -1.8037104060839584
+    },
+    {
+      "chunk_id": "8e40e828-f797-5586-a163-07da1fe199f1",
+      "bm25_score": -1.8037104060839584
+    },
+    {
+      "chunk_id": "93047005-89d5-5dc7-823e-a61e007c2dec",
+      "bm25_score": -1.766865523529571
+    },
+    {
+      "chunk_id": "acb5d0b8-d493-5c56-895b-665b44daff29",
+      "bm25_score": -1.7143366914277463
+    },
+    {
+      "chunk_id": "7d0bee0f-feb1-539c-994a-0f95c8fd3d2b",
+      "bm25_score": -1.6648410425315756
+    }
+  ],
+  "fused_candidates": [
+    {
+      "chunk_id": "1aff7bae-3e4e-5724-b112-1fd1f3dc9a66",
+      "score": 0.01639344262295082,
+      "dense_rank": 1,
+      "dense_score": 0.6029654397784046,
+      "keyword_rank": 1,
+      "keyword_score": -6.796473571295472
+    },
+    {
+      "chunk_id": "726196f6-c766-59bd-91b8-44395582e7a1",
+      "score": 0.01575682382133995,
+      "dense_rank": 5,
+      "dense_score": 0.5357392902420128,
+      "keyword_rank": 2,
+      "keyword_score": -6.652797917465904
+    },
+    {
+      "chunk_id": "8501d6d9-06de-58ef-9514-f5402f11f589",
+      "score": 0.015625,
+      "dense_rank": 4,
+      "dense_score": 0.5379601278014454,
+      "keyword_rank": 4,
+      "keyword_score": -6.031824668510209
+    },
+    {
+      "chunk_id": "ac3033e8-d9d6-5f47-a7f7-59e2a3e8bc76",
+      "score": 0.014705882352941176,
+      "dense_rank": 8,
+      "dense_score": 0.5281550703347505,
+      "keyword_rank": 8,
+      "keyword_score": -4.695869365049534
+    },
+    {
+      "chunk_id": "0b0d4d73-f133-5260-ac74-d409deb17975",
+      "score": 0.014095691880087354,
+      "dense_rank": 13,
+      "dense_score": 0.48665064661655505,
+      "keyword_rank": 9,
+      "keyword_score": -3.988787946739713
+    },
+    {
+      "chunk_id": "377020ee-bf8d-530a-83a6-7abf1a85b974",
+      "score": 0.013621200889547814,
+      "dense_rank": 11,
+      "dense_score": 0.48954933676509615,
+      "keyword_rank": 16,
+      "keyword_score": -1.8037104060839584
+    },
+    {
+      "chunk_id": "718f07bc-0b2e-5c1f-ba66-cb839b2be79b",
+      "score": 0.013423423423423425,
+      "dense_rank": 14,
+      "dense_score": 0.47535534563986837,
+      "keyword_rank": 15,
+      "keyword_score": -1.945721545625071
+    },
+    {
+      "chunk_id": "acb5d0b8-d493-5c56-895b-665b44daff29",
+      "score": 0.012739370334307044,
+      "dense_rank": 18,
+      "dense_score": 0.45978597605981997,
+      "keyword_rank": 19,
+      "keyword_score": -1.7143366914277463
+    },
+    {
+      "chunk_id": "93047005-89d5-5dc7-823e-a61e007c2dec",
+      "score": 0.012739370334307044,
+      "dense_rank": 19,
+      "dense_score": 0.455145531686987,
+      "keyword_rank": 18,
+      "keyword_score": -1.766865523529571
+    },
+    {
+      "chunk_id": "2b941c80-bbc2-5392-8077-20869c4e7230",
+      "score": 0.008064516129032258,
+      "dense_rank": 2,
+      "dense_score": 0.5691317342324647
+    },
+    {
+      "chunk_id": "735b121c-f5c3-5934-98b8-b46f904f17fe",
+      "score": 0.007936507936507936,
+      "dense_rank": 3,
+      "dense_score": 0.549087720873382
+    },
+    {
+      "chunk_id": "1a272593-823d-50af-9797-dec2d7ca0e5e",
+      "score": 0.007936507936507936,
+      "keyword_rank": 3,
+      "keyword_score": -6.604410289592435
+    },
+    {
+      "chunk_id": "43c6f8d0-5d58-5231-9311-b02c17882a38",
+      "score": 0.007692307692307693,
+      "keyword_rank": 5,
+      "keyword_score": -5.0704920779823155
+    },
+    {
+      "chunk_id": "36e0ff9b-81a1-56d5-bfda-304202258d2d",
+      "score": 0.007575757575757576,
+      "dense_rank": 6,
+      "dense_score": 0.5351278554829756
+    },
+    {
+      "chunk_id": "72816e67-1ec9-5b8c-aa69-a2bc50b6534a",
+      "score": 0.007575757575757576,
+      "keyword_rank": 6,
+      "keyword_score": -4.8699147587742635
+    },
+    {
+      "chunk_id": "fbdc7bcb-4989-58a2-a954-86ee1dfda369",
+      "score": 0.007462686567164179,
+      "dense_rank": 7,
+      "dense_score": 0.5343971272317314
+    },
+    {
+      "chunk_id": "00725dcd-620c-52ce-a03c-2a26a7394e43",
+      "score": 0.007462686567164179,
+      "keyword_rank": 7,
+      "keyword_score": -4.766222747139403
+    },
+    {
+      "chunk_id": "afc5d4bd-b915-587c-a292-72923eb5084e",
+      "score": 0.007246376811594203,
+      "dense_rank": 9,
+      "dense_score": 0.5181044241440749
+    },
+    {
+      "chunk_id": "2c5427d5-ef61-51a3-af4c-e66bb9807b0f",
+      "score": 0.007142857142857143,
+      "dense_rank": 10,
+      "dense_score": 0.50152361740104
+    },
+    {
+      "chunk_id": "3979f5e8-d050-52ca-b307-853799c62834",
+      "score": 0.007142857142857143,
+      "keyword_rank": 10,
+      "keyword_score": -2.8875926940660173
+    },
+    {
+      "chunk_id": "33456309-3b56-58c8-9eed-1896a97705cd",
+      "score": 0.007042253521126761,
+      "keyword_rank": 11,
+      "keyword_score": -2.3727172809415267
+    },
+    {
+      "chunk_id": "161aedfa-e9e0-5aed-832f-90f8a3c7774c",
+      "score": 0.006944444444444444,
+      "dense_rank": 12,
+      "dense_score": 0.48706168704302655
+    },
+    {
+      "chunk_id": "1769a38e-5d41-55b5-8e1d-34dfef59fe4c",
+      "score": 0.006944444444444444,
+      "keyword_rank": 12,
+      "keyword_score": -2.013667981501911
+    },
+    {
+      "chunk_id": "344b9011-43c6-5063-badc-5c9ac61b28a5",
+      "score": 0.00684931506849315,
+      "keyword_rank": 13,
+      "keyword_score": -1.9904979579923276
+    },
+    {
+      "chunk_id": "fe92681c-2359-502c-baf1-a04d909b529d",
+      "score": 0.006756756756756757,
+      "keyword_rank": 14,
+      "keyword_score": -1.967855075068411
+    },
+    {
+      "chunk_id": "eb6292e2-8f7c-573d-9d4d-8cedac11da12",
+      "score": 0.006666666666666667,
+      "dense_rank": 15,
+      "dense_score": 0.4744954678545144
+    },
+    {
+      "chunk_id": "f7fc1587-51b3-51a2-af36-2a4c292353d9",
+      "score": 0.006578947368421052,
+      "dense_rank": 16,
+      "dense_score": 0.4711750321915137
+    },
+    {
+      "chunk_id": "ca564daf-f67c-5b22-a1fa-60c95f6fa05c",
+      "score": 0.006493506493506494,
+      "dense_rank": 17,
+      "dense_score": 0.47072885629072053
+    },
+    {
+      "chunk_id": "8e40e828-f797-5586-a163-07da1fe199f1",
+      "score": 0.006493506493506494,
+      "keyword_rank": 17,
+      "keyword_score": -1.8037104060839584
+    },
+    {
+      "chunk_id": "ad7b2f7f-8b8d-5e7a-966f-5d8360878496",
+      "score": 0.00625,
+      "dense_rank": 20,
+      "dense_score": 0.45490931772063403
+    },
+    {
+      "chunk_id": "7d0bee0f-feb1-539c-994a-0f95c8fd3d2b",
+      "score": 0.00625,
+      "keyword_rank": 20,
+      "keyword_score": -1.6648410425315756
+    }
+  ],
+  "variants": {
+    "B_english_dense": {
+      "sources": [
+        {
+          "chunk_id": "1aff7bae-3e4e-5724-b112-1fd1f3dc9a66",
+          "manual_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740",
+          "page_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00011",
+          "chunk_type": "table",
+          "text": "Troubleshooting\nFirst row (header unconfirmed): Column 1: Problem | Column 2: What to do\nColumn 1: The bass or treble is weak | Column 2: • Check the tonal balance setting on your receiver or amplifier.",
+          "content_region_ids": [
+            "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_100"
+          ],
+          "context_region_ids": [
+            "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_97"
+          ],
+          "image_filename": "images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740/images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00012.jpg",
+          "source_shapes": [
+            {
+              "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_100",
+              "shape": {
+                "x": 70.25000000000001,
+                "y": 168.99999999999994,
+                "width": 1091.5,
+                "height": 676.0000000000002
+              }
+            },
+            {
+              "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_97",
+              "shape": {
+                "x": 77.99999999999996,
+                "y": 116.5570526123047,
+                "width": 221.66030883789074,
+                "height": 34.97200012207027
+              }
+            },
+            {
+              "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_82",
+              "shape": {
+                "x": 83.95440673828124,
+                "y": 384.0797424316407,
+                "width": 222.1856079101563,
+                "height": 23.320007324218864
+              }
+            },
+            {
+              "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_83",
+              "shape": {
+                "x": 358.4524230957031,
+                "y": 384.0797424316407,
+                "width": 528.2588806152344,
+                "height": 23.320007324218864
+              }
+            },
+            {
+              "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_95",
+              "shape": {
+                "x": 86.40000152587893,
+                "y": 182.81225585937503,
+                "width": 82.94721221923831,
+                "height": 24.979995727539034
+              }
+            },
+            {
+              "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_96",
+              "shape": {
+                "x": 350.31378173828136,
+                "y": 182.81225585937503,
+                "width": 104.742431640625,
+                "height": 24.979995727539034
+              }
+            }
+          ],
+          "source_spans": [],
+          "content_origin": "paddle_table",
+          "quality_flags": [
+            "table_header_unmarked_review_required"
+          ],
+          "score": 0.6029654397784046,
+          "table_rows": [
+            2
+          ],
+          "table_cells": [
+            {
+              "row": 2,
+              "column": 0,
+              "rowspan": 1,
+              "colspan": 1
+            },
+            {
+              "row": 2,
+              "column": 1,
+              "rowspan": 1,
+              "colspan": 1
+            }
+          ],
+          "source_id": "S1"
+        },
+        {
+          "chunk_id": "2b941c80-bbc2-5392-8077-20869c4e7230",
+          "manual_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740",
+          "page_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00011",
+          "chunk_type": "title",
+          "text": "Cleaning your speakers",
+          "content_region_ids": [
+            "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_90"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740/images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00012.jpg",
+          "source_shapes": [
+            {
+              "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_90",
+              "shape": {
+                "x": 83.99999999999997,
+                "y": 1132.7569580078125,
+                "width": 322.0083923339845,
+                "height": 34.97204589843727
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_90",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 22
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [],
+          "score": 0.5691317342324647,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S2"
+        },
+        {
+          "chunk_id": "735b121c-f5c3-5934-98b8-b46f904f17fe",
+          "manual_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740",
+          "page_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00011",
+          "chunk_type": "title",
+          "text": "Protecting the speaker wire",
+          "content_region_ids": [
+            "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_92"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740/images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00012.jpg",
+          "source_shapes": [
+            {
+              "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_92",
+              "shape": {
+                "x": 83.99999999999997,
+                "y": 1284.8569335937502,
+                "width": 380.31842041015614,
+                "height": 34.972045898437045
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_92",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 27
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [],
+          "score": 0.549087720873382,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S3"
+        },
+        {
+          "chunk_id": "8501d6d9-06de-58ef-9514-f5402f11f589",
+          "manual_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740",
+          "page_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00011",
+          "chunk_type": "text",
+          "text": "• Remove the cord from the working speaker and connect it to the “faulty” speaker. - If the speaker now works, the problem was in the original speaker cord. - If there is still no sound, the problem is in the speaker. • If trouble persists, contact your authorized Bose ® dealer, who will arrange for service. Or,",
+          "content_region_ids": [
+            "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_84"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740/images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00012.jpg",
+          "source_shapes": [
+            {
+              "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_84",
+              "shape": {
+                "x": 350.954376220703,
+                "y": 438.67971801757824,
+                "width": 792.8700866699222,
+                "height": 336.820037841797
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_84",
+              "field": "ocr_normalized",
+              "start": 694,
+              "end": 1007
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.5379601278014454,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S4"
+        },
+        {
+          "chunk_id": "726196f6-c766-59bd-91b8-44395582e7a1",
+          "manual_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740",
+          "page_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00004",
+          "chunk_type": "text",
+          "text": "Note: This product is not intended for use in areas where it will be subject to high vibration. If you are unsure about installing these speakers, contact a qualified professional installer.",
+          "content_region_ids": [
+            "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_43"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740/images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00005.jpg",
+          "source_shapes": [
+            {
+              "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_43",
+              "shape": {
+                "x": 352.5053710937499,
+                "y": 688.4569702148433,
+                "width": 790.1938476562501,
+                "height": 47.78002929687557
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_43",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 190
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.5357392902420128,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S5"
+        }
+      ],
+      "excluded_sources": [],
+      "retrieved_chunk_ids": [
+        "1aff7bae-3e4e-5724-b112-1fd1f3dc9a66",
+        "2b941c80-bbc2-5392-8077-20869c4e7230",
+        "735b121c-f5c3-5934-98b8-b46f904f17fe",
+        "8501d6d9-06de-58ef-9514-f5402f11f589",
+        "726196f6-c766-59bd-91b8-44395582e7a1"
+      ]
+    },
+    "C_english_hybrid": {
+      "sources": [
+        {
+          "chunk_id": "1aff7bae-3e4e-5724-b112-1fd1f3dc9a66",
+          "manual_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740",
+          "page_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00011",
+          "chunk_type": "table",
+          "text": "Troubleshooting\nFirst row (header unconfirmed): Column 1: Problem | Column 2: What to do\nColumn 1: The bass or treble is weak | Column 2: • Check the tonal balance setting on your receiver or amplifier.",
+          "content_region_ids": [
+            "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_100"
+          ],
+          "context_region_ids": [
+            "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_97"
+          ],
+          "image_filename": "images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740/images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00012.jpg",
+          "source_shapes": [
+            {
+              "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_100",
+              "shape": {
+                "x": 70.25000000000001,
+                "y": 168.99999999999994,
+                "width": 1091.5,
+                "height": 676.0000000000002
+              }
+            },
+            {
+              "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_97",
+              "shape": {
+                "x": 77.99999999999996,
+                "y": 116.5570526123047,
+                "width": 221.66030883789074,
+                "height": 34.97200012207027
+              }
+            },
+            {
+              "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_82",
+              "shape": {
+                "x": 83.95440673828124,
+                "y": 384.0797424316407,
+                "width": 222.1856079101563,
+                "height": 23.320007324218864
+              }
+            },
+            {
+              "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_83",
+              "shape": {
+                "x": 358.4524230957031,
+                "y": 384.0797424316407,
+                "width": 528.2588806152344,
+                "height": 23.320007324218864
+              }
+            },
+            {
+              "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_95",
+              "shape": {
+                "x": 86.40000152587893,
+                "y": 182.81225585937503,
+                "width": 82.94721221923831,
+                "height": 24.979995727539034
+              }
+            },
+            {
+              "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_96",
+              "shape": {
+                "x": 350.31378173828136,
+                "y": 182.81225585937503,
+                "width": 104.742431640625,
+                "height": 24.979995727539034
+              }
+            }
+          ],
+          "source_spans": [],
+          "content_origin": "paddle_table",
+          "quality_flags": [
+            "table_header_unmarked_review_required"
+          ],
+          "score": 0.01639344262295082,
+          "table_rows": [
+            2
+          ],
+          "table_cells": [
+            {
+              "row": 2,
+              "column": 0,
+              "rowspan": 1,
+              "colspan": 1
+            },
+            {
+              "row": 2,
+              "column": 1,
+              "rowspan": 1,
+              "colspan": 1
+            }
+          ],
+          "source_id": "S1"
+        },
+        {
+          "chunk_id": "726196f6-c766-59bd-91b8-44395582e7a1",
+          "manual_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740",
+          "page_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00004",
+          "chunk_type": "text",
+          "text": "Note: This product is not intended for use in areas where it will be subject to high vibration. If you are unsure about installing these speakers, contact a qualified professional installer.",
+          "content_region_ids": [
+            "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_43"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740/images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00005.jpg",
+          "source_shapes": [
+            {
+              "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_43",
+              "shape": {
+                "x": 352.5053710937499,
+                "y": 688.4569702148433,
+                "width": 790.1938476562501,
+                "height": 47.78002929687557
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_43",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 190
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.01575682382133995,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S2"
+        },
+        {
+          "chunk_id": "8501d6d9-06de-58ef-9514-f5402f11f589",
+          "manual_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740",
+          "page_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00011",
+          "chunk_type": "text",
+          "text": "• Remove the cord from the working speaker and connect it to the “faulty” speaker. - If the speaker now works, the problem was in the original speaker cord. - If there is still no sound, the problem is in the speaker. • If trouble persists, contact your authorized Bose ® dealer, who will arrange for service. Or,",
+          "content_region_ids": [
+            "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_84"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740/images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00012.jpg",
+          "source_shapes": [
+            {
+              "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_84",
+              "shape": {
+                "x": 350.954376220703,
+                "y": 438.67971801757824,
+                "width": 792.8700866699222,
+                "height": 336.820037841797
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_84",
+              "field": "ocr_normalized",
+              "start": 694,
+              "end": 1007
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.015625,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S3"
+        },
+        {
+          "chunk_id": "ac3033e8-d9d6-5f47-a7f7-59e2a3e8bc76",
+          "manual_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740",
+          "page_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00011",
+          "chunk_type": "text",
+          "text": "• Switch the cord of the “faulty” speaker from its original receiver or amplifier jacks to the other set of jacks (the working speaker was originally attached to those jacks). - If the speaker now works, the problem is in your receiver or amplifier. Reconnect your speakers to a working unit. - If there is still no sound from the speaker, continue below. • Remove the cord from the working speaker and connect it to the “faulty” speaker.",
+          "content_region_ids": [
+            "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_84"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740/images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00012.jpg",
+          "source_shapes": [
+            {
+              "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_84",
+              "shape": {
+                "x": 350.954376220703,
+                "y": 438.67971801757824,
+                "width": 792.8700866699222,
+                "height": 336.820037841797
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_84",
+              "field": "ocr_normalized",
+              "start": 338,
+              "end": 776
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.014705882352941176,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S4"
+        },
+        {
+          "chunk_id": "0b0d4d73-f133-5260-ac74-d409deb17975",
+          "manual_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740",
+          "page_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00009",
+          "chunk_type": "text",
+          "text": "Testing the connections\nTo make sure your speakers operate correctly, follow these steps:\n1. Set the balance control on your receiver or amplifier to normal (centered).\n2. Play some deep bass passages of music through the speakers.\nThe sound should seem to come from a point between the two speakers. The bass should be full and natural. If not, your connections may be reversed, causing the speakers to play out of phase.",
+          "content_region_ids": [
+            "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_254",
+            "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_255",
+            "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_256",
+            "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_257"
+          ],
+          "context_region_ids": [
+            "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_253"
+          ],
+          "image_filename": "images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740/images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00010.jpg",
+          "source_shapes": [
+            {
+              "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_254",
+              "shape": {
+                "x": 354.50000000000006,
+                "y": 1245.6945800781248,
+                "width": 555.267639160156,
+                "height": 23.320068359375227
+              }
+            },
+            {
+              "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_255",
+              "shape": {
+                "x": 368.00439453125,
+                "y": 1277.6945800781245,
+                "width": 645.0357055664059,
+                "height": 23.320068359375227
+              }
+            },
+            {
+              "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_256",
+              "shape": {
+                "x": 368.00439453125,
+                "y": 1309.694580078125,
+                "width": 564.2640991210935,
+                "height": 23.320068359375227
+              }
+            },
+            {
+              "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_257",
+              "shape": {
+                "x": 354.50000000000006,
+                "y": 1341.6945800781252,
+                "width": 777.296875,
+                "height": 119.32006835937386
+              }
+            },
+            {
+              "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_253",
+              "shape": {
+                "x": 354.50000000000006,
+                "y": 1211.3345947265623,
+                "width": 279.0884399414062,
+                "height": 29.976074218750455
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_254",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 65
+            },
+            {
+              "region_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_255",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 78
+            },
+            {
+              "region_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_256",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 62
+            },
+            {
+              "region_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_257",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 190
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.014095691880087354,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S5"
+        }
+      ],
+      "excluded_sources": [],
+      "retrieved_chunk_ids": [
+        "1aff7bae-3e4e-5724-b112-1fd1f3dc9a66",
+        "726196f6-c766-59bd-91b8-44395582e7a1",
+        "8501d6d9-06de-58ef-9514-f5402f11f589",
+        "ac3033e8-d9d6-5f47-a7f7-59e2a3e8bc76",
+        "0b0d4d73-f133-5260-ac74-d409deb17975"
+      ]
+    }
+  },
+  "retrieval_seconds": 1.6911393000045791
+}

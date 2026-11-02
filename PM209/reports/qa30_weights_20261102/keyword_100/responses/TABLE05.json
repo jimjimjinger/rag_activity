@@ -1,0 +1,415 @@
+{
+  "case_id": "TABLE05",
+  "manual_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a",
+  "question": "시스템이 작동하지 않으면 어떻게 해야 하나요?",
+  "english_query": "What should I do if the system does not work?",
+  "keyword_percent": 100,
+  "dense_percent": 0,
+  "retrieved_chunk_ids": [
+    "087f698a-8108-5c5f-a3ad-d974f0cef19d",
+    "c722447f-e82d-5971-b49a-c674fb13878f",
+    "28832ea4-401b-59e4-9353-ac16b33f2319",
+    "5c1e9b64-640e-5c1c-8cb5-620aacb75790",
+    "56dee0ec-6e8e-5738-856c-d8fb0b1df5fd"
+  ],
+  "sources": [
+    {
+      "chunk_id": "087f698a-8108-5c5f-a3ad-d974f0cef19d",
+      "manual_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a",
+      "page_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00026",
+      "chunk_type": "text",
+      "text": "Maintaining Your Wave Music System\n• Check that the CD source is selected. The CD icon should appear on the display. If not, press CD. • Check that the CD was loaded label-side up. • Check that the disc surface is clean, If not, try cleaning it. • Check that an audio CD was loaded, not a DVD. • Try another disc.",
+      "content_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_606"
+      ],
+      "context_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_591"
+      ],
+      "image_filename": "images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a/images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00027.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_606",
+          "shape": {
+            "x": 338.39770507812494,
+            "y": 774.9010009765627,
+            "width": 800.487182617188,
+            "height": 147.36822509765568
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_591",
+          "shape": {
+            "x": 607.9180297851564,
+            "y": 53.64562606811523,
+            "width": 525.9172973632809,
+            "height": 38.47488021850587
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_606",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 278
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.01639344262295082,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "c722447f-e82d-5971-b49a-c674fb13878f",
+      "manual_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a",
+      "page_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00026",
+      "chunk_type": "text",
+      "text": "Maintaining Your Wave Music System\n• Adjust the internal antenna by rotating the unit slightly one way and then the other. • Move the unit farther from a TV, refrigerator, fluorescent lamps, halogen lamps, dimmer switches, or other electronic equipment that generates electrical noise. • If neither suggestion works, you may be in an area of weak AM signal coverage.",
+      "content_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_602"
+      ],
+      "context_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_591"
+      ],
+      "image_filename": "images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a/images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00027.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_602",
+          "shape": {
+            "x": 338.37838745117193,
+            "y": 598.0093383789065,
+            "width": 800.1421203613284,
+            "height": 99.36895751953114
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_591",
+          "shape": {
+            "x": 607.9180297851564,
+            "y": 53.64562606811523,
+            "width": 525.9172973632809,
+            "height": 38.47488021850587
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_602",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 331
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.016129032258064516,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "28832ea4-401b-59e4-9353-ac16b33f2319",
+      "manual_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a",
+      "page_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00018",
+      "chunk_type": "text",
+      "text": "Connecting your Wave® music system to a Lifestyle® system\nNote: If an alarm sounds while using headphones, it will sound through the Wave® music system speakers.",
+      "content_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_557"
+      ],
+      "context_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_549"
+      ],
+      "image_filename": "images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a/images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00019.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_557",
+          "shape": {
+            "x": 323.9971923828125,
+            "y": 578.8634643554686,
+            "width": 822.9410400390625,
+            "height": 49.111145019531364
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_549",
+          "shape": {
+            "x": 71.99676513671876,
+            "y": 116.04565429687501,
+            "width": 839.0875244140625,
+            "height": 38.475479125976605
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_557",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 103
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.015873015873015872,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S3"
+    },
+    {
+      "chunk_id": "5c1e9b64-640e-5c1c-8cb5-620aacb75790",
+      "manual_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a",
+      "page_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00024",
+      "chunk_type": "text",
+      "text": "Personalizing Your Wave® Music System\nIf you wish, you can restore your Wave® music system to the original factory settings.",
+      "content_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_487"
+      ],
+      "context_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_478"
+      ],
+      "image_filename": "images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a/images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00025.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_487",
+          "shape": {
+            "x": 323.9979858398437,
+            "y": 811.6240234374999,
+            "width": 757.0003051757812,
+            "height": 27.370056152343977
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_478",
+          "shape": {
+            "x": 572.3980102539061,
+            "y": 53.64562606811524,
+            "width": 561.3976440429691,
+            "height": 38.47488021850585
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_487",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 86
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.015625,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S4"
+    },
+    {
+      "chunk_id": "56dee0ec-6e8e-5738-856c-d8fb0b1df5fd",
+      "manual_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a",
+      "page_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00012",
+      "chunk_type": "text",
+      "text": "Press CD if the CD source is not selected.",
+      "content_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_163"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a/images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00013.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_163",
+          "shape": {
+            "x": 323.9979858398435,
+            "y": 284.5839233398437,
+            "width": 376.57946777343795,
+            "height": 27.529449462890682
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_163",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 42
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.015384615384615385,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S5"
+    }
+  ],
+  "excluded_sources": [],
+  "status": "answered",
+  "variant": "keyword_100",
+  "created_at": "2026-11-02T00:42:43.769256+00:00",
+  "answer": "시스템이 작동하지 않는 경우, 먼저 CD 소스가 선택되었는지 확인하세요. 디스플레이에 CD 아이콘이 표시되지 않으면 'CD' 버튼을 누르세요. 또한 CD가 레이블 쪽으로 올바르게 삽입되었는지, 디스크 표면에 먼지가 없었는지, 오디오 CD 가 아닌 DVD 가 들어가지 않았는지 확인하고 필요시 다시 시도하거나 다른 디스크를 사용하세요.",
+  "source_ids": [
+    "S1",
+    "S5"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 114,
+        "prompt_eval_count": 694,
+        "total_duration": 1819258100,
+        "load_duration": 4974900,
+        "attempt": 1,
+        "prompt_token_upper_bound": 3671
+      }
+    ],
+    "elapsed_seconds": 1.914720100001432,
+    "ollama_model": {
+      "name": "qwen3.5:4b",
+      "model": "qwen3.5:4b",
+      "size": 3214409726,
+      "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "4.2B",
+        "quantization_level": "Q4_K_M"
+      },
+      "expires_at": "2026-11-02T09:43:45.6828945+09:00",
+      "size_vram": 3214409726,
+      "context_length": 8192,
+      "runner": "llamacpp"
+    },
+    "observation_error": null
+  },
+  "citations": [
+    {
+      "chunk_id": "087f698a-8108-5c5f-a3ad-d974f0cef19d",
+      "manual_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a",
+      "page_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00026",
+      "chunk_type": "text",
+      "text": "Maintaining Your Wave Music System\n• Check that the CD source is selected. The CD icon should appear on the display. If not, press CD. • Check that the CD was loaded label-side up. • Check that the disc surface is clean, If not, try cleaning it. • Check that an audio CD was loaded, not a DVD. • Try another disc.",
+      "content_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_606"
+      ],
+      "context_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_591"
+      ],
+      "image_filename": "images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a/images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00027.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_606",
+          "shape": {
+            "x": 338.39770507812494,
+            "y": 774.9010009765627,
+            "width": 800.487182617188,
+            "height": 147.36822509765568
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_591",
+          "shape": {
+            "x": 607.9180297851564,
+            "y": 53.64562606811523,
+            "width": 525.9172973632809,
+            "height": 38.47488021850587
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_606",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 278
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.01639344262295082,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "56dee0ec-6e8e-5738-856c-d8fb0b1df5fd",
+      "manual_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a",
+      "page_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00012",
+      "chunk_type": "text",
+      "text": "Press CD if the CD source is not selected.",
+      "content_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_163"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a/images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00013.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_163",
+          "shape": {
+            "x": 323.9979858398435,
+            "y": 284.5839233398437,
+            "width": 376.57946777343795,
+            "height": 27.529449462890682
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_163",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 42
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.015384615384615385,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S5"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 1.9149670999904629,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3836,
+    "temperature_c": 67,
+    "utilization_percent": 83
+  }
+}

@@ -1,0 +1,2517 @@
+[
+  {
+    "case_id": "TEXT01",
+    "manual_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1",
+    "question": "FIREGL, Intergraph, 3dLabs 같은 그래픽 어댑터는 DVD 비디오 재생을 지원하나요?",
+    "english_query": "Do graphics adapters such as FIREGL, Intergraph, and 3dLabs support DVD video playback?",
+    "keyword_percent": 75,
+    "dense_percent": 25,
+    "top_k": 1,
+    "retrieved_chunk_ids": [
+      "058ab5fd-2e1e-5f82-a1b8-53fbdc5a1f3f"
+    ],
+    "sources": [
+      {
+        "chunk_id": "058ab5fd-2e1e-5f82-a1b8-53fbdc5a1f3f",
+        "manual_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1",
+        "page_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00007",
+        "chunk_type": "text",
+        "text": "Software Description\nNote: Some graphics adapters such as the FIREGL, Intergraph, and 3dLabs, do not support DVD video playback.",
+        "content_region_ids": [
+          "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_52"
+        ],
+        "context_region_ids": [
+          "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_50"
+        ],
+        "image_filename": "images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1/images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00013.jpg",
+        "source_shapes": [
+          {
+            "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_52",
+            "shape": {
+              "x": 143.68240356445315,
+              "y": 1028.6870117187498,
+              "width": 934.9936218261719,
+              "height": 48.093750000000455
+            }
+          },
+          {
+            "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_50",
+            "shape": {
+              "x": 143.68240356445315,
+              "y": 910.0532836914061,
+              "width": 280.9746093750001,
+              "height": 33.246459960937614
+            }
+          }
+        ],
+        "source_spans": [
+          {
+            "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_52",
+            "field": "ocr_normalized",
+            "start": 0,
+            "end": 107
+          }
+        ],
+        "content_origin": "source_ocr",
+        "quality_flags": [
+          "layout_geometry_heuristic"
+        ],
+        "score": 0.01639344262295082,
+        "table_rows": [],
+        "table_cells": [],
+        "source_id": "S1"
+      }
+    ],
+    "excluded_sources": [],
+    "top5_response_file": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_weights_20261102\\keyword_075\\results.json"
+  },
+  {
+    "case_id": "TEXT02",
+    "manual_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9",
+    "question": "모니터를 설치하기 전에 무엇을 해야 하나요?",
+    "english_query": "What should I do before installing the monitor?",
+    "keyword_percent": 75,
+    "dense_percent": 25,
+    "top_k": 1,
+    "retrieved_chunk_ids": [
+      "23aab503-40fe-59de-a24d-35d71cfe186b"
+    ],
+    "sources": [
+      {
+        "chunk_id": "23aab503-40fe-59de-a24d-35d71cfe186b",
+        "manual_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9",
+        "page_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00004",
+        "chunk_type": "text",
+        "text": "Before setting up the monitor, ensure that the power to the monitor, the computer system, and other attached devices is turned off.",
+        "content_region_ids": [
+          "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_178"
+        ],
+        "context_region_ids": [],
+        "image_filename": "images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9/images/lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_00004.jpg",
+        "source_shapes": [
+          {
+            "id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_178",
+            "shape": {
+              "x": 92.71639251708977,
+              "y": 76.34643554687496,
+              "width": 642.1538467407224,
+              "height": 47.05664062499997
+            }
+          }
+        ],
+        "source_spans": [
+          {
+            "region_id": "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_178",
+            "field": "ocr_normalized",
+            "start": 0,
+            "end": 131
+          }
+        ],
+        "content_origin": "source_ocr",
+        "quality_flags": [
+          "layout_geometry_heuristic"
+        ],
+        "score": 0.016327340031729243,
+        "table_rows": [],
+        "table_cells": [],
+        "source_id": "S1"
+      }
+    ],
+    "excluded_sources": [],
+    "top5_response_file": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_weights_20261102\\keyword_075\\results.json"
+  },
+  {
+    "case_id": "TEXT03",
+    "manual_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)",
+    "question": "PIN 식별 코드는 무엇인가요?",
+    "english_query": "What is the PIN identification code?",
+    "keyword_percent": 75,
+    "dense_percent": 25,
+    "top_k": 1,
+    "retrieved_chunk_ids": [
+      "7b7b7f36-ebb1-54f2-94ac-7e252fc8c858"
+    ],
+    "sources": [
+      {
+        "chunk_id": "7b7b7f36-ebb1-54f2-94ac-7e252fc8c858",
+        "manual_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)",
+        "page_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00071",
+        "chunk_type": "text",
+        "text": "Set a SIM PIN Lock\nA PIN is the identity code of a SIM card, and can be set as the SIM card lock. After you set it\nup, you will be required to enter the correct PIN to unlock the SIM card every time you power\non your tablet or switch to a new tablet to prevent unauthorized access.\nIf you have entered a wrong PIN and exceeded the maximum number of attempts allowed to\nunlock the PIN, you will need to enter the PIN Unlocking Key (PUK) then reset the PIN.",
+        "content_region_ids": [
+          "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2061",
+          "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2062",
+          "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2063",
+          "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2064",
+          "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2065"
+        ],
+        "context_region_ids": [
+          "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2060"
+        ],
+        "image_filename": "images/HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)/images/HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00074.jpg",
+        "source_shapes": [
+          {
+            "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2061",
+            "shape": {
+              "x": 90.03160095214847,
+              "y": 819.2534790039061,
+              "width": 1009.3022613525397,
+              "height": 28.125
+            }
+          },
+          {
+            "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2062",
+            "shape": {
+              "x": 90.03167724609378,
+              "y": 857.2534790039066,
+              "width": 1023.9718627929688,
+              "height": 28.124999999999773
+            }
+          },
+          {
+            "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2063",
+            "shape": {
+              "x": 90.03167724609378,
+              "y": 895.2534790039062,
+              "width": 789.707153320313,
+              "height": 28.12499999999966
+            }
+          },
+          {
+            "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2064",
+            "shape": {
+              "x": 90.03178405761717,
+              "y": 939.2534790039061,
+              "width": 1022.883621215821,
+              "height": 28.12500000000034
+            }
+          },
+          {
+            "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2065",
+            "shape": {
+              "x": 90.03187561035156,
+              "y": 977.2534790039066,
+              "width": 1022.5429534912114,
+              "height": 28.125000000000455
+            }
+          },
+          {
+            "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2060",
+            "shape": {
+              "x": 90.02362060546878,
+              "y": 772.0962524414064,
+              "width": 254.57226562500009,
+              "height": 32.8125
+            }
+          }
+        ],
+        "source_spans": [
+          {
+            "region_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2061",
+            "field": "ocr_normalized",
+            "start": 0,
+            "end": 95
+          },
+          {
+            "region_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2062",
+            "field": "ocr_normalized",
+            "start": 0,
+            "end": 93
+          },
+          {
+            "region_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2063",
+            "field": "ocr_normalized",
+            "start": 0,
+            "end": 72
+          },
+          {
+            "region_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2064",
+            "field": "ocr_normalized",
+            "start": 0,
+            "end": 86
+          },
+          {
+            "region_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2065",
+            "field": "ocr_normalized",
+            "start": 0,
+            "end": 86
+          }
+        ],
+        "content_origin": "source_ocr",
+        "quality_flags": [
+          "layout_geometry_heuristic"
+        ],
+        "score": 0.01639344262295082,
+        "table_rows": [],
+        "table_cells": [],
+        "source_id": "S1"
+      }
+    ],
+    "excluded_sources": [],
+    "top5_response_file": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_weights_20261102\\keyword_075\\results.json"
+  },
+  {
+    "case_id": "TEXT04",
+    "manual_id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728",
+    "question": "호스트 서버를 스토리지 어레이에 연결하면 무엇을 할 수 있나요?",
+    "english_query": "What can be done by connecting the host server to the storage array?",
+    "keyword_percent": 75,
+    "dense_percent": 25,
+    "top_k": 1,
+    "retrieved_chunk_ids": [
+      "19ac318b-6465-520a-ba65-88f7fdeadd99"
+    ],
+    "sources": [
+      {
+        "chunk_id": "19ac318b-6465-520a-ba65-88f7fdeadd99",
+        "manual_id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728",
+        "page_id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_00003",
+        "chunk_type": "text",
+        "text": "Introduction to Storage Arrays\nOne or more host servers attached to the storage array can access the data on the storage array. You can also establish multiple physical paths between the hosts and the storage array so that loss of any single path (for example, through failure of a host server port) does not result in loss of access to data on the storage array.\nThe storage array is managed by MDSM running on a:",
+        "content_region_ids": [
+          "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_24",
+          "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_25"
+        ],
+        "context_region_ids": [
+          "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_22"
+        ],
+        "image_filename": "images/dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728/images/dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_00005.jpg",
+        "source_shapes": [
+          {
+            "id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_24",
+            "shape": {
+              "x": 180.0021820068358,
+              "y": 1206.3383789062498,
+              "width": 863.9456939697267,
+              "height": 91.67407226562523
+            }
+          },
+          {
+            "id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_25",
+            "shape": {
+              "x": 180.00231933593736,
+              "y": 1322.33837890625,
+              "width": 439.2720336914065,
+              "height": 19.674072265625227
+            }
+          },
+          {
+            "id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_22",
+            "shape": {
+              "x": 180.00607299804676,
+              "y": 1056.868408203124,
+              "width": 456.5119934082031,
+              "height": 35.583984375000455
+            }
+          }
+        ],
+        "source_spans": [
+          {
+            "region_id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_24",
+            "field": "ocr_normalized",
+            "start": 0,
+            "end": 332
+          },
+          {
+            "region_id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_25",
+            "field": "ocr_normalized",
+            "start": 0,
+            "end": 50
+          }
+        ],
+        "content_origin": "source_ocr",
+        "quality_flags": [
+          "layout_geometry_heuristic"
+        ],
+        "score": 0.016195134849286093,
+        "table_rows": [],
+        "table_cells": [],
+        "source_id": "S1"
+      }
+    ],
+    "excluded_sources": [],
+    "top5_response_file": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_weights_20261102\\keyword_075\\results.json"
+  },
+  {
+    "case_id": "TEXT05",
+    "manual_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a",
+    "question": "일련번호는 어디에서 확인할 수 있나요?",
+    "english_query": "Where can I check the serial number?",
+    "keyword_percent": 75,
+    "dense_percent": 25,
+    "top_k": 1,
+    "retrieved_chunk_ids": [
+      "b38a4a41-a87b-51de-a721-95df09f71ba9"
+    ],
+    "sources": [
+      {
+        "chunk_id": "b38a4a41-a87b-51de-a721-95df09f71ba9",
+        "manual_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a",
+        "page_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_00003",
+        "chunk_type": "text",
+        "text": "Note: To use this CB, you need a mobile or base station antenna. Your local Ra- dioShack store has a wide variety of an- tennas. For more information, see “Installing an Antenna” on Page 6.\nWe recommend you record your CB’s serial number here. The number is on the CB’s back panel.\nSerial Number___________",
+        "content_region_ids": [
+          "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_243",
+          "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_244",
+          "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_245"
+        ],
+        "context_region_ids": [],
+        "image_filename": "images/samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a/images/samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_00003.jpg",
+        "source_shapes": [
+          {
+            "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_243",
+            "shape": {
+              "x": 246.3200073242188,
+              "y": 687.4841308593752,
+              "width": 357.5855102539064,
+              "height": 123.03936767578125
+            }
+          },
+          {
+            "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_244",
+            "shape": {
+              "x": 246.3200073242188,
+              "y": 831.4826660156255,
+              "width": 356.79821777343744,
+              "height": 75.03985595703102
+            }
+          },
+          {
+            "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_245",
+            "shape": {
+              "x": 246.3200073242188,
+              "y": 927.4816894531252,
+              "width": 250.01449584960938,
+              "height": 27.04034423828125
+            }
+          }
+        ],
+        "source_spans": [
+          {
+            "region_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_243",
+            "field": "ocr_normalized",
+            "start": 0,
+            "end": 189
+          },
+          {
+            "region_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_244",
+            "field": "ocr_normalized",
+            "start": 0,
+            "end": 91
+          },
+          {
+            "region_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_245",
+            "field": "ocr_normalized",
+            "start": 0,
+            "end": 24
+          }
+        ],
+        "content_origin": "source_ocr",
+        "quality_flags": [
+          "layout_geometry_heuristic"
+        ],
+        "score": 0.01639344262295082,
+        "table_rows": [],
+        "table_cells": [],
+        "source_id": "S1"
+      }
+    ],
+    "excluded_sources": [],
+    "top5_response_file": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_weights_20261102\\keyword_075\\results.json"
+  },
+  {
+    "case_id": "TEXT06",
+    "manual_id": "samsung_tv",
+    "question": "타임시프트 기능을 사용하려면 어떻게 해야 하나요?",
+    "english_query": "How do I use the Time Shift feature?",
+    "keyword_percent": 75,
+    "dense_percent": 25,
+    "top_k": 1,
+    "retrieved_chunk_ids": [
+      "faa1d00f-39b5-5489-bda4-20e8888edc52"
+    ],
+    "sources": [
+      {
+        "chunk_id": "faa1d00f-39b5-5489-bda4-20e8888edc52",
+        "manual_id": "samsung_tv",
+        "page_id": "samsung_tv_00131",
+        "chunk_type": "text",
+        "text": "● Time-shifted videos are played according to the TV settings.\n● The Timeshift function may be terminated automatically once it reaches its maximum capacity.\n● The Timeshift function requires at least 1.5 GB of free space available on the USB storage device.",
+        "content_region_ids": [
+          "samsung_tv_2155",
+          "samsung_tv_2156",
+          "samsung_tv_2157"
+        ],
+        "context_region_ids": [],
+        "image_filename": "images/samsung_tv/images/131.jpg",
+        "source_shapes": [
+          {
+            "id": "samsung_tv_2155",
+            "shape": {
+              "x": 107.72000000000007,
+              "y": 578.4800000000004,
+              "width": 556.8600000000005,
+              "height": 23.980000000000132
+            }
+          },
+          {
+            "id": "samsung_tv_2156",
+            "shape": {
+              "x": 107.72000000000007,
+              "y": 629.9900000000002,
+              "width": 863.9200000000005,
+              "height": 23.979999999999677
+            }
+          },
+          {
+            "id": "samsung_tv_2157",
+            "shape": {
+              "x": 107.72000000000007,
+              "y": 681.5,
+              "width": 875.0400000000002,
+              "height": 23.98000000000036
+            }
+          }
+        ],
+        "source_spans": [
+          {
+            "region_id": "samsung_tv_2155",
+            "field": "ocr_normalized",
+            "start": 0,
+            "end": 62
+          },
+          {
+            "region_id": "samsung_tv_2156",
+            "field": "ocr_normalized",
+            "start": 0,
+            "end": 94
+          },
+          {
+            "region_id": "samsung_tv_2157",
+            "field": "ocr_normalized",
+            "start": 0,
+            "end": 100
+          }
+        ],
+        "content_origin": "source_ocr",
+        "quality_flags": [
+          "layout_geometry_heuristic"
+        ],
+        "score": 0.01576730418943534,
+        "table_rows": [],
+        "table_cells": [],
+        "source_id": "S1"
+      }
+    ],
+    "excluded_sources": [],
+    "top5_response_file": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_weights_20261102\\keyword_075\\results.json"
+  },
+  {
+    "case_id": "TEXT07",
+    "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+    "question": "Assistive Ball은 어떤 기능을 하나요?",
+    "english_query": "What functions does the Assistive Ball have?",
+    "keyword_percent": 75,
+    "dense_percent": 25,
+    "top_k": 1,
+    "retrieved_chunk_ids": [
+      "fb9875a4-d820-526e-8fee-4ea6732cd525"
+    ],
+    "sources": [
+      {
+        "chunk_id": "fb9875a4-d820-526e-8fee-4ea6732cd525",
+        "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+        "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00046",
+        "chunk_type": "text",
+        "text": "Use Assistive Ball to take a screenshot\n1. Go to \"Settings - System settings - Convenience tools - Assistive Ball\", and turn on \"Assistive Ball\". 2. Choose \"Tap menu\". 3. Tap the Assistive Ball and tap the Screenshot icon.",
+        "content_region_ids": [
+          "phone_os_User Guide_ColorOS_12_v1.0_20211028_348"
+        ],
+        "context_region_ids": [
+          "phone_os_User Guide_ColorOS_12_v1.0_20211028_347"
+        ],
+        "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00046.jpg",
+        "source_shapes": [
+          {
+            "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_348",
+            "shape": {
+              "x": 175.99999999999994,
+              "y": 271.6124954223633,
+              "width": 835.9999999999998,
+              "height": 120.0
+            }
+          },
+          {
+            "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_347",
+            "shape": {
+              "x": 175,
+              "y": 240.61249542236322,
+              "width": 363.9999999999999,
+              "height": 26.999999999999943
+            }
+          }
+        ],
+        "source_spans": [
+          {
+            "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_348",
+            "field": "ocr_normalized",
+            "start": 0,
+            "end": 182
+          }
+        ],
+        "content_origin": "source_ocr",
+        "quality_flags": [
+          "layout_geometry_heuristic"
+        ],
+        "score": 0.016327340031729243,
+        "table_rows": [],
+        "table_cells": [],
+        "source_id": "S1"
+      }
+    ],
+    "excluded_sources": [],
+    "top5_response_file": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_weights_20261102\\keyword_075\\results.json"
+  },
+  {
+    "case_id": "TEXT08",
+    "manual_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16",
+    "question": "이 장치의 입력 전압은 얼마인가요?",
+    "english_query": "What is the input voltage of this device?",
+    "keyword_percent": 75,
+    "dense_percent": 25,
+    "top_k": 1,
+    "retrieved_chunk_ids": [
+      "f3745ada-2f50-5aea-b145-7a1df768eac0"
+    ],
+    "sources": [
+      {
+        "chunk_id": "f3745ada-2f50-5aea-b145-7a1df768eac0",
+        "manual_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16",
+        "page_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00006",
+        "chunk_type": "text",
+        "text": "Electrical\nAC input voltage / frequency / current",
+        "content_region_ids": [
+          "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_780"
+        ],
+        "context_region_ids": [
+          "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_774"
+        ],
+        "image_filename": "images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16/images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00006.jpg",
+        "source_shapes": [
+          {
+            "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_780",
+            "shape": {
+              "x": 165.9374847412107,
+              "y": 1000.5687255859362,
+              "width": 171.49961853027344,
+              "height": 27.867919921874886
+            }
+          },
+          {
+            "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_774",
+            "shape": {
+              "x": 161.3671722412109,
+              "y": 863.0662841796872,
+              "width": 90.94734191894497,
+              "height": 23.914611816405
+            }
+          }
+        ],
+        "source_spans": [
+          {
+            "region_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_780",
+            "field": "ocr_normalized",
+            "start": 0,
+            "end": 38
+          }
+        ],
+        "content_origin": "source_ocr",
+        "quality_flags": [
+          "layout_geometry_heuristic"
+        ],
+        "score": 0.01639344262295082,
+        "table_rows": [],
+        "table_cells": [],
+        "source_id": "S1"
+      }
+    ],
+    "excluded_sources": [],
+    "top5_response_file": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_weights_20261102\\keyword_075\\results.json"
+  },
+  {
+    "case_id": "TEXT09",
+    "manual_id": "Watch_Apple_User_Guide",
+    "question": "Siri에게 시간을 물으려면 어떻게 말해야 하나요?",
+    "english_query": "How do I ask Siri for the time?",
+    "keyword_percent": 75,
+    "dense_percent": 25,
+    "top_k": 1,
+    "retrieved_chunk_ids": [
+      "169ecba8-4e08-5d1c-a1dc-9f18ac61d482"
+    ],
+    "sources": [
+      {
+        "chunk_id": "169ecba8-4e08-5d1c-a1dc-9f18ac61d482",
+        "manual_id": "Watch_Apple_User_Guide",
+        "page_id": "Watch_Apple_User_Guide_00248",
+        "chunk_type": "text",
+        "text": "Ask Siri.Say something like: “Set a timer for 20 minutes.”",
+        "content_region_ids": [
+          "Watch_Apple_User_Guide_5636"
+        ],
+        "context_region_ids": [],
+        "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00253.jpg",
+        "source_shapes": [
+          {
+            "id": "Watch_Apple_User_Guide_5636",
+            "shape": {
+              "x": 340.7059936523439,
+              "y": 295.60225423177087,
+              "width": 506.4146525065103,
+              "height": 26.708007812499943
+            }
+          }
+        ],
+        "source_spans": [
+          {
+            "region_id": "Watch_Apple_User_Guide_5636",
+            "field": "ocr_normalized",
+            "start": 0,
+            "end": 58
+          }
+        ],
+        "content_origin": "source_ocr",
+        "quality_flags": [
+          "layout_geometry_heuristic"
+        ],
+        "score": 0.016065028161802355,
+        "table_rows": [],
+        "table_cells": [],
+        "source_id": "S1"
+      }
+    ],
+    "excluded_sources": [],
+    "top5_response_file": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_weights_20261102\\keyword_075\\results.json"
+  },
+  {
+    "case_id": "TEXT10",
+    "manual_id": "samsung_dish_washer_6918977 a",
+    "question": "유입되는 물의 온도는 얼마여야 하나요?",
+    "english_query": "What temperature should the incoming water be?",
+    "keyword_percent": 75,
+    "dense_percent": 25,
+    "top_k": 1,
+    "retrieved_chunk_ids": [
+      "37a9e891-900d-5c2c-b5c8-7dfa202a72c8"
+    ],
+    "sources": [
+      {
+        "chunk_id": "37a9e891-900d-5c2c-b5c8-7dfa202a72c8",
+        "manual_id": "samsung_dish_washer_6918977 a",
+        "page_id": "samsung_dish_washer_6918977 a_00006",
+        "chunk_type": "text",
+        "text": "Hot Water\nFor optimal cleaning and drying results, hot water is necessary. The incoming water temperature should be 120° F (49° C) to properly activate the detergent and melt greasy food soils.\nTo check the incoming water temperature, turn on the hot water faucet nearest the dishwasher and let it run into a glass in the sink. Place a candy thermometer in the glass and check the temperature once it has stopped rising.",
+        "content_region_ids": [
+          "samsung_dish_washer_6918977 a_145",
+          "samsung_dish_washer_6918977 a_146"
+        ],
+        "context_region_ids": [
+          "samsung_dish_washer_6918977 a_165"
+        ],
+        "image_filename": "images/samsung_dish_washer_6918977 a/images/6.jpg",
+        "source_shapes": [
+          {
+            "id": "samsung_dish_washer_6918977 a_145",
+            "shape": {
+              "x": 75.62000000000006,
+              "y": 211.13,
+              "width": 507.2500000000003,
+              "height": 105.71000000000038
+            }
+          },
+          {
+            "id": "samsung_dish_washer_6918977 a_146",
+            "shape": {
+              "x": 75.62000000000006,
+              "y": 329.2500000000004,
+              "width": 501.19000000000034,
+              "height": 131.5799999999998
+            }
+          },
+          {
+            "id": "samsung_dish_washer_6918977 a_165",
+            "shape": {
+              "x": 76.62000000000006,
+              "y": 152.44000000000005,
+              "width": 166.64000000000001,
+              "height": 43.379999999999995
+            }
+          }
+        ],
+        "source_spans": [
+          {
+            "region_id": "samsung_dish_washer_6918977 a_145",
+            "field": "ocr_normalized",
+            "start": 0,
+            "end": 183
+          },
+          {
+            "region_id": "samsung_dish_washer_6918977 a_146",
+            "field": "ocr_normalized",
+            "start": 0,
+            "end": 226
+          }
+        ],
+        "content_origin": "source_ocr",
+        "quality_flags": [
+          "layout_geometry_heuristic"
+        ],
+        "score": 0.01639344262295082,
+        "table_rows": [],
+        "table_cells": [],
+        "source_id": "S1"
+      }
+    ],
+    "excluded_sources": [],
+    "top5_response_file": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_weights_20261102\\keyword_075\\results.json"
+  },
+  {
+    "case_id": "TABLE01",
+    "manual_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740",
+    "question": "저음이나 고음이 약하면 어떻게 해야 하나요?",
+    "english_query": "What should I do if the low or high sound is weak?",
+    "keyword_percent": 75,
+    "dense_percent": 25,
+    "top_k": 1,
+    "retrieved_chunk_ids": [
+      "1aff7bae-3e4e-5724-b112-1fd1f3dc9a66"
+    ],
+    "sources": [
+      {
+        "chunk_id": "1aff7bae-3e4e-5724-b112-1fd1f3dc9a66",
+        "manual_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740",
+        "page_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00011",
+        "chunk_type": "table",
+        "text": "Troubleshooting\nFirst row (header unconfirmed): Column 1: Problem | Column 2: What to do\nColumn 1: The bass or treble is weak | Column 2: • Check the tonal balance setting on your receiver or amplifier.",
+        "content_region_ids": [
+          "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_100"
+        ],
+        "context_region_ids": [
+          "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_97"
+        ],
+        "image_filename": "images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740/images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00012.jpg",
+        "source_shapes": [
+          {
+            "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_100",
+            "shape": {
+              "x": 70.25000000000001,
+              "y": 168.99999999999994,
+              "width": 1091.5,
+              "height": 676.0000000000002
+            }
+          },
+          {
+            "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_97",
+            "shape": {
+              "x": 77.99999999999996,
+              "y": 116.5570526123047,
+              "width": 221.66030883789074,
+              "height": 34.97200012207027
+            }
+          },
+          {
+            "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_82",
+            "shape": {
+              "x": 83.95440673828124,
+              "y": 384.0797424316407,
+              "width": 222.1856079101563,
+              "height": 23.320007324218864
+            }
+          },
+          {
+            "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_83",
+            "shape": {
+              "x": 358.4524230957031,
+              "y": 384.0797424316407,
+              "width": 528.2588806152344,
+              "height": 23.320007324218864
+            }
+          },
+          {
+            "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_95",
+            "shape": {
+              "x": 86.40000152587893,
+              "y": 182.81225585937503,
+              "width": 82.94721221923831,
+              "height": 24.979995727539034
+            }
+          },
+          {
+            "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_96",
+            "shape": {
+              "x": 350.31378173828136,
+              "y": 182.81225585937503,
+              "width": 104.742431640625,
+              "height": 24.979995727539034
+            }
+          }
+        ],
+        "source_spans": [],
+        "content_origin": "paddle_table",
+        "quality_flags": [
+          "table_header_unmarked_review_required"
+        ],
+        "score": 0.01639344262295082,
+        "table_rows": [
+          2
+        ],
+        "table_cells": [
+          {
+            "row": 2,
+            "column": 0,
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "rowspan": 1,
+            "colspan": 1
+          }
+        ],
+        "source_id": "S1"
+      }
+    ],
+    "excluded_sources": [],
+    "top5_response_file": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_weights_20261102\\keyword_075\\results.json"
+  },
+  {
+    "case_id": "TABLE02",
+    "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+    "question": "제품 패키지에는 어떤 구성품이 들어 있어야 하나요?",
+    "english_query": "What components should be included in the product package?",
+    "keyword_percent": 75,
+    "dense_percent": 25,
+    "top_k": 1,
+    "retrieved_chunk_ids": [
+      "409d262c-b26f-5067-922d-a42c9ce2a1b1"
+    ],
+    "sources": [
+      {
+        "chunk_id": "409d262c-b26f-5067-922d-a42c9ce2a1b1",
+        "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+        "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00001",
+        "chunk_type": "text",
+        "text": "Package Contents\nBe sure to check that the package contains all the items listed below:",
+        "content_region_ids": [
+          "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_11"
+        ],
+        "context_region_ids": [
+          "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_2"
+        ],
+        "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00002.jpg",
+        "source_shapes": [
+          {
+            "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_11",
+            "shape": {
+              "x": 175.0000000000001,
+              "y": 517.6093749999999,
+              "width": 643.0000000000003,
+              "height": 29.000000000000114
+            }
+          },
+          {
+            "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_2",
+            "shape": {
+              "x": 174.8399963378907,
+              "y": 474.95278930664085,
+              "width": 193.29559326171866,
+              "height": 28.044128417968864
+            }
+          }
+        ],
+        "source_spans": [
+          {
+            "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_11",
+            "field": "ocr_normalized",
+            "start": 0,
+            "end": 70
+          }
+        ],
+        "content_origin": "source_ocr",
+        "quality_flags": [
+          "layout_geometry_heuristic"
+        ],
+        "score": 0.01639344262295082,
+        "table_rows": [],
+        "table_cells": [],
+        "source_id": "S1"
+      }
+    ],
+    "excluded_sources": [],
+    "top5_response_file": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_weights_20261102\\keyword_075\\results.json"
+  },
+  {
+    "case_id": "TABLE03",
+    "manual_id": "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)",
+    "question": "헤드셋은 어디에 연결하나요?",
+    "english_query": "Where do I connect the headset?",
+    "keyword_percent": 75,
+    "dense_percent": 25,
+    "top_k": 1,
+    "retrieved_chunk_ids": [
+      "ca646b5c-78a9-5ae2-8277-b3858498df79"
+    ],
+    "sources": [
+      {
+        "chunk_id": "ca646b5c-78a9-5ae2-8277-b3858498df79",
+        "manual_id": "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)",
+        "page_id": "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_00001",
+        "chunk_type": "text",
+        "text": "Appearance\nConnects to a headset.",
+        "content_region_ids": [
+          "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_22"
+        ],
+        "context_region_ids": [
+          "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_1"
+        ],
+        "image_filename": "images/HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)/images/HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_00003.jpg",
+        "source_shapes": [
+          {
+            "id": "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_22",
+            "shape": {
+              "x": 192.08750915527358,
+              "y": 1047.3531494140634,
+              "width": 248.50727844238295,
+              "height": 28.124999999999318
+            }
+          },
+          {
+            "id": "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_1",
+            "shape": {
+              "x": 90.03945922851564,
+              "y": 188.62457275390636,
+              "width": 226.64233398437506,
+              "height": 46.87499999999997
+            }
+          }
+        ],
+        "source_spans": [
+          {
+            "region_id": "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_22",
+            "field": "ocr_normalized",
+            "start": 0,
+            "end": 22
+          }
+        ],
+        "content_origin": "source_ocr",
+        "quality_flags": [
+          "layout_geometry_heuristic"
+        ],
+        "score": 0.01639344262295082,
+        "table_rows": [],
+        "table_cells": [],
+        "source_id": "S1"
+      }
+    ],
+    "excluded_sources": [],
+    "top5_response_file": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_weights_20261102\\keyword_075\\results.json"
+  },
+  {
+    "case_id": "TABLE04",
+    "manual_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English",
+    "question": "SamsungPortableSSD.exe로 설치한 소프트웨어는 어떻게 삭제하나요?",
+    "english_query": "How do I uninstall the software installed with SamsungPortableSSD.exe?",
+    "keyword_percent": 75,
+    "dense_percent": 25,
+    "top_k": 1,
+    "retrieved_chunk_ids": [
+      "4c214671-50e2-535e-a8ff-7ba0a9d62298"
+    ],
+    "sources": [
+      {
+        "chunk_id": "4c214671-50e2-535e-a8ff-7ba0a9d62298",
+        "manual_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English",
+        "page_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00015",
+        "chunk_type": "text",
+        "text": "Deleting software on each OS\nIf user installed SW using SamsungPortableSSD.exe",
+        "content_region_ids": [
+          "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_201"
+        ],
+        "context_region_ids": [
+          "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_195"
+        ],
+        "image_filename": "images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English/images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00017.jpg",
+        "source_shapes": [
+          {
+            "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_201",
+            "shape": {
+              "x": 324.9599914550783,
+              "y": 632.6849365234378,
+              "width": 240.31326293945307,
+              "height": 50.52368164062523
+            }
+          },
+          {
+            "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_195",
+            "shape": {
+              "x": 172.3199462890626,
+              "y": 320.88769531250017,
+              "width": 313.14846801757824,
+              "height": 28.781250000000057
+            }
+          }
+        ],
+        "source_spans": [
+          {
+            "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_201",
+            "field": "ocr_normalized",
+            "start": 0,
+            "end": 49
+          }
+        ],
+        "content_origin": "source_ocr",
+        "quality_flags": [
+          "layout_geometry_heuristic"
+        ],
+        "score": 0.016201331967213115,
+        "table_rows": [],
+        "table_cells": [],
+        "source_id": "S1"
+      }
+    ],
+    "excluded_sources": [],
+    "top5_response_file": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_weights_20261102\\keyword_075\\results.json"
+  },
+  {
+    "case_id": "TABLE05",
+    "manual_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a",
+    "question": "시스템이 작동하지 않으면 어떻게 해야 하나요?",
+    "english_query": "What should I do if the system does not work?",
+    "keyword_percent": 75,
+    "dense_percent": 25,
+    "top_k": 1,
+    "retrieved_chunk_ids": [
+      "5c1e9b64-640e-5c1c-8cb5-620aacb75790"
+    ],
+    "sources": [
+      {
+        "chunk_id": "5c1e9b64-640e-5c1c-8cb5-620aacb75790",
+        "manual_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a",
+        "page_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00024",
+        "chunk_type": "text",
+        "text": "Personalizing Your Wave® Music System\nIf you wish, you can restore your Wave® music system to the original factory settings.",
+        "content_region_ids": [
+          "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_487"
+        ],
+        "context_region_ids": [
+          "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_478"
+        ],
+        "image_filename": "images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a/images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00025.jpg",
+        "source_shapes": [
+          {
+            "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_487",
+            "shape": {
+              "x": 323.9979858398437,
+              "y": 811.6240234374999,
+              "width": 757.0003051757812,
+              "height": 27.370056152343977
+            }
+          },
+          {
+            "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_478",
+            "shape": {
+              "x": 572.3980102539061,
+              "y": 53.64562606811524,
+              "width": 561.3976440429691,
+              "height": 38.47488021850585
+            }
+          }
+        ],
+        "source_spans": [
+          {
+            "region_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_487",
+            "field": "ocr_normalized",
+            "start": 0,
+            "end": 86
+          }
+        ],
+        "content_origin": "source_ocr",
+        "quality_flags": [
+          "layout_geometry_heuristic"
+        ],
+        "score": 0.015143407534246575,
+        "table_rows": [],
+        "table_cells": [],
+        "source_id": "S1"
+      }
+    ],
+    "excluded_sources": [],
+    "top5_response_file": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_weights_20261102\\keyword_075\\results.json"
+  },
+  {
+    "case_id": "TABLE06",
+    "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+    "question": "리모컨으로 스피커를 제어할 수 없으면 어떻게 해야 하나요?",
+    "english_query": "What should I do if I cannot control the speaker with the remote?",
+    "keyword_percent": 75,
+    "dense_percent": 25,
+    "top_k": 1,
+    "retrieved_chunk_ids": [
+      "0b38fdf9-4579-5be6-8d88-a5ea59fd7ae0"
+    ],
+    "sources": [
+      {
+        "chunk_id": "0b38fdf9-4579-5be6-8d88-a5ea59fd7ae0",
+        "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+        "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00010",
+        "chunk_type": "text",
+        "text": "tips on using the remote control:\nSome conditions, such as room lighting, furniture that blocks the signal path, or direct sunlight, can affect remote operation.\nIf the remote does not work as it should:\nPoint the remote more directly at the right speaker, • which receives the remote control signals.\nDim the room lights or move the speakers away from • direct sunlight.\nMove closer to the system when you use the remote. •\nIf the problem persists, replace the remote control • battery.",
+        "content_region_ids": [
+          "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_82",
+          "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_83",
+          "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_84",
+          "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_85",
+          "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_86",
+          "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_87"
+        ],
+        "context_region_ids": [
+          "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_81"
+        ],
+        "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00011.jpg",
+        "source_shapes": [
+          {
+            "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_82",
+            "shape": {
+              "x": 637.2000122070314,
+              "y": 364.6799621582031,
+              "width": 478.6598510742191,
+              "height": 67.32000732421875
+            }
+          },
+          {
+            "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_83",
+            "shape": {
+              "x": 642.7600097656251,
+              "y": 442.6799621582031,
+              "width": 360.079650878906,
+              "height": 23.320007324218864
+            }
+          },
+          {
+            "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_84",
+            "shape": {
+              "x": 637.2000122070314,
+              "y": 476.6799621582029,
+              "width": 469.99981689453114,
+              "height": 45.32003784179699
+            }
+          },
+          {
+            "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_85",
+            "shape": {
+              "x": 637.2000122070314,
+              "y": 532.6799926757812,
+              "width": 489.9799194335934,
+              "height": 45.320007324218864
+            }
+          },
+          {
+            "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_86",
+            "shape": {
+              "x": 637.2000122070314,
+              "y": 588.6799926757814,
+              "width": 490.72003173828114,
+              "height": 23.32000732421875
+            }
+          },
+          {
+            "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_87",
+            "shape": {
+              "x": 637.2000122070314,
+              "y": 622.6799926757815,
+              "width": 463.67974853515614,
+              "height": 45.32000732421841
+            }
+          },
+          {
+            "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_81",
+            "shape": {
+              "x": 637.2000122070314,
+              "y": 330.219970703125,
+              "width": 315.81976318359364,
+              "height": 23.8599853515625
+            }
+          }
+        ],
+        "source_spans": [
+          {
+            "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_82",
+            "field": "ocr_normalized",
+            "start": 0,
+            "end": 127
+          },
+          {
+            "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_83",
+            "field": "ocr_normalized",
+            "start": 0,
+            "end": 41
+          },
+          {
+            "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_84",
+            "field": "ocr_normalized",
+            "start": 0,
+            "end": 97
+          },
+          {
+            "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_85",
+            "field": "ocr_normalized",
+            "start": 0,
+            "end": 69
+          },
+          {
+            "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_86",
+            "field": "ocr_normalized",
+            "start": 0,
+            "end": 52
+          },
+          {
+            "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_87",
+            "field": "ocr_normalized",
+            "start": 0,
+            "end": 62
+          }
+        ],
+        "content_origin": "source_ocr",
+        "quality_flags": [
+          "layout_geometry_heuristic"
+        ],
+        "score": 0.016327340031729243,
+        "table_rows": [],
+        "table_cells": [],
+        "source_id": "S1"
+      }
+    ],
+    "excluded_sources": [],
+    "top5_response_file": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_weights_20261102\\keyword_075\\results.json"
+  },
+  {
+    "case_id": "TABLE07",
+    "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+    "question": "배터리 상태 표시로 무엇을 알 수 있나요?",
+    "english_query": "What can be known from the battery status indicator?",
+    "keyword_percent": 75,
+    "dense_percent": 25,
+    "top_k": 1,
+    "retrieved_chunk_ids": [
+      "2333ca0c-4e3f-550d-9afc-63d6631c573b"
+    ],
+    "sources": [
+      {
+        "chunk_id": "2333ca0c-4e3f-550d-9afc-63d6631c573b",
+        "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+        "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00011",
+        "chunk_type": "table",
+        "text": "System status indicators\nFirst row (header unconfirmed): Column 1: Status indicator | Column 2: System status\nColumn 1: [empty cell] | Column 2: Indicates the battery power level or the battery charging state.See“Checking the battery\" on page 14.",
+        "content_region_ids": [
+          "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_100"
+        ],
+        "context_region_ids": [
+          "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_84"
+        ],
+        "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00012.jpg",
+        "source_shapes": [
+          {
+            "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_100",
+            "shape": {
+              "x": 50,
+              "y": 427.6406249999998,
+              "width": 676.9999999999991,
+              "height": 476.9999999999998
+            }
+          },
+          {
+            "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_84",
+            "shape": {
+              "x": 53.35300064086908,
+              "y": 94.41240692138666,
+              "width": 323.2880516052244,
+              "height": 33.54399871826169
+            }
+          },
+          {
+            "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_86",
+            "shape": {
+              "x": 60.186333974202434,
+              "y": 437.6632080078121,
+              "width": 79.76270167032874,
+              "height": 40.80531819661434
+            }
+          },
+          {
+            "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_95",
+            "shape": {
+              "x": 156.66666666666652,
+              "y": 459.09375,
+              "width": 126.66666666666646,
+              "height": 21.333333333332803
+            }
+          }
+        ],
+        "source_spans": [],
+        "content_origin": "paddle_table",
+        "quality_flags": [
+          "table_header_unmarked_review_required"
+        ],
+        "score": 0.01639344262295082,
+        "table_rows": [
+          4
+        ],
+        "table_cells": [
+          {
+            "row": 4,
+            "column": 0,
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "rowspan": 1,
+            "colspan": 1
+          }
+        ],
+        "source_id": "S1"
+      }
+    ],
+    "excluded_sources": [],
+    "top5_response_file": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_weights_20261102\\keyword_075\\results.json"
+  },
+  {
+    "case_id": "TABLE08",
+    "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+    "question": "충전 수준은 어떻게 확인하나요?",
+    "english_query": "How do I check the charge level?",
+    "keyword_percent": 75,
+    "dense_percent": 25,
+    "top_k": 1,
+    "retrieved_chunk_ids": [
+      "eca1aed9-43f3-547b-83f7-637664c2a4d3"
+    ],
+    "sources": [
+      {
+        "chunk_id": "eca1aed9-43f3-547b-83f7-637664c2a4d3",
+        "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+        "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00007",
+        "chunk_type": "table",
+        "text": "First row (header unconfirmed): Column 1: Charge level | Column 2: Indicator color\nColumn 1: Charge level | Column 2: Indicator color\nColumn 1: More than 80% | Column 2: Blue\nColumn 1: 30-80% | Column 2: Purple\nColumn 1: Less than 30% | Column 2: Red",
+        "content_region_ids": [
+          "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_55"
+        ],
+        "context_region_ids": [],
+        "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/7.jpg",
+        "source_shapes": [
+          {
+            "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_55",
+            "shape": {
+              "x": 31.87,
+              "y": 33.14,
+              "width": 187.6299999999999,
+              "height": 118.24
+            }
+          },
+          {
+            "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_49",
+            "shape": {
+              "x": 140.04,
+              "y": 81.14999999999998,
+              "width": 22.039999999999935,
+              "height": 15.620000000000033
+            }
+          },
+          {
+            "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_51",
+            "shape": {
+              "x": 140.04,
+              "y": 37.56,
+              "width": 44.569999999999936,
+              "height": 30.629999999999995
+            }
+          },
+          {
+            "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_57",
+            "shape": {
+              "x": 139.52,
+              "y": 132.93,
+              "width": 21.879999999999995,
+              "height": 12.990000000000009
+            }
+          },
+          {
+            "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_58",
+            "shape": {
+              "x": 42.519999999999996,
+              "y": 45.05999999999998,
+              "width": 61.59999999999998,
+              "height": 15.620000000000019
+            }
+          },
+          {
+            "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_59",
+            "shape": {
+              "x": 140.04,
+              "y": 109.73,
+              "width": 32.47999999999999,
+              "height": 15.629999999999995
+            }
+          }
+        ],
+        "source_spans": [],
+        "content_origin": "paddle_table",
+        "quality_flags": [
+          "table_header_unmarked_review_required"
+        ],
+        "score": 0.016327340031729243,
+        "table_rows": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "table_cells": [
+          {
+            "row": 0,
+            "column": 0,
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 0,
+            "column": 1,
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 1,
+            "column": 0,
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 1,
+            "column": 1,
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 2,
+            "column": 0,
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 3,
+            "column": 0,
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "rowspan": 1,
+            "colspan": 1
+          }
+        ],
+        "source_id": "S1"
+      }
+    ],
+    "excluded_sources": [],
+    "top5_response_file": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_weights_20261102\\keyword_075\\results.json"
+  },
+  {
+    "case_id": "TABLE09",
+    "manual_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)",
+    "question": "네트워크 아이콘의 R은 무엇을 뜻하나요?",
+    "english_query": "What does the R in the network icon mean?",
+    "keyword_percent": 75,
+    "dense_percent": 25,
+    "top_k": 1,
+    "retrieved_chunk_ids": [
+      "5efc3569-9d20-5a66-8eeb-a3b22306b9bb"
+    ],
+    "sources": [
+      {
+        "chunk_id": "5efc3569-9d20-5a66-8eeb-a3b22306b9bb",
+        "manual_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)",
+        "page_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00007",
+        "chunk_type": "figure",
+        "text": "Notification and Status Icons\nA black-and-white icon depicting the letter 'R' alongside four ascending vertical bars resembling signal strength indicators.",
+        "content_region_ids": [
+          "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_205"
+        ],
+        "context_region_ids": [
+          "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_182"
+        ],
+        "image_filename": "images/HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)/images/HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00010.jpg",
+        "source_shapes": [
+          {
+            "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_205",
+            "shape": {
+              "x": 598.9861145019531,
+              "y": 1348.336853027344,
+              "width": 56.000000000000114,
+              "height": 60.0
+            }
+          },
+          {
+            "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_182",
+            "shape": {
+              "x": 90.04759216308597,
+              "y": 990.6762695312503,
+              "width": 558.4535064697268,
+              "height": 46.875000000000114
+            }
+          }
+        ],
+        "source_spans": [
+          {
+            "region_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_205",
+            "field": "description_normalized",
+            "start": 0,
+            "end": 125
+          }
+        ],
+        "content_origin": "qwen_figure_description",
+        "quality_flags": [],
+        "score": 0.016195134849286093,
+        "table_rows": [],
+        "table_cells": [],
+        "source_id": "S1"
+      }
+    ],
+    "excluded_sources": [],
+    "top5_response_file": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_weights_20261102\\keyword_075\\results.json"
+  },
+  {
+    "case_id": "TABLE10",
+    "manual_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a",
+    "question": "10-1 코드는 무슨 뜻인가요?",
+    "english_query": "What does code 10-1 mean?",
+    "keyword_percent": 75,
+    "dense_percent": 25,
+    "top_k": 1,
+    "retrieved_chunk_ids": [
+      "23c6d4bf-3aa4-596b-a915-82bd09bb8e24"
+    ],
+    "sources": [
+      {
+        "chunk_id": "23c6d4bf-3aa4-596b-a915-82bd09bb8e24",
+        "manual_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a",
+        "page_id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_00016",
+        "chunk_type": "table",
+        "text": "USING COMMON 10-CODES\nFirst row (header unconfirmed): Column 1: Code | Column 2: Meaning\nColumn 1: Code | Column 2: Meaning\nColumn 1: 10-1 | Column 2: Your signal is bad.\nColumn 1: 10-2 | Column 2: Your signal is good.\nColumn 1: 10-3 | Column 2: Stop transmitting.\nColumn 1: 10-4 | Column 2: Message received and under- stood.\nColumn 1: 10-5 | Column 2: Relay information to\nColumn 1: 10-6 | Column 2: I am busy or are you busy?\nColumn 1: 10-7 | Column 2: Out of service.",
+        "content_region_ids": [
+          "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_70"
+        ],
+        "context_region_ids": [
+          "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_0"
+        ],
+        "image_filename": "images/samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a/images/samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_00017.jpg",
+        "source_shapes": [
+          {
+            "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_70",
+            "shape": {
+              "x": 237.76171875,
+              "y": 501.3750000000003,
+              "width": 356.9999999999998,
+              "height": 775.5
+            }
+          },
+          {
+            "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_0",
+            "shape": {
+              "x": 246.3200073242188,
+              "y": 300.1372375488283,
+              "width": 374.61499023437517,
+              "height": 38.335662841796704
+            }
+          },
+          {
+            "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_3",
+            "shape": {
+              "x": 262.64001464843756,
+              "y": 517.2288818359377,
+              "width": 44.506561279296875,
+              "height": 24.455505371093523
+            }
+          },
+          {
+            "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_4",
+            "shape": {
+              "x": 419.19439697265625,
+              "y": 517.2288818359377,
+              "width": 72.76269531250006,
+              "height": 24.455505371093523
+            }
+          },
+          {
+            "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_5",
+            "shape": {
+              "x": 258.320770263672,
+              "y": 563.930603027344,
+              "width": 35.750885009765625,
+              "height": 24.402221679687386
+            }
+          },
+          {
+            "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_6",
+            "shape": {
+              "x": 336.020751953125,
+              "y": 563.930603027344,
+              "width": 145.97268676757847,
+              "height": 24.40362548828125
+            }
+          },
+          {
+            "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_8",
+            "shape": {
+              "x": 258.31890869140625,
+              "y": 647.9324340820317,
+              "width": 35.80416870117193,
+              "height": 24.402221679687045
+            }
+          },
+          {
+            "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_9",
+            "shape": {
+              "x": 336.08993530273443,
+              "y": 647.9320068359375,
+              "width": 139.817352294922,
+              "height": 24.40264892578125
+            }
+          },
+          {
+            "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_10",
+            "shape": {
+              "x": 332.32061767578136,
+              "y": 690.6920166015626,
+              "width": 246.5617675781249,
+              "height": 42.4814453125
+            }
+          },
+          {
+            "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_12",
+            "shape": {
+              "x": 327.31900024414074,
+              "y": 795.7725219726566,
+              "width": 225.05233764648438,
+              "height": 24.40222167968716
+            }
+          },
+          {
+            "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_13",
+            "shape": {
+              "x": 258.3190002441405,
+              "y": 838.0128784179688,
+              "width": 35.804168701172046,
+              "height": 24.402221679687727
+            }
+          },
+          {
+            "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_14",
+            "shape": {
+              "x": 336.09002685546886,
+              "y": 838.0128784179688,
+              "width": 115.81292724609375,
+              "height": 24.402221679687727
+            }
+          },
+          {
+            "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_43",
+            "shape": {
+              "x": 255.00000000000009,
+              "y": 703.265625,
+              "width": 40.99999999999997,
+              "height": 22.0
+            }
+          },
+          {
+            "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_44",
+            "shape": {
+              "x": 257.98828125,
+              "y": 798.2617187499999,
+              "width": 42.999999999999886,
+              "height": 21.0
+            }
+          },
+          {
+            "id": "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_45",
+            "shape": {
+              "x": 257.98828125,
+              "y": 756.26171875,
+              "width": 42.00000000000006,
+              "height": 23.0
+            }
+          }
+        ],
+        "source_spans": [],
+        "content_origin": "paddle_table",
+        "quality_flags": [
+          "table_header_unmarked_review_required"
+        ],
+        "score": 0.01639344262295082,
+        "table_rows": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "table_cells": [
+          {
+            "row": 0,
+            "column": 0,
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 0,
+            "column": 1,
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 1,
+            "column": 0,
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 1,
+            "column": 1,
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 2,
+            "column": 0,
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 3,
+            "column": 0,
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 4,
+            "column": 0,
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 5,
+            "column": 0,
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 6,
+            "column": 0,
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 7,
+            "column": 0,
+            "rowspan": 1,
+            "colspan": 1
+          },
+          {
+            "row": 7,
+            "column": 1,
+            "rowspan": 1,
+            "colspan": 1
+          }
+        ],
+        "source_id": "S1"
+      }
+    ],
+    "excluded_sources": [],
+    "top5_response_file": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_weights_20261102\\keyword_075\\results.json"
+  },
+  {
+    "case_id": "FIG01",
+    "manual_id": "og_en_wmsucb",
+    "question": "전동 드릴을 사용하기 전에 무엇에 주의해야 하나요?",
+    "english_query": "What should I pay attention to before using the cordless drill?",
+    "keyword_percent": 75,
+    "dense_percent": 25,
+    "top_k": 1,
+    "retrieved_chunk_ids": [
+      "9e949d91-958a-5b90-80f1-8c8b38bea371"
+    ],
+    "sources": [
+      {
+        "chunk_id": "9e949d91-958a-5b90-80f1-8c8b38bea371",
+        "manual_id": "og_en_wmsucb",
+        "page_id": "og_en_wmsucb_00004",
+        "chunk_type": "title",
+        "text": "Before using your drill",
+        "content_region_ids": [
+          "og_en_wmsucb_397"
+        ],
+        "context_region_ids": [],
+        "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00004.jpg",
+        "source_shapes": [
+          {
+            "id": "og_en_wmsucb_397",
+            "shape": {
+              "x": 320.99999999999994,
+              "y": 118.55207824707028,
+              "width": 280.0000000000003,
+              "height": 34.0
+            }
+          }
+        ],
+        "source_spans": [
+          {
+            "region_id": "og_en_wmsucb_397",
+            "field": "ocr_normalized",
+            "start": 0,
+            "end": 23
+          }
+        ],
+        "content_origin": "source_ocr",
+        "quality_flags": [],
+        "score": 0.01639344262295082,
+        "table_rows": [],
+        "table_cells": [],
+        "source_id": "S1"
+      }
+    ],
+    "excluded_sources": [],
+    "top5_response_file": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_weights_20261102\\keyword_075\\results.json"
+  },
+  {
+    "case_id": "FIG02",
+    "manual_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122",
+    "question": "오디오 입력 커넥터에는 무엇을 사용해 연결하나요?",
+    "english_query": "What is used to connect the audio input connector?",
+    "keyword_percent": 75,
+    "dense_percent": 25,
+    "top_k": 1,
+    "retrieved_chunk_ids": [
+      "489ca772-b962-5132-b518-295cf22cf597"
+    ],
+    "sources": [
+      {
+        "chunk_id": "489ca772-b962-5132-b518-295cf22cf597",
+        "manual_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122",
+        "page_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_00004",
+        "chunk_type": "text",
+        "text": "The rear panel provides a power connector, audio input connectors, and room code switches.\n2",
+        "content_region_ids": [
+          "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_247"
+        ],
+        "context_region_ids": [
+          "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_238"
+        ],
+        "image_filename": "images/bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122/images/bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_00004.jpg",
+        "source_shapes": [
+          {
+            "id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_247",
+            "shape": {
+              "x": 286.32000732421875,
+              "y": 366.88198852539017,
+              "width": 11.339996337890511,
+              "height": 21.330017089843693
+            }
+          },
+          {
+            "id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_238",
+            "shape": {
+              "x": 71.99999999999997,
+              "y": 175.34397888183588,
+              "width": 443.00689697265614,
+              "height": 41.022003173828125
+            }
+          }
+        ],
+        "source_spans": [
+          {
+            "region_id": "bose_home_theater_system_manuals_6be6168b-df9c-40c5-a332-96d84277e122_247",
+            "field": "ocr_normalized",
+            "start": 0,
+            "end": 1
+          }
+        ],
+        "content_origin": "source_ocr",
+        "quality_flags": [
+          "layout_geometry_heuristic"
+        ],
+        "score": 0.01562841530054645,
+        "table_rows": [],
+        "table_cells": [],
+        "source_id": "S1"
+      }
+    ],
+    "excluded_sources": [],
+    "top5_response_file": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_weights_20261102\\keyword_075\\results.json"
+  },
+  {
+    "case_id": "FIG03",
+    "manual_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7",
+    "question": "이미지 파일은 어떻게 보나요?",
+    "english_query": "How do I view image files?",
+    "keyword_percent": 75,
+    "dense_percent": 25,
+    "top_k": 1,
+    "retrieved_chunk_ids": [
+      "9f7364b7-886f-5b78-91dd-10401fc7d443"
+    ],
+    "sources": [
+      {
+        "chunk_id": "9f7364b7-886f-5b78-91dd-10401fc7d443",
+        "manual_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7",
+        "page_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_00004",
+        "chunk_type": "text",
+        "text": "Image File Viewer Function\nG You can view image files in JPEG format.",
+        "content_region_ids": [
+          "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_634"
+        ],
+        "context_region_ids": [
+          "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_633"
+        ],
+        "image_filename": "images/samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7/images/samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_00005.jpg",
+        "source_shapes": [
+          {
+            "id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_634",
+            "shape": {
+              "x": 727.6599731445315,
+              "y": 513.5599975585939,
+              "width": 278.0084228515624,
+              "height": 21.984008789062386
+            }
+          },
+          {
+            "id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_633",
+            "shape": {
+              "x": 727.6599731445315,
+              "y": 472.66000366210955,
+              "width": 352.8195190429685,
+              "height": 41.310028076171704
+            }
+          }
+        ],
+        "source_spans": [
+          {
+            "region_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_634",
+            "field": "ocr_normalized",
+            "start": 0,
+            "end": 42
+          }
+        ],
+        "content_origin": "source_ocr",
+        "quality_flags": [
+          "layout_geometry_heuristic"
+        ],
+        "score": 0.016327340031729243,
+        "table_rows": [],
+        "table_cells": [],
+        "source_id": "S1"
+      }
+    ],
+    "excluded_sources": [],
+    "top5_response_file": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_weights_20261102\\keyword_075\\results.json"
+  },
+  {
+    "case_id": "FIG04",
+    "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+    "question": "볼륨을 낮추는 Volume- 버튼은 어디에 있나요?",
+    "english_query": "Where is the Volume- button to lower the volume located?",
+    "keyword_percent": 75,
+    "dense_percent": 25,
+    "top_k": 1,
+    "retrieved_chunk_ids": [
+      "ffbb4b35-d0ce-5984-9c27-19e61e3871e7"
+    ],
+    "sources": [
+      {
+        "chunk_id": "ffbb4b35-d0ce-5984-9c27-19e61e3871e7",
+        "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+        "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00002",
+        "chunk_type": "text",
+        "text": "[Volume (+)] button",
+        "content_region_ids": [
+          "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_8"
+        ],
+        "context_region_ids": [],
+        "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/2.jpg",
+        "source_shapes": [
+          {
+            "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_8",
+            "shape": {
+              "x": 304.5899999999999,
+              "y": 96.59999999999995,
+              "width": 96.45000000000005,
+              "height": 15.390000000000043
+            }
+          }
+        ],
+        "source_spans": [
+          {
+            "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_8",
+            "field": "ocr_normalized",
+            "start": 0,
+            "end": 19
+          }
+        ],
+        "content_origin": "source_ocr",
+        "quality_flags": [
+          "layout_geometry_heuristic"
+        ],
+        "score": 0.016263335935467083,
+        "table_rows": [],
+        "table_cells": [],
+        "source_id": "S1"
+      }
+    ],
+    "excluded_sources": [],
+    "top5_response_file": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_weights_20261102\\keyword_075\\results.json"
+  },
+  {
+    "case_id": "FIG05",
+    "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+    "question": "스피커의 AC 전원 공급장치는 몇 가지 유형이며 각각 어떻게 준비하나요?",
+    "english_query": "What are the types of AC power supply for the speaker, and how is each prepared?",
+    "keyword_percent": 75,
+    "dense_percent": 25,
+    "top_k": 1,
+    "retrieved_chunk_ids": [
+      "6c6335a5-b563-50cc-a441-e9aa27eea06e"
+    ],
+    "sources": [
+      {
+        "chunk_id": "6c6335a5-b563-50cc-a441-e9aa27eea06e",
+        "manual_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d",
+        "page_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00007",
+        "chunk_type": "text",
+        "text": "Operation\n2. Plug the power cord on the AC power supply into the DC connector on the back of the speaker.",
+        "content_region_ids": [
+          "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_12"
+        ],
+        "context_region_ids": [
+          "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_11"
+        ],
+        "image_filename": "images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d/images/bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_00008.jpg",
+        "source_shapes": [
+          {
+            "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_12",
+            "shape": {
+              "x": 53.35300064086906,
+              "y": 96.1903533935546,
+              "width": 636.1020164489744,
+              "height": 41.4000549316406
+            }
+          },
+          {
+            "id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_11",
+            "shape": {
+              "x": 53.35300064086906,
+              "y": 54.16992187499997,
+              "width": 108.7440147399902,
+              "height": 28.416000366210824
+            }
+          }
+        ],
+        "source_spans": [
+          {
+            "region_id": "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_12",
+            "field": "ocr_normalized",
+            "start": 0,
+            "end": 95
+          }
+        ],
+        "content_origin": "source_ocr",
+        "quality_flags": [
+          "layout_geometry_heuristic"
+        ],
+        "score": 0.016195134849286093,
+        "table_rows": [],
+        "table_cells": [],
+        "source_id": "S1"
+      }
+    ],
+    "excluded_sources": [],
+    "top5_response_file": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_weights_20261102\\keyword_075\\results.json"
+  },
+  {
+    "case_id": "FIG06",
+    "manual_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English",
+    "question": "비밀번호를 잊어버리면 제 데이터에 접근할 수 있나요?",
+    "english_query": "If I forget my password, can I access my data?",
+    "keyword_percent": 75,
+    "dense_percent": 25,
+    "top_k": 1,
+    "retrieved_chunk_ids": [
+      "674f80a1-7cc7-5056-a461-4de2852e2d9e"
+    ],
+    "sources": [
+      {
+        "chunk_id": "674f80a1-7cc7-5056-a461-4de2852e2d9e",
+        "manual_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English",
+        "page_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00009",
+        "chunk_type": "text",
+        "text": "3. Unlock\nIf you’ve enabled password protection, every time you connect X5 to your computer you need to enter your password and click the “UNLOCK” button before getting access to the data in X5. If you fail to type correct password, your access will be confined to capacity of about 128MB allocated to SamsungPortableSSD.exe which means that you will be locked out of the data protected by password.",
+        "content_region_ids": [
+          "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_136"
+        ],
+        "context_region_ids": [
+          "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_135"
+        ],
+        "image_filename": "images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English/images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00011.jpg",
+        "source_shapes": [
+          {
+            "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_136",
+            "shape": {
+              "x": 172.32000732421872,
+              "y": 553.447509765625,
+              "width": 870.165100097656,
+              "height": 143.9813232421876
+            }
+          },
+          {
+            "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_135",
+            "shape": {
+              "x": 144,
+              "y": 512.6474609375,
+              "width": 103.05470275878912,
+              "height": 28.78125
+            }
+          }
+        ],
+        "source_spans": [
+          {
+            "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_136",
+            "field": "ocr_normalized",
+            "start": 0,
+            "end": 389
+          }
+        ],
+        "content_origin": "source_ocr",
+        "quality_flags": [
+          "layout_geometry_heuristic"
+        ],
+        "score": 0.01639344262295082,
+        "table_rows": [],
+        "table_cells": [],
+        "source_id": "S1"
+      }
+    ],
+    "excluded_sources": [],
+    "top5_response_file": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_weights_20261102\\keyword_075\\results.json"
+  },
+  {
+    "case_id": "FIG07",
+    "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+    "question": "Photo Base 4.0을 설치하려면 어떻게 해야 하나요?",
+    "english_query": "How do I install Photo Base 4.0?",
+    "keyword_percent": 75,
+    "dense_percent": 25,
+    "top_k": 1,
+    "retrieved_chunk_ids": [
+      "27721196-5a27-5529-87e3-59082840e71d"
+    ],
+    "sources": [
+      {
+        "chunk_id": "27721196-5a27-5529-87e3-59082840e71d",
+        "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+        "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00014",
+        "chunk_type": "text",
+        "text": "Photo Base 4.0 Installation\n5. Click “Next”",
+        "content_region_ids": [
+          "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_396"
+        ],
+        "context_region_ids": [
+          "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_403"
+        ],
+        "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00015.jpg",
+        "source_shapes": [
+          {
+            "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_396",
+            "shape": {
+              "x": 188.878646850586,
+              "y": 1015.2824707031257,
+              "width": 151.669692993164,
+              "height": 25.84716796875
+            }
+          },
+          {
+            "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_403",
+            "shape": {
+              "x": 173.0000000000001,
+              "y": 244.64062500000009,
+              "width": 268.99999999999994,
+              "height": 24.000000000000142
+            }
+          }
+        ],
+        "source_spans": [
+          {
+            "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_396",
+            "field": "ocr_normalized",
+            "start": 0,
+            "end": 15
+          }
+        ],
+        "content_origin": "source_ocr",
+        "quality_flags": [
+          "layout_geometry_heuristic"
+        ],
+        "score": 0.016327340031729243,
+        "table_rows": [],
+        "table_cells": [],
+        "source_id": "S1"
+      }
+    ],
+    "excluded_sources": [],
+    "top5_response_file": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_weights_20261102\\keyword_075\\results.json"
+  },
+  {
+    "case_id": "FIG08",
+    "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+    "question": "스피커를 컴퓨터 바로 옆에 배치하기 쉬운 이유는 무엇인가요?",
+    "english_query": "Why is it easy to place the speaker right next to the computer?",
+    "keyword_percent": 75,
+    "dense_percent": 25,
+    "top_k": 1,
+    "retrieved_chunk_ids": [
+      "b1c45281-074a-5bdc-b9e3-b5e329aa5f4a"
+    ],
+    "sources": [
+      {
+        "chunk_id": "b1c45281-074a-5bdc-b9e3-b5e329aa5f4a",
+        "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+        "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00006",
+        "chunk_type": "text",
+        "text": "Positioning the speakers\nThe size and shape of these speakers make it easy to position them directly next to your c omputer. For proper performance, place the right speaker to the right and the left speaker to the left of your computer. Make sure there is equal distance on either side. This provides an accurate sound stage.",
+        "content_region_ids": [
+          "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_3"
+        ],
+        "context_region_ids": [
+          "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_2"
+        ],
+        "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00007.jpg",
+        "source_shapes": [
+          {
+            "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_3",
+            "shape": {
+              "x": 61.79998779296873,
+              "y": 179.4273986816405,
+              "width": 520.8798828124995,
+              "height": 133.32000732421892
+            }
+          },
+          {
+            "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_2",
+            "shape": {
+              "x": 64.8000030517578,
+              "y": 137.1674041748047,
+              "width": 329.81199645996065,
+              "height": 33.40400695800784
+            }
+          }
+        ],
+        "source_spans": [
+          {
+            "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_3",
+            "field": "ocr_normalized",
+            "start": 0,
+            "end": 300
+          }
+        ],
+        "content_origin": "source_ocr",
+        "quality_flags": [
+          "layout_geometry_heuristic"
+        ],
+        "score": 0.01639344262295082,
+        "table_rows": [],
+        "table_cells": [],
+        "source_id": "S1"
+      }
+    ],
+    "excluded_sources": [],
+    "top5_response_file": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_weights_20261102\\keyword_075\\results.json"
+  },
+  {
+    "case_id": "FIG09",
+    "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+    "question": "전체 화면에서 알림 피드백을 줄이려면 어떻게 하나요?",
+    "english_query": "How do I reduce notification feedback in full screen mode?",
+    "keyword_percent": 75,
+    "dense_percent": 25,
+    "top_k": 1,
+    "retrieved_chunk_ids": [
+      "72d253f2-69df-5554-b0c7-591ae8332efa"
+    ],
+    "sources": [
+      {
+        "chunk_id": "72d253f2-69df-5554-b0c7-591ae8332efa",
+        "manual_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028",
+        "page_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_00019",
+        "chunk_type": "text",
+        "text": "Reduce notification feedback in full screen\nWhen you're playing games or watching videos in full screen, ColorOS will soften notification sounds and reduce the vibration intensity to not interrupt your immersive experience. Path: Settings - Notifications & status bar - Manage notifications - More - Reduce notification feedback on full screen.",
+        "content_region_ids": [
+          "phone_os_User Guide_ColorOS_12_v1.0_20211028_137"
+        ],
+        "context_region_ids": [
+          "phone_os_User Guide_ColorOS_12_v1.0_20211028_139"
+        ],
+        "image_filename": "images/phone_os_User Guide_ColorOS_12_v1.0_20211028/images/phone_os_User Guide_ColorOS_12_v1.0_20211028_00019.jpg",
+        "source_shapes": [
+          {
+            "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_137",
+            "shape": {
+              "x": 175.04800415039062,
+              "y": 805.5684204101562,
+              "width": 835.3148498535157,
+              "height": 117.09600830078136
+            }
+          },
+          {
+            "id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_139",
+            "shape": {
+              "x": 175.99652862548828,
+              "y": 769.559051513672,
+              "width": 412.0000000000001,
+              "height": 31.999999999999886
+            }
+          }
+        ],
+        "source_spans": [
+          {
+            "region_id": "phone_os_User Guide_ColorOS_12_v1.0_20211028_137",
+            "field": "ocr_normalized",
+            "start": 0,
+            "end": 300
+          }
+        ],
+        "content_origin": "source_ocr",
+        "quality_flags": [
+          "layout_geometry_heuristic"
+        ],
+        "score": 0.01639344262295082,
+        "table_rows": [],
+        "table_cells": [],
+        "source_id": "S1"
+      }
+    ],
+    "excluded_sources": [],
+    "top5_response_file": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_weights_20261102\\keyword_075\\results.json"
+  },
+  {
+    "case_id": "FIG10",
+    "manual_id": "samsung_dish_washer_6918977 a",
+    "question": "바구니는 어떻게 분리하나요?",
+    "english_query": "How do I separate the basket?",
+    "keyword_percent": 75,
+    "dense_percent": 25,
+    "top_k": 1,
+    "retrieved_chunk_ids": [
+      "df6df243-de5a-5912-94d8-b4e6cf614aa2"
+    ],
+    "sources": [
+      {
+        "chunk_id": "df6df243-de5a-5912-94d8-b4e6cf614aa2",
+        "manual_id": "samsung_dish_washer_6918977 a",
+        "page_id": "samsung_dish_washer_6918977 a_00004",
+        "chunk_type": "figure",
+        "text": "Removable Silverware Basket (select models)\nA split silverware basket in a dishwasher rack, shown separated into two sections for flexible loading of flatware and utensils. The image illustrates how to unlock the basket by holding it firmly along the sides and pulling apart. Labels include 'Split Silverware Basket (select models)' and instructions on separating the basket.",
+        "content_region_ids": [
+          "samsung_dish_washer_6918977 a_118"
+        ],
+        "context_region_ids": [
+          "samsung_dish_washer_6918977 a_100"
+        ],
+        "image_filename": "images/samsung_dish_washer_6918977 a/images/4.jpg",
+        "source_shapes": [
+          {
+            "id": "samsung_dish_washer_6918977 a_118",
+            "shape": {
+              "x": 621.7500000000002,
+              "y": 729.918754577637,
+              "width": 539.9999999999998,
+              "height": 472.5000000000002
+            }
+          },
+          {
+            "id": "samsung_dish_washer_6918977 a_100",
+            "shape": {
+              "x": 634.4400000000004,
+              "y": 216.63000000000002,
+              "width": 330.2600000000001,
+              "height": 57.72000000000011
+            }
+          }
+        ],
+        "source_spans": [
+          {
+            "region_id": "samsung_dish_washer_6918977 a_118",
+            "field": "description_normalized",
+            "start": 0,
+            "end": 331
+          }
+        ],
+        "content_origin": "qwen_figure_description",
+        "quality_flags": [],
+        "score": 0.016327340031729243,
+        "table_rows": [],
+        "table_cells": [],
+        "source_id": "S1"
+      }
+    ],
+    "excluded_sources": [],
+    "top5_response_file": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_weights_20261102\\keyword_075\\results.json"
+  }
+]

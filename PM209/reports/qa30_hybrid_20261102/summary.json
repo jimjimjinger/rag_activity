@@ -1,0 +1,252 @@
+{
+  "created_at": "2026-11-02T00:25:06.325621+00:00",
+  "total_questions": 30,
+  "dense_weight": 0.5,
+  "keyword_weight": 0.5,
+  "rrf_k": 60,
+  "candidates_per_method": 20,
+  "final_k": 5,
+  "reviewer": "Codex assistant; not independent human grading",
+  "variants": {
+    "A_korean_dense": {
+      "label": "A · 한국어 의미 검색",
+      "verdict_counts": {
+        "correct": 17,
+        "partial": 5,
+        "incorrect": 3,
+        "no_answer": 5,
+        "error": 0
+      },
+      "strict_accuracy": 0.5666666666666667,
+      "context_counts": {
+        "sufficient": 20,
+        "partial": 6,
+        "insufficient": 4
+      },
+      "annotation_region_hit_at_1": 19,
+      "annotation_region_hit_at_5": 28,
+      "category_counts": {
+        "text": {
+          "correct": 9,
+          "incorrect": 1
+        },
+        "table": {
+          "correct": 4,
+          "no_answer": 4,
+          "incorrect": 1,
+          "partial": 1
+        },
+        "figure": {
+          "partial": 4,
+          "correct": 4,
+          "no_answer": 1,
+          "incorrect": 1
+        }
+      },
+      "generation_seconds": 54.54737519999617,
+      "model_attempts": 31,
+      "output_tokens_including_rejected": 2665,
+      "excluded_contexts": 0,
+      "truncated_attempts": 0,
+      "gpu_observed_mib_range": [
+        3834,
+        3836
+      ],
+      "gpu_observed_temperature_range": [
+        62,
+        67
+      ],
+      "saved_successful_answers": 25,
+      "abstained": 5,
+      "failed": 0
+    },
+    "B_english_dense": {
+      "label": "B · 번역 + 의미 검색",
+      "verdict_counts": {
+        "correct": 20,
+        "partial": 5,
+        "incorrect": 2,
+        "no_answer": 2,
+        "error": 1
+      },
+      "strict_accuracy": 0.6666666666666666,
+      "context_counts": {
+        "sufficient": 23,
+        "partial": 4,
+        "insufficient": 3
+      },
+      "annotation_region_hit_at_1": 23,
+      "annotation_region_hit_at_5": 28,
+      "category_counts": {
+        "text": {
+          "correct": 9,
+          "incorrect": 1
+        },
+        "table": {
+          "correct": 6,
+          "no_answer": 1,
+          "partial": 2,
+          "error": 1
+        },
+        "figure": {
+          "correct": 5,
+          "partial": 3,
+          "incorrect": 1,
+          "no_answer": 1
+        }
+      },
+      "generation_seconds": 56.309258299996145,
+      "model_attempts": 32,
+      "output_tokens_including_rejected": 2764,
+      "excluded_contexts": 0,
+      "truncated_attempts": 0,
+      "gpu_observed_mib_range": [
+        3834,
+        3836
+      ],
+      "gpu_observed_temperature_range": [
+        52,
+        65
+      ],
+      "saved_successful_answers": 27,
+      "abstained": 2,
+      "failed": 1
+    },
+    "C_english_hybrid": {
+      "label": "C · 번역 + 의미/키워드 50:50",
+      "verdict_counts": {
+        "correct": 18,
+        "partial": 5,
+        "incorrect": 4,
+        "no_answer": 2,
+        "error": 1
+      },
+      "strict_accuracy": 0.6,
+      "context_counts": {
+        "sufficient": 22,
+        "insufficient": 4,
+        "partial": 4
+      },
+      "annotation_region_hit_at_1": 22,
+      "annotation_region_hit_at_5": 29,
+      "category_counts": {
+        "text": {
+          "correct": 9,
+          "partial": 1
+        },
+        "table": {
+          "correct": 4,
+          "no_answer": 1,
+          "incorrect": 4,
+          "partial": 1
+        },
+        "figure": {
+          "correct": 5,
+          "partial": 3,
+          "error": 1,
+          "no_answer": 1
+        }
+      },
+      "generation_seconds": 50.9524650000385,
+      "model_attempts": 32,
+      "output_tokens_including_rejected": 2879,
+      "excluded_contexts": 0,
+      "truncated_attempts": 0,
+      "gpu_observed_mib_range": [
+        3836,
+        3836
+      ],
+      "gpu_observed_temperature_range": [
+        61,
+        66
+      ],
+      "saved_successful_answers": 27,
+      "abstained": 2,
+      "failed": 1
+    }
+  },
+  "translation_seconds": 17.59926310009905,
+  "comparison_seconds": 224.3683224999986,
+  "translation_manual_edits": 0,
+  "translation_notes": [
+    {
+      "case_id": "FIG01",
+      "issue": "전동 드릴이 cordless drill(무선 드릴)로 좁아짐. 원 질문은 무선 여부를 지정하지 않음. 자동 번역의 오류로 기록하고 출력은 수정하지 않음."
+    },
+    {
+      "case_id": "TABLE01",
+      "issue": "저음/고음을 bass/treble 대신 low/high sound로 직역하여 검색에 불리할 수 있음."
+    },
+    {
+      "case_id": "FIG05",
+      "issue": "몇 가지 유형인지가 what are the types로 바뀌어 개수를 직접 묻는 표현은 약해짐. 유형과 준비 방법을 묻는 핵심 범위는 유지."
+    }
+  ],
+  "preservation": {
+    "protected_files": {
+      "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\datasets\\PM209\\data\\train.jsonl": true,
+      "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\datasets\\PM209\\data\\val.jsonl": true,
+      "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\datasets\\PM209\\data\\test.jsonl": true,
+      "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\datasets\\PM209\\data\\vlm\\train.jsonl": true,
+      "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\datasets\\PM209\\data\\vlm\\val.jsonl": true,
+      "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\datasets\\PM209\\data\\vlm\\test.jsonl": true,
+      "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\datasets\\PM209\\data\\paddle_tables_manual_20261026\\train.jsonl": true,
+      "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\datasets\\PM209\\data\\paddle_tables_manual_20261026\\val.jsonl": true,
+      "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\datasets\\PM209\\data\\paddle_tables_manual_20261026\\test.jsonl": true
+    },
+    "chunks_unchanged": true,
+    "baseline_results_unchanged": true,
+    "baseline_questions_unchanged": true
+  },
+  "sqlite_version": "3.40.1",
+  "tests": "5 CPU unit tests passed; live 30 translations and 60 answer cases executed",
+  "production_default_changed": false,
+  "limits": [
+    "동일30문항으로 수행한 1회 진단; 새 질문에 대한 일반화·통계적 우월성은 검증하지 않음",
+    "자동 주석 영역 Hit는 실제 정답 내용이나 행 대응을 보장하지 않음",
+    "답변의 사실·조건 중심 평가; 한국어 표현 품질은 별도 주석",
+    "원 QA 오류 보정과 그림 질문 분류 한계는 A의 기존 평가와 동일",
+    "그림 원본을 답변 모델에 입력하지 않음; 기존 description을 텍스트로 사용",
+    "형식 오류 2건을 분모에 포함; 거부된 출력을 정답으로 재분류하지 않음"
+  ],
+  "artifacts_sha256": {
+    "config.json": "01877ef9bbb510b1ad6ae80f53ae29ccea3dcd8a9501a3d29800a56e9237de85",
+    "translations.json": "6f5d88bb5f4290d2badf723114ea7f6903053b3b69c73ce3edfaa8699ce1bc2c",
+    "review.json": "0c583b8acab1adfb0e1a48a8dc2bc15e63c0de5e63604414ef924d56dd371e38",
+    "retrieval-metrics.json": "6ad3118f0c8c883bb88773e8d5dec757c9dde5d5c59968b56dab2b41f371ca5f"
+  },
+  "correct_transitions": {
+    "A_korean_dense -> B_english_dense": {
+      "became_correct": [
+        "TABLE02",
+        "TABLE04",
+        "TABLE10",
+        "FIG01"
+      ],
+      "lost_correct": [
+        "TABLE08"
+      ]
+    },
+    "B_english_dense -> C_english_hybrid": {
+      "became_correct": [
+        "TABLE09"
+      ],
+      "lost_correct": [
+        "TABLE02",
+        "TABLE04",
+        "TABLE06"
+      ]
+    },
+    "A_korean_dense -> C_english_hybrid": {
+      "became_correct": [
+        "TABLE09",
+        "TABLE10",
+        "FIG01"
+      ],
+      "lost_correct": [
+        "TABLE06",
+        "TABLE08"
+      ]
+    }
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "case_id": "FIG06",
+  "manual_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English",
+  "question": "비밀번호를 잊어버리면 제 데이터에 접근할 수 있나요?",
+  "english_query": "If I forget my password, can I access my data?",
+  "keyword_percent": 100,
+  "variant": "top1_kw100",
+  "top_k": 1,
+  "retrieved_chunk_ids": [
+    "2e81ccfe-dd79-5cd9-8bc8-5b6e69bcd8d0"
+  ],
+  "sources": [
+    {
+      "chunk_id": "2e81ccfe-dd79-5cd9-8bc8-5b6e69bcd8d0",
+      "manual_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English",
+      "page_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00008",
+      "chunk_type": "text",
+      "text": "2. Setting Password (Optional)\nPlease keep it in mind that all user data placed in X5 will be lost by factory reset. Please be cautious not to forget or misplace your password.\n* Only Mac OS, “Samsung Portable SSD” driver is required for the security functionality. If the kernel extension is not installed, complete the installation by following the sequence on the package installation. Once installed, disconnect and reconnect X5 to confirm that the installation was successful.",
+      "content_region_ids": [
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_120",
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_121"
+      ],
+      "context_region_ids": [
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_118"
+      ],
+      "image_filename": "images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English/images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00010.jpg",
+      "source_shapes": [
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_120",
+          "shape": {
+            "x": 172.31665039062506,
+            "y": 1192.5236816406255,
+            "width": 853.843505859375,
+            "height": 119.90283203125
+          }
+        },
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_121",
+          "shape": {
+            "x": 172.33660888671884,
+            "y": 1324.533569335938,
+            "width": 853.7130737304686,
+            "height": 95.89916992187477
+          }
+        },
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_118",
+          "shape": {
+            "x": 144,
+            "y": 544.8074951171874,
+            "width": 328.9481201171877,
+            "height": 28.781250000000114
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_120",
+          "field": "ocr_normalized",
+          "start": 337,
+          "end": 482
+        },
+        {
+          "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_121",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 304
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 25.310609817504883,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "excluded_sources": [],
+  "created_at": "2026-11-02T05:01:05.328277+00:00",
+  "status": "answered",
+  "answer": "네, 비밀번호를 잊어버리면 제 데이터에 접근할 수 없습니다. 매뉴얼에 따르면 모든 사용자 데이터는 공장 초기화 시 삭제되며, 비밀번호를 잊거나 실수하지 않도록 주의해야 합니다.",
+  "source_ids": [
+    "S1"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 78,
+        "prompt_eval_count": 456,
+        "total_duration": 1140356200,
+        "load_duration": 19644400,
+        "attempt": 1,
+        "prompt_token_upper_bound": 2725
+      }
+    ],
+    "elapsed_seconds": 1.1491703999927267,
+    "backend": "LangChain ChatPromptTemplate | ChatOllama"
+  },
+  "citations": [
+    {
+      "chunk_id": "2e81ccfe-dd79-5cd9-8bc8-5b6e69bcd8d0",
+      "manual_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English",
+      "page_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00008",
+      "chunk_type": "text",
+      "text": "2. Setting Password (Optional)\nPlease keep it in mind that all user data placed in X5 will be lost by factory reset. Please be cautious not to forget or misplace your password.\n* Only Mac OS, “Samsung Portable SSD” driver is required for the security functionality. If the kernel extension is not installed, complete the installation by following the sequence on the package installation. Once installed, disconnect and reconnect X5 to confirm that the installation was successful.",
+      "content_region_ids": [
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_120",
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_121"
+      ],
+      "context_region_ids": [
+        "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_118"
+      ],
+      "image_filename": "images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English/images/Samsung_Portable_SSD_X5_User_Manual_v0_0_English_00010.jpg",
+      "source_shapes": [
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_120",
+          "shape": {
+            "x": 172.31665039062506,
+            "y": 1192.5236816406255,
+            "width": 853.843505859375,
+            "height": 119.90283203125
+          }
+        },
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_121",
+          "shape": {
+            "x": 172.33660888671884,
+            "y": 1324.533569335938,
+            "width": 853.7130737304686,
+            "height": 95.89916992187477
+          }
+        },
+        {
+          "id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_118",
+          "shape": {
+            "x": 144,
+            "y": 544.8074951171874,
+            "width": 328.9481201171877,
+            "height": 28.781250000000114
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_120",
+          "field": "ocr_normalized",
+          "start": 337,
+          "end": 482
+        },
+        {
+          "region_id": "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_121",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 304
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 25.310609817504883,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 1.1492342000128701,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 65,
+    "utilization_percent": 84
+  }
+}

@@ -1,5 +1,7 @@
 # PM209 로컬 Qwen 실행 환경
 
+2026-11-02, 기존 `.runtime/venv-rag`와 설치된 `qwen3.5:4b` Q4_K_M으로 한국어 답변을 연결했다. 추가 패키지·모델 다운로드 없이 Ollama HTTP `/api/chat`을 사용한다. 질문 임베딩 후 해당 모델을 내리고, 답변 문맥 8,192·출력 최대 1,024토큰·`think=false`로 순차 실행한다. 생성 직후 장치 VRAM은 약 3,834MiB로 관측했다. [실행·확인 기록](reports/ANSWER_LLM_20261102.md).
+
 2026-10-26 RAG 샘플용 환경을 추가했다. `.runtime/venv-rag`에 Qdrant client 1.20.0·lxml 6.1.3·httpx 0.28.1·tokenizers 0.23.3을 설치했고 `pip check`를 통과했다. 기존 비전/Paddle 환경은 유지했다. 임베딩은 기존 Ollama의 `qwen3-embedding:0.6b` Q8_0를 사용하며 배치 4·문맥 2,048, 실제 1,024차원 벡터를 생성했다. 646개 청크 실행 중 GPU 메모리 관찰 최대 1,016MiB, 온도 59°C였다. [실행 안내](RAG_PIPELINE.md), [측정 보고서](reports/RAG_SAMPLE_20261026.md). 아래는 기존 그림 설명 환경의 이력이다.
 
 설정일: 2026-10-21
@@ -65,4 +67,10 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File PM209/scripts/start-olla
 
 같은 날 `token repeat limit reached`를 응답 생성 중 예외로 받는 경로도 재시도 대상에 추가했다. 메모리 부족·모델 누락·일반 서버 오류는 이 예외와 구분한다. 재개 시 기존 모델·VRAM·컨텍스트 설정은 그대로 사용한다.
 
-전체 실행기는 `scripts/run_full.py`이며 100개마다 정상 보강본을 저장한다. 원본 전체와 대조하여 페이지·영역·QA 보존을 확인하고 이어서 처리한다. GPU 상태는 약 5초마다 기록한다. Windows 자동 유휴 절전은 실행기 수명 동안만 방지한다. 청킹·임베딩·Qdrant 설치는 후속 작업이다.
+전체 그림 실행기는 `scripts/run_full.py`이며 100개마다 정상 보강본을 저장한다. 원본 전체와 대조하여 페이지·영역·QA 보존을 확인하고 이어서 처리한다. GPU 상태는 약 5초마다 기록한다. Windows 자동 유휴 절전은 실행기 수명 동안만 방지한다. 위 항목은 그림 보강 당시의 환경 기록이다.
+
+## 현재 검색·답변 환경 (2026-11-02)
+
+별도 `.runtime/venv-rag-lc`에 LangChain core 1.7.3, ollama 1.1.0, qdrant 1.1.0, qdrant-client 1.20.0, FastEmbed 0.9.1을 설치했다. 전체 버전은 `requirements-rag-lc.lock.txt`, 재설치는 `scripts/setup-rag-lc.ps1`을 사용한다. 기존 환경은 보존한다.
+
+Qwen3-Embedding-0.6B(Q8_0, 1024차원)와 Qwen3.5-4B(Q4_K_M)를 기존 Ollama에서 사용한다. 문서 벡터는 기존 캐시에서 읽기 전용으로 가져오며 질문 벡터에 기존 지시문·옵션·truncate=false를 유지한다. BM25 희소 벡터는 CPU로 생성한다. 검색·답변 동시성은 1이며 LangSmith 추적을 비활성화해 요청을 로컬에서 처리한다. 사용법은 `RAG_PIPELINE.md`를 따른다.

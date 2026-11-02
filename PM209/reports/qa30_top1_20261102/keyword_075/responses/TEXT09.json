@@ -1,0 +1,120 @@
+{
+  "case_id": "TEXT09",
+  "manual_id": "Watch_Apple_User_Guide",
+  "question": "Siri에게 시간을 물으려면 어떻게 말해야 하나요?",
+  "english_query": "How do I ask Siri for the time?",
+  "keyword_percent": 75,
+  "dense_percent": 25,
+  "top_k": 1,
+  "retrieved_chunk_ids": [
+    "169ecba8-4e08-5d1c-a1dc-9f18ac61d482"
+  ],
+  "sources": [
+    {
+      "chunk_id": "169ecba8-4e08-5d1c-a1dc-9f18ac61d482",
+      "manual_id": "Watch_Apple_User_Guide",
+      "page_id": "Watch_Apple_User_Guide_00248",
+      "chunk_type": "text",
+      "text": "Ask Siri.Say something like: “Set a timer for 20 minutes.”",
+      "content_region_ids": [
+        "Watch_Apple_User_Guide_5636"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00253.jpg",
+      "source_shapes": [
+        {
+          "id": "Watch_Apple_User_Guide_5636",
+          "shape": {
+            "x": 340.7059936523439,
+            "y": 295.60225423177087,
+            "width": 506.4146525065103,
+            "height": 26.708007812499943
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "Watch_Apple_User_Guide_5636",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 58
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.016065028161802355,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "excluded_sources": [],
+  "top5_response_file": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_weights_20261102\\keyword_075\\results.json",
+  "status": "insufficient_evidence",
+  "variant": "keyword_075",
+  "created_at": "2026-11-02T00:57:29.588241+00:00",
+  "answer": "검색된 매뉴얼 근거에서 질문에 대한 답을 확인하지 못했습니다.",
+  "source_ids": [],
+  "insufficient_evidence": true,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 92,
+        "prompt_eval_count": 377,
+        "total_duration": 1259738100,
+        "load_duration": 5411700,
+        "attempt": 1,
+        "prompt_token_upper_bound": 2291
+      }
+    ],
+    "elapsed_seconds": 1.3401861999882385,
+    "ollama_model": {
+      "name": "qwen3.5:4b",
+      "model": "qwen3.5:4b",
+      "size": 3214409726,
+      "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "4.2B",
+        "quantization_level": "Q4_K_M"
+      },
+      "expires_at": "2026-11-02T09:58:30.9264473+09:00",
+      "size_vram": 3214409726,
+      "context_length": 8192,
+      "runner": "llamacpp"
+    },
+    "observation_error": null
+  },
+  "citations": [],
+  "cited_figures": [],
+  "elapsed_seconds": 1.3403870000038296,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 63,
+    "utilization_percent": 41
+  }
+}

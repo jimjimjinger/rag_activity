@@ -1,0 +1,185 @@
+{
+  "reviewer": "Codex assistant, not independent human grading",
+  "cases": [
+    {
+      "case_id": "TEXT01",
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "원본 기준 핵심 답과 채택한 근거가 일치합니다."
+    },
+    {
+      "case_id": "TEXT02",
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "원본 기준 핵심 답과 채택한 근거가 일치합니다."
+    },
+    {
+      "case_id": "TEXT03",
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "원본 기준 핵심 답과 채택한 근거가 일치합니다."
+    },
+    {
+      "case_id": "TEXT04",
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "원본 기준 핵심 답과 채택한 근거가 일치합니다."
+    },
+    {
+      "case_id": "TEXT05",
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "원본 기준 핵심 답과 채택한 근거가 일치합니다."
+    },
+    {
+      "case_id": "TEXT06",
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "1.5GB 여유 공간을 정확히 답했고, 추가한 잠금 채널 제한과 최대 90분도 근거와 일치합니다."
+    },
+    {
+      "case_id": "TEXT07",
+      "verdict": "partial",
+      "retrieval_sufficiency": "sufficient",
+      "note": "주요 기능은 맞지만 화면 잠금(Lock)을 잠금 해제로 반대로 옮겼습니다."
+    },
+    {
+      "case_id": "TEXT08",
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "원본 기준 핵심 답과 채택한 근거가 일치합니다."
+    },
+    {
+      "case_id": "TEXT09",
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "원본 기준 핵심 답과 채택한 근거가 일치합니다."
+    },
+    {
+      "case_id": "TEXT10",
+      "verdict": "partial",
+      "retrieval_sufficiency": "sufficient",
+      "note": "120°F/49°C 수치와 단위는 맞지만 일반 세척의 권장 온도를 최소 하한으로 바꿨습니다. 별도 살균 조건의 하한을 일반 온도 조건으로 합친 표현이므로 조건 정확성 기준으로 부분정답입니다."
+    },
+    {
+      "case_id": "TABLE01",
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "원본 기준 핵심 답과 채택한 근거가 일치합니다."
+    },
+    {
+      "case_id": "TABLE02",
+      "verdict": "no_answer",
+      "retrieval_sufficiency": "insufficient",
+      "note": "여섯 구성품 표가 최종 근거에서 빠져 답변을 거부했습니다."
+    },
+    {
+      "case_id": "TABLE03",
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "Headset port 표가 S4로 들어와 헤드셋 포트에 연결하라고 정확히 답했습니다."
+    },
+    {
+      "case_id": "TABLE04",
+      "verdict": "incorrect",
+      "retrieval_sufficiency": "partial",
+      "note": "서로 다른 설치 조건의 제어판 제거와 PSSD_Cleanup.bat 실행을 순서대로 모두 하라는 절차로 합쳤습니다. 질문 조건에 맞는 삭제 방법을 구분하지 못했습니다."
+    },
+    {
+      "case_id": "TABLE05",
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "원본 기준 핵심 답과 채택한 근거가 일치합니다."
+    },
+    {
+      "case_id": "TABLE06",
+      "verdict": "partial",
+      "retrieval_sufficiency": "partial",
+      "note": "사용 팁은 답했지만 배터리 장착 확인이 검색 결과에서 빠져 답변에서도 누락됐습니다. right speaker의 오른쪽 방향도 명확히 옮기지 못했습니다."
+    },
+    {
+      "case_id": "TABLE07",
+      "verdict": "incorrect",
+      "retrieval_sufficiency": "sufficient",
+      "note": "잔량을 전압으로 바꾸고 충전 중 빨간색/노란색 점멸이라고 서로 모순되게 답했습니다. 원본은 충전 필요 시 빨강, 충전 중 노랑입니다."
+    },
+    {
+      "case_id": "TABLE08",
+      "verdict": "incorrect",
+      "retrieval_sufficiency": "sufficient",
+      "note": "Talk를 화상 버튼으로 바꾸고, 충전 중/완료 시 색상이 바뀌는 것을 점멸이라고 덧붙였습니다."
+    },
+    {
+      "case_id": "TABLE09",
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "R=Roaming 표를 읽고 로밍이라고 정확히 답했습니다."
+    },
+    {
+      "case_id": "TABLE10",
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "원본 기준 핵심 답과 채택한 근거가 일치합니다."
+    },
+    {
+      "case_id": "FIG01",
+      "verdict": "partial",
+      "retrieval_sufficiency": "partial",
+      "note": "비트의 중심 맞추기는 답했지만 눈 보호 및 안전 수칙이 검색에서 빠져 답변에서도 누락됐습니다."
+    },
+    {
+      "case_id": "FIG02",
+      "verdict": "no_answer",
+      "retrieval_sufficiency": "insufficient",
+      "note": "반복된 후면 패널/커넥터 설명만 검색돼 3.5mm 스테레오 규격을 답하지 못했습니다."
+    },
+    {
+      "case_id": "FIG03",
+      "verdict": "partial",
+      "retrieval_sufficiency": "partial",
+      "note": "파일 선택은 설명했지만 마지막 OK 버튼을 특정하지 못했습니다. OCR의 버튼 아이콘 누락이 남았습니다."
+    },
+    {
+      "case_id": "FIG04",
+      "verdict": "incorrect",
+      "retrieval_sufficiency": "insufficient",
+      "note": "위치 근거가 없는데 측면이라고 단정했습니다. 실제 그림은 상단 Play/Stop 오른쪽의 버튼입니다."
+    },
+    {
+      "case_id": "FIG05",
+      "verdict": "incorrect",
+      "retrieval_sufficiency": "insufficient",
+      "note": "공급장치/어댑터라는 주변 라벨을 두 유형으로 단정하고 실제 핀 펼치기/지역 어댑터 끼우기 절차는 답하지 못했습니다."
+    },
+    {
+      "case_id": "FIG06",
+      "verdict": "incorrect",
+      "retrieval_sufficiency": "sufficient",
+      "note": "접근 가능한 128MB가 설치 프로그램 영역인데 보호된 데이터 일부 128MB를 사용할 수 있는 것처럼 설명했습니다. 보호된 데이터에 접근할 수 없다는 핵심과 모순됩니다."
+    },
+    {
+      "case_id": "FIG07",
+      "verdict": "partial",
+      "retrieval_sufficiency": "partial",
+      "note": "Yes와 첫 Next까지만 설명하고 후반 Next/Finish 및 재시작 권장을 빠뜨렸습니다."
+    },
+    {
+      "case_id": "FIG08",
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "원본 기준 핵심 답과 채택한 근거가 일치합니다."
+    },
+    {
+      "case_id": "FIG09",
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "원본 기준 핵심 답과 채택한 근거가 일치합니다."
+    },
+    {
+      "case_id": "FIG10",
+      "verdict": "partial",
+      "retrieval_sufficiency": "partial",
+      "note": "잡고 당긴다는 표현은 있으나 원본의 잠금 해제 방향과 구체적인 움직임을 설명하지 못했습니다."
+    }
+  ]
+}

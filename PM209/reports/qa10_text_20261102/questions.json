@@ -1,0 +1,86 @@
+[
+  {
+    "case_id": "TEXT01",
+    "category": "text",
+    "question_ko": "FIREGL, Intergraph, 3dLabs 같은 그래픽 어댑터는 DVD 비디오 재생을 지원하나요?",
+    "expected_answer_ko": "아니요. 매뉴얼에 나온 FIREGL, Intergraph, 3dLabs 등의 일부 어댑터는 DVD 비디오 재생을 지원하지 않습니다.",
+    "reference_notes": [],
+    "reference_crop": ".runtime\\pm209-qa30\\reference-crops\\TEXT01.png"
+  },
+  {
+    "case_id": "TEXT02",
+    "category": "text",
+    "question_ko": "모니터를 설치하기 전에 무엇을 해야 하나요?",
+    "expected_answer_ko": "모니터, 컴퓨터 시스템 및 연결된 다른 장치의 전원을 모두 끕니다.",
+    "reference_notes": [],
+    "reference_crop": ".runtime\\pm209-qa30\\reference-crops\\TEXT02.png"
+  },
+  {
+    "case_id": "TEXT03",
+    "category": "text",
+    "question_ko": "PIN 식별 코드는 무엇인가요?",
+    "expected_answer_ko": "PIN은 SIM 카드의 식별 코드입니다.",
+    "reference_notes": [],
+    "reference_crop": ".runtime\\pm209-qa30\\reference-crops\\TEXT03.png"
+  },
+  {
+    "case_id": "TEXT04",
+    "category": "text",
+    "question_ko": "호스트 서버를 스토리지 어레이에 연결하면 무엇을 할 수 있나요?",
+    "expected_answer_ko": "스토리지 어레이에 저장된 데이터에 접근할 수 있습니다.",
+    "reference_notes": [],
+    "reference_crop": ".runtime\\pm209-qa30\\reference-crops\\TEXT04.png"
+  },
+  {
+    "case_id": "TEXT05",
+    "category": "text",
+    "question_ko": "일련번호는 어디에서 확인할 수 있나요?",
+    "expected_answer_ko": "CB 무전기 뒷면 패널에서 확인합니다.",
+    "reference_notes": [],
+    "reference_crop": ".runtime\\pm209-qa30\\reference-crops\\TEXT05.png"
+  },
+  {
+    "case_id": "TEXT06",
+    "category": "text",
+    "question_ko": "타임시프트 기능을 사용하려면 어떻게 해야 하나요?",
+    "expected_answer_ko": "타임시프트 기능에는 USB 저장장치의 여유 공간이 최소 1.5GB 필요합니다. 원문 질문은 광범위하지만 공식 정답은 이 조건만 제시합니다.",
+    "reference_notes": [
+      "원문 질문은 사용 방법 전반을 묻지만 공식 정답·지정 근거는 USB 여유 공간 1.5GB 조건만 제시함. 최소 이 조건의 포함 여부를 평가하며 질문/정답 범위 불일치를 별도 표시."
+    ],
+    "reference_crop": ".runtime\\pm209-qa30\\reference-crops\\TEXT06.png"
+  },
+  {
+    "case_id": "TEXT07",
+    "category": "text",
+    "question_ko": "Assistive Ball은 어떤 기능을 하나요?",
+    "expected_answer_ko": "제스처나 메뉴 옵션으로 여러 작업을 빠르게 수행하게 해 줍니다.",
+    "reference_notes": [],
+    "reference_crop": ".runtime\\pm209-qa30\\reference-crops\\TEXT07.png"
+  },
+  {
+    "case_id": "TEXT08",
+    "category": "text",
+    "question_ko": "이 장치의 입력 전압은 얼마인가요?",
+    "expected_answer_ko": "입력 전압은 100~240 VAC입니다.",
+    "reference_notes": [
+      "공식 QA의 100~400 VAC는 원본 이미지의 100~240 VAC와 불일치. 원본 이미지와 기존 OCR 모두 240을 표시하여 평가값만 보정했으며 원본 데이터는 수정하지 않음."
+    ],
+    "reference_crop": ".runtime\\pm209-qa30\\reference-crops\\TEXT08.png"
+  },
+  {
+    "case_id": "TEXT09",
+    "category": "text",
+    "question_ko": "Siri에게 시간을 물으려면 어떻게 말해야 하나요?",
+    "expected_answer_ko": "손목을 들어 Siri에게 “What time is it?”이라고 말합니다.",
+    "reference_notes": [],
+    "reference_crop": ".runtime\\pm209-qa30\\reference-crops\\TEXT09.png"
+  },
+  {
+    "case_id": "TEXT10",
+    "category": "text",
+    "question_ko": "유입되는 물의 온도는 얼마여야 하나요?",
+    "expected_answer_ko": "120°F(49°C)입니다.",
+    "reference_notes": [],
+    "reference_crop": ".runtime\\pm209-qa30\\reference-crops\\TEXT10.png"
+  }
+]

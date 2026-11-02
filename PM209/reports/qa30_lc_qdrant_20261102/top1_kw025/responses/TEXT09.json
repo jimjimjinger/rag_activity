@@ -1,0 +1,194 @@
+{
+  "case_id": "TEXT09",
+  "manual_id": "Watch_Apple_User_Guide",
+  "question": "Siri에게 시간을 물으려면 어떻게 말해야 하나요?",
+  "english_query": "How do I ask Siri for the time?",
+  "keyword_percent": 25,
+  "variant": "top1_kw025",
+  "top_k": 1,
+  "retrieved_chunk_ids": [
+    "b595456b-9abf-5dc0-9ad8-6bc60d1b78dd"
+  ],
+  "sources": [
+    {
+      "chunk_id": "b595456b-9abf-5dc0-9ad8-6bc60d1b78dd",
+      "manual_id": "Watch_Apple_User_Guide",
+      "page_id": "Watch_Apple_User_Guide_00280",
+      "chunk_type": "text",
+      "text": "Use World Clock on AppleWatch to check the time in\nUse the World Clock app on your AppleWatch to check the time in cities around the globe.\nAsk Siri.Say something like: “What time is it in Auckland?”",
+      "content_region_ids": [
+        "Watch_Apple_User_Guide_5273",
+        "Watch_Apple_User_Guide_5274"
+      ],
+      "context_region_ids": [
+        "Watch_Apple_User_Guide_5272"
+      ],
+      "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00285.jpg",
+      "source_shapes": [
+        {
+          "id": "Watch_Apple_User_Guide_5273",
+          "shape": {
+            "x": 313.99999999999983,
+            "y": 260.68200683593733,
+            "width": 727.2965698242181,
+            "height": 52.8818359375
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_5274",
+          "shape": {
+            "x": 313.70599365234364,
+            "y": 326.2689208984374,
+            "width": 543.5660400390625,
+            "height": 34.70800781250006
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_5272",
+          "shape": {
+            "x": 313.00000000000006,
+            "y": 184.5870361328125,
+            "width": 703.7700805664058,
+            "height": 65.42968749999989
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "Watch_Apple_User_Guide_5273",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 88
+        },
+        {
+          "region_id": "Watch_Apple_User_Guide_5274",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 59
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.03208923208923209,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "excluded_sources": [],
+  "created_at": "2026-11-02T04:59:05.882461+00:00",
+  "status": "answered",
+  "answer": "Apple Watch의 세계 시계 (World Clock) 앱을 사용하여 전 세계 도시들의 시간을 확인하거나, Siri에게 다음과 같이 물어보세요. 예: \"오클랜드의 시간은 언제인가요?\"",
+  "source_ids": [
+    "S1"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 75,
+        "prompt_eval_count": 407,
+        "total_duration": 1040878300,
+        "load_duration": 7074300,
+        "attempt": 1,
+        "prompt_token_upper_bound": 2434
+      }
+    ],
+    "elapsed_seconds": 1.0485960000078194,
+    "backend": "LangChain ChatPromptTemplate | ChatOllama"
+  },
+  "citations": [
+    {
+      "chunk_id": "b595456b-9abf-5dc0-9ad8-6bc60d1b78dd",
+      "manual_id": "Watch_Apple_User_Guide",
+      "page_id": "Watch_Apple_User_Guide_00280",
+      "chunk_type": "text",
+      "text": "Use World Clock on AppleWatch to check the time in\nUse the World Clock app on your AppleWatch to check the time in cities around the globe.\nAsk Siri.Say something like: “What time is it in Auckland?”",
+      "content_region_ids": [
+        "Watch_Apple_User_Guide_5273",
+        "Watch_Apple_User_Guide_5274"
+      ],
+      "context_region_ids": [
+        "Watch_Apple_User_Guide_5272"
+      ],
+      "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00285.jpg",
+      "source_shapes": [
+        {
+          "id": "Watch_Apple_User_Guide_5273",
+          "shape": {
+            "x": 313.99999999999983,
+            "y": 260.68200683593733,
+            "width": 727.2965698242181,
+            "height": 52.8818359375
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_5274",
+          "shape": {
+            "x": 313.70599365234364,
+            "y": 326.2689208984374,
+            "width": 543.5660400390625,
+            "height": 34.70800781250006
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_5272",
+          "shape": {
+            "x": 313.00000000000006,
+            "y": 184.5870361328125,
+            "width": 703.7700805664058,
+            "height": 65.42968749999989
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "Watch_Apple_User_Guide_5273",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 88
+        },
+        {
+          "region_id": "Watch_Apple_User_Guide_5274",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 59
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.03208923208923209,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 1.0486593999958131,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3832,
+    "temperature_c": 67,
+    "utilization_percent": 83
+  }
+}

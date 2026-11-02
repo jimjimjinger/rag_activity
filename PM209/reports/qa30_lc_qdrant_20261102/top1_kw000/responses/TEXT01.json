@@ -1,0 +1,162 @@
+{
+  "case_id": "TEXT01",
+  "manual_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1",
+  "question": "FIREGL, Intergraph, 3dLabs 같은 그래픽 어댑터는 DVD 비디오 재생을 지원하나요?",
+  "english_query": "Do graphics adapters such as FIREGL, Intergraph, and 3dLabs support DVD video playback?",
+  "keyword_percent": 0,
+  "variant": "top1_kw000",
+  "top_k": 1,
+  "retrieved_chunk_ids": [
+    "058ab5fd-2e1e-5f82-a1b8-53fbdc5a1f3f"
+  ],
+  "sources": [
+    {
+      "chunk_id": "058ab5fd-2e1e-5f82-a1b8-53fbdc5a1f3f",
+      "manual_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1",
+      "page_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00007",
+      "chunk_type": "text",
+      "text": "Software Description\nNote: Some graphics adapters such as the FIREGL, Intergraph, and 3dLabs, do not support DVD video playback.",
+      "content_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_52"
+      ],
+      "context_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_50"
+      ],
+      "image_filename": "images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1/images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00013.jpg",
+      "source_shapes": [
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_52",
+          "shape": {
+            "x": 143.68240356445315,
+            "y": 1028.6870117187498,
+            "width": 934.9936218261719,
+            "height": 48.093750000000455
+          }
+        },
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_50",
+          "shape": {
+            "x": 143.68240356445315,
+            "y": 910.0532836914061,
+            "width": 280.9746093750001,
+            "height": 33.246459960937614
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_52",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 107
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.9011164287955129,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "excluded_sources": [],
+  "created_at": "2026-11-02T04:58:12.761401+00:00",
+  "status": "answered",
+  "answer": "FIREGL, Intergraph, 3dLabs 와 같은 그래픽 어댑터는 DVD 비디오 재생을 지원하지 않습니다.",
+  "source_ids": [
+    "S1"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 62,
+        "prompt_eval_count": 404,
+        "total_duration": 12626301300,
+        "load_duration": 11494055000,
+        "attempt": 1,
+        "prompt_token_upper_bound": 2391
+      }
+    ],
+    "elapsed_seconds": 12.653757600026438,
+    "backend": "LangChain ChatPromptTemplate | ChatOllama"
+  },
+  "citations": [
+    {
+      "chunk_id": "058ab5fd-2e1e-5f82-a1b8-53fbdc5a1f3f",
+      "manual_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1",
+      "page_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00007",
+      "chunk_type": "text",
+      "text": "Software Description\nNote: Some graphics adapters such as the FIREGL, Intergraph, and 3dLabs, do not support DVD video playback.",
+      "content_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_52"
+      ],
+      "context_region_ids": [
+        "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_50"
+      ],
+      "image_filename": "images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1/images/lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_00013.jpg",
+      "source_shapes": [
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_52",
+          "shape": {
+            "x": 143.68240356445315,
+            "y": 1028.6870117187498,
+            "width": 934.9936218261719,
+            "height": 48.093750000000455
+          }
+        },
+        {
+          "id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_50",
+          "shape": {
+            "x": 143.68240356445315,
+            "y": 910.0532836914061,
+            "width": 280.9746093750001,
+            "height": 33.246459960937614
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_52",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 107
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.9011164287955129,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 12.653844100015704,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3830,
+    "temperature_c": 52,
+    "utilization_percent": 82
+  }
+}

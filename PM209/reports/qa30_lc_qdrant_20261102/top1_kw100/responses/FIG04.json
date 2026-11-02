@@ -1,0 +1,140 @@
+{
+  "case_id": "FIG04",
+  "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+  "question": "볼륨을 낮추는 Volume- 버튼은 어디에 있나요?",
+  "english_query": "Where is the Volume- button to lower the volume located?",
+  "keyword_percent": 100,
+  "variant": "top1_kw100",
+  "top_k": 1,
+  "retrieved_chunk_ids": [
+    "ef923ed8-e95d-55d8-a008-60de25cf2c60"
+  ],
+  "sources": [
+    {
+      "chunk_id": "ef923ed8-e95d-55d8-a008-60de25cf2c60",
+      "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+      "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00015",
+      "chunk_type": "text",
+      "text": "• Press the [Volume (+)/(-)] buttons to adjust the volume. • Press the [Play/Stop] button to mute or unmute the microphone. • Press and hold the [Talk] button to pause or resume a call.",
+      "content_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_103"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/15.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_103",
+          "shape": {
+            "x": 238.11,
+            "y": 32.519999999999975,
+            "width": 181.39999999999998,
+            "height": 97.41999999999999
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_103",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 185
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 11.980947494506836,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "excluded_sources": [],
+  "created_at": "2026-11-02T05:01:03.051657+00:00",
+  "status": "answered",
+  "answer": "볼륨을 낮추는 Volume- 버튼은 [Volume (+)/(-)] 버튼 중 하나이며, 볼륨을 조정하기 위해 누릅니다.",
+  "source_ids": [
+    "S1"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 65,
+        "prompt_eval_count": 408,
+        "total_duration": 912710400,
+        "load_duration": 4886900,
+        "attempt": 1,
+        "prompt_token_upper_bound": 2414
+      }
+    ],
+    "elapsed_seconds": 0.9169462000136264,
+    "backend": "LangChain ChatPromptTemplate | ChatOllama"
+  },
+  "citations": [
+    {
+      "chunk_id": "ef923ed8-e95d-55d8-a008-60de25cf2c60",
+      "manual_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen",
+      "page_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_00015",
+      "chunk_type": "text",
+      "text": "• Press the [Volume (+)/(-)] buttons to adjust the volume. • Press the [Play/Stop] button to mute or unmute the microphone. • Press and hold the [Talk] button to pause or resume a call.",
+      "content_region_ids": [
+        "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_103"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen/images/15.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_103",
+          "shape": {
+            "x": 238.11,
+            "y": 32.519999999999975,
+            "width": 181.39999999999998,
+            "height": 97.41999999999999
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_103",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 185
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 11.980947494506836,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 0.9169955000106711,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 66,
+    "utilization_percent": 87
+  }
+}

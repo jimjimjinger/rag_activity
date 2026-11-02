@@ -1,0 +1,460 @@
+{
+  "case_id": "FIG01",
+  "manual_id": "og_en_wmsucb",
+  "question": "전동 드릴을 사용하기 전에 무엇에 주의해야 하나요?",
+  "english_query": "What should I pay attention to before using the cordless drill?",
+  "keyword_percent": 100,
+  "dense_percent": 0,
+  "retrieved_chunk_ids": [
+    "9e949d91-958a-5b90-80f1-8c8b38bea371",
+    "9f78d639-5cd4-534b-9782-37894ee48fc2",
+    "2e10a2bf-e166-55f3-b608-4397001194b3",
+    "a4c53a51-e27b-598d-bb1b-e5e38cf75817",
+    "0cd99f7a-3258-5c07-ba45-0f00bdf3ce51"
+  ],
+  "sources": [
+    {
+      "chunk_id": "9e949d91-958a-5b90-80f1-8c8b38bea371",
+      "manual_id": "og_en_wmsucb",
+      "page_id": "og_en_wmsucb_00004",
+      "chunk_type": "title",
+      "text": "Before using your drill",
+      "content_region_ids": [
+        "og_en_wmsucb_397"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00004.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_397",
+          "shape": {
+            "x": 320.99999999999994,
+            "y": 118.55207824707028,
+            "width": 280.0000000000003,
+            "height": 34.0
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_397",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 23
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [],
+      "score": 0.01639344262295082,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "9f78d639-5cd4-534b-9782-37894ee48fc2",
+      "manual_id": "og_en_wmsucb",
+      "page_id": "og_en_wmsucb_00004",
+      "chunk_type": "text",
+      "text": "Before you begin to drill, center the tip of the drill bit in each drill hole circle you draw.",
+      "content_region_ids": [
+        "og_en_wmsucb_378"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00004.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_378",
+          "shape": {
+            "x": 322.0400085449221,
+            "y": 153.1119613647461,
+            "width": 575.6361389160153,
+            "height": 44.47049713134774
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_378",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 94
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.016129032258064516,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "2e10a2bf-e166-55f3-b608-4397001194b3",
+      "manual_id": "og_en_wmsucb",
+      "page_id": "og_en_wmsucb_00005",
+      "chunk_type": "text",
+      "text": "Mounting the bracket under a cabinet\nBefore drilling any holes:",
+      "content_region_ids": [
+        "og_en_wmsucb_102"
+      ],
+      "context_region_ids": [
+        "og_en_wmsucb_100"
+      ],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00005.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_102",
+          "shape": {
+            "x": 324.0006408691403,
+            "y": 242.1555480957033,
+            "width": 219.50253295898483,
+            "height": 23.226715087890625
+          }
+        },
+        {
+          "id": "og_en_wmsucb_100",
+          "shape": {
+            "x": 71.99999999999997,
+            "y": 117.98193359374994,
+            "width": 530.9045410156252,
+            "height": 32.99279785156256
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_102",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 26
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.015873015873015872,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S3"
+    },
+    {
+      "chunk_id": "a4c53a51-e27b-598d-bb1b-e5e38cf75817",
+      "manual_id": "og_en_wmsucb",
+      "page_id": "og_en_wmsucb_00005",
+      "chunk_type": "text",
+      "text": "Use the proper mounting hardware and drill hole size indicated below:",
+      "content_region_ids": [
+        "og_en_wmsucb_110"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00005.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_110",
+          "shape": {
+            "x": 324.0000000000002,
+            "y": 720.7161254882808,
+            "width": 624.0813598632805,
+            "height": 23.226745605469773
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_110",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 69
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.015625,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S4"
+    },
+    {
+      "chunk_id": "0cd99f7a-3258-5c07-ba45-0f00bdf3ce51",
+      "manual_id": "og_en_wmsucb",
+      "page_id": "og_en_wmsucb_00005",
+      "chunk_type": "text",
+      "text": "WARNING: Do NOT use the mounting assembly as a template while drilling.",
+      "content_region_ids": [
+        "og_en_wmsucb_106"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00005.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_106",
+          "shape": {
+            "x": 324.0000000000002,
+            "y": 396.23611450195307,
+            "width": 658.859497070313,
+            "height": 23.50558471679733
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_106",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 71
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.015384615384615385,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S5"
+    }
+  ],
+  "excluded_sources": [],
+  "status": "answered",
+  "variant": "keyword_100",
+  "created_at": "2026-11-02T00:42:54.192804+00:00",
+  "answer": "전동 드릴을 사용하기 전에, 드릴 비트의 끝을 그리는 원의 중심에 맞추어야 합니다. 또한, 설치 브래킷 아래橱柜에서 구멍을 뚫기 전에는 올바른 설치 하드웨어와 매뉴얼에 표시된 드릴 구멍 크기를 사용해야 하며, 설치 조립체를 드릴링 템플릿으로 사용하지 않아야 합니다.",
+  "source_ids": [
+    "S2",
+    "S3",
+    "S4",
+    "S5"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 120,
+        "prompt_eval_count": 540,
+        "total_duration": 1852693500,
+        "load_duration": 6514900,
+        "attempt": 1,
+        "prompt_token_upper_bound": 2942
+      }
+    ],
+    "elapsed_seconds": 1.9114274999883492,
+    "ollama_model": {
+      "name": "qwen3.5:4b",
+      "model": "qwen3.5:4b",
+      "size": 3214409726,
+      "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "4.2B",
+        "quantization_level": "Q4_K_M"
+      },
+      "expires_at": "2026-11-02T09:43:56.1026684+09:00",
+      "size_vram": 3214409726,
+      "context_length": 8192,
+      "runner": "llamacpp"
+    },
+    "observation_error": null
+  },
+  "citations": [
+    {
+      "chunk_id": "9f78d639-5cd4-534b-9782-37894ee48fc2",
+      "manual_id": "og_en_wmsucb",
+      "page_id": "og_en_wmsucb_00004",
+      "chunk_type": "text",
+      "text": "Before you begin to drill, center the tip of the drill bit in each drill hole circle you draw.",
+      "content_region_ids": [
+        "og_en_wmsucb_378"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00004.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_378",
+          "shape": {
+            "x": 322.0400085449221,
+            "y": 153.1119613647461,
+            "width": 575.6361389160153,
+            "height": 44.47049713134774
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_378",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 94
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.016129032258064516,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "2e10a2bf-e166-55f3-b608-4397001194b3",
+      "manual_id": "og_en_wmsucb",
+      "page_id": "og_en_wmsucb_00005",
+      "chunk_type": "text",
+      "text": "Mounting the bracket under a cabinet\nBefore drilling any holes:",
+      "content_region_ids": [
+        "og_en_wmsucb_102"
+      ],
+      "context_region_ids": [
+        "og_en_wmsucb_100"
+      ],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00005.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_102",
+          "shape": {
+            "x": 324.0006408691403,
+            "y": 242.1555480957033,
+            "width": 219.50253295898483,
+            "height": 23.226715087890625
+          }
+        },
+        {
+          "id": "og_en_wmsucb_100",
+          "shape": {
+            "x": 71.99999999999997,
+            "y": 117.98193359374994,
+            "width": 530.9045410156252,
+            "height": 32.99279785156256
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_102",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 26
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.015873015873015872,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S3"
+    },
+    {
+      "chunk_id": "a4c53a51-e27b-598d-bb1b-e5e38cf75817",
+      "manual_id": "og_en_wmsucb",
+      "page_id": "og_en_wmsucb_00005",
+      "chunk_type": "text",
+      "text": "Use the proper mounting hardware and drill hole size indicated below:",
+      "content_region_ids": [
+        "og_en_wmsucb_110"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00005.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_110",
+          "shape": {
+            "x": 324.0000000000002,
+            "y": 720.7161254882808,
+            "width": 624.0813598632805,
+            "height": 23.226745605469773
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_110",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 69
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.015625,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S4"
+    },
+    {
+      "chunk_id": "0cd99f7a-3258-5c07-ba45-0f00bdf3ce51",
+      "manual_id": "og_en_wmsucb",
+      "page_id": "og_en_wmsucb_00005",
+      "chunk_type": "text",
+      "text": "WARNING: Do NOT use the mounting assembly as a template while drilling.",
+      "content_region_ids": [
+        "og_en_wmsucb_106"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00005.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_106",
+          "shape": {
+            "x": 324.0000000000002,
+            "y": 396.23611450195307,
+            "width": 658.859497070313,
+            "height": 23.50558471679733
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_106",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 71
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.015384615384615385,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S5"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 1.9116945000132546,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3836,
+    "temperature_c": 66,
+    "utilization_percent": 83
+  }
+}

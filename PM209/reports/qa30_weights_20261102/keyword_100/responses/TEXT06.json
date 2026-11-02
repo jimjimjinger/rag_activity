@@ -1,0 +1,497 @@
+{
+  "case_id": "TEXT06",
+  "manual_id": "samsung_tv",
+  "question": "타임시프트 기능을 사용하려면 어떻게 해야 하나요?",
+  "english_query": "How do I use the Time Shift feature?",
+  "keyword_percent": 100,
+  "dense_percent": 0,
+  "retrieved_chunk_ids": [
+    "faa1d00f-39b5-5489-bda4-20e8888edc52",
+    "ffb21f80-d0d8-51b4-abc9-6e396a033b3d",
+    "e83a1a0d-2d25-53d8-925b-708dbf89fb01",
+    "641beb6d-edcf-5569-aee4-7c30ede064c0",
+    "76a3aba1-7136-5cf2-a470-4a0671b4f04a"
+  ],
+  "sources": [
+    {
+      "chunk_id": "faa1d00f-39b5-5489-bda4-20e8888edc52",
+      "manual_id": "samsung_tv",
+      "page_id": "samsung_tv_00131",
+      "chunk_type": "text",
+      "text": "● Time-shifted videos are played according to the TV settings.\n● The Timeshift function may be terminated automatically once it reaches its maximum capacity.\n● The Timeshift function requires at least 1.5 GB of free space available on the USB storage device.",
+      "content_region_ids": [
+        "samsung_tv_2155",
+        "samsung_tv_2156",
+        "samsung_tv_2157"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_tv/images/131.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_tv_2155",
+          "shape": {
+            "x": 107.72000000000007,
+            "y": 578.4800000000004,
+            "width": 556.8600000000005,
+            "height": 23.980000000000132
+          }
+        },
+        {
+          "id": "samsung_tv_2156",
+          "shape": {
+            "x": 107.72000000000007,
+            "y": 629.9900000000002,
+            "width": 863.9200000000005,
+            "height": 23.979999999999677
+          }
+        },
+        {
+          "id": "samsung_tv_2157",
+          "shape": {
+            "x": 107.72000000000007,
+            "y": 681.5,
+            "width": 875.0400000000002,
+            "height": 23.98000000000036
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_tv_2155",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 62
+        },
+        {
+          "region_id": "samsung_tv_2156",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 94
+        },
+        {
+          "region_id": "samsung_tv_2157",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 100
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.01639344262295082,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "ffb21f80-d0d8-51b4-abc9-6e396a033b3d",
+      "manual_id": "samsung_tv",
+      "page_id": "samsung_tv_00162",
+      "chunk_type": "text",
+      "text": "Using the guide\nTime Clock)",
+      "content_region_ids": [
+        "samsung_tv_4517"
+      ],
+      "context_region_ids": [
+        "samsung_tv_4529"
+      ],
+      "image_filename": "images/samsung_tv/images/162.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_tv_4517",
+          "shape": {
+            "x": 136.06,
+            "y": 648.0999999999999,
+            "width": 116.62999999999997,
+            "height": 21.589999999999918
+          }
+        },
+        {
+          "id": "samsung_tv_4529",
+          "shape": {
+            "x": 85.03999999999998,
+            "y": 82.3,
+            "width": 248.76999999999987,
+            "height": 43.16999999999999
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_tv_4517",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 11
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.016129032258064516,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "e83a1a0d-2d25-53d8-925b-708dbf89fb01",
+      "manual_id": "samsung_tv",
+      "page_id": "samsung_tv_00131",
+      "chunk_type": "text",
+      "text": "● The total recording capacity may differ with the amount of available hard drive space and the recording quality level.\n● If the available storage space falls below 500 MB while both the Schedule Recording and Timeshift functions are in progress, only the recording will stop.\n● The maximum amount of time available for the Timeshift function is 90 minutes.\n● The Timeshift function is not available for locked channels.\n● Time-shifted videos are played according to the TV settings.",
+      "content_region_ids": [
+        "samsung_tv_2151",
+        "samsung_tv_2152",
+        "samsung_tv_2153",
+        "samsung_tv_2154",
+        "samsung_tv_2155"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_tv/images/131.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_tv_2151",
+          "shape": {
+            "x": 107.72000000000007,
+            "y": 320.43,
+            "width": 935.0000000000002,
+            "height": 49.980000000000075
+          }
+        },
+        {
+          "id": "samsung_tv_2152",
+          "shape": {
+            "x": 107.72000000000007,
+            "y": 397.9400000000002,
+            "width": 984.0200000000007,
+            "height": 49.98999999999984
+          }
+        },
+        {
+          "id": "samsung_tv_2153",
+          "shape": {
+            "x": 107.72000000000007,
+            "y": 475.45,
+            "width": 737.7700000000003,
+            "height": 23.99000000000001
+          }
+        },
+        {
+          "id": "samsung_tv_2154",
+          "shape": {
+            "x": 107.72000000000007,
+            "y": 526.9600000000002,
+            "width": 547.7000000000003,
+            "height": 23.99000000000001
+          }
+        },
+        {
+          "id": "samsung_tv_2155",
+          "shape": {
+            "x": 107.72000000000007,
+            "y": 578.4800000000004,
+            "width": 556.8600000000005,
+            "height": 23.980000000000132
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_tv_2151",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 120
+        },
+        {
+          "region_id": "samsung_tv_2152",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 156
+        },
+        {
+          "region_id": "samsung_tv_2153",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 80
+        },
+        {
+          "region_id": "samsung_tv_2154",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 62
+        },
+        {
+          "region_id": "samsung_tv_2155",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 62
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.015873015873015872,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S3"
+    },
+    {
+      "chunk_id": "641beb6d-edcf-5569-aee4-7c30ede064c0",
+      "manual_id": "samsung_tv",
+      "page_id": "samsung_tv_00106",
+      "chunk_type": "text",
+      "text": "Using the Auto Protection Time and Energy Saving Functions\nSet the Auto Protection Time and reduce the TV's energy consumption.",
+      "content_region_ids": [
+        "samsung_tv_1477"
+      ],
+      "context_region_ids": [
+        "samsung_tv_1476"
+      ],
+      "image_filename": "images/samsung_tv/images/106.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_tv_1477",
+          "shape": {
+            "x": 85.04000000000002,
+            "y": 146.18000000000023,
+            "width": 617.2900000000004,
+            "height": 23.989999999999895
+          }
+        },
+        {
+          "id": "samsung_tv_1476",
+          "shape": {
+            "x": 85.04000000000002,
+            "y": 82.30000000000003,
+            "width": 958.890000000001,
+            "height": 43.17
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_tv_1477",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 68
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.015625,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S4"
+    },
+    {
+      "chunk_id": "76a3aba1-7136-5cf2-a470-4a0671b4f04a",
+      "manual_id": "samsung_tv",
+      "page_id": "samsung_tv_00022",
+      "chunk_type": "text",
+      "text": "Using additional functions\nYou can use the following features on the Source screen.\n● Remote Access",
+      "content_region_ids": [
+        "samsung_tv_566",
+        "samsung_tv_565"
+      ],
+      "context_region_ids": [
+        "samsung_tv_567"
+      ],
+      "image_filename": "images/samsung_tv/images/22.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_tv_566",
+          "shape": {
+            "x": 85.04000000000003,
+            "y": 781.8200000000002,
+            "width": 493.77000000000004,
+            "height": 23.98000000000036
+          }
+        },
+        {
+          "id": "samsung_tv_565",
+          "shape": {
+            "x": 107.72000000000006,
+            "y": 824.8200000000006,
+            "width": 166.72999999999988,
+            "height": 23.989999999999668
+          }
+        },
+        {
+          "id": "samsung_tv_567",
+          "shape": {
+            "x": 85.04000000000003,
+            "y": 715.01,
+            "width": 348.4800000000002,
+            "height": 35.969999999999914
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_tv_566",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 56
+        },
+        {
+          "region_id": "samsung_tv_565",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 15
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.015384615384615385,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S5"
+    }
+  ],
+  "excluded_sources": [],
+  "status": "answered",
+  "variant": "keyword_100",
+  "created_at": "2026-11-02T00:42:29.047846+00:00",
+  "answer": "타임시프트 기능을 사용하려면 USB 저장 장치에 최소 1.5 GB 의 여유 공간이 있어야 합니다.",
+  "source_ids": [
+    "S1"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 58,
+        "prompt_eval_count": 681,
+        "total_duration": 1130669800,
+        "load_duration": 6040900,
+        "attempt": 1,
+        "prompt_token_upper_bound": 3669
+      }
+    ],
+    "elapsed_seconds": 1.2074941000028048,
+    "ollama_model": {
+      "name": "qwen3.5:4b",
+      "model": "qwen3.5:4b",
+      "size": 3214409726,
+      "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "4.2B",
+        "quantization_level": "Q4_K_M"
+      },
+      "expires_at": "2026-11-02T09:43:30.2534426+09:00",
+      "size_vram": 3214409726,
+      "context_length": 8192,
+      "runner": "llamacpp"
+    },
+    "observation_error": null
+  },
+  "citations": [
+    {
+      "chunk_id": "faa1d00f-39b5-5489-bda4-20e8888edc52",
+      "manual_id": "samsung_tv",
+      "page_id": "samsung_tv_00131",
+      "chunk_type": "text",
+      "text": "● Time-shifted videos are played according to the TV settings.\n● The Timeshift function may be terminated automatically once it reaches its maximum capacity.\n● The Timeshift function requires at least 1.5 GB of free space available on the USB storage device.",
+      "content_region_ids": [
+        "samsung_tv_2155",
+        "samsung_tv_2156",
+        "samsung_tv_2157"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/samsung_tv/images/131.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_tv_2155",
+          "shape": {
+            "x": 107.72000000000007,
+            "y": 578.4800000000004,
+            "width": 556.8600000000005,
+            "height": 23.980000000000132
+          }
+        },
+        {
+          "id": "samsung_tv_2156",
+          "shape": {
+            "x": 107.72000000000007,
+            "y": 629.9900000000002,
+            "width": 863.9200000000005,
+            "height": 23.979999999999677
+          }
+        },
+        {
+          "id": "samsung_tv_2157",
+          "shape": {
+            "x": 107.72000000000007,
+            "y": 681.5,
+            "width": 875.0400000000002,
+            "height": 23.98000000000036
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_tv_2155",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 62
+        },
+        {
+          "region_id": "samsung_tv_2156",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 94
+        },
+        {
+          "region_id": "samsung_tv_2157",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 100
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.01639344262295082,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 1.2077056000125594,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3836,
+    "temperature_c": 66,
+    "utilization_percent": 83
+  }
+}

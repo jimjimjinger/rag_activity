@@ -1,0 +1,272 @@
+{
+  "case_id": "TABLE01",
+  "manual_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740",
+  "question": "저음이나 고음이 약하면 어떻게 해야 하나요?",
+  "english_query": "What should I do if the low or high sound is weak?",
+  "keyword_percent": 25,
+  "dense_percent": 75,
+  "top_k": 1,
+  "retrieved_chunk_ids": [
+    "1aff7bae-3e4e-5724-b112-1fd1f3dc9a66"
+  ],
+  "sources": [
+    {
+      "chunk_id": "1aff7bae-3e4e-5724-b112-1fd1f3dc9a66",
+      "manual_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740",
+      "page_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00011",
+      "chunk_type": "table",
+      "text": "Troubleshooting\nFirst row (header unconfirmed): Column 1: Problem | Column 2: What to do\nColumn 1: The bass or treble is weak | Column 2: • Check the tonal balance setting on your receiver or amplifier.",
+      "content_region_ids": [
+        "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_100"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_97"
+      ],
+      "image_filename": "images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740/images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00012.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_100",
+          "shape": {
+            "x": 70.25000000000001,
+            "y": 168.99999999999994,
+            "width": 1091.5,
+            "height": 676.0000000000002
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_97",
+          "shape": {
+            "x": 77.99999999999996,
+            "y": 116.5570526123047,
+            "width": 221.66030883789074,
+            "height": 34.97200012207027
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_82",
+          "shape": {
+            "x": 83.95440673828124,
+            "y": 384.0797424316407,
+            "width": 222.1856079101563,
+            "height": 23.320007324218864
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_83",
+          "shape": {
+            "x": 358.4524230957031,
+            "y": 384.0797424316407,
+            "width": 528.2588806152344,
+            "height": 23.320007324218864
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_95",
+          "shape": {
+            "x": 86.40000152587893,
+            "y": 182.81225585937503,
+            "width": 82.94721221923831,
+            "height": 24.979995727539034
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_96",
+          "shape": {
+            "x": 350.31378173828136,
+            "y": 182.81225585937503,
+            "width": 104.742431640625,
+            "height": 24.979995727539034
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "score": 0.01639344262295082,
+      "table_rows": [
+        2
+      ],
+      "table_cells": [
+        {
+          "row": 2,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S1"
+    }
+  ],
+  "excluded_sources": [],
+  "top5_response_file": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_weights_20261102\\keyword_025\\results.json",
+  "status": "answered",
+  "variant": "keyword_025",
+  "created_at": "2026-11-02T00:56:21.452827+00:00",
+  "answer": "저음이나 고음이 약하면 수신기나 앰프의 톤 밸런스 설정을 확인하세요.",
+  "source_ids": [
+    "S1"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 59,
+        "prompt_eval_count": 414,
+        "total_duration": 853628100,
+        "load_duration": 5295500,
+        "attempt": 1,
+        "prompt_token_upper_bound": 2444
+      }
+    ],
+    "elapsed_seconds": 0.9359333000029437,
+    "ollama_model": {
+      "name": "qwen3.5:4b",
+      "model": "qwen3.5:4b",
+      "size": 3214409726,
+      "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "4.2B",
+        "quantization_level": "Q4_K_M"
+      },
+      "expires_at": "2026-11-02T09:57:22.3861318+09:00",
+      "size_vram": 3214409726,
+      "context_length": 8192,
+      "runner": "llamacpp"
+    },
+    "observation_error": null
+  },
+  "citations": [
+    {
+      "chunk_id": "1aff7bae-3e4e-5724-b112-1fd1f3dc9a66",
+      "manual_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740",
+      "page_id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00011",
+      "chunk_type": "table",
+      "text": "Troubleshooting\nFirst row (header unconfirmed): Column 1: Problem | Column 2: What to do\nColumn 1: The bass or treble is weak | Column 2: • Check the tonal balance setting on your receiver or amplifier.",
+      "content_region_ids": [
+        "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_100"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_97"
+      ],
+      "image_filename": "images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740/images/bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_00012.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_100",
+          "shape": {
+            "x": 70.25000000000001,
+            "y": 168.99999999999994,
+            "width": 1091.5,
+            "height": 676.0000000000002
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_97",
+          "shape": {
+            "x": 77.99999999999996,
+            "y": 116.5570526123047,
+            "width": 221.66030883789074,
+            "height": 34.97200012207027
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_82",
+          "shape": {
+            "x": 83.95440673828124,
+            "y": 384.0797424316407,
+            "width": 222.1856079101563,
+            "height": 23.320007324218864
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_83",
+          "shape": {
+            "x": 358.4524230957031,
+            "y": 384.0797424316407,
+            "width": 528.2588806152344,
+            "height": 23.320007324218864
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_95",
+          "shape": {
+            "x": 86.40000152587893,
+            "y": 182.81225585937503,
+            "width": 82.94721221923831,
+            "height": 24.979995727539034
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_96",
+          "shape": {
+            "x": 350.31378173828136,
+            "y": 182.81225585937503,
+            "width": 104.742431640625,
+            "height": 24.979995727539034
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "score": 0.01639344262295082,
+      "table_rows": [
+        2
+      ],
+      "table_cells": [
+        {
+          "row": 2,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S1"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 0.9361207000038121,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3832,
+    "temperature_c": 72,
+    "utilization_percent": 83
+  }
+}

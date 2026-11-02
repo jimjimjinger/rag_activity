@@ -1,0 +1,1680 @@
+{
+  "case_id": "FIG01",
+  "manual_id": "og_en_wmsucb",
+  "question": "전동 드릴을 사용하기 전에 무엇에 주의해야 하나요?",
+  "english_query": "What should I pay attention to before using the cordless drill?",
+  "dense_candidates": [
+    {
+      "score": 0.7437181063304514,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "og_en_wmsucb",
+      "split": "val",
+      "page_id": "og_en_wmsucb_00004",
+      "chunk_type": "title",
+      "content_region_ids": [
+        "og_en_wmsucb_397"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00004.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_397",
+          "shape": {
+            "x": 320.99999999999994,
+            "y": 118.55207824707028,
+            "width": 280.0000000000003,
+            "height": 34.0
+          }
+        }
+      ],
+      "title": "",
+      "text": "Before using your drill",
+      "char_count": 23,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_397",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 23
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "9e949d91-958a-5b90-80f1-8c8b38bea371",
+      "text_sha256": "5587b29a1ee08a428f4457f1f06826e1c5f618e76b655d6bc72b0dcb2ab944f2",
+      "token_count": 4
+    },
+    {
+      "score": 0.6747483716417058,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "og_en_wmsucb",
+      "split": "val",
+      "page_id": "og_en_wmsucb_00004",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "og_en_wmsucb_379"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00004.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_379",
+          "shape": {
+            "x": 326.04000854492205,
+            "y": 228.3548889160156,
+            "width": 428.1311950683592,
+            "height": 67.26736450195315
+          }
+        }
+      ],
+      "title": "",
+      "text": "WARNING: Use eye protection and be sure to observe all safety precautions while using a drill or cutting tool.",
+      "char_count": 110,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_379",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 110
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "ba169ff7-8963-51df-ae03-f24b8e964454",
+      "text_sha256": "cf205a3039c1b6afbb94febea7c1dbae5015604d8ef591efd71195f2c988d0e7",
+      "token_count": 21
+    },
+    {
+      "score": 0.5992141096244483,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "og_en_wmsucb",
+      "split": "val",
+      "page_id": "og_en_wmsucb_00004",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "og_en_wmsucb_378"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00004.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_378",
+          "shape": {
+            "x": 322.0400085449221,
+            "y": 153.1119613647461,
+            "width": 575.6361389160153,
+            "height": 44.47049713134774
+          }
+        }
+      ],
+      "title": "",
+      "text": "Before you begin to drill, center the tip of the drill bit in each drill hole circle you draw.",
+      "char_count": 94,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_378",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 94
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "9f78d639-5cd4-534b-9782-37894ee48fc2",
+      "text_sha256": "83aeae86de048152a8504d1f53d0a67a6a787ffb1bf8f66a936867c7bddebbe0",
+      "token_count": 21
+    },
+    {
+      "score": 0.5817360754054717,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "og_en_wmsucb",
+      "split": "val",
+      "page_id": "og_en_wmsucb_00007",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "og_en_wmsucb_188"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00007.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_188",
+          "shape": {
+            "x": 324.0000000000001,
+            "y": 860.6361083984378,
+            "width": 658.8594970703126,
+            "height": 23.505615234375227
+          }
+        }
+      ],
+      "title": "",
+      "text": "WARNING: Do NOT use the mounting assembly as a template while drilling.",
+      "char_count": 71,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_188",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 71
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "4b37c0db-9917-55ff-8817-0b336874fd35",
+      "text_sha256": "f416a7422b3b01c170ed22bcb48f47abeccca86efd144dc8359cac8eeb616a6c",
+      "token_count": 14
+    },
+    {
+      "score": 0.5817360754054717,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "og_en_wmsucb",
+      "split": "val",
+      "page_id": "og_en_wmsucb_00005",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "og_en_wmsucb_106"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00005.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_106",
+          "shape": {
+            "x": 324.0000000000002,
+            "y": 396.23611450195307,
+            "width": 658.859497070313,
+            "height": 23.50558471679733
+          }
+        }
+      ],
+      "title": "",
+      "text": "WARNING: Do NOT use the mounting assembly as a template while drilling.",
+      "char_count": 71,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_106",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 71
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "0cd99f7a-3258-5c07-ba45-0f00bdf3ce51",
+      "text_sha256": "f416a7422b3b01c170ed22bcb48f47abeccca86efd144dc8359cac8eeb616a6c",
+      "token_count": 14
+    },
+    {
+      "score": 0.5769146466717054,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "og_en_wmsucb",
+      "split": "val",
+      "page_id": "og_en_wmsucb_00004",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "og_en_wmsucb_380"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00004.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_380",
+          "shape": {
+            "x": 326.04016113281256,
+            "y": 306.35513305664057,
+            "width": 456.62066650390756,
+            "height": 111.18655395507852
+          }
+        }
+      ],
+      "title": "",
+      "text": "WARNING: Make sure the spot chosen is safe for cutting. Do not cut through surfaces that may have hazards such as electrical wiring, conduits, or plumb- ing concealed behind them. Follow all other safety precautions.",
+      "char_count": 216,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_380",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 216
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "aa31bf51-f973-5eae-8b9e-1bd60574ab92",
+      "text_sha256": "a7f54edef65234a52832748b7b6b76cdd077f22e9a47133f7ee4e73a5454b4f6",
+      "token_count": 44
+    },
+    {
+      "score": 0.5298264014337105,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "og_en_wmsucb",
+      "split": "val",
+      "page_id": "og_en_wmsucb_00007",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "og_en_wmsucb_181"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00007.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_181",
+          "shape": {
+            "x": 324.0000000000001,
+            "y": 375.71621704101574,
+            "width": 568.4752197265631,
+            "height": 23.226715087890796
+          }
+        }
+      ],
+      "title": "",
+      "text": "Avoid tightly bundling the cord, which contains the FM antenna.",
+      "char_count": 63,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_181",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 63
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "0f024728-7247-5f77-b4ce-4ce407b3f6b6",
+      "text_sha256": "6d75fca730c1ac154e0ba46b9aa3b02ce8d092e8b42ef8c8dacfc8de1dda75bf",
+      "token_count": 13
+    },
+    {
+      "score": 0.5298264014337105,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "og_en_wmsucb",
+      "split": "val",
+      "page_id": "og_en_wmsucb_00011",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "og_en_wmsucb_30"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00011.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_30",
+          "shape": {
+            "x": 324.0000000000001,
+            "y": 851.0361328125007,
+            "width": 568.475341796875,
+            "height": 23.226745605468523
+          }
+        }
+      ],
+      "title": "",
+      "text": "Avoid tightly bundling the cord, which contains the FM antenna.",
+      "char_count": 63,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_30",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 63
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "612f94fe-fa24-52c2-9b46-be14ee6691e3",
+      "text_sha256": "6d75fca730c1ac154e0ba46b9aa3b02ce8d092e8b42ef8c8dacfc8de1dda75bf",
+      "token_count": 13
+    },
+    {
+      "score": 0.5263496936031877,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "og_en_wmsucb",
+      "split": "val",
+      "page_id": "og_en_wmsucb_00005",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "og_en_wmsucb_110"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00005.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_110",
+          "shape": {
+            "x": 324.0000000000002,
+            "y": 720.7161254882808,
+            "width": 624.0813598632805,
+            "height": 23.226745605469773
+          }
+        }
+      ],
+      "title": "",
+      "text": "Use the proper mounting hardware and drill hole size indicated below:",
+      "char_count": 69,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_110",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 69
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "a4c53a51-e27b-598d-bb1b-e5e38cf75817",
+      "text_sha256": "fab0d546c395e439ddf8ae96c408b98f2bb14385fb0eaae1f2e062cc7c4cd68f",
+      "token_count": 12
+    },
+    {
+      "score": 0.5074929719817902,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "og_en_wmsucb",
+      "split": "val",
+      "page_id": "og_en_wmsucb_00003",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "og_en_wmsucb_343"
+      ],
+      "context_region_ids": [
+        "og_en_wmsucb_339"
+      ],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00003.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_343",
+          "shape": {
+            "x": 325.5605773925783,
+            "y": 879.7440185546872,
+            "width": 139.77352905273392,
+            "height": 40.9085693359375
+          }
+        },
+        {
+          "id": "og_en_wmsucb_339",
+          "shape": {
+            "x": 71.04000091552736,
+            "y": 729.0220947265617,
+            "width": 442.17069244384766,
+            "height": 32.99279785156341
+          }
+        }
+      ],
+      "title": "Other equipment you may need",
+      "text": "Other equipment you may need\nDrill bit for your mounting surface",
+      "char_count": 64,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_343",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 35
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "a5567657-1eec-59ef-8289-feae1400a9f5",
+      "text_sha256": "b0c39c6c62dbe5f83fccee55bddcb2529a85609c29d9eab3fd9f7bb0e4115331",
+      "token_count": 13
+    },
+    {
+      "score": 0.4871788182572313,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "og_en_wmsucb",
+      "split": "val",
+      "page_id": "og_en_wmsucb_00003",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "og_en_wmsucb_372"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00003.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_372",
+          "shape": {
+            "x": 433.9980977376303,
+            "y": 980.4071451822917,
+            "width": 211.33333333333331,
+            "height": 108.66666666666765
+          }
+        }
+      ],
+      "title": "",
+      "text": "A line drawing of an electric drill viewed from the side, showing the chuck at the front and the pistol-grip handle at the rear. A small rectangular switch is visible on the upper side of the handle. The label 'Electric drill' appears below the illustration.",
+      "char_count": 258,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_372",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 258
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "519d28c2-e67a-5d39-a556-2c9f81a90a48",
+      "text_sha256": "1289804da4ad8b9892d74b91740113a143f4ffdbcd757625db29576d09aa1a0d",
+      "token_count": 53
+    },
+    {
+      "score": 0.4831975104589802,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "og_en_wmsucb",
+      "split": "val",
+      "page_id": "og_en_wmsucb_00002",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "og_en_wmsucb_308",
+        "og_en_wmsucb_309",
+        "og_en_wmsucb_310"
+      ],
+      "context_region_ids": [
+        "og_en_wmsucb_304"
+      ],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00002.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_308",
+          "shape": {
+            "x": 100.19999694824223,
+            "y": 1241.0361328125005,
+            "width": 665.5518951416019,
+            "height": 23.505615234375
+          }
+        },
+        {
+          "id": "og_en_wmsucb_309",
+          "shape": {
+            "x": 100.19999694824223,
+            "y": 1271.036132812501,
+            "width": 857.316055297852,
+            "height": 23.505615234375
+          }
+        },
+        {
+          "id": "og_en_wmsucb_310",
+          "shape": {
+            "x": 100.19999694824223,
+            "y": 1301.0361328125005,
+            "width": 467.5169830322265,
+            "height": 23.505615234375455
+          }
+        },
+        {
+          "id": "og_en_wmsucb_304",
+          "shape": {
+            "x": 119.04000091552739,
+            "y": 992.156127929688,
+            "width": 99.30118560791028,
+            "height": 23.50561523437534
+          }
+        }
+      ],
+      "title": "CAUTION:",
+      "text": "CAUTION:\n• Do not put any liquids or a naked flame, such as a candle, on the Wave® product.\n• Avoid pressing up on the mounted radio. It can dislodge, which could present a hazard or cause damage.\n• Clean the bracket only with a damp cloth and mild soap.",
+      "char_count": 254,
+      "overlap_char_count": 83,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_308",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 82
+        },
+        {
+          "region_id": "og_en_wmsucb_309",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 104
+        },
+        {
+          "region_id": "og_en_wmsucb_310",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 57
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "4f4e592c-dbe2-5fc1-981b-6d1e9040ad1c",
+      "text_sha256": "8285b801ebe7a0addb14e553ccc5e8398d961961d272b8008cf2833456127b6f",
+      "token_count": 62
+    },
+    {
+      "score": 0.48081654964690984,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "og_en_wmsucb",
+      "split": "val",
+      "page_id": "og_en_wmsucb_00003",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "og_en_wmsucb_374"
+      ],
+      "context_region_ids": [
+        "og_en_wmsucb_339"
+      ],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00003.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_374",
+          "shape": {
+            "x": 325.3314361572264,
+            "y": 1004.3995768229162,
+            "width": 97.33333333333366,
+            "height": 55.3333333333336
+          }
+        },
+        {
+          "id": "og_en_wmsucb_339",
+          "shape": {
+            "x": 71.04000091552736,
+            "y": 729.0220947265617,
+            "width": 442.17069244384766,
+            "height": 32.99279785156341
+          }
+        }
+      ],
+      "title": "Other equipment you may need",
+      "text": "Other equipment you may need\nA black-and-white line drawing of a twist drill bit, showing the spiral flutes and pointed tip designed for drilling holes in materials.",
+      "char_count": 165,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_374",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 136
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "985d6689-eb83-5d0c-ad8f-a836f96a9faa",
+      "text_sha256": "64d9b09d13d0c8768cf0123694e76ad51eea9653efeb90b6023cc21675d8f08a",
+      "token_count": 33
+    },
+    {
+      "score": 0.47958868232393465,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "og_en_wmsucb",
+      "split": "val",
+      "page_id": "og_en_wmsucb_00003",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "og_en_wmsucb_346"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00003.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_346",
+          "shape": {
+            "x": 610.559997558594,
+            "y": 871.7034301757811,
+            "width": 115.19818115234284,
+            "height": 41.025573730468295
+          }
+        }
+      ],
+      "title": "",
+      "text": "Eye protection for drilling",
+      "char_count": 27,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_346",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 27
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "bab03fa5-4ff2-5159-ad58-496c2909e6a3",
+      "text_sha256": "44109cebf18559d08786de69aa8c6f1a45da28106bfb78f2b2e2141b43a92a14",
+      "token_count": 4
+    },
+    {
+      "score": 0.4785548620245381,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "og_en_wmsucb",
+      "split": "val",
+      "page_id": "og_en_wmsucb_00005",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "og_en_wmsucb_108"
+      ],
+      "context_region_ids": [
+        "og_en_wmsucb_107"
+      ],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00005.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_108",
+          "shape": {
+            "x": 71.99999999999997,
+            "y": 469.24172973632784,
+            "width": 184.42440795898446,
+            "height": 38.97000122070318
+          }
+        },
+        {
+          "id": "og_en_wmsucb_107",
+          "shape": {
+            "x": 71.99999999999997,
+            "y": 438.23611450195335,
+            "width": 82.5823516845704,
+            "height": 23.50558471679642
+          }
+        }
+      ],
+      "title": "Figure 4",
+      "text": "Figure 4\nMarking drill holes for under-cabinet mounting",
+      "char_count": 55,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_108",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 46
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "715a09db-fa72-552d-9afd-e0b95c867aea",
+      "text_sha256": "ab8621869c59286d66ebc20356ac4db6de955cf56011bc69d8b453f9da605962",
+      "token_count": 13
+    },
+    {
+      "score": 0.476025314942447,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "og_en_wmsucb",
+      "split": "val",
+      "page_id": "og_en_wmsucb_00005",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "og_en_wmsucb_102"
+      ],
+      "context_region_ids": [
+        "og_en_wmsucb_100"
+      ],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00005.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_102",
+          "shape": {
+            "x": 324.0006408691403,
+            "y": 242.1555480957033,
+            "width": 219.50253295898483,
+            "height": 23.226715087890625
+          }
+        },
+        {
+          "id": "og_en_wmsucb_100",
+          "shape": {
+            "x": 71.99999999999997,
+            "y": 117.98193359374994,
+            "width": 530.9045410156252,
+            "height": 32.99279785156256
+          }
+        }
+      ],
+      "title": "Mounting the bracket under a cabinet",
+      "text": "Mounting the bracket under a cabinet\nBefore drilling any holes:",
+      "char_count": 63,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_102",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 26
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "2e10a2bf-e166-55f3-b608-4397001194b3",
+      "text_sha256": "142120873fe034378fdfa4076674c38a60461486f00e2659170b57e3d8e8c3cf",
+      "token_count": 13
+    },
+    {
+      "score": 0.4749445523041368,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "og_en_wmsucb",
+      "split": "val",
+      "page_id": "og_en_wmsucb_00007",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "og_en_wmsucb_180"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00007.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_180",
+          "shape": {
+            "x": 436.0794067382813,
+            "y": 230.54466247558605,
+            "width": 92.88543701171858,
+            "height": 20.98800659179676
+          }
+        }
+      ],
+      "title": "",
+      "text": "Power cord",
+      "char_count": 10,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_180",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 10
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "89f352e3-ad8a-5731-add8-d9f62c82a766",
+      "text_sha256": "3a8ee0714daa79ca33dca4c4ff4de11e76e54b5d41dbb6e8bcdd0046efc7c476",
+      "token_count": 2
+    },
+    {
+      "score": 0.4749445523041368,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "og_en_wmsucb",
+      "split": "val",
+      "page_id": "og_en_wmsucb_00011",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "og_en_wmsucb_41"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00011.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_41",
+          "shape": {
+            "x": 435.3989257812501,
+            "y": 703.8956298828123,
+            "width": 92.74047851562477,
+            "height": 21.032165527343977
+          }
+        }
+      ],
+      "title": "",
+      "text": "Power cord",
+      "char_count": 10,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_41",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 10
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "3fcf2e93-ea0b-5bbf-8b2d-7128a4dd014e",
+      "text_sha256": "3a8ee0714daa79ca33dca4c4ff4de11e76e54b5d41dbb6e8bcdd0046efc7c476",
+      "token_count": 2
+    },
+    {
+      "score": 0.47116955333294547,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "og_en_wmsucb",
+      "split": "val",
+      "page_id": "og_en_wmsucb_00003",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "og_en_wmsucb_344"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00003.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_344",
+          "shape": {
+            "x": 489.7205810546875,
+            "y": 1063.7039794921877,
+            "width": 93.22735595703114,
+            "height": 20.988037109375
+          }
+        }
+      ],
+      "title": "",
+      "text": "Electric drill",
+      "char_count": 14,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_344",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 14
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "9c201c30-f3ac-5b2f-85ca-caf168a49bd7",
+      "text_sha256": "79575a07874517d1e983769cb412a247ee23bcacdf8454941dcc1925feb5a35e",
+      "token_count": 2
+    },
+    {
+      "score": 0.4682043153758545,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "og_en_wmsucb",
+      "split": "val",
+      "page_id": "og_en_wmsucb_00003",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "og_en_wmsucb_376"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00003.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_376",
+          "shape": {
+            "x": 312.9965362548828,
+            "y": 868.5521240234378,
+            "width": 721.0000000000005,
+            "height": 326.99999999999966
+          }
+        }
+      ],
+      "title": "",
+      "text": "An illustration of various tools including an electric drill, spade bit, masonry bit, twist bit, Phillips head screwdriver, stud finder, eye protection, pencil, and carpenter's level, each labeled with its specific use such as 'for wallboard' or 'for masonry'.",
+      "char_count": 260,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_376",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 260
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "aa39e758-24a8-5230-9794-785286bd9a63",
+      "text_sha256": "a93f33ba82ba507198c6e583ef0a3426f336d91d81d9fc80da457b4f9b48c69d",
+      "token_count": 59
+    }
+  ],
+  "keyword_candidates": [
+    {
+      "chunk_id": "9e949d91-958a-5b90-80f1-8c8b38bea371",
+      "bm25_score": -18.70777963045942
+    },
+    {
+      "chunk_id": "9f78d639-5cd4-534b-9782-37894ee48fc2",
+      "bm25_score": -16.0739824482435
+    },
+    {
+      "chunk_id": "2e10a2bf-e166-55f3-b608-4397001194b3",
+      "bm25_score": -14.564546644815913
+    },
+    {
+      "chunk_id": "a4c53a51-e27b-598d-bb1b-e5e38cf75817",
+      "bm25_score": -11.349653038813095
+    },
+    {
+      "chunk_id": "0cd99f7a-3258-5c07-ba45-0f00bdf3ce51",
+      "bm25_score": -11.156986677325701
+    },
+    {
+      "chunk_id": "4b37c0db-9917-55ff-8817-0b336874fd35",
+      "bm25_score": -11.156986677325701
+    },
+    {
+      "chunk_id": "9d16a08b-378f-58c9-93e7-b8394de4f00b",
+      "bm25_score": -11.053043464393857
+    },
+    {
+      "chunk_id": "9c201c30-f3ac-5b2f-85ca-caf168a49bd7",
+      "bm25_score": -10.912285742864736
+    },
+    {
+      "chunk_id": "ba169ff7-8963-51df-ae03-f24b8e964454",
+      "bm25_score": -10.520143567284542
+    },
+    {
+      "chunk_id": "bab03fa5-4ff2-5159-ad58-496c2909e6a3",
+      "bm25_score": -10.483582370749241
+    },
+    {
+      "chunk_id": "c25451b5-b407-5b9c-816a-225e439fe5c1",
+      "bm25_score": -10.350907188090837
+    },
+    {
+      "chunk_id": "3eb732b3-a5d0-5420-9d3f-ce1701d1ba87",
+      "bm25_score": -10.070635037359619
+    },
+    {
+      "chunk_id": "5b2942c8-30bd-5a61-925d-f29cac477d11",
+      "bm25_score": -9.976509612517289
+    },
+    {
+      "chunk_id": "f7d5587c-8c9a-5ae9-81b1-421370a69edf",
+      "bm25_score": -9.71986707077546
+    },
+    {
+      "chunk_id": "715a09db-fa72-552d-9afd-e0b95c867aea",
+      "bm25_score": -9.5460134146328
+    },
+    {
+      "chunk_id": "a4b4cb31-f89d-51f4-9a4e-6aa2909b5a8d",
+      "bm25_score": -9.5460134146328
+    },
+    {
+      "chunk_id": "7c678b6c-7d7d-5c64-ae17-a3c4353fdf99",
+      "bm25_score": -9.537880953686063
+    },
+    {
+      "chunk_id": "985d6689-eb83-5d0c-ad8f-a836f96a9faa",
+      "bm25_score": -9.531096534211962
+    },
+    {
+      "chunk_id": "e95b0d7c-59d8-5265-9177-d8036c335666",
+      "bm25_score": -9.531096534211962
+    },
+    {
+      "chunk_id": "12e82676-efe7-5bb8-ba12-8b5160f10533",
+      "bm25_score": -9.401446835566208
+    }
+  ],
+  "fused_candidates": [
+    {
+      "chunk_id": "9e949d91-958a-5b90-80f1-8c8b38bea371",
+      "score": 0.01639344262295082,
+      "dense_rank": 1,
+      "dense_score": 0.7437181063304514,
+      "keyword_rank": 1,
+      "keyword_score": -18.70777963045942
+    },
+    {
+      "chunk_id": "9f78d639-5cd4-534b-9782-37894ee48fc2",
+      "score": 0.016001024065540194,
+      "dense_rank": 3,
+      "dense_score": 0.5992141096244483,
+      "keyword_rank": 2,
+      "keyword_score": -16.0739824482435
+    },
+    {
+      "chunk_id": "4b37c0db-9917-55ff-8817-0b336874fd35",
+      "score": 0.015388257575757576,
+      "dense_rank": 4,
+      "dense_score": 0.5817360754054717,
+      "keyword_rank": 6,
+      "keyword_score": -11.156986677325701
+    },
+    {
+      "chunk_id": "0cd99f7a-3258-5c07-ba45-0f00bdf3ce51",
+      "score": 0.015384615384615385,
+      "dense_rank": 5,
+      "dense_score": 0.5817360754054717,
+      "keyword_rank": 5,
+      "keyword_score": -11.156986677325701
+    },
+    {
+      "chunk_id": "ba169ff7-8963-51df-ae03-f24b8e964454",
+      "score": 0.015310892940626462,
+      "dense_rank": 2,
+      "dense_score": 0.6747483716417058,
+      "keyword_rank": 9,
+      "keyword_score": -10.520143567284542
+    },
+    {
+      "chunk_id": "a4c53a51-e27b-598d-bb1b-e5e38cf75817",
+      "score": 0.015058876811594204,
+      "dense_rank": 9,
+      "dense_score": 0.5263496936031877,
+      "keyword_rank": 4,
+      "keyword_score": -11.349653038813095
+    },
+    {
+      "chunk_id": "2e10a2bf-e166-55f3-b608-4397001194b3",
+      "score": 0.014515455304928988,
+      "dense_rank": 16,
+      "dense_score": 0.476025314942447,
+      "keyword_rank": 3,
+      "keyword_score": -14.564546644815913
+    },
+    {
+      "chunk_id": "bab03fa5-4ff2-5159-ad58-496c2909e6a3",
+      "score": 0.013899613899613899,
+      "dense_rank": 14,
+      "dense_score": 0.47958868232393465,
+      "keyword_rank": 10,
+      "keyword_score": -10.483582370749241
+    },
+    {
+      "chunk_id": "9c201c30-f3ac-5b2f-85ca-caf168a49bd7",
+      "score": 0.013682055100521222,
+      "dense_rank": 19,
+      "dense_score": 0.47116955333294547,
+      "keyword_rank": 8,
+      "keyword_score": -10.912285742864736
+    },
+    {
+      "chunk_id": "715a09db-fa72-552d-9afd-e0b95c867aea",
+      "score": 0.013333333333333334,
+      "dense_rank": 15,
+      "dense_score": 0.4785548620245381,
+      "keyword_rank": 15,
+      "keyword_score": -9.5460134146328
+    },
+    {
+      "chunk_id": "985d6689-eb83-5d0c-ad8f-a836f96a9faa",
+      "score": 0.01325957147874956,
+      "dense_rank": 13,
+      "dense_score": 0.48081654964690984,
+      "keyword_rank": 18,
+      "keyword_score": -9.531096534211962
+    },
+    {
+      "chunk_id": "aa31bf51-f973-5eae-8b9e-1bd60574ab92",
+      "score": 0.007575757575757576,
+      "dense_rank": 6,
+      "dense_score": 0.5769146466717054
+    },
+    {
+      "chunk_id": "0f024728-7247-5f77-b4ce-4ce407b3f6b6",
+      "score": 0.007462686567164179,
+      "dense_rank": 7,
+      "dense_score": 0.5298264014337105
+    },
+    {
+      "chunk_id": "9d16a08b-378f-58c9-93e7-b8394de4f00b",
+      "score": 0.007462686567164179,
+      "keyword_rank": 7,
+      "keyword_score": -11.053043464393857
+    },
+    {
+      "chunk_id": "612f94fe-fa24-52c2-9b46-be14ee6691e3",
+      "score": 0.007352941176470588,
+      "dense_rank": 8,
+      "dense_score": 0.5298264014337105
+    },
+    {
+      "chunk_id": "a5567657-1eec-59ef-8289-feae1400a9f5",
+      "score": 0.007142857142857143,
+      "dense_rank": 10,
+      "dense_score": 0.5074929719817902
+    },
+    {
+      "chunk_id": "519d28c2-e67a-5d39-a556-2c9f81a90a48",
+      "score": 0.007042253521126761,
+      "dense_rank": 11,
+      "dense_score": 0.4871788182572313
+    },
+    {
+      "chunk_id": "c25451b5-b407-5b9c-816a-225e439fe5c1",
+      "score": 0.007042253521126761,
+      "keyword_rank": 11,
+      "keyword_score": -10.350907188090837
+    },
+    {
+      "chunk_id": "4f4e592c-dbe2-5fc1-981b-6d1e9040ad1c",
+      "score": 0.006944444444444444,
+      "dense_rank": 12,
+      "dense_score": 0.4831975104589802
+    },
+    {
+      "chunk_id": "3eb732b3-a5d0-5420-9d3f-ce1701d1ba87",
+      "score": 0.006944444444444444,
+      "keyword_rank": 12,
+      "keyword_score": -10.070635037359619
+    },
+    {
+      "chunk_id": "5b2942c8-30bd-5a61-925d-f29cac477d11",
+      "score": 0.00684931506849315,
+      "keyword_rank": 13,
+      "keyword_score": -9.976509612517289
+    },
+    {
+      "chunk_id": "f7d5587c-8c9a-5ae9-81b1-421370a69edf",
+      "score": 0.006756756756756757,
+      "keyword_rank": 14,
+      "keyword_score": -9.71986707077546
+    },
+    {
+      "chunk_id": "a4b4cb31-f89d-51f4-9a4e-6aa2909b5a8d",
+      "score": 0.006578947368421052,
+      "keyword_rank": 16,
+      "keyword_score": -9.5460134146328
+    },
+    {
+      "chunk_id": "89f352e3-ad8a-5731-add8-d9f62c82a766",
+      "score": 0.006493506493506494,
+      "dense_rank": 17,
+      "dense_score": 0.4749445523041368
+    },
+    {
+      "chunk_id": "7c678b6c-7d7d-5c64-ae17-a3c4353fdf99",
+      "score": 0.006493506493506494,
+      "keyword_rank": 17,
+      "keyword_score": -9.537880953686063
+    },
+    {
+      "chunk_id": "3fcf2e93-ea0b-5bbf-8b2d-7128a4dd014e",
+      "score": 0.00641025641025641,
+      "dense_rank": 18,
+      "dense_score": 0.4749445523041368
+    },
+    {
+      "chunk_id": "e95b0d7c-59d8-5265-9177-d8036c335666",
+      "score": 0.006329113924050633,
+      "keyword_rank": 19,
+      "keyword_score": -9.531096534211962
+    },
+    {
+      "chunk_id": "aa39e758-24a8-5230-9794-785286bd9a63",
+      "score": 0.00625,
+      "dense_rank": 20,
+      "dense_score": 0.4682043153758545
+    },
+    {
+      "chunk_id": "12e82676-efe7-5bb8-ba12-8b5160f10533",
+      "score": 0.00625,
+      "keyword_rank": 20,
+      "keyword_score": -9.401446835566208
+    }
+  ],
+  "variants": {
+    "B_english_dense": {
+      "sources": [
+        {
+          "chunk_id": "9e949d91-958a-5b90-80f1-8c8b38bea371",
+          "manual_id": "og_en_wmsucb",
+          "page_id": "og_en_wmsucb_00004",
+          "chunk_type": "title",
+          "text": "Before using your drill",
+          "content_region_ids": [
+            "og_en_wmsucb_397"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00004.jpg",
+          "source_shapes": [
+            {
+              "id": "og_en_wmsucb_397",
+              "shape": {
+                "x": 320.99999999999994,
+                "y": 118.55207824707028,
+                "width": 280.0000000000003,
+                "height": 34.0
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "og_en_wmsucb_397",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 23
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [],
+          "score": 0.7437181063304514,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S1"
+        },
+        {
+          "chunk_id": "ba169ff7-8963-51df-ae03-f24b8e964454",
+          "manual_id": "og_en_wmsucb",
+          "page_id": "og_en_wmsucb_00004",
+          "chunk_type": "text",
+          "text": "WARNING: Use eye protection and be sure to observe all safety precautions while using a drill or cutting tool.",
+          "content_region_ids": [
+            "og_en_wmsucb_379"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00004.jpg",
+          "source_shapes": [
+            {
+              "id": "og_en_wmsucb_379",
+              "shape": {
+                "x": 326.04000854492205,
+                "y": 228.3548889160156,
+                "width": 428.1311950683592,
+                "height": 67.26736450195315
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "og_en_wmsucb_379",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 110
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.6747483716417058,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S2"
+        },
+        {
+          "chunk_id": "9f78d639-5cd4-534b-9782-37894ee48fc2",
+          "manual_id": "og_en_wmsucb",
+          "page_id": "og_en_wmsucb_00004",
+          "chunk_type": "text",
+          "text": "Before you begin to drill, center the tip of the drill bit in each drill hole circle you draw.",
+          "content_region_ids": [
+            "og_en_wmsucb_378"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00004.jpg",
+          "source_shapes": [
+            {
+              "id": "og_en_wmsucb_378",
+              "shape": {
+                "x": 322.0400085449221,
+                "y": 153.1119613647461,
+                "width": 575.6361389160153,
+                "height": 44.47049713134774
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "og_en_wmsucb_378",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 94
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.5992141096244483,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S3"
+        },
+        {
+          "chunk_id": "4b37c0db-9917-55ff-8817-0b336874fd35",
+          "manual_id": "og_en_wmsucb",
+          "page_id": "og_en_wmsucb_00007",
+          "chunk_type": "text",
+          "text": "WARNING: Do NOT use the mounting assembly as a template while drilling.",
+          "content_region_ids": [
+            "og_en_wmsucb_188"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00007.jpg",
+          "source_shapes": [
+            {
+              "id": "og_en_wmsucb_188",
+              "shape": {
+                "x": 324.0000000000001,
+                "y": 860.6361083984378,
+                "width": 658.8594970703126,
+                "height": 23.505615234375227
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "og_en_wmsucb_188",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 71
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.5817360754054717,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S4"
+        },
+        {
+          "chunk_id": "0cd99f7a-3258-5c07-ba45-0f00bdf3ce51",
+          "manual_id": "og_en_wmsucb",
+          "page_id": "og_en_wmsucb_00005",
+          "chunk_type": "text",
+          "text": "WARNING: Do NOT use the mounting assembly as a template while drilling.",
+          "content_region_ids": [
+            "og_en_wmsucb_106"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00005.jpg",
+          "source_shapes": [
+            {
+              "id": "og_en_wmsucb_106",
+              "shape": {
+                "x": 324.0000000000002,
+                "y": 396.23611450195307,
+                "width": 658.859497070313,
+                "height": 23.50558471679733
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "og_en_wmsucb_106",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 71
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.5817360754054717,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S5"
+        }
+      ],
+      "excluded_sources": [],
+      "retrieved_chunk_ids": [
+        "9e949d91-958a-5b90-80f1-8c8b38bea371",
+        "ba169ff7-8963-51df-ae03-f24b8e964454",
+        "9f78d639-5cd4-534b-9782-37894ee48fc2",
+        "4b37c0db-9917-55ff-8817-0b336874fd35",
+        "0cd99f7a-3258-5c07-ba45-0f00bdf3ce51"
+      ]
+    },
+    "C_english_hybrid": {
+      "sources": [
+        {
+          "chunk_id": "9e949d91-958a-5b90-80f1-8c8b38bea371",
+          "manual_id": "og_en_wmsucb",
+          "page_id": "og_en_wmsucb_00004",
+          "chunk_type": "title",
+          "text": "Before using your drill",
+          "content_region_ids": [
+            "og_en_wmsucb_397"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00004.jpg",
+          "source_shapes": [
+            {
+              "id": "og_en_wmsucb_397",
+              "shape": {
+                "x": 320.99999999999994,
+                "y": 118.55207824707028,
+                "width": 280.0000000000003,
+                "height": 34.0
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "og_en_wmsucb_397",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 23
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [],
+          "score": 0.01639344262295082,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S1"
+        },
+        {
+          "chunk_id": "9f78d639-5cd4-534b-9782-37894ee48fc2",
+          "manual_id": "og_en_wmsucb",
+          "page_id": "og_en_wmsucb_00004",
+          "chunk_type": "text",
+          "text": "Before you begin to drill, center the tip of the drill bit in each drill hole circle you draw.",
+          "content_region_ids": [
+            "og_en_wmsucb_378"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00004.jpg",
+          "source_shapes": [
+            {
+              "id": "og_en_wmsucb_378",
+              "shape": {
+                "x": 322.0400085449221,
+                "y": 153.1119613647461,
+                "width": 575.6361389160153,
+                "height": 44.47049713134774
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "og_en_wmsucb_378",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 94
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.016001024065540194,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S2"
+        },
+        {
+          "chunk_id": "4b37c0db-9917-55ff-8817-0b336874fd35",
+          "manual_id": "og_en_wmsucb",
+          "page_id": "og_en_wmsucb_00007",
+          "chunk_type": "text",
+          "text": "WARNING: Do NOT use the mounting assembly as a template while drilling.",
+          "content_region_ids": [
+            "og_en_wmsucb_188"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00007.jpg",
+          "source_shapes": [
+            {
+              "id": "og_en_wmsucb_188",
+              "shape": {
+                "x": 324.0000000000001,
+                "y": 860.6361083984378,
+                "width": 658.8594970703126,
+                "height": 23.505615234375227
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "og_en_wmsucb_188",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 71
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.015388257575757576,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S3"
+        },
+        {
+          "chunk_id": "0cd99f7a-3258-5c07-ba45-0f00bdf3ce51",
+          "manual_id": "og_en_wmsucb",
+          "page_id": "og_en_wmsucb_00005",
+          "chunk_type": "text",
+          "text": "WARNING: Do NOT use the mounting assembly as a template while drilling.",
+          "content_region_ids": [
+            "og_en_wmsucb_106"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00005.jpg",
+          "source_shapes": [
+            {
+              "id": "og_en_wmsucb_106",
+              "shape": {
+                "x": 324.0000000000002,
+                "y": 396.23611450195307,
+                "width": 658.859497070313,
+                "height": 23.50558471679733
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "og_en_wmsucb_106",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 71
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.015384615384615385,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S4"
+        },
+        {
+          "chunk_id": "ba169ff7-8963-51df-ae03-f24b8e964454",
+          "manual_id": "og_en_wmsucb",
+          "page_id": "og_en_wmsucb_00004",
+          "chunk_type": "text",
+          "text": "WARNING: Use eye protection and be sure to observe all safety precautions while using a drill or cutting tool.",
+          "content_region_ids": [
+            "og_en_wmsucb_379"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00004.jpg",
+          "source_shapes": [
+            {
+              "id": "og_en_wmsucb_379",
+              "shape": {
+                "x": 326.04000854492205,
+                "y": 228.3548889160156,
+                "width": 428.1311950683592,
+                "height": 67.26736450195315
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "og_en_wmsucb_379",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 110
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.015310892940626462,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S5"
+        }
+      ],
+      "excluded_sources": [],
+      "retrieved_chunk_ids": [
+        "9e949d91-958a-5b90-80f1-8c8b38bea371",
+        "9f78d639-5cd4-534b-9782-37894ee48fc2",
+        "4b37c0db-9917-55ff-8817-0b336874fd35",
+        "0cd99f7a-3258-5c07-ba45-0f00bdf3ce51",
+        "ba169ff7-8963-51df-ae03-f24b8e964454"
+      ]
+    }
+  },
+  "retrieval_seconds": 1.7550164999847766
+}

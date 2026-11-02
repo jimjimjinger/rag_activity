@@ -1,0 +1,689 @@
+{
+  "case_id": "TABLE06",
+  "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+  "question": "리모컨으로 스피커를 제어할 수 없으면 어떻게 해야 하나요?",
+  "english_query": "What should I do if I cannot control the speaker with the remote?",
+  "keyword_percent": 100,
+  "variant": "top5_kw100",
+  "top_k": 5,
+  "retrieved_chunk_ids": [
+    "0b38fdf9-4579-5be6-8d88-a5ea59fd7ae0",
+    "69b1a280-9ce3-5c0e-98e7-edb1e0983b05",
+    "b41f3257-c602-58e6-8790-6d4aea65e51a",
+    "d5ff03f4-a62c-5f17-b4b3-30a9129bd547",
+    "6e171c4c-8369-5072-9abf-509ae40032a9"
+  ],
+  "sources": [
+    {
+      "chunk_id": "0b38fdf9-4579-5be6-8d88-a5ea59fd7ae0",
+      "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+      "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00010",
+      "chunk_type": "text",
+      "text": "tips on using the remote control:\nSome conditions, such as room lighting, furniture that blocks the signal path, or direct sunlight, can affect remote operation.\nIf the remote does not work as it should:\nPoint the remote more directly at the right speaker, • which receives the remote control signals.\nDim the room lights or move the speakers away from • direct sunlight.\nMove closer to the system when you use the remote. •\nIf the problem persists, replace the remote control • battery.",
+      "content_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_82",
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_83",
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_84",
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_85",
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_86",
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_87"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_81"
+      ],
+      "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00011.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_82",
+          "shape": {
+            "x": 637.2000122070314,
+            "y": 364.6799621582031,
+            "width": 478.6598510742191,
+            "height": 67.32000732421875
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_83",
+          "shape": {
+            "x": 642.7600097656251,
+            "y": 442.6799621582031,
+            "width": 360.079650878906,
+            "height": 23.320007324218864
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_84",
+          "shape": {
+            "x": 637.2000122070314,
+            "y": 476.6799621582029,
+            "width": 469.99981689453114,
+            "height": 45.32003784179699
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_85",
+          "shape": {
+            "x": 637.2000122070314,
+            "y": 532.6799926757812,
+            "width": 489.9799194335934,
+            "height": 45.320007324218864
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_86",
+          "shape": {
+            "x": 637.2000122070314,
+            "y": 588.6799926757814,
+            "width": 490.72003173828114,
+            "height": 23.32000732421875
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_87",
+          "shape": {
+            "x": 637.2000122070314,
+            "y": 622.6799926757815,
+            "width": 463.67974853515614,
+            "height": 45.32000732421841
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_81",
+          "shape": {
+            "x": 637.2000122070314,
+            "y": 330.219970703125,
+            "width": 315.81976318359364,
+            "height": 23.8599853515625
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_82",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 127
+        },
+        {
+          "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_83",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 41
+        },
+        {
+          "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_84",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 97
+        },
+        {
+          "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_85",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 69
+        },
+        {
+          "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_86",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 52
+        },
+        {
+          "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_87",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 62
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 18.634492874145508,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "69b1a280-9ce3-5c0e-98e7-edb1e0983b05",
+      "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+      "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00010",
+      "chunk_type": "text",
+      "text": "tips on muting:\nIf you use a control on your computer to mute the • speakers, be sure to unmute them before turning off the power.\nOr you can use the power button on the right speaker or • the remote control to turn off both speakers. Press this button again to resume play at your previous volume.",
+      "content_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_79",
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_80"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_78"
+      ],
+      "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00011.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_79",
+          "shape": {
+            "x": 637.2000122070314,
+            "y": 174.67996215820318,
+            "width": 482.9797973632809,
+            "height": 67.32000732421872
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_80",
+          "shape": {
+            "x": 637.2000122070314,
+            "y": 252.67996215820315,
+            "width": 520.3397827148436,
+            "height": 67.32000732421878
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_78",
+          "shape": {
+            "x": 637.2000122070314,
+            "y": 140.21997070312503,
+            "width": 147.63983154296875,
+            "height": 23.860000610351506
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_79",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 114
+        },
+        {
+          "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_80",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 167
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 17.362390518188477,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "b41f3257-c602-58e6-8790-6d4aea65e51a",
+      "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+      "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00012",
+      "chunk_type": "table",
+      "text": "English\nFirst row (header unconfirmed): Column 1: Problem | Column 2: What you can do\nColumn 1: Remote does not control the speakers | Column 2: •Check the battery to be sure it is installed correctly. Refer to the image on page 8. ·Refer to“Tips on using the remote control”on page7.\nColumn 1: PC monitor or TV color patten looks unnatural | Column 2: Turn off the monitor or TV for 15to 30 minutes,then turn it on again. •Move the speakers away from the monitor or TV.",
+      "content_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_125"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_113"
+      ],
+      "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00013.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_125",
+          "shape": {
+            "x": 56.24999999999998,
+            "y": 144.21093750000003,
+            "width": 1111.5000000000002,
+            "height": 476.9999999999999
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_113",
+          "shape": {
+            "x": 75.04499816894528,
+            "y": 30.511999130249006,
+            "width": 55.00801086425781,
+            "height": 19.087999343872095
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_114",
+          "shape": {
+            "x": 73.30000305175778,
+            "y": 157.0259857177733,
+            "width": 71.96398925781253,
+            "height": 21.473999023437386
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_115",
+          "shape": {
+            "x": 253.44401550292952,
+            "y": 157.0259857177733,
+            "width": 143.6939849853518,
+            "height": 21.473999023437386
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_124",
+          "shape": {
+            "x": 70.99999999999997,
+            "y": 493.640625,
+            "width": 167.99999999999983,
+            "height": 42.999999999999886
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "score": 17.14896583557129,
+      "table_rows": [
+        3,
+        4
+      ],
+      "table_cells": [
+        {
+          "row": 3,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 4,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S3"
+    },
+    {
+      "chunk_id": "d5ff03f4-a62c-5f17-b4b3-30a9129bd547",
+      "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+      "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00006",
+      "chunk_type": "text",
+      "text": "Positioning the speakers\nBe sure not to place any object in front of the speakers, which could block the sound or any signals from the remote control.",
+      "content_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_4"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_2"
+      ],
+      "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00007.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_4",
+          "shape": {
+            "x": 64.79998779296875,
+            "y": 609.4274291992184,
+            "width": 410.4599609374998,
+            "height": 67.32000732421864
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_2",
+          "shape": {
+            "x": 64.8000030517578,
+            "y": 137.1674041748047,
+            "width": 329.81199645996065,
+            "height": 33.40400695800784
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_4",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 125
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 16.803491592407227,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S4"
+    },
+    {
+      "chunk_id": "6e171c4c-8369-5072-9abf-509ae40032a9",
+      "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+      "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00011",
+      "chunk_type": "text",
+      "text": "Caring for your speakers\nThe only maintenance necessary is replacing the remote control battery when necessary. You may also want to clean the speakers, as needed.",
+      "content_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_98"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_97"
+      ],
+      "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00012.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_98",
+          "shape": {
+            "x": 65.46399688720703,
+            "y": 180.18661499023423,
+            "width": 501.97991180419933,
+            "height": 67.32000732421855
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_97",
+          "shape": {
+            "x": 65.46399688720703,
+            "y": 137.92662048339847,
+            "width": 329.8680038452147,
+            "height": 33.40400695800764
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_98",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 138
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 16.73191261291504,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S5"
+    }
+  ],
+  "excluded_sources": [],
+  "created_at": "2026-11-02T05:05:12.550688+00:00",
+  "status": "answered",
+  "answer": "리모컨으로 스피커를 제어할 수 없다면 다음 조치를 취하세요: 리모컨을 올바른 수신 스피커에 더 직접적으로 향하고, 방 조명이나 직사광선을 줄이거나 스피커 위치를 변경하며, 시스템에 더 가까이서 리모컨을 사용하세요. 문제가 지속될 경우 리모컨 배터리를 교체하거나, 배터리가 올바르게 설치되어 있는지 확인하세요.",
+  "source_ids": [
+    "S1",
+    "S3"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 122,
+        "prompt_eval_count": 847,
+        "total_duration": 2003096300,
+        "load_duration": 6308900,
+        "attempt": 1,
+        "prompt_token_upper_bound": 4272
+      }
+    ],
+    "elapsed_seconds": 2.0084704000037163,
+    "backend": "LangChain ChatPromptTemplate | ChatOllama"
+  },
+  "citations": [
+    {
+      "chunk_id": "0b38fdf9-4579-5be6-8d88-a5ea59fd7ae0",
+      "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+      "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00010",
+      "chunk_type": "text",
+      "text": "tips on using the remote control:\nSome conditions, such as room lighting, furniture that blocks the signal path, or direct sunlight, can affect remote operation.\nIf the remote does not work as it should:\nPoint the remote more directly at the right speaker, • which receives the remote control signals.\nDim the room lights or move the speakers away from • direct sunlight.\nMove closer to the system when you use the remote. •\nIf the problem persists, replace the remote control • battery.",
+      "content_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_82",
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_83",
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_84",
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_85",
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_86",
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_87"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_81"
+      ],
+      "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00011.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_82",
+          "shape": {
+            "x": 637.2000122070314,
+            "y": 364.6799621582031,
+            "width": 478.6598510742191,
+            "height": 67.32000732421875
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_83",
+          "shape": {
+            "x": 642.7600097656251,
+            "y": 442.6799621582031,
+            "width": 360.079650878906,
+            "height": 23.320007324218864
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_84",
+          "shape": {
+            "x": 637.2000122070314,
+            "y": 476.6799621582029,
+            "width": 469.99981689453114,
+            "height": 45.32003784179699
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_85",
+          "shape": {
+            "x": 637.2000122070314,
+            "y": 532.6799926757812,
+            "width": 489.9799194335934,
+            "height": 45.320007324218864
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_86",
+          "shape": {
+            "x": 637.2000122070314,
+            "y": 588.6799926757814,
+            "width": 490.72003173828114,
+            "height": 23.32000732421875
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_87",
+          "shape": {
+            "x": 637.2000122070314,
+            "y": 622.6799926757815,
+            "width": 463.67974853515614,
+            "height": 45.32000732421841
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_81",
+          "shape": {
+            "x": 637.2000122070314,
+            "y": 330.219970703125,
+            "width": 315.81976318359364,
+            "height": 23.8599853515625
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_82",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 127
+        },
+        {
+          "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_83",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 41
+        },
+        {
+          "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_84",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 97
+        },
+        {
+          "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_85",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 69
+        },
+        {
+          "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_86",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 52
+        },
+        {
+          "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_87",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 62
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 18.634492874145508,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "b41f3257-c602-58e6-8790-6d4aea65e51a",
+      "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+      "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00012",
+      "chunk_type": "table",
+      "text": "English\nFirst row (header unconfirmed): Column 1: Problem | Column 2: What you can do\nColumn 1: Remote does not control the speakers | Column 2: •Check the battery to be sure it is installed correctly. Refer to the image on page 8. ·Refer to“Tips on using the remote control”on page7.\nColumn 1: PC monitor or TV color patten looks unnatural | Column 2: Turn off the monitor or TV for 15to 30 minutes,then turn it on again. •Move the speakers away from the monitor or TV.",
+      "content_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_125"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_113"
+      ],
+      "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00013.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_125",
+          "shape": {
+            "x": 56.24999999999998,
+            "y": 144.21093750000003,
+            "width": 1111.5000000000002,
+            "height": 476.9999999999999
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_113",
+          "shape": {
+            "x": 75.04499816894528,
+            "y": 30.511999130249006,
+            "width": 55.00801086425781,
+            "height": 19.087999343872095
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_114",
+          "shape": {
+            "x": 73.30000305175778,
+            "y": 157.0259857177733,
+            "width": 71.96398925781253,
+            "height": 21.473999023437386
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_115",
+          "shape": {
+            "x": 253.44401550292952,
+            "y": 157.0259857177733,
+            "width": 143.6939849853518,
+            "height": 21.473999023437386
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_124",
+          "shape": {
+            "x": 70.99999999999997,
+            "y": 493.640625,
+            "width": 167.99999999999983,
+            "height": 42.999999999999886
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "score": 17.14896583557129,
+      "table_rows": [
+        3,
+        4
+      ],
+      "table_cells": [
+        {
+          "row": 3,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 4,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S3"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 2.0086490999965463,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 66,
+    "utilization_percent": 85
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "status": "accepted",
+  "meaning": "Accepted as frozen, unedited automatic outputs for the controlled comparison; not a claim that every translation is perfect.",
+  "reviewer": "Codex assistant; all 30 compared with Korean questions only",
+  "manual_edits": 0,
+  "translations_sha256": "6f5d88bb5f4290d2badf723114ea7f6903053b3b69c73ce3edfaa8699ce1bc2c",
+  "cases_reviewed": [
+    "TEXT01",
+    "TEXT02",
+    "TEXT03",
+    "TEXT04",
+    "TEXT05",
+    "TEXT06",
+    "TEXT07",
+    "TEXT08",
+    "TEXT09",
+    "TEXT10",
+    "TABLE01",
+    "TABLE02",
+    "TABLE03",
+    "TABLE04",
+    "TABLE05",
+    "TABLE06",
+    "TABLE07",
+    "TABLE08",
+    "TABLE09",
+    "TABLE10",
+    "FIG01",
+    "FIG02",
+    "FIG03",
+    "FIG04",
+    "FIG05",
+    "FIG06",
+    "FIG07",
+    "FIG08",
+    "FIG09",
+    "FIG10"
+  ],
+  "notes": [
+    {
+      "case_id": "FIG01",
+      "issue": "전동 드릴이 cordless drill(무선 드릴)로 좁아짐. 원 질문은 무선 여부를 지정하지 않음. 자동 번역의 오류로 기록하고 출력은 수정하지 않음."
+    },
+    {
+      "case_id": "TABLE01",
+      "issue": "저음/고음을 bass/treble 대신 low/high sound로 직역하여 검색에 불리할 수 있음."
+    },
+    {
+      "case_id": "FIG05",
+      "issue": "몇 가지 유형인지가 what are the types로 바뀌어 개수를 직접 묻는 표현은 약해짐. 유형과 준비 방법을 묻는 핵심 범위는 유지."
+    }
+  ]
+}

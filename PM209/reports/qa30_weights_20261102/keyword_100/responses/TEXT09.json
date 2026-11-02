@@ -1,0 +1,439 @@
+{
+  "case_id": "TEXT09",
+  "manual_id": "Watch_Apple_User_Guide",
+  "question": "Siri에게 시간을 물으려면 어떻게 말해야 하나요?",
+  "english_query": "How do I ask Siri for the time?",
+  "keyword_percent": 100,
+  "dense_percent": 0,
+  "retrieved_chunk_ids": [
+    "d127bfb4-b50b-5c25-9489-11cd907068ae",
+    "169ecba8-4e08-5d1c-a1dc-9f18ac61d482",
+    "b595456b-9abf-5dc0-9ad8-6bc60d1b78dd",
+    "6daa60f9-d4be-5cac-b8ee-fa83195d2d5b",
+    "90fff32d-d56a-5032-b776-cf590dbd7848"
+  ],
+  "sources": [
+    {
+      "chunk_id": "d127bfb4-b50b-5c25-9489-11cd907068ae",
+      "manual_id": "Watch_Apple_User_Guide",
+      "page_id": "Watch_Apple_User_Guide_00091",
+      "chunk_type": "text",
+      "text": "Delete Siri history\n1. Open the Settings app on your AppleWatch.\n2. Tap Siri, tap Siri History, then tap Delete Siri History.\nFor more information, see the Apple Support article Ask Siri, Dictation & Privacy.",
+      "content_region_ids": [
+        "Watch_Apple_User_Guide_1451",
+        "Watch_Apple_User_Guide_1452",
+        "Watch_Apple_User_Guide_1453"
+      ],
+      "context_region_ids": [
+        "Watch_Apple_User_Guide_1449"
+      ],
+      "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00096.jpg",
+      "source_shapes": [
+        {
+          "id": "Watch_Apple_User_Guide_1451",
+          "shape": {
+            "x": 314,
+            "y": 258.7998046875,
+            "width": 441.6837361653645,
+            "height": 25.8818359375
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_1452",
+          "shape": {
+            "x": 314,
+            "y": 294.13313802083337,
+            "width": 485.6515502929692,
+            "height": 25.881835937499943
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_1453",
+          "shape": {
+            "x": 314,
+            "y": 328.7998046874999,
+            "width": 703.4705200195308,
+            "height": 25.881835937499943
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_1449",
+          "shape": {
+            "x": 314,
+            "y": 100.81933593750003,
+            "width": 174.59613037109352,
+            "height": 37.13720703124997
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "Watch_Apple_User_Guide_1451",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 44
+        },
+        {
+          "region_id": "Watch_Apple_User_Guide_1452",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 60
+        },
+        {
+          "region_id": "Watch_Apple_User_Guide_1453",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 82
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.01639344262295082,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "169ecba8-4e08-5d1c-a1dc-9f18ac61d482",
+      "manual_id": "Watch_Apple_User_Guide",
+      "page_id": "Watch_Apple_User_Guide_00248",
+      "chunk_type": "text",
+      "text": "Ask Siri.Say something like: “Set a timer for 20 minutes.”",
+      "content_region_ids": [
+        "Watch_Apple_User_Guide_5636"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00253.jpg",
+      "source_shapes": [
+        {
+          "id": "Watch_Apple_User_Guide_5636",
+          "shape": {
+            "x": 340.7059936523439,
+            "y": 295.60225423177087,
+            "width": 506.4146525065103,
+            "height": 26.708007812499943
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "Watch_Apple_User_Guide_5636",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 58
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.016129032258064516,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "b595456b-9abf-5dc0-9ad8-6bc60d1b78dd",
+      "manual_id": "Watch_Apple_User_Guide",
+      "page_id": "Watch_Apple_User_Guide_00280",
+      "chunk_type": "text",
+      "text": "Use World Clock on AppleWatch to check the time in\nUse the World Clock app on your AppleWatch to check the time in cities around the globe.\nAsk Siri.Say something like: “What time is it in Auckland?”",
+      "content_region_ids": [
+        "Watch_Apple_User_Guide_5273",
+        "Watch_Apple_User_Guide_5274"
+      ],
+      "context_region_ids": [
+        "Watch_Apple_User_Guide_5272"
+      ],
+      "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00285.jpg",
+      "source_shapes": [
+        {
+          "id": "Watch_Apple_User_Guide_5273",
+          "shape": {
+            "x": 313.99999999999983,
+            "y": 260.68200683593733,
+            "width": 727.2965698242181,
+            "height": 52.8818359375
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_5274",
+          "shape": {
+            "x": 313.70599365234364,
+            "y": 326.2689208984374,
+            "width": 543.5660400390625,
+            "height": 34.70800781250006
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_5272",
+          "shape": {
+            "x": 313.00000000000006,
+            "y": 184.5870361328125,
+            "width": 703.7700805664058,
+            "height": 65.42968749999989
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "Watch_Apple_User_Guide_5273",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 88
+        },
+        {
+          "region_id": "Watch_Apple_User_Guide_5274",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 59
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.015873015873015872,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S3"
+    },
+    {
+      "chunk_id": "6daa60f9-d4be-5cac-b8ee-fa83195d2d5b",
+      "manual_id": "Watch_Apple_User_Guide",
+      "page_id": "Watch_Apple_User_Guide_00164",
+      "chunk_type": "text",
+      "text": "Use Camera Remote and timer on AppleWatch\nAsk Siri.Say something like: “Take a picture.”",
+      "content_region_ids": [
+        "Watch_Apple_User_Guide_3286"
+      ],
+      "context_region_ids": [
+        "Watch_Apple_User_Guide_3283"
+      ],
+      "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00169.jpg",
+      "source_shapes": [
+        {
+          "id": "Watch_Apple_User_Guide_3286",
+          "shape": {
+            "x": 309.15043809678826,
+            "y": 410.2689208984375,
+            "width": 432.0774061414932,
+            "height": 34.70800781250017
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_3283",
+          "shape": {
+            "x": 314.0000000000001,
+            "y": 174.58703613281247,
+            "width": 619.5141601562506,
+            "height": 53.42968750000014
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "Watch_Apple_User_Guide_3286",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 46
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.015625,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S4"
+    },
+    {
+      "chunk_id": "90fff32d-d56a-5032-b776-cf590dbd7848",
+      "manual_id": "Watch_Apple_User_Guide",
+      "page_id": "Watch_Apple_User_Guide_00269",
+      "chunk_type": "text",
+      "text": "Check the weather on AppleWatch\nAsk Siri.Say something like: “What’s tomorrow’s forecast for Honolulu?”",
+      "content_region_ids": [
+        "Watch_Apple_User_Guide_5168"
+      ],
+      "context_region_ids": [
+        "Watch_Apple_User_Guide_5167"
+      ],
+      "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00274.jpg",
+      "source_shapes": [
+        {
+          "id": "Watch_Apple_User_Guide_5168",
+          "shape": {
+            "x": 336.70599365234375,
+            "y": 226.2689208984375,
+            "width": 641.5114746093749,
+            "height": 34.70800781250006
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_5167",
+          "shape": {
+            "x": 314.00000000000017,
+            "y": 174.58703613281253,
+            "width": 464.72729492187506,
+            "height": 53.4296875
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "Watch_Apple_User_Guide_5168",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 71
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.015384615384615385,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S5"
+    }
+  ],
+  "excluded_sources": [],
+  "status": "answered",
+  "variant": "keyword_100",
+  "created_at": "2026-11-02T00:42:34.025683+00:00",
+  "answer": "AppleWatch의 Siri에게 현재 시간을 물어보기 위해 다음과 같이 말하세요: '지금 몇 시인가요?' 또는 '현재 시간이 무엇인가요?'. 매뉴얼에는 Auckland이나 Honolulu 같은 특정 도시의 시간을 묻는 예시 ('What time is it in Auckland?', 'What's tomorrow's forecast for Honolulu?')가 있지만, 일반적인 현재 시간 문의에 대한 구체적인 문장 예시는 명시되어 있지 않습니다.",
+  "source_ids": [
+    "S3"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 111,
+        "prompt_eval_count": 640,
+        "total_duration": 1777884300,
+        "load_duration": 6243400,
+        "attempt": 1,
+        "prompt_token_upper_bound": 3324
+      }
+    ],
+    "elapsed_seconds": 1.8577685999916866,
+    "ollama_model": {
+      "name": "qwen3.5:4b",
+      "model": "qwen3.5:4b",
+      "size": 3214409726,
+      "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "4.2B",
+        "quantization_level": "Q4_K_M"
+      },
+      "expires_at": "2026-11-02T09:43:35.882049+09:00",
+      "size_vram": 3214409726,
+      "context_length": 8192,
+      "runner": "llamacpp"
+    },
+    "observation_error": null
+  },
+  "citations": [
+    {
+      "chunk_id": "b595456b-9abf-5dc0-9ad8-6bc60d1b78dd",
+      "manual_id": "Watch_Apple_User_Guide",
+      "page_id": "Watch_Apple_User_Guide_00280",
+      "chunk_type": "text",
+      "text": "Use World Clock on AppleWatch to check the time in\nUse the World Clock app on your AppleWatch to check the time in cities around the globe.\nAsk Siri.Say something like: “What time is it in Auckland?”",
+      "content_region_ids": [
+        "Watch_Apple_User_Guide_5273",
+        "Watch_Apple_User_Guide_5274"
+      ],
+      "context_region_ids": [
+        "Watch_Apple_User_Guide_5272"
+      ],
+      "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00285.jpg",
+      "source_shapes": [
+        {
+          "id": "Watch_Apple_User_Guide_5273",
+          "shape": {
+            "x": 313.99999999999983,
+            "y": 260.68200683593733,
+            "width": 727.2965698242181,
+            "height": 52.8818359375
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_5274",
+          "shape": {
+            "x": 313.70599365234364,
+            "y": 326.2689208984374,
+            "width": 543.5660400390625,
+            "height": 34.70800781250006
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_5272",
+          "shape": {
+            "x": 313.00000000000006,
+            "y": 184.5870361328125,
+            "width": 703.7700805664058,
+            "height": 65.42968749999989
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "Watch_Apple_User_Guide_5273",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 88
+        },
+        {
+          "region_id": "Watch_Apple_User_Guide_5274",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 59
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.015873015873015872,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S3"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 1.8579553000163287,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3836,
+    "temperature_c": 66,
+    "utilization_percent": 86
+  }
+}

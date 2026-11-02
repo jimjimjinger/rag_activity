@@ -1,0 +1,149 @@
+{
+  "case_id": "FIG01",
+  "manual_id": "og_en_wmsucb",
+  "question": "전동 드릴을 사용하기 전에 무엇에 주의해야 하나요?",
+  "english_query": "What should I pay attention to before using the cordless drill?",
+  "keyword_percent": 100,
+  "variant": "top1_kw100",
+  "top_k": 1,
+  "retrieved_chunk_ids": [
+    "9d16a08b-378f-58c9-93e7-b8394de4f00b"
+  ],
+  "sources": [
+    {
+      "chunk_id": "9d16a08b-378f-58c9-93e7-b8394de4f00b",
+      "manual_id": "og_en_wmsucb",
+      "page_id": "og_en_wmsucb_00004",
+      "chunk_type": "figure",
+      "text": "A prohibition symbol overlaying an illustration of a person using a power drill on the elevator door frame. The image indicates that drilling or modifying the door structure is forbidden.",
+      "content_region_ids": [
+        "og_en_wmsucb_400"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00004.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_400",
+          "shape": {
+            "x": 798.9965362548832,
+            "y": 231.55902099609375,
+            "width": 172.99999999999943,
+            "height": 177.00000000000023
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_400",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 187
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": 15.359825134277344,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "excluded_sources": [],
+  "created_at": "2026-11-02T05:00:59.863236+00:00",
+  "status": "answered",
+  "answer": "전동 드릴을 사용하기 전에 엘리베이터 문 프레임에 구멍을 뚫거나 문 구조를 수정하는 행위는 금지되어 있습니다.",
+  "source_ids": [
+    "S1"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 65,
+        "prompt_eval_count": 389,
+        "total_duration": 907784300,
+        "load_duration": 4761600,
+        "attempt": 1,
+        "prompt_token_upper_bound": 2397
+      }
+    ],
+    "elapsed_seconds": 0.9122222999867518,
+    "backend": "LangChain ChatPromptTemplate | ChatOllama"
+  },
+  "citations": [
+    {
+      "chunk_id": "9d16a08b-378f-58c9-93e7-b8394de4f00b",
+      "manual_id": "og_en_wmsucb",
+      "page_id": "og_en_wmsucb_00004",
+      "chunk_type": "figure",
+      "text": "A prohibition symbol overlaying an illustration of a person using a power drill on the elevator door frame. The image indicates that drilling or modifying the door structure is forbidden.",
+      "content_region_ids": [
+        "og_en_wmsucb_400"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00004.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_400",
+          "shape": {
+            "x": 798.9965362548832,
+            "y": 231.55902099609375,
+            "width": 172.99999999999943,
+            "height": 177.00000000000023
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_400",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 187
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": 15.359825134277344,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "cited_figures": [
+    {
+      "source_id": "S1",
+      "page_id": "og_en_wmsucb_00004",
+      "region_id": "og_en_wmsucb_400",
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00004.jpg",
+      "shape": {
+        "x": 798.9965362548832,
+        "y": 231.55902099609375,
+        "width": 172.99999999999943,
+        "height": 177.00000000000023
+      }
+    }
+  ],
+  "elapsed_seconds": 0.9122794999857433,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 66,
+    "utilization_percent": 84
+  }
+}

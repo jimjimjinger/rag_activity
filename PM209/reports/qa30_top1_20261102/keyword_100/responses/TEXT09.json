@@ -1,0 +1,163 @@
+{
+  "case_id": "TEXT09",
+  "manual_id": "Watch_Apple_User_Guide",
+  "question": "Siri에게 시간을 물으려면 어떻게 말해야 하나요?",
+  "english_query": "How do I ask Siri for the time?",
+  "keyword_percent": 100,
+  "dense_percent": 0,
+  "top_k": 1,
+  "retrieved_chunk_ids": [
+    "d127bfb4-b50b-5c25-9489-11cd907068ae"
+  ],
+  "sources": [
+    {
+      "chunk_id": "d127bfb4-b50b-5c25-9489-11cd907068ae",
+      "manual_id": "Watch_Apple_User_Guide",
+      "page_id": "Watch_Apple_User_Guide_00091",
+      "chunk_type": "text",
+      "text": "Delete Siri history\n1. Open the Settings app on your AppleWatch.\n2. Tap Siri, tap Siri History, then tap Delete Siri History.\nFor more information, see the Apple Support article Ask Siri, Dictation & Privacy.",
+      "content_region_ids": [
+        "Watch_Apple_User_Guide_1451",
+        "Watch_Apple_User_Guide_1452",
+        "Watch_Apple_User_Guide_1453"
+      ],
+      "context_region_ids": [
+        "Watch_Apple_User_Guide_1449"
+      ],
+      "image_filename": "images/Watch_Apple_User_Guide/images/Watch_Apple_User_Guide_00096.jpg",
+      "source_shapes": [
+        {
+          "id": "Watch_Apple_User_Guide_1451",
+          "shape": {
+            "x": 314,
+            "y": 258.7998046875,
+            "width": 441.6837361653645,
+            "height": 25.8818359375
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_1452",
+          "shape": {
+            "x": 314,
+            "y": 294.13313802083337,
+            "width": 485.6515502929692,
+            "height": 25.881835937499943
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_1453",
+          "shape": {
+            "x": 314,
+            "y": 328.7998046874999,
+            "width": 703.4705200195308,
+            "height": 25.881835937499943
+          }
+        },
+        {
+          "id": "Watch_Apple_User_Guide_1449",
+          "shape": {
+            "x": 314,
+            "y": 100.81933593750003,
+            "width": 174.59613037109352,
+            "height": 37.13720703124997
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "Watch_Apple_User_Guide_1451",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 44
+        },
+        {
+          "region_id": "Watch_Apple_User_Guide_1452",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 60
+        },
+        {
+          "region_id": "Watch_Apple_User_Guide_1453",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 82
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.01639344262295082,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "excluded_sources": [],
+  "top5_response_file": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_weights_20261102\\keyword_100\\results.json",
+  "status": "insufficient_evidence",
+  "variant": "keyword_100",
+  "created_at": "2026-11-02T00:58:03.841252+00:00",
+  "answer": "검색된 매뉴얼 근거에서 질문에 대한 답을 확인하지 못했습니다.",
+  "source_ids": [],
+  "insufficient_evidence": true,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 55,
+        "prompt_eval_count": 408,
+        "total_duration": 795079300,
+        "load_duration": 5045600,
+        "attempt": 1,
+        "prompt_token_upper_bound": 2440
+      }
+    ],
+    "elapsed_seconds": 0.8650358000013512,
+    "ollama_model": {
+      "name": "qwen3.5:4b",
+      "model": "qwen3.5:4b",
+      "size": 3214409726,
+      "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "4.2B",
+        "quantization_level": "Q4_K_M"
+      },
+      "expires_at": "2026-11-02T09:59:04.705167+09:00",
+      "size_vram": 3214409726,
+      "context_length": 8192,
+      "runner": "llamacpp"
+    },
+    "observation_error": null
+  },
+  "citations": [],
+  "cited_figures": [],
+  "elapsed_seconds": 0.8651793000171892,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 66,
+    "utilization_percent": 84
+  }
+}

@@ -1,0 +1,1777 @@
+{
+  "case_id": "FIG08",
+  "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+  "question": "스피커를 컴퓨터 바로 옆에 배치하기 쉬운 이유는 무엇인가요?",
+  "english_query": "Why is it easy to place the speaker right next to the computer?",
+  "dense_candidates": [
+    {
+      "score": 0.7604380917661266,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00006",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_3"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_2"
+      ],
+      "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00007.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_3",
+          "shape": {
+            "x": 61.79998779296873,
+            "y": 179.4273986816405,
+            "width": 520.8798828124995,
+            "height": 133.32000732421892
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_2",
+          "shape": {
+            "x": 64.8000030517578,
+            "y": 137.1674041748047,
+            "width": 329.81199645996065,
+            "height": 33.40400695800784
+          }
+        }
+      ],
+      "title": "Positioning the speakers",
+      "text": "Positioning the speakers\nThe size and shape of these speakers make it easy to position them directly next to your c omputer. For proper performance, place the right speaker to the right and the left speaker to the left of your computer. Make sure there is equal distance on either side. This provides an accurate sound stage.",
+      "char_count": 325,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_3",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 300
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "b1c45281-074a-5bdc-b9e3-b5e329aa5f4a",
+      "text_sha256": "30c01b6066ced5516dc92b30a65a4dc77645a2ffcfa4cd70b8c6bb73509d384d",
+      "token_count": 65
+    },
+    {
+      "score": 0.7123135627552581,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00006",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_22"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_2"
+      ],
+      "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00007.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_22",
+          "shape": {
+            "x": 50.249999999999986,
+            "y": 172.66406250000006,
+            "width": 542.4999999999999,
+            "height": 425.49999999999994
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_2",
+          "shape": {
+            "x": 64.8000030517578,
+            "y": 137.1674041748047,
+            "width": 329.81199645996065,
+            "height": 33.40400695800784
+          }
+        }
+      ],
+      "title": "Positioning the speakers",
+      "text": "Positioning the speakers\nA diagram showing speaker placement next to a computer for optimal sound stage. The left and right speakers are positioned at an equal distance from the computer, with recommended spacing of 18\"–36\" (46 cm–92 cm). Arrows indicate outward positioning.",
+      "char_count": 275,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_22",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 250
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "d5adcc90-5928-58c9-8233-cd2ed4b9fdb1",
+      "text_sha256": "26085e64a078c3e88cf4df1988a31c4ae82302988b745c250871c0b631506b73",
+      "token_count": 61
+    },
+    {
+      "score": 0.6258453153377788,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00012",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_117"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00013.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_117",
+          "shape": {
+            "x": 252.30001831054688,
+            "y": 374.72799682617165,
+            "width": 892.1444396972654,
+            "height": 107.98992919921864
+          }
+        }
+      ],
+      "title": "",
+      "text": "•Besurethespeakercableissecurelypluggedintotherightspeaker. Be sure that both ends of the audio input cable, one to the speaker and the other to the computer, are • plugged in securely. Make sure the computer provides stereo sound. It if has one channel only, connect a mono-to-stereo adapter • (not supplied) to send the sound to both speakers.",
+      "char_count": 345,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_117",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 345
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "9bb94f55-cf43-5ec5-9e69-63a20b21ad57",
+      "text_sha256": "95b097448c821270f259e791fb108281847bbedb64263f377bda20ee86a2d82a",
+      "token_count": 80
+    },
+    {
+      "score": 0.614141033205232,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00006",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_5"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00007.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_5",
+          "shape": {
+            "x": 670.1141967773436,
+            "y": 460.96740722656193,
+            "width": 483.8201293945309,
+            "height": 90.4199829101567
+          }
+        }
+      ],
+      "title": "",
+      "text": "Caution: Avoid inserting any objects (such as a cable, finger, pencil, or screwdriver) into the vent on the side of each speaker. Such items can damage the speaker and degrade performance, and may void the warranty.",
+      "char_count": 215,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_5",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 215
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "c80a3022-78ea-5a1c-8502-ff2dba93a53d",
+      "text_sha256": "fd4e111dcca4f4c592d2539322ccccebe9b94e3a6abf1b867bb31a7c9a5cf12c",
+      "token_count": 47
+    },
+    {
+      "score": 0.6114905234242707,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00008",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_42"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00009.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_42",
+          "shape": {
+            "x": 173.25000000000003,
+            "y": 159.74999999999997,
+            "width": 864.0,
+            "height": 387.0000000000001
+          }
+        }
+      ],
+      "title": "",
+      "text": "Diagram showing audio system setup with AC power cord (4), power pack cable (3), speaker cables (1), and audio input cable (2) connecting left/right speakers to computer via rear panel inputs labeled 'To Left Speaker', 'DC Power', and 'Audio Input'.",
+      "char_count": 249,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_42",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 249
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "b9530739-a0b0-5b94-9ebc-416b9d687a3f",
+      "text_sha256": "19fff220388e3fc32dd99d8eb383aad2c02df4aad6ba64a1f3979788621cc722",
+      "token_count": 55
+    },
+    {
+      "score": 0.6053799241521972,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00006",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_12"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_2"
+      ],
+      "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00007.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_12",
+          "shape": {
+            "x": 135.66641235351565,
+            "y": 437.60360717773415,
+            "width": 64.0079956054685,
+            "height": 40.985961914062216
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_2",
+          "shape": {
+            "x": 64.8000030517578,
+            "y": 137.1674041748047,
+            "width": 329.81199645996065,
+            "height": 33.40400695800784
+          }
+        }
+      ],
+      "title": "Positioning the speakers",
+      "text": "Positioning the speakers\nLeft speaker",
+      "char_count": 37,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_12",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 12
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "340837ef-2096-5d27-a42a-7f863dbd5865",
+      "text_sha256": "aa5aeece1f9c80c6bac38ddc29ad15e74c42361c7783e95c01b380b51af13929",
+      "token_count": 7
+    },
+    {
+      "score": 0.6005419549929215,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00008",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_43"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00009.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_43",
+          "shape": {
+            "x": 167.24999999999997,
+            "y": 144.74999999999997,
+            "width": 886.5,
+            "height": 411.5
+          }
+        }
+      ],
+      "title": "",
+      "text": "Diagram showing audio system connections including AC power cord (4), power pack cable (3), speaker cables (1), and audio input cable (2) linking right/left speakers to computer rear panel with labeled ports.",
+      "char_count": 208,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_43",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 208
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "e4e44e8e-fa98-5a22-930f-0bb30a4d7a62",
+      "text_sha256": "8cf2fdff9066c10877b14eb414d463a34c9d81af9ac54ac49b0334378a4fcd1e",
+      "token_count": 42
+    },
+    {
+      "score": 0.5980497485592831,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00006",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_15"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_2"
+      ],
+      "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00007.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_15",
+          "shape": {
+            "x": 202.9999999999999,
+            "y": 394.6406249999998,
+            "width": 227.99999999999977,
+            "height": 188.99999999999977
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_2",
+          "shape": {
+            "x": 64.8000030517578,
+            "y": 137.1674041748047,
+            "width": 329.81199645996065,
+            "height": 33.40400695800784
+          }
+        }
+      ],
+      "title": "Positioning the speakers",
+      "text": "Positioning the speakers\nA gray laptop computer viewed from the front, showing the screen and base without any visible labels or controls.",
+      "char_count": 138,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_15",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 113
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "1fb6780e-aac9-5280-82c6-cc2823ceb55a",
+      "text_sha256": "04c0637b181f190bffb72cb72ef86c1abb0220b2dfbf1a4570ef56ad3dda7547",
+      "token_count": 26
+    },
+    {
+      "score": 0.5945227730348617,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00006",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_18"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_2"
+      ],
+      "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00007.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_18",
+          "shape": {
+            "x": 61.99999999999996,
+            "y": 332.64062500000006,
+            "width": 511.9999999999996,
+            "height": 255.00000000000006
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_2",
+          "shape": {
+            "x": 64.8000030517578,
+            "y": 137.1674041748047,
+            "width": 329.81199645996065,
+            "height": 33.40400695800784
+          }
+        }
+      ],
+      "title": "Positioning the speakers",
+      "text": "Positioning the speakers\nDiagram showing optimal speaker placement relative to a monitor, indicating left and right speakers positioned at 18\"–36\" (46 cm –92 cm) from the screen center.",
+      "char_count": 185,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_18",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 160
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "f87e0371-39b0-5a46-b0e2-6634b71da7e9",
+      "text_sha256": "f2d9f7a29f0bcc1c922a117ce804c363b4e7467e8cedc992f50e40855a73fed9",
+      "token_count": 44
+    },
+    {
+      "score": 0.590171126987781,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00007",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_26"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_24"
+      ],
+      "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00008.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_26",
+          "shape": {
+            "x": 64.8000030517578,
+            "y": 236.39599609375003,
+            "width": 505.0753631591798,
+            "height": 324.41998291015636
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_24",
+          "shape": {
+            "x": 64.8000030517578,
+            "y": 138.5959930419922,
+            "width": 300.74800109863276,
+            "height": 33.40400695800787
+          }
+        }
+      ],
+      "title": "using the three cables",
+      "text": "using the three cables\nCaution: Do not plug in the AC power cord until all other connections are completed.  Speaker cable ( ): Insert the free end into the To Left Speaker connector on the right speaker.  Audio input cable ( ): Insert one end into the Audio Input connector on the right speaker. Insert the other end into the Headphone or Speaker connector (the labels and positions of these connectors vary) on your computer.",
+      "char_count": 429,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_26",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 406
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "6656e602-047f-5c7b-b580-79f4821dfc93",
+      "text_sha256": "b332f8e3b46949cd5aa874d204a7c75de517c8d85647cdf2b348d967305636a5",
+      "token_count": 89
+    },
+    {
+      "score": 0.5840016546756056,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00006",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_4"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_2"
+      ],
+      "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00007.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_4",
+          "shape": {
+            "x": 64.79998779296875,
+            "y": 609.4274291992184,
+            "width": 410.4599609374998,
+            "height": 67.32000732421864
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_2",
+          "shape": {
+            "x": 64.8000030517578,
+            "y": 137.1674041748047,
+            "width": 329.81199645996065,
+            "height": 33.40400695800784
+          }
+        }
+      ],
+      "title": "Positioning the speakers",
+      "text": "Positioning the speakers\nBe sure not to place any object in front of the speakers, which could block the sound or any signals from the remote control.",
+      "char_count": 150,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_4",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 125
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "d5ff03f4-a62c-5f17-b4b3-30a9129bd547",
+      "text_sha256": "c840ba7c9d7b387f94be3fa2896f2c5bc4832da3d25528dbeb2b090fb0a857fd",
+      "token_count": 31
+    },
+    {
+      "score": 0.5811695780325206,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00012",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_116"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00013.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_116",
+          "shape": {
+            "x": 252.3000030517577,
+            "y": 189.59001159667955,
+            "width": 885.7904510498048,
+            "height": 174.97596740722642
+          }
+        }
+      ],
+      "title": "",
+      "text": "•Makesurethespeakersareturnedonasindicatedbythelightonthefrontoftherightspeaker. •Makesurethespeakervolumeisnotsettotheminimum.Pressthe+buttonontherightspeakerfor 2 seconds to raise the volume enough. Make sure the computer is plugged in and turned on, mute is turned off, and all volume controls are turned • up. Refer to “Controlling the volume” on page 6. •Besurethepowerpackissecurelypluggedintotherightspeakerandintoapoweroutletorsurgeprotector.",
+      "char_count": 450,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_116",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 450
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "5463f93a-ab62-5834-ad5c-f2ed5d76a95b",
+      "text_sha256": "c58cacd7a881bb0273d42c742059a91cf1ef95e643d65b8f2f710ba9d2771567",
+      "token_count": 121
+    },
+    {
+      "score": 0.5722308300912998,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00005",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_218"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00006.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_218",
+          "shape": {
+            "x": 677.3333333333334,
+            "y": 185.9999999999999,
+            "width": 281.33333333333326,
+            "height": 163.33333333333343
+          }
+        }
+      ],
+      "title": "",
+      "text": "Two Bose speakers connected by an audio cable, labeled 'speaker' and 'speaker cable attached'. The right speaker shows three control buttons.",
+      "char_count": 141,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_218",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 141
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "a8198fb2-38b4-5fec-964f-f90a37593ecf",
+      "text_sha256": "17c1dd1fdd2342f0fdca6e271bc341957fe58f08bcef2e1ffe8cbb2013fe69e1",
+      "token_count": 27
+    },
+    {
+      "score": 0.5691571486614049,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00006",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_21"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00007.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_21",
+          "shape": {
+            "x": 670.9999999999998,
+            "y": 173.64062499999991,
+            "width": 418.0,
+            "height": 236.9999999999998
+          }
+        }
+      ],
+      "title": "",
+      "text": "Diagram showing the rear of two speakers labeled 'Right speaker' and 'Left speaker'. Visible parts include connectors on the right speaker, vents between them, and a speaker cable connected to the left speaker.",
+      "char_count": 210,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_21",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 210
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "f3559d7e-8d16-56dd-9e8c-bc675da4ad1b",
+      "text_sha256": "6b8f76dc2f9a0b77311b92c106c332a4ffc2b6f0145f95e57bd5095fb8321bdc",
+      "token_count": 40
+    },
+    {
+      "score": 0.5648452369810603,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00006",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_10"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00007.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_10",
+          "shape": {
+            "x": 798.438598632812,
+            "y": 179.5411682128903,
+            "width": 156.75988769531182,
+            "height": 23.460006713867415
+          }
+        }
+      ],
+      "title": "",
+      "text": "Rear of speakers",
+      "char_count": 16,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_10",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 16
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "02b3290a-5f9a-500e-b630-5c25d3541abf",
+      "text_sha256": "387db77ad5e5e41da293f7fc7ebbf6ae9ab9dcf1ccd08556072b0590f48772a9",
+      "token_count": 4
+    },
+    {
+      "score": 0.5597849854737773,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00012",
+      "chunk_type": "table",
+      "content_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_125"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_113"
+      ],
+      "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00013.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_125",
+          "shape": {
+            "x": 56.24999999999998,
+            "y": 144.21093750000003,
+            "width": 1111.5000000000002,
+            "height": 476.9999999999999
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_113",
+          "shape": {
+            "x": 75.04499816894528,
+            "y": 30.511999130249006,
+            "width": 55.00801086425781,
+            "height": 19.087999343872095
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_114",
+          "shape": {
+            "x": 73.30000305175778,
+            "y": 157.0259857177733,
+            "width": 71.96398925781253,
+            "height": 21.473999023437386
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_115",
+          "shape": {
+            "x": 253.44401550292952,
+            "y": 157.0259857177733,
+            "width": 143.6939849853518,
+            "height": 21.473999023437386
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_122",
+          "shape": {
+            "x": 71.99999999999997,
+            "y": 189.64062499999986,
+            "width": 83.00000000000003,
+            "height": 19.000000000000085
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_123",
+          "shape": {
+            "x": 71.99999999999997,
+            "y": 375.640625,
+            "width": 143.99999999999997,
+            "height": 38.999999999999886
+          }
+        }
+      ],
+      "title": "English",
+      "text": "English\nFirst row (header unconfirmed): Column 1: Problem | Column 2: What you can do\nColumn 1: No sound from one speaker | Column 2: • Be sure the speaker cable is securely plugged into the right speaker. •Be sure that both ends of the audio input cable,one to the speaker and the other to the computer, are plugged in securely. Make sure the computer provides stereo sound.It if has one channel only,connect a mono-to-stereo adapter (not supplied) to send the sound to both speakers.",
+      "char_count": 485,
+      "overlap_char_count": 0,
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "source_spans": [],
+      "table_rows": [
+        2
+      ],
+      "table_cells": [
+        {
+          "row": 2,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "chunk_id": "68b50ad4-aaf5-5795-bc34-cf83f203a994",
+      "text_sha256": "bd1cdcea449e667e8f17c036e1429b69652d86b2dd9495006f7057ded16e1236",
+      "deduplicated_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_114",
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_115",
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_122",
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_123"
+      ],
+      "token_count": 113
+    },
+    {
+      "score": 0.558305231220326,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00005",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_219"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00006.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_219",
+          "shape": {
+            "x": 649,
+            "y": 134.99999999999994,
+            "width": 477.9999999999998,
+            "height": 398.99999999999994
+          }
+        }
+      ],
+      "title": "",
+      "text": "A Bose speaker system setup including left and right speakers, power pack, remote control, demonstration CD, speaker cable (attached), power pack cable (attached), AC power cord**, and audio input cable.",
+      "char_count": 203,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_219",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 203
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "63a5b7b5-fe29-59ce-b5e4-5aef873cccfb",
+      "text_sha256": "178b8c1f4db5c25c175fc9cd1ce7e988667a87718609b7a2d19202f4d61ca847",
+      "token_count": 40
+    },
+    {
+      "score": 0.5572524540682956,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00005",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_206"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00006.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_206",
+          "shape": {
+            "x": 654.0017089843747,
+            "y": 314.67797851562506,
+            "width": 115.34411621093807,
+            "height": 40.98596191406244
+          }
+        }
+      ],
+      "title": "",
+      "text": "Speaker cable (attached)",
+      "char_count": 24,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_206",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 24
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "cae5bc83-ced9-5cec-9d95-c5629087c113",
+      "text_sha256": "8d7f04e9a0f8e40d9fe89078443a043d15d0422c5e5402cb0312cfacb5fe35da",
+      "token_count": 5
+    },
+    {
+      "score": 0.5552577693479277,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00006",
+      "chunk_type": "figure",
+      "content_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_20"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00007.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_20",
+          "shape": {
+            "x": 961.3333333333329,
+            "y": 203.7604166666666,
+            "width": 120.6666666666664,
+            "height": 199.33333333333346
+          }
+        }
+      ],
+      "title": "",
+      "text": "A cropped image showing the rear side of a speaker unit with a visible speaker cable connected to its input port. The label 'Speaker cable' points to the black wire extending from the device.",
+      "char_count": 191,
+      "overlap_char_count": 0,
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_20",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 191
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "fa1329f2-dc07-56d8-ad2b-a8545c4146ba",
+      "text_sha256": "9438afb980bae8ff1da97509f9789f33ba19d92f4f2950a55d723ca924a06ef9",
+      "token_count": 38
+    },
+    {
+      "score": 0.5477706794244326,
+      "chunking_version": "pm209-char500-v1",
+      "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+      "split": "val",
+      "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00009",
+      "chunk_type": "text",
+      "content_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_48"
+      ],
+      "context_region_ids": [
+        "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_45"
+      ],
+      "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00010.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_48",
+          "shape": {
+            "x": 121.57959747314443,
+            "y": 381.20761108398426,
+            "width": 111.34798431396474,
+            "height": 20.98797607421875
+          }
+        },
+        {
+          "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_45",
+          "shape": {
+            "x": 64.80000305175778,
+            "y": 137.59599304199213,
+            "width": 200.64802551269528,
+            "height": 33.40400695800784
+          }
+        }
+      ],
+      "title": "Getting started",
+      "text": "Getting started\nRight speaker",
+      "char_count": 29,
+      "overlap_char_count": 0,
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_48",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 13
+        }
+      ],
+      "table_rows": [],
+      "table_cells": [],
+      "chunk_id": "86ab4361-647a-5d18-94d7-7bbfe79d6b56",
+      "text_sha256": "00873d5ad3b9cca96fafb6cbf026cd63f1817fc23d3f99d0818e78cf4cf89e12",
+      "token_count": 5
+    }
+  ],
+  "keyword_candidates": [
+    {
+      "chunk_id": "b1c45281-074a-5bdc-b9e3-b5e329aa5f4a",
+      "bm25_score": -22.029985551023422
+    },
+    {
+      "chunk_id": "d5adcc90-5928-58c9-8233-cd2ed4b9fdb1",
+      "bm25_score": -15.894954173815542
+    },
+    {
+      "chunk_id": "e4e44e8e-fa98-5a22-930f-0bb30a4d7a62",
+      "bm25_score": -11.3675021724608
+    },
+    {
+      "chunk_id": "b9530739-a0b0-5b94-9ebc-416b9d687a3f",
+      "bm25_score": -11.253896817988672
+    },
+    {
+      "chunk_id": "7e193d68-e415-5e82-94dd-1f378969db40",
+      "bm25_score": -11.128585342724673
+    },
+    {
+      "chunk_id": "e88b01fb-3cef-56b6-87f7-0a9ebc8c4acc",
+      "bm25_score": -11.011898134171538
+    },
+    {
+      "chunk_id": "6656e602-047f-5c7b-b580-79f4821dfc93",
+      "bm25_score": -10.805457566873681
+    },
+    {
+      "chunk_id": "f3559d7e-8d16-56dd-9e8c-bc675da4ad1b",
+      "bm25_score": -10.763260864273269
+    },
+    {
+      "chunk_id": "3c8ec038-26df-53d1-8e2b-4c15d276c192",
+      "bm25_score": -10.696635223767082
+    },
+    {
+      "chunk_id": "3ec986f8-7379-5fbc-bf0f-cf46d471c345",
+      "bm25_score": -10.696635223767082
+    },
+    {
+      "chunk_id": "42f67329-268e-51aa-98c4-e09e828f1751",
+      "bm25_score": -10.696635223767082
+    },
+    {
+      "chunk_id": "6d74b2d7-594e-5a52-9737-46fbaf38915c",
+      "bm25_score": -10.696635223767082
+    },
+    {
+      "chunk_id": "86ab4361-647a-5d18-94d7-7bbfe79d6b56",
+      "bm25_score": -10.276403963445038
+    },
+    {
+      "chunk_id": "68b50ad4-aaf5-5795-bc34-cf83f203a994",
+      "bm25_score": -10.257022875617203
+    },
+    {
+      "chunk_id": "a8198fb2-38b4-5fec-964f-f90a37593ecf",
+      "bm25_score": -10.099622483222033
+    },
+    {
+      "chunk_id": "cf879db7-535d-5631-a7b6-0a7d07f89aba",
+      "bm25_score": -10.00492508854934
+    },
+    {
+      "chunk_id": "69b1a280-9ce3-5c0e-98e7-edb1e0983b05",
+      "bm25_score": -9.951534745070921
+    },
+    {
+      "chunk_id": "d5ff03f4-a62c-5f17-b4b3-30a9129bd547",
+      "bm25_score": -9.592412997671694
+    },
+    {
+      "chunk_id": "f87e0371-39b0-5a46-b0e2-6634b71da7e9",
+      "bm25_score": -9.019082272634268
+    },
+    {
+      "chunk_id": "63a5b7b5-fe29-59ce-b5e4-5aef873cccfb",
+      "bm25_score": -8.94009268049499
+    }
+  ],
+  "fused_candidates": [
+    {
+      "chunk_id": "b1c45281-074a-5bdc-b9e3-b5e329aa5f4a",
+      "score": 0.01639344262295082,
+      "dense_rank": 1,
+      "dense_score": 0.7604380917661266,
+      "keyword_rank": 1,
+      "keyword_score": -22.029985551023422
+    },
+    {
+      "chunk_id": "d5adcc90-5928-58c9-8233-cd2ed4b9fdb1",
+      "score": 0.016129032258064516,
+      "dense_rank": 2,
+      "dense_score": 0.7123135627552581,
+      "keyword_rank": 2,
+      "keyword_score": -15.894954173815542
+    },
+    {
+      "chunk_id": "b9530739-a0b0-5b94-9ebc-416b9d687a3f",
+      "score": 0.015504807692307693,
+      "dense_rank": 5,
+      "dense_score": 0.6114905234242707,
+      "keyword_rank": 4,
+      "keyword_score": -11.253896817988672
+    },
+    {
+      "chunk_id": "e4e44e8e-fa98-5a22-930f-0bb30a4d7a62",
+      "score": 0.015399194503672116,
+      "dense_rank": 7,
+      "dense_score": 0.6005419549929215,
+      "keyword_rank": 3,
+      "keyword_score": -11.3675021724608
+    },
+    {
+      "chunk_id": "6656e602-047f-5c7b-b580-79f4821dfc93",
+      "score": 0.014605543710021322,
+      "dense_rank": 10,
+      "dense_score": 0.590171126987781,
+      "keyword_rank": 7,
+      "keyword_score": -10.805457566873681
+    },
+    {
+      "chunk_id": "f3559d7e-8d16-56dd-9e8c-bc675da4ad1b",
+      "score": 0.014109697933227345,
+      "dense_rank": 14,
+      "dense_score": 0.5691571486614049,
+      "keyword_rank": 8,
+      "keyword_score": -10.763260864273269
+    },
+    {
+      "chunk_id": "f87e0371-39b0-5a46-b0e2-6634b71da7e9",
+      "score": 0.013575490735644836,
+      "dense_rank": 9,
+      "dense_score": 0.5945227730348617,
+      "keyword_rank": 19,
+      "keyword_score": -9.019082272634268
+    },
+    {
+      "chunk_id": "a8198fb2-38b4-5fec-964f-f90a37593ecf",
+      "score": 0.013515981735159818,
+      "dense_rank": 13,
+      "dense_score": 0.5722308300912998,
+      "keyword_rank": 15,
+      "keyword_score": -10.099622483222033
+    },
+    {
+      "chunk_id": "d5ff03f4-a62c-5f17-b4b3-30a9129bd547",
+      "score": 0.01345250993138317,
+      "dense_rank": 11,
+      "dense_score": 0.5840016546756056,
+      "keyword_rank": 18,
+      "keyword_score": -9.592412997671694
+    },
+    {
+      "chunk_id": "68b50ad4-aaf5-5795-bc34-cf83f203a994",
+      "score": 0.01333570412517781,
+      "dense_rank": 16,
+      "dense_score": 0.5597849854737773,
+      "keyword_rank": 14,
+      "keyword_score": -10.257022875617203
+    },
+    {
+      "chunk_id": "86ab4361-647a-5d18-94d7-7bbfe79d6b56",
+      "score": 0.01309931506849315,
+      "dense_rank": 20,
+      "dense_score": 0.5477706794244326,
+      "keyword_rank": 13,
+      "keyword_score": -10.276403963445038
+    },
+    {
+      "chunk_id": "63a5b7b5-fe29-59ce-b5e4-5aef873cccfb",
+      "score": 0.012743506493506494,
+      "dense_rank": 17,
+      "dense_score": 0.558305231220326,
+      "keyword_rank": 20,
+      "keyword_score": -8.94009268049499
+    },
+    {
+      "chunk_id": "9bb94f55-cf43-5ec5-9e69-63a20b21ad57",
+      "score": 0.007936507936507936,
+      "dense_rank": 3,
+      "dense_score": 0.6258453153377788
+    },
+    {
+      "chunk_id": "c80a3022-78ea-5a1c-8502-ff2dba93a53d",
+      "score": 0.0078125,
+      "dense_rank": 4,
+      "dense_score": 0.614141033205232
+    },
+    {
+      "chunk_id": "7e193d68-e415-5e82-94dd-1f378969db40",
+      "score": 0.007692307692307693,
+      "keyword_rank": 5,
+      "keyword_score": -11.128585342724673
+    },
+    {
+      "chunk_id": "340837ef-2096-5d27-a42a-7f863dbd5865",
+      "score": 0.007575757575757576,
+      "dense_rank": 6,
+      "dense_score": 0.6053799241521972
+    },
+    {
+      "chunk_id": "e88b01fb-3cef-56b6-87f7-0a9ebc8c4acc",
+      "score": 0.007575757575757576,
+      "keyword_rank": 6,
+      "keyword_score": -11.011898134171538
+    },
+    {
+      "chunk_id": "1fb6780e-aac9-5280-82c6-cc2823ceb55a",
+      "score": 0.007352941176470588,
+      "dense_rank": 8,
+      "dense_score": 0.5980497485592831
+    },
+    {
+      "chunk_id": "3c8ec038-26df-53d1-8e2b-4c15d276c192",
+      "score": 0.007246376811594203,
+      "keyword_rank": 9,
+      "keyword_score": -10.696635223767082
+    },
+    {
+      "chunk_id": "3ec986f8-7379-5fbc-bf0f-cf46d471c345",
+      "score": 0.007142857142857143,
+      "keyword_rank": 10,
+      "keyword_score": -10.696635223767082
+    },
+    {
+      "chunk_id": "42f67329-268e-51aa-98c4-e09e828f1751",
+      "score": 0.007042253521126761,
+      "keyword_rank": 11,
+      "keyword_score": -10.696635223767082
+    },
+    {
+      "chunk_id": "5463f93a-ab62-5834-ad5c-f2ed5d76a95b",
+      "score": 0.006944444444444444,
+      "dense_rank": 12,
+      "dense_score": 0.5811695780325206
+    },
+    {
+      "chunk_id": "6d74b2d7-594e-5a52-9737-46fbaf38915c",
+      "score": 0.006944444444444444,
+      "keyword_rank": 12,
+      "keyword_score": -10.696635223767082
+    },
+    {
+      "chunk_id": "02b3290a-5f9a-500e-b630-5c25d3541abf",
+      "score": 0.006666666666666667,
+      "dense_rank": 15,
+      "dense_score": 0.5648452369810603
+    },
+    {
+      "chunk_id": "cf879db7-535d-5631-a7b6-0a7d07f89aba",
+      "score": 0.006578947368421052,
+      "keyword_rank": 16,
+      "keyword_score": -10.00492508854934
+    },
+    {
+      "chunk_id": "69b1a280-9ce3-5c0e-98e7-edb1e0983b05",
+      "score": 0.006493506493506494,
+      "keyword_rank": 17,
+      "keyword_score": -9.951534745070921
+    },
+    {
+      "chunk_id": "cae5bc83-ced9-5cec-9d95-c5629087c113",
+      "score": 0.00641025641025641,
+      "dense_rank": 18,
+      "dense_score": 0.5572524540682956
+    },
+    {
+      "chunk_id": "fa1329f2-dc07-56d8-ad2b-a8545c4146ba",
+      "score": 0.006329113924050633,
+      "dense_rank": 19,
+      "dense_score": 0.5552577693479277
+    }
+  ],
+  "variants": {
+    "B_english_dense": {
+      "sources": [
+        {
+          "chunk_id": "b1c45281-074a-5bdc-b9e3-b5e329aa5f4a",
+          "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+          "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00006",
+          "chunk_type": "text",
+          "text": "Positioning the speakers\nThe size and shape of these speakers make it easy to position them directly next to your c omputer. For proper performance, place the right speaker to the right and the left speaker to the left of your computer. Make sure there is equal distance on either side. This provides an accurate sound stage.",
+          "content_region_ids": [
+            "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_3"
+          ],
+          "context_region_ids": [
+            "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_2"
+          ],
+          "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00007.jpg",
+          "source_shapes": [
+            {
+              "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_3",
+              "shape": {
+                "x": 61.79998779296873,
+                "y": 179.4273986816405,
+                "width": 520.8798828124995,
+                "height": 133.32000732421892
+              }
+            },
+            {
+              "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_2",
+              "shape": {
+                "x": 64.8000030517578,
+                "y": 137.1674041748047,
+                "width": 329.81199645996065,
+                "height": 33.40400695800784
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_3",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 300
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.7604380917661266,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S1"
+        },
+        {
+          "chunk_id": "d5adcc90-5928-58c9-8233-cd2ed4b9fdb1",
+          "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+          "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00006",
+          "chunk_type": "figure",
+          "text": "Positioning the speakers\nA diagram showing speaker placement next to a computer for optimal sound stage. The left and right speakers are positioned at an equal distance from the computer, with recommended spacing of 18\"–36\" (46 cm–92 cm). Arrows indicate outward positioning.",
+          "content_region_ids": [
+            "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_22"
+          ],
+          "context_region_ids": [
+            "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_2"
+          ],
+          "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00007.jpg",
+          "source_shapes": [
+            {
+              "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_22",
+              "shape": {
+                "x": 50.249999999999986,
+                "y": 172.66406250000006,
+                "width": 542.4999999999999,
+                "height": 425.49999999999994
+              }
+            },
+            {
+              "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_2",
+              "shape": {
+                "x": 64.8000030517578,
+                "y": 137.1674041748047,
+                "width": 329.81199645996065,
+                "height": 33.40400695800784
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_22",
+              "field": "description_normalized",
+              "start": 0,
+              "end": 250
+            }
+          ],
+          "content_origin": "qwen_figure_description",
+          "quality_flags": [],
+          "score": 0.7123135627552581,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S2"
+        },
+        {
+          "chunk_id": "9bb94f55-cf43-5ec5-9e69-63a20b21ad57",
+          "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+          "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00012",
+          "chunk_type": "text",
+          "text": "•Besurethespeakercableissecurelypluggedintotherightspeaker. Be sure that both ends of the audio input cable, one to the speaker and the other to the computer, are • plugged in securely. Make sure the computer provides stereo sound. It if has one channel only, connect a mono-to-stereo adapter • (not supplied) to send the sound to both speakers.",
+          "content_region_ids": [
+            "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_117"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00013.jpg",
+          "source_shapes": [
+            {
+              "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_117",
+              "shape": {
+                "x": 252.30001831054688,
+                "y": 374.72799682617165,
+                "width": 892.1444396972654,
+                "height": 107.98992919921864
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_117",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 345
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.6258453153377788,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S3"
+        },
+        {
+          "chunk_id": "c80a3022-78ea-5a1c-8502-ff2dba93a53d",
+          "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+          "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00006",
+          "chunk_type": "text",
+          "text": "Caution: Avoid inserting any objects (such as a cable, finger, pencil, or screwdriver) into the vent on the side of each speaker. Such items can damage the speaker and degrade performance, and may void the warranty.",
+          "content_region_ids": [
+            "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_5"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00007.jpg",
+          "source_shapes": [
+            {
+              "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_5",
+              "shape": {
+                "x": 670.1141967773436,
+                "y": 460.96740722656193,
+                "width": 483.8201293945309,
+                "height": 90.4199829101567
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_5",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 215
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.614141033205232,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S4"
+        },
+        {
+          "chunk_id": "b9530739-a0b0-5b94-9ebc-416b9d687a3f",
+          "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+          "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00008",
+          "chunk_type": "figure",
+          "text": "Diagram showing audio system setup with AC power cord (4), power pack cable (3), speaker cables (1), and audio input cable (2) connecting left/right speakers to computer via rear panel inputs labeled 'To Left Speaker', 'DC Power', and 'Audio Input'.",
+          "content_region_ids": [
+            "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_42"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00009.jpg",
+          "source_shapes": [
+            {
+              "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_42",
+              "shape": {
+                "x": 173.25000000000003,
+                "y": 159.74999999999997,
+                "width": 864.0,
+                "height": 387.0000000000001
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_42",
+              "field": "description_normalized",
+              "start": 0,
+              "end": 249
+            }
+          ],
+          "content_origin": "qwen_figure_description",
+          "quality_flags": [],
+          "score": 0.6114905234242707,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S5"
+        }
+      ],
+      "excluded_sources": [],
+      "retrieved_chunk_ids": [
+        "b1c45281-074a-5bdc-b9e3-b5e329aa5f4a",
+        "d5adcc90-5928-58c9-8233-cd2ed4b9fdb1",
+        "9bb94f55-cf43-5ec5-9e69-63a20b21ad57",
+        "c80a3022-78ea-5a1c-8502-ff2dba93a53d",
+        "b9530739-a0b0-5b94-9ebc-416b9d687a3f"
+      ]
+    },
+    "C_english_hybrid": {
+      "sources": [
+        {
+          "chunk_id": "b1c45281-074a-5bdc-b9e3-b5e329aa5f4a",
+          "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+          "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00006",
+          "chunk_type": "text",
+          "text": "Positioning the speakers\nThe size and shape of these speakers make it easy to position them directly next to your c omputer. For proper performance, place the right speaker to the right and the left speaker to the left of your computer. Make sure there is equal distance on either side. This provides an accurate sound stage.",
+          "content_region_ids": [
+            "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_3"
+          ],
+          "context_region_ids": [
+            "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_2"
+          ],
+          "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00007.jpg",
+          "source_shapes": [
+            {
+              "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_3",
+              "shape": {
+                "x": 61.79998779296873,
+                "y": 179.4273986816405,
+                "width": 520.8798828124995,
+                "height": 133.32000732421892
+              }
+            },
+            {
+              "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_2",
+              "shape": {
+                "x": 64.8000030517578,
+                "y": 137.1674041748047,
+                "width": 329.81199645996065,
+                "height": 33.40400695800784
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_3",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 300
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.01639344262295082,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S1"
+        },
+        {
+          "chunk_id": "d5adcc90-5928-58c9-8233-cd2ed4b9fdb1",
+          "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+          "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00006",
+          "chunk_type": "figure",
+          "text": "Positioning the speakers\nA diagram showing speaker placement next to a computer for optimal sound stage. The left and right speakers are positioned at an equal distance from the computer, with recommended spacing of 18\"–36\" (46 cm–92 cm). Arrows indicate outward positioning.",
+          "content_region_ids": [
+            "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_22"
+          ],
+          "context_region_ids": [
+            "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_2"
+          ],
+          "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00007.jpg",
+          "source_shapes": [
+            {
+              "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_22",
+              "shape": {
+                "x": 50.249999999999986,
+                "y": 172.66406250000006,
+                "width": 542.4999999999999,
+                "height": 425.49999999999994
+              }
+            },
+            {
+              "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_2",
+              "shape": {
+                "x": 64.8000030517578,
+                "y": 137.1674041748047,
+                "width": 329.81199645996065,
+                "height": 33.40400695800784
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_22",
+              "field": "description_normalized",
+              "start": 0,
+              "end": 250
+            }
+          ],
+          "content_origin": "qwen_figure_description",
+          "quality_flags": [],
+          "score": 0.016129032258064516,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S2"
+        },
+        {
+          "chunk_id": "b9530739-a0b0-5b94-9ebc-416b9d687a3f",
+          "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+          "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00008",
+          "chunk_type": "figure",
+          "text": "Diagram showing audio system setup with AC power cord (4), power pack cable (3), speaker cables (1), and audio input cable (2) connecting left/right speakers to computer via rear panel inputs labeled 'To Left Speaker', 'DC Power', and 'Audio Input'.",
+          "content_region_ids": [
+            "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_42"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00009.jpg",
+          "source_shapes": [
+            {
+              "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_42",
+              "shape": {
+                "x": 173.25000000000003,
+                "y": 159.74999999999997,
+                "width": 864.0,
+                "height": 387.0000000000001
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_42",
+              "field": "description_normalized",
+              "start": 0,
+              "end": 249
+            }
+          ],
+          "content_origin": "qwen_figure_description",
+          "quality_flags": [],
+          "score": 0.015504807692307693,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S3"
+        },
+        {
+          "chunk_id": "e4e44e8e-fa98-5a22-930f-0bb30a4d7a62",
+          "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+          "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00008",
+          "chunk_type": "figure",
+          "text": "Diagram showing audio system connections including AC power cord (4), power pack cable (3), speaker cables (1), and audio input cable (2) linking right/left speakers to computer rear panel with labeled ports.",
+          "content_region_ids": [
+            "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_43"
+          ],
+          "context_region_ids": [],
+          "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00009.jpg",
+          "source_shapes": [
+            {
+              "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_43",
+              "shape": {
+                "x": 167.24999999999997,
+                "y": 144.74999999999997,
+                "width": 886.5,
+                "height": 411.5
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_43",
+              "field": "description_normalized",
+              "start": 0,
+              "end": 208
+            }
+          ],
+          "content_origin": "qwen_figure_description",
+          "quality_flags": [],
+          "score": 0.015399194503672116,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S4"
+        },
+        {
+          "chunk_id": "6656e602-047f-5c7b-b580-79f4821dfc93",
+          "manual_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed",
+          "page_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00007",
+          "chunk_type": "text",
+          "text": "using the three cables\nCaution: Do not plug in the AC power cord until all other connections are completed.  Speaker cable ( ): Insert the free end into the To Left Speaker connector on the right speaker.  Audio input cable ( ): Insert one end into the Audio Input connector on the right speaker. Insert the other end into the Headphone or Speaker connector (the labels and positions of these connectors vary) on your computer.",
+          "content_region_ids": [
+            "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_26"
+          ],
+          "context_region_ids": [
+            "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_24"
+          ],
+          "image_filename": "images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed/images/bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_00008.jpg",
+          "source_shapes": [
+            {
+              "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_26",
+              "shape": {
+                "x": 64.8000030517578,
+                "y": 236.39599609375003,
+                "width": 505.0753631591798,
+                "height": 324.41998291015636
+              }
+            },
+            {
+              "id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_24",
+              "shape": {
+                "x": 64.8000030517578,
+                "y": 138.5959930419922,
+                "width": 300.74800109863276,
+                "height": 33.40400695800787
+              }
+            }
+          ],
+          "source_spans": [
+            {
+              "region_id": "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_26",
+              "field": "ocr_normalized",
+              "start": 0,
+              "end": 406
+            }
+          ],
+          "content_origin": "source_ocr",
+          "quality_flags": [
+            "layout_geometry_heuristic"
+          ],
+          "score": 0.014605543710021322,
+          "table_rows": [],
+          "table_cells": [],
+          "source_id": "S5"
+        }
+      ],
+      "excluded_sources": [],
+      "retrieved_chunk_ids": [
+        "b1c45281-074a-5bdc-b9e3-b5e329aa5f4a",
+        "d5adcc90-5928-58c9-8233-cd2ed4b9fdb1",
+        "b9530739-a0b0-5b94-9ebc-416b9d687a3f",
+        "e4e44e8e-fa98-5a22-930f-0bb30a4d7a62",
+        "6656e602-047f-5c7b-b580-79f4821dfc93"
+      ]
+    }
+  },
+  "retrieval_seconds": 1.6412229999841657
+}

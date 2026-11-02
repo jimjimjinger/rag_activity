@@ -1,0 +1,378 @@
+{
+  "case_id": "FIG01",
+  "manual_id": "og_en_wmsucb",
+  "question": "전동 드릴을 사용하기 전에 무엇에 주의해야 하나요?",
+  "english_query": "What should I pay attention to before using the cordless drill?",
+  "keyword_percent": 0,
+  "variant": "top5_kw000",
+  "top_k": 5,
+  "retrieved_chunk_ids": [
+    "9e949d91-958a-5b90-80f1-8c8b38bea371",
+    "ba169ff7-8963-51df-ae03-f24b8e964454",
+    "9f78d639-5cd4-534b-9782-37894ee48fc2",
+    "4b37c0db-9917-55ff-8817-0b336874fd35",
+    "0cd99f7a-3258-5c07-ba45-0f00bdf3ce51"
+  ],
+  "sources": [
+    {
+      "chunk_id": "9e949d91-958a-5b90-80f1-8c8b38bea371",
+      "manual_id": "og_en_wmsucb",
+      "page_id": "og_en_wmsucb_00004",
+      "chunk_type": "title",
+      "text": "Before using your drill",
+      "content_region_ids": [
+        "og_en_wmsucb_397"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00004.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_397",
+          "shape": {
+            "x": 320.99999999999994,
+            "y": 118.55207824707028,
+            "width": 280.0000000000003,
+            "height": 34.0
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_397",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 23
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [],
+      "score": 0.7437181063304514,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "ba169ff7-8963-51df-ae03-f24b8e964454",
+      "manual_id": "og_en_wmsucb",
+      "page_id": "og_en_wmsucb_00004",
+      "chunk_type": "text",
+      "text": "WARNING: Use eye protection and be sure to observe all safety precautions while using a drill or cutting tool.",
+      "content_region_ids": [
+        "og_en_wmsucb_379"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00004.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_379",
+          "shape": {
+            "x": 326.04000854492205,
+            "y": 228.3548889160156,
+            "width": 428.1311950683592,
+            "height": 67.26736450195315
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_379",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 110
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.6747483716417058,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "9f78d639-5cd4-534b-9782-37894ee48fc2",
+      "manual_id": "og_en_wmsucb",
+      "page_id": "og_en_wmsucb_00004",
+      "chunk_type": "text",
+      "text": "Before you begin to drill, center the tip of the drill bit in each drill hole circle you draw.",
+      "content_region_ids": [
+        "og_en_wmsucb_378"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00004.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_378",
+          "shape": {
+            "x": 322.0400085449221,
+            "y": 153.1119613647461,
+            "width": 575.6361389160153,
+            "height": 44.47049713134774
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_378",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 94
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.5992141096244483,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S3"
+    },
+    {
+      "chunk_id": "4b37c0db-9917-55ff-8817-0b336874fd35",
+      "manual_id": "og_en_wmsucb",
+      "page_id": "og_en_wmsucb_00007",
+      "chunk_type": "text",
+      "text": "WARNING: Do NOT use the mounting assembly as a template while drilling.",
+      "content_region_ids": [
+        "og_en_wmsucb_188"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00007.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_188",
+          "shape": {
+            "x": 324.0000000000001,
+            "y": 860.6361083984378,
+            "width": 658.8594970703126,
+            "height": 23.505615234375227
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_188",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 71
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.5817360754054717,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S4"
+    },
+    {
+      "chunk_id": "0cd99f7a-3258-5c07-ba45-0f00bdf3ce51",
+      "manual_id": "og_en_wmsucb",
+      "page_id": "og_en_wmsucb_00005",
+      "chunk_type": "text",
+      "text": "WARNING: Do NOT use the mounting assembly as a template while drilling.",
+      "content_region_ids": [
+        "og_en_wmsucb_106"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00005.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_106",
+          "shape": {
+            "x": 324.0000000000002,
+            "y": 396.23611450195307,
+            "width": 658.859497070313,
+            "height": 23.50558471679733
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_106",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 71
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.5817360754054717,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S5"
+    }
+  ],
+  "excluded_sources": [],
+  "created_at": "2026-11-02T05:01:43.727680+00:00",
+  "status": "answered",
+  "answer": "전동 드릴을 사용하기 전에는 안경 등 보호 장비를 착용하고 모든 안전 수칙을 준수해야 합니다. 또한, 구멍을 뚫기 전에 드릴 비트의 끝을 그어진 원형 중심에 맞추어야 하며, 마운팅 어셈블리를 템플릿으로 사용하지 않아야 합니다.",
+  "source_ids": [
+    "S2",
+    "S3",
+    "S4"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 104,
+        "prompt_eval_count": 550,
+        "total_duration": 1698522400,
+        "load_duration": 5865200,
+        "attempt": 1,
+        "prompt_token_upper_bound": 2990
+      }
+    ],
+    "elapsed_seconds": 1.7020948999852408,
+    "backend": "LangChain ChatPromptTemplate | ChatOllama"
+  },
+  "citations": [
+    {
+      "chunk_id": "ba169ff7-8963-51df-ae03-f24b8e964454",
+      "manual_id": "og_en_wmsucb",
+      "page_id": "og_en_wmsucb_00004",
+      "chunk_type": "text",
+      "text": "WARNING: Use eye protection and be sure to observe all safety precautions while using a drill or cutting tool.",
+      "content_region_ids": [
+        "og_en_wmsucb_379"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00004.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_379",
+          "shape": {
+            "x": 326.04000854492205,
+            "y": 228.3548889160156,
+            "width": 428.1311950683592,
+            "height": 67.26736450195315
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_379",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 110
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.6747483716417058,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "9f78d639-5cd4-534b-9782-37894ee48fc2",
+      "manual_id": "og_en_wmsucb",
+      "page_id": "og_en_wmsucb_00004",
+      "chunk_type": "text",
+      "text": "Before you begin to drill, center the tip of the drill bit in each drill hole circle you draw.",
+      "content_region_ids": [
+        "og_en_wmsucb_378"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00004.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_378",
+          "shape": {
+            "x": 322.0400085449221,
+            "y": 153.1119613647461,
+            "width": 575.6361389160153,
+            "height": 44.47049713134774
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_378",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 94
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.5992141096244483,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S3"
+    },
+    {
+      "chunk_id": "4b37c0db-9917-55ff-8817-0b336874fd35",
+      "manual_id": "og_en_wmsucb",
+      "page_id": "og_en_wmsucb_00007",
+      "chunk_type": "text",
+      "text": "WARNING: Do NOT use the mounting assembly as a template while drilling.",
+      "content_region_ids": [
+        "og_en_wmsucb_188"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00007.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_188",
+          "shape": {
+            "x": 324.0000000000001,
+            "y": 860.6361083984378,
+            "width": 658.8594970703126,
+            "height": 23.505615234375227
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_188",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 71
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.5817360754054717,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S4"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 1.7021857000072487,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 63,
+    "utilization_percent": 85
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "case_id": "TEXT04",
+  "manual_id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728",
+  "question": "호스트 서버를 스토리지 어레이에 연결하면 무엇을 할 수 있나요?",
+  "english_query": "What can be done by connecting the host server to the storage array?",
+  "keyword_percent": 25,
+  "dense_percent": 75,
+  "top_k": 1,
+  "retrieved_chunk_ids": [
+    "19ac318b-6465-520a-ba65-88f7fdeadd99"
+  ],
+  "sources": [
+    {
+      "chunk_id": "19ac318b-6465-520a-ba65-88f7fdeadd99",
+      "manual_id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728",
+      "page_id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_00003",
+      "chunk_type": "text",
+      "text": "Introduction to Storage Arrays\nOne or more host servers attached to the storage array can access the data on the storage array. You can also establish multiple physical paths between the hosts and the storage array so that loss of any single path (for example, through failure of a host server port) does not result in loss of access to data on the storage array.\nThe storage array is managed by MDSM running on a:",
+      "content_region_ids": [
+        "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_24",
+        "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_25"
+      ],
+      "context_region_ids": [
+        "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_22"
+      ],
+      "image_filename": "images/dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728/images/dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_00005.jpg",
+      "source_shapes": [
+        {
+          "id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_24",
+          "shape": {
+            "x": 180.0021820068358,
+            "y": 1206.3383789062498,
+            "width": 863.9456939697267,
+            "height": 91.67407226562523
+          }
+        },
+        {
+          "id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_25",
+          "shape": {
+            "x": 180.00231933593736,
+            "y": 1322.33837890625,
+            "width": 439.2720336914065,
+            "height": 19.674072265625227
+          }
+        },
+        {
+          "id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_22",
+          "shape": {
+            "x": 180.00607299804676,
+            "y": 1056.868408203124,
+            "width": 456.5119934082031,
+            "height": 35.583984375000455
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_24",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 332
+        },
+        {
+          "region_id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_25",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 50
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.016327340031729243,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "excluded_sources": [],
+  "top5_response_file": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\reports\\qa30_weights_20261102\\keyword_025\\results.json",
+  "status": "answered",
+  "variant": "keyword_025",
+  "created_at": "2026-11-02T00:56:13.269145+00:00",
+  "answer": "호스트 서버를 스토리지 어레이에 연결하면 스토리지 어레이의 데이터를 액세스할 수 있습니다. 또한, 호스트와 스토리지 어레이 사이에 여러 물리적 경로를 설정하여 단일 경로(예: 호스트 서버 포트의 고장) 손실로 인해 스토리지 어레이의 데이터 액세스가 중단되지 않도록 할 수 있습니다.",
+  "source_ids": [
+    "S1"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 108,
+        "prompt_eval_count": 448,
+        "total_duration": 1479630700,
+        "load_duration": 5005100,
+        "attempt": 1,
+        "prompt_token_upper_bound": 2668
+      }
+    ],
+    "elapsed_seconds": 1.53448160001426,
+    "ollama_model": {
+      "name": "qwen3.5:4b",
+      "model": "qwen3.5:4b",
+      "size": 3214409726,
+      "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "4.2B",
+        "quantization_level": "Q4_K_M"
+      },
+      "expires_at": "2026-11-02T09:57:14.8023907+09:00",
+      "size_vram": 3214409726,
+      "context_length": 8192,
+      "runner": "llamacpp"
+    },
+    "observation_error": null
+  },
+  "citations": [
+    {
+      "chunk_id": "19ac318b-6465-520a-ba65-88f7fdeadd99",
+      "manual_id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728",
+      "page_id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_00003",
+      "chunk_type": "text",
+      "text": "Introduction to Storage Arrays\nOne or more host servers attached to the storage array can access the data on the storage array. You can also establish multiple physical paths between the hosts and the storage array so that loss of any single path (for example, through failure of a host server port) does not result in loss of access to data on the storage array.\nThe storage array is managed by MDSM running on a:",
+      "content_region_ids": [
+        "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_24",
+        "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_25"
+      ],
+      "context_region_ids": [
+        "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_22"
+      ],
+      "image_filename": "images/dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728/images/dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_00005.jpg",
+      "source_shapes": [
+        {
+          "id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_24",
+          "shape": {
+            "x": 180.0021820068358,
+            "y": 1206.3383789062498,
+            "width": 863.9456939697267,
+            "height": 91.67407226562523
+          }
+        },
+        {
+          "id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_25",
+          "shape": {
+            "x": 180.00231933593736,
+            "y": 1322.33837890625,
+            "width": 439.2720336914065,
+            "height": 19.674072265625227
+          }
+        },
+        {
+          "id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_22",
+          "shape": {
+            "x": 180.00607299804676,
+            "y": 1056.868408203124,
+            "width": 456.5119934082031,
+            "height": 35.583984375000455
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_24",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 332
+        },
+        {
+          "region_id": "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_25",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 50
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.016327340031729243,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 1.5346859999990556,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3832,
+    "temperature_c": 70,
+    "utilization_percent": 86
+  }
+}

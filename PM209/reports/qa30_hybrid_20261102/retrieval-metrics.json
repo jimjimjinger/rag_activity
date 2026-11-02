@@ -1,0 +1,1387 @@
+{
+  "definition": "Gold annotation region ID overlap with selected chunk content_region_ids; not proof that the answer facts are present. Context/title-only matches are excluded.",
+  "variants": {
+    "A_korean_dense": {
+      "hit_at_1": 19,
+      "hit_at_5": 28,
+      "total": 30,
+      "cases": [
+        {
+          "case_id": "TEXT01",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_52"
+            ],
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "TEXT02",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_230"
+            ],
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "TEXT03",
+          "hit_at_1": false,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [],
+            [
+              "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2061"
+            ],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "TEXT04",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_24"
+            ],
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "TEXT05",
+          "hit_at_1": false,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [],
+            [],
+            [
+              "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_244"
+            ],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "TEXT06",
+          "hit_at_1": false,
+          "hit_at_5": false,
+          "matching_region_ids_by_rank": [
+            [],
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "TEXT07",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "phone_os_User Guide_ColorOS_12_v1.0_20211028_468"
+            ],
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "TEXT08",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_780"
+            ],
+            [
+              "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_781"
+            ],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "TEXT09",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "Watch_Apple_User_Guide_2253"
+            ],
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "TEXT10",
+          "hit_at_1": false,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [],
+            [],
+            [
+              "samsung_dish_washer_6918977 a_376"
+            ],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "TABLE01",
+          "hit_at_1": false,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [],
+            [],
+            [],
+            [
+              "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_100"
+            ],
+            []
+          ]
+        },
+        {
+          "case_id": "TABLE02",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_11"
+            ],
+            [],
+            [],
+            [],
+            [
+              "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_18"
+            ]
+          ]
+        },
+        {
+          "case_id": "TABLE03",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_22"
+            ],
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "TABLE04",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_200",
+              "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_202"
+            ],
+            [
+              "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_194"
+            ],
+            [
+              "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_201"
+            ],
+            [
+              "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_210"
+            ],
+            []
+          ]
+        },
+        {
+          "case_id": "TABLE05",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_609"
+            ],
+            [
+              "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_607"
+            ],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "TABLE06",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_125"
+            ],
+            [],
+            [
+              "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_125"
+            ],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "TABLE07",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_92"
+            ],
+            [],
+            [
+              "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_99"
+            ],
+            [],
+            [
+              "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_100"
+            ]
+          ]
+        },
+        {
+          "case_id": "TABLE08",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_55"
+            ],
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "TABLE09",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_205"
+            ],
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "TABLE10",
+          "hit_at_1": false,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [],
+            [
+              "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_70"
+            ],
+            [
+              "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_70"
+            ],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "FIG01",
+          "hit_at_1": false,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [],
+            [
+              "og_en_wmsucb_379"
+            ],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "FIG02",
+          "hit_at_1": false,
+          "hit_at_5": false,
+          "matching_region_ids_by_rank": [
+            [],
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "FIG03",
+          "hit_at_1": false,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [],
+            [],
+            [
+              "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_142"
+            ],
+            [],
+            [
+              "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_132"
+            ]
+          ]
+        },
+        {
+          "case_id": "FIG04",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_16"
+            ],
+            [],
+            [],
+            [
+              "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_12"
+            ],
+            [
+              "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_15"
+            ]
+          ]
+        },
+        {
+          "case_id": "FIG05",
+          "hit_at_1": false,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [],
+            [],
+            [],
+            [
+              "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_5"
+            ],
+            []
+          ]
+        },
+        {
+          "case_id": "FIG06",
+          "hit_at_1": false,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [],
+            [],
+            [],
+            [
+              "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_172"
+            ],
+            []
+          ]
+        },
+        {
+          "case_id": "FIG07",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_405"
+            ],
+            [
+              "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_396"
+            ],
+            [
+              "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_404"
+            ],
+            [],
+            [
+              "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_407"
+            ]
+          ]
+        },
+        {
+          "case_id": "FIG08",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_3"
+            ],
+            [
+              "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_22"
+            ],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "FIG09",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "phone_os_User Guide_ColorOS_12_v1.0_20211028_137"
+            ],
+            [],
+            [],
+            [
+              "phone_os_User Guide_ColorOS_12_v1.0_20211028_140"
+            ],
+            []
+          ]
+        },
+        {
+          "case_id": "FIG10",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "samsung_dish_washer_6918977 a_111"
+            ],
+            [],
+            [],
+            [
+              "samsung_dish_washer_6918977 a_90"
+            ],
+            []
+          ]
+        }
+      ]
+    },
+    "B_english_dense": {
+      "hit_at_1": 23,
+      "hit_at_5": 28,
+      "total": 30,
+      "cases": [
+        {
+          "case_id": "FIG01",
+          "hit_at_1": false,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [],
+            [
+              "og_en_wmsucb_379"
+            ],
+            [
+              "og_en_wmsucb_378"
+            ],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "FIG02",
+          "hit_at_1": false,
+          "hit_at_5": false,
+          "matching_region_ids_by_rank": [
+            [],
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "FIG03",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_132"
+            ],
+            [],
+            [],
+            [
+              "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_142"
+            ],
+            []
+          ]
+        },
+        {
+          "case_id": "FIG04",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_16"
+            ],
+            [],
+            [],
+            [
+              "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_12"
+            ],
+            []
+          ]
+        },
+        {
+          "case_id": "FIG05",
+          "hit_at_1": false,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [],
+            [],
+            [],
+            [],
+            [
+              "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_3"
+            ]
+          ]
+        },
+        {
+          "case_id": "FIG06",
+          "hit_at_1": false,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [],
+            [],
+            [],
+            [],
+            [
+              "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_172"
+            ]
+          ]
+        },
+        {
+          "case_id": "FIG07",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_404"
+            ],
+            [
+              "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_396"
+            ],
+            [
+              "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_405"
+            ],
+            [],
+            [
+              "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_407"
+            ]
+          ]
+        },
+        {
+          "case_id": "FIG08",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_3"
+            ],
+            [
+              "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_22"
+            ],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "FIG09",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "phone_os_User Guide_ColorOS_12_v1.0_20211028_137"
+            ],
+            [
+              "phone_os_User Guide_ColorOS_12_v1.0_20211028_140"
+            ],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "FIG10",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "samsung_dish_washer_6918977 a_111"
+            ],
+            [],
+            [],
+            [],
+            [
+              "samsung_dish_washer_6918977 a_90"
+            ]
+          ]
+        },
+        {
+          "case_id": "TABLE01",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_100"
+            ],
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "TABLE02",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_11"
+            ],
+            [
+              "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_18"
+            ],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "TABLE03",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_22"
+            ],
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "TABLE04",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_200",
+              "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_202"
+            ],
+            [
+              "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_194"
+            ],
+            [
+              "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_210"
+            ],
+            [
+              "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_201"
+            ],
+            [
+              "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_210"
+            ]
+          ]
+        },
+        {
+          "case_id": "TABLE05",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_609"
+            ],
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "TABLE06",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_125"
+            ],
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "TABLE07",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_100"
+            ],
+            [
+              "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_92"
+            ],
+            [],
+            [
+              "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_99"
+            ],
+            []
+          ]
+        },
+        {
+          "case_id": "TABLE08",
+          "hit_at_1": false,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [],
+            [
+              "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_55"
+            ],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "TABLE09",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_205"
+            ],
+            [],
+            [],
+            [
+              "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_208"
+            ],
+            []
+          ]
+        },
+        {
+          "case_id": "TABLE10",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_70"
+            ],
+            [
+              "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_70"
+            ],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "TEXT01",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_52"
+            ],
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "TEXT02",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_230"
+            ],
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "TEXT03",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2061"
+            ],
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "TEXT04",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_24"
+            ],
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "TEXT05",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_244"
+            ],
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "TEXT06",
+          "hit_at_1": false,
+          "hit_at_5": false,
+          "matching_region_ids_by_rank": [
+            [],
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "TEXT07",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "phone_os_User Guide_ColorOS_12_v1.0_20211028_468"
+            ],
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "TEXT08",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_780"
+            ],
+            [
+              "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_781"
+            ],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "TEXT09",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "Watch_Apple_User_Guide_2253"
+            ],
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "TEXT10",
+          "hit_at_1": false,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [],
+            [
+              "samsung_dish_washer_6918977 a_376"
+            ],
+            [],
+            [],
+            []
+          ]
+        }
+      ]
+    },
+    "C_english_hybrid": {
+      "hit_at_1": 22,
+      "hit_at_5": 29,
+      "total": 30,
+      "cases": [
+        {
+          "case_id": "FIG01",
+          "hit_at_1": false,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [],
+            [
+              "og_en_wmsucb_378"
+            ],
+            [],
+            [],
+            [
+              "og_en_wmsucb_379"
+            ]
+          ]
+        },
+        {
+          "case_id": "FIG02",
+          "hit_at_1": false,
+          "hit_at_5": false,
+          "matching_region_ids_by_rank": [
+            [],
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "FIG03",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_132"
+            ],
+            [],
+            [],
+            [
+              "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_142"
+            ],
+            []
+          ]
+        },
+        {
+          "case_id": "FIG04",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_16"
+            ],
+            [],
+            [],
+            [],
+            [
+              "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_12"
+            ]
+          ]
+        },
+        {
+          "case_id": "FIG05",
+          "hit_at_1": false,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [],
+            [
+              "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_3"
+            ],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "FIG06",
+          "hit_at_1": false,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [],
+            [],
+            [],
+            [
+              "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_172"
+            ],
+            []
+          ]
+        },
+        {
+          "case_id": "FIG07",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_396"
+            ],
+            [
+              "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_404"
+            ],
+            [
+              "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_405"
+            ],
+            [
+              "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_407"
+            ],
+            [
+              "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_401"
+            ]
+          ]
+        },
+        {
+          "case_id": "FIG08",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_3"
+            ],
+            [
+              "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_22"
+            ],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "FIG09",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "phone_os_User Guide_ColorOS_12_v1.0_20211028_137"
+            ],
+            [
+              "phone_os_User Guide_ColorOS_12_v1.0_20211028_140"
+            ],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "FIG10",
+          "hit_at_1": false,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [],
+            [
+              "samsung_dish_washer_6918977 a_111"
+            ],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "TABLE01",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "bose_speaker_manuals_3cdd5a6d-c76c-4c78-a8f3-9db958a5c740_100"
+            ],
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "TABLE02",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_11"
+            ],
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "TABLE03",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "HUAWEI_MateStation S User Guide-(Windows11_01,en,PanguB)_22"
+            ],
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "TABLE04",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_200",
+              "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_202"
+            ],
+            [
+              "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_201"
+            ],
+            [
+              "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_210"
+            ],
+            [
+              "Samsung_Portable_SSD_X5_User_Manual_v0_0_English_194"
+            ],
+            []
+          ]
+        },
+        {
+          "case_id": "TABLE05",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_609"
+            ],
+            [],
+            [
+              "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_607"
+            ],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "TABLE06",
+          "hit_at_1": false,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [],
+            [],
+            [],
+            [],
+            [
+              "bose_speaker_manuals_4f6183d3-5b66-4daf-bff4-4f76555dd5ed_125"
+            ]
+          ]
+        },
+        {
+          "case_id": "TABLE07",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_100"
+            ],
+            [],
+            [],
+            [
+              "bose_speaker_manuals_ecc0b8f6-1f82-4786-81ae-07b1b59ee78d_99"
+            ],
+            []
+          ]
+        },
+        {
+          "case_id": "TABLE08",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "samsung_audio_box_eo-sb330_um_sea_rev.1.0_140728_screen_55"
+            ],
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "TABLE09",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_205"
+            ],
+            [],
+            [
+              "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_208"
+            ],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "TABLE10",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_70"
+            ],
+            [
+              "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_70"
+            ],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "TEXT01",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "lenovo_computer drive manuals_84538c4e-1338-4d33-82fa-38b2047ee8f1_52"
+            ],
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "TEXT02",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "lg_cd player manuals_5f2a1729-56f3-47de-a515-377f47797ba9_230"
+            ],
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "TEXT03",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2061"
+            ],
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "TEXT04",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "dell_riding toy manuals_2bf024e6-587b-4f49-b935-39c8516f6728_24"
+            ],
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "TEXT05",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "samsung_weather radio manuals_af9c653f-bb0b-4e63-97d2-82bd87053b8a_244"
+            ],
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "TEXT06",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "samsung_tv_2157"
+            ],
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "TEXT07",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "phone_os_User Guide_ColorOS_12_v1.0_20211028_468"
+            ],
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "TEXT08",
+          "hit_at_1": true,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [
+              "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_780"
+            ],
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "TEXT09",
+          "hit_at_1": false,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [],
+            [],
+            [
+              "Watch_Apple_User_Guide_2253"
+            ],
+            [],
+            []
+          ]
+        },
+        {
+          "case_id": "TEXT10",
+          "hit_at_1": false,
+          "hit_at_5": true,
+          "matching_region_ids_by_rank": [
+            [],
+            [],
+            [],
+            [
+              "samsung_dish_washer_6918977 a_376"
+            ],
+            []
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,11 +1,14 @@
-"""Separate chunk / embed / index / search / evaluate stages for PM209.
+"""Separate chunk / embed / index / search / answer / evaluate stages for PM209.
 
-Default scope is three train manuals. Source data is opened read-only. QA is
+Default scope is three train manuals; answer defaults to the completed full DB.
+Source data is opened read-only. QA is
 read only in evaluate(), after chunks and vectors have already been saved.
 """
 from __future__ import annotations
 
 import argparse
+from datetime import datetime, timezone
+import gc
 from collections import Counter, defaultdict
 import hashlib
 import html
@@ -15,6 +18,7 @@ import sqlite3
 import subprocess
 import sys
 import time
+import uuid
 
 import httpx
 import numpy as np
@@ -29,6 +33,7 @@ from chunking import VERSION, FIGURES, chunk_page, manual_id, normalize, ocr_tex
 DATA = PM / "datasets" / "PM209"
 DEFAULT_INPUT = DATA / "data" / "paddle_tables_manual_20261026"
 DEFAULT_OUTPUT = DATA / "rag" / "sample_char500_v1"
+FULL_OUTPUT = DATA / 'rag' / 'full_char500_v1'
 MODEL = "qwen3-embedding:0.6b"
 COLLECTION = "pm209_chunks"
 SAMPLE_MANUALS = [
@@ -405,6 +410,68 @@ def search(args):
         db.close(); model.close()
 
 
+def answer(args):
+    from answering import (AnswerGenerationError, generate_answer, prepare_context,
+                           resolve_citations)
+    started = time.perf_counter()
+    report = {'created_at': datetime.now(timezone.utc).isoformat(), 'query': args.query,
+              'manual': args.manual[0], 'index_directory': str(args.output),
+              'status': 'failed', 'semantic_accuracy_verified': False}
+    destination = args.output / 'answers' / (datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%S')
+                                           + '-' + uuid.uuid4().hex[:8] + '.json')
+    try:
+        # Validate the query before embedding, including its conservative length cap.
+        prepare_context(args.query, [], args.manual[0])
+        print('선택한 매뉴얼에서 근거를 검색하고 있습니다...', flush=True)
+        manifest, chunks, model, db = open_search(args)
+        try:
+            if args.manual[0] not in {c['manual_id'] for c in chunks}:
+                raise ValueError('이 인덱스에 선택한 매뉴얼이 없습니다.')
+            hits = retrieve(db, model, args.manual[0], args.query, args.top_k)
+            report['index_identity'] = read_json(args.output / 'index-identity.json')
+            report['retrieved_chunk_ids'] = [h['chunk_id'] for h in hits]
+            # Explicit model handoff keeps the 8GB GPU from holding both models.
+            unloaded = model.client.post('/api/generate', json={'model': args.model, 'keep_alive': 0})
+            unloaded.raise_for_status()
+        finally:
+            db.close(); model.close()
+        del chunks, db, model
+        gc.collect()
+        sources, excluded = prepare_context(args.query, hits, args.manual[0])
+        report.update(sources=sources, excluded_sources=excluded,
+                      retrieval_seconds=time.perf_counter()-started)
+        print(f'근거 {len(sources)}개로 Qwen 답변을 생성하고 있습니다...', flush=True)
+        result, generation = generate_answer(args.query, sources, args.url, args.answer_model)
+        citations, figures = resolve_citations(result, sources)
+        report.update(result, generation=generation, citations=citations, cited_figures=figures,
+                      gpu_after_generation=gpu_snapshot(),
+                      status='insufficient_evidence' if result['insufficient_evidence'] else 'answered')
+    except Exception as error:
+        report['error'] = str(error)
+        if isinstance(error, AnswerGenerationError):
+            report['failed_attempts'] = error.attempts
+        report['elapsed_seconds'] = time.perf_counter()-started
+        write_json(destination, report)
+        write_json(args.output / 'last-answer.json', report)
+        print(f'답변 처리 실패: {error}\n기록: {destination}', file=sys.stderr)
+        raise SystemExit(1) from error
+    report['elapsed_seconds'] = time.perf_counter()-started
+    write_json(destination, report)
+    write_json(args.output / 'last-answer.json', report)
+    print('\n' + report['answer'])
+    if report['citations']:
+        print('\n근거:')
+        for c in report['citations']:
+            print(f"[{c['source_id']}] {c['page_id']} | {c['chunk_type']} | "
+                  + ', '.join(c['content_region_ids']))
+            if c.get('quality_flags'):
+                print('  원문 검수 표시: ' + ', '.join(c['quality_flags']))
+    if excluded:
+        print(f'문맥 예산 때문에 제외된 청크: {len(excluded)}개 (기록 참조)')
+    print(f'\n답변 기록: {destination}')
+    return report
+
+
 def evaluate(args):
     started = time.perf_counter()
     manifest, chunks, model, db = open_search(args)
@@ -459,20 +526,27 @@ def evaluate(args):
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument('stage', choices=['chunk', 'embed', 'index', 'search', 'evaluate', 'sample'])
+    p.add_argument('stage', choices=['chunk', 'embed', 'index', 'search', 'answer', 'evaluate', 'sample'])
     p.add_argument('--input', type=Path, default=DEFAULT_INPUT)
-    p.add_argument('--output', type=Path, default=DEFAULT_OUTPUT)
+    p.add_argument('--output', type=Path, help='answer defaults to full_char500_v1; other stages use the sample')
     p.add_argument('--split', nargs='+', choices=['train','val','test'], default=['train'])
     scope = p.add_mutually_exclusive_group()
     scope.add_argument('--manual', action='append')
     scope.add_argument('--all', action='store_true', help='Explicitly opt in to all manuals; use a separate --output')
     p.add_argument('--model', default=MODEL)
+    p.add_argument('--answer-model', default='qwen3.5:4b', help='Generation model; --model remains the embedding model')
     p.add_argument('--url', default='http://127.0.0.1:11434')
     p.add_argument('--batch-size', type=int, default=4)
     p.add_argument('--tokenizer', type=Path, default=REPO / '.runtime/pm209-token-length/tokenizer.json')
     p.add_argument('--query')
     p.add_argument('--top-k', type=int, default=5)
     args = p.parse_args()
+    args.output = args.output or (FULL_OUTPUT if args.stage == 'answer' else DEFAULT_OUTPUT)
+    if args.stage in ('search', 'answer'):
+        if not args.manual or len(args.manual) != 1 or not args.query or not args.query.strip():
+            p.error('search/answer requires one --manual and a nonempty --query')
+        if not 1 <= args.top_k <= 10:
+            p.error('Use --top-k 1..10 for interactive retrieval')
     if not 1 <= args.batch_size <= 8:
         p.error('Use batch size 1..8 for this 8GB configuration')
     if args.all and args.output.resolve() == DEFAULT_OUTPUT.resolve():
@@ -480,7 +554,8 @@ def main():
     if args.stage == 'sample' and (args.all or args.split != ['train']):
         p.error('sample stage is train-only and does not allow --all')
     args.output.mkdir(parents=True, exist_ok=True)
-    stages = {'chunk': build_chunks, 'embed': embed, 'index': index, 'search': search, 'evaluate': evaluate}
+    stages = {'chunk': build_chunks, 'embed': embed, 'index': index, 'search': search,
+              'answer': answer, 'evaluate': evaluate}
     if args.stage == 'sample':
         for stage in ('chunk', 'embed', 'index', 'evaluate'):
             stages[stage](args)
