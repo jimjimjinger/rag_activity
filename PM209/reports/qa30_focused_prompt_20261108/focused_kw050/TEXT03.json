@@ -1,0 +1,1751 @@
+{
+  "case_id": "TEXT03",
+  "manual_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)",
+  "question": "PIN 식별 코드는 무엇인가요?",
+  "english_query": "What is the PIN identification code?",
+  "keyword_percent": 50,
+  "variant": "focused_kw050",
+  "top_k": 5,
+  "retrieved_chunk_ids": [
+    "7b7b7f36-ebb1-54f2-94ac-7e252fc8c858",
+    "369d1bf6-7d11-5e7c-ad7f-c3f71b962850",
+    "52f44916-dfa9-5728-a5e4-701c127e78a7",
+    "b6ef4766-e3fc-5086-9a38-19ec134be161",
+    "8777246b-0db5-50a6-af95-f10d883f3b9a"
+  ],
+  "sources": [
+    {
+      "chunk_id": "7b7b7f36-ebb1-54f2-94ac-7e252fc8c858",
+      "manual_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)",
+      "page_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00071",
+      "chunk_type": "text",
+      "text": "Set a SIM PIN Lock\nA PIN is the identity code of a SIM card, and can be set as the SIM card lock. After you set it\nup, you will be required to enter the correct PIN to unlock the SIM card every time you power\non your tablet or switch to a new tablet to prevent unauthorized access.\nIf you have entered a wrong PIN and exceeded the maximum number of attempts allowed to\nunlock the PIN, you will need to enter the PIN Unlocking Key (PUK) then reset the PIN.",
+      "content_region_ids": [
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2061",
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2062",
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2063",
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2064",
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2065"
+      ],
+      "context_region_ids": [
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2060"
+      ],
+      "image_filename": "images/HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)/images/HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00074.jpg",
+      "source_shapes": [
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2060",
+          "shape": {
+            "x": 90.02362060546878,
+            "y": 772.0962524414064,
+            "width": 254.57226562500009,
+            "height": 32.8125
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2061",
+          "shape": {
+            "x": 90.03160095214847,
+            "y": 819.2534790039061,
+            "width": 1009.3022613525397,
+            "height": 28.125
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2062",
+          "shape": {
+            "x": 90.03167724609378,
+            "y": 857.2534790039066,
+            "width": 1023.9718627929688,
+            "height": 28.124999999999773
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2063",
+          "shape": {
+            "x": 90.03167724609378,
+            "y": 895.2534790039062,
+            "width": 789.707153320313,
+            "height": 28.12499999999966
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2064",
+          "shape": {
+            "x": 90.03178405761717,
+            "y": 939.2534790039061,
+            "width": 1022.883621215821,
+            "height": 28.12500000000034
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2065",
+          "shape": {
+            "x": 90.03187561035156,
+            "y": 977.2534790039066,
+            "width": 1022.5429534912114,
+            "height": 28.125000000000455
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2061",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 95
+        },
+        {
+          "region_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2062",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 93
+        },
+        {
+          "region_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2063",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 72
+        },
+        {
+          "region_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2064",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 86
+        },
+        {
+          "region_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2065",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 86
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.03278688524590164,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "369d1bf6-7d11-5e7c-ad7f-c3f71b962850",
+      "manual_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)",
+      "page_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00071",
+      "chunk_type": "text",
+      "text": "Set a SIM PIN Lock\n2 Enable Lock SIM card, enter the PIN, then touch OK. To change the PIN, touch Change SIM PIN, and follow the onscreen instructions.",
+      "content_region_ids": [
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2072"
+      ],
+      "context_region_ids": [
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2060"
+      ],
+      "image_filename": "images/HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)/images/HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00074.jpg",
+      "source_shapes": [
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2060",
+          "shape": {
+            "x": 90.02362060546878,
+            "y": 772.0962524414064,
+            "width": 254.57226562500009,
+            "height": 32.8125
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2072",
+          "shape": {
+            "x": 90.03800201416016,
+            "y": 1264.0177001953132,
+            "width": 919.4328842163089,
+            "height": 63.69140624999977
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2072",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 132
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.03036576949620428,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "52f44916-dfa9-5728-a5e4-701c127e78a7",
+      "manual_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)",
+      "page_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00071",
+      "chunk_type": "text",
+      "text": "Set a SIM PIN Lock\nIf you\nexceed the maximum number of attempts allowed to unlock the PUK, your SIM card will be\npermanently blocked.\nThe PIN and PUK of your SIM card are provided by your carrier. The number of digits and\nmaximum number of attempts allowed to unlock your PIN and PUK are subject to your\ncarrier.\n1 Go to Settings > Security > More settings to enter the SIM lock settings screen.\n2 Enable Lock SIM card, enter the PIN, then touch OK.",
+      "content_region_ids": [
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2065",
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2066",
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2067",
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2068",
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2069",
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2070",
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2071",
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2072"
+      ],
+      "context_region_ids": [
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2060"
+      ],
+      "image_filename": "images/HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)/images/HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00074.jpg",
+      "source_shapes": [
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2060",
+          "shape": {
+            "x": 90.02362060546878,
+            "y": 772.0962524414064,
+            "width": 254.57226562500009,
+            "height": 32.8125
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2065",
+          "shape": {
+            "x": 90.03187561035156,
+            "y": 977.2534790039066,
+            "width": 1022.5429534912114,
+            "height": 28.125000000000455
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2066",
+          "shape": {
+            "x": 90.03198242187501,
+            "y": 1015.253540039063,
+            "width": 1006.039916992188,
+            "height": 28.125
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2067",
+          "shape": {
+            "x": 90.03215789794925,
+            "y": 1053.2535400390625,
+            "width": 235.13928985595717,
+            "height": 28.125000000000455
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2068",
+          "shape": {
+            "x": 90.03213500976564,
+            "y": 1097.2535400390625,
+            "width": 976.2166442871098,
+            "height": 28.125000000000227
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2069",
+          "shape": {
+            "x": 90.03215789794925,
+            "y": 1135.253540039063,
+            "width": 956.3399124145515,
+            "height": 28.125000000000227
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2070",
+          "shape": {
+            "x": 90.03215789794925,
+            "y": 1173.2535400390623,
+            "width": 73.3552627563476,
+            "height": 28.125000000000227
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2071",
+          "shape": {
+            "x": 90.02613830566406,
+            "y": 1218.017700195313,
+            "width": 916.6727752685546,
+            "height": 35.15625
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2072",
+          "shape": {
+            "x": 90.03800201416016,
+            "y": 1264.0177001953132,
+            "width": 919.4328842163089,
+            "height": 63.69140624999977
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2065",
+          "field": "ocr_normalized",
+          "start": 87,
+          "end": 93
+        },
+        {
+          "region_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2066",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 86
+        },
+        {
+          "region_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2067",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 20
+        },
+        {
+          "region_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2068",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 87
+        },
+        {
+          "region_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2069",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 81
+        },
+        {
+          "region_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2070",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 8
+        },
+        {
+          "region_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2071",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 82
+        },
+        {
+          "region_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2072",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 53
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.028371628371628373,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S3"
+    },
+    {
+      "chunk_id": "b6ef4766-e3fc-5086-9a38-19ec134be161",
+      "manual_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)",
+      "page_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00025",
+      "chunk_type": "text",
+      "text": "Scan Codes for Services and Information\nYou can scan different types of QR codes and bar codes with AI Lens, and then touch the\nidentified result to be redirected to other pages for more services and information.",
+      "content_region_ids": [
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_750",
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_751"
+      ],
+      "context_region_ids": [
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_749"
+      ],
+      "image_filename": "images/HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)/images/HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00028.jpg",
+      "source_shapes": [
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_749",
+          "shape": {
+            "x": 90.03545379638675,
+            "y": 770.4600830078128,
+            "width": 543.2728958129886,
+            "height": 32.8125
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_750",
+          "shape": {
+            "x": 90.0315322875977,
+            "y": 817.6173095703127,
+            "width": 977.5999374389653,
+            "height": 28.125
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_751",
+          "shape": {
+            "x": 90.03161621093753,
+            "y": 855.617309570313,
+            "width": 900.9470214843757,
+            "height": 28.124999999999886
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_750",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 87
+        },
+        {
+          "region_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_751",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 84
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.027730294396961064,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S4"
+    },
+    {
+      "chunk_id": "8777246b-0db5-50a6-af95-f10d883f3b9a",
+      "manual_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)",
+      "page_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00008",
+      "chunk_type": "figure",
+      "text": "A gray location pin icon featuring a circular hole at its center, commonly used in user interfaces to indicate map navigation or geolocation services.",
+      "content_region_ids": [
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_282"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)/images/HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00011.jpg",
+      "source_shapes": [
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_282",
+          "shape": {
+            "x": 98.25000000000006,
+            "y": 1038.000000000001,
+            "width": 36.00000000000003,
+            "height": 44.99999999999932
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_282",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 150
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": 0.027108970929195647,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S5"
+    },
+    {
+      "chunk_id": "dc9387e1-d418-5794-8efc-ce5f4e77763f",
+      "manual_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)",
+      "page_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00008",
+      "chunk_type": "table",
+      "text": "First row (header unconfirmed): Column 1: [empty cell] | Column 2: Hotspot disconnected | Column 3: [empty cell] | Column 4: Switching network via Wi-Fi+\nColumn 1: [empty cell] | Column 2: Hotspot disconnected | Column 3: [empty cell] | Column 4: Switching network via Wi-Fi+\nColumn 1: [empty cell] | Column 2: Wi-Fi connected | Column 3: [empty cell] | Column 4: Wi-Fi network is faulty, unable to connect to the Internet",
+      "content_region_ids": [
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_298"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)/images/HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00011.jpg",
+      "source_shapes": [
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_298",
+          "shape": {
+            "x": 70.87500000000004,
+            "y": 66.75000000000004,
+            "width": 1047.3750000000007,
+            "height": 1564.5000000000011
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_209",
+          "shape": {
+            "x": 237.79415893554696,
+            "y": 92.17561340332033,
+            "width": 236.2969970703128,
+            "height": 28.125000000000085
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_210",
+          "shape": {
+            "x": 740.935424804688,
+            "y": 92.17561340332033,
+            "width": 320.4521484375002,
+            "height": 28.125000000000085
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_211",
+          "shape": {
+            "x": 237.79414367675798,
+            "y": 172.59780883789077,
+            "width": 176.68095397949213,
+            "height": 28.124999999999915
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_212",
+          "shape": {
+            "x": 740.935424804688,
+            "y": 153.59780883789074,
+            "width": 365.6202392578125,
+            "height": 28.125
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_213",
+          "shape": {
+            "x": 740.9354858398439,
+            "y": 191.59780883789074,
+            "width": 252.15075683593784,
+            "height": 28.124999999999886
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_216",
+          "shape": {
+            "x": 740.935424804688,
+            "y": 280.5978088378908,
+            "width": 282.1748046874999,
+            "height": 28.124999999999886
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_219",
+          "shape": {
+            "x": 740.935424804688,
+            "y": 369.59780883789085,
+            "width": 282.1748046874999,
+            "height": 28.125000000000057
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_242",
+          "shape": {
+            "x": 740.935424804688,
+            "y": 1150.6975097656257,
+            "width": 111.59295654296875,
+            "height": 28.12499999999909
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "score": null,
+      "table_rows": [
+        0,
+        1
+      ],
+      "table_cells": [
+        {
+          "row": 0,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 0,
+          "column": 3,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S6"
+    },
+    {
+      "chunk_id": "5877e89b-96fb-59c3-a176-4f5da27c49aa",
+      "manual_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)",
+      "page_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00008",
+      "chunk_type": "table",
+      "text": "First row (header unconfirmed): Column 1: [empty cell] | Column 2: Hotspot disconnected | Column 3: [empty cell] | Column 4: Switching network via Wi-Fi+\nColumn 1: [empty cell] | Column 2: Wi-Fi 6 connected | Column 3: [empty cell] | Column 4: Wi-Fi6 network is faulty, unable to connect to the lnternet\nColumn 1: [empty cell] | Column 2: Wi-Fi 6+ connected | Column 3: [empty cell] | Column 4: Wi-Fi 6+ network is faulty, unable to connect to the Internet",
+      "content_region_ids": [
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_298"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)/images/HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00011.jpg",
+      "source_shapes": [
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_298",
+          "shape": {
+            "x": 70.87500000000004,
+            "y": 66.75000000000004,
+            "width": 1047.3750000000007,
+            "height": 1564.5000000000011
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_209",
+          "shape": {
+            "x": 237.79415893554696,
+            "y": 92.17561340332033,
+            "width": 236.2969970703128,
+            "height": 28.125000000000085
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_210",
+          "shape": {
+            "x": 740.935424804688,
+            "y": 92.17561340332033,
+            "width": 320.4521484375002,
+            "height": 28.125000000000085
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_213",
+          "shape": {
+            "x": 740.9354858398439,
+            "y": 191.59780883789074,
+            "width": 252.15075683593784,
+            "height": 28.124999999999886
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_214",
+          "shape": {
+            "x": 237.79414367675798,
+            "y": 261.5978088378908,
+            "width": 197.5850067138672,
+            "height": 28.124999999999886
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_216",
+          "shape": {
+            "x": 740.935424804688,
+            "y": 280.5978088378908,
+            "width": 282.1748046874999,
+            "height": 28.124999999999886
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_217",
+          "shape": {
+            "x": 237.79414367675798,
+            "y": 350.59780883789074,
+            "width": 211.40898132324213,
+            "height": 28.124999999999943
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_218",
+          "shape": {
+            "x": 740.935424804688,
+            "y": 331.5978088378908,
+            "width": 370.32824707031205,
+            "height": 28.125000000000057
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_219",
+          "shape": {
+            "x": 740.935424804688,
+            "y": 369.59780883789085,
+            "width": 282.1748046874999,
+            "height": 28.125000000000057
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_242",
+          "shape": {
+            "x": 740.935424804688,
+            "y": 1150.6975097656257,
+            "width": 111.59295654296875,
+            "height": 28.12499999999909
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "score": null,
+      "table_rows": [
+        2,
+        3
+      ],
+      "table_cells": [
+        {
+          "row": 2,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S7"
+    },
+    {
+      "chunk_id": "13872cc9-28d9-5353-8b4b-80e92929ab0f",
+      "manual_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)",
+      "page_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00008",
+      "chunk_type": "table",
+      "text": "First row (header unconfirmed): Column 1: [empty cell] | Column 2: Hotspot disconnected | Column 3: [empty cell] | Column 4: Switching network via Wi-Fi+\nColumn 1: [empty cell] | Column 2: Airplane mode is ON | Column 3: [empty cell] | Column 4: Alarm set\nColumn 1: [empty cell] | Column 2: Battery empty | Column 3: [empty cell] | Column 4: Low battery power\nColumn 1: [empty cell] | Column 2: Charging | Column 3: [empty cell] | Column 4: Quick charging",
+      "content_region_ids": [
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_298"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)/images/HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00011.jpg",
+      "source_shapes": [
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_298",
+          "shape": {
+            "x": 70.87500000000004,
+            "y": 66.75000000000004,
+            "width": 1047.3750000000007,
+            "height": 1564.5000000000011
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_209",
+          "shape": {
+            "x": 237.79415893554696,
+            "y": 92.17561340332033,
+            "width": 236.2969970703128,
+            "height": 28.125000000000085
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_210",
+          "shape": {
+            "x": 740.935424804688,
+            "y": 92.17561340332033,
+            "width": 320.4521484375002,
+            "height": 28.125000000000085
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_220",
+          "shape": {
+            "x": 237.79414367675798,
+            "y": 431.936706542969,
+            "width": 229.024154663086,
+            "height": 28.125
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_221",
+          "shape": {
+            "x": 740.935424804688,
+            "y": 431.936706542969,
+            "width": 105.27075195312523,
+            "height": 28.125
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_222",
+          "shape": {
+            "x": 237.79414367675798,
+            "y": 494.2755737304689,
+            "width": 155.10423278808594,
+            "height": 28.125000000000057
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_223",
+          "shape": {
+            "x": 740.935424804688,
+            "y": 494.2755737304689,
+            "width": 205.76428222656273,
+            "height": 28.125000000000057
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_224",
+          "shape": {
+            "x": 237.79414367675798,
+            "y": 545.6144409179689,
+            "width": 98.2847137451173,
+            "height": 28.124999999999886
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_225",
+          "shape": {
+            "x": 740.935424804688,
+            "y": 545.6144409179689,
+            "width": 164.83673095703057,
+            "height": 28.124999999999886
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_242",
+          "shape": {
+            "x": 740.935424804688,
+            "y": 1150.6975097656257,
+            "width": 111.59295654296875,
+            "height": 28.12499999999909
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "score": null,
+      "table_rows": [
+        4,
+        5,
+        6
+      ],
+      "table_cells": [
+        {
+          "row": 4,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 5,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 6,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S8"
+    },
+    {
+      "chunk_id": "d2c096c6-939d-5c0b-b6cc-6fae20243063",
+      "manual_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)",
+      "page_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00071",
+      "chunk_type": "text",
+      "text": "Set a SIM PIN Lock\nThis feature is not supported on Wi-Fi only tablets.",
+      "content_region_ids": [
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2073"
+      ],
+      "context_region_ids": [
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2060"
+      ],
+      "image_filename": "images/HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)/images/HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00074.jpg",
+      "source_shapes": [
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2060",
+          "shape": {
+            "x": 90.02362060546878,
+            "y": 772.0962524414064,
+            "width": 254.57226562500009,
+            "height": 32.8125
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2073",
+          "shape": {
+            "x": 132.81561279296872,
+            "y": 1341.5841064453125,
+            "width": 555.0833129882815,
+            "height": 28.125
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2073",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 52
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S9"
+    },
+    {
+      "chunk_id": "0fb55b98-8f20-5c27-903d-13a65693aff1",
+      "manual_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)",
+      "page_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00008",
+      "chunk_type": "table",
+      "text": "First row (header unconfirmed): Column 1: [empty cell] | Column 2: Hotspot disconnected | Column 3: [empty cell] | Column 4: Switching network via Wi-Fi+\nColumn 1: [empty cell] | Column 2: Super charging | Column 3: [empty cell] | Column 4: Wireless super charging\nColumn 1: [empty cell] | Column 2: Wireless fast charging | Column 3: [empty cell] | Column 4: Regular wireless charging",
+      "content_region_ids": [
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_298"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)/images/HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00011.jpg",
+      "source_shapes": [
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_298",
+          "shape": {
+            "x": 70.87500000000004,
+            "y": 66.75000000000004,
+            "width": 1047.3750000000007,
+            "height": 1564.5000000000011
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_209",
+          "shape": {
+            "x": 237.79415893554696,
+            "y": 92.17561340332033,
+            "width": 236.2969970703128,
+            "height": 28.125000000000085
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_210",
+          "shape": {
+            "x": 740.935424804688,
+            "y": 92.17561340332033,
+            "width": 320.4521484375002,
+            "height": 28.125000000000085
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_226",
+          "shape": {
+            "x": 237.79414367675798,
+            "y": 608.2921752929691,
+            "width": 164.40470886230474,
+            "height": 28.125
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_227",
+          "shape": {
+            "x": 740.935424804688,
+            "y": 608.2921752929691,
+            "width": 259.30072021484375,
+            "height": 28.125
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_228",
+          "shape": {
+            "x": 237.79414367675798,
+            "y": 681.9699096679691,
+            "width": 240.10075378417986,
+            "height": 28.125
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_229",
+          "shape": {
+            "x": 740.935424804688,
+            "y": 681.9699096679691,
+            "width": 279.26867675781284,
+            "height": 28.125
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_242",
+          "shape": {
+            "x": 740.935424804688,
+            "y": 1150.6975097656257,
+            "width": 111.59295654296875,
+            "height": 28.12499999999909
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "score": null,
+      "table_rows": [
+        7,
+        8
+      ],
+      "table_cells": [
+        {
+          "row": 7,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 7,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 7,
+          "column": 2,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 7,
+          "column": 3,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 8,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 8,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 8,
+          "column": 2,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 8,
+          "column": 3,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S10"
+    },
+    {
+      "chunk_id": "b8441564-6216-5fd5-8e33-bdce327db982",
+      "manual_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)",
+      "page_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00008",
+      "chunk_type": "table",
+      "text": "First row (header unconfirmed): Column 1: [empty cell] | Column 2: Hotspot disconnected | Column 3: [empty cell] | Column 4: Switching network via Wi-Fi+\nColumn 1: [empty cell] | Column 2: Power Saving mode on | Column 3: [empty cell] | Column 4: Digital Balance enabled\nColumn 1: [empty cell] | Column 2: Bluetooth enabled | Column 3: 名 | Column 4: Bluetooth device battery\nColumn 1: [empty cell] | Column 2: Bluetooth device conected | Column 3: o | Column 4: VPN connected",
+      "content_region_ids": [
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_298"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)/images/HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00011.jpg",
+      "source_shapes": [
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_298",
+          "shape": {
+            "x": 70.87500000000004,
+            "y": 66.75000000000004,
+            "width": 1047.3750000000007,
+            "height": 1564.5000000000011
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_209",
+          "shape": {
+            "x": 237.79415893554696,
+            "y": 92.17561340332033,
+            "width": 236.2969970703128,
+            "height": 28.125000000000085
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_210",
+          "shape": {
+            "x": 740.935424804688,
+            "y": 92.17561340332033,
+            "width": 320.4521484375002,
+            "height": 28.125000000000085
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_230",
+          "shape": {
+            "x": 237.79414367675798,
+            "y": 755.6476440429692,
+            "width": 251.84336853027344,
+            "height": 28.125
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_231",
+          "shape": {
+            "x": 740.935424804688,
+            "y": 755.6476440429692,
+            "width": 259.2650146484374,
+            "height": 28.125
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_232",
+          "shape": {
+            "x": 237.79414367675798,
+            "y": 829.3253784179691,
+            "width": 201.04100036621082,
+            "height": 28.124999999999773
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_233",
+          "shape": {
+            "x": 740.935424804688,
+            "y": 829.3253784179691,
+            "width": 267.6641845703124,
+            "height": 28.124999999999773
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_235",
+          "shape": {
+            "x": 740.935424804688,
+            "y": 903.0031127929694,
+            "width": 166.26495361328125,
+            "height": 28.12499999999943
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_242",
+          "shape": {
+            "x": 740.935424804688,
+            "y": 1150.6975097656257,
+            "width": 111.59295654296875,
+            "height": 28.12499999999909
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "score": null,
+      "table_rows": [
+        9,
+        10,
+        11
+      ],
+      "table_cells": [
+        {
+          "row": 9,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 9,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 9,
+          "column": 2,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 9,
+          "column": 3,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 10,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 10,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 10,
+          "column": 2,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 10,
+          "column": 3,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 11,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 11,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 11,
+          "column": 2,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 11,
+          "column": 3,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S11"
+    }
+  ],
+  "excluded_sources": [
+    {
+      "chunk_id": "3be63d9c-3a79-5e24-b233-6cdf23b33aef",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "cde1d9f7-f4be-52c4-8528-b3d7a09e97e2",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "71e1f65b-3aef-5b52-801c-ee350246a668",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "d6ae1853-9fcb-52b2-8004-6d0c2e0c6b8f",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "5d204184-eb52-56ea-9ee6-52df52980585",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "7b97d5cd-ec13-5313-a4e9-8a3828d4f30f",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "da9d11f4-9b17-5f89-bf48-0f319c677d49",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "a18848ff-2493-528b-a3cb-19a565c1d694",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "d5c82ade-1295-5042-8314-7882bdeec318",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "87995f54-7ca3-5045-aa64-d3b55c1cfa51",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "e8726bda-0bcd-5bef-a2ab-d032a0bdd923",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "99af6af9-defd-5b2f-90c5-e81ea0f341ef",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "af662537-c337-5a9b-819a-90d65f8d7d7d",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "00ed3f7e-e949-5ec8-8eca-6a43ff4a50ab",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "343d1f2c-afae-5ad0-839b-cddc37ae1f2a",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "fac3502f-e50a-52e6-b073-2aa29be2342e",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "8af305d1-de4d-5075-b9bc-cc0b539c328b",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "39d20bad-141a-5a75-99bf-90fdab242a83",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "a4cb6cca-39ff-56d5-b1c3-0ef34a06a8e4",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "486215c1-7a66-5324-a242-a6bdced85a39",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "e669bfdc-b945-521c-90a7-c7631ca5cd0a",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "9414459e-9ad1-5f13-b060-0f14a63cc099",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "84bcaf43-1aac-559d-84de-d03dc4588340",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "bb1c4c01-6bd1-5c20-acd4-51078680384f",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "d7315224-76f1-58b3-b8a9-c22f860c5b28",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "1f593a97-4765-563c-a612-2eb41aadfb7d",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "5b49ee14-bfcf-5c61-a8be-a6a0cf149f6d",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "93c88a79-b384-57fa-ac8b-bcc2cf41b353",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "a76a59a2-e43b-568a-9c74-0cff4e3788b4",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "cd3bc937-26e7-50d3-a110-964b7a3817e1",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "070fd6e2-bb6e-58db-baf3-255ce1bb2547",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "3dc2707b-b865-54e8-9caa-9ac5cd40cc4e",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "3a9afb06-61de-58e5-a826-79480890f81f",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "eda965e0-060f-58d9-860f-78722d886793",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "12a24adb-d7d3-5770-867f-1fc267e21e9f",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "d635a77b-ba76-5c6f-ab6f-2b28513b45f2",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "be158214-871e-5111-b159-f03c34be7fd7",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "af0a3674-c74c-5e8b-9e0e-de0ef66c1d4b",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "4e661973-6506-5fba-8157-1748fae3130d",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "c1c841f5-ccc1-568f-84d4-dada2fbf07b7",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "7ea1efc5-6d79-5c0a-b009-b52bc9684005",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "4003cffc-c4a9-5987-be2b-fbf234ebd675",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "6a5029b3-9a9a-5474-a707-35f91ff20117",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "254a2eec-4a02-53cc-b50d-667c2feaee3b",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "d981e197-5df4-5d60-b5ab-febf5b2b6b88",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "ac37670c-fe83-55b7-84cb-3e78d64042c1",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "4c5f7495-7ef4-541d-9966-04a73771106a",
+      "reason": "context_budget"
+    }
+  ],
+  "context_expansion": {
+    "version": "pm209-parent-context-v2",
+    "store": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\datasets\\PM209\\rag\\parent_context_v2",
+    "seed_chunk_ids": [
+      "7b7b7f36-ebb1-54f2-94ac-7e252fc8c858",
+      "369d1bf6-7d11-5e7c-ad7f-c3f71b962850",
+      "52f44916-dfa9-5728-a5e4-701c127e78a7",
+      "b6ef4766-e3fc-5086-9a38-19ec134be161",
+      "8777246b-0db5-50a6-af95-f10d883f3b9a"
+    ],
+    "parents": [
+      {
+        "parent_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2060",
+        "title": "Set a SIM PIN Lock",
+        "kind": "section",
+        "link_reasons": [
+          "nearest_heading_in_reading_column"
+        ],
+        "page_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00071"
+      },
+      {
+        "parent_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_749",
+        "title": "Scan Codes for Services and Information",
+        "kind": "section",
+        "link_reasons": [
+          "nearest_heading_in_reading_column"
+        ],
+        "page_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00025"
+      },
+      {
+        "parent_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_298",
+        "title": "",
+        "kind": "original_region",
+        "link_reasons": [
+          "contained_object_label",
+          "original_region_only"
+        ],
+        "page_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00008"
+      }
+    ],
+    "title_corrections": [
+      {
+        "chunk_id": "d2c096c6-939d-5c0b-b6cc-6fae20243063",
+        "old": "Change the App Lock Password or Security Questions",
+        "new": "Set a SIM PIN Lock"
+      }
+    ],
+    "duplicates_removed": [],
+    "added_chunk_ids": [
+      "dc9387e1-d418-5794-8efc-ce5f4e77763f",
+      "5877e89b-96fb-59c3-a176-4f5da27c49aa",
+      "13872cc9-28d9-5353-8b4b-80e92929ab0f",
+      "d2c096c6-939d-5c0b-b6cc-6fae20243063",
+      "0fb55b98-8f20-5c27-903d-13a65693aff1",
+      "b8441564-6216-5fd5-8e33-bdce327db982"
+    ],
+    "seed_count": 5,
+    "source_count": 11,
+    "added_count": 6,
+    "context_chars": 3681,
+    "prompt_token_upper_bound": 7064
+  },
+  "baseline_variant": "parent_kw050",
+  "new_prompt_token_upper_bound": 6992,
+  "created_at": "2026-11-08T13:49:25.759983+00:00",
+  "status": "answered",
+  "answer": "PIN 식별 코드는 SIM 카드의 신원 코드입니다.",
+  "source_ids": [
+    "S1"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-focused-ko-v2",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 42,
+        "prompt_eval_count": 1653,
+        "total_duration": 1222560000,
+        "load_duration": 5822900,
+        "attempt": 1,
+        "prompt_token_upper_bound": 6914
+      }
+    ],
+    "elapsed_seconds": 1.245560999999725,
+    "backend": "LangChain ChatPromptTemplate | ChatOllama"
+  },
+  "citations": [
+    {
+      "chunk_id": "7b7b7f36-ebb1-54f2-94ac-7e252fc8c858",
+      "manual_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)",
+      "page_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00071",
+      "chunk_type": "text",
+      "text": "Set a SIM PIN Lock\nA PIN is the identity code of a SIM card, and can be set as the SIM card lock. After you set it\nup, you will be required to enter the correct PIN to unlock the SIM card every time you power\non your tablet or switch to a new tablet to prevent unauthorized access.\nIf you have entered a wrong PIN and exceeded the maximum number of attempts allowed to\nunlock the PIN, you will need to enter the PIN Unlocking Key (PUK) then reset the PIN.",
+      "content_region_ids": [
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2061",
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2062",
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2063",
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2064",
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2065"
+      ],
+      "context_region_ids": [
+        "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2060"
+      ],
+      "image_filename": "images/HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)/images/HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_00074.jpg",
+      "source_shapes": [
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2060",
+          "shape": {
+            "x": 90.02362060546878,
+            "y": 772.0962524414064,
+            "width": 254.57226562500009,
+            "height": 32.8125
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2061",
+          "shape": {
+            "x": 90.03160095214847,
+            "y": 819.2534790039061,
+            "width": 1009.3022613525397,
+            "height": 28.125
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2062",
+          "shape": {
+            "x": 90.03167724609378,
+            "y": 857.2534790039066,
+            "width": 1023.9718627929688,
+            "height": 28.124999999999773
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2063",
+          "shape": {
+            "x": 90.03167724609378,
+            "y": 895.2534790039062,
+            "width": 789.707153320313,
+            "height": 28.12499999999966
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2064",
+          "shape": {
+            "x": 90.03178405761717,
+            "y": 939.2534790039061,
+            "width": 1022.883621215821,
+            "height": 28.12500000000034
+          }
+        },
+        {
+          "id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2065",
+          "shape": {
+            "x": 90.03187561035156,
+            "y": 977.2534790039066,
+            "width": 1022.5429534912114,
+            "height": 28.125000000000455
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2061",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 95
+        },
+        {
+          "region_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2062",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 93
+        },
+        {
+          "region_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2063",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 72
+        },
+        {
+          "region_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2064",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 86
+        },
+        {
+          "region_id": "HUAWEI_MatePad User Guide-(BAH4-W09&L09,HarmonyOS 2_01,en)_2065",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 86
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.03278688524590164,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 1.2456480999999258,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3834,
+    "temperature_c": 63,
+    "utilization_percent": 85
+  }
+}

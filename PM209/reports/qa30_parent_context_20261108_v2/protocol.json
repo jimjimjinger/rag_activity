@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-08",
+  "questions": 30,
+  "new_answers": 60,
+  "keyword_percent": [
+    0,
+    50
+  ],
+  "seed_top_k": 5,
+  "retrieval": "Exact saved Qdrant rankings and English translations from 2026-11-02",
+  "baseline": "60 historical Top-5 responses, reviewed using the frozen original rubric",
+  "intervention": "Parent-linked context expansion and corrected section labels",
+  "top_k_note": "Top-5 refers to search seeds; expanded source count and input volume are recorded",
+  "parent_map": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\datasets\\PM209\\rag\\parent_context_v2",
+  "parent_manifest_sha256": "9ab46fad0db714839bb3dc0d6b27c9fd892ac30b3be52d4f2b02e601ec6ca657",
+  "parent_module_sha256": "0e588a393ea8977c83303ba5f3665832ee2c76733507fe4617a491f61ff8e31a",
+  "answering_code_sha256": "c19f7a3d098cbdc5689ec98c59f7de157fd8253b287db099c974ac6457ef771f",
+  "answer_model": "qwen3.5:4b",
+  "answer_digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+  "answer_options": {
+    "num_ctx": 8192,
+    "num_predict": 1024,
+    "num_batch": 128,
+    "num_thread": 4,
+    "num_gpu": 99,
+    "temperature": 0
+  },
+  "think": false,
+  "max_sources": 32,
+  "qa_used_for_mapping_or_generation": false,
+  "document_embeddings_generated": 0,
+  "query_embeddings_generated": 0,
+  "retrieval_sha256": "9c0896e17ea86a1549ddb000c56de75b03120e4d42a09b6bc287f36840ad9ae5",
+  "references_sha256": "415eddb36cbf30fed9008d2a904ba19d9b30f48d1688d171f870d457141c3b88",
+  "runner_sha256": "1ad882c76d6ce94ee6aa8632d07d06aa89c099601dce5c868a427c853bbbbd58"
+}

@@ -1,0 +1,18 @@
+{
+  "checks": {
+    "package_table_restored": true,
+    "procedure_steps_6_7_8_present": true,
+    "diagram_control_labels_connected": true,
+    "all_inputs_within_existing_budget": true,
+    "all_manual_filters_preserved": true,
+    "all_source_ids_unique": true
+  },
+  "related_tests_passed": 22,
+  "manual_visual_samples": [
+    "Package Contents page",
+    "Photo Base 4.0 Installation page"
+  ],
+  "scope_note": "Connections and input integrity checked; visual spatial facts are not inferred from text",
+  "mean_source_count": 13.433333333333334,
+  "max_input_bound": 7164
+}

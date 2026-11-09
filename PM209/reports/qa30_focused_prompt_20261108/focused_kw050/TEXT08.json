@@ -1,0 +1,1332 @@
+{
+  "case_id": "TEXT08",
+  "manual_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16",
+  "question": "이 장치의 입력 전압은 얼마인가요?",
+  "english_query": "What is the input voltage of this device?",
+  "keyword_percent": 50,
+  "variant": "focused_kw050",
+  "top_k": 5,
+  "retrieved_chunk_ids": [
+    "f3745ada-2f50-5aea-b145-7a1df768eac0",
+    "1584b300-4720-584a-8908-1b21394932d3",
+    "6057253f-6d43-5ade-b8a5-9b4c9e8eb5d8",
+    "e3533bb2-16b2-5ca1-9ad4-95a12e1e7ed2",
+    "ab638cd4-c797-567b-8926-da36f8f20320"
+  ],
+  "sources": [
+    {
+      "chunk_id": "f3745ada-2f50-5aea-b145-7a1df768eac0",
+      "manual_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16",
+      "page_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00006",
+      "chunk_type": "text",
+      "text": "Electrical\nAC input voltage / frequency / current",
+      "content_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_780"
+      ],
+      "context_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_774"
+      ],
+      "image_filename": "images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16/images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00006.jpg",
+      "source_shapes": [
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_774",
+          "shape": {
+            "x": 161.3671722412109,
+            "y": 863.0662841796872,
+            "width": 90.94734191894497,
+            "height": 23.914611816405
+          }
+        },
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_780",
+          "shape": {
+            "x": 165.9374847412107,
+            "y": 1000.5687255859362,
+            "width": 171.49961853027344,
+            "height": 27.867919921874886
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_780",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 38
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.03278688524590164,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "1584b300-4720-584a-8908-1b21394932d3",
+      "manual_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16",
+      "page_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00006",
+      "chunk_type": "table",
+      "text": "Electrical\nVideo input signals: ACinput voltage/frequency/ current | AnalogRGB.0.7Volts+/-5%.positive polarityat75 ohminputimpedance Digital DVI-D TMDS,60OmVfor each differentialline,positive polarityat5Oohm input impedance: 100 to 240 VAC/50or 60 Hz ±3 Hz/2.OA(Max.)\nVideo input signals: Inrush current | AnalogRGB.0.7Volts+/-5%.positive polarityat75 ohminputimpedance Digital DVI-D TMDS,60OmVfor each differentialline,positive polarityat5Oohm input impedance: 120V:30A(Max.) 240V:60A(Max.)",
+      "content_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_809"
+      ],
+      "context_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_774"
+      ],
+      "image_filename": "images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16/images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00006.jpg",
+      "source_shapes": [
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_774",
+          "shape": {
+            "x": 161.3671722412109,
+            "y": 863.0662841796872,
+            "width": 90.94734191894497,
+            "height": 23.914611816405
+          }
+        },
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_809",
+          "shape": {
+            "x": 155.00000000000006,
+            "y": 930.6124877929677,
+            "width": 813.9999999999995,
+            "height": 136.00000000000057
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [],
+      "score": 0.03125763125763126,
+      "table_rows": [
+        2,
+        3
+      ],
+      "table_cells": [
+        {
+          "row": 2,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "6057253f-6d43-5ade-b8a5-9b4c9e8eb5d8",
+      "manual_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16",
+      "page_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00006",
+      "chunk_type": "table",
+      "text": "Electrical\nVideo input signals: Synchronization input signals | AnalogRGB.0.7Volts+/-5%.positive polarityat75 ohminputimpedance Digital DVI-D TMDS,60OmVfor each differentialline,positive polarityat5Oohm input impedance: Separate horizontal and vertical synchronizations,polarity-free TTL level,SOG(Composite SYNCon green)",
+      "content_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_809"
+      ],
+      "context_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_774"
+      ],
+      "image_filename": "images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16/images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00006.jpg",
+      "source_shapes": [
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_774",
+          "shape": {
+            "x": 161.3671722412109,
+            "y": 863.0662841796872,
+            "width": 90.94734191894497,
+            "height": 23.914611816405
+          }
+        },
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_809",
+          "shape": {
+            "x": 155.00000000000006,
+            "y": 930.6124877929677,
+            "width": 813.9999999999995,
+            "height": 136.00000000000057
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [],
+      "score": 0.028258706467661692,
+      "table_rows": [
+        1
+      ],
+      "table_cells": [
+        {
+          "row": 1,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S3"
+    },
+    {
+      "chunk_id": "e3533bb2-16b2-5ca1-9ad4-95a12e1e7ed2",
+      "manual_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16",
+      "page_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00017",
+      "chunk_type": "figure",
+      "text": "OSD Warning Messages\nError message from an analog input device indicating inability to display video in the current mode. Optimal resolution specified as 1440 x900 at 60Hz.",
+      "content_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_462"
+      ],
+      "context_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_437"
+      ],
+      "image_filename": "images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16/images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00017.jpg",
+      "source_shapes": [
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_437",
+          "shape": {
+            "x": 153.1406249999999,
+            "y": 369.47302246093705,
+            "width": 232.17193603515648,
+            "height": 23.914611816406705
+          }
+        },
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_462",
+          "shape": {
+            "x": 234,
+            "y": 497.6406249999999,
+            "width": 358,
+            "height": 55.000000000000114
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_462",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 151
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": 0.027583600982429624,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S4"
+    },
+    {
+      "chunk_id": "ab638cd4-c797-567b-8926-da36f8f20320",
+      "manual_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16",
+      "page_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00006",
+      "chunk_type": "text",
+      "text": "Electrical\nAnalog RGB, 0.7 Volts +/-5%, positive polarity at 75 ohm input impedance Digital DVI-D TMDS, 600mV for each differential line, positive polarity at 50 ohm input impedance\nSeparate horizontal and vertical synchronizations, polarity-free TTL level, SOG (Composite SYNC on green)\n100 to 240 VAC / 50 or 60 Hz + 3 Hz / 2.0A (Max.)",
+      "content_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_777",
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_779",
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_781"
+      ],
+      "context_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_774"
+      ],
+      "image_filename": "images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16/images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00006.jpg",
+      "source_shapes": [
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_774",
+          "shape": {
+            "x": 161.3671722412109,
+            "y": 863.0662841796872,
+            "width": 90.94734191894497,
+            "height": 23.914611816405
+          }
+        },
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_777",
+          "shape": {
+            "x": 380.7420654296867,
+            "y": 938.4124755859365,
+            "width": 552.0939331054685,
+            "height": 27.867919921875
+          }
+        },
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_779",
+          "shape": {
+            "x": 380.7420654296867,
+            "y": 969.4906005859373,
+            "width": 569.154418945312,
+            "height": 27.867919921873977
+          }
+        },
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_781",
+          "shape": {
+            "x": 380.7420654296867,
+            "y": 1006.9671630859362,
+            "width": 286.10144042968795,
+            "height": 15.071044921875114
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_777",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 170
+        },
+        {
+          "region_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_779",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 105
+        },
+        {
+          "region_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_781",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 49
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.026862026862026864,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S5"
+    },
+    {
+      "chunk_id": "6b5d9e9a-dd7a-5a47-a611-5996ce89801b",
+      "manual_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16",
+      "page_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00006",
+      "chunk_type": "text",
+      "text": "Electrical\nThe following table lists the monitor electrical feature:",
+      "content_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_775"
+      ],
+      "context_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_774"
+      ],
+      "image_filename": "images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16/images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00006.jpg",
+      "source_shapes": [
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_774",
+          "shape": {
+            "x": 161.3671722412109,
+            "y": 863.0662841796872,
+            "width": 90.94734191894497,
+            "height": 23.914611816405
+          }
+        },
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_775",
+          "shape": {
+            "x": 161.3671722412109,
+            "y": 901.7813720703115,
+            "width": 329.9767913818357,
+            "height": 16.327026367187386
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_775",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 57
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S6"
+    },
+    {
+      "chunk_id": "2ef667e9-39c6-53a2-b0e2-802349c9ffa5",
+      "manual_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16",
+      "page_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00017",
+      "chunk_type": "text",
+      "text": "OSD Warning Messages\nOne of the following warning messages may appear on the screen indicating that the monitor is out of synchronization.",
+      "content_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_438"
+      ],
+      "context_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_437"
+      ],
+      "image_filename": "images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16/images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00017.jpg",
+      "source_shapes": [
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_437",
+          "shape": {
+            "x": 153.1406249999999,
+            "y": 369.47302246093705,
+            "width": 232.17193603515648,
+            "height": 23.914611816406705
+          }
+        },
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_438",
+          "shape": {
+            "x": 153.1406249999999,
+            "y": 408.2566833496094,
+            "width": 688.2902832031253,
+            "height": 15.071075439453125
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_438",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 117
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S7"
+    },
+    {
+      "chunk_id": "8ac0809e-207c-5dd3-b3a7-8371e18abad5",
+      "manual_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16",
+      "page_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00017",
+      "chunk_type": "text",
+      "text": "OSD Warning Messages\nor",
+      "content_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_450"
+      ],
+      "context_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_437"
+      ],
+      "image_filename": "images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16/images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00017.jpg",
+      "source_shapes": [
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_437",
+          "shape": {
+            "x": 153.1406249999999,
+            "y": 369.47302246093705,
+            "width": 232.17193603515648,
+            "height": 23.914611816406705
+          }
+        },
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_450",
+          "shape": {
+            "x": 592.8044433593751,
+            "y": 454.72332763671875,
+            "width": 17.423699273003308,
+            "height": 13.775102403428605
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_450",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 2
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S8"
+    },
+    {
+      "chunk_id": "f88fd21f-699f-536d-b480-b34c54365478",
+      "manual_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16",
+      "page_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00017",
+      "chunk_type": "text",
+      "text": "OSD Warning Messages\nThis means that the monitor cannot synchronize with the signal that it is receiving from the computer. Either the signal is too high or too low for the monitor to use.SeeSpecificationsfortheHorizontalandVerticalfrequencyrangesaddressablebythismonitor.Recommendedmodeis1440X900@60Hz.",
+      "content_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_439"
+      ],
+      "context_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_437"
+      ],
+      "image_filename": "images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16/images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00017.jpg",
+      "source_shapes": [
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_437",
+          "shape": {
+            "x": 153.1406249999999,
+            "y": 369.47302246093705,
+            "width": 232.17193603515648,
+            "height": 23.914611816406705
+          }
+        },
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_439",
+          "shape": {
+            "x": 153.1406249999999,
+            "y": 599.2955322265628,
+            "width": 914.5878906250001,
+            "height": 27.867919921875
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_439",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 282
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S9"
+    },
+    {
+      "chunk_id": "7cad7123-b068-5b68-a3ed-1e2b08f7b75b",
+      "manual_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16",
+      "page_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00017",
+      "chunk_type": "text",
+      "text": "OSD Warning Messages\nNOTE: The floating Dell Self-testFeatureCheckdialogappearson-screenifthemonitorcannotsenseavideosignal.",
+      "content_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_452"
+      ],
+      "context_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_437"
+      ],
+      "image_filename": "images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16/images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00017.jpg",
+      "source_shapes": [
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_437",
+          "shape": {
+            "x": 153.1406249999999,
+            "y": 369.47302246093705,
+            "width": 232.17193603515648,
+            "height": 23.914611816406705
+          }
+        },
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_452",
+          "shape": {
+            "x": 185.78903198242185,
+            "y": 647.7956542968752,
+            "width": 707.7505798339844,
+            "height": 16.104003906249773
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_452",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 103
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S10"
+    },
+    {
+      "chunk_id": "4b04c5ab-e74f-5531-8e84-171d8fa4e0f2",
+      "manual_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16",
+      "page_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00006",
+      "chunk_type": "text",
+      "text": "Electrical\n120V:30A (Max.) 240V:60A (Max.)",
+      "content_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_783"
+      ],
+      "context_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_774"
+      ],
+      "image_filename": "images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16/images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00006.jpg",
+      "source_shapes": [
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_774",
+          "shape": {
+            "x": 161.3671722412109,
+            "y": 863.0662841796872,
+            "width": 90.94734191894497,
+            "height": 23.914611816405
+          }
+        },
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_783",
+          "shape": {
+            "x": 380.7420654296867,
+            "y": 1031.6468505859368,
+            "width": 95.06237792968778,
+            "height": 27.867797851561363
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_783",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 31
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S11"
+    },
+    {
+      "chunk_id": "50a3ae52-8e42-5b16-8022-a64901e569bc",
+      "manual_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16",
+      "page_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00017",
+      "chunk_type": "text",
+      "text": "OSD Warning Messages\nOccasionally, no warning message appears, but the screen is blank. This could also indicate that the monitor is not synchronizing with the computer.\nSee Solving Problems for more information.",
+      "content_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_440",
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_441"
+      ],
+      "context_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_437"
+      ],
+      "image_filename": "images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16/images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00017.jpg",
+      "source_shapes": [
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_437",
+          "shape": {
+            "x": 153.1406249999999,
+            "y": 369.47302246093705,
+            "width": 232.17193603515648,
+            "height": 23.914611816406705
+          }
+        },
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_440",
+          "shape": {
+            "x": 153.1406249999999,
+            "y": 1185.209350585937,
+            "width": 856.0609741210942,
+            "height": 15.071044921875
+          }
+        },
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_441",
+          "shape": {
+            "x": 153.1406249999999,
+            "y": 1215.373413085937,
+            "width": 247.44107055664068,
+            "height": 15.071044921875
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_440",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 148
+        },
+        {
+          "region_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_441",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 42
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S12"
+    },
+    {
+      "chunk_id": "052f6ed9-c3d0-56a0-869d-2810ba4b1a23",
+      "manual_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16",
+      "page_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00017",
+      "chunk_type": "figure",
+      "text": "OSD Warning Messages\nWarning messages indicating monitor desynchronization issues, showing options like 'Auto Detect (Analog/Digital Input)' and 'Cannot Display This Video Mode' with recommended resolution 1440 x900 60Hz.",
+      "content_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_465"
+      ],
+      "context_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_437"
+      ],
+      "image_filename": "images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16/images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00017.jpg",
+      "source_shapes": [
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_437",
+          "shape": {
+            "x": 153.1406249999999,
+            "y": 369.47302246093705,
+            "width": 232.17193603515648,
+            "height": 23.914611816406705
+          }
+        },
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_465",
+          "shape": {
+            "x": 147.74999999999997,
+            "y": 404.4609375,
+            "width": 853.5,
+            "height": 153.0
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_465",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 200
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S13"
+    },
+    {
+      "chunk_id": "2e7e182e-ae62-52be-a3e7-d970e20aa52b",
+      "manual_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16",
+      "page_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00017",
+      "chunk_type": "figure",
+      "text": "OSD Warning Messages\nText indicates 'Auto Detect (Digital Input)' mode is active but cannot display the video mode. Optimum resolution specified as 1440 x 900 60Hz.",
+      "content_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_463"
+      ],
+      "context_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_437"
+      ],
+      "image_filename": "images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16/images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00017.jpg",
+      "source_shapes": [
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_437",
+          "shape": {
+            "x": 153.1406249999999,
+            "y": 369.47302246093705,
+            "width": 232.17193603515648,
+            "height": 23.914611816406705
+          }
+        },
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_463",
+          "shape": {
+            "x": 610,
+            "y": 438.64062499999994,
+            "width": 380.0000000000002,
+            "height": 56.999999999999886
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_463",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 143
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S14"
+    },
+    {
+      "chunk_id": "c635142e-d735-5fa5-9c92-135e12afda84",
+      "manual_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16",
+      "page_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00017",
+      "chunk_type": "figure",
+      "text": "OSD Warning Messages\nText indicates '1: Auto Detect (Analog Input)' and warns it cannot display this video mode. Optimum resolution is listed as 1440 x 900 at 60Hz.",
+      "content_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_461"
+      ],
+      "context_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_437"
+      ],
+      "image_filename": "images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16/images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00017.jpg",
+      "source_shapes": [
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_437",
+          "shape": {
+            "x": 153.1406249999999,
+            "y": 369.47302246093705,
+            "width": 232.17193603515648,
+            "height": 23.914611816406705
+          }
+        },
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_461",
+          "shape": {
+            "x": 235.9999999999999,
+            "y": 441.64062500000017,
+            "width": 354.0000000000002,
+            "height": 50.999999999999545
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_461",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 143
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S15"
+    },
+    {
+      "chunk_id": "67cc43a3-9547-52cc-bf64-338d7292fd92",
+      "manual_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16",
+      "page_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00017",
+      "chunk_type": "figure",
+      "text": "OSD Warning Messages\nDigital Input warning message indicating inability to display video mode; specifies optimum resolution as 1440 x 900 at 60Hz.",
+      "content_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_464"
+      ],
+      "context_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_437"
+      ],
+      "image_filename": "images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16/images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00017.jpg",
+      "source_shapes": [
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_437",
+          "shape": {
+            "x": 153.1406249999999,
+            "y": 369.47302246093705,
+            "width": 232.17193603515648,
+            "height": 23.914611816406705
+          }
+        },
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_464",
+          "shape": {
+            "x": 609.8888888888885,
+            "y": 497.6406249999999,
+            "width": 380.11111111111177,
+            "height": 51.66666666666674
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_464",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 125
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S16"
+    },
+    {
+      "chunk_id": "924bdef2-5dfd-5466-9e46-51698e890936",
+      "manual_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16",
+      "page_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00017",
+      "chunk_type": "figure",
+      "text": "OSD Warning Messages\nDell Self-Test Feature Check display showing four test patterns: Auto Detect (Analog/Digital Input) and Analog/Digital Input tests, each displaying Red, Green, Blue, and White bars.",
+      "content_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_466"
+      ],
+      "context_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_437"
+      ],
+      "image_filename": "images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16/images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00017.jpg",
+      "source_shapes": [
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_437",
+          "shape": {
+            "x": 153.1406249999999,
+            "y": 369.47302246093705,
+            "width": 232.17193603515648,
+            "height": 23.914611816406705
+          }
+        },
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_466",
+          "shape": {
+            "x": 146.2500000000001,
+            "y": 636.9609375000001,
+            "width": 778.4999999999999,
+            "height": 508.4999999999999
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_466",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 181
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S17"
+    },
+    {
+      "chunk_id": "81f2b7af-fff4-520c-a243-23ababd97b19",
+      "manual_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16",
+      "page_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00017",
+      "chunk_type": "figure",
+      "text": "OSD Warning Messages\nDell 2: Analog Input Self Test Feature Check display showing Red, Green, Blue, and White color indicators.",
+      "content_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_458"
+      ],
+      "context_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_437"
+      ],
+      "image_filename": "images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16/images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00017.jpg",
+      "source_shapes": [
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_437",
+          "shape": {
+            "x": 153.1406249999999,
+            "y": 369.47302246093705,
+            "width": 232.17193603515648,
+            "height": 23.914611816406705
+          }
+        },
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_458",
+          "shape": {
+            "x": 325.8983459472654,
+            "y": 918.211791992187,
+            "width": 263.2498474121097,
+            "height": 214.80456542968818
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_458",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 106
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S18"
+    }
+  ],
+  "excluded_sources": [
+    {
+      "chunk_id": "8ef05850-5424-59c8-89dc-cc7f3d2bffb5",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "debb97e1-40a9-5c40-a113-182fb87c7b52",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "90bbc953-f745-5424-bd32-0c77f7bb57be",
+      "reason": "context_budget"
+    }
+  ],
+  "context_expansion": {
+    "version": "pm209-parent-context-v2",
+    "store": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\datasets\\PM209\\rag\\parent_context_v2",
+    "seed_chunk_ids": [
+      "f3745ada-2f50-5aea-b145-7a1df768eac0",
+      "1584b300-4720-584a-8908-1b21394932d3",
+      "6057253f-6d43-5ade-b8a5-9b4c9e8eb5d8",
+      "e3533bb2-16b2-5ca1-9ad4-95a12e1e7ed2",
+      "ab638cd4-c797-567b-8926-da36f8f20320"
+    ],
+    "parents": [
+      {
+        "parent_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_774",
+        "title": "Electrical",
+        "kind": "section",
+        "link_reasons": [
+          "contained_object_label",
+          "nearest_heading_in_reading_column"
+        ],
+        "page_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00006"
+      },
+      {
+        "parent_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_437",
+        "title": "OSD Warning Messages",
+        "kind": "section",
+        "link_reasons": [
+          "contained_object_label",
+          "nearest_heading_in_reading_column"
+        ],
+        "page_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00017"
+      }
+    ],
+    "title_corrections": [
+      {
+        "chunk_id": "6057253f-6d43-5ade-b8a5-9b4c9e8eb5d8",
+        "old": "",
+        "new": "Electrical"
+      },
+      {
+        "chunk_id": "1584b300-4720-584a-8908-1b21394932d3",
+        "old": "",
+        "new": "Electrical"
+      },
+      {
+        "chunk_id": "4b04c5ab-e74f-5531-8e84-171d8fa4e0f2",
+        "old": "",
+        "new": "Electrical"
+      },
+      {
+        "chunk_id": "ab638cd4-c797-567b-8926-da36f8f20320",
+        "old": "",
+        "new": "Electrical"
+      },
+      {
+        "chunk_id": "8ef05850-5424-59c8-89dc-cc7f3d2bffb5",
+        "old": "",
+        "new": "OSD Warning Messages"
+      },
+      {
+        "chunk_id": "debb97e1-40a9-5c40-a113-182fb87c7b52",
+        "old": "",
+        "new": "OSD Warning Messages"
+      },
+      {
+        "chunk_id": "81f2b7af-fff4-520c-a243-23ababd97b19",
+        "old": "",
+        "new": "OSD Warning Messages"
+      },
+      {
+        "chunk_id": "90bbc953-f745-5424-bd32-0c77f7bb57be",
+        "old": "",
+        "new": "OSD Warning Messages"
+      },
+      {
+        "chunk_id": "c635142e-d735-5fa5-9c92-135e12afda84",
+        "old": "",
+        "new": "OSD Warning Messages"
+      },
+      {
+        "chunk_id": "e3533bb2-16b2-5ca1-9ad4-95a12e1e7ed2",
+        "old": "",
+        "new": "OSD Warning Messages"
+      },
+      {
+        "chunk_id": "2e7e182e-ae62-52be-a3e7-d970e20aa52b",
+        "old": "",
+        "new": "OSD Warning Messages"
+      },
+      {
+        "chunk_id": "67cc43a3-9547-52cc-bf64-338d7292fd92",
+        "old": "",
+        "new": "OSD Warning Messages"
+      },
+      {
+        "chunk_id": "8ac0809e-207c-5dd3-b3a7-8371e18abad5",
+        "old": "",
+        "new": "OSD Warning Messages"
+      },
+      {
+        "chunk_id": "54e19d26-0968-5dbd-befa-fc3f0e2602f8",
+        "old": "",
+        "new": "OSD Warning Messages"
+      },
+      {
+        "chunk_id": "1595db8e-891d-5340-8adc-e2b9addc9bd7",
+        "old": "",
+        "new": "OSD Warning Messages"
+      },
+      {
+        "chunk_id": "7d8e4747-f97f-5a33-8b2a-57754e7f17e0",
+        "old": "",
+        "new": "OSD Warning Messages"
+      }
+    ],
+    "duplicates_removed": [
+      "54e19d26-0968-5dbd-befa-fc3f0e2602f8",
+      "1595db8e-891d-5340-8adc-e2b9addc9bd7",
+      "7d8e4747-f97f-5a33-8b2a-57754e7f17e0"
+    ],
+    "added_chunk_ids": [
+      "6b5d9e9a-dd7a-5a47-a611-5996ce89801b",
+      "2ef667e9-39c6-53a2-b0e2-802349c9ffa5",
+      "8ac0809e-207c-5dd3-b3a7-8371e18abad5",
+      "f88fd21f-699f-536d-b480-b34c54365478",
+      "7cad7123-b068-5b68-a3ed-1e2b08f7b75b",
+      "4b04c5ab-e74f-5531-8e84-171d8fa4e0f2",
+      "50a3ae52-8e42-5b16-8022-a64901e569bc",
+      "052f6ed9-c3d0-56a0-869d-2810ba4b1a23",
+      "2e7e182e-ae62-52be-a3e7-d970e20aa52b",
+      "c635142e-d735-5fa5-9c92-135e12afda84",
+      "67cc43a3-9547-52cc-bf64-338d7292fd92",
+      "924bdef2-5dfd-5466-9e46-51698e890936",
+      "81f2b7af-fff4-520c-a243-23ababd97b19"
+    ],
+    "seed_count": 5,
+    "source_count": 18,
+    "added_count": 13,
+    "context_chars": 3304,
+    "prompt_token_upper_bound": 7150
+  },
+  "baseline_variant": "parent_kw050",
+  "new_prompt_token_upper_bound": 7078,
+  "created_at": "2026-11-08T13:49:43.004628+00:00",
+  "status": "answered",
+  "answer": "이 장치의 입력 전압은 100 VAC 에서 240 VAC 사이이며, 주파수는 50 Hz 또는 60 Hz ±3 Hz 입니다.",
+  "source_ids": [
+    "S2",
+    "S5"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-focused-ko-v2",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 70,
+        "prompt_eval_count": 1701,
+        "total_duration": 1637426600,
+        "load_duration": 5379100,
+        "attempt": 1,
+        "prompt_token_upper_bound": 7000
+      }
+    ],
+    "elapsed_seconds": 1.6495291000001089,
+    "backend": "LangChain ChatPromptTemplate | ChatOllama"
+  },
+  "citations": [
+    {
+      "chunk_id": "1584b300-4720-584a-8908-1b21394932d3",
+      "manual_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16",
+      "page_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00006",
+      "chunk_type": "table",
+      "text": "Electrical\nVideo input signals: ACinput voltage/frequency/ current | AnalogRGB.0.7Volts+/-5%.positive polarityat75 ohminputimpedance Digital DVI-D TMDS,60OmVfor each differentialline,positive polarityat5Oohm input impedance: 100 to 240 VAC/50or 60 Hz ±3 Hz/2.OA(Max.)\nVideo input signals: Inrush current | AnalogRGB.0.7Volts+/-5%.positive polarityat75 ohminputimpedance Digital DVI-D TMDS,60OmVfor each differentialline,positive polarityat5Oohm input impedance: 120V:30A(Max.) 240V:60A(Max.)",
+      "content_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_809"
+      ],
+      "context_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_774"
+      ],
+      "image_filename": "images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16/images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00006.jpg",
+      "source_shapes": [
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_774",
+          "shape": {
+            "x": 161.3671722412109,
+            "y": 863.0662841796872,
+            "width": 90.94734191894497,
+            "height": 23.914611816405
+          }
+        },
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_809",
+          "shape": {
+            "x": 155.00000000000006,
+            "y": 930.6124877929677,
+            "width": 813.9999999999995,
+            "height": 136.00000000000057
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [],
+      "score": 0.03125763125763126,
+      "table_rows": [
+        2,
+        3
+      ],
+      "table_cells": [
+        {
+          "row": 2,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "ab638cd4-c797-567b-8926-da36f8f20320",
+      "manual_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16",
+      "page_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00006",
+      "chunk_type": "text",
+      "text": "Electrical\nAnalog RGB, 0.7 Volts +/-5%, positive polarity at 75 ohm input impedance Digital DVI-D TMDS, 600mV for each differential line, positive polarity at 50 ohm input impedance\nSeparate horizontal and vertical synchronizations, polarity-free TTL level, SOG (Composite SYNC on green)\n100 to 240 VAC / 50 or 60 Hz + 3 Hz / 2.0A (Max.)",
+      "content_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_777",
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_779",
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_781"
+      ],
+      "context_region_ids": [
+        "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_774"
+      ],
+      "image_filename": "images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16/images/dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_00006.jpg",
+      "source_shapes": [
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_774",
+          "shape": {
+            "x": 161.3671722412109,
+            "y": 863.0662841796872,
+            "width": 90.94734191894497,
+            "height": 23.914611816405
+          }
+        },
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_777",
+          "shape": {
+            "x": 380.7420654296867,
+            "y": 938.4124755859365,
+            "width": 552.0939331054685,
+            "height": 27.867919921875
+          }
+        },
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_779",
+          "shape": {
+            "x": 380.7420654296867,
+            "y": 969.4906005859373,
+            "width": 569.154418945312,
+            "height": 27.867919921873977
+          }
+        },
+        {
+          "id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_781",
+          "shape": {
+            "x": 380.7420654296867,
+            "y": 1006.9671630859362,
+            "width": 286.10144042968795,
+            "height": 15.071044921875114
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_777",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 170
+        },
+        {
+          "region_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_779",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 105
+        },
+        {
+          "region_id": "dell_baby monitor manuals_25ea8974-362d-478e-92d0-7cbecb902f16_781",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 49
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.026862026862026864,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S5"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 1.6496427000001859,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3836,
+    "temperature_c": 69,
+    "utilization_percent": 85
+  }
+}

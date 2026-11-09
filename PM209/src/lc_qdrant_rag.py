@@ -286,7 +286,7 @@ class LocalChat:
         raise answering.AnswerGenerationError(attempts)
 
 
-def rag_chain(retriever,chat,keyword_percent=50,top_k=5,translate=True):
+def rag_chain(retriever,chat,keyword_percent=50,top_k=5,translate=True,context_expander=None):
     def question_stage(state):
         answering.prepare_context(state['question'],[],state['manual'])
         if translate and re.search('[가-힣]',state['question']):
@@ -296,9 +296,13 @@ def rag_chain(retriever,chat,keyword_percent=50,top_k=5,translate=True):
     def retrieve_stage(state):
         hits=retriever.search(state['search_query'],state['manual'],keyword_percent,top_k)
         retriever.embeddings.unload()
-        sources,excluded=answering.prepare_context(state['question'],hits,state['manual'])
+        if context_expander is None:
+            sources,excluded=answering.prepare_context(state['question'],hits,state['manual'])
+            expansion=None
+        else:
+            sources,excluded,expansion=context_expander.prepare_context(state['question'],hits,state['manual'])
         return {**state,'sources':sources,'excluded_sources':excluded,
-                'retrieved_chunk_ids':[h['chunk_id'] for h in hits]}
+                'retrieved_chunk_ids':[h['chunk_id'] for h in hits], 'context_expansion':expansion}
     def answer_stage(state):
         value,generation=chat.generate(state['question'],state['sources'])
         citations,figures=answering.resolve_citations(value,state['sources'])

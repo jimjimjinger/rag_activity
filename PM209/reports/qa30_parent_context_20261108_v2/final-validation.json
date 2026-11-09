@@ -1,0 +1,37 @@
+{
+  "status": "complete",
+  "validated_at": "2026-11-08T13:38:28.227163+00:00",
+  "checks": {
+    "protected_files_unchanged_after_real_cli": true,
+    "entire_parent_store_hashes_valid": true,
+    "all_126938_original_chunks_mapped_once": true,
+    "no_QA_fields_in_parent_store": true,
+    "same_60_questions_translations_and_seed_rankings": true,
+    "all_frozen_inputs_match_saved_answers": true,
+    "all_contexts_within_existing_budget": true,
+    "manual_filters_preserved": true,
+    "all_final_outputs_ended_normally": true,
+    "real_native_Qdrant_LangChain_answer_cli_passed": true,
+    "real_cli_query_embedding_cache_reused": true,
+    "all_60_answers_reviewed": true,
+    "modified_python_syntax_valid": true
+  },
+  "protected_files": 333,
+  "changed_files": [],
+  "mapped_manuals": 209,
+  "mapped_pages": 10018,
+  "mapped_chunks": 126938,
+  "generation_errors": 0,
+  "document_embedding_calls": 0,
+  "comparison_query_embedding_calls": 0,
+  "cli_query_embedding_calls": 0,
+  "index_writes": 0,
+  "related_tests_passed": 22,
+  "semantic_review": "Codex using fixed prior rubric; not independent human/held-out evaluation",
+  "limitations": [
+    "All layout links are heuristic, not individually visually verified",
+    "Image pixels are not passed to the answer model",
+    "Historical baseline; no repeated-generation uncertainty estimate"
+  ],
+  "elapsed_validation_seconds": 15.75295670000014
+}

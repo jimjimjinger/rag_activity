@@ -1,0 +1,1583 @@
+{
+  "question": "What components should be included in the product package?",
+  "manual": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+  "search_query": "What components should be included in the product package?",
+  "translation": null,
+  "sources": [
+    {
+      "chunk_id": "409d262c-b26f-5067-922d-a42c9ce2a1b1",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00001",
+      "chunk_type": "text",
+      "text": "Package Contents\nBe sure to check that the package contains all the items listed below:",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_11"
+      ],
+      "context_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_2"
+      ],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00002.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_2",
+          "shape": {
+            "x": 174.8399963378907,
+            "y": 474.95278930664085,
+            "width": 193.29559326171866,
+            "height": 28.044128417968864
+          }
+        },
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_11",
+          "shape": {
+            "x": 175.0000000000001,
+            "y": 517.6093749999999,
+            "width": 643.0000000000003,
+            "height": 29.000000000000114
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_11",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 70
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.03131881575727918,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "605dfafc-2ea1-5d54-8127-d202e9e936b7",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00002",
+      "chunk_type": "figure",
+      "text": "Identifying the parts\nBlue Platfoto digital camera featuring a 2.0 megapixel sensor, flash unit, and lens. The device includes a textured back panel with visible branding and functional components like the viewfinder and shutter button.",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_36"
+      ],
+      "context_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_19"
+      ],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00003.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_19",
+          "shape": {
+            "x": 174.83999633789068,
+            "y": 189.35305786132815,
+            "width": 222.04818725585938,
+            "height": 28.044128417968807
+          }
+        },
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_36",
+          "shape": {
+            "x": 384.480010986328,
+            "y": 309.7194213867188,
+            "width": 456.6448059082036,
+            "height": 310.2000122070313
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_36",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 214
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": 0.030798389007344232,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "21291e6c-593e-5d24-bf4d-03bdb381997e",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00001",
+      "chunk_type": "text",
+      "text": "Package Contents\nIf any items are missing, please contact the store where you purchased the camera. Keep the camera packaging in a safe place as it will be needed if you return the camera for repairs, etc.",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_3"
+      ],
+      "context_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_2"
+      ],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00002.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_2",
+          "shape": {
+            "x": 174.8399963378907,
+            "y": 474.95278930664085,
+            "width": 193.29559326171866,
+            "height": 28.044128417968864
+          }
+        },
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_3",
+          "shape": {
+            "x": 169.33999633789077,
+            "y": 675.4805908203131,
+            "width": 881.207977294922,
+            "height": 60.67871093749966
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_3",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 188
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.029877369007803793,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S3"
+    },
+    {
+      "chunk_id": "501b351e-5215-5955-a707-0192a9a427d2",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00013",
+      "chunk_type": "figure",
+      "text": "Photo Impression 4.0 Installation\nA digital camera software interface displaying a list of components including Driver, Photo Impression 4.0, PhotoBase 4.0, Acrobat Reader 5.0, and User Manual. The layout features teal-colored buttons against a blurred background with the title 'Digital Camera' prominently displayed at the top.",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_383"
+      ],
+      "context_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_384"
+      ],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00014.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_383",
+          "shape": {
+            "x": 227.27999877929688,
+            "y": 369.11944580078097,
+            "width": 331.91116333007824,
+            "height": 248.03997802734415
+          }
+        },
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_384",
+          "shape": {
+            "x": 171.00000000000003,
+            "y": 217.64062500000014,
+            "width": 338.0,
+            "height": 28.99999999999997
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_383",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 295
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": 0.028371628371628373,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S4"
+    },
+    {
+      "chunk_id": "146b2464-f2db-593f-9333-1e3dd2e49f43",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00027",
+      "chunk_type": "text",
+      "text": "Disposing of This Product\nWhen disposing of this product, do so in accordance with your local waste disposal regulations.",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_347"
+      ],
+      "context_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_346"
+      ],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00028.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_346",
+          "shape": {
+            "x": 171.75000000000006,
+            "y": 1295.4609375000005,
+            "width": 263.99999999999994,
+            "height": 26.999999999999318
+          }
+        },
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_347",
+          "shape": {
+            "x": 172.02777777777777,
+            "y": 1322.4609374999998,
+            "width": 788.7222222222222,
+            "height": 61.50000000000068
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_347",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 95
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.024152480721664482,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S5"
+    },
+    {
+      "chunk_id": "f2e48c33-b451-5cf6-a517-5c87e191b372",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00002",
+      "chunk_type": "text",
+      "text": "Identifying the parts\nRed LED",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_20"
+      ],
+      "context_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_19"
+      ],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00003.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_19",
+          "shape": {
+            "x": 174.83999633789068,
+            "y": 189.35305786132815,
+            "width": 222.04818725585938,
+            "height": 28.044128417968807
+          }
+        },
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_20",
+          "shape": {
+            "x": 416.3999938964845,
+            "y": 231.2726745605468,
+            "width": 78.43594360351574,
+            "height": 21.58232116699233
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_20",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 7
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S6"
+    },
+    {
+      "chunk_id": "06c6533b-7025-5f42-a2d2-339e5e5b3f2b",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00013",
+      "chunk_type": "text",
+      "text": "Photo Impression 4.0 Installation\n1. Insert installation CD into your PC’s CD-ROM 2. Introduction screen will appear automatically. 3. Click “ArcSoft Photo Impression 4.0”",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_385"
+      ],
+      "context_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_384"
+      ],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00014.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_384",
+          "shape": {
+            "x": 171.00000000000003,
+            "y": 217.64062500000014,
+            "width": 338.0,
+            "height": 28.99999999999997
+          }
+        },
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_385",
+          "shape": {
+            "x": 185.99999999999997,
+            "y": 268.640625,
+            "width": 476.00000000000045,
+            "height": 76.00000000000023
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_385",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 137
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S7"
+    },
+    {
+      "chunk_id": "df2caff8-29bd-5666-8139-6cbc2c726c8c",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00001",
+      "chunk_type": "table",
+      "text": "Package Contents\nFirst row (header unconfirmed): Column 1: Camera | Column 2: Hand Strap\nColumn 1: Camera | Column 2: Hand Strap\nColumn 1: USB cable | Column 2: CD-ROM\nColumn 1: Docking Station | Column 2: Quick Operation Guide",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_18"
+      ],
+      "context_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_2"
+      ],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00002.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_2",
+          "shape": {
+            "x": 174.8399963378907,
+            "y": 474.95278930664085,
+            "width": 193.29559326171866,
+            "height": 28.044128417968864
+          }
+        },
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_18",
+          "shape": {
+            "x": 237.33333333333346,
+            "y": 563.0729166666669,
+            "width": 452.00000000000034,
+            "height": 98.66666666666674
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "score": null,
+      "table_rows": [
+        0,
+        1,
+        2
+      ],
+      "table_cells": [
+        {
+          "row": 0,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S8"
+    },
+    {
+      "chunk_id": "4c736d0e-6fea-5a68-a477-b3dec7ab9e68",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00002",
+      "chunk_type": "text",
+      "text": "Identifying the parts\nPicture-Taking Mode / Playback Mode",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_22"
+      ],
+      "context_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_19"
+      ],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00003.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_19",
+          "shape": {
+            "x": 174.83999633789068,
+            "y": 189.35305786132815,
+            "width": 222.04818725585938,
+            "height": 28.044128417968807
+          }
+        },
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_22",
+          "shape": {
+            "x": 171.35952758789065,
+            "y": 379.95272827148426,
+            "width": 121.49218750000003,
+            "height": 66.58197021484386
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_22",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 35
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S9"
+    },
+    {
+      "chunk_id": "9ba12c31-3bdd-5e41-b7ab-afebccc66bb4",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00013",
+      "chunk_type": "text",
+      "text": "Photo Impression 4.0 Installation\n4. Click “Yes”",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_386"
+      ],
+      "context_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_384"
+      ],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00014.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_384",
+          "shape": {
+            "x": 171.00000000000003,
+            "y": 217.64062500000014,
+            "width": 338.0,
+            "height": 28.99999999999997
+          }
+        },
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_386",
+          "shape": {
+            "x": 190.99999999999997,
+            "y": 667.640625,
+            "width": 142.00000000000014,
+            "height": 24.000000000000227
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_386",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 14
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S10"
+    },
+    {
+      "chunk_id": "7107313b-92d0-5619-b842-56ec042f3563",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00002",
+      "chunk_type": "text",
+      "text": "Identifying the parts\nSD Card slot",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_23"
+      ],
+      "context_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_19"
+      ],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00003.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_19",
+          "shape": {
+            "x": 174.83999633789068,
+            "y": 189.35305786132815,
+            "width": 222.04818725585938,
+            "height": 28.044128417968807
+          }
+        },
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_23",
+          "shape": {
+            "x": 398.8795776367189,
+            "y": 704.3126220703124,
+            "width": 107.02093505859352,
+            "height": 21.58227539062534
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_23",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 12
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S11"
+    },
+    {
+      "chunk_id": "595b4679-0893-5e20-9074-26b0f27420bb",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00013",
+      "chunk_type": "text",
+      "text": "Photo Impression 4.0 Installation\n5. Click “Next”",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_387"
+      ],
+      "context_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_384"
+      ],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00014.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_384",
+          "shape": {
+            "x": 171.00000000000003,
+            "y": 217.64062500000014,
+            "width": 338.0,
+            "height": 28.99999999999997
+          }
+        },
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_387",
+          "shape": {
+            "x": 184.99999999999997,
+            "y": 1014.6406249999998,
+            "width": 150.0000000000002,
+            "height": 21.000000000000227
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_387",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 15
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S12"
+    },
+    {
+      "chunk_id": "e8d90903-6fc6-5bf0-8e2e-1722974ea0df",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00002",
+      "chunk_type": "text",
+      "text": "Identifying the parts\nGreen LED Power On/Off",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_27"
+      ],
+      "context_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_19"
+      ],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00003.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_19",
+          "shape": {
+            "x": 174.83999633789068,
+            "y": 189.35305786132815,
+            "width": 222.04818725585938,
+            "height": 28.044128417968807
+          }
+        },
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_27",
+          "shape": {
+            "x": 556.4400024414064,
+            "y": 791.4326782226566,
+            "width": 239.79595947265682,
+            "height": 21.582275390625227
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_27",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 22
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S13"
+    },
+    {
+      "chunk_id": "31e8aa06-f6e6-53ac-ba31-9217f8cfc330",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00013",
+      "chunk_type": "text",
+      "text": "Photo Impression 4.0 Installation\n6. Click “Next”",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_376"
+      ],
+      "context_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_384"
+      ],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00014.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_376",
+          "shape": {
+            "x": 696.4799804687506,
+            "y": 341.62652587890636,
+            "width": 146.07165527343682,
+            "height": 23.858428955078182
+          }
+        },
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_384",
+          "shape": {
+            "x": 171.00000000000003,
+            "y": 217.64062500000014,
+            "width": 338.0,
+            "height": 28.99999999999997
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_376",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 15
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S14"
+    },
+    {
+      "chunk_id": "772b421c-e8d1-5395-a84e-358cb04738c4",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00002",
+      "chunk_type": "text",
+      "text": "Identifying the parts\nViewfinder",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_26"
+      ],
+      "context_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_19"
+      ],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00003.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_19",
+          "shape": {
+            "x": 174.83999633789068,
+            "y": 189.35305786132815,
+            "width": 222.04818725585938,
+            "height": 28.044128417968807
+          }
+        },
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_26",
+          "shape": {
+            "x": 398.8795776367189,
+            "y": 791.4334106445318,
+            "width": 92.95855712890608,
+            "height": 21.582275390625
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_26",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 10
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S15"
+    },
+    {
+      "chunk_id": "42a14cb1-d187-507d-88ab-227f5457e4d1",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00013",
+      "chunk_type": "text",
+      "text": "Photo Impression 4.0 Installation\n7. Click “Finish”",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_377"
+      ],
+      "context_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_384"
+      ],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00014.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_377",
+          "shape": {
+            "x": 696.4799804687506,
+            "y": 674.1470336914067,
+            "width": 159.408203125,
+            "height": 23.858398437499773
+          }
+        },
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_384",
+          "shape": {
+            "x": 171.00000000000003,
+            "y": 217.64062500000014,
+            "width": 338.0,
+            "height": 28.99999999999997
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_377",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 17
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S16"
+    },
+    {
+      "chunk_id": "eb01141e-7754-5421-8ec8-308671945088",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00002",
+      "chunk_type": "text",
+      "text": "Identifying the parts\nLiquid Crystal Display (LCD)",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_32"
+      ],
+      "context_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_19"
+      ],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00003.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_19",
+          "shape": {
+            "x": 174.83999633789068,
+            "y": 189.35305786132815,
+            "width": 222.04818725585938,
+            "height": 28.044128417968807
+          }
+        },
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_32",
+          "shape": {
+            "x": 241.32000732421866,
+            "y": 1322.0727539062498,
+            "width": 249.23272705078134,
+            "height": 21.582275390625227
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_32",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 28
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S17"
+    },
+    {
+      "chunk_id": "18153925-b463-5005-9dfe-098c7b2a7c45",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00013",
+      "chunk_type": "text",
+      "text": "Photo Impression 4.0 Installation\n8. Re-starting your computer is recommended.",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_378"
+      ],
+      "context_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_384"
+      ],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00014.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_378",
+          "shape": {
+            "x": 696.4799804687506,
+            "y": 1024.306274414063,
+            "width": 452.2823486328126,
+            "height": 23.858520507812727
+          }
+        },
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_384",
+          "shape": {
+            "x": 171.00000000000003,
+            "y": 217.64062500000014,
+            "width": 338.0,
+            "height": 28.99999999999997
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_378",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 44
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S18"
+    },
+    {
+      "chunk_id": "ca464f6c-46f1-561d-a6fd-eb4fd28d3199",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00002",
+      "chunk_type": "text",
+      "text": "Identifying the parts\nFlash Strobe",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_21"
+      ],
+      "context_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_19"
+      ],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00003.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_19",
+          "shape": {
+            "x": 174.83999633789068,
+            "y": 189.35305786132815,
+            "width": 222.04818725585938,
+            "height": 28.044128417968807
+          }
+        },
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_21",
+          "shape": {
+            "x": 626.4385986328125,
+            "y": 231.2726745605468,
+            "width": 105.60095214843784,
+            "height": 21.58232116699233
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_21",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 12
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S19"
+    },
+    {
+      "chunk_id": "dad8bb74-11d9-55bb-845f-8e47fe8ef672",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00013",
+      "chunk_type": "text",
+      "text": "Photo Impression 4.0 Installation\nNote: To find out more about Photo Impression 4.0 or how to use it, consult online help by clicking “?” icon or “help” on the pull-down menu.",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_389"
+      ],
+      "context_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_384"
+      ],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00014.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_384",
+          "shape": {
+            "x": 171.00000000000003,
+            "y": 217.64062500000014,
+            "width": 338.0,
+            "height": 28.99999999999997
+          }
+        },
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_389",
+          "shape": {
+            "x": 171.7500000000001,
+            "y": 1427.4609375000002,
+            "width": 859.5000000000008,
+            "height": 54.00000000000091
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_389",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 141
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S20"
+    },
+    {
+      "chunk_id": "8a791ba0-65a1-513d-a870-9f71bbbad918",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00002",
+      "chunk_type": "text",
+      "text": "Identifying the parts\nLens",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_24"
+      ],
+      "context_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_19"
+      ],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00003.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_19",
+          "shape": {
+            "x": 174.83999633789068,
+            "y": 189.35305786132815,
+            "width": 222.04818725585938,
+            "height": 28.044128417968807
+          }
+        },
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_24",
+          "shape": {
+            "x": 941.5218505859372,
+            "y": 476.4319763183593,
+            "width": 40.103271484375455,
+            "height": 21.58233642578125
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_24",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 4
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S21"
+    },
+    {
+      "chunk_id": "1908d0e6-688b-5718-97d8-e009992fb85e",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00013",
+      "chunk_type": "figure",
+      "text": "Photo Impression 4.0 Installation\nA cropped page from an English product manual showing installation steps for ArcSoft Photo Impression 4.0. The image displays a digital camera software interface with menu options including Driver, Photo Impression 4.0, PhotoBase 4.0, Acrobat Reader 5.0, and User Manual. Step 3 instructs to click 'ArcSoft Photo Impression 4.0'.",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_388"
+      ],
+      "context_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_384"
+      ],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00014.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_384",
+          "shape": {
+            "x": 171.00000000000003,
+            "y": 217.64062500000014,
+            "width": 338.0,
+            "height": 28.99999999999997
+          }
+        },
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_388",
+          "shape": {
+            "x": 180.75000000000006,
+            "y": 258.9609375000002,
+            "width": 489.0000000000003,
+            "height": 372.0000000000002
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_388",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 329
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S22"
+    },
+    {
+      "chunk_id": "a7bb4a3c-362f-5355-ac57-f4ba333b8fb5",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00002",
+      "chunk_type": "text",
+      "text": "Identifying the parts\nLCD On/Off",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_33"
+      ],
+      "context_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_19"
+      ],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00003.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_19",
+          "shape": {
+            "x": 174.83999633789068,
+            "y": 189.35305786132815,
+            "width": 222.04818725585938,
+            "height": 28.044128417968807
+          }
+        },
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_33",
+          "shape": {
+            "x": 819.0000000000005,
+            "y": 808.9526977539064,
+            "width": 110.28723144531193,
+            "height": 21.582275390625114
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_33",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 10
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S23"
+    }
+  ],
+  "excluded_sources": [
+    {
+      "chunk_id": "e2ec58a8-78d1-5c13-aa59-86952b71a7c9",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "be467d0e-0da6-529f-9d5b-e0c3150e573d",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "68d7010e-4197-544e-b8b6-d369bd758e3a",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "1de83ac6-7480-53dd-846e-aa47d7aaf419",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "39c153eb-6540-5137-a552-b7e64242df73",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "81f92d93-7889-52a7-b212-200d029b5076",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "fece3b42-ca77-51e0-88c3-7821923550d5",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "538cee28-e609-5380-bbac-1349952f9fe7",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "ffb193bd-dd2e-54ad-aa09-484dcf5ca998",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "3d08cf89-4ae6-5100-a667-3952c3d3c12d",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "dda12880-42de-5fbc-aee2-3021b7014073",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "236f9b6e-182d-5d7b-8852-7264adc4da1e",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "2b0a46da-4611-5664-8e63-14360ed7b029",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "315e8d93-19a1-5ed6-922b-b2d1137eef3c",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "98dba3ad-0b15-56de-9b33-986f85c4371c",
+      "reason": "context_budget"
+    }
+  ],
+  "retrieved_chunk_ids": [
+    "409d262c-b26f-5067-922d-a42c9ce2a1b1",
+    "605dfafc-2ea1-5d54-8127-d202e9e936b7",
+    "21291e6c-593e-5d24-bf4d-03bdb381997e",
+    "501b351e-5215-5955-a707-0192a9a427d2",
+    "146b2464-f2db-593f-9333-1e3dd2e49f43"
+  ],
+  "context_expansion": {
+    "version": "pm209-parent-context-v2",
+    "store": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\datasets\\PM209\\rag\\parent_context_v2",
+    "seed_chunk_ids": [
+      "409d262c-b26f-5067-922d-a42c9ce2a1b1",
+      "605dfafc-2ea1-5d54-8127-d202e9e936b7",
+      "21291e6c-593e-5d24-bf4d-03bdb381997e",
+      "501b351e-5215-5955-a707-0192a9a427d2",
+      "146b2464-f2db-593f-9333-1e3dd2e49f43"
+    ],
+    "parents": [
+      {
+        "parent_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_2",
+        "title": "Package Contents",
+        "kind": "section",
+        "link_reasons": [
+          "nearest_heading_in_reading_column"
+        ],
+        "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00001"
+      },
+      {
+        "parent_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_19",
+        "title": "Identifying the parts",
+        "kind": "section",
+        "link_reasons": [
+          "contained_object_label",
+          "nearest_heading_in_reading_column"
+        ],
+        "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00002"
+      },
+      {
+        "parent_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_384",
+        "title": "Photo Impression 4.0 Installation",
+        "kind": "procedure",
+        "link_reasons": [
+          "consecutive_numbered_procedure",
+          "contained_object_label"
+        ],
+        "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00013"
+      },
+      {
+        "parent_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_346",
+        "title": "Disposing of This Product",
+        "kind": "section",
+        "link_reasons": [
+          "nearest_heading_in_reading_column"
+        ],
+        "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00027"
+      }
+    ],
+    "title_corrections": [
+      {
+        "chunk_id": "df2caff8-29bd-5666-8139-6cbc2c726c8c",
+        "old": "1 Brief Description",
+        "new": "Package Contents"
+      },
+      {
+        "chunk_id": "315e8d93-19a1-5ed6-922b-b2d1137eef3c",
+        "old": "",
+        "new": "Identifying the parts"
+      },
+      {
+        "chunk_id": "605dfafc-2ea1-5d54-8127-d202e9e936b7",
+        "old": "",
+        "new": "Identifying the parts"
+      },
+      {
+        "chunk_id": "fece3b42-ca77-51e0-88c3-7821923550d5",
+        "old": "",
+        "new": "Identifying the parts"
+      },
+      {
+        "chunk_id": "3d08cf89-4ae6-5100-a667-3952c3d3c12d",
+        "old": "",
+        "new": "Identifying the parts"
+      },
+      {
+        "chunk_id": "f2e48c33-b451-5cf6-a517-5c87e191b372",
+        "old": "",
+        "new": "Identifying the parts"
+      },
+      {
+        "chunk_id": "4c736d0e-6fea-5a68-a477-b3dec7ab9e68",
+        "old": "Front View",
+        "new": "Identifying the parts"
+      },
+      {
+        "chunk_id": "7107313b-92d0-5619-b842-56ec042f3563",
+        "old": "",
+        "new": "Identifying the parts"
+      },
+      {
+        "chunk_id": "772b421c-e8d1-5395-a84e-358cb04738c4",
+        "old": "",
+        "new": "Identifying the parts"
+      },
+      {
+        "chunk_id": "ca464f6c-46f1-561d-a6fd-eb4fd28d3199",
+        "old": "",
+        "new": "Identifying the parts"
+      },
+      {
+        "chunk_id": "8a791ba0-65a1-513d-a870-9f71bbbad918",
+        "old": "",
+        "new": "Identifying the parts"
+      },
+      {
+        "chunk_id": "a7bb4a3c-362f-5355-ac57-f4ba333b8fb5",
+        "old": "",
+        "new": "Identifying the parts"
+      },
+      {
+        "chunk_id": "e2ec58a8-78d1-5c13-aa59-86952b71a7c9",
+        "old": "",
+        "new": "Identifying the parts"
+      },
+      {
+        "chunk_id": "68d7010e-4197-544e-b8b6-d369bd758e3a",
+        "old": "",
+        "new": "Identifying the parts"
+      },
+      {
+        "chunk_id": "39c153eb-6540-5137-a552-b7e64242df73",
+        "old": "",
+        "new": "Identifying the parts"
+      },
+      {
+        "chunk_id": "e8d90903-6fc6-5bf0-8e2e-1722974ea0df",
+        "old": "",
+        "new": "Identifying the parts"
+      },
+      {
+        "chunk_id": "dda12880-42de-5fbc-aee2-3021b7014073",
+        "old": "",
+        "new": "Photo Impression 4.0 Installation"
+      },
+      {
+        "chunk_id": "98dba3ad-0b15-56de-9b33-986f85c4371c",
+        "old": "",
+        "new": "Photo Impression 4.0 Installation"
+      },
+      {
+        "chunk_id": "ffb193bd-dd2e-54ad-aa09-484dcf5ca998",
+        "old": "",
+        "new": "Photo Impression 4.0 Installation"
+      },
+      {
+        "chunk_id": "2b0a46da-4611-5664-8e63-14360ed7b029",
+        "old": "",
+        "new": "Photo Impression 4.0 Installation"
+      },
+      {
+        "chunk_id": "31e8aa06-f6e6-53ac-ba31-9217f8cfc330",
+        "old": "",
+        "new": "Photo Impression 4.0 Installation"
+      },
+      {
+        "chunk_id": "42a14cb1-d187-507d-88ab-227f5457e4d1",
+        "old": "",
+        "new": "Photo Impression 4.0 Installation"
+      },
+      {
+        "chunk_id": "18153925-b463-5005-9dfe-098c7b2a7c45",
+        "old": "",
+        "new": "Photo Impression 4.0 Installation"
+      },
+      {
+        "chunk_id": "dad8bb74-11d9-55bb-845f-8e47fe8ef672",
+        "old": "",
+        "new": "Photo Impression 4.0 Installation"
+      }
+    ],
+    "duplicates_removed": [],
+    "added_chunk_ids": [
+      "f2e48c33-b451-5cf6-a517-5c87e191b372",
+      "06c6533b-7025-5f42-a2d2-339e5e5b3f2b",
+      "df2caff8-29bd-5666-8139-6cbc2c726c8c",
+      "4c736d0e-6fea-5a68-a477-b3dec7ab9e68",
+      "9ba12c31-3bdd-5e41-b7ab-afebccc66bb4",
+      "7107313b-92d0-5619-b842-56ec042f3563",
+      "595b4679-0893-5e20-9074-26b0f27420bb",
+      "e8d90903-6fc6-5bf0-8e2e-1722974ea0df",
+      "31e8aa06-f6e6-53ac-ba31-9217f8cfc330",
+      "772b421c-e8d1-5395-a84e-358cb04738c4",
+      "42a14cb1-d187-507d-88ab-227f5457e4d1",
+      "eb01141e-7754-5421-8ec8-308671945088",
+      "18153925-b463-5005-9dfe-098c7b2a7c45",
+      "ca464f6c-46f1-561d-a6fd-eb4fd28d3199",
+      "dad8bb74-11d9-55bb-845f-8e47fe8ef672",
+      "8a791ba0-65a1-513d-a870-9f71bbbad918",
+      "1908d0e6-688b-5718-97d8-e009992fb85e",
+      "a7bb4a3c-362f-5355-ac57-f4ba333b8fb5"
+    ],
+    "seed_count": 5,
+    "source_count": 23,
+    "added_count": 18,
+    "context_chars": 2527,
+    "prompt_token_upper_bound": 7102
+  },
+  "answer": "제품 패키지에 포함되어야 하는 구성품은 카메라, 손잡이 (Hand Strap), USB 케이블, CD-ROM, 도킹 스테이션 (Docking Station), 그리고 빠른 작동 가이드 (Quick Operation Guide) 입니다.",
+  "source_ids": [
+    "S8"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 81,
+        "prompt_eval_count": 1635,
+        "total_duration": 9554258800,
+        "load_duration": 7050642500,
+        "attempt": 1,
+        "prompt_token_upper_bound": 7024
+      }
+    ],
+    "elapsed_seconds": 9.586073999999826,
+    "backend": "LangChain ChatPromptTemplate | ChatOllama"
+  },
+  "citations": [
+    {
+      "chunk_id": "df2caff8-29bd-5666-8139-6cbc2c726c8c",
+      "manual_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a",
+      "page_id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00001",
+      "chunk_type": "table",
+      "text": "Package Contents\nFirst row (header unconfirmed): Column 1: Camera | Column 2: Hand Strap\nColumn 1: Camera | Column 2: Hand Strap\nColumn 1: USB cable | Column 2: CD-ROM\nColumn 1: Docking Station | Column 2: Quick Operation Guide",
+      "content_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_18"
+      ],
+      "context_region_ids": [
+        "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_2"
+      ],
+      "image_filename": "images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a/images/samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_00002.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_2",
+          "shape": {
+            "x": 174.8399963378907,
+            "y": 474.95278930664085,
+            "width": 193.29559326171866,
+            "height": 28.044128417968864
+          }
+        },
+        {
+          "id": "samsung_camcorder manuals_3f372bde-31ea-43c0-93fd-23bc3dec3c5a_18",
+          "shape": {
+            "x": 237.33333333333346,
+            "y": 563.0729166666669,
+            "width": 452.00000000000034,
+            "height": 98.66666666666674
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "score": null,
+      "table_rows": [
+        0,
+        1,
+        2
+      ],
+      "table_cells": [
+        {
+          "row": 0,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S8"
+    }
+  ],
+  "cited_figures": [],
+  "status": "answered",
+  "keyword_percent": 50,
+  "top_k": 5,
+  "rrf_k": 60,
+  "candidate_k": 20,
+  "backend": "LangChain + Qdrant native dense/BM25/weighted RRF",
+  "query_embeddings_reused": 1,
+  "query_embeddings_generated": 0
+}

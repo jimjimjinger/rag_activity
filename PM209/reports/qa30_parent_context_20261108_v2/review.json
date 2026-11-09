@@ -1,0 +1,605 @@
+{
+  "reviewer": "Codex assistant; fixed existing rubric; not independent human review",
+  "cases": [
+    {
+      "variant": "parent_kw000",
+      "case_id": "TEXT01",
+      "keyword_percent": 0,
+      "category": "text",
+      "gold_content_region_hit": true,
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "DVD 재생 미지원이라는 핵심을 정확히 답했습니다. 0% 답변의 내부 품질 플래그 부연은 사용자에게 불필요한 표현입니다."
+    },
+    {
+      "variant": "parent_kw050",
+      "case_id": "TEXT01",
+      "keyword_percent": 50,
+      "category": "text",
+      "gold_content_region_hit": true,
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "DVD 재생 미지원이라는 핵심을 정확히 답했습니다. 0% 답변의 내부 품질 플래그 부연은 사용자에게 불필요한 표현입니다."
+    },
+    {
+      "variant": "parent_kw000",
+      "case_id": "TEXT02",
+      "keyword_percent": 0,
+      "category": "text",
+      "gold_content_region_hit": true,
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "모니터·컴퓨터·연결 장치의 전원을 모두 끄는 조건이 근거와 일치합니다."
+    },
+    {
+      "variant": "parent_kw050",
+      "case_id": "TEXT02",
+      "keyword_percent": 50,
+      "category": "text",
+      "gold_content_region_hit": true,
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "모니터·컴퓨터·연결 장치의 전원을 모두 끄는 조건이 근거와 일치합니다."
+    },
+    {
+      "variant": "parent_kw000",
+      "case_id": "TEXT03",
+      "keyword_percent": 0,
+      "category": "text",
+      "gold_content_region_hit": true,
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "PIN을 SIM 카드 식별 코드로 정의했고 SIM 잠금 설명도 근거에 있습니다."
+    },
+    {
+      "variant": "parent_kw050",
+      "case_id": "TEXT03",
+      "keyword_percent": 50,
+      "category": "text",
+      "gold_content_region_hit": true,
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "PIN을 SIM 카드 식별 코드로 정의했고 SIM 잠금 설명도 근거에 있습니다."
+    },
+    {
+      "variant": "parent_kw000",
+      "case_id": "TEXT04",
+      "keyword_percent": 0,
+      "category": "text",
+      "gold_content_region_hit": true,
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "스토리지 데이터 접근과 복수 경로의 장애 대비 역할을 근거대로 답했습니다."
+    },
+    {
+      "variant": "parent_kw050",
+      "case_id": "TEXT04",
+      "keyword_percent": 50,
+      "category": "text",
+      "gold_content_region_hit": true,
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "스토리지 데이터 접근과 복수 경로의 장애 대비 역할을 근거대로 답했습니다."
+    },
+    {
+      "variant": "parent_kw000",
+      "case_id": "TEXT05",
+      "keyword_percent": 0,
+      "category": "text",
+      "gold_content_region_hit": true,
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "일련번호 위치를 CB 무전기의 뒷면 패널로 정확히 답했습니다."
+    },
+    {
+      "variant": "parent_kw050",
+      "case_id": "TEXT05",
+      "keyword_percent": 50,
+      "category": "text",
+      "gold_content_region_hit": true,
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "일련번호 위치를 CB 무전기의 뒷면 패널로 정확히 답했습니다."
+    },
+    {
+      "variant": "parent_kw000",
+      "case_id": "TEXT06",
+      "keyword_percent": 0,
+      "category": "text",
+      "gold_content_region_hit": false,
+      "verdict": "incorrect",
+      "retrieval_sufficiency": "partial",
+      "note": "고정 기준의 USB 여유 공간 1.5GB 조건이 근거와 답변에 없습니다. OCR에서 빠진 버튼명을 Timeshift로 채우고 순차 동작을 동시 누르기로 바꿔 근거 없는 조작을 안내했습니다. 질문과 공식 답 범위 불일치도 기존과 동일합니다."
+    },
+    {
+      "variant": "parent_kw050",
+      "case_id": "TEXT06",
+      "keyword_percent": 50,
+      "category": "text",
+      "gold_content_region_hit": true,
+      "verdict": "partial",
+      "retrieval_sufficiency": "sufficient",
+      "note": "S1에 최소 1.5GB 여유 공간이 있지만 답변에서 누락했습니다. USB 연결은 맞으며 질문/정답 범위 불일치는 기존과 동일하게 표시합니다."
+    },
+    {
+      "variant": "parent_kw000",
+      "case_id": "TEXT07",
+      "keyword_percent": 0,
+      "category": "text",
+      "gold_content_region_hit": true,
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "제스처·메뉴로 작업을 빠르게 수행하는 기능과 추가 동작들이 전달한 근거와 일치합니다."
+    },
+    {
+      "variant": "parent_kw050",
+      "case_id": "TEXT07",
+      "keyword_percent": 50,
+      "category": "text",
+      "gold_content_region_hit": true,
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "제스처·메뉴로 작업을 빠르게 수행하는 기능과 추가 동작들이 전달한 근거와 일치합니다."
+    },
+    {
+      "variant": "parent_kw000",
+      "case_id": "TEXT08",
+      "keyword_percent": 0,
+      "category": "text",
+      "gold_content_region_hit": true,
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "100~240 VAC와 50/60 Hz ±3 Hz를 정확히 답했습니다. 원 QA의 전압 오기는 기존 기준과 동일하게 원본으로 보정해 평가했습니다."
+    },
+    {
+      "variant": "parent_kw050",
+      "case_id": "TEXT08",
+      "keyword_percent": 50,
+      "category": "text",
+      "gold_content_region_hit": true,
+      "verdict": "partial",
+      "retrieval_sufficiency": "sufficient",
+      "note": "전압·주파수는 맞지만 불필요하게 추가한 전류 설명에서 2.0A를 100V에만 대응시키고 돌입 전류 30A/60A를 일반 최대 전류처럼 제시했습니다. 정격 전류와 돌입 전류의 구분이 사라졌습니다."
+    },
+    {
+      "variant": "parent_kw000",
+      "case_id": "TEXT09",
+      "keyword_percent": 0,
+      "category": "text",
+      "gold_content_region_hit": true,
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "손목을 들고 Siri에게 시간을 묻는 핵심 동작이 원본 기준에 일치합니다."
+    },
+    {
+      "variant": "parent_kw050",
+      "case_id": "TEXT09",
+      "keyword_percent": 50,
+      "category": "text",
+      "gold_content_region_hit": true,
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "손목을 들고 Siri에게 시간을 묻는 핵심 동작이 원본 기준에 일치합니다."
+    },
+    {
+      "variant": "parent_kw000",
+      "case_id": "TEXT10",
+      "keyword_percent": 0,
+      "category": "text",
+      "gold_content_region_hit": true,
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "120°F(49°C)의 수치와 단위를 정확히 답했습니다."
+    },
+    {
+      "variant": "parent_kw050",
+      "case_id": "TEXT10",
+      "keyword_percent": 50,
+      "category": "text",
+      "gold_content_region_hit": true,
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "120°F(49°C)의 수치와 단위를 정확히 답했습니다."
+    },
+    {
+      "variant": "parent_kw000",
+      "case_id": "TABLE01",
+      "keyword_percent": 0,
+      "category": "table",
+      "gold_content_region_hit": true,
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "리시버/앰프의 음색 균형 설정 확인이라는 표의 해결책을 정확히 답했습니다."
+    },
+    {
+      "variant": "parent_kw050",
+      "case_id": "TABLE01",
+      "keyword_percent": 50,
+      "category": "table",
+      "gold_content_region_hit": true,
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "리시버/앰프의 음색 균형 설정 확인이라는 표의 해결책을 정확히 답했습니다."
+    },
+    {
+      "variant": "parent_kw000",
+      "case_id": "TABLE02",
+      "keyword_percent": 0,
+      "category": "table",
+      "gold_content_region_hit": true,
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "구성품 여섯 개를 모두 제시했습니다. Hand Strap의 한국어 표현은 손목 스트랩으로 다듬을 필요가 있으나 영문 명칭이 유지돼 기존 기준상 정답입니다."
+    },
+    {
+      "variant": "parent_kw050",
+      "case_id": "TABLE02",
+      "keyword_percent": 50,
+      "category": "table",
+      "gold_content_region_hit": true,
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "구성품 여섯 개를 모두 제시했습니다. Hand Strap의 한국어 표현은 손목 스트랩으로 다듬을 필요가 있으나 영문 명칭이 유지돼 기존 기준상 정답입니다."
+    },
+    {
+      "variant": "parent_kw000",
+      "case_id": "TABLE03",
+      "keyword_percent": 0,
+      "category": "table",
+      "gold_content_region_hit": true,
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "헤드셋 포트에 연결한다는 핵심이 표와 일치합니다."
+    },
+    {
+      "variant": "parent_kw050",
+      "case_id": "TABLE03",
+      "keyword_percent": 50,
+      "category": "table",
+      "gold_content_region_hit": true,
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "헤드셋 포트에 연결한다는 핵심이 표와 일치합니다."
+    },
+    {
+      "variant": "parent_kw000",
+      "case_id": "TABLE04",
+      "keyword_percent": 0,
+      "category": "table",
+      "gold_content_region_hit": true,
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "설치 경로의 PSSD_Cleanup.bat 수동 실행과 예시 경로가 근거에 일치합니다."
+    },
+    {
+      "variant": "parent_kw050",
+      "case_id": "TABLE04",
+      "keyword_percent": 50,
+      "category": "table",
+      "gold_content_region_hit": true,
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "설치 경로의 PSSD_Cleanup.bat 수동 실행과 예시 경로가 근거에 일치합니다."
+    },
+    {
+      "variant": "parent_kw000",
+      "case_id": "TABLE05",
+      "keyword_percent": 0,
+      "category": "table",
+      "gold_content_region_hit": true,
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "작동하는 콘센트에 전원 코드를 완전히 꽂고 On/Off로 표시창을 확인하는 두 조치를 답했습니다."
+    },
+    {
+      "variant": "parent_kw050",
+      "case_id": "TABLE05",
+      "keyword_percent": 50,
+      "category": "table",
+      "gold_content_region_hit": true,
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "작동하는 콘센트에 전원 코드를 완전히 꽂고 On/Off로 표시창을 확인하는 두 조치를 답했습니다."
+    },
+    {
+      "variant": "parent_kw000",
+      "case_id": "TABLE06",
+      "keyword_percent": 0,
+      "category": "table",
+      "gold_content_region_hit": true,
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "배터리 장착 확인과 매뉴얼의 리모컨 사용 팁을 모두 제시했습니다. 추가 팁에서 오른쪽 스피커라는 방향은 생략돼 표현 보완이 필요합니다."
+    },
+    {
+      "variant": "parent_kw050",
+      "case_id": "TABLE06",
+      "keyword_percent": 50,
+      "category": "table",
+      "gold_content_region_hit": true,
+      "verdict": "partial",
+      "retrieval_sufficiency": "sufficient",
+      "note": "S2 표에 있는 배터리 장착 확인을 생략했습니다. right speaker도 올바른 수신기라고 번역해 오른쪽 방향을 잃었습니다."
+    },
+    {
+      "variant": "parent_kw000",
+      "case_id": "TABLE07",
+      "keyword_percent": 0,
+      "category": "table",
+      "gold_content_region_hit": true,
+      "verdict": "partial",
+      "retrieval_sufficiency": "sufficient",
+      "note": "battery power level을 전압 레벨로 오역했습니다. 충전 상태와 충전이 시작될 때까지 빨간색 점멸이라는 추가 설명은 맞습니다."
+    },
+    {
+      "variant": "parent_kw050",
+      "case_id": "TABLE07",
+      "keyword_percent": 50,
+      "category": "table",
+      "gold_content_region_hit": true,
+      "verdict": "incorrect",
+      "retrieval_sufficiency": "sufficient",
+      "note": "잔량을 전압으로 오역하고 충전이 시작되면 빨간색으로 점멸한다고 답했습니다. 근거는 충전 필요 시 빨강, 충전 중 노랑입니다. 음량 조절 시 배터리 표시가 작동한다는 내용도 뒷받침되지 않습니다."
+    },
+    {
+      "variant": "parent_kw000",
+      "case_id": "TABLE08",
+      "keyword_percent": 0,
+      "category": "table",
+      "gold_content_region_hit": true,
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "표시등 색상으로 잔량을 확인한다는 핵심과 버튼 조작을 답했습니다. 점멸을 네 가지 색상이라고 단정하지 않았으며 추가 충전 중 빨강/완료 파랑도 근거에 있습니다."
+    },
+    {
+      "variant": "parent_kw050",
+      "case_id": "TABLE08",
+      "keyword_percent": 50,
+      "category": "table",
+      "gold_content_region_hit": true,
+      "verdict": "partial",
+      "retrieval_sufficiency": "sufficient",
+      "note": "색상으로 잔량을 확인하는 핵심은 맞지만 파랑의 조건 More than 80%를 80% 이상으로 바꿔 보라색 30~80%와 경계가 겹칩니다. 4회 점멸과 색상 수를 혼동할 수 있는 표현도 남았습니다."
+    },
+    {
+      "variant": "parent_kw000",
+      "case_id": "TABLE09",
+      "keyword_percent": 0,
+      "category": "table",
+      "gold_content_region_hit": true,
+      "verdict": "no_answer",
+      "retrieval_sufficiency": "sufficient",
+      "note": "R 아이콘 설명과 Roaming 대응 표가 입력에 있어 답변할 근거가 있지만 답변을 거부했습니다."
+    },
+    {
+      "variant": "parent_kw050",
+      "case_id": "TABLE09",
+      "keyword_percent": 50,
+      "category": "table",
+      "gold_content_region_hit": true,
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "Roaming이라고 명시해 핵심 정답을 충족합니다. 한국어는 로밍 상태라고 표현하는 편이 명확합니다."
+    },
+    {
+      "variant": "parent_kw000",
+      "case_id": "TABLE10",
+      "keyword_percent": 0,
+      "category": "table",
+      "gold_content_region_hit": true,
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "10-1 코드와 신호가 좋지 않다는 표의 행 대응을 정확히 답했습니다."
+    },
+    {
+      "variant": "parent_kw050",
+      "case_id": "TABLE10",
+      "keyword_percent": 50,
+      "category": "table",
+      "gold_content_region_hit": true,
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "10-1 코드와 신호가 좋지 않다는 표의 행 대응을 정확히 답했습니다."
+    },
+    {
+      "variant": "parent_kw000",
+      "case_id": "FIG01",
+      "keyword_percent": 0,
+      "category": "figure",
+      "gold_content_region_hit": true,
+      "verdict": "partial",
+      "retrieval_sufficiency": "sufficient",
+      "note": "보안경과 안전 수칙은 답했지만 S3의 드릴 비트 중심 맞추기를 누락했습니다. 기존 정답에서 부분정답으로 내려간 사례이며 문맥 확장 후 주변 설치 주의사항을 더 길게 답했습니다."
+    },
+    {
+      "variant": "parent_kw050",
+      "case_id": "FIG01",
+      "keyword_percent": 50,
+      "category": "figure",
+      "gold_content_region_hit": true,
+      "verdict": "partial",
+      "retrieval_sufficiency": "partial",
+      "note": "보안경과 안전 수칙은 맞지만 중심 맞추기 동작은 전달된 근거와 답변에 없습니다. 같은 페이지의 문맥 연결만으로 이 누락까지 해결하지 못했습니다."
+    },
+    {
+      "variant": "parent_kw000",
+      "case_id": "FIG02",
+      "keyword_percent": 0,
+      "category": "figure",
+      "gold_content_region_hit": false,
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "3.5mm(1/8인치) 스테레오 수 플러그라는 연결 규격이 근거와 일치합니다."
+    },
+    {
+      "variant": "parent_kw050",
+      "case_id": "FIG02",
+      "keyword_percent": 50,
+      "category": "figure",
+      "gold_content_region_hit": true,
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "3.5mm(1/8인치) 스테레오 수 플러그라는 연결 규격이 근거와 일치합니다."
+    },
+    {
+      "variant": "parent_kw000",
+      "case_id": "FIG03",
+      "keyword_percent": 0,
+      "category": "figure",
+      "gold_content_region_hit": true,
+      "verdict": "partial",
+      "retrieval_sufficiency": "partial",
+      "note": "My Pictures와 파일 선택은 맞지만 마지막 OK 버튼 이름이 근거와 답변에 없습니다. JPEG를 볼 수 있다는 추가 설명은 근거대로입니다."
+    },
+    {
+      "variant": "parent_kw050",
+      "case_id": "FIG03",
+      "keyword_percent": 50,
+      "category": "figure",
+      "gold_content_region_hit": true,
+      "verdict": "partial",
+      "retrieval_sufficiency": "partial",
+      "note": "마지막 OK 버튼을 특정하지 못했습니다. 원문의 can view JPEG를 JPEG만 볼 수 있다고 확대했습니다. 버튼 아이콘의 의미가 텍스트에 남지 않은 한계입니다."
+    },
+    {
+      "variant": "parent_kw000",
+      "case_id": "FIG04",
+      "keyword_percent": 0,
+      "category": "figure",
+      "gold_content_region_hit": true,
+      "verdict": "incorrect",
+      "retrieval_sufficiency": "insufficient",
+      "note": "원본 기준은 상단의 Play/Stop 오른쪽인데 답변은 Front 제목을 기기 전면 위치로 해석했습니다. 주변 레이블은 추가됐지만 상대 위치 관계를 설명하는 텍스트가 없습니다."
+    },
+    {
+      "variant": "parent_kw050",
+      "case_id": "FIG04",
+      "keyword_percent": 50,
+      "category": "figure",
+      "gold_content_region_hit": true,
+      "verdict": "partial",
+      "retrieval_sufficiency": "insufficient",
+      "note": "상단 표면이라는 일부 위치는 제시했지만 Play/Stop 오른쪽이라는 식별 관계는 없습니다. 전면이라는 제목과 상단 그림 설명만으로 정확한 버튼 위치를 특정하기 어렵습니다."
+    },
+    {
+      "variant": "parent_kw000",
+      "case_id": "FIG05",
+      "keyword_percent": 0,
+      "category": "figure",
+      "gold_content_region_hit": true,
+      "verdict": "incorrect",
+      "retrieval_sufficiency": "sufficient",
+      "note": "핀 펼치기와 지역 어댑터 끼우기의 근거 및 Or가 추가됐지만 두 대안 유형을 잘못 분류하고 두 동작을 연속 절차로 합쳤습니다. prongs도 전선 끝으로 잘못 번역했습니다."
+    },
+    {
+      "variant": "parent_kw050",
+      "case_id": "FIG05",
+      "keyword_percent": 50,
+      "category": "figure",
+      "gold_content_region_hit": true,
+      "verdict": "incorrect",
+      "retrieval_sufficiency": "sufficient",
+      "note": "두 유형을 공급장치/액세서리 충전기로 잘못 분류했습니다. 펼치기 또는 어댑터 끼우기의 대안을 모두 충전기에 적용하는 연속 절차로 잘못 결합했습니다."
+    },
+    {
+      "variant": "parent_kw000",
+      "case_id": "FIG06",
+      "keyword_percent": 0,
+      "category": "figure",
+      "gold_content_region_hit": true,
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "암호 분실 시 사용자 데이터 접근 불가와 초기화 시 전체 삭제를 정확히 답했습니다. 128MB는 소프트웨어 할당 영역이라는 표현을 더 명확히 할 필요가 있습니다."
+    },
+    {
+      "variant": "parent_kw050",
+      "case_id": "FIG06",
+      "keyword_percent": 50,
+      "category": "figure",
+      "gold_content_region_hit": false,
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "암호 분실 시 사용자 데이터 접근 불가와 초기화 시 전체 삭제를 정확히 답했습니다. 128MB는 소프트웨어 할당 영역이라는 표현을 더 명확히 할 필요가 있습니다."
+    },
+    {
+      "variant": "parent_kw000",
+      "case_id": "FIG07",
+      "keyword_percent": 0,
+      "category": "figure",
+      "gold_content_region_hit": true,
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "CD 삽입→프로그램 선택→Yes→Next→Next→Finish를 모두 답하고 재시작은 권장으로 유지했습니다. 부모 연결로 후반 단계가 추가됐습니다."
+    },
+    {
+      "variant": "parent_kw050",
+      "case_id": "FIG07",
+      "keyword_percent": 50,
+      "category": "figure",
+      "gold_content_region_hit": true,
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "CD 삽입→프로그램 선택→Yes→Next→Next→Finish를 모두 답하고 재시작은 권장으로 유지했습니다. 부모 연결로 후반 단계가 추가됐습니다."
+    },
+    {
+      "variant": "parent_kw000",
+      "case_id": "FIG08",
+      "keyword_percent": 0,
+      "category": "figure",
+      "gold_content_region_hit": true,
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "컴퓨터 옆에 배치하기 쉬운 이유를 크기와 형태로 정확히 답했습니다."
+    },
+    {
+      "variant": "parent_kw050",
+      "case_id": "FIG08",
+      "keyword_percent": 50,
+      "category": "figure",
+      "gold_content_region_hit": true,
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "컴퓨터 옆에 배치하기 쉬운 이유를 크기와 형태로 정확히 답했습니다."
+    },
+    {
+      "variant": "parent_kw000",
+      "case_id": "FIG09",
+      "keyword_percent": 0,
+      "category": "figure",
+      "gold_content_region_hit": true,
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "전체 설정 경로와 알림 소리·진동 감소 기능이 근거에 일치합니다."
+    },
+    {
+      "variant": "parent_kw050",
+      "case_id": "FIG09",
+      "keyword_percent": 50,
+      "category": "figure",
+      "gold_content_region_hit": true,
+      "verdict": "correct",
+      "retrieval_sufficiency": "sufficient",
+      "note": "전체 설정 경로와 알림 소리·진동 감소 기능이 근거에 일치합니다."
+    },
+    {
+      "variant": "parent_kw000",
+      "case_id": "FIG10",
+      "keyword_percent": 0,
+      "category": "figure",
+      "gold_content_region_hit": true,
+      "verdict": "partial",
+      "retrieval_sufficiency": "partial",
+      "note": "양옆을 잡고 풀라는 설명은 있지만 원본 그림의 잠금 해제 방향과 구체적인 분리 동작은 설명하지 못했습니다. 기존 확장 평가 기준을 동일하게 적용했습니다."
+    },
+    {
+      "variant": "parent_kw050",
+      "case_id": "FIG10",
+      "keyword_percent": 50,
+      "category": "figure",
+      "gold_content_region_hit": true,
+      "verdict": "partial",
+      "retrieval_sufficiency": "partial",
+      "note": "양쪽을 잡고 당긴다고 답했지만 원본 그림의 잠금 해제 방향을 구체적으로 특정하지 못했습니다. 기존과 같은 부분정답 기준입니다."
+    }
+  ]
+}

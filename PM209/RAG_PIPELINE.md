@@ -1,5 +1,15 @@
 # PM209 청킹·임베딩·검색·답변 실행
 
+2026-11-08, 부모 문맥과 검색 순서를 고정하고 질문 범위에 집중하도록 프롬프트만 변경한 실험을 진행했다. 0% 정답률은 73.3% → 70.0%, 50%는 66.7% → 63.3%였다. 개선을 확인하지 못해 `run-pm209-rag.cmd answer`의 기본은 기존 `pm209-grounded-ko-v1`을 유지한다. `--answer-prompt focused`를 추가하면 실험한 `pm209-focused-ko-v2`를, `--answer-prompt baseline`은 기존 프롬프트를 선택한다. [비교 보고서](reports/qa30_focused_prompt_20261108/REPORT.md)에서 입력·판정·한계를 확인할 수 있다.
+
+2026-11-08, 현재 `answer`·`search`에 **부모 문맥 확장**을 연결했다. 검색 Top-k를 선택한 뒤 같은 소제목·표·연속 절차의 청크를 추가한다. 최초 검색 청크를 우선하고 부모별로 번갈아 문맥을 확장하며, 본문·표를 추가 그림 설명보다 먼저 담는다. 중복을 제거하고 기존 답변 입력 한도와 최대 32개 근거 제한을 적용한다. `--top-k`는 최초 검색 청크 수이며 최종 근거 수는 결과의 `context_expansion`에서 확인한다. `--no-parent-context`를 추가하면 기존 Top-k 입력을 사용한다.
+
+부모 연결은 기존 문서 영역과 500자 청크를 읽어 `datasets/PM209/rag/parent_context_v2/pages/`에 페이지별 JSON으로 보관한다. 들여쓴 표의 소제목, 도면 안의 레이블, 한 제목 아래 연속 번호가 있는 양쪽 열의 절차를 연결한다. 제목과 연결이 불명확한 영역은 같은 원본 영역 안에서 확장하며, 페이지를 넘는 절차 연결은 별도 보완 대상이다. 제목·좌표에 근거한 규칙이므로 모든 연결의 의미 정확도를 수동 확인한 것은 아니다.
+
+다른 PC에서 연결 지도를 준비하려면 `.runtime/venv-rag-lc/Scripts/python.exe -X utf8 PM209/scripts/build_parent_context.py`를 실행한다. 그림 설명과 표를 포함한 `data/paddle_tables_manual_20261026/{train,val,test}.jsonl` 3개 파일과 기존 `full_char500_v1/chunks.jsonl`이 필요하다. 문서 임베딩과 Qdrant 저장은 이 과정에서 재실행하지 않는다. LangChain 체인은 기존 Qdrant 검색 뒤에 `ParentContextStore.prepare_context`를 호출한다. 부모·자식 연결 원리를 적용한 전용 확장기로, 기존 하이브리드 순위를 재사용한다.
+
+30문항·키워드 0%/50% 비교 기록은 [부모 문맥 비교 보고서](reports/qa30_parent_context_20261108_v2/REPORT.md)에 있다. 기존 영어 번역·검색 순위·채점 기준을 고정하고 60개 답변을 새로 생성했다. 전체 정답률은 0%에서 66.7% → 73.3%, 50%에서 60.0% → 66.7%였으며 두 비중 모두 표 정답률이 20.0%p 올랐다. 답변 모델·프롬프트·문맥 한도는 이전 비교와 같다. 같은 질문으로 개발·검수한 결과이므로 독립적인 새 질문 평가가 필요하다. 아래 2026-11-02 수치는 문맥 확장 전 기록이다.
+
 2026-11-02, `answer`·`search`를 **LangChain + Qdrant 내부 dense/BM25 검색**으로 전환했다. 한국어 질문을 영어로 번역해 검색하고, Qwen3.5-4B가 원래 한국어 질문과 검색 근거로 답한다. 현재 경로는 `src/lc_qdrant_rag.py`와 `scripts/langchain_rag.py`다. 채팅 화면과 실제 그림 표시는 아직 구현하지 않았다. 같은 날 앞서 수행한 SQLite 키워드 검색·Python 결합 실험은 아래의 이전 실험 기록으로 보존한다.
 
 전체 인덱스 보존 검증과 30문항 × 5개 비중 × Top-1/5의 새 답변 300개 검수를 마쳤다. 이번 표본의 최고는 키워드 0%·Top-5의 20/30개이며 텍스트 질문은 9/10개다. [청킹·임베딩·검색·답변 핵심 정리와 체크리스트](reports/PM209_RAG_PIPELINE_SUMMARY_20261102_v2.md), [문항별 답변·근거·검수](reports/qa30_lc_qdrant_20261102/report.html), [시스템 검증](reports/qa30_lc_qdrant_20261102/system-validation.json)을 참고한다. Qdrant 내부의 가중 RRF와 BM25 처리 방식이 이전 외부 결합과 달라 순수 프레임워크 효과로 볼 수 없다.

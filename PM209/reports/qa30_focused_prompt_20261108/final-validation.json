@@ -1,0 +1,36 @@
+{
+  "status": "complete",
+  "validated_at": "2026-11-08T13:59:41.889718+00:00",
+  "checks": {
+    "answer_implementation_changed_only_in_prompt_constants": true,
+    "all_60_source_contents_and_order_unchanged": true,
+    "questions_translations_rankings_manual_filters_unchanged": true,
+    "model_options_and_digest_unchanged": true,
+    "all_inputs_fit_without_truncation": true,
+    "all_final_outputs_ended_normally": true,
+    "all_60_outputs_reviewed_under_previous_rubric": true,
+    "evidence_sufficiency_unchanged": true,
+    "protected_files_unchanged_after_cli": true,
+    "real_CLI_default_is_previous_prompt": true,
+    "real_CLI_retains_parent_context_and_query_cache": true,
+    "baseline_and_focused_prompt_routing_tests_passed": true
+  },
+  "protected_files": 412,
+  "changed_files": [],
+  "generation_errors": 0,
+  "embedding_calls": 0,
+  "index_writes": 0,
+  "tests_passed": 24,
+  "deployment": {
+    "CLI_default": "pm209-grounded-ko-v1",
+    "experimental_option": "--answer-prompt focused",
+    "experimental_version": "pm209-focused-ko-v2",
+    "reason": "No overall improvement observed on this development sample"
+  },
+  "limitations": [
+    "Same development questions; not held-out or independent human grading",
+    "One generation per condition; uncertainty across repeated runs not measured",
+    "No image pixels supplied",
+    "Semantic rubric is not a certification of complete citation coverage"
+  ]
+}

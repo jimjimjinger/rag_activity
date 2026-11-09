@@ -1,0 +1,202 @@
+{
+  "date": "2026-11-08",
+  "intervention": "System prompt only",
+  "questions": 30,
+  "new_answers": 60,
+  "reviewer": "Codex assistant, frozen existing rubric; not independent evaluation",
+  "weights": {
+    "0": {
+      "before": {
+        "n": 30,
+        "counts": {
+          "correct": 22,
+          "incorrect": 3,
+          "partial": 4,
+          "no_answer": 1
+        },
+        "correct_percent": 73.3
+      },
+      "after": {
+        "n": 30,
+        "counts": {
+          "correct": 21,
+          "incorrect": 3,
+          "partial": 6
+        },
+        "correct_percent": 70.0
+      },
+      "categories": {
+        "text": {
+          "before": {
+            "n": 10,
+            "counts": {
+              "correct": 9,
+              "incorrect": 1
+            },
+            "correct_percent": 90.0
+          },
+          "after": {
+            "n": 10,
+            "counts": {
+              "correct": 9,
+              "incorrect": 1
+            },
+            "correct_percent": 90.0
+          }
+        },
+        "table": {
+          "before": {
+            "n": 10,
+            "counts": {
+              "correct": 8,
+              "partial": 1,
+              "no_answer": 1
+            },
+            "correct_percent": 80.0
+          },
+          "after": {
+            "n": 10,
+            "counts": {
+              "correct": 8,
+              "partial": 2
+            },
+            "correct_percent": 80.0
+          }
+        },
+        "figure": {
+          "before": {
+            "n": 10,
+            "counts": {
+              "partial": 3,
+              "correct": 5,
+              "incorrect": 2
+            },
+            "correct_percent": 50.0
+          },
+          "after": {
+            "n": 10,
+            "counts": {
+              "correct": 4,
+              "partial": 4,
+              "incorrect": 2
+            },
+            "correct_percent": 40.0
+          }
+        }
+      },
+      "difference_pp": -3.3,
+      "improved_to_correct": [
+        "TABLE09",
+        "FIG01"
+      ],
+      "lost_correct": [
+        "TABLE08",
+        "FIG06",
+        "FIG07"
+      ],
+      "context_sufficiency": {
+        "sufficient": 26,
+        "partial": 3,
+        "insufficient": 1
+      },
+      "mean_answer_chars_before": 118.5,
+      "mean_answer_chars_after": 104.5
+    },
+    "50": {
+      "before": {
+        "n": 30,
+        "counts": {
+          "correct": 20,
+          "partial": 8,
+          "incorrect": 2
+        },
+        "correct_percent": 66.7
+      },
+      "after": {
+        "n": 30,
+        "counts": {
+          "correct": 19,
+          "partial": 8,
+          "no_answer": 1,
+          "incorrect": 2
+        },
+        "correct_percent": 63.3
+      },
+      "categories": {
+        "text": {
+          "before": {
+            "n": 10,
+            "counts": {
+              "correct": 8,
+              "partial": 2
+            },
+            "correct_percent": 80.0
+          },
+          "after": {
+            "n": 10,
+            "counts": {
+              "correct": 9,
+              "partial": 1
+            },
+            "correct_percent": 90.0
+          }
+        },
+        "table": {
+          "before": {
+            "n": 10,
+            "counts": {
+              "correct": 7,
+              "partial": 2,
+              "incorrect": 1
+            },
+            "correct_percent": 70.0
+          },
+          "after": {
+            "n": 10,
+            "counts": {
+              "correct": 5,
+              "partial": 4,
+              "no_answer": 1
+            },
+            "correct_percent": 50.0
+          }
+        },
+        "figure": {
+          "before": {
+            "n": 10,
+            "counts": {
+              "partial": 4,
+              "correct": 5,
+              "incorrect": 1
+            },
+            "correct_percent": 50.0
+          },
+          "after": {
+            "n": 10,
+            "counts": {
+              "partial": 3,
+              "correct": 5,
+              "incorrect": 2
+            },
+            "correct_percent": 50.0
+          }
+        }
+      },
+      "difference_pp": -3.3,
+      "improved_to_correct": [
+        "TEXT08"
+      ],
+      "lost_correct": [
+        "TABLE04",
+        "TABLE09"
+      ],
+      "context_sufficiency": {
+        "sufficient": 26,
+        "partial": 3,
+        "insufficient": 1
+      },
+      "mean_answer_chars_before": 123.5,
+      "mean_answer_chars_after": 100.2
+    }
+  }
+}

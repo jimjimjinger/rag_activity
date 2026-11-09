@@ -1,0 +1,1549 @@
+{
+  "case_id": "FIG01",
+  "manual_id": "og_en_wmsucb",
+  "question": "전동 드릴을 사용하기 전에 무엇에 주의해야 하나요?",
+  "english_query": "What should I pay attention to before using the cordless drill?",
+  "keyword_percent": 0,
+  "variant": "parent_kw000",
+  "top_k": 5,
+  "retrieved_chunk_ids": [
+    "9e949d91-958a-5b90-80f1-8c8b38bea371",
+    "ba169ff7-8963-51df-ae03-f24b8e964454",
+    "9f78d639-5cd4-534b-9782-37894ee48fc2",
+    "4b37c0db-9917-55ff-8817-0b336874fd35",
+    "0cd99f7a-3258-5c07-ba45-0f00bdf3ce51"
+  ],
+  "sources": [
+    {
+      "chunk_id": "9e949d91-958a-5b90-80f1-8c8b38bea371",
+      "manual_id": "og_en_wmsucb",
+      "page_id": "og_en_wmsucb_00004",
+      "chunk_type": "title",
+      "text": "Before using your drill",
+      "content_region_ids": [
+        "og_en_wmsucb_397"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00004.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_397",
+          "shape": {
+            "x": 320.99999999999994,
+            "y": 118.55207824707028,
+            "width": 280.0000000000003,
+            "height": 34.0
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_397",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 23
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [],
+      "score": 0.7437181063304514,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "ba169ff7-8963-51df-ae03-f24b8e964454",
+      "manual_id": "og_en_wmsucb",
+      "page_id": "og_en_wmsucb_00004",
+      "chunk_type": "text",
+      "text": "WARNING: Use eye protection and be sure to observe all safety precautions while using a drill or cutting tool.",
+      "content_region_ids": [
+        "og_en_wmsucb_379"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00004.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_379",
+          "shape": {
+            "x": 326.04000854492205,
+            "y": 228.3548889160156,
+            "width": 428.1311950683592,
+            "height": 67.26736450195315
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_379",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 110
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.6747483716417058,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "9f78d639-5cd4-534b-9782-37894ee48fc2",
+      "manual_id": "og_en_wmsucb",
+      "page_id": "og_en_wmsucb_00004",
+      "chunk_type": "text",
+      "text": "Before you begin to drill, center the tip of the drill bit in each drill hole circle you draw.",
+      "content_region_ids": [
+        "og_en_wmsucb_378"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00004.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_378",
+          "shape": {
+            "x": 322.0400085449221,
+            "y": 153.1119613647461,
+            "width": 575.6361389160153,
+            "height": 44.47049713134774
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_378",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 94
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.5992141096244483,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S3"
+    },
+    {
+      "chunk_id": "4b37c0db-9917-55ff-8817-0b336874fd35",
+      "manual_id": "og_en_wmsucb",
+      "page_id": "og_en_wmsucb_00007",
+      "chunk_type": "text",
+      "text": "Mounting the bracket on a wall\nWARNING: Do NOT use the mounting assembly as a template while drilling.",
+      "content_region_ids": [
+        "og_en_wmsucb_188"
+      ],
+      "context_region_ids": [
+        "og_en_wmsucb_182"
+      ],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00007.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_182",
+          "shape": {
+            "x": 72.00000000000003,
+            "y": 447.50183105468756,
+            "width": 436.002624511719,
+            "height": 32.99279785156256
+          }
+        },
+        {
+          "id": "og_en_wmsucb_188",
+          "shape": {
+            "x": 324.0000000000001,
+            "y": 860.6361083984378,
+            "width": 658.8594970703126,
+            "height": 23.505615234375227
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_188",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 71
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.5817360754054717,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S4"
+    },
+    {
+      "chunk_id": "0cd99f7a-3258-5c07-ba45-0f00bdf3ce51",
+      "manual_id": "og_en_wmsucb",
+      "page_id": "og_en_wmsucb_00005",
+      "chunk_type": "text",
+      "text": "Mounting the bracket under a cabinet\nWARNING: Do NOT use the mounting assembly as a template while drilling.",
+      "content_region_ids": [
+        "og_en_wmsucb_106"
+      ],
+      "context_region_ids": [
+        "og_en_wmsucb_100"
+      ],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00005.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_100",
+          "shape": {
+            "x": 71.99999999999997,
+            "y": 117.98193359374994,
+            "width": 530.9045410156252,
+            "height": 32.99279785156256
+          }
+        },
+        {
+          "id": "og_en_wmsucb_106",
+          "shape": {
+            "x": 324.0000000000002,
+            "y": 396.23611450195307,
+            "width": 658.859497070313,
+            "height": 23.50558471679733
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_106",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 71
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.5817360754054717,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S5"
+    },
+    {
+      "chunk_id": "fab5da79-c76b-5a21-ae31-ced0cffe34f8",
+      "manual_id": "og_en_wmsucb",
+      "page_id": "og_en_wmsucb_00007",
+      "chunk_type": "text",
+      "text": "Mounting the bracket on a wall\nIn a wall mounting, the front of your Wave® system measures 12 inches (30.5 cm) from the rear of the mounting assembly. On either side, your Wave® system measures 7¼ inches ! (18.4 cm) from the center of the platform.",
+      "content_region_ids": [
+        "og_en_wmsucb_183"
+      ],
+      "context_region_ids": [
+        "og_en_wmsucb_182"
+      ],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00007.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_182",
+          "shape": {
+            "x": 72.00000000000003,
+            "y": 447.50183105468756,
+            "width": 436.002624511719,
+            "height": 32.99279785156256
+          }
+        },
+        {
+          "id": "og_en_wmsucb_183",
+          "shape": {
+            "x": 323.999969482422,
+            "y": 492.71621704101585,
+            "width": 800.1289367675789,
+            "height": 68.1064758300779
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_183",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 217
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S6"
+    },
+    {
+      "chunk_id": "2e10a2bf-e166-55f3-b608-4397001194b3",
+      "manual_id": "og_en_wmsucb",
+      "page_id": "og_en_wmsucb_00005",
+      "chunk_type": "text",
+      "text": "Mounting the bracket under a cabinet\nBefore drilling any holes:",
+      "content_region_ids": [
+        "og_en_wmsucb_102"
+      ],
+      "context_region_ids": [
+        "og_en_wmsucb_100"
+      ],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00005.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_100",
+          "shape": {
+            "x": 71.99999999999997,
+            "y": 117.98193359374994,
+            "width": 530.9045410156252,
+            "height": 32.99279785156256
+          }
+        },
+        {
+          "id": "og_en_wmsucb_102",
+          "shape": {
+            "x": 324.0006408691403,
+            "y": 242.1555480957033,
+            "width": 219.50253295898483,
+            "height": 23.226715087890625
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_102",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 26
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S7"
+    },
+    {
+      "chunk_id": "2e60eef6-694e-586f-94d4-011bb5d1e393",
+      "manual_id": "og_en_wmsucb",
+      "page_id": "og_en_wmsucb_00007",
+      "chunk_type": "text",
+      "text": "Mounting the bracket on a wall\nWARNING: For use of the bracket with a Wave® music system and Multi-CD Changer, do NOT mount the bracket directly to wall board (sheetrock). For this purpose, use the type of surface and mounting hardware described in B or C on page 8. Also, for this purpose, do NOT mount the bracket on a wall under a cabinet.\nBefore drilling any holes: 1. Remove the assembly screws and Caution card from the mounting assembly. ! Save both screws for use in assembling the bracket.",
+      "content_region_ids": [
+        "og_en_wmsucb_184",
+        "og_en_wmsucb_185"
+      ],
+      "context_region_ids": [
+        "og_en_wmsucb_182"
+      ],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00007.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_182",
+          "shape": {
+            "x": 72.00000000000003,
+            "y": 447.50183105468756,
+            "width": 436.002624511719,
+            "height": 32.99279785156256
+          }
+        },
+        {
+          "id": "og_en_wmsucb_184",
+          "shape": {
+            "x": 323.9971313476563,
+            "y": 572.5156860351565,
+            "width": 823.0725708007815,
+            "height": 89.34564208984386
+          }
+        },
+        {
+          "id": "og_en_wmsucb_185",
+          "shape": {
+            "x": 324.0000000000001,
+            "y": 683.3519897460943,
+            "width": 737.8188476562503,
+            "height": 80.51049804687477
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_184",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 311
+        },
+        {
+          "region_id": "og_en_wmsucb_185",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 155
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S8"
+    },
+    {
+      "chunk_id": "daeeb7d1-a1b0-5323-a414-7b457224b37b",
+      "manual_id": "og_en_wmsucb",
+      "page_id": "og_en_wmsucb_00007",
+      "chunk_type": "text",
+      "text": "Mounting the bracket on a wall\nSave both screws for use in assembling the bracket.\n2. Position the mounting assembly where you want it on the wall. ! You may use a carpenter’s level to make sure the assembly is straight.\n3. Mark the three drill holes with a pencil (Figure 9).",
+      "content_region_ids": [
+        "og_en_wmsucb_185",
+        "og_en_wmsucb_186",
+        "og_en_wmsucb_187"
+      ],
+      "context_region_ids": [
+        "og_en_wmsucb_182"
+      ],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00007.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_182",
+          "shape": {
+            "x": 72.00000000000003,
+            "y": 447.50183105468756,
+            "width": 436.002624511719,
+            "height": 32.99279785156256
+          }
+        },
+        {
+          "id": "og_en_wmsucb_185",
+          "shape": {
+            "x": 324.0000000000001,
+            "y": 683.3519897460943,
+            "width": 737.8188476562503,
+            "height": 80.51049804687477
+          }
+        },
+        {
+          "id": "og_en_wmsucb_186",
+          "shape": {
+            "x": 323.9979553222657,
+            "y": 771.4924316406258,
+            "width": 661.9273376464848,
+            "height": 48.28948974609318
+          }
+        },
+        {
+          "id": "og_en_wmsucb_187",
+          "shape": {
+            "x": 323.9978637695314,
+            "y": 828.5944824218753,
+            "width": 469.01422119140653,
+            "height": 23.22674560546875
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_185",
+          "field": "ocr_normalized",
+          "start": 104,
+          "end": 155
+        },
+        {
+          "region_id": "og_en_wmsucb_186",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 137
+        },
+        {
+          "region_id": "og_en_wmsucb_187",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 55
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S9"
+    },
+    {
+      "chunk_id": "715a09db-fa72-552d-9afd-e0b95c867aea",
+      "manual_id": "og_en_wmsucb",
+      "page_id": "og_en_wmsucb_00005",
+      "chunk_type": "text",
+      "text": "Mounting the bracket under a cabinet\nMarking drill holes for under-cabinet mounting",
+      "content_region_ids": [
+        "og_en_wmsucb_108"
+      ],
+      "context_region_ids": [
+        "og_en_wmsucb_100"
+      ],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00005.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_100",
+          "shape": {
+            "x": 71.99999999999997,
+            "y": 117.98193359374994,
+            "width": 530.9045410156252,
+            "height": 32.99279785156256
+          }
+        },
+        {
+          "id": "og_en_wmsucb_108",
+          "shape": {
+            "x": 71.99999999999997,
+            "y": 469.24172973632784,
+            "width": 184.42440795898446,
+            "height": 38.97000122070318
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_108",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 46
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S10"
+    },
+    {
+      "chunk_id": "d23dfbec-715b-5e08-8c66-e7587624096b",
+      "manual_id": "og_en_wmsucb",
+      "page_id": "og_en_wmsucb_00005",
+      "chunk_type": "text",
+      "text": "Mounting the bracket under a cabinet\nCabinet screws and capnuts",
+      "content_region_ids": [
+        "og_en_wmsucb_115"
+      ],
+      "context_region_ids": [
+        "og_en_wmsucb_100"
+      ],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00005.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_100",
+          "shape": {
+            "x": 71.99999999999997,
+            "y": 117.98193359374994,
+            "width": 530.9045410156252,
+            "height": 32.99279785156256
+          }
+        },
+        {
+          "id": "og_en_wmsucb_115",
+          "shape": {
+            "x": 584.0393066406251,
+            "y": 806.0342407226562,
+            "width": 265.01171875,
+            "height": 24.226745605468864
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_115",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 26
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S11"
+    },
+    {
+      "chunk_id": "f7d5587c-8c9a-5ae9-81b1-421370a69edf",
+      "manual_id": "og_en_wmsucb",
+      "page_id": "og_en_wmsucb_00007",
+      "chunk_type": "text",
+      "text": "Mounting the bracket on a wall\nMarking drill holes for wall mounting",
+      "content_region_ids": [
+        "og_en_wmsucb_190"
+      ],
+      "context_region_ids": [
+        "og_en_wmsucb_182"
+      ],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00007.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_182",
+          "shape": {
+            "x": 72.00000000000003,
+            "y": 447.50183105468756,
+            "width": 436.002624511719,
+            "height": 32.99279785156256
+          }
+        },
+        {
+          "id": "og_en_wmsucb_190",
+          "shape": {
+            "x": 72.00000000000003,
+            "y": 933.5220336914066,
+            "width": 198.16738891601565,
+            "height": 38.96997070312534
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_190",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 37
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S12"
+    },
+    {
+      "chunk_id": "6cbdb643-8ab2-558c-bb0a-be60311fcbc3",
+      "manual_id": "og_en_wmsucb",
+      "page_id": "og_en_wmsucb_00005",
+      "chunk_type": "text",
+      "text": "Mounting the bracket under a cabinet\nBracket",
+      "content_region_ids": [
+        "og_en_wmsucb_125"
+      ],
+      "context_region_ids": [
+        "og_en_wmsucb_100"
+      ],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00005.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_100",
+          "shape": {
+            "x": 71.99999999999997,
+            "y": 117.98193359374994,
+            "width": 530.9045410156252,
+            "height": 32.99279785156256
+          }
+        },
+        {
+          "id": "og_en_wmsucb_125",
+          "shape": {
+            "x": 599.880554199219,
+            "y": 1311.0234375000002,
+            "width": 62.30517578125,
+            "height": 20.988037109375227
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_125",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 7
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S13"
+    },
+    {
+      "chunk_id": "5b027a56-b1af-5be0-9aa1-c8126d9a386d",
+      "manual_id": "og_en_wmsucb",
+      "page_id": "og_en_wmsucb_00007",
+      "chunk_type": "figure",
+      "text": "Mounting the bracket on a wall\nFigure 9 shows marking drill holes for wall mounting. A hand holds a pencil against a vertical surface while another hand supports a rectangular device positioned horizontally below the mark point.",
+      "content_region_ids": [
+        "og_en_wmsucb_194"
+      ],
+      "context_region_ids": [
+        "og_en_wmsucb_182"
+      ],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00007.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_182",
+          "shape": {
+            "x": 72.00000000000003,
+            "y": 447.50183105468756,
+            "width": 436.002624511719,
+            "height": 32.99279785156256
+          }
+        },
+        {
+          "id": "og_en_wmsucb_194",
+          "shape": {
+            "x": 52.00000000000001,
+            "y": 890.5590820312501,
+            "width": 594.0,
+            "height": 434.9999999999999
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_194",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 197
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S14"
+    },
+    {
+      "chunk_id": "cce56bbc-df3e-5384-8c38-c044a35ed921",
+      "manual_id": "og_en_wmsucb",
+      "page_id": "og_en_wmsucb_00005",
+      "chunk_type": "text",
+      "text": "Mounting the bracket under a cabinet\n¼\"",
+      "content_region_ids": [
+        "og_en_wmsucb_143"
+      ],
+      "context_region_ids": [
+        "og_en_wmsucb_100"
+      ],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00005.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_100",
+          "shape": {
+            "x": 71.99999999999997,
+            "y": 117.98193359374994,
+            "width": 530.9045410156252,
+            "height": 32.99279785156256
+          }
+        },
+        {
+          "id": "og_en_wmsucb_143",
+          "shape": {
+            "x": 487.99537489149304,
+            "y": 1351.8025173611109,
+            "width": 25.777777777777715,
+            "height": 21.77777777777783
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_143",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 2
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S15"
+    },
+    {
+      "chunk_id": "211989a7-c35c-5656-9ac8-85664e6293a9",
+      "manual_id": "og_en_wmsucb",
+      "page_id": "og_en_wmsucb_00007",
+      "chunk_type": "figure",
+      "text": "Mounting the bracket on a wall\nA hand holds a rectangular device against a wall while another hand uses a pencil to mark its position. The device has visible buttons and ports on its side.",
+      "content_region_ids": [
+        "og_en_wmsucb_193"
+      ],
+      "context_region_ids": [
+        "og_en_wmsucb_182"
+      ],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00007.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_182",
+          "shape": {
+            "x": 72.00000000000003,
+            "y": 447.50183105468756,
+            "width": 436.002624511719,
+            "height": 32.99279785156256
+          }
+        },
+        {
+          "id": "og_en_wmsucb_193",
+          "shape": {
+            "x": 317.99999999999994,
+            "y": 901.5590820312503,
+            "width": 322.00000000000006,
+            "height": 410.99999999999943
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_193",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 157
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S16"
+    },
+    {
+      "chunk_id": "4259dd68-a300-5a99-98d8-aad0799ae4bb",
+      "manual_id": "og_en_wmsucb",
+      "page_id": "og_en_wmsucb_00005",
+      "chunk_type": "text",
+      "text": "Mounting the bracket under a cabinet\n¼\"\n6.5 mm",
+      "content_region_ids": [
+        "og_en_wmsucb_127",
+        "og_en_wmsucb_128"
+      ],
+      "context_region_ids": [
+        "og_en_wmsucb_100"
+      ],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00005.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_100",
+          "shape": {
+            "x": 71.99999999999997,
+            "y": 117.98193359374994,
+            "width": 530.9045410156252,
+            "height": 32.99279785156256
+          }
+        },
+        {
+          "id": "og_en_wmsucb_127",
+          "shape": {
+            "x": 387.1205444335937,
+            "y": 1353.3484971788198,
+            "width": 25.739013671875284,
+            "height": 20.543592664930657
+          }
+        },
+        {
+          "id": "og_en_wmsucb_128",
+          "shape": {
+            "x": 373.2000122070313,
+            "y": 1378.1481933593757,
+            "width": 48.555447048611256,
+            "height": 16.23071289062341
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_127",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "region_id": "og_en_wmsucb_128",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 6
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S17"
+    },
+    {
+      "chunk_id": "662a9968-8e90-549d-8147-e9b92b708250",
+      "manual_id": "og_en_wmsucb",
+      "page_id": "og_en_wmsucb_00005",
+      "chunk_type": "text",
+      "text": "Mounting the bracket under a cabinet\n6.5 mm",
+      "content_region_ids": [
+        "og_en_wmsucb_145"
+      ],
+      "context_region_ids": [
+        "og_en_wmsucb_100"
+      ],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00005.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_100",
+          "shape": {
+            "x": 71.99999999999997,
+            "y": 117.98193359374994,
+            "width": 530.9045410156252,
+            "height": 32.99279785156256
+          }
+        },
+        {
+          "id": "og_en_wmsucb_145",
+          "shape": {
+            "x": 485.7731526692711,
+            "y": 1378.4691840277778,
+            "width": 51.555555555555316,
+            "height": 16.44444444444389
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_145",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 6
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S18"
+    },
+    {
+      "chunk_id": "be0602d3-ad58-572c-888d-2691987cf2ee",
+      "manual_id": "og_en_wmsucb",
+      "page_id": "og_en_wmsucb_00005",
+      "chunk_type": "text",
+      "text": "Mounting the bracket under a cabinet\n¼\"- 20 x 1¼\"",
+      "content_region_ids": [
+        "og_en_wmsucb_116"
+      ],
+      "context_region_ids": [
+        "og_en_wmsucb_100"
+      ],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00005.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_100",
+          "shape": {
+            "x": 71.99999999999997,
+            "y": 117.98193359374994,
+            "width": 530.9045410156252,
+            "height": 32.99279785156256
+          }
+        },
+        {
+          "id": "og_en_wmsucb_116",
+          "shape": {
+            "x": 621.1199951171876,
+            "y": 948.4761352539065,
+            "width": 105.6868286132808,
+            "height": 23.226745605469205
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_116",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 12
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S19"
+    },
+    {
+      "chunk_id": "a8418c36-8380-5bdb-846e-f5b5d49e61ce",
+      "manual_id": "og_en_wmsucb",
+      "page_id": "og_en_wmsucb_00005",
+      "chunk_type": "text",
+      "text": "Mounting the bracket under a cabinet\nCabinet screws",
+      "content_region_ids": [
+        "og_en_wmsucb_124"
+      ],
+      "context_region_ids": [
+        "og_en_wmsucb_100"
+      ],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00005.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_100",
+          "shape": {
+            "x": 71.99999999999997,
+            "y": 117.98193359374994,
+            "width": 530.9045410156252,
+            "height": 32.99279785156256
+          }
+        },
+        {
+          "id": "og_en_wmsucb_124",
+          "shape": {
+            "x": 711.3599853515632,
+            "y": 1261.8239746093757,
+            "width": 124.28442382812443,
+            "height": 20.988037109374545
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_124",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 14
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S20"
+    },
+    {
+      "chunk_id": "95a816a3-9ed1-5dab-82cb-c3d0a9ed0da2",
+      "manual_id": "og_en_wmsucb",
+      "page_id": "og_en_wmsucb_00005",
+      "chunk_type": "text",
+      "text": "Mounting the bracket under a cabinet\nCap nuts",
+      "content_region_ids": [
+        "og_en_wmsucb_126"
+      ],
+      "context_region_ids": [
+        "og_en_wmsucb_100"
+      ],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00005.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_100",
+          "shape": {
+            "x": 71.99999999999997,
+            "y": 117.98193359374994,
+            "width": 530.9045410156252,
+            "height": 32.99279785156256
+          }
+        },
+        {
+          "id": "og_en_wmsucb_126",
+          "shape": {
+            "x": 801.8405761718755,
+            "y": 1325.1839599609375,
+            "width": 72.93060302734341,
+            "height": 20.988037109374545
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_126",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 8
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S21"
+    },
+    {
+      "chunk_id": "7c678b6c-7d7d-5c64-ae17-a3c4353fdf99",
+      "manual_id": "og_en_wmsucb",
+      "page_id": "og_en_wmsucb_00005",
+      "chunk_type": "figure",
+      "text": "Mounting the bracket under a cabinet\nFigure 4 shows hands marking drill holes on a flat surface using a vertical bracket as a guide for under-cabinet mounting.",
+      "content_region_ids": [
+        "og_en_wmsucb_131"
+      ],
+      "context_region_ids": [
+        "og_en_wmsucb_100"
+      ],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00005.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_100",
+          "shape": {
+            "x": 71.99999999999997,
+            "y": 117.98193359374994,
+            "width": 530.9045410156252,
+            "height": 32.99279785156256
+          }
+        },
+        {
+          "id": "og_en_wmsucb_131",
+          "shape": {
+            "x": 69.98958301544195,
+            "y": 430.55209350585943,
+            "width": 639.9999999999993,
+            "height": 289.9999999999996
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_131",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 122
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S22"
+    }
+  ],
+  "excluded_sources": [
+    {
+      "chunk_id": "87c78e46-17e2-57e4-b108-eed7d54a7025",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "154f47c1-7246-5e91-b178-932fb5245774",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "21ee2b62-15f3-52cd-9b01-7ed36874f1c1",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "2e524a33-5eac-50ea-bf4f-91819635bbfe",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "0d8a7273-5431-5554-9651-2674d848da7d",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "343c360c-55a5-56bd-b72a-6387340bceff",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "15825d4f-ecb6-5f22-a9a4-423fb1c71810",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "a42eefaa-7f96-55bd-abe1-2fc68152cac0",
+      "reason": "context_budget"
+    }
+  ],
+  "context_expansion": {
+    "version": "pm209-parent-context-v2",
+    "store": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\datasets\\PM209\\rag\\parent_context_v2",
+    "seed_chunk_ids": [
+      "9e949d91-958a-5b90-80f1-8c8b38bea371",
+      "ba169ff7-8963-51df-ae03-f24b8e964454",
+      "9f78d639-5cd4-534b-9782-37894ee48fc2",
+      "4b37c0db-9917-55ff-8817-0b336874fd35",
+      "0cd99f7a-3258-5c07-ba45-0f00bdf3ce51"
+    ],
+    "parents": [
+      {
+        "parent_id": "og_en_wmsucb_397",
+        "title": "Before using your drill",
+        "kind": "section",
+        "link_reasons": [
+          "heading"
+        ],
+        "page_id": "og_en_wmsucb_00004"
+      },
+      {
+        "parent_id": "og_en_wmsucb_379",
+        "title": "",
+        "kind": "original_region",
+        "link_reasons": [
+          "original_region_only"
+        ],
+        "page_id": "og_en_wmsucb_00004"
+      },
+      {
+        "parent_id": "og_en_wmsucb_378",
+        "title": "",
+        "kind": "original_region",
+        "link_reasons": [
+          "original_region_only"
+        ],
+        "page_id": "og_en_wmsucb_00004"
+      },
+      {
+        "parent_id": "og_en_wmsucb_182",
+        "title": "Mounting the bracket on a wall",
+        "kind": "section",
+        "link_reasons": [
+          "contained_object_label",
+          "nearest_heading_in_reading_column"
+        ],
+        "page_id": "og_en_wmsucb_00007"
+      },
+      {
+        "parent_id": "og_en_wmsucb_100",
+        "title": "Mounting the bracket under a cabinet",
+        "kind": "section",
+        "link_reasons": [
+          "contained_object_label",
+          "nearest_heading_in_reading_column",
+          "unambiguous_object_caption"
+        ],
+        "page_id": "og_en_wmsucb_00005"
+      }
+    ],
+    "title_corrections": [
+      {
+        "chunk_id": "fab5da79-c76b-5a21-ae31-ced0cffe34f8",
+        "old": "",
+        "new": "Mounting the bracket on a wall"
+      },
+      {
+        "chunk_id": "2e60eef6-694e-586f-94d4-011bb5d1e393",
+        "old": "",
+        "new": "Mounting the bracket on a wall"
+      },
+      {
+        "chunk_id": "daeeb7d1-a1b0-5323-a414-7b457224b37b",
+        "old": "",
+        "new": "Mounting the bracket on a wall"
+      },
+      {
+        "chunk_id": "4b37c0db-9917-55ff-8817-0b336874fd35",
+        "old": "",
+        "new": "Mounting the bracket on a wall"
+      },
+      {
+        "chunk_id": "f7d5587c-8c9a-5ae9-81b1-421370a69edf",
+        "old": "Figure 9",
+        "new": "Mounting the bracket on a wall"
+      },
+      {
+        "chunk_id": "87c78e46-17e2-57e4-b108-eed7d54a7025",
+        "old": "",
+        "new": "Mounting the bracket under a cabinet"
+      },
+      {
+        "chunk_id": "7c678b6c-7d7d-5c64-ae17-a3c4353fdf99",
+        "old": "",
+        "new": "Mounting the bracket under a cabinet"
+      },
+      {
+        "chunk_id": "21ee2b62-15f3-52cd-9b01-7ed36874f1c1",
+        "old": "",
+        "new": "Mounting the bracket under a cabinet"
+      },
+      {
+        "chunk_id": "15825d4f-ecb6-5f22-a9a4-423fb1c71810",
+        "old": "Supplied hardware to use",
+        "new": "Mounting the bracket under a cabinet"
+      },
+      {
+        "chunk_id": "343c360c-55a5-56bd-b72a-6387340bceff",
+        "old": "Mounting surface",
+        "new": "Mounting the bracket under a cabinet"
+      },
+      {
+        "chunk_id": "0d8a7273-5431-5554-9651-2674d848da7d",
+        "old": "",
+        "new": "Mounting the bracket under a cabinet"
+      },
+      {
+        "chunk_id": "a42eefaa-7f96-55bd-abe1-2fc68152cac0",
+        "old": "Drill bit type",
+        "new": "Mounting the bracket under a cabinet"
+      },
+      {
+        "chunk_id": "2e524a33-5eac-50ea-bf4f-91819635bbfe",
+        "old": "",
+        "new": "Mounting the bracket under a cabinet"
+      },
+      {
+        "chunk_id": "154f47c1-7246-5e91-b178-932fb5245774",
+        "old": "",
+        "new": "Mounting the bracket under a cabinet"
+      },
+      {
+        "chunk_id": "715a09db-fa72-552d-9afd-e0b95c867aea",
+        "old": "Figure 4",
+        "new": "Mounting the bracket under a cabinet"
+      },
+      {
+        "chunk_id": "cce56bbc-df3e-5384-8c38-c044a35ed921",
+        "old": "Mounting surface",
+        "new": "Mounting the bracket under a cabinet"
+      },
+      {
+        "chunk_id": "45dcf13d-e4ba-5977-b5a3-2768153e3763",
+        "old": "Mounting surface",
+        "new": "Mounting the bracket under a cabinet"
+      },
+      {
+        "chunk_id": "4259dd68-a300-5a99-98d8-aad0799ae4bb",
+        "old": "Mounting surface",
+        "new": "Mounting the bracket under a cabinet"
+      },
+      {
+        "chunk_id": "662a9968-8e90-549d-8147-e9b92b708250",
+        "old": "Mounting surface",
+        "new": "Mounting the bracket under a cabinet"
+      },
+      {
+        "chunk_id": "9e538611-fc23-5ebf-b5d3-7623392352ea",
+        "old": "Mounting surface",
+        "new": "Mounting the bracket under a cabinet"
+      },
+      {
+        "chunk_id": "be0602d3-ad58-572c-888d-2691987cf2ee",
+        "old": "Supplied hardware to use",
+        "new": "Mounting the bracket under a cabinet"
+      },
+      {
+        "chunk_id": "a8418c36-8380-5bdb-846e-f5b5d49e61ce",
+        "old": "Supplied hardware to use",
+        "new": "Mounting the bracket under a cabinet"
+      },
+      {
+        "chunk_id": "95a816a3-9ed1-5dab-82cb-c3d0a9ed0da2",
+        "old": "Supplied hardware to use",
+        "new": "Mounting the bracket under a cabinet"
+      },
+      {
+        "chunk_id": "0cd99f7a-3258-5c07-ba45-0f00bdf3ce51",
+        "old": "",
+        "new": "Mounting the bracket under a cabinet"
+      },
+      {
+        "chunk_id": "d23dfbec-715b-5e08-8c66-e7587624096b",
+        "old": "",
+        "new": "Mounting the bracket under a cabinet"
+      },
+      {
+        "chunk_id": "6cbdb643-8ab2-558c-bb0a-be60311fcbc3",
+        "old": "",
+        "new": "Mounting the bracket under a cabinet"
+      }
+    ],
+    "duplicates_removed": [
+      "45dcf13d-e4ba-5977-b5a3-2768153e3763",
+      "9e538611-fc23-5ebf-b5d3-7623392352ea"
+    ],
+    "added_chunk_ids": [
+      "fab5da79-c76b-5a21-ae31-ced0cffe34f8",
+      "2e10a2bf-e166-55f3-b608-4397001194b3",
+      "2e60eef6-694e-586f-94d4-011bb5d1e393",
+      "daeeb7d1-a1b0-5323-a414-7b457224b37b",
+      "715a09db-fa72-552d-9afd-e0b95c867aea",
+      "d23dfbec-715b-5e08-8c66-e7587624096b",
+      "f7d5587c-8c9a-5ae9-81b1-421370a69edf",
+      "6cbdb643-8ab2-558c-bb0a-be60311fcbc3",
+      "5b027a56-b1af-5be0-9aa1-c8126d9a386d",
+      "cce56bbc-df3e-5384-8c38-c044a35ed921",
+      "211989a7-c35c-5656-9ac8-85664e6293a9",
+      "4259dd68-a300-5a99-98d8-aad0799ae4bb",
+      "662a9968-8e90-549d-8147-e9b92b708250",
+      "be0602d3-ad58-572c-888d-2691987cf2ee",
+      "a8418c36-8380-5bdb-846e-f5b5d49e61ce",
+      "95a816a3-9ed1-5dab-82cb-c3d0a9ed0da2",
+      "7c678b6c-7d7d-5c64-ae17-a3c4353fdf99"
+    ],
+    "seed_count": 5,
+    "source_count": 22,
+    "added_count": 17,
+    "context_chars": 2628,
+    "prompt_token_upper_bound": 7053
+  },
+  "created_at": "2026-11-08T13:26:55.849338+00:00",
+  "status": "answered",
+  "answer": "전동 드릴을 사용하기 전에는 안경 보호구를 착용하고, 드릴 또는 절단 도구를 사용할 때 모든 안전 수칙을 준수해야 합니다. 또한 벽에 브래킷을 설치할 때는 벽면 보드 (시트록) 에 직접 브래킷을 고정하지 말고, 페이지 8의 B 또는 C 항목에 설명된 표면과 마운팅 하드웨어를 사용해야 합니다.",
+  "source_ids": [
+    "S2",
+    "S8"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 118,
+        "prompt_eval_count": 1591,
+        "total_duration": 3048587400,
+        "load_duration": 11390800,
+        "attempt": 1,
+        "prompt_token_upper_bound": 6975
+      }
+    ],
+    "elapsed_seconds": 3.0548996999996234,
+    "backend": "LangChain ChatPromptTemplate | ChatOllama"
+  },
+  "citations": [
+    {
+      "chunk_id": "ba169ff7-8963-51df-ae03-f24b8e964454",
+      "manual_id": "og_en_wmsucb",
+      "page_id": "og_en_wmsucb_00004",
+      "chunk_type": "text",
+      "text": "WARNING: Use eye protection and be sure to observe all safety precautions while using a drill or cutting tool.",
+      "content_region_ids": [
+        "og_en_wmsucb_379"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00004.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_379",
+          "shape": {
+            "x": 326.04000854492205,
+            "y": 228.3548889160156,
+            "width": 428.1311950683592,
+            "height": 67.26736450195315
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_379",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 110
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.6747483716417058,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "2e60eef6-694e-586f-94d4-011bb5d1e393",
+      "manual_id": "og_en_wmsucb",
+      "page_id": "og_en_wmsucb_00007",
+      "chunk_type": "text",
+      "text": "Mounting the bracket on a wall\nWARNING: For use of the bracket with a Wave® music system and Multi-CD Changer, do NOT mount the bracket directly to wall board (sheetrock). For this purpose, use the type of surface and mounting hardware described in B or C on page 8. Also, for this purpose, do NOT mount the bracket on a wall under a cabinet.\nBefore drilling any holes: 1. Remove the assembly screws and Caution card from the mounting assembly. ! Save both screws for use in assembling the bracket.",
+      "content_region_ids": [
+        "og_en_wmsucb_184",
+        "og_en_wmsucb_185"
+      ],
+      "context_region_ids": [
+        "og_en_wmsucb_182"
+      ],
+      "image_filename": "images/og_en_wmsucb/images/og_en_wmsucb_00007.jpg",
+      "source_shapes": [
+        {
+          "id": "og_en_wmsucb_182",
+          "shape": {
+            "x": 72.00000000000003,
+            "y": 447.50183105468756,
+            "width": 436.002624511719,
+            "height": 32.99279785156256
+          }
+        },
+        {
+          "id": "og_en_wmsucb_184",
+          "shape": {
+            "x": 323.9971313476563,
+            "y": 572.5156860351565,
+            "width": 823.0725708007815,
+            "height": 89.34564208984386
+          }
+        },
+        {
+          "id": "og_en_wmsucb_185",
+          "shape": {
+            "x": 324.0000000000001,
+            "y": 683.3519897460943,
+            "width": 737.8188476562503,
+            "height": 80.51049804687477
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "og_en_wmsucb_184",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 311
+        },
+        {
+          "region_id": "og_en_wmsucb_185",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 155
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S8"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 3.055055099999663,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 5226,
+    "temperature_c": 70,
+    "utilization_percent": 92
+  }
+}

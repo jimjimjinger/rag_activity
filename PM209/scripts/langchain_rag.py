@@ -9,9 +9,23 @@ import uuid
 
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'src'))
 import lc_qdrant_rag as app
+from parent_context import DEFAULT_STORE, ParentContextStore
+
+ANSWER_PROMPTS = {
+    'baseline': ('pm209-grounded-ko-v1', app.answering.SYSTEM_PROMPT_V1),
+    'focused': (app.answering.PROMPT_VERSION, app.answering.SYSTEM_PROMPT),
+}
+
+
+def select_answer_prompt(name):
+    # This CLI runs one chain per process. Select before context budgeting so
+    # evidence selection and generation always use the same system prompt.
+    app.answering.PROMPT_VERSION, app.answering.SYSTEM_PROMPT = ANSWER_PROMPTS[name]
 
 
 def run(args):
+    select_answer_prompt(args.answer_prompt)
+    context_expander = None if args.no_parent_context else ParentContextStore(args.parent_context)
     validation=app.legacy.read_json(app.OUTPUT/'final-validation.json')
     identity=app.legacy.read_json(app.OUTPUT/'index-identity.json')
     if validation['status']!='complete' or identity['packages']!=app.versions():
@@ -32,7 +46,8 @@ def run(args):
         if client.count(app.COLLECTION,count_filter=f,exact=True).count==0:
             raise ValueError('Unknown manual_id: '+args.manual)
         if args.stage=='answer':
-            chain=app.rag_chain(retriever,app.LocalChat(args.url),args.keyword_percent,args.top_k,not args.no_translate)
+            chain=app.rag_chain(retriever,app.LocalChat(args.url),args.keyword_percent,args.top_k,
+                                not args.no_translate,context_expander=context_expander)
             result=chain.invoke({'question':args.query,'manual':args.manual})
         else:
             app.answering.prepare_context(args.query,[],args.manual)
@@ -42,6 +57,9 @@ def run(args):
             hits=retriever.search(query,args.manual,args.keyword_percent,args.top_k)
             embeddings.unload()
             result={'question':args.query,'manual':args.manual,'search_query':query,'translation':translation,'hits':hits}
+            if context_expander is not None:
+                sources,excluded,expansion=context_expander.prepare_context(args.query,hits,args.manual)
+                result.update(sources=sources,excluded_sources=excluded,context_expansion=expansion)
         result.update(keyword_percent=args.keyword_percent,top_k=args.top_k,rrf_k=app.RRF_K,
                       candidate_k=app.CANDIDATE_K,backend='LangChain + Qdrant native dense/BM25/weighted RRF',
                       query_embeddings_reused=embeddings.query_reused,query_embeddings_generated=embeddings.query_generated)
@@ -62,6 +80,10 @@ if __name__=='__main__':
     parser.add_argument('--keyword-percent',type=int,choices=range(101),metavar='0..100',default=50)
     parser.add_argument('--top-k',type=int,choices=range(1,21),metavar='1..20',default=5)
     parser.add_argument('--no-translate',action='store_true',help='Use original question as search query')
+    parser.add_argument('--parent-context',type=Path,default=DEFAULT_STORE)
+    parser.add_argument('--no-parent-context',action='store_true',help='Use the original Top-k evidence only')
+    parser.add_argument('--answer-prompt',choices=ANSWER_PROMPTS,default='baseline',
+                        help='baseline: previous prompt (default); focused: experimental concise prompt')
     parser.add_argument('--url',default='http://127.0.0.1:11434')
     parser.add_argument('--save',type=Path)
     try:run(parser.parse_args())

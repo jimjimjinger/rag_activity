@@ -1,0 +1,1572 @@
+{
+  "case_id": "TABLE05",
+  "manual_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a",
+  "question": "시스템이 작동하지 않으면 어떻게 해야 하나요?",
+  "english_query": "What should I do if the system does not work?",
+  "keyword_percent": 0,
+  "variant": "focused_kw000",
+  "top_k": 5,
+  "retrieved_chunk_ids": [
+    "b53003b8-6559-5888-ab8c-8e6265119cdd",
+    "5ef6e198-e037-5285-b6f2-64e6bf1c86d1",
+    "16eba013-1ac2-5a0b-9c04-f150ccd6ec0e",
+    "5608a841-85db-5ab8-a5ac-21431b738811",
+    "6f764721-e5dd-5ee2-8732-8078b5869264"
+  ],
+  "sources": [
+    {
+      "chunk_id": "b53003b8-6559-5888-ab8c-8e6265119cdd",
+      "manual_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a",
+      "page_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00026",
+      "chunk_type": "table",
+      "text": "Troubleshooting\nFirst row (header unconfirmed): Column 1: Problem | Column 2: What to do\nColumn 1: Problem | Column 2: What to do\nColumn 1: System does not function | Column 2: . Make sure the power cord is fully plugged into an operating electrical outlet. Press On/Off to see if the display lights.",
+      "content_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_609"
+      ],
+      "context_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_592"
+      ],
+      "image_filename": "images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a/images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00027.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_592",
+          "shape": {
+            "x": 71.99804687500003,
+            "y": 114.84631347656249,
+            "width": 224.74398803710935,
+            "height": 38.474868774414134
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_609",
+          "shape": {
+            "x": 56.25,
+            "y": 152.1281147003174,
+            "width": 1100.25,
+            "height": 792.0
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "score": 0.6079524359160597,
+      "table_rows": [
+        0,
+        1
+      ],
+      "table_cells": [
+        {
+          "row": 0,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "5ef6e198-e037-5285-b6f2-64e6bf1c86d1",
+      "manual_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a",
+      "page_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00026",
+      "chunk_type": "text",
+      "text": "Customer service\nIf you lose your remote, additional remotes are available from Bose® Customer Service. For additional help in solving problems, contact Bose Customer Service. See the phone numbers listed inside the back cover of this guide.",
+      "content_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_594"
+      ],
+      "context_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_593"
+      ],
+      "image_filename": "images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a/images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00027.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_593",
+          "shape": {
+            "x": 71.99804687500003,
+            "y": 949.806884765625,
+            "width": 249.89120483398435,
+            "height": 36.474853515625114
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_594",
+          "shape": {
+            "x": 323.99798583984364,
+            "y": 995.7039794921873,
+            "width": 781.2384643554691,
+            "height": 71.52673339843773
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_594",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 224
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.5361548395759776,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "16eba013-1ac2-5a0b-9c04-f150ccd6ec0e",
+      "manual_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a",
+      "page_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00007",
+      "chunk_type": "text",
+      "text": "The setup menu allows you to personalize system operation\n• Reset to factory settings",
+      "content_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_36"
+      ],
+      "context_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_43"
+      ],
+      "image_filename": "images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a/images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00008.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_36",
+          "shape": {
+            "x": 880.0928955078131,
+            "y": 1434.424072265625,
+            "width": 246.04418945312443,
+            "height": 27.369995117186818
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_43",
+          "shape": {
+            "x": 320.99999999999983,
+            "y": 1221.640625,
+            "width": 727.9999999999998,
+            "height": 35.00000000000023
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_36",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 27
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.5321331821423192,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S3"
+    },
+    {
+      "chunk_id": "5608a841-85db-5ab8-a5ac-21431b738811",
+      "manual_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a",
+      "page_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00021",
+      "chunk_type": "table",
+      "text": "Wave® music system Setup Menu\nFirst row (header unconfirmed): Column 1: System Setting | Column 2: Menu Item | Column 3: Factory Setting | Column 4: Choices | Column 5: Description\nColumn 1: Display High Brightness Level | Column 2: BRIGHT HI- | Column 3: 12 | Column 4: 8-15 | Column 5: Sets the display brightness level when the uni detects high ambient light conditions.",
+      "content_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_431"
+      ],
+      "context_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_387"
+      ],
+      "image_filename": "images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a/images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00022.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_431",
+          "shape": {
+            "x": 23.24999999999999,
+            "y": 641.4187545776366,
+            "width": 1087.5000000000002,
+            "height": 582.0000000000003
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_387",
+          "shape": {
+            "x": 444.7148437500001,
+            "y": 582.4603881835938,
+            "width": 334.3996582031249,
+            "height": 27.53289794921932
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_392",
+          "shape": {
+            "x": 81.35800170898442,
+            "y": 642.4638671875003,
+            "width": 147.79177856445324,
+            "height": 29.529418945312045
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_393",
+          "shape": {
+            "x": 742.5704345703123,
+            "y": 642.4638671875003,
+            "width": 109.5539550781258,
+            "height": 27.529418945312614
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_405",
+          "shape": {
+            "x": 81.35797119140625,
+            "y": 873.2085571289064,
+            "width": 134.3410847981771,
+            "height": 42.73199462890534
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_406",
+          "shape": {
+            "x": 398.1597290039063,
+            "y": 873.2985229492186,
+            "width": 22.860015869140852,
+            "height": 24.786010742187273
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_407",
+          "shape": {
+            "x": 562.3179931640631,
+            "y": 873.2985229492186,
+            "width": 37.367980957030454,
+            "height": 24.786010742187273
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_421",
+          "shape": {
+            "x": 251.1111111111111,
+            "y": 645.6055772569443,
+            "width": 105.33333333333337,
+            "height": 20.44444444444457
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_422",
+          "shape": {
+            "x": 397.33333333333337,
+            "y": 645.6055772569443,
+            "width": 149.7777777777776,
+            "height": 24.888888888888914
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_423",
+          "shape": {
+            "x": 561.3333333333333,
+            "y": 646.0500217013887,
+            "width": 79.55555555555566,
+            "height": 20.000000000000227
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_427",
+          "shape": {
+            "x": 249.99999999999994,
+            "y": 875.0749918619789,
+            "width": 105.99999999999994,
+            "height": 20.000000000000227
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_429",
+          "shape": {
+            "x": 397.33333333333337,
+            "y": 933.0749918619786,
+            "width": 12.666666666666572,
+            "height": 17.333333333333826
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "score": 0.5259377269115098,
+      "table_rows": [
+        4
+      ],
+      "table_cells": [
+        {
+          "row": 4,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S4"
+    },
+    {
+      "chunk_id": "6f764721-e5dd-5ee2-8732-8078b5869264",
+      "manual_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a",
+      "page_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00021",
+      "chunk_type": "table",
+      "text": "Wave® music system Setup Menu\nFirst row (header unconfirmed): Column 1: System Setting | Column 2: Menu Item | Column 3: Factory Setting | Column 4: Choices | Column 5: Description\nColumn 1: Display Low Brightness Level | Column 2: BRIGHT LO- | Column 3: 4 | Column 4: 1-8 | Column 5: Sets the display brightness level when the unit detects low ambient light conditions.",
+      "content_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_431"
+      ],
+      "context_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_387"
+      ],
+      "image_filename": "images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a/images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00022.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_431",
+          "shape": {
+            "x": 23.24999999999999,
+            "y": 641.4187545776366,
+            "width": 1087.5000000000002,
+            "height": 582.0000000000003
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_387",
+          "shape": {
+            "x": 444.7148437500001,
+            "y": 582.4603881835938,
+            "width": 334.3996582031249,
+            "height": 27.53289794921932
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_392",
+          "shape": {
+            "x": 81.35800170898442,
+            "y": 642.4638671875003,
+            "width": 147.79177856445324,
+            "height": 29.529418945312045
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_393",
+          "shape": {
+            "x": 742.5704345703123,
+            "y": 642.4638671875003,
+            "width": 109.5539550781258,
+            "height": 27.529418945312614
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_409",
+          "shape": {
+            "x": 81.35797119140625,
+            "y": 929.1309814453126,
+            "width": 134.79941813151046,
+            "height": 42.73199462890568
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_410",
+          "shape": {
+            "x": 562.3179931640631,
+            "y": 929.2209472656251,
+            "width": 27.288024902343295,
+            "height": 24.786010742186704
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_411",
+          "shape": {
+            "x": 742.5573730468747,
+            "y": 929.1309814453126,
+            "width": 371.818481445314,
+            "height": 42.73199462890568
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_421",
+          "shape": {
+            "x": 251.1111111111111,
+            "y": 645.6055772569443,
+            "width": 105.33333333333337,
+            "height": 20.44444444444457
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_422",
+          "shape": {
+            "x": 397.33333333333337,
+            "y": 645.6055772569443,
+            "width": 149.7777777777776,
+            "height": 24.888888888888914
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_423",
+          "shape": {
+            "x": 561.3333333333333,
+            "y": 646.0500217013887,
+            "width": 79.55555555555566,
+            "height": 20.000000000000227
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_428",
+          "shape": {
+            "x": 252,
+            "y": 932.4083251953124,
+            "width": 108.66666666666669,
+            "height": 20.00000000000034
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_429",
+          "shape": {
+            "x": 397.33333333333337,
+            "y": 933.0749918619786,
+            "width": 12.666666666666572,
+            "height": 17.333333333333826
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "score": 0.5257880873633027,
+      "table_rows": [
+        5
+      ],
+      "table_cells": [
+        {
+          "row": 5,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S5"
+    },
+    {
+      "chunk_id": "8d9af9ba-c0ea-50a7-9657-4602209fd109",
+      "manual_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a",
+      "page_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00007",
+      "chunk_type": "text",
+      "text": "The setup menu allows you to personalize system operation\nFactory system settings have been set to satisfy most owners. If you wish to change the settings, see “Personalizing Your Wave® Music System” on page 20.\nThe setup menu allows you to change the following system settings to your liking:\n• Snooze time",
+      "content_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_28",
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_29",
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_31"
+      ],
+      "context_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_43"
+      ],
+      "image_filename": "images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a/images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00008.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_28",
+          "shape": {
+            "x": 323.99798583984364,
+            "y": 1256.885986328125,
+            "width": 788.0490112304689,
+            "height": 46.028076171875455
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_29",
+          "shape": {
+            "x": 323.9976501464843,
+            "y": 1309.6230468749995,
+            "width": 729.3491516113281,
+            "height": 27.370117187499773
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_31",
+          "shape": {
+            "x": 353.51800537109375,
+            "y": 1353.5439453125,
+            "width": 139.33648681640625,
+            "height": 27.370117187499545
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_43",
+          "shape": {
+            "x": 320.99999999999983,
+            "y": 1221.640625,
+            "width": 727.9999999999998,
+            "height": 35.00000000000023
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_28",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 153
+        },
+        {
+          "region_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_29",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 81
+        },
+        {
+          "region_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_31",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 13
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S6"
+    },
+    {
+      "chunk_id": "6229730d-d701-5c8e-ada4-5c178f58dbb2",
+      "manual_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a",
+      "page_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00021",
+      "chunk_type": "table",
+      "text": "Wave® music system Setup Menu\nFirst row (header unconfirmed): Column 1: System Setting | Column 2: Menu Item | Column 3: Factory Setting | Column 4: Choices | Column 5: Description\nColumn 1: System Setting | Column 2: Menu Item | Column 3: Factory Setting | Column 4: Choices | Column 5: Description\nColumn 1: Snooze Control | Column 2: SNOOZE- | Column 3: 10 MIN | Column 4: 10 MIN,20 MIN, 30MIN,40MIN, 50 MIN,60 MIN | Column 5: Determines the snooze time.",
+      "content_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_431"
+      ],
+      "context_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_387"
+      ],
+      "image_filename": "images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a/images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00022.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_431",
+          "shape": {
+            "x": 23.24999999999999,
+            "y": 641.4187545776366,
+            "width": 1087.5000000000002,
+            "height": 582.0000000000003
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_387",
+          "shape": {
+            "x": 444.7148437500001,
+            "y": 582.4603881835938,
+            "width": 334.3996582031249,
+            "height": 27.53289794921932
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_392",
+          "shape": {
+            "x": 81.35800170898442,
+            "y": 642.4638671875003,
+            "width": 147.79177856445324,
+            "height": 29.529418945312045
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_393",
+          "shape": {
+            "x": 742.5704345703123,
+            "y": 642.4638671875003,
+            "width": 109.5539550781258,
+            "height": 27.529418945312614
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_394",
+          "shape": {
+            "x": 81.35800170898442,
+            "y": 686.968017578125,
+            "width": 126.81807454427089,
+            "height": 22.20930989583303
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_395",
+          "shape": {
+            "x": 398.15615844726585,
+            "y": 687.0579833984373,
+            "width": 63.97921752929665,
+            "height": 24.7860107421875
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_397",
+          "shape": {
+            "x": 742.5573730468747,
+            "y": 686.968017578125,
+            "width": 229.29278564453114,
+            "height": 24.731994628905454
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_421",
+          "shape": {
+            "x": 251.1111111111111,
+            "y": 645.6055772569443,
+            "width": 105.33333333333337,
+            "height": 20.44444444444457
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_422",
+          "shape": {
+            "x": 397.33333333333337,
+            "y": 645.6055772569443,
+            "width": 149.7777777777776,
+            "height": 24.888888888888914
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_423",
+          "shape": {
+            "x": 561.3333333333333,
+            "y": 646.0500217013887,
+            "width": 79.55555555555566,
+            "height": 20.000000000000227
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_424",
+          "shape": {
+            "x": 251.33333333333331,
+            "y": 689.7416585286454,
+            "width": 86.66666666666669,
+            "height": 18.66666666666697
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_426",
+          "shape": {
+            "x": 396,
+            "y": 763.7416585286459,
+            "width": 29.999999999999886,
+            "height": 20.000000000000114
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_429",
+          "shape": {
+            "x": 397.33333333333337,
+            "y": 933.0749918619786,
+            "width": 12.666666666666572,
+            "height": 17.333333333333826
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_430",
+          "shape": {
+            "x": 396,
+            "y": 1158.4083658854174,
+            "width": 30.666666666666572,
+            "height": 17.999999999999318
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "score": null,
+      "table_rows": [
+        0,
+        1
+      ],
+      "table_cells": [
+        {
+          "row": 0,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 0,
+          "column": 3,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 0,
+          "column": 4,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S7"
+    },
+    {
+      "chunk_id": "8798702e-5ecd-5482-8578-ad644bc4a69b",
+      "manual_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a",
+      "page_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00026",
+      "chunk_type": "table",
+      "text": "Troubleshooting\nFirst row (header unconfirmed): Column 1: Problem | Column 2: What to do\nColumn 1: No sound | Column 2: Turn the volume up. Press Mute. Eject theCD and reload it. Check connections for an auxiliary source. Press AUX to listen to an external source connected to the AUXINinput Make sure the external source is turned on. Disconnect headphones.",
+      "content_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_609"
+      ],
+      "context_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_592"
+      ],
+      "image_filename": "images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a/images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00027.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_592",
+          "shape": {
+            "x": 71.99804687500003,
+            "y": 114.84631347656249,
+            "width": 224.74398803710935,
+            "height": 38.474868774414134
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_609",
+          "shape": {
+            "x": 56.25,
+            "y": 152.1281147003174,
+            "width": 1100.25,
+            "height": 792.0
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "score": null,
+      "table_rows": [
+        2
+      ],
+      "table_cells": [
+        {
+          "row": 2,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S8"
+    },
+    {
+      "chunk_id": "fa51c4ed-0861-5b46-82d9-b803034628e9",
+      "manual_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a",
+      "page_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00026",
+      "chunk_type": "title",
+      "text": "Customer service",
+      "content_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_593"
+      ],
+      "context_region_ids": [],
+      "image_filename": "images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a/images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00027.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_593",
+          "shape": {
+            "x": 71.99804687500003,
+            "y": 949.806884765625,
+            "width": 249.89120483398435,
+            "height": 36.474853515625114
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_593",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 16
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S9"
+    },
+    {
+      "chunk_id": "393f0f96-7230-5d4d-93f6-a0cfd4be3651",
+      "manual_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a",
+      "page_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00007",
+      "chunk_type": "text",
+      "text": "The setup menu allows you to personalize system operation\n• Display brightness level",
+      "content_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_32"
+      ],
+      "context_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_43"
+      ],
+      "image_filename": "images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a/images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00008.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_32",
+          "shape": {
+            "x": 880.0773925781251,
+            "y": 1353.5439453125,
+            "width": 238.66723632812534,
+            "height": 27.370117187499545
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_43",
+          "shape": {
+            "x": 320.99999999999983,
+            "y": 1221.640625,
+            "width": 727.9999999999998,
+            "height": 35.00000000000023
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_32",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 26
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S10"
+    },
+    {
+      "chunk_id": "1725c5c9-791c-5aca-9f7c-8c1ce7ed56ad",
+      "manual_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a",
+      "page_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00021",
+      "chunk_type": "table",
+      "text": "Wave® music system Setup Menu\nFirst row (header unconfirmed): Column 1: System Setting | Column 2: Menu Item | Column 3: Factory Setting | Column 4: Choices | Column 5: Description\nColumn 1: Continuous Play | Column 2: CONT PLAY- | Column 3: NO | Column 4: NO,AUX,FM,AM | Column 5: Determines which source will automatically pl after a CD ends.",
+      "content_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_431"
+      ],
+      "context_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_387"
+      ],
+      "image_filename": "images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a/images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00022.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_431",
+          "shape": {
+            "x": 23.24999999999999,
+            "y": 641.4187545776366,
+            "width": 1087.5000000000002,
+            "height": 582.0000000000003
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_387",
+          "shape": {
+            "x": 444.7148437500001,
+            "y": 582.4603881835938,
+            "width": 334.3996582031249,
+            "height": 27.53289794921932
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_392",
+          "shape": {
+            "x": 81.35800170898442,
+            "y": 642.4638671875003,
+            "width": 147.79177856445324,
+            "height": 29.529418945312045
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_393",
+          "shape": {
+            "x": 742.5704345703123,
+            "y": 642.4638671875003,
+            "width": 109.5539550781258,
+            "height": 27.529418945312614
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_398",
+          "shape": {
+            "x": 81.35797119140625,
+            "y": 761.1279907226557,
+            "width": 132.26617431640625,
+            "height": 24.87597656250091
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_421",
+          "shape": {
+            "x": 251.1111111111111,
+            "y": 645.6055772569443,
+            "width": 105.33333333333337,
+            "height": 20.44444444444457
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_422",
+          "shape": {
+            "x": 397.33333333333337,
+            "y": 645.6055772569443,
+            "width": 149.7777777777776,
+            "height": 24.888888888888914
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_423",
+          "shape": {
+            "x": 561.3333333333333,
+            "y": 646.0500217013887,
+            "width": 79.55555555555566,
+            "height": 20.000000000000227
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_425",
+          "shape": {
+            "x": 251.33333333333331,
+            "y": 762.4083251953125,
+            "width": 111.33333333333343,
+            "height": 21.333333333333485
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_426",
+          "shape": {
+            "x": 396,
+            "y": 763.7416585286459,
+            "width": 29.999999999999886,
+            "height": 20.000000000000114
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_429",
+          "shape": {
+            "x": 397.33333333333337,
+            "y": 933.0749918619786,
+            "width": 12.666666666666572,
+            "height": 17.333333333333826
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_430",
+          "shape": {
+            "x": 396,
+            "y": 1158.4083658854174,
+            "width": 30.666666666666572,
+            "height": 17.999999999999318
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "score": null,
+      "table_rows": [
+        2
+      ],
+      "table_cells": [
+        {
+          "row": 2,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S11"
+    },
+    {
+      "chunk_id": "a97af8a6-f831-5c3e-9182-a5068ad09a02",
+      "manual_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a",
+      "page_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00026",
+      "chunk_type": "table",
+      "text": "Troubleshooting\nFirst row (header unconfirmed): Column 1: Problem | Column 2: What to do\nColumn 1: Remote control is incon- sistent or does not work | Column 2: Operate the remote control closer to the unit. Check that the remote control battery is installed with positive (+)polarity facing up. Replace the remote control battery. Check for interference from room lighting,sunlight,or dust or dirt on lens. Try the unit in a different location.",
+      "content_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_609"
+      ],
+      "context_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_592"
+      ],
+      "image_filename": "images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a/images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00027.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_592",
+          "shape": {
+            "x": 71.99804687500003,
+            "y": 114.84631347656249,
+            "width": 224.74398803710935,
+            "height": 38.474868774414134
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_609",
+          "shape": {
+            "x": 56.25,
+            "y": 152.1281147003174,
+            "width": 1100.25,
+            "height": 792.0
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "score": null,
+      "table_rows": [
+        3
+      ],
+      "table_cells": [
+        {
+          "row": 3,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S12"
+    },
+    {
+      "chunk_id": "e26e60ff-8ea1-5187-9c46-ca450ec3a9ee",
+      "manual_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a",
+      "page_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00007",
+      "chunk_type": "text",
+      "text": "The setup menu allows you to personalize system operation\n• Play a radio station automatically after a CD ends",
+      "content_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_33"
+      ],
+      "context_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_43"
+      ],
+      "image_filename": "images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a/images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00008.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_33",
+          "shape": {
+            "x": 353.51800537109375,
+            "y": 1393.62109375,
+            "width": 468.606140136719,
+            "height": 27.36999511718659
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_43",
+          "shape": {
+            "x": 320.99999999999983,
+            "y": 1221.640625,
+            "width": 727.9999999999998,
+            "height": 35.00000000000023
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_33",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 52
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S13"
+    }
+  ],
+  "excluded_sources": [
+    {
+      "chunk_id": "8dd00d74-d027-5b67-840d-7d90fa4b01c6",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "ff46c8ca-ce98-574f-a74c-b577de1e8dc5",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "b5cec70e-4674-50f1-acdd-ab2d5a6a6aab",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "645168b7-0076-5ce5-a93a-ebacbe26df1a",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "2102bcd8-f32a-59b2-a10a-f9af471e7ec5",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "c5e22f08-1103-5a6c-af2e-31bb51098172",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "4045a5f3-9c97-5e50-9735-d2f3e639c152",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "a7b1aeac-261d-54bb-9228-143c8c32c4e6",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "3a9a014a-41d3-5b07-b4a1-0fbc89822cf1",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "5f63291f-45de-55b5-aec1-e1acaff4359f",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "5e99e372-4c39-517a-8e87-f47d0a6ce691",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "c4cd3762-a30f-5be1-9eb1-109db2d5c166",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "d3e089df-8cde-5f9b-a73c-98cbfcc8f894",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "9bb37c5a-c09f-5300-b7f4-e54627c8707b",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "00ce43d9-394a-5600-9ba1-3ccf0fe062cd",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "c722447f-e82d-5971-b49a-c674fb13878f",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "21164f5a-efe3-5a08-8336-c1ccabb09810",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "2e90e089-98b7-5ced-a936-4511d71bb522",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "fa97395e-27be-5bd9-a683-5019e6c59314",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "087f698a-8108-5c5f-a3ad-d974f0cef19d",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "d7e4b08a-3aca-537c-a2ee-355044f3ebc4",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "ab4ecb68-dac4-5e18-acc8-34d27295f3b3",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "02828a3e-2a1e-59f4-b15e-22335172cb38",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "38fa54d5-8610-5e59-80db-8abd68f7460f",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "0caa0f3b-c5e0-57ad-80a9-b6461b08e4a9",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "86cd7403-1713-562a-a3b9-de373b93e323",
+      "reason": "context_budget"
+    },
+    {
+      "chunk_id": "7250d411-1ed3-5730-8fb9-cf7837bece40",
+      "reason": "context_budget"
+    }
+  ],
+  "context_expansion": {
+    "version": "pm209-parent-context-v2",
+    "store": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\datasets\\PM209\\rag\\parent_context_v2",
+    "seed_chunk_ids": [
+      "b53003b8-6559-5888-ab8c-8e6265119cdd",
+      "5ef6e198-e037-5285-b6f2-64e6bf1c86d1",
+      "16eba013-1ac2-5a0b-9c04-f150ccd6ec0e",
+      "5608a841-85db-5ab8-a5ac-21431b738811",
+      "6f764721-e5dd-5ee2-8732-8078b5869264"
+    ],
+    "parents": [
+      {
+        "parent_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_592",
+        "title": "Troubleshooting",
+        "kind": "section",
+        "link_reasons": [
+          "contained_object_label",
+          "nearest_heading_in_reading_column"
+        ],
+        "page_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00026"
+      },
+      {
+        "parent_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_593",
+        "title": "Customer service",
+        "kind": "section",
+        "link_reasons": [
+          "heading",
+          "nearest_heading_in_reading_column"
+        ],
+        "page_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00026"
+      },
+      {
+        "parent_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_43",
+        "title": "The setup menu allows you to personalize system operation",
+        "kind": "section",
+        "link_reasons": [
+          "nearest_heading_in_reading_column"
+        ],
+        "page_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00007"
+      },
+      {
+        "parent_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_431",
+        "title": "",
+        "kind": "original_region",
+        "link_reasons": [
+          "contained_object_label",
+          "original_region_only"
+        ],
+        "page_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00021"
+      }
+    ],
+    "title_corrections": [
+      {
+        "chunk_id": "a7b1aeac-261d-54bb-9228-143c8c32c4e6",
+        "old": "Maintaining Your Wave Music System",
+        "new": "Troubleshooting"
+      },
+      {
+        "chunk_id": "5f63291f-45de-55b5-aec1-e1acaff4359f",
+        "old": "Maintaining Your Wave Music System",
+        "new": "Troubleshooting"
+      },
+      {
+        "chunk_id": "c4cd3762-a30f-5be1-9eb1-109db2d5c166",
+        "old": "Maintaining Your Wave Music System",
+        "new": "Troubleshooting"
+      },
+      {
+        "chunk_id": "c722447f-e82d-5971-b49a-c674fb13878f",
+        "old": "Maintaining Your Wave Music System",
+        "new": "Troubleshooting"
+      },
+      {
+        "chunk_id": "2e90e089-98b7-5ced-a936-4511d71bb522",
+        "old": "Maintaining Your Wave Music System",
+        "new": "Troubleshooting"
+      },
+      {
+        "chunk_id": "087f698a-8108-5c5f-a3ad-d974f0cef19d",
+        "old": "Maintaining Your Wave Music System",
+        "new": "Troubleshooting"
+      },
+      {
+        "chunk_id": "5ef6e198-e037-5285-b6f2-64e6bf1c86d1",
+        "old": "Maintaining Your Wave Music System",
+        "new": "Customer service"
+      }
+    ],
+    "duplicates_removed": [],
+    "added_chunk_ids": [
+      "8d9af9ba-c0ea-50a7-9657-4602209fd109",
+      "6229730d-d701-5c8e-ada4-5c178f58dbb2",
+      "8798702e-5ecd-5482-8578-ad644bc4a69b",
+      "fa51c4ed-0861-5b46-82d9-b803034628e9",
+      "393f0f96-7230-5d4d-93f6-a0cfd4be3651",
+      "1725c5c9-791c-5aca-9f7c-8c1ce7ed56ad",
+      "a97af8a6-f831-5c3e-9182-a5068ad09a02",
+      "e26e60ff-8ea1-5187-9c46-ca450ec3a9ee"
+    ],
+    "seed_count": 5,
+    "source_count": 13,
+    "added_count": 8,
+    "context_chars": 3490,
+    "prompt_token_upper_bound": 7142
+  },
+  "baseline_variant": "parent_kw000",
+  "new_prompt_token_upper_bound": 7070,
+  "created_at": "2026-11-08T13:50:04.719401+00:00",
+  "status": "answered",
+  "answer": "시스템이 작동하지 않는 경우, 전원 코드를 작동하는 전기 콘센트에 완전히 꽂아주세요. 그리고 On/Off 버튼을 눌러 디스플레이가 켜지는지 확인하세요.",
+  "source_ids": [
+    "S1"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-focused-ko-v2",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 64,
+        "prompt_eval_count": 1594,
+        "total_duration": 1534976000,
+        "load_duration": 5919000,
+        "attempt": 1,
+        "prompt_token_upper_bound": 6992
+      }
+    ],
+    "elapsed_seconds": 1.5443141000005198,
+    "backend": "LangChain ChatPromptTemplate | ChatOllama"
+  },
+  "citations": [
+    {
+      "chunk_id": "b53003b8-6559-5888-ab8c-8e6265119cdd",
+      "manual_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a",
+      "page_id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00026",
+      "chunk_type": "table",
+      "text": "Troubleshooting\nFirst row (header unconfirmed): Column 1: Problem | Column 2: What to do\nColumn 1: Problem | Column 2: What to do\nColumn 1: System does not function | Column 2: . Make sure the power cord is fully plugged into an operating electrical outlet. Press On/Off to see if the display lights.",
+      "content_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_609"
+      ],
+      "context_region_ids": [
+        "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_592"
+      ],
+      "image_filename": "images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a/images/bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_00027.jpg",
+      "source_shapes": [
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_592",
+          "shape": {
+            "x": 71.99804687500003,
+            "y": 114.84631347656249,
+            "width": 224.74398803710935,
+            "height": 38.474868774414134
+          }
+        },
+        {
+          "id": "bose_cd player manuals_7e4ec598-9420-4404-9a1d-12ab93cb489a_609",
+          "shape": {
+            "x": 56.25,
+            "y": 152.1281147003174,
+            "width": 1100.25,
+            "height": 792.0
+          }
+        }
+      ],
+      "source_spans": [],
+      "content_origin": "paddle_table",
+      "quality_flags": [
+        "table_header_unmarked_review_required"
+      ],
+      "score": 0.6079524359160597,
+      "table_rows": [
+        0,
+        1
+      ],
+      "table_cells": [
+        {
+          "row": 0,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 1
+        }
+      ],
+      "source_id": "S1"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 1.5443672999999762,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 3836,
+    "temperature_c": 72,
+    "utilization_percent": 84
+  }
+}

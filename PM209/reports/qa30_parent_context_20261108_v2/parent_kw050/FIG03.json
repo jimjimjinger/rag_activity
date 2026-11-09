@@ -1,0 +1,675 @@
+{
+  "case_id": "FIG03",
+  "manual_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7",
+  "question": "이미지 파일은 어떻게 보나요?",
+  "english_query": "How do I view image files?",
+  "keyword_percent": 50,
+  "variant": "parent_kw050",
+  "top_k": 5,
+  "retrieved_chunk_ids": [
+    "62112a0c-9b9e-535a-af37-73c5b533a11c",
+    "9f7364b7-886f-5b78-91dd-10401fc7d443",
+    "d80dc918-263b-5dcc-a12a-bfc7fec56e88",
+    "50b315ab-3a90-5ab6-86de-748c96e369bb",
+    "79a73248-a2bc-5ed7-87ce-478e2a85257c"
+  ],
+  "sources": [
+    {
+      "chunk_id": "62112a0c-9b9e-535a-af37-73c5b533a11c",
+      "manual_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7",
+      "page_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_00016",
+      "chunk_type": "text",
+      "text": "I Viewing Image File\nSelect [My Pictures] folder in the search screen and then Press the button up or down to move to the file you want to view. If you press button, you can view the selected images.",
+      "content_region_ids": [
+        "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_132"
+      ],
+      "context_region_ids": [
+        "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_130"
+      ],
+      "image_filename": "images/samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7/images/samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_00017.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_130",
+          "shape": {
+            "x": 707.9199829101559,
+            "y": 300.006663004557,
+            "width": 181.44854736328148,
+            "height": 27.627339680989735
+          }
+        },
+        {
+          "id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_132",
+          "shape": {
+            "x": 711.2600097656245,
+            "y": 332.89999389648426,
+            "width": 336.09594726562545,
+            "height": 87.98400878906261
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_132",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 178
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.03278688524590164,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "9f7364b7-886f-5b78-91dd-10401fc7d443",
+      "manual_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7",
+      "page_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_00004",
+      "chunk_type": "text",
+      "text": "Image File Viewer Function\nG You can view image files in JPEG format.",
+      "content_region_ids": [
+        "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_634"
+      ],
+      "context_region_ids": [
+        "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_633"
+      ],
+      "image_filename": "images/samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7/images/samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_00005.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_633",
+          "shape": {
+            "x": 727.6599731445315,
+            "y": 472.66000366210955,
+            "width": 352.8195190429685,
+            "height": 41.310028076171704
+          }
+        },
+        {
+          "id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_634",
+          "shape": {
+            "x": 727.6599731445315,
+            "y": 513.5599975585939,
+            "width": 278.0084228515624,
+            "height": 21.984008789062386
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_634",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 42
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.031746031746031744,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    },
+    {
+      "chunk_id": "d80dc918-263b-5dcc-a12a-bfc7fec56e88",
+      "manual_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7",
+      "page_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_00016",
+      "chunk_type": "text",
+      "text": "I Selecting My Pictures\nG You can view image files in JPEG format in [my pictures].",
+      "content_region_ids": [
+        "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_135"
+      ],
+      "context_region_ids": [
+        "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_131"
+      ],
+      "image_filename": "images/samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7/images/samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_00017.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_131",
+          "shape": {
+            "x": 707.2533162434893,
+            "y": 94.21435292561846,
+            "width": 209.97580973307277,
+            "height": 26.960665384928433
+          }
+        },
+        {
+          "id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_135",
+          "shape": {
+            "x": 711.2600097656245,
+            "y": 189.9949951171874,
+            "width": 274.5885009765632,
+            "height": 38.72999572753909
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_135",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 59
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.029877369007803793,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S3"
+    },
+    {
+      "chunk_id": "50b315ab-3a90-5ab6-86de-748c96e369bb",
+      "manual_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7",
+      "page_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_00016",
+      "chunk_type": "text",
+      "text": "I Viewing Image File\nCategory G new : Newly downloaded file will appear for 2 weeks. G sort by name : Saved files will appear in alphabetical order. G sort by date : Saved files will appear in the order of date.",
+      "content_region_ids": [
+        "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_133"
+      ],
+      "context_region_ids": [
+        "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_130"
+      ],
+      "image_filename": "images/samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7/images/samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_00017.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_130",
+          "shape": {
+            "x": 707.9199829101559,
+            "y": 300.006663004557,
+            "width": 181.44854736328148,
+            "height": 27.627339680989735
+          }
+        },
+        {
+          "id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_133",
+          "shape": {
+            "x": 711.2600097656245,
+            "y": 423.82000732421875,
+            "width": 334.255859375,
+            "height": 114.78546142578125
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_133",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 190
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.029877369007803793,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S4"
+    },
+    {
+      "chunk_id": "79a73248-a2bc-5ed7-87ce-478e2a85257c",
+      "manual_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7",
+      "page_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_00016",
+      "chunk_type": "figure",
+      "text": "I Viewing Image File\nThis cropped figure from an English product manual illustrates the [My Pictures] folder selection in a search screen. It shows controls to sort files by name or date and indicates that newly downloaded files appear for two weeks.",
+      "content_region_ids": [
+        "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_142"
+      ],
+      "context_region_ids": [
+        "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_130"
+      ],
+      "image_filename": "images/samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7/images/samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_00017.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_130",
+          "shape": {
+            "x": 707.9199829101559,
+            "y": 300.006663004557,
+            "width": 181.44854736328148,
+            "height": 27.627339680989735
+          }
+        },
+        {
+          "id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_142",
+          "shape": {
+            "x": 701.9999999999997,
+            "y": 327.21875,
+            "width": 552.9999999999999,
+            "height": 217.0
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_142",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 229
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": 0.029850746268656716,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S5"
+    },
+    {
+      "chunk_id": "890dccf2-b3af-50b0-9107-538d2463e8a7",
+      "manual_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7",
+      "page_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_00016",
+      "chunk_type": "text",
+      "text": "I Selecting My Pictures\nPress the button up or down to select [my pictures] in the menu screen and then press the button.",
+      "content_region_ids": [
+        "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_134"
+      ],
+      "context_region_ids": [
+        "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_131"
+      ],
+      "image_filename": "images/samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7/images/samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_00017.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_131",
+          "shape": {
+            "x": 707.2533162434893,
+            "y": 94.21435292561846,
+            "width": 209.97580973307277,
+            "height": 26.960665384928433
+          }
+        },
+        {
+          "id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_134",
+          "shape": {
+            "x": 709.2600097656247,
+            "y": 122.86000061035152,
+            "width": 317.01281738281284,
+            "height": 64.38401794433595
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_134",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 97
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S6"
+    },
+    {
+      "chunk_id": "8634e8b5-5c3f-5007-a4c0-7f28379b2b7f",
+      "manual_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7",
+      "page_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_00016",
+      "chunk_type": "figure",
+      "text": "I Selecting My Pictures\nA product manual page showing instructions to select [my pictures] in the menu screen using directional buttons and press the button. It notes that JPEG image files can be viewed in [my pictures]. The right side displays a blue menu screen with options like start, my tv, my music, my pictures (highlighted), my videos, and settings, alongside an image of headphones.",
+      "content_region_ids": [
+        "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_141"
+      ],
+      "context_region_ids": [
+        "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_131"
+      ],
+      "image_filename": "images/samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7/images/samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_00017.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_131",
+          "shape": {
+            "x": 707.2533162434893,
+            "y": 94.21435292561846,
+            "width": 209.97580973307277,
+            "height": 26.960665384928433
+          }
+        },
+        {
+          "id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_141",
+          "shape": {
+            "x": 701,
+            "y": 121.21875000000001,
+            "width": 555,
+            "height": 165.0
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_141",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 367
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S7"
+    },
+    {
+      "chunk_id": "540740b3-5f34-5ad2-9a14-269c112e638b",
+      "manual_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7",
+      "page_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_00016",
+      "chunk_type": "figure",
+      "text": "I Viewing Image File\nA cropped screenshot from an English product manual showing a file explorer interface titled 'sort by name'. The visible folder is labeled 'My Pictures', highlighted in green against a blue background. Partially obscured text includes 'file' and 'picture' on the right edge.",
+      "content_region_ids": [
+        "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_140"
+      ],
+      "context_region_ids": [
+        "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_130"
+      ],
+      "image_filename": "images/samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7/images/samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_00017.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_130",
+          "shape": {
+            "x": 707.9199829101559,
+            "y": 300.006663004557,
+            "width": 181.44854736328148,
+            "height": 27.627339680989735
+          }
+        },
+        {
+          "id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_140",
+          "shape": {
+            "x": 1056.2199707031245,
+            "y": 338.239990234375,
+            "width": 190.80004882812455,
+            "height": 143.99999999999972
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_140",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 274
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S8"
+    },
+    {
+      "chunk_id": "717f68a8-812b-597a-82b5-005dcd088716",
+      "manual_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7",
+      "page_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_00016",
+      "chunk_type": "figure",
+      "text": "I Selecting My Pictures\nA cropped figure from an English product manual showing a blue interface with the word 'start' vertically aligned on the left. Visible menu options include 'my TV', 'my music', 'my pictures', 'my videos', and 'settings'. A green highlight indicates selection, likely for 'my pictures'. The design suggests a media device or smart TV remote control interface.",
+      "content_region_ids": [
+        "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_139"
+      ],
+      "context_region_ids": [
+        "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_131"
+      ],
+      "image_filename": "images/samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7/images/samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_00017.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_131",
+          "shape": {
+            "x": 707.2533162434893,
+            "y": 94.21435292561846,
+            "width": 209.97580973307277,
+            "height": 26.960665384928433
+          }
+        },
+        {
+          "id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_139",
+          "shape": {
+            "x": 1056.2199707031245,
+            "y": 131.260009765625,
+            "width": 190.80004882812455,
+            "height": 143.9999999999999
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_139",
+          "field": "description_normalized",
+          "start": 0,
+          "end": 358
+        }
+      ],
+      "content_origin": "qwen_figure_description",
+      "quality_flags": [],
+      "score": null,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S9"
+    }
+  ],
+  "excluded_sources": [],
+  "context_expansion": {
+    "version": "pm209-parent-context-v2",
+    "store": "C:\\Users\\USER\\Desktop\\공부폴더\\회사과제\\rag_activity\\PM209\\datasets\\PM209\\rag\\parent_context_v2",
+    "seed_chunk_ids": [
+      "62112a0c-9b9e-535a-af37-73c5b533a11c",
+      "9f7364b7-886f-5b78-91dd-10401fc7d443",
+      "d80dc918-263b-5dcc-a12a-bfc7fec56e88",
+      "50b315ab-3a90-5ab6-86de-748c96e369bb",
+      "79a73248-a2bc-5ed7-87ce-478e2a85257c"
+    ],
+    "parents": [
+      {
+        "parent_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_130",
+        "title": "I Viewing Image File",
+        "kind": "section",
+        "link_reasons": [
+          "contained_object_label",
+          "nearest_heading_in_reading_column"
+        ],
+        "page_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_00016"
+      },
+      {
+        "parent_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_633",
+        "title": "Image File Viewer Function",
+        "kind": "section",
+        "link_reasons": [
+          "nearest_heading_in_reading_column"
+        ],
+        "page_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_00004"
+      },
+      {
+        "parent_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_131",
+        "title": "I Selecting My Pictures",
+        "kind": "section",
+        "link_reasons": [
+          "contained_object_label",
+          "nearest_heading_in_reading_column"
+        ],
+        "page_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_00016"
+      }
+    ],
+    "title_corrections": [
+      {
+        "chunk_id": "540740b3-5f34-5ad2-9a14-269c112e638b",
+        "old": "My Pictures",
+        "new": "I Viewing Image File"
+      },
+      {
+        "chunk_id": "717f68a8-812b-597a-82b5-005dcd088716",
+        "old": "My Pictures",
+        "new": "I Selecting My Pictures"
+      }
+    ],
+    "duplicates_removed": [],
+    "added_chunk_ids": [
+      "890dccf2-b3af-50b0-9107-538d2463e8a7",
+      "8634e8b5-5c3f-5007-a4c0-7f28379b2b7f",
+      "540740b3-5f34-5ad2-9a14-269c112e638b",
+      "717f68a8-812b-597a-82b5-005dcd088716"
+    ],
+    "seed_count": 5,
+    "source_count": 9,
+    "added_count": 4,
+    "context_chars": 2001,
+    "prompt_token_upper_bound": 5017
+  },
+  "created_at": "2026-11-08T13:27:08.461333+00:00",
+  "status": "answered",
+  "answer": "이미지 파일을 보기 위해서는 검색 화면의 [My Pictures] 폴더를 선택한 후, 상하 버튼을 눌러 원하는 파일로 이동하고 해당 버튼을 누르면 됩니다. 또한 JPEG 형식의 이미지 파일만 보일 수 있습니다.",
+  "source_ids": [
+    "S1",
+    "S2"
+  ],
+  "insufficient_evidence": false,
+  "generation": {
+    "called": true,
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 1024,
+      "num_batch": 128,
+      "num_thread": 4,
+      "num_gpu": 99,
+      "temperature": 0
+    },
+    "think": false,
+    "timeout_seconds": 300,
+    "prompt_version": "pm209-grounded-ko-v1",
+    "attempts": [
+      {
+        "done_reason": "stop",
+        "eval_count": 80,
+        "prompt_eval_count": 996,
+        "total_duration": 2008047900,
+        "load_duration": 8735900,
+        "attempt": 1,
+        "prompt_token_upper_bound": 4939
+      }
+    ],
+    "elapsed_seconds": 2.013483699999597,
+    "backend": "LangChain ChatPromptTemplate | ChatOllama"
+  },
+  "citations": [
+    {
+      "chunk_id": "62112a0c-9b9e-535a-af37-73c5b533a11c",
+      "manual_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7",
+      "page_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_00016",
+      "chunk_type": "text",
+      "text": "I Viewing Image File\nSelect [My Pictures] folder in the search screen and then Press the button up or down to move to the file you want to view. If you press button, you can view the selected images.",
+      "content_region_ids": [
+        "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_132"
+      ],
+      "context_region_ids": [
+        "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_130"
+      ],
+      "image_filename": "images/samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7/images/samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_00017.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_130",
+          "shape": {
+            "x": 707.9199829101559,
+            "y": 300.006663004557,
+            "width": 181.44854736328148,
+            "height": 27.627339680989735
+          }
+        },
+        {
+          "id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_132",
+          "shape": {
+            "x": 711.2600097656245,
+            "y": 332.89999389648426,
+            "width": 336.09594726562545,
+            "height": 87.98400878906261
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_132",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 178
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.03278688524590164,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S1"
+    },
+    {
+      "chunk_id": "9f7364b7-886f-5b78-91dd-10401fc7d443",
+      "manual_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7",
+      "page_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_00004",
+      "chunk_type": "text",
+      "text": "Image File Viewer Function\nG You can view image files in JPEG format.",
+      "content_region_ids": [
+        "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_634"
+      ],
+      "context_region_ids": [
+        "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_633"
+      ],
+      "image_filename": "images/samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7/images/samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_00005.jpg",
+      "source_shapes": [
+        {
+          "id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_633",
+          "shape": {
+            "x": 727.6599731445315,
+            "y": 472.66000366210955,
+            "width": 352.8195190429685,
+            "height": 41.310028076171704
+          }
+        },
+        {
+          "id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_634",
+          "shape": {
+            "x": 727.6599731445315,
+            "y": 513.5599975585939,
+            "width": 278.0084228515624,
+            "height": 21.984008789062386
+          }
+        }
+      ],
+      "source_spans": [
+        {
+          "region_id": "samsung_portable multimedia player manuals_216a3e86-d52b-26d4-4947-255f2d4bada7_634",
+          "field": "ocr_normalized",
+          "start": 0,
+          "end": 42
+        }
+      ],
+      "content_origin": "source_ocr",
+      "quality_flags": [
+        "layout_geometry_heuristic"
+      ],
+      "score": 0.031746031746031744,
+      "table_rows": [],
+      "table_cells": [],
+      "source_id": "S2"
+    }
+  ],
+  "cited_figures": [],
+  "elapsed_seconds": 2.0135968999993565,
+  "gpu_observation": {
+    "name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "total_mib": 8151,
+    "used_mib": 5158,
+    "temperature_c": 70,
+    "utilization_percent": 87
+  }
+}
