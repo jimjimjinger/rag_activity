@@ -1,0 +1,45 @@
+{
+  "seed": 2026112305,
+  "source": "PM209 original test.jsonl / qa_data",
+  "date": "2026-11-23",
+  "sampling": "For each excluded slot in original order, seeded shuffle of sorted same-manual, same-category eligible QA IDs, then fall back to shuffled other manuals of same category. Screen for unanswerable or mistranslated items before predictions. The first candidate was eligible in all five slots.",
+  "exclude": "ID or normalized question previously used in QA30, original development QA100, holdout QA100 or FIGURE004R; repeated normalized question inside manual",
+  "drawn": [
+    {
+      "slot": "TABLE010",
+      "case_id": "TABLE010R",
+      "qa_id": "samsung_label maker manuals_e6058340-b585-43fd-8dcc-b233a50395fc_34",
+      "candidate_rank": 1
+    },
+    {
+      "slot": "TABLE013",
+      "case_id": "TABLE013R",
+      "qa_id": "samsung_tablet manuals_4b13a426-b232-4902-8782-201d55a20445_60",
+      "candidate_rank": 1
+    },
+    {
+      "slot": "FIGURE013",
+      "case_id": "FIGURE013R",
+      "qa_id": "bose_stereo amplifier manuals_75e037bc-fbcc-c214-3964-d4c9efb89725_26",
+      "candidate_rank": 1
+    },
+    {
+      "slot": "FIGURE025",
+      "case_id": "FIGURE025R",
+      "qa_id": "phone_apple_ios8.4_307",
+      "candidate_rank": 1
+    },
+    {
+      "slot": "FIGURE031",
+      "case_id": "FIGURE031R",
+      "qa_id": "samsung_digital photo frame manuals_7cb3b154-2fbe-5ea4-ad81-2fa0f4ebb5f8_76",
+      "candidate_rank": 1
+    }
+  ],
+  "source_sha256": "eda1f78c51b048d43cc7829996df34eb31730a7a5a8f9cbdf3677e33db966906",
+  "retained_scores_source_sha256": "493788121a3b9fbc1adc24f59edb9dd233d45f86141b37f85ecd1e3b72142460",
+  "policy_sha256": "3ca2c69ad5829c8b3b4b6231be6f039fa08561a4ca67f6ea1b78f67120a94d3a",
+  "frozen_items_sha256": "92363117e61f28c15784a878dc7de04610c3481a3777d713bbd7b9aedb58a2e1",
+  "inputs_sha256": "9a8f1b063f823caf3f3a4b4a275d71e228709d2711afa4cfcccc0cde584ff4b9",
+  "on_failure": "Keep valid item and score no generated answer as zero. No post-output replacement."
+}

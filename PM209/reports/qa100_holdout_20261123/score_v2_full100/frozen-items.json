@@ -1,0 +1,412 @@
+[
+  {
+    "qa_id": "samsung_label maker manuals_e6058340-b585-43fd-8dcc-b233a50395fc_34",
+    "manual_id": "samsung_label maker manuals_e6058340-b585-43fd-8dcc-b233a50395fc",
+    "question_en": "What is the input voltage?",
+    "gold_answer_en": "The voltage of the printer is AC 100-240V.",
+    "gold_region_ids": [
+      "samsung_label maker manuals_e6058340-b585-43fd-8dcc-b233a50395fc_268",
+      "samsung_label maker manuals_e6058340-b585-43fd-8dcc-b233a50395fc_269",
+      "samsung_label maker manuals_e6058340-b585-43fd-8dcc-b233a50395fc_285"
+    ],
+    "category": "table",
+    "case_id": "TABLE010R",
+    "replaced_slot": "TABLE010",
+    "question": "입력 전압은 얼마인가요?",
+    "required": [
+      "교류 입력 범위의 최솟값 100 V",
+      "최댓값 240 V"
+    ],
+    "scoring_note": "DC 전용 또는 상충하는 별도 입력 정격이라고 명시하면 0점. 100~240 V라는 범위가 명확하면 AC 표기 생략은 허용.",
+    "reference_pages": [
+      "samsung_label maker manuals_e6058340-b585-43fd-8dcc-b233a50395fc_00026"
+    ],
+    "reference_regions": [
+      {
+        "structure": "Text",
+        "page_id": "samsung_label maker manuals_e6058340-b585-43fd-8dcc-b233a50395fc_00026",
+        "image_filename": "images/samsung_label maker manuals_e6058340-b585-43fd-8dcc-b233a50395fc/images/samsung_label maker manuals_e6058340-b585-43fd-8dcc-b233a50395fc_00027.jpg",
+        "shape": {
+          "x": 301.848880343967,
+          "y": 525.0551079644096,
+          "width": 138.7875942654082,
+          "height": 24.590277777778056
+        },
+        "text": "Input Voltage"
+      },
+      {
+        "structure": "Text",
+        "page_id": "samsung_label maker manuals_e6058340-b585-43fd-8dcc-b233a50395fc_00026",
+        "image_filename": "images/samsung_label maker manuals_e6058340-b585-43fd-8dcc-b233a50395fc/images/samsung_label maker manuals_e6058340-b585-43fd-8dcc-b233a50395fc_00027.jpg",
+        "shape": {
+          "x": 508.2567409939237,
+          "y": 525.4995524088544,
+          "width": 151.81854926215283,
+          "height": 22.36805555555543
+        },
+        "text": "AC 100~240V"
+      },
+      {
+        "structure": "Table",
+        "page_id": "samsung_label maker manuals_e6058340-b585-43fd-8dcc-b233a50395fc_00026",
+        "image_filename": "images/samsung_label maker manuals_e6058340-b585-43fd-8dcc-b233a50395fc/images/samsung_label maker manuals_e6058340-b585-43fd-8dcc-b233a50395fc_00027.jpg",
+        "shape": {
+          "x": 90.74999999999997,
+          "y": 228.96093750000006,
+          "width": 1003.5000000000005,
+          "height": 503.9999999999997
+        },
+        "text": ""
+      }
+    ]
+  },
+  {
+    "qa_id": "samsung_tablet manuals_4b13a426-b232-4902-8782-201d55a20445_60",
+    "manual_id": "samsung_tablet manuals_4b13a426-b232-4902-8782-201d55a20445",
+    "question_en": "What is the use of using the Touch Launcher?",
+    "gold_answer_en": "Touching the Launcher program enable you to easily play music and video files and operate downloaded applications by touching the screen with your finger on models with a touch screen.",
+    "gold_region_ids": [
+      "samsung_tablet manuals_4b13a426-b232-4902-8782-201d55a20445_541",
+      "samsung_tablet manuals_4b13a426-b232-4902-8782-201d55a20445_570"
+    ],
+    "category": "table",
+    "case_id": "TABLE013R",
+    "replaced_slot": "TABLE013",
+    "question": "터치 런처는 어떤 용도로 사용하나요?",
+    "required": [
+      "음악 파일을 재생",
+      "동영상 파일을 재생",
+      "다운로드한 앱을 실행하거나 조작"
+    ],
+    "scoring_note": "동등한 실행 표현을 인정한다. 터치 모델용이라는 배경 설명은 선택사항이다.",
+    "reference_pages": [
+      "samsung_tablet manuals_4b13a426-b232-4902-8782-201d55a20445_00021"
+    ],
+    "reference_regions": [
+      {
+        "structure": "Table",
+        "page_id": "samsung_tablet manuals_4b13a426-b232-4902-8782-201d55a20445_00021",
+        "image_filename": "images/samsung_tablet manuals_4b13a426-b232-4902-8782-201d55a20445/images/samsung_tablet manuals_4b13a426-b232-4902-8782-201d55a20445_00021.jpg",
+        "shape": {
+          "x": 36.85039901733398,
+          "y": 18.754249572753906,
+          "width": 561.0852088928225,
+          "height": 64.4280014038085
+        },
+        "text": ""
+      },
+      {
+        "structure": "Text",
+        "page_id": "samsung_tablet manuals_4b13a426-b232-4902-8782-201d55a20445_00021",
+        "image_filename": "images/samsung_tablet manuals_4b13a426-b232-4902-8782-201d55a20445/images/samsung_tablet manuals_4b13a426-b232-4902-8782-201d55a20445_00021.jpg",
+        "shape": {
+          "x": 71.99999999999994,
+          "y": 144.1828002929686,
+          "width": 1524.4855957031236,
+          "height": 67.64801025390639
+        },
+        "text": "Touching the Launcher program enables you to easily play music and video files and operate downloaded applications by touching the screen with your finger on models with a touch screen."
+      }
+    ]
+  },
+  {
+    "qa_id": "bose_stereo amplifier manuals_75e037bc-fbcc-c214-3964-d4c9efb89725_26",
+    "manual_id": "bose_stereo amplifier manuals_75e037bc-fbcc-c214-3964-d4c9efb89725",
+    "question_en": "What is the factory setting for a voltage selection switch?",
+    "gold_answer_en": "This switch is preset at the factory setting to 230V.",
+    "gold_region_ids": [
+      "bose_stereo amplifier manuals_75e037bc-fbcc-c214-3964-d4c9efb89725_272",
+      "bose_stereo amplifier manuals_75e037bc-fbcc-c214-3964-d4c9efb89725_274",
+      "bose_stereo amplifier manuals_75e037bc-fbcc-c214-3964-d4c9efb89725_275",
+      "bose_stereo amplifier manuals_75e037bc-fbcc-c214-3964-d4c9efb89725_280",
+      "bose_stereo amplifier manuals_75e037bc-fbcc-c214-3964-d4c9efb89725_282",
+      "bose_stereo amplifier manuals_75e037bc-fbcc-c214-3964-d4c9efb89725_283"
+    ],
+    "category": "figure",
+    "case_id": "FIGURE013R",
+    "replaced_slot": "FIGURE013",
+    "question": "전압 선택 스위치의 공장 출하 시 설정은 얼마인가요?",
+    "required": [
+      "출하 기본 설정 230 V"
+    ],
+    "scoring_note": "115 V를 출하 기본값으로 안내하면 0점. 변경 가능한 다른 위치임을 명시한 115 V는 오답으로 보지 않는다.",
+    "reference_pages": [
+      "bose_stereo amplifier manuals_75e037bc-fbcc-c214-3964-d4c9efb89725_00016"
+    ],
+    "reference_regions": [
+      {
+        "structure": "Title",
+        "page_id": "bose_stereo amplifier manuals_75e037bc-fbcc-c214-3964-d4c9efb89725_00016",
+        "image_filename": "images/bose_stereo amplifier manuals_75e037bc-fbcc-c214-3964-d4c9efb89725/images/bose_stereo amplifier manuals_75e037bc-fbcc-c214-3964-d4c9efb89725_00017.jpg",
+        "shape": {
+          "x": 54.000000000000014,
+          "y": 118.00977325439453,
+          "width": 863.2440185546875,
+          "height": 33.04000091552726
+        },
+        "text": "Checking to see if you have a dual voltage Lifestyle® ampliﬁer"
+      },
+      {
+        "structure": "Text",
+        "page_id": "bose_stereo amplifier manuals_75e037bc-fbcc-c214-3964-d4c9efb89725_00016",
+        "image_filename": "images/bose_stereo amplifier manuals_75e037bc-fbcc-c214-3964-d4c9efb89725/images/bose_stereo amplifier manuals_75e037bc-fbcc-c214-3964-d4c9efb89725_00017.jpg",
+        "shape": {
+          "x": 306.00000000000006,
+          "y": 206.8646087646484,
+          "width": 858.814331054687,
+          "height": 38.98800659179696
+        },
+        "text": "• This switch is preset at the factory to 230V. If you plan to connect your ampliﬁer to 115V (North America), slide this switch to the 115V position."
+      },
+      {
+        "structure": "Text",
+        "page_id": "bose_stereo amplifier manuals_75e037bc-fbcc-c214-3964-d4c9efb89725_00016",
+        "image_filename": "images/bose_stereo amplifier manuals_75e037bc-fbcc-c214-3964-d4c9efb89725/images/bose_stereo amplifier manuals_75e037bc-fbcc-c214-3964-d4c9efb89725_00017.jpg",
+        "shape": {
+          "x": 54.000000000000014,
+          "y": 289.86376953125,
+          "width": 193.05599975585932,
+          "height": 36.46783447265642
+        },
+        "text": "Setting the voltage selec- tion switch to 115V"
+      },
+      {
+        "structure": "Product Image",
+        "page_id": "bose_stereo amplifier manuals_75e037bc-fbcc-c214-3964-d4c9efb89725_00016",
+        "image_filename": "images/bose_stereo amplifier manuals_75e037bc-fbcc-c214-3964-d4c9efb89725/images/bose_stereo amplifier manuals_75e037bc-fbcc-c214-3964-d4c9efb89725_00017.jpg",
+        "shape": {
+          "x": 303.0512084960937,
+          "y": 262.783447265625,
+          "width": 125.73199462890653,
+          "height": 63.705718994140625
+        },
+        "text": ""
+      },
+      {
+        "structure": "Title",
+        "page_id": "bose_stereo amplifier manuals_75e037bc-fbcc-c214-3964-d4c9efb89725_00016",
+        "image_filename": "images/bose_stereo amplifier manuals_75e037bc-fbcc-c214-3964-d4c9efb89725/images/bose_stereo amplifier manuals_75e037bc-fbcc-c214-3964-d4c9efb89725_00017.jpg",
+        "shape": {
+          "x": 50,
+          "y": 260.64062500000006,
+          "width": 91,
+          "height": 24.000000000000114
+        },
+        "text": "Figure 15"
+      },
+      {
+        "structure": "illustration",
+        "page_id": "bose_stereo amplifier manuals_75e037bc-fbcc-c214-3964-d4c9efb89725_00016",
+        "image_filename": "images/bose_stereo amplifier manuals_75e037bc-fbcc-c214-3964-d4c9efb89725/images/bose_stereo amplifier manuals_75e037bc-fbcc-c214-3964-d4c9efb89725_00017.jpg",
+        "shape": {
+          "x": 43.99999999999998,
+          "y": 253.64062500000003,
+          "width": 392.00000000000006,
+          "height": 83.00000000000003
+        },
+        "text": ""
+      }
+    ]
+  },
+  {
+    "qa_id": "phone_apple_ios8.4_307",
+    "manual_id": "phone_apple_ios8.4",
+    "question_en": "How can I make someone a VIP?",
+    "gold_answer_en": "You can tap the person's name or email address, then tap Add to VIP.",
+    "gold_region_ids": [
+      "phone_apple_ios8.4_2693",
+      "phone_apple_ios8.4_2700",
+      "phone_apple_ios8.4_2699",
+      "phone_apple_ios8.4_2698"
+    ],
+    "category": "figure",
+    "case_id": "FIGURE025R",
+    "replaced_slot": "FIGURE025",
+    "question": "누군가를 VIP로 지정하려면 어떻게 하나요?",
+    "required": [
+      "해당 사람의 이름 또는 이메일 주소를 누른다",
+      "VIP에 추가를 선택한다"
+    ],
+    "scoring_note": "원본 매뉴얼에서 확인되는 다른 완전한 VIP 지정 경로도 인정한다.",
+    "reference_pages": [
+      "phone_apple_ios8.4_00054"
+    ],
+    "reference_regions": [
+      {
+        "structure": "Text",
+        "page_id": "phone_apple_ios8.4_00054",
+        "image_filename": "images/phone_apple_ios8.4/images/phone_apple_ios8.4_00061.jpg",
+        "shape": {
+          "x": 210.00000000000003,
+          "y": 817.3120117187502,
+          "width": 788.7400512695314,
+          "height": 47.51995849609352
+        },
+        "text": "Add someone to Contacts or make them a VIP. Tap the person’s name or email address, then tap Add to VIP. You can also add their address to a new or existing contact."
+      },
+      {
+        "structure": "illustration",
+        "page_id": "phone_apple_ios8.4_00054",
+        "image_filename": "images/phone_apple_ios8.4/images/phone_apple_ios8.4_00061.jpg",
+        "shape": {
+          "x": 206.99999999999994,
+          "y": 772.6249999999999,
+          "width": 806.0,
+          "height": 401.0000000000008
+        },
+        "text": ""
+      },
+      {
+        "structure": "Title",
+        "page_id": "phone_apple_ios8.4_00054",
+        "image_filename": "images/phone_apple_ios8.4/images/phone_apple_ios8.4_00061.jpg",
+        "shape": {
+          "x": 210.66666666666669,
+          "y": 745.7499999999997,
+          "width": 269.99999999999983,
+          "height": 26.666666666666856
+        },
+        "text": "See and save addresses"
+      },
+      {
+        "structure": "Product Image",
+        "page_id": "phone_apple_ios8.4_00054",
+        "image_filename": "images/phone_apple_ios8.4/images/phone_apple_ios8.4_00061.jpg",
+        "shape": {
+          "x": 210.34202575683585,
+          "y": 872.6953735351561,
+          "width": 212.0588836669924,
+          "height": 296.4044799804684
+        },
+        "text": ""
+      }
+    ]
+  },
+  {
+    "qa_id": "samsung_digital photo frame manuals_7cb3b154-2fbe-5ea4-ad81-2fa0f4ebb5f8_76",
+    "manual_id": "samsung_digital photo frame manuals_7cb3b154-2fbe-5ea4-ad81-2fa0f4ebb5f8",
+    "question_en": "What do the cables include in the device?",
+    "gold_answer_en": "They include the power cord, USB cable, and power adapter.",
+    "gold_region_ids": [
+      "samsung_digital photo frame manuals_7cb3b154-2fbe-5ea4-ad81-2fa0f4ebb5f8_1178",
+      "samsung_digital photo frame manuals_7cb3b154-2fbe-5ea4-ad81-2fa0f4ebb5f8_1162",
+      "samsung_digital photo frame manuals_7cb3b154-2fbe-5ea4-ad81-2fa0f4ebb5f8_1163",
+      "samsung_digital photo frame manuals_7cb3b154-2fbe-5ea4-ad81-2fa0f4ebb5f8_1165",
+      "samsung_digital photo frame manuals_7cb3b154-2fbe-5ea4-ad81-2fa0f4ebb5f8_1161",
+      "samsung_digital photo frame manuals_7cb3b154-2fbe-5ea4-ad81-2fa0f4ebb5f8_1173",
+      "samsung_digital photo frame manuals_7cb3b154-2fbe-5ea4-ad81-2fa0f4ebb5f8_1174",
+      "samsung_digital photo frame manuals_7cb3b154-2fbe-5ea4-ad81-2fa0f4ebb5f8_1175"
+    ],
+    "category": "figure",
+    "case_id": "FIGURE031R",
+    "replaced_slot": "FIGURE031",
+    "question": "이 기기에 함께 제공되는 케이블 구성품은 무엇인가요?",
+    "required": [
+      "전원 코드",
+      "USB 케이블",
+      "전원 어댑터"
+    ],
+    "scoring_note": "매뉴얼의 Cables 구성 목록을 기준으로 한다. 지원되는 별매 케이블을 기본 구성품으로 단정하면 별도 오류다.",
+    "reference_pages": [
+      "samsung_digital photo frame manuals_7cb3b154-2fbe-5ea4-ad81-2fa0f4ebb5f8_00008"
+    ],
+    "reference_regions": [
+      {
+        "structure": "graphic",
+        "page_id": "samsung_digital photo frame manuals_7cb3b154-2fbe-5ea4-ad81-2fa0f4ebb5f8_00008",
+        "image_filename": "images/samsung_digital photo frame manuals_7cb3b154-2fbe-5ea4-ad81-2fa0f4ebb5f8/images/samsung_digital photo frame manuals_7cb3b154-2fbe-5ea4-ad81-2fa0f4ebb5f8_00008.jpg",
+        "shape": {
+          "x": 168.99999999999997,
+          "y": 411.6093750000001,
+          "width": 700.0000000000002,
+          "height": 230.0000000000001
+        },
+        "text": ""
+      },
+      {
+        "structure": "Text",
+        "page_id": "samsung_digital photo frame manuals_7cb3b154-2fbe-5ea4-ad81-2fa0f4ebb5f8_00008",
+        "image_filename": "images/samsung_digital photo frame manuals_7cb3b154-2fbe-5ea4-ad81-2fa0f4ebb5f8/images/samsung_digital photo frame manuals_7cb3b154-2fbe-5ea4-ad81-2fa0f4ebb5f8_00008.jpg",
+        "shape": {
+          "x": 256.7999877929688,
+          "y": 615.1129150390625,
+          "width": 66.80807495117176,
+          "height": 16.22247314453125
+        },
+        "text": "Power cord"
+      },
+      {
+        "structure": "Text",
+        "page_id": "samsung_digital photo frame manuals_7cb3b154-2fbe-5ea4-ad81-2fa0f4ebb5f8_00008",
+        "image_filename": "images/samsung_digital photo frame manuals_7cb3b154-2fbe-5ea4-ad81-2fa0f4ebb5f8/images/samsung_digital photo frame manuals_7cb3b154-2fbe-5ea4-ad81-2fa0f4ebb5f8_00008.jpg",
+        "shape": {
+          "x": 489.95977783203153,
+          "y": 604.4334716796877,
+          "width": 59.40295410156244,
+          "height": 16.222473144531023
+        },
+        "text": "USB cable"
+      },
+      {
+        "structure": "Text",
+        "page_id": "samsung_digital photo frame manuals_7cb3b154-2fbe-5ea4-ad81-2fa0f4ebb5f8_00008",
+        "image_filename": "images/samsung_digital photo frame manuals_7cb3b154-2fbe-5ea4-ad81-2fa0f4ebb5f8/images/samsung_digital photo frame manuals_7cb3b154-2fbe-5ea4-ad81-2fa0f4ebb5f8_00008.jpg",
+        "shape": {
+          "x": 705.4796142578125,
+          "y": 615.1142578124995,
+          "width": 87.5366821289067,
+          "height": 16.222473144531705
+        },
+        "text": "Power Adapter"
+      },
+      {
+        "structure": "Title",
+        "page_id": "samsung_digital photo frame manuals_7cb3b154-2fbe-5ea4-ad81-2fa0f4ebb5f8_00008",
+        "image_filename": "images/samsung_digital photo frame manuals_7cb3b154-2fbe-5ea4-ad81-2fa0f4ebb5f8/images/samsung_digital photo frame manuals_7cb3b154-2fbe-5ea4-ad81-2fa0f4ebb5f8_00008.jpg",
+        "shape": {
+          "x": 174.3600006103516,
+          "y": 387.8326110839845,
+          "width": 44.63621520996088,
+          "height": 16.222503662109318
+        },
+        "text": "Cables"
+      },
+      {
+        "structure": "Product Image",
+        "page_id": "samsung_digital photo frame manuals_7cb3b154-2fbe-5ea4-ad81-2fa0f4ebb5f8_00008",
+        "image_filename": "images/samsung_digital photo frame manuals_7cb3b154-2fbe-5ea4-ad81-2fa0f4ebb5f8/images/samsung_digital photo frame manuals_7cb3b154-2fbe-5ea4-ad81-2fa0f4ebb5f8_00008.jpg",
+        "shape": {
+          "x": 177.72000122070315,
+          "y": 417.35998535156267,
+          "width": 225.00000000000003,
+          "height": 179.99999999999994
+        },
+        "text": ""
+      },
+      {
+        "structure": "Product Image",
+        "page_id": "samsung_digital photo frame manuals_7cb3b154-2fbe-5ea4-ad81-2fa0f4ebb5f8_00008",
+        "image_filename": "images/samsung_digital photo frame manuals_7cb3b154-2fbe-5ea4-ad81-2fa0f4ebb5f8/images/samsung_digital photo frame manuals_7cb3b154-2fbe-5ea4-ad81-2fa0f4ebb5f8_00008.jpg",
+        "shape": {
+          "x": 407.2799987792969,
+          "y": 417.35998535156267,
+          "width": 225.00003051757824,
+          "height": 179.99999999999994
+        },
+        "text": ""
+      },
+      {
+        "structure": "Product Image",
+        "page_id": "samsung_digital photo frame manuals_7cb3b154-2fbe-5ea4-ad81-2fa0f4ebb5f8_00008",
+        "image_filename": "images/samsung_digital photo frame manuals_7cb3b154-2fbe-5ea4-ad81-2fa0f4ebb5f8/images/samsung_digital photo frame manuals_7cb3b154-2fbe-5ea4-ad81-2fa0f4ebb5f8_00008.jpg",
+        "shape": {
+          "x": 636.7199707031252,
+          "y": 417.35998535156267,
+          "width": 225.0,
+          "height": 179.99999999999994
+        },
+        "text": ""
+      }
+    ]
+  }
+]

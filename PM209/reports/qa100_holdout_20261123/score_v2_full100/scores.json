@@ -1,0 +1,2896 @@
+{
+  "summary": {
+    "overall": {
+      "count": 100,
+      "score": "80.8",
+      "exact_total": "24250/3",
+      "exact_average": "485/6",
+      "full": 76,
+      "partial": 10,
+      "zero": 14
+    },
+    "by_category": {
+      "text": {
+        "count": 34,
+        "score": "88.0",
+        "exact_total": "8980/3",
+        "exact_average": "4490/51",
+        "full": 28,
+        "partial": 4,
+        "zero": 2
+      },
+      "table": {
+        "count": 33,
+        "score": "73.9",
+        "exact_total": "2440",
+        "exact_average": "2440/33",
+        "full": 22,
+        "partial": 5,
+        "zero": 6
+      },
+      "figure": {
+        "count": 33,
+        "score": "80.3",
+        "exact_total": "2650",
+        "exact_average": "2650/33",
+        "full": 26,
+        "partial": 1,
+        "zero": 6
+      }
+    },
+    "new_five": {
+      "count": 5,
+      "score": "100.0",
+      "exact_total": "500",
+      "exact_average": "100",
+      "full": 5,
+      "partial": 0,
+      "zero": 0
+    },
+    "retained": 95,
+    "excluded": 0,
+    "previous_on_95": "79.8",
+    "retained_source_sha256": "493788121a3b9fbc1adc24f59edb9dd233d45f86141b37f85ecd1e3b72142460",
+    "judge": "Codex, frozen v2 rubric, not independently human validated"
+  },
+  "cases": [
+    {
+      "case_id": "TEXT001",
+      "qa_id": "windows10forbeginners_323",
+      "category": "text",
+      "manual_id": "windows10forbeginners",
+      "question": "Windows 10에서 지도를 끝까지 축소해서 전 세계를 볼 수 있나요?",
+      "question_en": "Can I zoom right out and see the whole world with Windows 10?",
+      "raw_reference": "Yes. You can zoom right out and see the whole world.",
+      "final_answer": "네, Windows 10 지도를 끝까지 축소하면 전 세계를 볼 수 있습니다.",
+      "answer_origin": "saved",
+      "required": [
+        "최대로 축소하면 세계 전체를 볼 수 있다"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "최대 축소 시 세계 전체를 볼 수 있다고 답했다.",
+      "reference_pages": [
+        "windows10forbeginners_00042"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "TEXT002",
+      "qa_id": "Samsung_phone_zfold_SAM_F926_F711_EN_UM_OS12_010722_FINAL_365",
+      "category": "text",
+      "manual_id": "Samsung_phone_zfold_SAM_F926_F711_EN_UM_OS12_010722_FINAL",
+      "question": "화면 모드는 어떻게 사용하나요?",
+      "question_en": "How can I use the screen mode?",
+      "raw_reference": "You can tap Display > Screen mode from Settings and tap an option to set a different screen mode.",
+      "final_answer": "설정에서 디스플레이를 탭하고 화면 모드를 선택한 후, 원하는 옵션을 터치하여 다른 화면 모드를 설정합니다.",
+      "answer_origin": "saved",
+      "required": [
+        "설정에서 디스플레이→화면 모드로 이동",
+        "원하는 모드 선택"
+      ],
+      "hits": [
+        1,
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "디스플레이·화면 모드에 진입해 옵션을 선택한다.",
+      "reference_pages": [
+        "Samsung_phone_zfold_SAM_F926_F711_EN_UM_OS12_010722_FINAL_00143"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "TEXT003",
+      "qa_id": "bose_stereo amplifier manuals_75e037bc-fbcc-c214-3964-d4c9efb89725_4",
+      "category": "text",
+      "manual_id": "bose_stereo amplifier manuals_75e037bc-fbcc-c214-3964-d4c9efb89725",
+      "question": "어떤 날씨에 이 기기의 전원 플러그를 뽑아야 하나요?",
+      "question_en": "In which weather should I unplug this apparatus?",
+      "raw_reference": "You should unplug this apparatus during lightning storms or when unused for long periods of time-to prevent  damage to this product.",
+      "final_answer": "번개 폭풍 (lightning storms) 이나 장시간 사용하지 않을 때 전원 플러그를 뽑아야 합니다.\n\n추가로 확인된 내용:\n번개(lightning)가 있을 때 또는 장기간 사용하지 않을 때 전원 플러그를 뽑아야 합니다.",
+      "answer_origin": "saved",
+      "required": [
+        "낙뢰를 동반한 폭풍 시 플러그 분리"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "낙뢰 시 전원 분리를 안내했다. 장기 미사용도 매뉴얼에 있는 별도 조건이다.",
+      "reference_pages": [
+        "bose_stereo amplifier manuals_75e037bc-fbcc-c214-3964-d4c9efb89725_00003"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "TEXT004",
+      "qa_id": "phone_apple_ios8.4_454",
+      "category": "text",
+      "manual_id": "phone_apple_ios8.4",
+      "question": "일부 국가에서는 음소거 기능을 사용할 수 없나요?",
+      "question_en": "Is muting disabled in some countries?",
+      "raw_reference": "Yes. In some countries, muting is disabled.",
+      "final_answer": "네, 일부 국가에서는 음소거 기능을 사용할 수 없습니다.",
+      "answer_origin": "saved",
+      "required": [
+        "일부 국가에서 음소거 불가"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "일부 국가라는 조건과 음소거 불가를 맞혔다.",
+      "reference_pages": [
+        "phone_apple_ios8.4_00090"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "TEXT005",
+      "qa_id": "samsung_baby monitor manuals_920c46b3-bd59-41e2-8280-1f3a7288e42b_29",
+      "category": "text",
+      "manual_id": "samsung_baby monitor manuals_920c46b3-bd59-41e2-8280-1f3a7288e42b",
+      "question": "영상 이미지에 개인정보 보호 설정을 해 두면 어떻게 되나요?",
+      "question_en": "What if I have set the privacy setting of the video image?",
+      "raw_reference": "In this case, no image will be found on portal sites.",
+      "final_answer": "영상 이미지에 개인정보 보호 설정을 해 두면 포털 사이트에서 이미지 검색이 되지 않습니다.",
+      "answer_origin": "saved",
+      "required": [
+        "포털 사이트에서 해당 이미지를 찾을 수 없다"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "포털 사이트에서 검색되지 않는 결과를 설명했다.",
+      "reference_pages": [
+        "samsung_baby monitor manuals_920c46b3-bd59-41e2-8280-1f3a7288e42b_00020"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "TEXT006",
+      "qa_id": "dell_computer hardware manuals_586ec0de-09e1-47a0-8c21-4ad65f7b856e_16",
+      "category": "text",
+      "manual_id": "dell_computer hardware manuals_586ec0de-09e1-47a0-8c21-4ad65f7b856e",
+      "question": "배터리 문제를 해결하려면 어떤 절차를 따라야 하나요?",
+      "question_en": "What are the steps to troubleshoot the battery?",
+      "raw_reference": "1. Turn off the system, including any attached peripherals, and disconnect the system from its electrical outlet. 2. Remove the computer cover. 3. If an expansion card blocks your access to the battery, remove the expansion card. 4. Check the connection of the coin cell battery to the system board. 5. Reseat the battery in its socket.",
+      "final_answer": "배터리 문제를 해결하기 위해서는 다음 절차를 따라야 합니다: 1. 시스템과 연결된 모든 주변 장치를 끄고 시스템을 전원 공급 장치에서 분리합니다. 2. 컴퓨터 커버를 제거합니다. 3. 배터리 접근이 확장 카드에 의해 방해받는 경우, 해당 확장 카드를 제거합니다. 4. 배터리를 다시 장착합니다.\n\n추가로 확인된 내용:\n경고: 전해질 방출을 방지하기 위해 안전 지침의 앞부분에 있는 정전기 방전 보호에 대한 내용을 참조하십시오.",
+      "answer_origin": "saved",
+      "required": [
+        "시스템·주변기기 종료와 전원 분리",
+        "커버를 연다",
+        "접근을 막을 때만 확장 카드를 제거",
+        "코인셀과 시스템 보드의 연결 확인",
+        "배터리 재장착"
+      ],
+      "hits": [
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "penalties": [
+        "정전기 방전 보호 경고의 목적을 전해질 방출 방지라고 단정"
+      ],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "다섯 단계 중 보드 연결 점검을 빠뜨렸다. 추가 경고에서 정전기 방전 보호를 전해질 방출 방지라고 잘못 안내했다.",
+      "reference_pages": [
+        "dell_computer hardware manuals_586ec0de-09e1-47a0-8c21-4ad65f7b856e_00013",
+        "dell_computer hardware manuals_586ec0de-09e1-47a0-8c21-4ad65f7b856e_00014"
+      ],
+      "score_exact": "60",
+      "score": "60.0"
+    },
+    {
+      "case_id": "TEXT007",
+      "qa_id": "robotis_robot_mechanical_arm_UR5_colored_323",
+      "category": "text",
+      "manual_id": "robotis_robot_mechanical_arm_UR5_colored",
+      "question": "Universal Robots 로고는 무엇인가요?",
+      "question_en": "What is the Universal Robots logo?",
+      "raw_reference": "It is a registered trademark of Universal Robots A/S.",
+      "final_answer": "Universal Robots 로고는 Universal Robots A/S 의 등록 상표입니다.",
+      "answer_origin": "saved",
+      "required": [
+        "Universal Robots A/S의 등록상표"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "회사명과 등록상표를 맞혔다.",
+      "reference_pages": [
+        "robotis_robot_mechanical_arm_UR5_colored_00003"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "TEXT008",
+      "qa_id": "samsung_label maker manuals_e6058340-b585-43fd-8dcc-b233a50395fc_47",
+      "category": "text",
+      "manual_id": "samsung_label maker manuals_e6058340-b585-43fd-8dcc-b233a50395fc",
+      "question": "센서 매개변수를 보정하는 방법을 자세히 알려주세요.",
+      "question_en": "How to calibrate sensor parameters in detail?",
+      "raw_reference": "Users can calibrate sensor parameters in detail by using the utility program provided by the manufacturer.",
+      "final_answer": "센서 매개변수를 보정하는 방법은 제조사 제공 유틸리티 프로그램을 사용하여 수행합니다. 먼저 프린터가 연결되어 있어야 하며, 해당 프로그램은 동봉된 CD에서 또는 BIXOLON 웹사이트 (www.bixolon.com) 를 통해 다운로드하여 실행할 수 있습니다.\n\n보정 절차는 다음과 같습니다:\n1. 인터페이스 타입을 설정한 후 'Calibration Setting Manager' 버튼을 누릅니다.\n2. 감지 타입 (G/B) 을 선택하고 레이블 길이를 밀리미터 단위로 입력한 후 'Check Sensing Value' 탭을 클릭합니다.\n3. 유틸리티 화면 왼쪽에 검은 굵은 글씨로 최적의 감지 값이 표시되며, 그 중 하나를 선택한 후 'Save Calibration' 버튼을 클릭합니다.\n4. 선택한 값이 제대로 작동하지 않는 경우, 검은 굵은 글씨로 표시된 다른 값을 시도해 봅니다.\n5. 초기 값으로 돌아가려면 'Cancel Calibration' 버튼을 클릭합니다.\n\n추가로 확인된 내용:\n유틸리티 프로그램을 다운로드하여 실행해야 합니다.",
+      "answer_origin": "saved",
+      "required": [
+        "제조사 제공 유틸리티에서 센서 매개변수를 보정"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "제조사 보정 유틸리티를 알려 줬고 세부 조작도 매뉴얼의 보정 절차에 부합한다.",
+      "reference_pages": [
+        "samsung_label maker manuals_e6058340-b585-43fd-8dcc-b233a50395fc_00020"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "TEXT009",
+      "qa_id": "dell_all in one printer manuals_f757a4a2-fb78-4f6e-a530-5b3c17bf6ecf_27",
+      "category": "text",
+      "manual_id": "dell_all in one printer manuals_f757a4a2-fb78-4f6e-a530-5b3c17bf6ecf",
+      "question": "검은색 모델의 순중량은 얼마인가요?",
+      "question_en": "What's the net weight of the black one?",
+      "raw_reference": "The net weight of the black one is 134.9.",
+      "final_answer": "검은색 모델의 순중량은 134.9 그램입니다.",
+      "answer_origin": "saved",
+      "required": [
+        "검은색 모델의 순중량 134.9 g"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "134.9 g을 답했다.",
+      "reference_pages": [
+        "dell_all in one printer manuals_f757a4a2-fb78-4f6e-a530-5b3c17bf6ecf_00021"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "TEXT010",
+      "qa_id": "samsung_mp3 player manuals_1d395228-d01d-47cd-a4b2-0d4e7a68a2be_64",
+      "category": "text",
+      "manual_id": "samsung_mp3 player manuals_1d395228-d01d-47cd-a4b2-0d4e7a68a2be",
+      "question": "Windows XP를 사용하는 컴퓨터에서 USB 드라이버를 확인하려면 어떻게 해야 하나요?",
+      "question_en": "My computer is operated by Windows XP, and I want to check the USB driver, what can I do?",
+      "raw_reference": "You can choose Control Panel→System→Hardware→Device Manager→Disk drives→SAMSUNG YP-60 USB Device.",
+      "final_answer": "Windows XP 컴퓨터에서 USB 드라이버를 확인하려면, [제어판] → [시스템] → [하드웨어] → [장치 관리자]로 이동한 후, 점 (!) 또는 물음표 (?) 표시가 있는 장치 (예: SAMSUNG YP-60 USB Device) 를 더블 클릭하여 확인해야 합니다.",
+      "answer_origin": "saved",
+      "required": [
+        "XP의 제어판→시스템→하드웨어→장치 관리자",
+        "정상 드라이버 확인용 디스크 드라이브 아래 해당 USB 장치를 찾는다"
+      ],
+      "hits": [
+        1,
+        0
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "장치 관리자까지는 정확하지만, 정상 드라이버를 확인할 디스크 드라이브 경로를 생략하고 설치 오류용 절차를 안내했다.",
+      "reference_pages": [
+        "samsung_mp3 player manuals_1d395228-d01d-47cd-a4b2-0d4e7a68a2be_00008",
+        "samsung_mp3 player manuals_1d395228-d01d-47cd-a4b2-0d4e7a68a2be_00009"
+      ],
+      "score_exact": "50",
+      "score": "50.0"
+    },
+    {
+      "case_id": "TEXT011",
+      "qa_id": "robotics_spot-user-guide-r2.0-va_48",
+      "category": "text",
+      "manual_id": "robotics_spot-user-guide-r2.0-va",
+      "question": "Spot을 안전하게 정지시키려면 어떻게 해야 하나요?",
+      "question_en": "How to stop Spot safely?",
+      "raw_reference": "You can stop it by pressing the controller's B button regularly.",
+      "final_answer": "Spot 을 안전하게 정지시키려면 컨트롤러의 B 버튼을 누르세요. 이 경우 Spot 은 일시 정지 상태가 되고 원래 위치에서 멈춥니다. 만약 Spot 이 앉아있는 상태라면 앉은 상태로 유지됩니다.\n\n추가로 확인된 내용:\n빨간색 STOP 버튼을 컨트롤러 상단 오른쪽 모서리에 선택하고 확인하세요.",
+      "answer_origin": "saved",
+      "required": [
+        "컨트롤러의 정지 조작 B 버튼 또는 해당 상황에 맞는 매뉴얼상의 안전 정지 방법"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [
+        "일반 정지 후에도 비상시에만 쓰는 빨간 STOP을 조건 없이 추가 실행하도록 안내"
+      ],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "B 버튼으로 일반 정지하는 답은 정확하다. 이어서 조건 없이 빨간 STOP까지 누르라고 덧붙였고 매뉴얼은 이를 로봇이 주저앉는 비상 정지로 구분한다.",
+      "reference_pages": [
+        "robotics_spot-user-guide-r2.0-va_00024"
+      ],
+      "score_exact": "0",
+      "score": "0.0"
+    },
+    {
+      "case_id": "TEXT012",
+      "qa_id": "Samsung_watch_WEA_R89X_R88X_R87X_R86X_EN_UM_071621_FINAL_AC_91",
+      "category": "text",
+      "manual_id": "Samsung_watch_WEA_R89X_R88X_R87X_R86X_EN_UM_071621_FINAL_AC",
+      "question": "긴급한 상황에서 SOS 메시지를 어떻게 보낼 수 있나요?",
+      "question_en": "If I were in an emergency situation, how can I send SOS messages?",
+      "raw_reference": "You can press the Home key quickly three times to send an SOS message.",
+      "final_answer": "긴급 상황에서 SOS 메시지를 보내려면 홈 키를 빠르게 세 번 누르세요. 또한 설정 메뉴에서 고급 기능 > SOS 를 통해 옵션을 커스터마이징할 수 있습니다.",
+      "answer_origin": "saved",
+      "required": [
+        "홈 키를 빠르게 세 번 눌러 SOS 전송"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "홈 키를 빠르게 세 번 누른다.",
+      "reference_pages": [
+        "Samsung_watch_WEA_R89X_R88X_R87X_R86X_EN_UM_071621_FINAL_AC_00041"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "TEXT013",
+      "qa_id": "Apple_Numbers09_UserGuide_204",
+      "category": "text",
+      "manual_id": "Apple_Numbers09_UserGuide",
+      "question": "안내선을 잠시 숨기려면 어떻게 하나요?",
+      "question_en": "How to momentarily hide guides?",
+      "raw_reference": "You can hold down the Command key while you drag an object to momentarily hide guides.",
+      "final_answer": "안내선을 잠시 숨기려면 물체를 드래그할 때 Command 키를 누른 채로 유지하세요.",
+      "answer_origin": "saved",
+      "required": [
+        "개체를 드래그하는 동안 Command 키를 누른다"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "드래그 중 Command 유지.",
+      "reference_pages": [
+        "Apple_Numbers09_UserGuide_00205"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "TEXT014",
+      "qa_id": "Microsoft_Surface Pro User Guide_116",
+      "category": "text",
+      "manual_id": "Microsoft_Surface Pro User Guide",
+      "question": "중요 업데이트는 제가 직접 설치해야 하나요?",
+      "question_en": "Do I need to install important updates by myself?",
+      "raw_reference": "No, you needn't. Windows Update will install them as they become available.",
+      "final_answer": "중요 업데이트는 직접 설치할 필요가 없습니다. Windows Update 가 자동으로 설치합니다.",
+      "answer_origin": "saved",
+      "required": [
+        "직접 설치할 필요 없이 Windows Update에서 자동 설치"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "직접 설치할 필요 없이 Windows Update로 자동 설치된다고 설명했다.",
+      "reference_pages": [
+        "Microsoft_Surface Pro User Guide_00117"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "TEXT015",
+      "qa_id": "bose_portable_speaker_manuals_891b4fd2-3578-44ce-8a02-cef456f79835_13",
+      "category": "text",
+      "manual_id": "bose_portable_speaker_manuals_891b4fd2-3578-44ce-8a02-cef456f79835",
+      "question": "전선 끝을 서로 꼬아야 하나요?",
+      "question_en": "Is it necessary to twist the ends of the wires together?",
+      "raw_reference": "No. Twisting the ends of the wires together is not necessary.",
+      "final_answer": "전선 끝을 서로 꼬아야 하는지 여부는 설치 단계와 테스트 단계에 따라 다릅니다.\n\n1. **설치 (영구 연결)**: 전선 끝을 서로 꼬아 연결할 필요는 없습니다. 대신 공급된 실리콘 필러 와이어 너트를 사용하여 선단들을 고정해야 합니다.\n2. **테스트**: 시스템 작동 여부를 확인하기 위해 임시로 전선 끝을 서로 꼬아 연결하는 것이 좋습니다. 이후 모든 작업이 완료되면 테스트용 연결을 해체하고 영구적인 와이어 너트 연결로 교체합니다.",
+      "answer_origin": "saved",
+      "required": [
+        "끝을 서로 꼬는 것이 필수는 아니다"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "영구 연결에서는 꼬지 않아도 되고, 임시 테스트 지침과 구분했다.",
+      "reference_pages": [
+        "bose_portable_speaker_manuals_891b4fd2-3578-44ce-8a02-cef456f79835_00012"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "TEXT016",
+      "qa_id": "bose_stereo_receiver_manuals_f6a48783-84e0-429f-93e9-092f6a28db3b_7",
+      "category": "text",
+      "manual_id": "bose_stereo_receiver_manuals_f6a48783-84e0-429f-93e9-092f6a28db3b",
+      "question": "송신기 신호는 어느 방향이 가장 강한가요?",
+      "question_en": "Where is the strongest signal direction of the transmitter?",
+      "raw_reference": "The strongest signal direction is above and around, not below, the transmitter.",
+      "final_answer": "송신기 신호는 송신기 위쪽과 주변 방향이 가장 강하며, 아래쪽은 약합니다.",
+      "answer_origin": "saved",
+      "required": [
+        "송신기 위쪽과 주변에서 신호가 가장 강함"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "위쪽·주변이 강하고 아래쪽은 약하다고 했다.",
+      "reference_pages": [
+        "bose_stereo_receiver_manuals_f6a48783-84e0-429f-93e9-092f6a28db3b_00004"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "TEXT017",
+      "qa_id": "lg_flat panel television manuals_0a4c44a6-633b-49de-b960-2cb89fb501d7_19",
+      "category": "text",
+      "manual_id": "lg_flat panel television manuals_0a4c44a6-633b-49de-b960-2cb89fb501d7",
+      "question": "19/22LE4D* 모델에서 스탠드를 설치하는 첫 단계는 무엇인가요?",
+      "question_en": "What's the first step to installing the stand only 19/22LE4D*?",
+      "raw_reference": "Carefully place the TV screen side down on a cushioned surface to protect the screen from damage.",
+      "final_answer": "19/22LE4D* 모델에서 스탠드를 설치하는 첫 단계는 TV 화면을 쿠션된 표면에 아래쪽이 되도록 배치하는 것입니다.",
+      "answer_origin": "saved",
+      "required": [
+        "부드러운 받침 위에 둠",
+        "화면을 아래로 향하게 함"
+      ],
+      "hits": [
+        1,
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "부드러운 받침과 화면을 아래로 둔다는 지시를 모두 제시했다.",
+      "reference_pages": [
+        "lg_flat panel television manuals_0a4c44a6-633b-49de-b960-2cb89fb501d7_00008"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "TEXT018",
+      "qa_id": "lenovo_computer hardware manuals_0a1edb47-198a-4ca7-b1fd-cbb313a20232_25",
+      "category": "text",
+      "manual_id": "lenovo_computer hardware manuals_0a1edb47-198a-4ca7-b1fd-cbb313a20232",
+      "question": "온라인 기술 지원을 받으려면 어떻게 하나요?",
+      "question_en": "How to get online technical support?",
+      "raw_reference": "You can go to http://www.lenovo.com/support/graphiccards.",
+      "final_answer": "온라인 기술 지원을 받으려면 Lenovo 지원 웹 사이트인 http://www.lenovo.com/support 에서 확인해야 합니다.",
+      "answer_origin": "saved",
+      "required": [
+        "제품 매뉴얼이 안내하는 공식 온라인 지원 경로 한 가지"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "일반 Lenovo 지원 주소도 이 제품 매뉴얼이 명시한 온라인 지원 경로다.",
+      "reference_pages": [
+        "lenovo_computer hardware manuals_0a1edb47-198a-4ca7-b1fd-cbb313a20232_00003",
+        "lenovo_computer hardware manuals_0a1edb47-198a-4ca7-b1fd-cbb313a20232_00004",
+        "lenovo_computer hardware manuals_0a1edb47-198a-4ca7-b1fd-cbb313a20232_00008"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "TEXT019",
+      "qa_id": "bose_speaker_manuals_a0300d5c-655e-48db-9eeb-df1081e89573_21",
+      "category": "text",
+      "manual_id": "bose_speaker_manuals_a0300d5c-655e-48db-9eeb-df1081e89573",
+      "question": "SoundDock 10 Bluetooth 디지털 음악 시스템은 어떤 용도로 사용하나요?",
+      "question_en": "What use is the SoundDock 10 Bluetooth digital music system?",
+      "raw_reference": "It is ready for use with a variety of iPhone and iPod models.",
+      "final_answer": "SoundDock 10 Bluetooth 디지털 음악 시스템은 가정에서 주요 디지털 음악 시스템으로 사용될 수 있습니다.",
+      "answer_origin": "saved",
+      "required": [
+        "가정에서 주 음악 시스템으로 쓰거나 호환 기기의 음악을 재생하는 등 매뉴얼에서 확인되는 용도 한 가지"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "가정용 주 음악 시스템은 제품 소개 원문에 명시된 용도다.",
+      "reference_pages": [
+        "bose_speaker_manuals_a0300d5c-655e-48db-9eeb-df1081e89573_00005",
+        "bose_speaker_manuals_a0300d5c-655e-48db-9eeb-df1081e89573_00011"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "TEXT020",
+      "qa_id": "sony_laptop_manuals_a02cf092-3538-4646-ab93-8cae84a07ad2_9",
+      "category": "text",
+      "manual_id": "sony_laptop_manuals_a02cf092-3538-4646-ab93-8cae84a07ad2",
+      "question": "3D 설정을 어떻게 조정하나요?",
+      "question_en": "How can I adjust the 3D settings?",
+      "raw_reference": "You can click Start, All Programs, and VAIO Control Center, then click 3D Effect Settings in the left pane of the window to adjust the 3D effect.",
+      "final_answer": "3D 설정을 조정하려면 'VAIO Control Center'를 사용하여 다음 단계를 수행합니다.\n1. 시작 메뉴 (Start) > 모든 프로그램 (All Programs) > VAIO Control Center 를 클릭합니다.\n2. 왼쪽 패널에서 '3D Effect Settings'를 클릭합니다.\n3. 3D 효과를 조정합니다.",
+      "answer_origin": "saved",
+      "required": [
+        "VAIO Control Center를 연다",
+        "3D Effect Settings에서 조정"
+      ],
+      "hits": [
+        1,
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "VAIO Control Center와 3D Effect Settings 경로를 모두 안내했다.",
+      "reference_pages": [
+        "sony_laptop_manuals_a02cf092-3538-4646-ab93-8cae84a07ad2_00009"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "TEXT021",
+      "qa_id": "bose_headphones_manuals_6d12e20d-cf8d-4337-b073-53d7e85e4163_6",
+      "category": "text",
+      "manual_id": "bose_headphones_manuals_6d12e20d-cf8d-4337-b073-53d7e85e4163",
+      "question": "교체 부품과 액세서리는 어디에서 찾을 수 있나요?",
+      "question_en": "Where can I find replacement parts and accessories?",
+      "raw_reference": "You can find them in Bose Customer Service. See the contact information for your area  included in this guide.",
+      "final_answer": "교체 부품과 액세서리는 해당 가이드에 포함된 지역별 연락처 정보를 통해 보스(Bose) 고객 서비스에 주문할 수 있습니다.",
+      "answer_origin": "saved",
+      "required": [
+        "Bose 고객 지원이나 지역별 공식 연락처로 안내"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "지역별 Bose 고객 서비스에서 구할 수 있다고 했다.",
+      "reference_pages": [
+        "bose_headphones_manuals_6d12e20d-cf8d-4337-b073-53d7e85e4163_00005"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "TEXT022",
+      "qa_id": "sony_tv cables manuals_b0c93042-eb72-46ca-8308-274be260a067_19",
+      "category": "text",
+      "manual_id": "sony_tv cables manuals_b0c93042-eb72-46ca-8308-274be260a067",
+      "question": "AUTO 버튼을 눌러도 불이 들어오지 않으면 어떻게 해야 하나요?",
+      "question_en": "If I press the AUTO button and it is not lit. What should I do?",
+      "raw_reference": "You can adjust the iris manually.",
+      "final_answer": "AUTO 버튼이 켜져도 불이 들어오지 않는 경우, IRIS/MASTER BLACK 조정 블록의 'IRIS (아이리스 조정)旋钮'을 사용하여 렌즈 아이리스를 수동으로 조정해야 합니다.",
+      "answer_origin": "saved",
+      "required": [
+        "아이리스를 수동으로 조절"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "수동으로 렌즈 아이리스를 조절하도록 했다.",
+      "reference_pages": [
+        "sony_tv cables manuals_b0c93042-eb72-46ca-8308-274be260a067_00008"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "TEXT023",
+      "qa_id": "lg_automobile parts manuals_56489bd7-669f-41db-8361-f5e75bb1cd40_26",
+      "category": "text",
+      "manual_id": "lg_automobile parts manuals_56489bd7-669f-41db-8361-f5e75bb1cd40",
+      "question": "RJP는 무엇인가요?",
+      "question_en": "What is a RJP?",
+      "raw_reference": "RJP is the Remote Jack Pack.",
+      "final_answer": "RJP는 Remote Jack Pack을 의미하며, 각 입력 잭에서 신호의 존재 여부를 결정하는 회로가 포함된 장치입니다.",
+      "answer_origin": "saved",
+      "required": [
+        "Remote Jack Pack"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "약어의 뜻이 정확하다.",
+      "reference_pages": [
+        "lg_automobile parts manuals_56489bd7-669f-41db-8361-f5e75bb1cd40_00003"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "TEXT024",
+      "qa_id": "samsung_automobile alarm manuals_43be49b1-35a1-4837-93b1-cc95ccd98afc_47",
+      "category": "text",
+      "manual_id": "samsung_automobile alarm manuals_43be49b1-35a1-4837-93b1-cc95ccd98afc",
+      "question": "업데이트 중에 메모리 카드를 빼도 되나요?",
+      "question_en": "Can I remove my memory car during the update operation?",
+      "raw_reference": "No, you cannot remove the USB memory card during the update operation.",
+      "final_answer": "업데이트 중에는 메모리 카드를 빼서는 안 됩니다.",
+      "answer_origin": "saved",
+      "required": [
+        "업데이트 도중 메모리 카드 분리 금지"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "업데이트 중 메모리 카드 분리 금지를 명확히 답했다.",
+      "reference_pages": [
+        "samsung_automobile alarm manuals_43be49b1-35a1-4837-93b1-cc95ccd98afc_00018"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "TEXT025",
+      "qa_id": "lg_games manuals_74b8d629-4f8b-4bb5-8f53-a0cfa8763643_27",
+      "category": "text",
+      "manual_id": "lg_games manuals_74b8d629-4f8b-4bb5-8f53-a0cfa8763643",
+      "question": "테스트가 끝나면 무엇을 해야 하나요?",
+      "question_en": "What should you do upon finishing the test?",
+      "raw_reference": "You should bring the arrow to EXIT and press the TEST Button to return to the Game mode.",
+      "final_answer": "테스트가 끝나면 화살표를 EXIT 로 이동한 후 TEST 버튼을 눌러 게임 모드로 돌아갑니다.",
+      "answer_origin": "saved",
+      "required": [
+        "EXIT 선택",
+        "TEST 버튼으로 게임 모드 복귀"
+      ],
+      "hits": [
+        1,
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "EXIT 선택 후 TEST를 누르는 조작을 제시했다.",
+      "reference_pages": [
+        "lg_games manuals_74b8d629-4f8b-4bb5-8f53-a0cfa8763643_00020"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "TEXT026",
+      "qa_id": "Ubuntu_Getting Started with Ubuntu 16.04_69",
+      "category": "text",
+      "manual_id": "Ubuntu_Getting Started with Ubuntu 16.04",
+      "question": "문서 작업을 하려면 어떤 프로세서를 사용할 수 있나요?",
+      "question_en": "What processor can I use if I need to work with documents?",
+      "raw_reference": "You can use the LibreOffice Word Processor.",
+      "final_answer": "문서 작업을 하려면 LibreOffice Writer(또는 LibreOffice Word Processor)를 사용할 수 있습니다.",
+      "answer_origin": "saved",
+      "required": [
+        "LibreOffice Writer 또는 동등한 제품 표기"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "LibreOffice Writer를 맞혔다.",
+      "reference_pages": [
+        "Ubuntu_Getting Started with Ubuntu 16.04_00070"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "TEXT027",
+      "qa_id": "samsung_digital photo frame manuals_7cb3b154-2fbe-5ea4-ad81-2fa0f4ebb5f8_54",
+      "category": "text",
+      "manual_id": "samsung_digital photo frame manuals_7cb3b154-2fbe-5ea4-ad81-2fa0f4ebb5f8",
+      "question": "메뉴 버튼은 어떤 용도인가요?",
+      "question_en": "What is the use of the Menu Button?",
+      "raw_reference": "It displays the menu window at the bottom left corner of the screen.",
+      "final_answer": "메뉴 버튼을 누르면 화면에 메뉴 창이 표시됩니다.\n\n추가로 확인된 내용:\n메뉴 버튼은 목록 메뉴를 표시합니다.",
+      "answer_origin": "saved",
+      "required": [
+        "메뉴 창을 여는 기능"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "기능을 묻는 질문에 메뉴 창이 열린다고 답했다.",
+      "reference_pages": [
+        "samsung_digital photo frame manuals_7cb3b154-2fbe-5ea4-ad81-2fa0f4ebb5f8_00010",
+        "samsung_digital photo frame manuals_7cb3b154-2fbe-5ea4-ad81-2fa0f4ebb5f8_00014",
+        "samsung_digital photo frame manuals_7cb3b154-2fbe-5ea4-ad81-2fa0f4ebb5f8_00015",
+        "samsung_digital photo frame manuals_7cb3b154-2fbe-5ea4-ad81-2fa0f4ebb5f8_00016",
+        "samsung_digital photo frame manuals_7cb3b154-2fbe-5ea4-ad81-2fa0f4ebb5f8_00017"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "TEXT028",
+      "qa_id": "bose_speaker system manuals_8fe72d34-9875-4d82-964e-e0db201fa23d_19",
+      "category": "text",
+      "manual_id": "bose_speaker system manuals_8fe72d34-9875-4d82-964e-e0db201fa23d",
+      "question": "청소하기 전에 무엇을 해야 하나요?",
+      "question_en": "What should I do before cleaning?",
+      "raw_reference": "You should unplug this product from the wall outlet before cleaning.",
+      "final_answer": "청소하기 전에는 벽면 콘센트에서 제품을 뽑아야 합니다.",
+      "answer_origin": "saved",
+      "required": [
+        "청소하기 전 전원 플러그를 분리"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "벽면 콘센트에서 분리하라는 조치가 정확하다.",
+      "reference_pages": [
+        "bose_speaker system manuals_8fe72d34-9875-4d82-964e-e0db201fa23d_00003"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "TEXT029",
+      "qa_id": "HUAWEI_Shark User Mannual_6",
+      "category": "text",
+      "manual_id": "HUAWEI_Shark User Mannual",
+      "question": "Huawei AI Life는 어디에서 받을 수 있나요?",
+      "question_en": "Where can I get Huawei AI Life?",
+      "raw_reference": "You can download it from Huawei AppGallery.",
+      "final_answer": "Huawei AI Life 앱은 스마트폰 브라우저에서 QR 코드를 스캔하거나 Huawei AppGallery 를 사용하여 다운로드 및 설치할 수 있습니다.\n\n추가로 확인된 내용:\nHuawei AI Life 앱을 다운로드하려면 스마트폰 브라우저에서 QR 코드를 스캔하거나 Huawei AppGallery를 사용하십시오.",
+      "answer_origin": "saved",
+      "required": [
+        "AppGallery 또는 해당 매뉴얼의 공식 다운로드 방법 한 가지"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "QR 코드와 Huawei AppGallery가 모두 해당 매뉴얼의 경로다.",
+      "reference_pages": [
+        "HUAWEI_Shark User Mannual_00007"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "TEXT030",
+      "qa_id": "HUAWEI_FIT_User Guide_V1.0_English_25",
+      "category": "text",
+      "manual_id": "HUAWEI_FIT_User Guide_V1.0_English",
+      "question": "워치에서 새 메시지를 어떻게 확인하나요?",
+      "question_en": "How can I view new messages on my watch?",
+      "raw_reference": "Please swipe up on the screen or rotate your wrist to view more message details.",
+      "final_answer": "워치에서 새 메시지를 확인하려면 화면을 위로 스와이프하거나 팔을 회전시켜 더 많은 메시지 세부 정보를 확인할 수 있습니다.",
+      "answer_origin": "saved",
+      "required": [
+        "화면 위로 밀기 또는 손목 돌리기 등 메시지를 보는 방법 한 가지"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "위로 밀거나 손목을 돌리는 두 방법을 제시했다.",
+      "reference_pages": [
+        "HUAWEI_FIT_User Guide_V1.0_English_00026"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "TEXT031",
+      "qa_id": "lenovo_mouse manuals_68d24a8c-fe44-4bc2-9fc9-be0b8102c9c4_41",
+      "category": "text",
+      "manual_id": "lenovo_mouse manuals_68d24a8c-fe44-4bc2-9fc9-be0b8102c9c4",
+      "question": "위의 연결 절차를 마친 후에도 마우스가 제대로 작동하지 않으면 어떻게 해야 하나요?",
+      "question_en": "What can I do if the mouse is still unable to work properly when the above connection process is finished?",
+      "raw_reference": "If the mouse is still unable to work properly when the above connection process is finished, you can",
+      "final_answer": "마우스가 제대로 작동하지 않는 경우, 연결 버튼을 한 번 누른 후 다시 연결해 보세요.",
+      "answer_origin": "saved",
+      "required": [
+        "수동 연결을 위해 마우스의 연결 버튼으로 페어링 진입",
+        "PC Bluetooth의 장치 추가",
+        "해당 마우스를 선택해 연결 완료"
+      ],
+      "hits": [
+        1,
+        0,
+        0
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "연결 버튼 조작은 맞다. 수동 재연결에 필요한 PC의 장치 추가와 마우스 선택·완료가 빠졌다. 끊긴 QA는 매뉴얼 3~5번 이미지로 확인했다.",
+      "reference_pages": [
+        "lenovo_mouse manuals_68d24a8c-fe44-4bc2-9fc9-be0b8102c9c4_00003",
+        "lenovo_mouse manuals_68d24a8c-fe44-4bc2-9fc9-be0b8102c9c4_00004",
+        "lenovo_mouse manuals_68d24a8c-fe44-4bc2-9fc9-be0b8102c9c4_00005"
+      ],
+      "score_exact": "100/3",
+      "score": "33.3"
+    },
+    {
+      "case_id": "TEXT032",
+      "qa_id": "Google_Android-Lollipop-Quick-Start-Guide_6",
+      "category": "text",
+      "manual_id": "Google_Android-Lollipop-Quick-Start-Guide",
+      "question": "알림 환경설정과 기타 설정은 어떻게 조정하나요?",
+      "question_en": "How to adjust notification preferences and other settings?",
+      "raw_reference": "You should touch Menu>Settings to adjust notification preferences.",
+      "final_answer": "알림 환경설정과 기타 설정을 조정하려면 화면 상단의 '메뉴'를 터치한 후 '설정'을 선택합니다.",
+      "answer_origin": "saved",
+      "required": [
+        "메뉴에서 설정으로 진입"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "메뉴에서 설정으로 진입하는 경로를 제시했다.",
+      "reference_pages": [
+        "Google_Android-Lollipop-Quick-Start-Guide_00007"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "TEXT033",
+      "qa_id": "samsung_vacuum cleaner manuals_8cb9360e-cafe-4c53-9d35-ef193667e586_12",
+      "category": "text",
+      "manual_id": "samsung_vacuum cleaner manuals_8cb9360e-cafe-4c53-9d35-ef193667e586",
+      "question": "먼지통이 잘못 설치됐는데 어떻게 해야 하나요?",
+      "question_en": "The Dust Bin was installed incorrectly, what should I do?",
+      "raw_reference": "You should pull out and re-attach Dust Bin correctly.",
+      "final_answer": "먼지통을 올바르게 설치하려면 먼저 먼지통을 빼내고 다시 올바르게 끼운 뒤 잠금 장치로 고정해야 합니다.\n\n추가로 확인된 내용:\n먼지통을 다시 설치하기 전에 잠금 장치가 제대로 작동하는지 확인하세요.\n먼지통을 끼울 때, Hose Wand를 흡입구에 단단히 밀어 넣으세요.\nTwist Snap Hose가 잠금 위치에 확실히 고정되었는지 확인하세요.\n먼지통이 올바르게 설치되었는지 확인하기 위해 먼지통을 빼내고 다시 끼우세요.\n먼지통이 제대로 설치되지 않으면, 먼지통이 완전히 제거되었는지 확인하세요.\n먼지통이 제대로 설치되지 않으면, Pre-motor 및 Post-motor 필터를 확인하세요.",
+      "answer_origin": "saved",
+      "required": [
+        "먼지통을 빼서 올바르게 재장착"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [
+        "다른 원인의 해결책인 호스 연결을 먼지통 장착 절차로 제시",
+        "필터 설치 상태 점검을 먼지통 장착 불량의 조치로 제시"
+      ],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "먼지통 재장착과 잠금은 정확하다. 호스와 필터 점검을 먼지통 장착 확인 절차로 붙여, 원본 문제 해결 표의 서로 다른 원인·조치를 섞었다.",
+      "reference_pages": [
+        "samsung_vacuum cleaner manuals_8cb9360e-cafe-4c53-9d35-ef193667e586_00011"
+      ],
+      "score_exact": "0",
+      "score": "0.0"
+    },
+    {
+      "case_id": "TEXT034",
+      "qa_id": "samsung_tablet manuals_4b13a426-b232-4902-8782-201d55a20445_61",
+      "category": "text",
+      "manual_id": "samsung_tablet manuals_4b13a426-b232-4902-8782-201d55a20445",
+      "question": "Wi-Fi 창에는 무엇이 표시되나요?",
+      "question_en": "What will be shown in the Wi-Fi window?",
+      "raw_reference": "It shows the Wi-Fi connection status and if the computer is connected to Wi-Fi, the connected AP name is displayed.",
+      "final_answer": "Wi-Fi 창에는 현재 연결된 액세스 포인트(AP)의 이름이 표시됩니다.",
+      "answer_origin": "saved",
+      "required": [
+        "Wi-Fi 연결 상태 표시",
+        "연결 시 액세스 포인트 이름 표시"
+      ],
+      "hits": [
+        0,
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "연결된 AP 이름은 맞고 연결 상태 표시는 빠졌다.",
+      "reference_pages": [
+        "samsung_tablet manuals_4b13a426-b232-4902-8782-201d55a20445_00021"
+      ],
+      "score_exact": "50",
+      "score": "50.0"
+    },
+    {
+      "case_id": "TABLE001",
+      "qa_id": "dell_all in one printer manuals_f757a4a2-fb78-4f6e-a530-5b3c17bf6ecf_43",
+      "category": "table",
+      "manual_id": "dell_all in one printer manuals_f757a4a2-fb78-4f6e-a530-5b3c17bf6ecf",
+      "question": "이 기기로 인쇄한 텍스트의 화질은 어떤가요?",
+      "question_en": "What is the image quality of the text this machine prints?",
+      "raw_reference": "The text print quality is at a good level.",
+      "final_answer": "이 기기로 인쇄한 텍스트의 화질은 전반적으로 'Good'로 평가받았습니다. 텍스트는 평균적인 어둠과 선명도, 곡선 및 세리프의 매끄러움을 보였으며, 글자에는 일부 분해 현상이 관찰되었습니다.",
+      "answer_origin": "saved",
+      "required": [
+        "텍스트 인쇄 품질이 Good 수준"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "텍스트 인쇄 품질 등급 Good을 맞혔다.",
+      "reference_pages": [
+        "dell_all in one printer manuals_f757a4a2-fb78-4f6e-a530-5b3c17bf6ecf_00016"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "TABLE002",
+      "qa_id": "Samsung_earphone_WEA_SM-R190_Buds_Pro_EN_UM_010621_FINAL_AC_18",
+      "category": "table",
+      "manual_id": "Samsung_earphone_WEA_SM-R190_Buds_Pro_EN_UM_010621_FINAL_AC",
+      "question": "지원되는 음악 앱을 어떻게 실행하나요?",
+      "question_en": "How can I launch supported music apps?",
+      "raw_reference": "You can touch and hold the touch area.",
+      "final_answer": "지원되는 음악 앱을 실행하려면 이어bud 의 터치 영역을 길게 누릅니다.",
+      "answer_origin": "saved",
+      "required": [
+        "터치 영역을 길게 누름"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "터치 영역을 길게 누르도록 했다.",
+      "reference_pages": [
+        "Samsung_earphone_WEA_SM-R190_Buds_Pro_EN_UM_010621_FINAL_AC_00015"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "TABLE003",
+      "qa_id": "Microsoft_Surface Pro User Guide_15",
+      "category": "table",
+      "manual_id": "Microsoft_Surface Pro User Guide",
+      "question": "바탕 화면으로 어떻게 이동하나요?",
+      "question_en": "How can I go to the desktop?",
+      "raw_reference": "You can go to the desktop with touch or a mouse and with a keyboard.",
+      "final_answer": "터치 또는 마우스를 사용할 경우 스타트 화면에서 'Desktop' 타일을 탭하거나 클릭하고, 키보드를 사용할 경우 윈도우 로고 키 + D 를 누릅니다.",
+      "answer_origin": "saved",
+      "required": [
+        "터치·마우스로 Desktop 타일 또는 키보드 단축키 등 실행 가능한 경로 한 가지"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "Desktop 타일과 Win+D 둘 다 가능한 방법이다.",
+      "reference_pages": [
+        "Microsoft_Surface Pro User Guide_00016"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "TABLE004",
+      "qa_id": "lg_automobile parts manuals_56489bd7-669f-41db-8361-f5e75bb1cd40_33",
+      "category": "table",
+      "manual_id": "lg_automobile parts manuals_56489bd7-669f-41db-8361-f5e75bb1cd40",
+      "question": "전원이 들어오지 않으면 어떻게 해야 하나요?",
+      "question_en": "There is no power. What should I do?",
+      "raw_reference": "You can check if the power is connected or not. And also you can check if the circuit breaker on RJP is tripped or not.",
+      "final_answer": "전원이 들어오지 않는 경우 다음 단계를 확인하고 수행해야 합니다:\n1. 전원 코드가 연결되어 있는지 확인합니다.\n2. RJP(Remote Jack Pack) 회로 차단기가 tripped(작동 중이 멈춤) 상태인지 확인합니다. 만약 tripped 상태라면, 모든 액세서리 장치를 RJP AC 출로부터 분리한 후 RESET 버튼을 누릅니다.",
+      "answer_origin": "saved",
+      "required": [
+        "전원 연결 확인",
+        "RJP 차단기 트립 확인"
+      ],
+      "hits": [
+        1,
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "전원 코드와 RJP 차단기를 모두 점검하도록 했다.",
+      "reference_pages": [
+        "lg_automobile parts manuals_56489bd7-669f-41db-8361-f5e75bb1cd40_00016"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "TABLE005",
+      "qa_id": "bose_portable speaker manuals_7aee09cf-3d92-4120-97db-e5dcc3cb7d74_1",
+      "category": "table",
+      "manual_id": "bose_portable speaker manuals_7aee09cf-3d92-4120-97db-e5dcc3cb7d74",
+      "question": "‘X’는 무엇을 나타내나요?",
+      "question_en": "What does\"X\" indicate?",
+      "raw_reference": "It indicates that this toxic or hazardous substance contained in at least one of the homogeneous materials used for this part is above the limit requirement in SJ/T 11363-2006.",
+      "final_answer": "'X'는 이 독성 또는 위험 물질이 해당 부품에 사용된 균일한 재료 중 하나 이상에서 JT132006 규격의 한계 요구사항을 초과하여 포함되어 있음을 나타냅니다.",
+      "answer_origin": "saved",
+      "required": [
+        "해당 부품의 균질 재료 하나 이상에 유해 물질이 규정 한도를 초과했다는 뜻"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [
+        "해당 유해 물질 한도 기준을 JT132006으로 명시"
+      ],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "X가 하나 이상의 균질 재료에서 유해 물질 한도 초과를 뜻한다고 했지만, SJ/T 11363-2006 대신 존재 근거가 없는 다른 규격명을 명시했다.",
+      "reference_pages": [
+        "bose_portable speaker manuals_7aee09cf-3d92-4120-97db-e5dcc3cb7d74_00006"
+      ],
+      "score_exact": "0",
+      "score": "0.0"
+    },
+    {
+      "case_id": "TABLE006",
+      "qa_id": "lenovo_mouse manuals_68d24a8c-fe44-4bc2-9fc9-be0b8102c9c4_8",
+      "category": "table",
+      "manual_id": "lenovo_mouse manuals_68d24a8c-fe44-4bc2-9fc9-be0b8102c9c4",
+      "question": "테니스 게임에서 공을 토스하려면 어떻게 하나요?",
+      "question_en": "How can you achieve ball toss in Tennis game?",
+      "raw_reference": "You can wave the mouse upward to achieve it.",
+      "final_answer": "테니스 게임에서 공을 토스하려면 마우스를 위로 흔들어야 합니다.",
+      "answer_origin": "saved",
+      "required": [
+        "마우스를 위로 흔든다"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "마우스를 위로 흔드는 동작이 맞다.",
+      "reference_pages": [
+        "lenovo_mouse manuals_68d24a8c-fe44-4bc2-9fc9-be0b8102c9c4_00015"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "TABLE007",
+      "qa_id": "sony_tv cables manuals_b0c93042-eb72-46ca-8308-274be260a067_55",
+      "category": "table",
+      "manual_id": "sony_tv cables manuals_b0c93042-eb72-46ca-8308-274be260a067",
+      "question": "HDMI는 어떻게 설명되어 있나요?",
+      "question_en": "What is the description of HDMI?",
+      "raw_reference": "HDMI connector output format selection.",
+      "final_answer": "HDMI는 고화질 멀티미디어 인터페이스(High-Definition Multimedia Interface) 기술로, 오디오 및 비디오 장치를 연결하는 데 사용됩니다. HDMI 로고는 'HDMI'라는 굵고 검은 글씨체가 흰 배경 위에 배치되어 있으며, HDMI 라이선싱 LLC 의 상표 또는 등록 상표입니다.",
+      "answer_origin": "saved",
+      "required": [
+        "제품의 HDMI 모니터 영상 출력·연결 기능 또는 해당 설정의 출력 형식 표시 의미를 설명"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "출력 메뉴를 특정하지 않은 질문이어서 HDMI 기기 연결 인터페이스 설명을 인정했다. 매뉴얼에도 HDMI 모니터 출력 단자가 있다.",
+      "reference_pages": [
+        "sony_tv cables manuals_b0c93042-eb72-46ca-8308-274be260a067_00003",
+        "sony_tv cables manuals_b0c93042-eb72-46ca-8308-274be260a067_00009",
+        "sony_tv cables manuals_b0c93042-eb72-46ca-8308-274be260a067_00019"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "TABLE008",
+      "qa_id": "samsung_gps receiver manuals_958bd55c-3ebf-4e4f-be5d-a7a497a88842_3",
+      "category": "table",
+      "manual_id": "samsung_gps receiver manuals_958bd55c-3ebf-4e4f-be5d-a7a497a88842",
+      "question": "표준 배터리를 충전하는 데 얼마나 걸리나요?",
+      "question_en": "How long does it take to charge for a standard battery?",
+      "raw_reference": "It takes about 3 hours.",
+      "final_answer": "표준 배터리를 충전하는 데는 약 3 시간이 걸립니다.",
+      "answer_origin": "saved",
+      "required": [
+        "표준 배터리 약 3시간"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "약 3시간으로 답했다.",
+      "reference_pages": [
+        "samsung_gps receiver manuals_958bd55c-3ebf-4e4f-be5d-a7a497a88842_00016"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "TABLE009",
+      "qa_id": "robotics_spot-user-guide-r2.0-va_103",
+      "category": "table",
+      "manual_id": "robotics_spot-user-guide-r2.0-va",
+      "question": "지면 높이 감지 기능의 역할은 무엇인가요?",
+      "question_en": "What is function of Ground Height Detection?",
+      "raw_reference": "It can help Spot navigate over obstacles approximately 12\" or less in height.",
+      "final_answer": "지면 높이 감지 기능은 약 12 인치 (30cm) 이하의 장애물을 넘어가는 데 도움을 줍니다. 정상적인 환경에서는 이 기능을 켜두는 것이 좋으며, 이를 끄면 Spot 은 접촉에만 의존하여 거의 눈이 안 보이는 상태가 됩니다. 반면, 높은 잔디나 식물이 있는 특정 환경에서는 이 기능을 끄는 것이 성능을 개선할 수 있습니다.",
+      "answer_origin": "saved",
+      "required": [
+        "낮은 장애물 주행 지원",
+        "대략 12인치 이하라는 범위"
+      ],
+      "hits": [
+        1,
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "장애물 이동과 약 12인치 이하를 모두 설명했다.",
+      "reference_pages": [
+        "robotics_spot-user-guide-r2.0-va_00031"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "TABLE010R",
+      "qa_id": "samsung_label maker manuals_e6058340-b585-43fd-8dcc-b233a50395fc_34",
+      "category": "table",
+      "manual_id": "samsung_label maker manuals_e6058340-b585-43fd-8dcc-b233a50395fc",
+      "question": "입력 전압은 얼마인가요?",
+      "question_en": "What is the input voltage?",
+      "raw_reference": "The voltage of the printer is AC 100-240V.",
+      "final_answer": "AC 어댑터의 입력 전압은 AC 100~240V 입니다.",
+      "answer_origin": "new_in_full100",
+      "required": [
+        "교류 입력 범위의 최솟값 100 V",
+        "최댓값 240 V"
+      ],
+      "hits": [
+        1,
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "AC 입력 전압의 하한 100 V와 상한 240 V를 모두 맞혔다.",
+      "reference_pages": [
+        "samsung_label maker manuals_e6058340-b585-43fd-8dcc-b233a50395fc_00026"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "TABLE011",
+      "qa_id": "bose_headphones_manuals_6d12e20d-cf8d-4337-b073-53d7e85e4163_8",
+      "category": "table",
+      "manual_id": "bose_headphones_manuals_6d12e20d-cf8d-4337-b073-53d7e85e4163",
+      "question": "한쪽 이어컵에서만 소리가 나거나 아예 소리가 안 나면 어떻게 해결하나요?",
+      "question_en": "What can I fix when there is no audio or audio is in one  earcup only?",
+      "raw_reference": "1. Ensure both ends of the audio cable are securely connected.\n2. Try a different audio device.",
+      "final_answer": "양쪽 이어컵 끝부분의 오디오 케이블이 단단히 연결되어 있는지 확인한 후, 다른 오디오 장치를 시도해 보세요.",
+      "answer_origin": "saved",
+      "required": [
+        "케이블 양 끝의 접속 확인 또는 다른 음원 기기 시험 중 유효한 조치 한 가지"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [
+        "케이블 양 끝을 양쪽 이어컵 끝이라고 지정"
+      ],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "다른 오디오 기기를 시험하는 조치는 유효하다. 케이블의 양 끝을 양쪽 이어컵 끝이라고 잘못 지정했다.",
+      "reference_pages": [
+        "bose_headphones_manuals_6d12e20d-cf8d-4337-b073-53d7e85e4163_00006"
+      ],
+      "score_exact": "0",
+      "score": "0.0"
+    },
+    {
+      "case_id": "TABLE012",
+      "qa_id": "samsung_projector manuals_6158bb99-81b9-441e-b4c1-3e079ffda064_53",
+      "category": "table",
+      "manual_id": "samsung_projector manuals_6158bb99-81b9-441e-b4c1-3e079ffda064",
+      "question": "화면의 색상이 좋지 않으면 어떻게 해야 하나요?",
+      "question_en": "The color on the screen is poor. What should I do?",
+      "raw_reference": "You should adjust the <Tint> and <Contrust>.",
+      "final_answer": "화면의 색상이 좋지 않거나 흑백이나 이상한 색으로 표시될 경우, 메뉴에서 밝기 (Brightness), 대비 (Contrast), 색상 (Color) 조정 항목을 확인하고 설정해야 합니다.",
+      "answer_origin": "saved",
+      "required": [
+        "Tint(색조) 조정",
+        "Contrast(대비) 조정"
+      ],
+      "hits": [
+        0,
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "대비는 정확하다. 원문에서 구분하는 Tint 대신 일반 Color를 제시했다. 밝기와 Color는 기기에 있는 설정이므로 가공한 메뉴로 별도 감점하지 않았다.",
+      "reference_pages": [
+        "samsung_projector manuals_6158bb99-81b9-441e-b4c1-3e079ffda064_00023",
+        "samsung_projector manuals_6158bb99-81b9-441e-b4c1-3e079ffda064_00028"
+      ],
+      "score_exact": "50",
+      "score": "50.0"
+    },
+    {
+      "case_id": "TABLE013R",
+      "qa_id": "samsung_tablet manuals_4b13a426-b232-4902-8782-201d55a20445_60",
+      "category": "table",
+      "manual_id": "samsung_tablet manuals_4b13a426-b232-4902-8782-201d55a20445",
+      "question": "터치 런처는 어떤 용도로 사용하나요?",
+      "question_en": "What is the use of using the Touch Launcher?",
+      "raw_reference": "Touching the Launcher program enable you to easily play music and video files and operate downloaded applications by touching the screen with your finger on models with a touch screen.",
+      "final_answer": "터치 런처는 터치 스크린을 갖춘 모델에서 손가락으로 화면을 터치하여 음악 및 비디오 파일을 쉽게 재생하고 다운로드된 애플리케이션을 조작하는 용도로 사용됩니다.\n\n추가로 확인된 내용:\n프로그램을 빠르게 실행하려면 프로그램 아이콘을 두 번 탭하십시오.",
+      "answer_origin": "new_in_full100",
+      "required": [
+        "음악 파일을 재생",
+        "동영상 파일을 재생",
+        "다운로드한 앱을 실행하거나 조작"
+      ],
+      "hits": [
+        1,
+        1,
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "음악과 동영상 재생, 내려받은 앱 조작을 모두 답했다. 추가 문장의 아이콘 두 번 탭도 매뉴얼에 있는 실행 방법이다.",
+      "reference_pages": [
+        "samsung_tablet manuals_4b13a426-b232-4902-8782-201d55a20445_00021"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "TABLE014",
+      "qa_id": "robotis_robot_mechanical_arm_UR5_colored_300",
+      "category": "table",
+      "manual_id": "robotis_robot_mechanical_arm_UR5_colored",
+      "question": "Safety Plane Properties 패널에서는 어떤 안전 모드를 사용할 수 있나요?",
+      "question_en": "What safety modes are available on the Safety Plane Properties panel?",
+      "raw_reference": "There are Disabled mode, Normal mode, Reduced mode, Normal & Reduced mode, and Trigger Reduced mode to choose from.",
+      "final_answer": "Safety Plane Properties 패널에서는 안전 모드를 선택할 수 있으며, 사용 가능한 안전 모드는 'Normal(정상)' 모드와 'Reduced(감소)' 모드입니다.",
+      "answer_origin": "saved",
+      "required": [
+        "Disabled",
+        "Normal",
+        "Reduced",
+        "Normal & Reduced",
+        "Trigger Reduced"
+      ],
+      "hits": [
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "다섯 모드 가운데 Normal과 Reduced만 제시했다.",
+      "reference_pages": [
+        "robotis_robot_mechanical_arm_UR5_colored_00039",
+        "robotis_robot_mechanical_arm_UR5_colored_00147"
+      ],
+      "score_exact": "40",
+      "score": "40.0"
+    },
+    {
+      "case_id": "TABLE015",
+      "qa_id": "bose_headphones_manuals_c964fa53-9268-4683-853b-2ef0fc516281_17",
+      "category": "table",
+      "manual_id": "bose_headphones_manuals_c964fa53-9268-4683-853b-2ef0fc516281",
+      "question": "현재 통화를 종료하면서 걸려 오는 전화나 대기 중인 통화로 전환하려면 어떻게 하나요?",
+      "question_en": "How do switch to an incoming or on-hold call and end the current call?",
+      "raw_reference": "You can press and hold the Answer/End button for about ten seconds, then release it while on a call.",
+      "final_answer": "현재 통화 중일 때, 걸려온 전화나 대기 중인 통화로 전환하고 현재 통화를 종료하려면 'Answer/End' 버튼을 약 2 초간 누른 후 놓으세요.",
+      "answer_origin": "saved",
+      "required": [
+        "통화 중 Answer/End 버튼을 누르고 놓음",
+        "약 2초간 누르고 유지"
+      ],
+      "hits": [
+        1,
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "Answer/End를 약 2초 동안 누른 뒤 놓는 절차가 실제 원본 표와 일치한다.",
+      "reference_pages": [
+        "bose_headphones_manuals_c964fa53-9268-4683-853b-2ef0fc516281_00007"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "TABLE016",
+      "qa_id": "samsung_digital photo frame manuals_7cb3b154-2fbe-5ea4-ad81-2fa0f4ebb5f8_9",
+      "category": "table",
+      "manual_id": "samsung_digital photo frame manuals_7cb3b154-2fbe-5ea4-ad81-2fa0f4ebb5f8",
+      "question": "Web Photos 메뉴의 하위 메뉴는 무엇인가요?",
+      "question_en": "What's the sub menu of the Web Photos menu?",
+      "raw_reference": "It includes Photo Feeds, Photos Windows Live Spaces.",
+      "final_answer": "Web Photos 메뉴의 하위 메뉴는 'Photo Feeds'와 'Photos Windows Live Spaces'입니다.",
+      "answer_origin": "saved",
+      "required": [
+        "Photo Feeds",
+        "Photos Windows Live Spaces"
+      ],
+      "hits": [
+        1,
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "하위 메뉴 두 개를 모두 답했다.",
+      "reference_pages": [
+        "samsung_digital photo frame manuals_7cb3b154-2fbe-5ea4-ad81-2fa0f4ebb5f8_00020"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "TABLE017",
+      "qa_id": "phone_apple_ios8.4_410",
+      "category": "table",
+      "manual_id": "phone_apple_ios8.4",
+      "question": "화면 수리에 대해서는 어디에서 알아볼 수 있나요?",
+      "question_en": "Where can I learn about Screen Repair?",
+      "raw_reference": "You can open the website www.apple.com/support/iPhone/repair/ to get support.",
+      "final_answer": "화면 수리에 대해 알아볼 수 있는 곳은 www.apple.com/support/iphone/repair/입니다.",
+      "answer_origin": "saved",
+      "required": [
+        "iPhone 화면 수리 지원 페이지 또는 매뉴얼의 동등한 경로"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "기준 정답과 같은 화면 수리 지원 경로다.",
+      "reference_pages": [
+        "phone_apple_ios8.4_00184"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "TABLE018",
+      "qa_id": "bose_speaker system manuals_8fe72d34-9875-4d82-964e-e0db201fa23d_8",
+      "category": "table",
+      "manual_id": "bose_speaker system manuals_8fe72d34-9875-4d82-964e-e0db201fa23d",
+      "question": "시스템이 전혀 작동하지 않으면 어떻게 해야 하나요?",
+      "question_en": "What to do if system does not  function at all?",
+      "raw_reference": "You should make sure the power cord of the receiver is plugged into an operating AC wall outlet and that the unit is turned on and be sure to select a source at the receiver.",
+      "final_answer": "시스템이 전혀 작동하지 않는 경우, 수신기의 전원 코드를 작동하는 AC 벽 플러그에 꽂았는지 확인하고 단자가 켜져 있는지 확인해야 합니다. 또한 수신기 (비디오, DVD, CD, 튜너) 에서 소스를 선택해야 합니다.",
+      "answer_origin": "saved",
+      "required": [
+        "동작하는 AC 콘센트에 수신기 전원 연결",
+        "수신기 켜짐 확인",
+        "소스 선택"
+      ],
+      "hits": [
+        1,
+        1,
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "작동하는 소켓·전원 켜짐·소스 선택이 모두 있다.",
+      "reference_pages": [
+        "bose_speaker system manuals_8fe72d34-9875-4d82-964e-e0db201fa23d_00015"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "TABLE019",
+      "qa_id": "bose_stereo amplifier manuals_75e037bc-fbcc-c214-3964-d4c9efb89725_33",
+      "category": "table",
+      "manual_id": "bose_stereo amplifier manuals_75e037bc-fbcc-c214-3964-d4c9efb89725",
+      "question": "왼쪽 스테레오 채널의 소리가 엉뚱한 스피커에서 나오면 어떻게 해야 하나요?",
+      "question_en": "What should I do if the left stereo channels are heard on the wrong speakers?",
+      "raw_reference": "You should check the speaker cable connections to be sure the cable connected to the \"SPEAKER OUTPUTS L\" at the amplifier is connected at the other end to the speaker on the left in your listening area.",
+      "final_answer": "오른쪽 스테레오 채널의 소리가 엉뚱한 스피커에서 나옴을 확인하고, 케이블 연결을 점검해야 합니다. 증폭기 후면의 SPEAKER OUTPUTS L 단자에 연결된 케이블이 청취 공간의 왼쪽 스피커에 연결되어 있는지 확인합니다.",
+      "answer_origin": "saved",
+      "required": [
+        "앰프의 SPEAKER OUTPUTS L을 확인",
+        "그 케이블 반대쪽이 청취자 기준 왼쪽 스피커와 연결되었는지 확인"
+      ],
+      "hits": [
+        1,
+        1
+      ],
+      "penalties": [
+        "질문의 왼쪽 채널을 첫 지시에서 오른쪽 채널로 바꿈"
+      ],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "L 단자에서 왼쪽 스피커까지 추적하라는 조치는 정확하다. 첫 문장에서 사용자가 확인할 채널을 오른쪽으로 바꿨다.",
+      "reference_pages": [
+        "bose_stereo amplifier manuals_75e037bc-fbcc-c214-3964-d4c9efb89725_00018"
+      ],
+      "score_exact": "50",
+      "score": "50.0"
+    },
+    {
+      "case_id": "TABLE020",
+      "qa_id": "Apple_Numbers09_UserGuide_58",
+      "category": "table",
+      "manual_id": "Apple_Numbers09_UserGuide",
+      "question": "카테고리와 하위 카테고리를 만드는 방법은 어디에서 알아볼 수 있나요?",
+      "question_en": "Where can I learn the information about creating categories and subcategories?",
+      "raw_reference": "You can learn \"Defining Table Categories and Subcategories\".",
+      "final_answer": "카테고리와 하위 카테고리를 만드는 방법을 알아볼 수 있는 곳은 매뉴얼의 '정의하는 표 카테고리 및 하위 카테고리' (Defining Table Categories and Subcategories) 섹션입니다. 이 내용은 페이지 70 에 있습니다.",
+      "answer_origin": "saved",
+      "required": [
+        "Defining Table Categories and Subcategories 절 또는 동등한 참조 위치"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "매뉴얼의 해당 절과 책의 페이지를 알려 줬다.",
+      "reference_pages": [
+        "Apple_Numbers09_UserGuide_00059"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "TABLE021",
+      "qa_id": "bose_stereo_receiver_manuals_f6a48783-84e0-429f-93e9-092f6a28db3b_15",
+      "category": "table",
+      "manual_id": "bose_stereo_receiver_manuals_f6a48783-84e0-429f-93e9-092f6a28db3b",
+      "question": "송신기의 상태 LED가 녹색으로 깜박이면 무엇을 뜻하나요?",
+      "question_en": "What does it mean if the Status LED blinks green on the transmitter?",
+      "raw_reference": "It means that the transmitter is searching for the receiver.",
+      "final_answer": "송신기의 상태 LED 가 녹색으로 깜박이면 수신기가 위치해 있음을 나타냅니다.",
+      "answer_origin": "saved",
+      "required": [
+        "녹색 점멸은 수신기를 탐색 중"
+      ],
+      "hits": [
+        0
+      ],
+      "penalties": [],
+      "critical_error": "수신기 탐색 중 상태를 제대로 발견한 상태로 잘못 해석",
+      "alternative": false,
+      "excluded": null,
+      "reason": "탐색 중인 상태를 이미 수신기가 위치한 상태로 설명했다.",
+      "reference_pages": [
+        "bose_stereo_receiver_manuals_f6a48783-84e0-429f-93e9-092f6a28db3b_00008"
+      ],
+      "score_exact": "0",
+      "score": "0.0"
+    },
+    {
+      "case_id": "TABLE022",
+      "qa_id": "Ubuntu_Getting Started with Ubuntu 16.04_0",
+      "category": "table",
+      "manual_id": "Ubuntu_Getting Started with Ubuntu 16.04",
+      "question": "Ubuntu는 누가 언제 구상했나요?",
+      "question_en": "By whom and when was Ubuntu conceived?",
+      "raw_reference": "Ubuntu was conceived in 2004 by Mark Shuttleworth, a successful South African entrepreneur, and his company Canonical.",
+      "final_answer": "Ubuntu 는 2004 년에 마크 셔틀워스 (Mark Shuttleworth) 와 그의 회사 캐노니컬 (Canonical) 이 구상했습니다.",
+      "answer_origin": "saved",
+      "required": [
+        "Mark Shuttleworth",
+        "Canonical",
+        "2004년"
+      ],
+      "hits": [
+        1,
+        1,
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "인물·회사·연도가 모두 정확하다.",
+      "reference_pages": [
+        "Ubuntu_Getting Started with Ubuntu 16.04_00001"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "TABLE023",
+      "qa_id": "samsung_automobile alarm manuals_43be49b1-35a1-4837-93b1-cc95ccd98afc_46",
+      "category": "table",
+      "manual_id": "samsung_automobile alarm manuals_43be49b1-35a1-4837-93b1-cc95ccd98afc",
+      "question": "켜짐 타이머는 어떤 기능을 하나요?",
+      "question_en": "What can the On Timer do?",
+      "raw_reference": "It can turn on your product at the specified time automatically.",
+      "final_answer": "켜짐 타이머는 지정된 시간에 자동으로 제품을 켜주는 기능을 합니다.",
+      "answer_origin": "saved",
+      "required": [
+        "설정 시각에 자동으로 전원을 켬"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "설정 시각에 자동으로 켜진다고 답했다.",
+      "reference_pages": [
+        "samsung_automobile alarm manuals_43be49b1-35a1-4837-93b1-cc95ccd98afc_00017"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "TABLE024",
+      "qa_id": "samsung_baby monitor manuals_920c46b3-bd59-41e2-8280-1f3a7288e42b_25",
+      "category": "table",
+      "manual_id": "samsung_baby monitor manuals_920c46b3-bd59-41e2-8280-1f3a7288e42b",
+      "question": "무선 네트워크 연결을 어떻게 활성화하나요?",
+      "question_en": "How to activate the wireless network connection?",
+      "raw_reference": "You can select the item called \"Wireless On/ Wireless Off\".",
+      "final_answer": "무선 네트워크 연결을 활성화하려면, 먼저 무선 네트워크 목록에서 원하는 액세스 포인트 (AP) 를 선택한 후, 해당 네트워크의 비밀번호를 입력하고 <Next> 버튼을 클릭해야 합니다.",
+      "answer_origin": "saved",
+      "required": [
+        "무선 연결을 켜는 Wireless On/Off 또는 매뉴얼에서 연결 방식을 무선으로 전환하는 동등한 방법"
+      ],
+      "hits": [
+        0
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "무선 기능을 켜는 스위치나 모드 전환 대신 이미 켜진 후의 AP 접속을 안내했다.",
+      "reference_pages": [
+        "samsung_baby monitor manuals_920c46b3-bd59-41e2-8280-1f3a7288e42b_00018"
+      ],
+      "score_exact": "0",
+      "score": "0.0"
+    },
+    {
+      "case_id": "TABLE025",
+      "qa_id": "sony_laptop_manuals_a02cf092-3538-4646-ab93-8cae84a07ad2_3",
+      "category": "table",
+      "manual_id": "sony_laptop_manuals_a02cf092-3538-4646-ab93-8cae84a07ad2",
+      "question": "3D 동영상을 재생할 때 어떤 소프트웨어를 사용할 수 있나요?",
+      "question_en": "When I play 3D videos, what software can I use?",
+      "raw_reference": "You can use NVIDIA 3D Vision Video Player to play 3D videos.",
+      "final_answer": "3D 동영상을 재생할 때 사용할 수 있는 소프트웨어는 'NVIDIA 3D Vision Video Player' 또는 'Windows Media Center'입니다.",
+      "answer_origin": "saved",
+      "required": [
+        "매뉴얼에서 지원하는 3D 영상 재생 프로그램 한 가지"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [
+        "모의 3D의 Windows Media Center를 원래 3D 영상용 대안으로 제시"
+      ],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "NVIDIA 3D Vision Video Player는 맞다. 원본 페이지에서 Windows Media Center는 일반 영상의 모의 3D 변환용으로 구분되므로, 실제 3D 영상의 대안이라고 첨가한 부분을 감점했다.",
+      "reference_pages": [
+        "sony_laptop_manuals_a02cf092-3538-4646-ab93-8cae84a07ad2_00007"
+      ],
+      "score_exact": "0",
+      "score": "0.0"
+    },
+    {
+      "case_id": "TABLE026",
+      "qa_id": "samsung_oven manuals_399945bf-670f-4502-8c4b-b1916cad1389_44",
+      "category": "table",
+      "manual_id": "samsung_oven manuals_399945bf-670f-4502-8c4b-b1916cad1389",
+      "question": "호주 삼성 웹사이트 주소는 무엇인가요?",
+      "question_en": "What is the website for Samsung in Australia?",
+      "raw_reference": "You can visit at www.samsung.com.",
+      "final_answer": "호주 삼성 웹사이트 주소는 www.samsung.com 입니다.",
+      "answer_origin": "saved",
+      "required": [
+        "삼성 호주용으로 안내된 공식 사이트"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "해당 매뉴얼에 적힌 삼성 웹 주소다.",
+      "reference_pages": [
+        "samsung_oven manuals_399945bf-670f-4502-8c4b-b1916cad1389_00022"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "TABLE027",
+      "qa_id": "dell_all in one printer manuals_f757a4a2-fb78-4f6e-a530-5b3c17bf6ecf_44",
+      "category": "table",
+      "manual_id": "dell_all in one printer manuals_f757a4a2-fb78-4f6e-a530-5b3c17bf6ecf",
+      "question": "이 제품이 인쇄하는 이미지의 인쇄 밀도는 얼마인가요?",
+      "question_en": "What's the print density of the image this product prints?",
+      "raw_reference": "Its print density is from 1.39 to 1.44.",
+      "final_answer": "Dell 2335dn 멀티펑션 레이저 프린터의 인쇄 밀도는 테스트된 기기 중 클래스에 속하는 단위의 경우 1.38에서 1.44 사이입니다.",
+      "answer_origin": "saved",
+      "required": [
+        "해당 제품의 인쇄 밀도 하한 1.39",
+        "상한 1.44 및 해당 제품 범위로 식별"
+      ],
+      "hits": [
+        0,
+        1
+      ],
+      "penalties": [],
+      "critical_error": "복사 품질 표의 값을 인쇄 품질 사양으로 제시",
+      "alternative": false,
+      "excluded": null,
+      "reason": "상한은 일치한다. 인쇄 품질 표가 아닌 복사 품질 표의 범위 1.38~1.44를 인쇄 사양으로 제시해 사전에 정한 결정적 오류에 해당한다.",
+      "reference_pages": [
+        "dell_all in one printer manuals_f757a4a2-fb78-4f6e-a530-5b3c17bf6ecf_00016",
+        "dell_all in one printer manuals_f757a4a2-fb78-4f6e-a530-5b3c17bf6ecf_00017"
+      ],
+      "score_exact": "0",
+      "score": "0.0"
+    },
+    {
+      "case_id": "TABLE028",
+      "qa_id": "Microsoft_Surface Pro User Guide_44",
+      "category": "table",
+      "manual_id": "Microsoft_Surface Pro User Guide",
+      "question": "SkyDrive는 어디에 사용하나요?",
+      "question_en": "What's the SkyDrive used for?",
+      "raw_reference": "It can store your files in the cloud and access them from anywhere.",
+      "final_answer": "SkyDrive는 PC, Mac, iPad 또는 휴대폰에서 파일을 접근하고 사용할 수 있습니다.",
+      "answer_origin": "saved",
+      "required": [
+        "클라우드에 파일을 저장",
+        "여러 장소나 기기에서 파일을 사용"
+      ],
+      "hits": [
+        0,
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "여러 기기 접근을 설명했지만 클라우드에 파일을 저장한다는 용도는 빠졌다.",
+      "reference_pages": [
+        "Microsoft_Surface Pro User Guide_00045"
+      ],
+      "score_exact": "50",
+      "score": "50.0"
+    },
+    {
+      "case_id": "TABLE029",
+      "qa_id": "lg_automobile parts manuals_56489bd7-669f-41db-8361-f5e75bb1cd40_34",
+      "category": "table",
+      "manual_id": "lg_automobile parts manuals_56489bd7-669f-41db-8361-f5e75bb1cd40",
+      "question": "영상 화질이 매우 좋지 않으면 어떻게 해야 하나요?",
+      "question_en": "The video is very poor. What should I do?",
+      "raw_reference": "You can check if connections are loose or not.",
+      "final_answer": "영상 화질이 매우 좋지 않은 경우 (Poor Video) 는 연결을 확인해야 합니다. 영상 패스루트 (video pass-through) 는 사용자 행동으로 변경할 수 없습니다.",
+      "answer_origin": "saved",
+      "required": [
+        "영상 연결의 접속 상태를 확인"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "접속을 확인하라는 원본 조치를 제시했다.",
+      "reference_pages": [
+        "lg_automobile parts manuals_56489bd7-669f-41db-8361-f5e75bb1cd40_00016"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "TABLE030",
+      "qa_id": "sony_tv cables manuals_b0c93042-eb72-46ca-8308-274be260a067_57",
+      "category": "table",
+      "manual_id": "sony_tv cables manuals_b0c93042-eb72-46ca-8308-274be260a067",
+      "question": "<FRONT INCOM> C07 항목은 어떻게 설명되어 있나요?",
+      "question_en": "What's the description of <FRONT INCOM> C07?",
+      "raw_reference": "The description of FRONT INCOM C07 is that CCU front panel MIC/PGM switch position.",
+      "final_answer": "<FRONT INCOM> C07 항목은 'CCU front panel MIC/PGM switch position'로 설명되어 있으며, 이는 '(MIC ON), (MIC OFF), (PGM ON)' 설정을 가집니다.",
+      "answer_origin": "saved",
+      "required": [
+        "CCU 전면 패널 MIC/PGM 스위치 위치"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "CCU 전면 MIC/PGM 스위치 위치라는 설명이 맞다.",
+      "reference_pages": [
+        "sony_tv cables manuals_b0c93042-eb72-46ca-8308-274be260a067_00022"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "TABLE031",
+      "qa_id": "samsung_gps receiver manuals_958bd55c-3ebf-4e4f-be5d-a7a497a88842_0",
+      "category": "table",
+      "manual_id": "samsung_gps receiver manuals_958bd55c-3ebf-4e4f-be5d-a7a497a88842",
+      "question": "충전 상태 표시가 빨간색이면 무슨 뜻인가요?",
+      "question_en": "The status of charging is red, what does it mean?",
+      "raw_reference": "It means the lamp on cradle is charging.",
+      "final_answer": "충전 상태 표시가 빨간색이면 충전이 시작됨을 의미합니다.",
+      "answer_origin": "saved",
+      "required": [
+        "충전 중"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "빨간 표시등이 충전을 의미한다고 설명했다.",
+      "reference_pages": [
+        "samsung_gps receiver manuals_958bd55c-3ebf-4e4f-be5d-a7a497a88842_00016"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "TABLE032",
+      "qa_id": "robotics_spot-user-guide-r2.0-va_124",
+      "category": "table",
+      "manual_id": "robotics_spot-user-guide-r2.0-va",
+      "question": "200분 동안 대기한 후에도 배터리를 사용할 수 있나요?",
+      "question_en": "Can the battery work after standby for 200 mimutes?",
+      "raw_reference": "No, it can't. The standby time is 180 mimutes.",
+      "final_answer": "네, 사용할 수 있습니다. 배터리는 대기 모드 (standby) 에서 약 4 시간 (240 분) 동안 작동합니다. 질문하신 200 분은 이 대기 시간 범위 내에 포함되므로 배터리가 여전히 사용 가능합니다.",
+      "answer_origin": "saved",
+      "required": [
+        "매뉴얼의 대기 시간 중 하나를 올바르게 인용(표 180분 또는 앉은 자세 약 4시간)",
+        "그 수치의 조건을 밝혀 200분 가능 여부를 설명(상충하면 두 자료를 구분하는 것도 인정)"
+      ],
+      "hits": [
+        1,
+        0
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "약 4시간은 앉은 자세의 대기 시간으로 매뉴얼에 있다. 이 자세 조건이나 180분 사양을 밝히지 않고 200분 후에도 쓸 수 있다고 단정했다.",
+      "reference_pages": [
+        "robotics_spot-user-guide-r2.0-va_00018",
+        "robotics_spot-user-guide-r2.0-va_00047"
+      ],
+      "score_exact": "50",
+      "score": "50.0"
+    },
+    {
+      "case_id": "TABLE033",
+      "qa_id": "samsung_label maker manuals_e6058340-b585-43fd-8dcc-b233a50395fc_33",
+      "category": "table",
+      "manual_id": "samsung_label maker manuals_e6058340-b585-43fd-8dcc-b233a50395fc",
+      "question": "인쇄 속도는 얼마인가요?",
+      "question_en": "What is the printing speed?",
+      "raw_reference": "It is 152 mm/sec (6ips) in SLD-D220, 100 mm/sec(4ips) in SLP-D223.",
+      "final_answer": "인쇄 속도는 모델에 따라 다릅니다. SLP-D220 의 경우 152mm/sec(6ips), SLP-D223 의 경우 100 mm/sec(4ips) 입니다.",
+      "answer_origin": "saved",
+      "required": [
+        "D220의 152 mm/s",
+        "D223의 100 mm/s"
+      ],
+      "hits": [
+        1,
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "두 모델에 대응하는 속도와 단위를 맞혔다.",
+      "reference_pages": [
+        "samsung_label maker manuals_e6058340-b585-43fd-8dcc-b233a50395fc_00026"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "FIGURE001",
+      "qa_id": "Samsung_phone_zfold_SAM_F926_F711_EN_UM_OS12_010722_FINAL_156",
+      "category": "figure",
+      "manual_id": "Samsung_phone_zfold_SAM_F926_F711_EN_UM_OS12_010722_FINAL",
+      "question": "온라인으로 음악을 들을 수 있나요?",
+      "question_en": "Can I listen to music online?",
+      "raw_reference": "Yes, YT Music enables you to stream music from YouTube Music.",
+      "final_answer": "네, 온라인으로 음악을 들을 수 있습니다. YT Music 앱을 통해 유튜브 뮤직의 플레이리스트, 앨범, 아티스트를 스트리밍하고 탐색할 수 있습니다.",
+      "answer_origin": "saved",
+      "required": [
+        "YT Music으로 온라인 스트리밍 가능"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "YT Music을 통한 온라인 음악 스트리밍을 제시했다.",
+      "reference_pages": [
+        "Samsung_phone_zfold_SAM_F926_F711_EN_UM_OS12_010722_FINAL_00118"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "FIGURE002",
+      "qa_id": "bose_speaker_manuals_a0300d5c-655e-48db-9eeb-df1081e89573_6",
+      "category": "figure",
+      "manual_id": "bose_speaker_manuals_a0300d5c-655e-48db-9eeb-df1081e89573",
+      "question": "AUX-IN 단자에는 어떤 종류의 기기를 연결할 수 있나요?",
+      "question_en": "What kinds of devices can I connect to the AUX-IN connector?",
+      "raw_reference": "You can connect the audio output of a PC, CD player, TV, MP3 player, or other types of audio device",
+      "final_answer": "AUX-IN 단자는 PC, CD 플레이어, TV, MP3 플레이어 또는 기타 오디오 기기의 오디오 출력을 연결할 수 있습니다.",
+      "answer_origin": "saved",
+      "required": [
+        "외부 오디오 기기의 출력을 AUX 입력에 연결 가능(대표 예시 허용)"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "지원되는 오디오 출력 기기를 정확히 예시했다.",
+      "reference_pages": [
+        "bose_speaker_manuals_a0300d5c-655e-48db-9eeb-df1081e89573_00009"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "FIGURE003",
+      "qa_id": "Samsung_watch_WEA_R89X_R88X_R87X_R86X_EN_UM_071621_FINAL_AC_11",
+      "category": "figure",
+      "manual_id": "Samsung_watch_WEA_R89X_R88X_R87X_R86X_EN_UM_071621_FINAL_AC",
+      "question": "심박수 센서는 어디에 있나요?",
+      "question_en": "Where is the Heart rate sensor?",
+      "raw_reference": "It's right in the center on the back of the watch.",
+      "final_answer": "심박수 센서는 시계 후면 (rear casing) 에 위치합니다.",
+      "answer_origin": "saved",
+      "required": [
+        "시계 뒷면의 센서를 찾을 수 있게 안내(중앙은 보충 단서)"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "시계 후면이라는 위치를 알려 줬다. 중앙을 필수 좌표로 요구하지 않았다.",
+      "reference_pages": [
+        "Samsung_watch_WEA_R89X_R88X_R87X_R86X_EN_UM_071621_FINAL_AC_00005",
+        "Samsung_watch_WEA_R89X_R88X_R87X_R86X_EN_UM_071621_FINAL_AC_00006"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "FIGURE004R",
+      "qa_id": "lg_automobile parts manuals_56489bd7-669f-41db-8361-f5e75bb1cd40_19",
+      "category": "figure",
+      "manual_id": "lg_automobile parts manuals_56489bd7-669f-41db-8361-f5e75bb1cd40",
+      "question": "3.5mm 스테레오 오디오 입력 잭은 어떤 기능을 하나요?",
+      "question_en": "What's the function of the 3.5mm Stereo Audio Input Jack?",
+      "raw_reference": "It's a connection for an MP-3 player or PC audio.",
+      "final_answer": "3.5mm 스테레오 오디오 입력 잭은 MP-3 플레이어 또는 PC 의 오디오를 연결하여 재생하는 기능을 합니다.",
+      "answer_origin": "replacement",
+      "required": [
+        "외부 기기(예: MP3 플레이어 또는 PC)의 오디오 신호를 입력받는 연결 단자"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "외부 MP3 플레이어나 PC의 오디오를 연결해 재생한다고 답했다.",
+      "reference_pages": [
+        "lg_automobile parts manuals_56489bd7-669f-41db-8361-f5e75bb1cd40_00009"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "FIGURE005",
+      "qa_id": "HUAWEI_Shark User Mannual_2",
+      "category": "figure",
+      "manual_id": "HUAWEI_Shark User Mannual",
+      "question": "근접 페어링을 완료하려면 어떻게 해야 하나요?",
+      "question_en": "How can I finish the proximity pairing?",
+      "raw_reference": "When your phone screen is on, a pairing prompt will be automatically displayed when your phone is close to the earphones. And then you can touch CONNECT to complete it.",
+      "final_answer": "근접 페어링을 완료하려면, 폰 화면이 켜져 있을 때 이어폰에 가까이 다가갔을 경우 자동으로 표시되는 페어링 프롬프트에서 [CONNECT]를 터치해야 합니다.",
+      "answer_origin": "saved",
+      "required": [
+        "휴대폰 화면 켜짐",
+        "이어폰 가까이에서 페어링 안내가 뜸",
+        "CONNECT 선택"
+      ],
+      "hits": [
+        1,
+        1,
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "화면 켜짐, 근접 시 안내, CONNECT 터치를 모두 제시했다.",
+      "reference_pages": [
+        "HUAWEI_Shark User Mannual_00003"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "FIGURE006",
+      "qa_id": "sony_tv cables manuals_b0c93042-eb72-46ca-8308-274be260a067_14",
+      "category": "figure",
+      "manual_id": "sony_tv cables manuals_b0c93042-eb72-46ca-8308-274be260a067",
+      "question": "빨간색 탤리 표시등을 켜면 무엇을 뜻하나요?",
+      "question_en": "If I turn on a red tally light. What does it mean?",
+      "raw_reference": "It indicates a red tally signal is being received.",
+      "final_answer": "빨간색 탤리 표시등을 켜면 카메라에 연결된 CCU로부터 빨간색 탤리 신호가 수신되고 있음을 나타냅니다.",
+      "answer_origin": "saved",
+      "required": [
+        "빨간색 탤리 신호 수신 중"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "빨간색 탤리 신호가 수신 중이라고 답했다.",
+      "reference_pages": [
+        "sony_tv cables manuals_b0c93042-eb72-46ca-8308-274be260a067_00006"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "FIGURE007",
+      "qa_id": "samsung_mp3 player manuals_1d395228-d01d-47cd-a4b2-0d4e7a68a2be_5",
+      "category": "figure",
+      "manual_id": "samsung_mp3 player manuals_1d395228-d01d-47cd-a4b2-0d4e7a68a2be",
+      "question": "종료 지점을 어떻게 설정하나요?",
+      "question_en": "How can I set the Ending Point?",
+      "raw_reference": "You can press the AB button briefly again to set the end of the loop.",
+      "final_answer": "음악 파일을 재생하는 동안, 설정하고 싶은 루프의 시작 지점에서 버튼을 단축으로 누릅니다.\n\n추가로 확인된 내용:\n버튼을 짧게 누릅니다.",
+      "answer_origin": "saved",
+      "required": [
+        "루프 종료 지점에서",
+        "AB 또는 동등한 반복 구간 버튼을 다시 짧게 누름"
+      ],
+      "hits": [
+        0,
+        0
+      ],
+      "penalties": [],
+      "critical_error": "종료점에 시작점 설정을 안내",
+      "alternative": false,
+      "excluded": null,
+      "reason": "끝점을 묻는 질문에 시작점 조작을 안내했고 재누를 AB 버튼도 특정하지 않았다.",
+      "reference_pages": [
+        "samsung_mp3 player manuals_1d395228-d01d-47cd-a4b2-0d4e7a68a2be_00023"
+      ],
+      "score_exact": "0",
+      "score": "0.0"
+    },
+    {
+      "case_id": "FIGURE008",
+      "qa_id": "samsung_baby monitor manuals_920c46b3-bd59-41e2-8280-1f3a7288e42b_55",
+      "category": "figure",
+      "manual_id": "samsung_baby monitor manuals_920c46b3-bd59-41e2-8280-1f3a7288e42b",
+      "question": "부팅이 완료되면 어떻게 되나요?",
+      "question_en": "What will happen when the boot-up is complete?",
+      "raw_reference": "The power LED color will change from red to white.",
+      "final_answer": "부팅이 완료되면 전원 LED 색상이 빨간색에서 흰색으로 바뀝니다.",
+      "answer_origin": "saved",
+      "required": [
+        "전원 LED가 빨강에서 흰색으로 변경"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "전원 LED가 빨간색에서 흰색으로 바뀐다고 했다.",
+      "reference_pages": [
+        "samsung_baby monitor manuals_920c46b3-bd59-41e2-8280-1f3a7288e42b_00007"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "FIGURE009",
+      "qa_id": "samsung_tablet manuals_4b13a426-b232-4902-8782-201d55a20445_48",
+      "category": "figure",
+      "manual_id": "samsung_tablet manuals_4b13a426-b232-4902-8782-201d55a20445",
+      "question": "무선 네트워크에서는 무엇을 할 수 있나요?",
+      "question_en": "What can I do in the wireless network?",
+      "raw_reference": "You can configure whether to use the Airplane mode and Wi-Fi options.",
+      "final_answer": "무선 네트워크 설정에서 Wi-Fi 기능을 ON으로 설정하면, 근처에 있는 액세스 포인트(AP)가 있으면 무선 LAN에 쉽게 연결할 수 있습니다. AP 목록에서 AP를 터치하여 연결하면 시스템 트레이에 무선 LAN 아이콘이 나타납니다.",
+      "answer_origin": "saved",
+      "required": [
+        "Wi-Fi 설정",
+        "비행기 모드 설정"
+      ],
+      "hits": [
+        1,
+        0
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "Wi-Fi는 설명했지만 비행기 모드 설정은 빠졌다.",
+      "reference_pages": [
+        "samsung_tablet manuals_4b13a426-b232-4902-8782-201d55a20445_00014"
+      ],
+      "score_exact": "50",
+      "score": "50.0"
+    },
+    {
+      "case_id": "FIGURE010",
+      "qa_id": "Apple_Numbers09_UserGuide_167",
+      "category": "figure",
+      "manual_id": "Apple_Numbers09_UserGuide",
+      "question": "문단 들여쓰기는 어떻게 설정하나요?",
+      "question_en": "How can I set indentation for paragraphs?",
+      "raw_reference": "You can use the horizontal ruler to set indentation for paragraphs.",
+      "final_answer": "문단 들여쓰기를 설정하는 방법은 다음과 같습니다.\n\n1. 첫 줄 들여쓰기: 첫 줄의 들여쓰기를 변경하려면 수평 레거 (수직 기준) 의 왼쪽에 있는 첫 줄 들여쓰기 아이콘 (파란색 삼각형) 을 원하는 위치로 드래그합니다. 첫 줄을 좌측 여백과 정렬되게 유지하고 싶다면, 이 아이콘이 좌측 여백 표시와 정렬되도록 해야 합니다.\n\n2. 왼쪽 들여쓰기: 왼쪽 들여쓰기를 변경하려면 수평 레거의 왼쪽에 있는 왼쪽 들여쓰기 아이콘 (파란색 삼각형) 을 원하는 위치로 드래그합니다.\n\n3. 오른쪽 들여쓰기: 오른쪽 들여쓰기를 변경하려면 수평 레거의 오른쪽에 있는 오른쪽 들여쓰기 아이콘 (파란색 삼각형) 을 원하는 위치로 드래그합니다.\n\n4. 좌측 여백과 왼쪽 들여쓰기를 독립적으로 변경: 왼쪽 들여쓰기와 좌측 여백을 독립적으로 변경하려면 드래그할 때 Option 키를 누른 채로 드래그합니다.",
+      "answer_origin": "saved",
+      "required": [
+        "가로 눈금자에서 들여쓰기 조절(동등하고 실제 작동하는 조작 경로 인정)"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [
+        "첫 줄 들여쓰기 조절점을 사각형 대신 삼각형으로 지시"
+      ],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "가로 눈금자 조절을 설명했다. 원문의 사각형인 첫 줄 조절점을 삼각형이라고 잘못 지시했다.",
+      "reference_pages": [
+        "Apple_Numbers09_UserGuide_00168",
+        "Apple_Numbers09_UserGuide_00169"
+      ],
+      "score_exact": "0",
+      "score": "0.0"
+    },
+    {
+      "case_id": "FIGURE011",
+      "qa_id": "bose_portable_speaker_manuals_891b4fd2-3578-44ce-8a02-cef456f79835_7",
+      "category": "figure",
+      "manual_id": "bose_portable_speaker_manuals_891b4fd2-3578-44ce-8a02-cef456f79835",
+      "question": "설치할 표면 뒤쪽의 깊이와 여유 공간이 확실하지 않으면 어떻게 해야 하나요?",
+      "question_en": "What can I do if I'm uncertain about the depth and clearance behind my mounting surface?",
+      "raw_reference": "You can consult your boat manufacturer or dealer.",
+      "final_answer": "설치할 표면 뒤쪽의 깊이와 여유 공간이 확실하지 않을 경우, 보트 제조사나 딜러에게 문의해야 합니다.",
+      "answer_origin": "saved",
+      "required": [
+        "보트 제조사나 판매점에 문의"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "보트 제조사나 딜러에 문의하도록 했다.",
+      "reference_pages": [
+        "bose_portable_speaker_manuals_891b4fd2-3578-44ce-8a02-cef456f79835_00004"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "FIGURE012",
+      "qa_id": "bose_portable speaker manuals_7aee09cf-3d92-4120-97db-e5dcc3cb7d74_9",
+      "category": "figure",
+      "manual_id": "bose_portable speaker manuals_7aee09cf-3d92-4120-97db-e5dcc3cb7d74",
+      "question": "파워 팩을 사용할 준비는 어떻게 하나요?",
+      "question_en": "How to prepare my power pack for use?",
+      "raw_reference": "You can do the following:\n1.Unfold the power supply prongs.\n2.Slide the AC adapter for your region into the power supply.",
+      "final_answer": "파워 팩을 사용할 준비를 하기 위해서는 지역별 AC 어댑터에 따라 다음 중 하나를 수행해야 합니다. 먼저 전원 공급 장치의 핀을 펼치고, 해당 지역의 AC 어댑터를 전원 공급 장치에 슬라이드하여 연결합니다.",
+      "answer_origin": "saved",
+      "required": [
+        "전원 핀 펼치기",
+        "지역에 맞는 AC 어댑터 끼우기"
+      ],
+      "hits": [
+        1,
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "전원 핀을 펼친 뒤 지역에 맞는 어댑터를 끼우도록 했다.",
+      "reference_pages": [
+        "bose_portable speaker manuals_7aee09cf-3d92-4120-97db-e5dcc3cb7d74_00010"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "FIGURE013R",
+      "qa_id": "bose_stereo amplifier manuals_75e037bc-fbcc-c214-3964-d4c9efb89725_26",
+      "category": "figure",
+      "manual_id": "bose_stereo amplifier manuals_75e037bc-fbcc-c214-3964-d4c9efb89725",
+      "question": "전압 선택 스위치의 공장 출하 시 설정은 얼마인가요?",
+      "question_en": "What is the factory setting for a voltage selection switch?",
+      "raw_reference": "This switch is preset at the factory setting to 230V.",
+      "final_answer": "전압 선택 스위치의 공장 출하 시 설정은 230V 입니다.",
+      "answer_origin": "new_in_full100",
+      "required": [
+        "출하 기본 설정 230 V"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "스위치의 공장 출하 설정을 매뉴얼과 같은 230 V로 답했다.",
+      "reference_pages": [
+        "bose_stereo amplifier manuals_75e037bc-fbcc-c214-3964-d4c9efb89725_00016"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "FIGURE014",
+      "qa_id": "bose_stereo_receiver_manuals_f6a48783-84e0-429f-93e9-092f6a28db3b_5",
+      "category": "figure",
+      "manual_id": "bose_stereo_receiver_manuals_f6a48783-84e0-429f-93e9-092f6a28db3b",
+      "question": "일치하는 설정 코드의 역할은 무엇인가요?",
+      "question_en": "What's the function of the matching Setup Code?",
+      "raw_reference": "The function of the matching Setup Code is for the compatibility of the two units.",
+      "final_answer": "일치하는 설정 코드 (Setup Code) 는 공장에서 두 단말기 (Transmitter 및 Receiver) 의 스위치가 모두 'down' 위치에 있을 때 설정되며, 각 단말기가 연결되고 통신할 때 상태 LED 가 점등함을 나타냅니다.",
+      "answer_origin": "saved",
+      "required": [
+        "송신기와 수신기가 짝을 이루어 호환·통신하도록 맞춤"
+      ],
+      "hits": [
+        0
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "공장 스위치 위치와 LED가 켜지는 조건을 설명했지만 일치하는 코드를 쓰는 목적을 답하지 않았다.",
+      "reference_pages": [
+        "bose_stereo_receiver_manuals_f6a48783-84e0-429f-93e9-092f6a28db3b_00004"
+      ],
+      "score_exact": "0",
+      "score": "0.0"
+    },
+    {
+      "case_id": "FIGURE015",
+      "qa_id": "Samsung_earphone_WEA_SM-R190_Buds_Pro_EN_UM_010621_FINAL_AC_8",
+      "category": "figure",
+      "manual_id": "Samsung_earphone_WEA_SM-R190_Buds_Pro_EN_UM_010621_FINAL_AC",
+      "question": "이어팁 없이 이어버드를 착용해도 되나요?",
+      "question_en": "Can I wear earbuds without ear tips?",
+      "raw_reference": "No, it may hurt your ears.",
+      "final_answer": "아니요, 이어팁 없이 이어버드를 착용하면 귀에 통증이 발생할 수 있습니다.",
+      "answer_origin": "saved",
+      "required": [
+        "이어팁 없이 착용하면 안 된다(통증·부상 위험)"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "이어팁 없이 착용하면 통증을 유발할 수 있어 안 된다고 했다.",
+      "reference_pages": [
+        "Samsung_earphone_WEA_SM-R190_Buds_Pro_EN_UM_010621_FINAL_AC_00010"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "FIGURE016",
+      "qa_id": "samsung_oven manuals_399945bf-670f-4502-8c4b-b1916cad1389_2",
+      "category": "figure",
+      "manual_id": "samsung_oven manuals_399945bf-670f-4502-8c4b-b1916cad1389",
+      "question": "오븐을 어떻게 끄나요?",
+      "question_en": "How can I switch the oven off?",
+      "raw_reference": "YOu can set the operation knob to 0 to switch the oven off.",
+      "final_answer": "오븐을 끄려면 작동旋钮 (operation knob) 을 '0' 로 설정하세요.",
+      "answer_origin": "saved",
+      "required": [
+        "작동 노브를 0으로 돌려 끈다"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "작동 노브를 0으로 설정하는 조작이 맞다.",
+      "reference_pages": [
+        "samsung_oven manuals_399945bf-670f-4502-8c4b-b1916cad1389_00011"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "FIGURE017",
+      "qa_id": "Microsoft_Surface Pro User Guide_48",
+      "category": "figure",
+      "manual_id": "Microsoft_Surface Pro User Guide",
+      "question": "터치로 앱을 열려면 어떻게 하나요?",
+      "question_en": "How to use touch to open an app?",
+      "raw_reference": "You can swipe in from the left edge without lifting your finger, and then push back toward the left edge.  You'll see the apps you recently used, plus Start as seen in the figure.",
+      "final_answer": "터치로 앱을 열려면, 스타트 화면에서 앱 타일을 탭하거나 클릭합니다. 많은 타일이 있는 경우 손가락을 화면을 가로질러 스와이프하거나 두 개의 손가락을 수평으로 슬라이드하여 스크롤할 수 있습니다.",
+      "answer_origin": "saved",
+      "required": [
+        "앱 타일을 터치하는 등 앱을 열 수 있는 매뉴얼상의 한 가지 터치 조작"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "시작 화면의 앱 타일 터치는 같은 매뉴얼이 안내하는 유효한 앱 실행 방법이다.",
+      "reference_pages": [
+        "Microsoft_Surface Pro User Guide_00046",
+        "Microsoft_Surface Pro User Guide_00049"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "FIGURE018",
+      "qa_id": "samsung_satellite tv system manuals_8e4d790e-d462-ef34-6de7-ac2a95c584d7_43",
+      "category": "figure",
+      "manual_id": "samsung_satellite tv system manuals_8e4d790e-d462-ef34-6de7-ac2a95c584d7",
+      "question": "메뉴는 어떻게 볼 수 있나요?",
+      "question_en": "How can I view the menu?",
+      "raw_reference": "You can press the MENU button to display the menu.",
+      "final_answer": "전원이 켜져 있을 때 메뉴 버튼을 누르면 메뉴가 표시됩니다.",
+      "answer_origin": "saved",
+      "required": [
+        "MENU 버튼을 누름"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "전원이 켜진 상태에서 MENU 버튼을 누른다.",
+      "reference_pages": [
+        "samsung_satellite tv system manuals_8e4d790e-d462-ef34-6de7-ac2a95c584d7_00024"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "FIGURE019",
+      "qa_id": "windows10forbeginners_108",
+      "category": "figure",
+      "manual_id": "windows10forbeginners",
+      "question": "방문 기록을 어떻게 찾을 수 있나요?",
+      "question_en": "How can I find my browsing history?",
+      "raw_reference": "You can access your history from the top bar in the older version browser. For these days, you must hit the three-dot icon in the top-right corner to access the history settings.",
+      "final_answer": "사용자 계정과 가족 안전 (User Accounts and Family Safety) 에서 사용자 계정을 선택하면 현재 로그인된 사용자의 선호도가 표시됩니다.",
+      "answer_origin": "saved",
+      "required": [
+        "브라우저의 방문 기록을 여는 해당 버전의 유효한 경로 한 가지"
+      ],
+      "hits": [
+        0
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "사용자 계정 설정을 제시해 브라우저 방문 기록에 답하지 못했다.",
+      "reference_pages": [
+        "windows10forbeginners_00082"
+      ],
+      "score_exact": "0",
+      "score": "0.0"
+    },
+    {
+      "case_id": "FIGURE020",
+      "qa_id": "bose_headphones_manuals_c964fa53-9268-4683-853b-2ef0fc516281_20",
+      "category": "figure",
+      "manual_id": "bose_headphones_manuals_c964fa53-9268-4683-853b-2ef0fc516281",
+      "question": "출력 단자가 두 개인 기내 엔터테인먼트 시스템에는 어떻게 연결하나요?",
+      "question_en": "How to connect the in-flight entertainment systems equipped with dual output connectors?",
+      "raw_reference": "You need to use the dual 3.5mm output plug.",
+      "final_answer": "출력 단자가 두 개인 기내 엔터테인먼트 시스템에는 듀얼 3.5mm 출력 플러그를 사용하여 연결합니다.",
+      "answer_origin": "saved",
+      "required": [
+        "듀얼 3.5 mm 플러그 사용"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "듀얼 3.5 mm 출력 플러그를 제시했다.",
+      "reference_pages": [
+        "bose_headphones_manuals_c964fa53-9268-4683-853b-2ef0fc516281_00008"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "FIGURE021",
+      "qa_id": "lenovo_mouse manuals_68d24a8c-fe44-4bc2-9fc9-be0b8102c9c4_1",
+      "category": "figure",
+      "manual_id": "lenovo_mouse manuals_68d24a8c-fe44-4bc2-9fc9-be0b8102c9c4",
+      "question": "마우스 배터리가 부족하면 표시등이 어떻게 표시되나요?",
+      "question_en": "What does the indicator display when the mouse has low battery?",
+      "raw_reference": "In this condition, the red indicator flashes.",
+      "final_answer": "마우스 배터리가 부족하면 표시등이 빨간색으로 깜빡입니다.",
+      "answer_origin": "saved",
+      "required": [
+        "빨간색",
+        "점멸"
+      ],
+      "hits": [
+        1,
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "빨간색·점멸을 모두 답했다.",
+      "reference_pages": [
+        "lenovo_mouse manuals_68d24a8c-fe44-4bc2-9fc9-be0b8102c9c4_00011"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "FIGURE022",
+      "qa_id": "lg_games manuals_74b8d629-4f8b-4bb5-8f53-a0cfa8763643_30",
+      "category": "figure",
+      "manual_id": "lg_games manuals_74b8d629-4f8b-4bb5-8f53-a0cfa8763643",
+      "question": "GAME TEST MENU는 어떤 항목으로 구성되나요?",
+      "question_en": "What does the GAME TEST MENU consist of?",
+      "raw_reference": "It consists of the INPUT TEST, GAME ASSIGNMENTS, VOLUME SETTING, BOOKKEEPING, BACKUP DATA CLEAR, and EXIT.",
+      "final_answer": "GAME TEST MENU 는 INPUT TEST, GAME ASSIGNMENTS, VOLUME SETTING, BOOKKEEPING, BACKUP DATA CLEAR, EXIT 항목으로 구성됩니다.",
+      "answer_origin": "saved",
+      "required": [
+        "INPUT TEST",
+        "GAME ASSIGNMENTS",
+        "VOLUME SETTING",
+        "BOOKKEEPING",
+        "BACKUP DATA CLEAR",
+        "EXIT"
+      ],
+      "hits": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "게임 테스트 메뉴 여섯 항목을 모두 답했다.",
+      "reference_pages": [
+        "lg_games manuals_74b8d629-4f8b-4bb5-8f53-a0cfa8763643_00021"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "FIGURE023",
+      "qa_id": "robotics_spot-user-guide-r2.0-va_13",
+      "category": "figure",
+      "manual_id": "robotics_spot-user-guide-r2.0-va",
+      "question": "Spot의 카메라는 어디에 있나요?",
+      "question_en": "Where is the camera on my Spot?",
+      "raw_reference": "There is 5 STEREO CAMERA in the front of your Spot.",
+      "final_answer": "Spot의 카메라는 로봇 앞쪽 (forward-facing) 에 있으며, 스테레오 카메라로 구성되어 있습니다. 또한 측면과 뒤쪽에도 카메라가 있어 D-PAD 또는 화면 화살표로 각각을 확인할 수 있습니다.",
+      "answer_origin": "saved",
+      "required": [
+        "전방 카메라 위치 안내(측·후방 설명도 매뉴얼에 있음)"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "전방 카메라를 알려 줬다. 측면·뒤쪽 카메라 설명도 제품 매뉴얼에 있다.",
+      "reference_pages": [
+        "robotics_spot-user-guide-r2.0-va_00004",
+        "robotics_spot-user-guide-r2.0-va_00026",
+        "robotics_spot-user-guide-r2.0-va_00034"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "FIGURE024",
+      "qa_id": "samsung_automobile alarm manuals_43be49b1-35a1-4837-93b1-cc95ccd98afc_61",
+      "category": "figure",
+      "manual_id": "samsung_automobile alarm manuals_43be49b1-35a1-4837-93b1-cc95ccd98afc",
+      "question": "메모리 카드는 어디에 넣을 수 있나요?",
+      "question_en": "Where can I insert my memory card?",
+      "raw_reference": "You can insert your memory card in the upper slot on the left side of the device when you face the screen.",
+      "final_answer": "메모리 카드 (CF/SD/MMC/MS/XD) 는 기기 뒷면의 메모리 카드 슬롯에 넣을 수 있습니다. 카드를 삽입할 때는 카드 상단에 표시된 방향을 따라 슬라이딩하여 넣어야 합니다.",
+      "answer_origin": "saved",
+      "required": [
+        "뒤쪽에서 삽입부 찾기",
+        "CF/SD/MMC/MS/XD 전용 슬롯으로 식별"
+      ],
+      "hits": [
+        1,
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": true,
+      "excluded": null,
+      "reason": "원본 그림 11·14에는 기기 뒷면 가장자리의 카드 삽입부와 CF/SD/MMC/MS/XD 카드군이 표시된다. 화면 기준 왼쪽 위라는 기준과는 달라도, 뒤에서 해당 카드군 슬롯을 찾으라는 방법으로 동일한 삽입부를 식별할 수 있어 인정했다.",
+      "reference_pages": [
+        "samsung_automobile alarm manuals_43be49b1-35a1-4837-93b1-cc95ccd98afc_00011",
+        "samsung_automobile alarm manuals_43be49b1-35a1-4837-93b1-cc95ccd98afc_00014"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "FIGURE025R",
+      "qa_id": "phone_apple_ios8.4_307",
+      "category": "figure",
+      "manual_id": "phone_apple_ios8.4",
+      "question": "누군가를 VIP로 지정하려면 어떻게 하나요?",
+      "question_en": "How can I make someone a VIP?",
+      "raw_reference": "You can tap the person's name or email address, then tap Add to VIP.",
+      "final_answer": "메시지에서 수신자를 VIP로 지정하려면, 메시지 화면에서 'To' 필드의 'More'를 탭한 후 해당 사람의 이름이나 이메일 주소를 탭하고 'Add to VIP'를 선택합니다.",
+      "answer_origin": "new_in_full100",
+      "required": [
+        "해당 사람의 이름 또는 이메일 주소를 누른다",
+        "VIP에 추가를 선택한다"
+      ],
+      "hits": [
+        1,
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "사람의 이름 또는 이메일 주소를 누른 뒤 Add to VIP를 선택하는 두 단계를 제시했다. To 필드의 More는 수신자를 펼쳐 보는 매뉴얼상의 경로다.",
+      "reference_pages": [
+        "phone_apple_ios8.4_00054"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "FIGURE026",
+      "qa_id": "samsung_vacuum cleaner manuals_8cb9360e-cafe-4c53-9d35-ef193667e586_25",
+      "category": "figure",
+      "manual_id": "samsung_vacuum cleaner manuals_8cb9360e-cafe-4c53-9d35-ef193667e586",
+      "question": "청소 위치를 어떻게 바꾸나요?",
+      "question_en": "How to change the cleaning positions?",
+      "raw_reference": "You can press the handle release pedal located on the lower left side of the vacuum with your foot to place your vacuum into one of three cleaning positions.",
+      "final_answer": "청소 위치를 바꾸려면 청소기 하단 왼쪽에 있는 핸들 리리즈 페달을 발로 누릅니다. 세 가지 위치 (직립, 일반 청소, 저장 청소) 사이에서 전환할 수 있습니다.",
+      "answer_origin": "saved",
+      "required": [
+        "왼쪽 하단의 핸들 해제 페달을 발로 눌러 위치 전환"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [
+        "세 번째 위치인 낮은 청소를 ‘저장 청소’라고 잘못 열거"
+      ],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "왼쪽 하단 페달을 발로 밟는 조작은 정확하다. 세 가지 위치를 덧붙이면서 낮은 위치 대신 매뉴얼에 없는 ‘저장 청소’를 별도 위치로 제시했다.",
+      "reference_pages": [
+        "samsung_vacuum cleaner manuals_8cb9360e-cafe-4c53-9d35-ef193667e586_00005"
+      ],
+      "score_exact": "0",
+      "score": "0.0"
+    },
+    {
+      "case_id": "FIGURE027",
+      "qa_id": "robotis_robot_mechanical_arm_UR5_colored_36",
+      "category": "figure",
+      "manual_id": "robotis_robot_mechanical_arm_UR5_colored",
+      "question": "핀이 여덟 개인 작은 커넥터는 어디에 있나요?",
+      "question_en": "Where is the small connector with eight pins?",
+      "raw_reference": "It's at the tool end of the robot.",
+      "final_answer": "핀이 여덟 개인 작은 커넥터는 로봇의 도구 끝(tool end)에 있습니다.",
+      "answer_origin": "saved",
+      "required": [
+        "로봇의 도구 끝"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "로봇 도구 끝이라고 답했다.",
+      "reference_pages": [
+        "robotis_robot_mechanical_arm_UR5_colored_00031"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "FIGURE028",
+      "qa_id": "samsung_gps receiver manuals_958bd55c-3ebf-4e4f-be5d-a7a497a88842_9",
+      "category": "figure",
+      "manual_id": "samsung_gps receiver manuals_958bd55c-3ebf-4e4f-be5d-a7a497a88842",
+      "question": "갈색 전선을 연결할 때 무엇을 해야 하나요?",
+      "question_en": "What should I do when I connect the brown wire?",
+      "raw_reference": "This wire does not have to be connected for the Hands-free Car Kit to work properly. Connect this wire to the stereo mute wire from your vehicle stereo.",
+      "final_answer": "갈색 전선 (brown wire) 은 핸즈프리 자동차 키트를 제대로 작동시키지 않아도 연결할 필요가 없습니다. 만약 연결해야 한다면 차량 스테레오의 스테레오 마트 (stereo mute) 와 연결해야 하며, 이는 차량 스테레오 사용 설명서나 차량 사용 설명서를 확인하여 확인해야 합니다.",
+      "answer_origin": "saved",
+      "required": [
+        "연결한다면 차량 스테레오의 음소거 선으로 연결(선택 연결)"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "연결할 때 차량 스테레오의 음소거 선이라는 대상을 명시했다.",
+      "reference_pages": [
+        "samsung_gps receiver manuals_958bd55c-3ebf-4e4f-be5d-a7a497a88842_00011"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "FIGURE029",
+      "qa_id": "Ubuntu_Getting Started with Ubuntu 16.04_43",
+      "category": "figure",
+      "manual_id": "Ubuntu_Getting Started with Ubuntu 16.04",
+      "question": "웹페이지 안에서 검색하려면 어디에서 할 수 있나요?",
+      "question_en": "Where can I search within web pages?",
+      "raw_reference": "You can use the Find Toolbar to search within web pages.",
+      "final_answer": "웹페이지 안에서 검색하려면 'Edit' 메뉴에서 'Find'를 선택하거나, 또는 'Ctrl+F' 키를 누르면 됩니다.",
+      "answer_origin": "saved",
+      "required": [
+        "찾기 도구 열기(Find 또는 Ctrl+F 인정)"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "메뉴의 Find 또는 Ctrl+F는 페이지 내 찾기를 여는 방법이다.",
+      "reference_pages": [
+        "Ubuntu_Getting Started with Ubuntu 16.04_00044"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "FIGURE030",
+      "qa_id": "philips_air conditioner manuals_e0153209-0c0d-47b7-bf34-a9566863948a_49",
+      "category": "figure",
+      "manual_id": "philips_air conditioner manuals_e0153209-0c0d-47b7-bf34-a9566863948a",
+      "question": "패널의 VENT 버튼은 무슨 뜻인가요?",
+      "question_en": "What does the button VENT on the panel mean?",
+      "raw_reference": "It means that if you press the button and only the fan mode can be operated.",
+      "final_answer": "패널의 VENT 버튼은 냉방 모드 중 하나인 환기 모드를 선택하기 위해 사용합니다.",
+      "answer_origin": "saved",
+      "required": [
+        "팬만 작동하는 환기 기능"
+      ],
+      "hits": [
+        0
+      ],
+      "penalties": [],
+      "critical_error": "팬 전용인 환기를 냉방 모드로 설명",
+      "alternative": false,
+      "excluded": null,
+      "reason": "팬만 작동한다는 뜻을 생략하고 냉방의 한 모드라고 설명했다.",
+      "reference_pages": [
+        "philips_air conditioner manuals_e0153209-0c0d-47b7-bf34-a9566863948a_00015"
+      ],
+      "score_exact": "0",
+      "score": "0.0"
+    },
+    {
+      "case_id": "FIGURE031R",
+      "qa_id": "samsung_digital photo frame manuals_7cb3b154-2fbe-5ea4-ad81-2fa0f4ebb5f8_76",
+      "category": "figure",
+      "manual_id": "samsung_digital photo frame manuals_7cb3b154-2fbe-5ea4-ad81-2fa0f4ebb5f8",
+      "question": "이 기기에 함께 제공되는 케이블 구성품은 무엇인가요?",
+      "question_en": "What do the cables include in the device?",
+      "raw_reference": "They include the power cord, USB cable, and power adapter.",
+      "final_answer": "이 기기에 함께 제공되는 케이블 구성품은 전원 코드, USB 케이블 (A-B 타입), 그리고 전원 어댑터입니다.",
+      "answer_origin": "new_in_full100",
+      "required": [
+        "전원 코드",
+        "USB 케이블",
+        "전원 어댑터"
+      ],
+      "hits": [
+        1,
+        1,
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "전원 코드, A-B 타입 USB 케이블, 전원 어댑터를 모두 나열했다.",
+      "reference_pages": [
+        "samsung_digital photo frame manuals_7cb3b154-2fbe-5ea4-ad81-2fa0f4ebb5f8_00008"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "FIGURE032",
+      "qa_id": "Google_Android-Lollipop-Quick-Start-Guide_37",
+      "category": "figure",
+      "manual_id": "Google_Android-Lollipop-Quick-Start-Guide",
+      "question": "키보드 및 입력 방식은 어떻게 변경하나요?",
+      "question_en": "How to change my keyboard and input methods?",
+      "raw_reference": "You can go to Settings, Personal, and Language & input in order.",
+      "final_answer": "키보드 및 입력 방식을 변경하려면 설정 (Settings) > 개인 (Personal) > 언어 및 입력 (Language & input) 으로 이동합니다.\n\n추가로 확인된 내용:\n다른 언어 키보드를 선택하려면 설정 (Settings) > 개인 (Personal) > 언어 및 입력 (Language & input) 으로 이동합니다.",
+      "answer_origin": "saved",
+      "required": [
+        "설정→개인→언어 및 입력으로 이동"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "설정→개인→언어 및 입력 경로를 제시했다.",
+      "reference_pages": [
+        "Google_Android-Lollipop-Quick-Start-Guide_00038"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    },
+    {
+      "case_id": "FIGURE033",
+      "qa_id": "HUAWEI_FIT_User Guide_V1.0_English_4",
+      "category": "figure",
+      "manual_id": "HUAWEI_FIT_User Guide_V1.0_English",
+      "question": "배터리 잔량은 어디에서 확인할 수 있나요?",
+      "question_en": "Where can I find the battery level?",
+      "raw_reference": "It is displayed on some pre-installed watch faces.",
+      "final_answer": "배터리 잔량은 다음 4 가지 방법으로 확인할 수 있습니다:\n1. 충전 중일 때: 전자기기 충전기에 연결되어 있을 때, 충전 화면에서 배터리 퍼센트를 표시합니다.\n2. 시계 화면 터치: 시계 화면을 터치하면 배터리 잔량을 확인할 수 있습니다.\n3. 설치된 시계면: 일부 사전 설치된 시계면에서는 배터리 잔량이 표시됩니다.\n4. 스마트폰 앱: 전자기기가 스마트폰과 연결되어 있을 때, 앱을 열고 'Devices'를 터치하면 확인할 수 있습니다.\n\n추가로 확인된 내용:\n배터리 잔량 확인 방법\n충전 중일 때 배터리 퍼센트 확인\n시계 화면 터치로 배터리 잔량 확인\n사전 설치된 시계면에서 배터리 잔량 확인\n스마트폰 앱의 Devices 섹션에서 배터리 잔량 확인\n배터리 아이콘이 강조 표시된 경우",
+      "answer_origin": "saved",
+      "required": [
+        "매뉴얼에 있는 배터리 잔량 확인 위치 한 가지"
+      ],
+      "hits": [
+        1
+      ],
+      "penalties": [],
+      "critical_error": null,
+      "alternative": false,
+      "excluded": null,
+      "reason": "기본 설치 시계 화면 등 근거 있는 배터리 잔량 표시 방법을 안내했다.",
+      "reference_pages": [
+        "HUAWEI_FIT_User Guide_V1.0_English_00005"
+      ],
+      "score_exact": "100",
+      "score": "100.0"
+    }
+  ]
+}

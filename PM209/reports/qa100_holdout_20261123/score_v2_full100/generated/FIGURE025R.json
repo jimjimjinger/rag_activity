@@ -1,0 +1,20 @@
+{
+  "case_id": "FIGURE025R",
+  "manual": "phone_apple_ios8.4",
+  "question": "누군가를 VIP로 지정하려면 어떻게 하나요?",
+  "status": "answered",
+  "result": {
+    "answer": "메시지에서 수신자를 VIP로 지정하려면, 메시지 화면에서 'To' 필드의 'More'를 탭한 후 해당 사람의 이름이나 이메일 주소를 탭하고 'Add to VIP'를 선택합니다.",
+    "note": "Gemma 점검 · 추가 내용 없음",
+    "citations": [
+      {
+        "source_id": "S2",
+        "page_id": "phone_apple_ios8.4_00054",
+        "image_filename": "images/phone_apple_ios8.4/images/phone_apple_ios8.4_00061.jpg",
+        "chunk_type": "text",
+        "text": "See and save addresses\nSee who received a message. While viewing the message, tap More in the To field.\nAdd someone to Contacts or make them a VIP. Tap the person’s name or email address, then tap Add to VIP. You can also add their address to a new or existing contact."
+      }
+    ]
+  },
+  "elapsed_seconds": 75.72
+}

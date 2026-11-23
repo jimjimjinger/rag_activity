@@ -1,0 +1,27 @@
+{
+  "case_id": "TABLE013R",
+  "manual": "samsung_tablet manuals_4b13a426-b232-4902-8782-201d55a20445",
+  "question": "터치 런처는 어떤 용도로 사용하나요?",
+  "status": "answered",
+  "result": {
+    "answer": "터치 런처는 터치 스크린을 갖춘 모델에서 손가락으로 화면을 터치하여 음악 및 비디오 파일을 쉽게 재생하고 다운로드된 애플리케이션을 조작하는 용도로 사용됩니다.\n\n추가로 확인된 내용:\n프로그램을 빠르게 실행하려면 프로그램 아이콘을 두 번 탭하십시오.",
+    "note": "Gemma 점검 · 누락 보완",
+    "citations": [
+      {
+        "source_id": "S3",
+        "page_id": "samsung_tablet manuals_4b13a426-b232-4902-8782-201d55a20445_00021",
+        "image_filename": "images/samsung_tablet manuals_4b13a426-b232-4902-8782-201d55a20445/images/samsung_tablet manuals_4b13a426-b232-4902-8782-201d55a20445_00021.jpg",
+        "chunk_type": "text",
+        "text": "Touching the Launcher program enables you to easily play music and video files and operate downloaded applications by touching the screen with your finger on models with a touch screen."
+      },
+      {
+        "source_id": "S7",
+        "page_id": "samsung_tablet manuals_4b13a426-b232-4902-8782-201d55a20445_00022",
+        "image_filename": "images/samsung_tablet manuals_4b13a426-b232-4902-8782-201d55a20445/images/samsung_tablet manuals_4b13a426-b232-4902-8782-201d55a20445_00022.jpg",
+        "chunk_type": "text",
+        "text": "Launching a Program\nTo launch a program added to the Touch Launcher, quickly touch a program icon twice."
+      }
+    ]
+  },
+  "elapsed_seconds": 78.51
+}

@@ -1,0 +1,20 @@
+{
+  "case_id": "TABLE010R",
+  "manual": "samsung_label maker manuals_e6058340-b585-43fd-8dcc-b233a50395fc",
+  "question": "입력 전압은 얼마인가요?",
+  "status": "answered",
+  "result": {
+    "answer": "AC 어댑터의 입력 전압은 AC 100~240V 입니다.",
+    "note": "Gemma 점검 · 추가 내용 없음",
+    "citations": [
+      {
+        "source_id": "S1",
+        "page_id": "samsung_label maker manuals_e6058340-b585-43fd-8dcc-b233a50395fc_00026",
+        "image_filename": "images/samsung_label maker manuals_e6058340-b585-43fd-8dcc-b233a50395fc/images/samsung_label maker manuals_e6058340-b585-43fd-8dcc-b233a50395fc_00027.jpg",
+        "chunk_type": "table",
+        "text": "7. Appendix 7-1 Specifications\nFirst row (header unconfirmed): Column 1: ltem | Column 2: ltem | Column 3: Description\nColumn 1: AC Adapter | Column 2: Input Voltage | Column 3: AC 100~240V"
+      }
+    ]
+  },
+  "elapsed_seconds": 91.49
+}
